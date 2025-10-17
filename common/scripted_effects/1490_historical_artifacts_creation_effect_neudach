@@ -1,0 +1,96 @@
+﻿#game_concept_inventory_artifact: "Личный артефакт" - inventory_artifact
+#iz 01_exp1_historical_artifacts_creation_effect.txt
+# Historical Artifacts Creation #
+set_artifact_rarity_common = {
+	save_scope_value_as = {
+		name = quality
+		value = 15
+	}
+	save_scope_value_as = {
+		name = wealth
+		value = 15
+	}
+}
+
+set_artifact_rarity_masterwork = {
+	save_scope_value_as = {
+		name = quality
+		value = 30
+	}
+	save_scope_value_as = {
+		name = wealth
+		value = 30
+	}
+}
+
+set_artifact_rarity_famed = {
+	save_scope_value_as = {
+		name = quality
+		value = 70
+	}
+	save_scope_value_as = {
+		name = wealth
+		value = 70
+	}
+}
+
+set_artifact_rarity_illustrious = {
+	save_scope_value_as = {
+		name = quality
+		value = 100
+	}
+	save_scope_value_as = {
+		name = wealth
+		value = 100
+	}
+}
+###
+## Походы в Утремер, книга - создавалась с 1472 по 1475 Себастьен Мамро для Луи де Лаваля
+#вероятно в Труа, так как мамро был назначен каноником и кантором в коллегиальной церкви Сент-Этьена в Труа с июля 1472 года по август 1478 года.
+#iz create_artifact_sutta_pitaka_effect - name = sutta_pitaka_name sutta_pitaka_description
+#						name = placeholder # Will be regenerated in the post-creation effects
+#							creator = scope:author
+#							description = placeholder # Will be regenerated in the post-creation effects
+#							visuals = book
+#							type = book
+#							modifier = artifact_placeholder_modifier
+#							save_scope_as = newly_created_artifact
+#							wealth = scope:wealth
+#							quality = scope:quality
+#							decaying = no					
+create_artifact_passages_doutremer_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_famed = yes
+	# Create the artifact
+	create_artifact = {	
+		name = passages_doutremer_name
+		description = passages_doutremer_description
+		type = book
+		visuals = book #indian_book
+		wealth = scope:wealth
+		quality = scope:quality
+		template = general_unique_template
+		history = {
+			type = created
+			date = 1475.7.5
+			recipient = character:Louis_de_Laval #Луи де Лаваль 1411-1489
+			location = province:2371 #Труа
+		}
+#		history = { type = created_before_history }
+		modifier = passages_doutremer_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = passages_doutremer
+		save_scope_as = epic
+		add_artifact_title_history = {
+			target = title:k_france #c_troyes
+			date = 1475.7.5
+		}
+	}
+}

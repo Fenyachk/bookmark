@@ -1,0 +1,35 @@
+﻿# ex year = 1490
+culture_era_novoevremya = {
+	year = 1470
+	invalid_for_government = tribal_government
+	invalid_for_government = herder_government
+	character_modifier = {
+		mercenary_hire_cost_mult = 0.01
+	}
+	character_modifier = {
+		knight_limit = 1
+	}
+	character_modifier = {
+		diplomatic_range_mult = 1.6
+#MAX_DUCHIES_BEFORE_PENALTY = 3
+	}
+	## Accolade Pikes
+	maa_upgrade = {
+		men_at_arms = accolade_maa_pikes
+		damage = 5
+		toughness = 5
+	}
+	## Accolade Skirmishers
+	maa_upgrade = {
+		men_at_arms = accolade_maa_skirmishers
+		damage = 3
+		toughness = 3
+		pursuit = 3
+		screen = 3
+	}
+#Onagry dorozhe - net
+#	maa_upgrade = {
+#		men_at_arms = onager
+#		buy_cost = { gold = 222 }
+#	}
+}

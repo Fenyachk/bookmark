@@ -1,0 +1,87 @@
+﻿#Duque de Bragança s 1442
+d_braganza = {
+	1442.1.1 = { change_development_level = 22 }
+	1453.1.1 = { change_development_level = 25 }
+	1466.1.1 = { change_development_level = 28 }
+	1477.1.1 = { change_development_level = 33 }
+	1488.1.1 = { change_development_level = 36 }
+	
+	1442.12.30 = {
+		effect = { set_title_name = c_braganza }
+		government = feudal_government
+		liege = k_portugal
+		de_jure_liege = k_portugal
+		holder = Afonso1HerBragan # Afonso I, Duque de Bragança
+	}
+	1461.12.15 = {
+		holder = Fernando1Brag2Her #2 herz Bragansa
+	}
+	1478.4.1 = {
+		holder = Fernando2BragHer # 3 herz Bragansa
+	}
+	1483.6.20 = {
+		holder = Jaime_4herBragansa # 4 herz Bragansa
+		government = feudal_government
+	}
+}
+##Визеу-Бежа - 2 в одном Viseu-Beja
+#Герцог де Бежа (порт. Duque de Beja) — аристократический титул. Он был создан в 1453 году
+#В 1453 году король пожаловал Фернанду титул 1-го герцога Бежа. В 1460 году, когда умер его дядя Генрих Мореплаватель, к Фернанду перешёл титул герцога Визеу
+d_vizeu_bezha = {
+	1442.1.1 = { change_development_level = 20 }
+	1452.1.1 = { change_development_level = 22 }
+	1466.1.1 = { change_development_level = 24 }
+	1488.1.1 = { change_development_level = 27 }
+	
+	1460.11.13 = {
+		name = VIZEU_BEZHA #Визеу-Бежа Viseu-Beja
+		government = feudal_government
+		liege = k_portugal
+		de_jure_liege = k_portugal
+		holder = FernandoVizeu # Fernando, Infante de Portugal
+	}
+	1470.11.18 = {
+		holder = ZhuanVizeu1448r #3 herz Vizeu i 2 her Bezha
+	}
+	1472.12.2 = {
+		holder = Diogo1Vizeu #4 her Vizeu i 3 her Bezha
+	}
+	1484.8.28 = {
+		holder = Manuel1SchastAv #posle ubiystva Diogu
+	}
+}
+#Лиссабон и Алгарви - королевские владения
+d_lissabon_algarvi = {
+	1460.11.13 = {
+		name = LISSAB_ALGARVI #Лиссабон-Алгарви Lisbon-Algarve
+		government = feudal_government
+		liege = k_portugal
+		de_jure_liege = k_portugal
+		holder = KorPorAfoncy5 # Афонсу V
+	}
+	1481.8.28 = {
+		holder = Zhuan2SovAviss #Жуан II Совершенный
+	}
+}
+#Асила в Марокко - гр. Танжер
+b_asila = {
+	1469.1.1 = { holder = Afonso_da_Silva } #он правда был мэром
+}
+
+#Транкосо — Визеу
+b_trancoso = {
+	1469.1.1 = { holder = Rui_MagalhAes }
+}
+#Брага - Порту
+b_braga = {
+	1490.1.1 = { holder = Fernando_Faro_Vimieiro }
+}
+#Могадору - Браганса
+b_mogadouro = {
+	1490.1.1 = { holder = Francisco_de_Faro }
+}
+##
+#Обидуш - Коимбра
+b_obidos = {
+	1470.1.1 = { holder = martinho_ataide_1415 }
+}

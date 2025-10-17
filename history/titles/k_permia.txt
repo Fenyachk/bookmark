@@ -1,0 +1,514 @@
+# 30-04-2025   1.16.0.1 "Chamfron"
+k_permia = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+	1466.1.1 = { change_development_level = 17 }
+	1477.1.1 = { change_development_level = 19 }
+	1488.1.1 = { change_development_level = 21 }
+}
+
+#new title
+d_vyatka = {
+	800.1.1 = {
+		effect = { set_title_name = cn_vyatka }
+	}
+	1454.1.1 = {
+		government = republic_government
+		de_jure_liege = k_opolye
+	}
+}
+
+d_perm = {
+	# c_perm
+	768.1.1 = {
+		holder = 188803
+		government = tribal_government
+	}
+	795.1.1 = {
+		holder = 188804
+	}
+	815.1.1 = {
+		holder = 188805
+	}
+	830.1.1 = {
+		holder = 188806
+	}
+	860.1.1 = {
+		holder = 159734
+	}
+	
+	#1066
+	1066.1.1 = {
+		holder = 161720
+	}
+	1110.1.1 = {
+		holder = 161721
+	}
+	1140.1.1 = {
+		holder = 161722
+	}
+	1170.1.1 = {
+		holder = 161723
+	}
+	##
+	1300.1.1 = {
+		holder = 0
+	}
+}
+
+
+c_perm = {
+	# c_perm
+	768.1.1 = {
+		holder = 188803
+		liege = d_perm
+		government = tribal_government
+	}
+	795.1.1 = {
+		holder = 188804
+	}
+	815.1.1 = {
+		holder = 188805
+	}
+	830.1.1 = {
+		holder = 188806
+	}
+	860.1.1 = {
+		holder = 159734
+	}
+	
+	#1066
+	1066.1.1 = {
+		holder = 161720
+	}
+	1110.1.1 = {
+		holder = 161721
+	}
+	1140.1.1 = {
+		holder = 161722
+	}
+	1170.1.1 = {
+		holder = 161723
+	}
+	##
+	1466.1.1 = {
+		holder = Fik_Perm_1490a
+	}
+}
+
+
+c_sebur = {
+	# c_perm
+	768.1.1 = {
+		holder = 188803
+		liege = d_perm
+		government = tribal_government
+	}
+	795.1.1 = {
+		holder = 188804
+	}
+	815.1.1 = {
+		holder = 188805
+	}
+	830.1.1 = {
+		holder = 188806
+	}
+	860.1.1 = {
+		holder = 159734
+	}
+	
+	#1066
+	1066.1.1 = {
+		holder = 161720
+	}
+	1110.1.1 = {
+		holder = 161721
+	}
+	1140.1.1 = {
+		holder = 161722
+	}
+	1170.1.1 = {
+		holder = 161723
+	}
+	##
+	1466.1.1 = {
+		holder = Fik_Perm_1490a
+	}
+}
+
+
+c_lysva = {
+	#860
+	867.1.1 = {
+		holder = 302336		#fictional Anava Lysvvel
+		liege = d_ural
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.2 = {
+		holder = 302337		#fictional Spira Lysvvel
+		liege = d_perm
+	}
+	1117.1.2 = {
+		holder = 302338		#fictional Liyava Lysvvel
+	}
+	1151.1.2 = {
+		holder = 302339		#fictional Ylvan Lysvvel
+	}
+	1165.1.2 = {
+		holder = 302340		#fictional Ylvan Lysvvel
+	}
+	##
+	1465.1.1 = {
+		holder = KudymOsh #polulegendarnyi
+	}
+}
+
+
+c_kumych = {
+	#860
+	867.1.1 = {
+		holder = 302336		#fictional Anava Lysvvel
+		liege = d_ural
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.2 = {
+		holder = 302337		#fictional Spira Lysvvel
+		liege = d_perm
+	}
+	1117.1.2 = {
+		holder = 302338		#fictional Liyava Lysvvel
+	}
+	1151.1.2 = {
+		holder = 302339		#fictional Ylvan Lysvvel
+	}
+	1165.1.2 = {
+		holder = 302340		#fictional Ylvan Lysvvel
+	}
+	##
+	1465.1.1 = {
+		holder = KudymOsh #polulegendarnyi
+	}
+	
+}
+
+
+d_ural = {
+	#860
+	860.1.2 = {
+		holder = 302330		#Onika of Kerken
+		government = tribal_government
+	}
+	
+	#1066
+	1000.1.2 = {
+		holder = 0
+	}
+
+}
+
+
+c_ural = {
+	#860
+	860.1.2 = {
+		holder = 302330		#Onika of Kerken
+		liege = d_ural
+		government = tribal_government
+	}
+	
+	#1066
+	1064.1.2 = {
+		holder = 302331		#Rateg of Kerken
+		liege = d_perm
+	}
+	1100.1.2 = {
+		holder = 302332		#Ozhmeg of Kerken
+	}
+	1137.1.2 = {
+		holder = 302333		#Gazheg of Kerken
+	}
+	1171.1.2 = {
+		holder = 302334		#Rateg of Kerken
+	}
+	1198.1.2 = {
+		holder = 302335		#Zhuneg of Kerken
+	}
+	##
+	1451.1.2 = {
+		holder = Yermolay_Velikoperm
+		government = feudal_government
+	}
+	1455.5.5 = {
+		holder = Mikhail_Erm_Velikoperm
+	}
+	1472.7.2 = {
+		liege = k_opolye #Cherdynskiy pohod
+	}
+	1481.8.1 = {
+		holder = Matvei_Mik_Velikoperm
+	}
+}
+
+
+c_votkinsk = {
+	# c_perm
+	768.1.1 = {
+		holder = 188803
+		liege = d_perm
+		government = tribal_government
+	}
+	795.1.1 = {
+		holder = 188804
+	}
+	815.1.1 = {
+		holder = 188805
+	}
+	830.1.1 = {
+		holder = 188806
+	}
+	860.1.1 = {
+		holder = 159734
+	}
+	
+	#1066
+	1066.1.1 = {
+		holder = 161720
+	}
+	1110.1.1 = {
+		holder = 161721
+	}
+	1140.1.1 = {
+		holder = 161722
+	}
+	1170.1.1 = {
+		holder = 161723
+	}
+	1177.1.1 = {
+		holder = 161724 # Parush
+	}
+	##
+	1466.1.1 = {
+		holder = Fik_Perm_1490b
+	}
+	1469.12.31 = { de_jure_liege = d_udmurtia } 
+	# 1759 - Votkinskiy zavod Shuvalova
+}
+
+
+c_kerken = {
+	#860
+	860.1.2 = {
+		holder = 302330		#Onika of Kerken
+		liege = d_ural
+		government = tribal_government
+	}
+	
+	#1066
+	1064.1.2 = {
+		holder = 302331		#Rateg of Kerken
+		liege = d_perm
+	}
+	1100.1.2 = {
+		holder = 302332		#Ozhmeg of Kerken
+	}
+	1137.1.2 = {
+		holder = 302333		#Gazheg of Kerken
+	}
+	1171.1.2 = {
+		holder = 302334		#Rateg of Kerken
+	}
+	1177.1.1 = {
+		holder = 161724 # Parush
+	}
+	1198.1.2 = {
+		holder = 302335		#Zhuneg of Kerken
+	}
+	##
+	1451.1.1 = {
+		effect = { set_title_name = b_cherdyn } #otkuda-to v baze est nazvanie
+		holder = Yermolay_Velikoperm
+		government = feudal_government
+		liege = 0
+	}
+	1455.5.5 = {
+		holder = Mikhail_Erm_Velikoperm
+	}
+	1472.7.2 = {
+		liege = k_opolye #Cherdynskiy pohod
+	}
+	1481.8.1 = {
+		holder = Matvei_Mik_Velikoperm
+	}
+}
+
+
+d_udmurtia = {
+	#860
+	863.1.2 = {
+		holder = 302324		#fictional Nylog Udmurt
+		government = tribal_government
+	}
+	
+	#1066
+	1058.1.2 = {
+		holder = 302325	#fictional Tuhan Udmurt
+	}
+	1096.1.2 = {
+		holder = 302326	#fictional Sektev Udmurt
+	}
+	1137.1.2 = {
+		holder = 302328	#fictional Vokan Udmurt
+	}
+	1175.1.2 = {
+		holder = 302329	#fictional Malyy Udmurt
+	}
+	##
+	1240.1.1 = {
+		holder = 0
+	}
+}
+
+
+c_kargadan = {
+	#860
+	859.1.2 = {
+		holder = 302319		#fictional Kuaz Palniks
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.2 = {
+		holder = 302320		#fictional Kya Palniks
+	}
+	1115.1.2 = {
+		holder = 302321		#fictional Chichayka Palniks
+	}
+	1130.1.2 = {
+		holder = 302322		#fictional Kya Palniks
+	}
+	1164.1.2 = {
+		holder = 302323		#fictional Nalka Palniks
+	}
+	##
+	1466.2.2 = {
+		holder = Fik_Perm_Tuhan
+	}
+}
+
+
+c_palniki = {
+	#860
+	859.1.2 = {
+		holder = 302319		#fictional Kuaz Palniks
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.2 = {
+		holder = 302320		#fictional Kya Palniks
+	}
+	1115.1.2 = {
+		holder = 302321		#fictional Chichayka Palniks
+	}
+	1130.1.2 = {
+		holder = 302322		#fictional Kya Palniks
+	}
+	1164.1.2 = {
+		holder = 302323		#fictional Nalka Palniks
+	}
+	##
+	1460.2.2 = {
+		holder = Fik_udm_Palniki
+		liege = 0
+	}
+
+}
+
+
+c_glazov = {
+	#860
+	863.1.2 = {
+		holder = 302324		#fictional Nylog Udmurt
+		government = tribal_government
+	}
+	
+	#1066
+	1058.1.2 = {
+		holder = 302325		#fictional Tuhan Udmurt
+	}
+	1096.1.2 = {
+		holder = 302326		#fictional Sektev Udmurt
+	}
+	1137.1.2 = {
+		holder = 302328		#fictional Vokan Udmurt
+	}
+	1175.1.2 = {
+		holder = 302329		#fictional Malyy Udmurt
+	}
+	##
+	1453.1.1 = {
+		holder = Fik_udm_Glazkar
+		liege = 0
+	}
+}
+
+
+c_kolyn = {
+	#860
+	863.1.2 = {
+		holder = 302324		#fictional Nylog Udmurt
+		government = tribal_government
+	}
+	
+	#1066
+	1058.1.2 = {
+		holder = 302325		#fictional Tuhan Udmurt
+	}
+	1096.1.2 = {
+		holder = 302326		#fictional Sektev Udmurt
+	}
+	1137.1.2 = {
+		holder = 302328		#fictional Vokan Udmurt
+	}
+	1175.1.2 = {
+		holder = 302329		#fictional Malyy Udmurt
+	}
+	##
+	# Vyatskaya Vechevaya respublika
+	1374.1.1 = {
+		government = republic_government
+		name = VYATKA #Vyatka
+	}
+	1426.1.2 = {
+		holder = VyatkaAnMyshkin
+		government = republic_government
+	}
+	1454.1.1 = { change_development_level = 23 }
+	1458.1.1 = {
+		holder = VyatkaIvaMyshkin
+		government = republic_government
+	}
+	1466.1.1 = { change_development_level = 25 }
+	1470.1.1 = { change_development_level = 27 de_jure_liege = d_vyatka }
+	
+	1485.1.1 = {
+		holder = Timofey_Kons_Saburov #Sverchok-Saburov, namestnik vyatski
+		government = feudal_government
+		liege = k_opolye
+	}
+	1488.1.1 = { change_development_level = 28 }
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+	
+}
+

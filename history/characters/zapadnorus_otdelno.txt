@@ -1,0 +1,1309 @@
+﻿###Мстиславские перенос из другого файла добавил дом
+#Иван Юрьевич Мстиславский сын Юрия Лугвеновича
+Ivan_Ur_Mstislavskiy = {
+	name = "Ivan"
+	dynasty_house = house_mstislavskiy_Ged #11
+	father = Uriy_Lugvenovich
+	religion = "orthodox"
+	culture = zapadnorus
+	1438.9.6 = {
+		birth = yes
+	}
+	1495.12.16 = {
+		death = yes
+	}
+}
+#Юлиана Ульяна Иулиания Ивановна Мстиславская в 1499 брак с Михаилом Ивановичем Заславским
+Ulyana_Ivan_Mstislavsk = {
+	name = "Ulyana"
+	female = yes
+	dynasty_house = house_mstislavskiy_Ged #11
+	father = Ivan_Ur_Mstislavskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	1469.6.9 = {
+		birth = yes
+	}
+	1540.12.16 = {
+		death = yes
+	}
+}
+#Анастасия Ивановна Мстиславская
+Anastasia_Ivan_Mstislavsk = {
+	name = "Anastasia"
+	female = yes
+	dynasty_house = house_mstislavskiy_Ged #11
+	father = Ivan_Ur_Mstislavskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	1470.9.6 = {
+		birth = yes
+	}
+	1520.12.16 = {
+		death = yes
+	}
+}
+###Гольшанские Ольшанские Olshanski
+#Иван Ольгимундович Гольшанский
+IvanOlg_Olshanski = {
+	name = "Ivan"
+	dynasty = Olshanski
+	religion = orthodox
+	culture = russian
+	1340.1.2 = {
+		birth = yes
+	}
+	1401.7.2 = {
+		death = yes
+	}
+}
+#Семён Иванович Гольшанский Лютый
+SemenIvLut_Olshanski = {
+	name = "Semyon"
+	dynasty = Olshanski
+	father = IvanOlg_Olshanski
+	religion = orthodox
+	culture = polish
+	1371.1.2 = {
+		birth = yes
+	}
+	1433.1.2 = {
+		death = yes
+	}
+}
+#Гольшанский Юрий Семёнович
+YuriSem_Olshanski = {
+	name = "Yuriy"
+	dynasty = Olshanski
+	father = SemenIvLut_Olshanski
+	religion = orthodox
+	culture = zapadnorus
+	1410.1.2 = {
+		birth = yes
+	}
+	1456.7.2 = {
+		death = yes
+	}
+}
+#Иван Юрьевич Гольшанский участник заговора князь дубровицкий
+IVanYur_Olshanski = {
+	name = "Ivan"
+	dynasty = Olshanski
+	father = YuriSem_Olshanski
+	religion = orthodox
+	culture = zapadnorus
+	trait = education_intrigue_1
+	1430.1.2 = {
+		birth = yes
+	}
+	1479.1.2 = {
+		add_spouse = Anna_Mih_Chartoryiski
+	}
+	1481.8.30 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+#Юрий Иванович Гольшанский 1480 ГР
+Yuru_IVan_Olshanski = {
+	name = "Yuriy"
+	dynasty = Olshanski
+	father = IVanYur_Olshanski
+	mother = Anna_Mih_Chartoryiski
+	religion = orthodox
+	culture = zapadnorus
+	1480.2.22 = {
+		birth = yes
+	}
+	1536.1.1 = {
+		death = yes
+	}
+}
+#Александр Юрьевич Гольшанский
+AlexYur_Olshanski = {
+	name = "Aleksander"
+	dynasty = Olshanski
+	father = YuriSem_Olshanski
+	religion = orthodox
+	culture = zapadnorus
+	1440.1.2 = {
+		birth = yes
+	}
+	1458.1.2 = {
+		add_spouse = ZofiaOlSudimont
+	}
+	1511.1.1 = {
+		death = yes
+	}
+}
+#Ядвига Гольшанская-Хрептович
+Jadwiga_Olshanski_Hrep = {
+	name = "Jadwiga"
+	female = yes
+	dynasty = Olshanski
+	father = AlexYur_Olshanski
+	mother = ZofiaOlSudimont
+	religion = orthodox
+	culture = zapadnorus
+	1460.5.8 = {
+		birth = yes
+	}
+	1533.1.1 = {
+		death = yes
+	}
+}
+#Януш Гольшанский староста слонимский и кравчий господарский
+Janusz_A_Olshanski = {
+	name = "Janusz"
+	dynasty = Olshanski
+	father = AlexYur_Olshanski
+	mother = ZofiaOlSudimont
+	religion = orthodox
+	culture = zapadnorus
+	1462.6.2 = {
+		birth = yes
+	}
+	1511.5.5 = {
+		death = yes
+	}
+}
+#Юрий Александрович Гольшанский
+Yuriy_A_Olshanski_Ep = {
+	name = "Yuriy"
+	dynasty = Olshanski
+	father = AlexYur_Olshanski
+	mother = ZofiaOlSudimont
+	religion = orthodox
+	culture = zapadnorus
+	1485.12.22 = {
+		birth = yes
+	}
+	1511.5.15 = {
+		death = yes
+	}
+}
+#Павел Александрович Гольшанский виленский епископ
+PaweL_A_Olshanski_Ep = {
+	name = "PaweL_"
+	dynasty = Olshanski
+	father = AlexYur_Olshanski
+	mother = ZofiaOlSudimont
+	religion = orthodox
+	culture = zapadnorus
+	trait = education_learning_1
+	1489.12.22 = {
+		birth = yes
+	}
+	1503.12.22 = {
+		trait = devoted
+		religion = catholic
+	}
+	1555.5.5 = {
+		death = yes
+	}
+}
+#Семён Юрьевич Гольшанский
+SemenYur_Olshanski = {
+	name = "Semyon"
+	dynasty = Olshanski
+	father = YuriSem_Olshanski
+	religion = orthodox
+	culture = zapadnorus
+	1445.1.2 = {
+		birth = yes
+	}
+	1479.1.1 = {
+		add_spouse = Anastasia_Sem_Nesvitskay
+	}
+	1505.1.1 = {
+		death = yes
+	}
+}
+#Татьяна Анна Семёновна Гольшанская
+Tatiana_Anna_Olshanski = {
+	name = "Tatiana"
+	female = yes
+	dynasty = Olshanski
+	father = SemenYur_Olshanski
+	mother = Anastasia_Sem_Nesvitskay
+	religion = orthodox
+	culture = zapadnorus
+	1480.1.2 = {
+		birth = yes
+	}
+	1521.1.1 = {
+		death = yes
+	}
+}
+#Андрей Иванович Гольшанский
+AndreiIva_Olshanski = {
+	name = "Andrei"
+	dynasty = Olshanski
+	father = IvanOlg_Olshanski
+	religion = orthodox
+	culture = polish
+	1374.1.2 = {
+		birth = yes
+	}
+	1420.7.2 = {
+		death = yes
+	}
+}
+#Супруга Ильи Мария Андреевна Гольшанская
+Maria_OlshanskiMushat = {
+	name = "Maria"
+	female = yes
+	dynasty = Olshanski
+	father = AndreiIva_Olshanski
+	religion = orthodox
+	culture = "lithuanian"
+	1410.1.2 = {
+		birth = yes
+	}
+	1456.7.2 = {
+		death = yes
+	}
+}
+#Василиса Андреевна Гольшанская
+Vasilis_Olshanski = {
+	name = "Vasilisa"
+	female = yes
+	dynasty = Olshanski
+	father = AndreiIva_Olshanski
+	religion = orthodox
+	culture = "lithuanian"
+	1404.1.2 = {
+		birth = yes
+	}
+	1484.8.25 = {
+		death = yes
+	}
+}
+# Vishnevetskiy house_nesvitskiy house_vishnevetskiy
+#Василий Фёдорович Збаражский
+Vasiliy_Fed_Zbarazhskiy = {
+	name = "Vasiliy"
+	female = no
+	dynasty = Zbarazhski
+	religion = orthodox
+	culture = "zapadnorus"
+	1430.1.2 = {
+		birth = yes
+	}
+	1463.7.9 = {
+		death = yes
+	}
+}
+#Солтан умер в 1472 не интересен
+#Семён  Несвицкий - Семён Васильевич Несвицкий
+Semyon_Vas_Zbarazhskiy = {
+	name = "Semyon"
+	female = no
+	dynasty_house = house_nesvitskiy
+	father = Vasiliy_Fed_Zbarazhskiy
+	religion = orthodox
+	culture = "zapadnorus"
+	1447.1.2 = {
+		birth = yes
+	}
+	1481.8.25 = {
+		death = yes
+	}
+}
+#Анастасия Семёновна Несвицкая-Збаражская в зам Гольшанская	
+Anastasia_Sem_Nesvitskay = {
+	name = "Anastasia"
+	female = yes
+	dynasty_house = house_nesvitskiy
+	father = Semyon_Vas_Zbarazhskiy
+	religion = orthodox
+	culture = "zapadnorus"
+	1463.1.2 = {
+		birth = yes
+	}
+	1516.8.25 = {
+		death = yes
+	}
+}
+#Василий Васильевич Збаражский
+Vas_Vas_Zbarazhskiy = {
+	name = "Vasiliy"
+	female = no
+	dynasty = Zbarazhski
+	father = Vasiliy_Fed_Zbarazhskiy
+	religion = orthodox
+	culture = "zapadnorus"
+	1442.12.2 = {
+		birth = yes
+	}
+	1473.8.25 = {
+		death = yes
+	}
+}
+#Михаил Васильевич Збаражский-Вишневецкий первый Вишневецкий
+Mihail_Vas_Vishnevetskiy = {
+	name = "Mikhail"
+	dynasty_house = house_vishnevetskiy
+	trait = education_intrigue_1
+	father = Vas_Vas_Zbarazhskiy
+	religion = orthodox
+	culture = "zapadnorus"
+	1470.1.2 = {
+		birth = yes
+	}
+	1517.8.25 = {
+		death = yes
+	}
+}
+#Пётр Монтигердович Белый
+Petr_Montygierdowicz_Belyi = {
+	name = "Piotr"
+	female = no
+	dynasty = Montygierdowicz
+	religion = orthodox
+	culture = "lithuanian"
+	trait = education_stewardship_1
+	1444.4.4 = {
+		birth = yes
+	}
+	1469.4.4 = {
+		give_nickname = nick_the_white
+	}
+	1499.7.2 = {
+		death = yes
+	}
+}
+Jan_Montygierdowicz_1500 = {
+	name = "Jan"
+	female = no
+	dynasty = Montygierdowicz
+	father = Petr_Montygierdowicz_Belyi
+	religion = orthodox
+	culture = "lithuanian"
+	trait = education_martial_1
+	1466.6.6 {
+		birth = yes
+	}
+	1500.7.14 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+Zofia_Montygierdowicz_Kishka = {
+	name = "Zofia"
+	female = yes
+	dynasty = Montygierdowicz
+	father = Petr_Montygierdowicz_Belyi
+	religion = orthodox
+	culture = "lithuanian"
+	1470.1.2 {
+		birth = yes
+	}
+	1532.7.14 = {
+		death = yes
+	}
+}
+### Заславские в будущем Мстиславские Гедиминовичи умер в 1514 или 1516
+#от Евнутия и его сына Михаила Евнутиевича
+Yuriy_Mikhail_Zaslavskiy = {
+	name = "Yuriy"
+	dynasty_house = house_zaslavskiy_Ged #11
+	father = Mikhail_Evnutievich
+	religion = "orthodox"
+	culture = "lithuanian"
+	1385.1.2 = {
+		birth = yes
+	}
+	1444.8.12 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+#Иван Юрьевич Заславский
+Ivan_Yur_Zaslavskiy = {
+	name = "Ivan"
+	female = no
+	dynasty_house = house_zaslavskiy_Ged
+	father = Yuriy_Mikhail_Zaslavskiy
+	religion = orthodox
+	culture = "zapadnorus"
+	1439.7.24 = {
+		birth = yes
+	}
+	1469.11.25 = {
+		death = yes
+	}
+}
+#Михаил Иванович Заславский (через брак Мстиславский) умер в 1534
+Mikhail_Iv_Zaslavskiy1Mst = {
+	name = "Mikhail"
+	female = no
+	dynasty_house = house_zaslavskiy_Ged
+	father = Ivan_Yur_Zaslavskiy
+	religion = orthodox
+	culture = "zapadnorus"
+	trait = education_martial_2
+	1459.5.9 = {
+		birth = yes
+	}
+	1534.3.4 = {
+		death = yes
+	}
+}
+Vasiliy_Mih_Mstislav_Zaslav = {
+	name = "Vasiliy"
+	female = no
+	dynasty_house = house_zaslavskiy_Ged
+	father = Mikhail_Iv_Zaslavskiy1Mst
+	religion = orthodox
+	culture = "zapadnorus"
+	trait = weak
+	1499.7.3 = {
+		birth = yes
+	}
+	1500.8.5 = {
+		death = yes
+	}
+}
+#Фёдор Михайлович Мстиславский (Заславский) родоначальник вторых Мстиславских умер в 1537 фамилия Махечи!
+Fedor_Mih_Mstislav_Zaslav = {
+	name = "Fedor"
+	female = no
+	dynasty_house = house_zaslavskiy_Ged
+	father = Mikhail_Iv_Zaslavskiy1Mst
+	religion = orthodox
+	culture = "zapadnorus"
+	trait = education_intrigue_1
+	1500.7.5 = {
+		birth = yes
+	}
+	1537.8.25 = {
+		death = yes
+	}
+}
+#Юрий Дрогобыч
+Yuriy_Drohobicz = {
+	name = "Yuriy"
+	dynasty = Drohobicz
+	religion = orthodox
+	culture = zapadnorus
+	trait = education_learning_2
+	1450.5.12 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		trait = lifestyle_physician
+	}
+	1473.7.3 = {
+		name = "Georgius"
+		trait = celibate
+		religion = catholic
+	}
+	1511.5.15 = {
+		death = yes
+	}
+}
+#
+#Андрей Фёдорович Полубинский
+andrei_fe_Polubinski = {
+	name = "Andrei"
+	dynasty = Polubinski #якобы от Андрея Ольгердовича
+	religion = "orthodox"
+	culture = zapadnorus
+	1458.5.8 = {
+		birth = yes
+	}
+	1478.12.18 = {
+		add_spouse = fik_Dobronega_z
+	}
+	1522.3.4 = {
+		death = yes
+	}
+}
+fik_Dobronega_z = {
+	name = "Dobronega"
+	female = yes
+	religion = "orthodox"
+	culture = zapadnorus
+	1460.6.1 = {
+		birth = yes
+	}
+	1544.4.4 = {
+		death = yes
+	}
+}
+#Василий Андреевич Полубинский - впервые упоминается  в 1488 году 
+Vas_Andre_Polubinski = {
+	name = "Vasiliy"
+	dynasty = Polubinski #якобы от Андрея Ольгердовича
+	father = andrei_fe_Polubinski
+	mother = fik_Dobronega_z
+	religion = "orthodox"
+	culture = zapadnorus
+	1480.8.5 = {
+		birth = yes
+	}
+	1550.3.4 = {
+		death = yes
+	}
+}
+#Иван Андреевич Полубинский (? — 1556) — государственный деятель
+Ivan_andr_Polubinski = {
+	name = "Ivan"
+	dynasty = Polubinski #якобы от Андрея Ольгердовича
+	father = andrei_fe_Polubinski
+	mother = fik_Dobronega_z
+	religion = "orthodox"
+	culture = zapadnorus
+	1489.8.9 = {
+		birth = yes
+	}
+	1556.3.4 = {
+		death = yes
+	}
+}
+#перенос из файла Russian
+###Соломерецкий Соломерецкие - потомки внука Святослава Глебовича (у. 1310) – князя Можайского и Брянского
+#их предок — 472518 Иван 1330-1380
+#Фёдор Иванович Соломерецкий
+Fedor_Iva_Solomeretskiy = {
+	name = "Fedor"
+	father = 472518 #Иван 1330-1380
+	dynasty_house = house_solomeretskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	1372.7.2 = {
+		birth = yes
+	}
+	1439.3.1 = {
+		death = yes
+	}
+}
+#Василий Федорович Соломерецкий
+Vas_Solomeretskiy = {
+	name = "Vasiliy"
+	dynasty_house = house_solomeretskiy
+	father = Fedor_Iva_Solomeretskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = scarred
+	1412.5.12 = {
+		birth = yes
+	}
+	1468.5.11 = {
+		death = yes
+	}
+}
+#Иван Васильевич Соломерецкий староста мстиславский
+Ivan_Vas_Solomeretskiy = {
+	name = "Ivan"
+	dynasty_house = house_solomeretskiy
+	father = Vas_Solomeretskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	1450.5.5 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		add_spouse = Agrafena_Alex_Chartoryiska
+	}
+	1501.5.11 = {
+		death = yes
+	}
+}
+Bogdan_SolomeretskiyUmerran = {
+	name = "Bogdan"
+	dynasty_house = house_solomeretskiy
+	father = Ivan_Vas_Solomeretskiy
+	mother = Agrafena_Alex_Chartoryiska
+	religion = "orthodox"
+	culture = zapadnorus
+	1481.9.9 = {
+		birth = yes
+	}
+	1489.12.9 = {
+		trait = ill
+	}
+	1493.3.16 = {
+		death = yes
+	}
+}
+#Василий Иванович Соломерецкий
+Vasiliy_Iv_Solomeretskiy = {
+	name = "Vasiliy"
+	dynasty_house = house_solomeretskiy
+	father = Ivan_Vas_Solomeretskiy
+	mother = Agrafena_Alex_Chartoryiska
+	religion = "orthodox"
+	culture = zapadnorus
+	1490.1.1 = {
+		birth = yes
+	}
+	1560.5.6 = {
+		death = yes
+	}
+}
+#перенос
+##Друцкие, род неясного происхождения Гедиминовичи/Рюриковичи
+#Семён Дмитриевич Друцкий (ум. после 1422) — государственный деятель Великого княжества Литовского
+#Первый из князей Друцких, о котором сохранились документальные свидетельства
+#В январе 1401 года был в числе советников Витовта, подписавших Виленско-Радомскую унию
+Semyon_Dm_Drutskiy = {
+	name = "Semyon"
+	dynasty = Drutskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = education_martial_1
+	1380.8.9 = {
+		birth = yes
+	}
+	1422.2.22 = {
+		death = yes
+	}
+}
+#Иван Семёнович Баба - весной 1436 года, он с полком литовских копейщиков пришёл в Москву на службу
+#участник Битвы на реке Черёхе (1436)
+#сыновья его — Федор, Константин, Василий и Семен — остались в России, были наделены поместьями и писались князьями Бабичами, а потомки их — Бабичевыми
+Ivan_sem_Dru_baba = {
+	name = "Ivan"
+	dynasty = Drutskiy
+	father = Semyon_Dm_Drutskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = education_martial_1
+	1400.1.12 = {
+		birth = yes
+	}
+	1436.3.1 = {
+		employer = Vas2tem
+	}
+	1444.3.1 = {
+		culture = "russian"
+	}
+	1452.5.2 = {
+		death = yes
+	}
+}
+#Фёдор вряд ли остался Фёдор Бабич (около 1410? — после 1446)
+Feodor_iv_DrutsSokol = {
+	name = "Feodor"
+	father = Ivan_sem_Dru_baba
+	dynasty = Drutskiy
+	religion = "orthodox"
+	culture = "zapadnorus"
+	1420.2.8 = {
+		birth = yes
+	}
+	1469.6.9 = {
+		death = yes
+	}
+}
+#Друцкие-Озерецкие
+Ivan_F_DruOzer = {
+	name = "Ivan"
+	father = Feodor_iv_DrutsSokol
+	dynasty = Drutskiy
+	religion = "orthodox"
+	culture = "zapadnorus"
+	1440.4.4 = {
+		birth = yes
+	}
+	1522.1.11 = {
+		death = yes
+	}
+}
+#Андрей Иванович Друцкий-Озерецкий - Сын князя Ивана Федоровича Бабича
+#Наместник Оршанский 1547 — 1558
+Andrei_iv_DruOzer = {
+	name = "Andrei"
+	father = Ivan_F_DruOzer
+	dynasty = Drutskiy
+	religion = "orthodox"
+	culture = "zapadnorus"
+	1480.2.8 = {
+		birth = yes
+	}
+	1558.1.11 = {
+		death = yes
+	}
+}
+#Конопли-Соколинские -  от названия села Соколино (Сокольня) в Витебской земле
+#Фёдор Фёдорович Конопля, сын князя Фёдора Бабича и внук друцкого князя Ивана Семёновича Бабы
+Feodor_F_KonoplyaSokol = {
+	name = "Feodor"
+	father = Feodor_iv_DrutsSokol
+	dynasty = Drutskiy
+	religion = "orthodox"
+	culture = "zapadnorus"
+	1438.3.8 = {
+		birth = yes
+	}
+	1522.4.2 = {
+		death = yes
+	}
+}
+##
+#Константин Друцкий (около 1410?-около 1442) —> Друцкие-Прихабские
+#Прихабы в Оршанском повете, близ Смольян
+Konstan_iv_DrutsPrihabsk = {
+	name = "Konstantin"
+	father = Ivan_sem_Dru_baba
+	dynasty = Drutskiy
+	religion = "orthodox"
+	culture = "zapadnorus"
+	1416.1.16 = {
+		birth = yes
+	}
+	1440.4.2 = {
+		trait = ill
+	}
+	1442.4.2 = {
+		death = yes
+	}
+}
+#Андрей Прихабский, на момент смерти отца был ребёнком
+#Сыновья Андрея Федор и Константин умерли при жизни отца, и на них пресеклась ветвь Друцких-Прихабских
+Andrei_k_Prihabski = {
+	name = "Andrei"
+	father = Konstan_iv_DrutsPrihabsk
+	dynasty = Drutskiy
+	religion = "orthodox"
+	culture = "zapadnorus"
+	1439.1.16 = {
+		birth = yes
+	}
+	1512.4.2 = {
+		death = yes
+	}
+}
+Feodor_a_Prihabski = {
+	name = "Feodor"
+	father = Andrei_k_Prihabski
+	dynasty = Drutskiy
+	religion = "orthodox"
+	culture = "zapadnorus"
+	trait = weak
+	1457.1.11 = {
+		birth = yes
+	}
+	1458.2.2 = {
+		trait = ill
+	}
+	1459.5.8 = {
+		death = yes
+	}
+}
+Konstantin_a_Prihabski = {
+	name = "Konstantin"
+	father = Andrei_k_Prihabski
+	dynasty = Drutskiy
+	religion = "orthodox"
+	culture = "zapadnorus"
+	1459.5.9 = {
+		birth = yes
+	}
+	1489.1.19 = {
+		trait = ill
+	}
+	1496.4.2 = {
+		death = yes
+	}
+}
+##
+#Василий Семёнович Красный, наместник Витебска с 1431
+VasSemenDrutskiy = {
+	name = "Vasilii"
+	dynasty = Drutskiy
+	father = Semyon_Dm_Drutskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = education_learning_1
+	trait = spindly
+	1408.1.12 = {
+		birth = yes
+	}
+	1448.9.21 = {
+		death = yes
+	}
+}
+#Иван Васильевич Красный
+IvanVasDrutskiyKr = {
+	name = "Ivan"
+	dynasty = Drutskiy
+	father = VasSemenDrutskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = education_learning_1
+	1447.1.1 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		give_nickname = nick_the_red
+	}
+	1516.9.21 = {
+		death = yes
+	}
+}
+#Князь Иван Семёнович Путята Друцкий (ум. после 1466)
+#Впервые упоминается в 1422 году как один из гарантов Мельненского мира
+#В 1433 году стал воеводой смоленским, но выбрал сторону Свидригайла
+Ivan_sem_Putyata_Dru = {
+	name = "Ivan"
+	dynasty = Drutskiy
+	father = Semyon_Dm_Drutskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = education_martial_1
+	1401.11.11 = {
+		birth = yes
+	}
+	1420.2.1 = {
+		name = "Putyata"
+	}
+	1467.6.7 = {
+		death = yes
+	}
+}
+#князь Василий Иванович Путятич. Жил в селении Горы, близ Друцка, основатель линии князей Друцких-Горских
+Vas_iv_Put_DruGorsk = {
+	name = "Vasiliy"
+	dynasty = Drutskiy
+	father = Ivan_sem_Putyata_Dru
+	religion = "orthodox"
+	culture = zapadnorus
+	1419.2.22 = {
+		birth = yes
+	}
+	1489.11.17 = {
+		death = yes
+	}
+}
+#князь Иван Иванович Путятич. Основатель ветви князей Путятиных, поселившихся в Новгородской земле
+Ivan_iv_Putyat_Dru = {
+	name = "Ivan"
+	dynasty = Drutskiy
+	father = Ivan_sem_Putyata_Dru
+	religion = "orthodox"
+	culture = zapadnorus
+	1421.3.3 = {
+		birth = yes
+	}
+	1490.3.3 = {
+		death = yes
+	}
+}
+#князь Дмитрий Иванович Путятич (ум. 1505), воевода Киевский 1492 — 1505, мценский и любутский наместник
+#умер бездетным
+Dmitr_iv_Putyatich = {
+	name = "Dmitriy"
+	dynasty = Drutskiy
+	father = Ivan_sem_Putyata_Dru
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = education_stewardship_1
+	trait = infertile
+	1435.3.5 = {
+		birth = yes
+	}
+	1505.3.3 = {
+		death = yes
+	}
+}
+#Друцкие-Толочинские (Шишевские-Толочинские), княжеский род, пресекшийся в 1546 году
+#Михаил Иванович Путятич - известен только по родословным, родословцам
+Mikhail_iv_Putyatich = {
+	name = "Mikhail"
+	dynasty = Drutskiy
+	father = Ivan_sem_Putyata_Dru
+	religion = "orthodox"
+	culture = zapadnorus
+	1429.3.5 = {
+		birth = yes
+	}
+	1499.9.9 = {
+		death = yes
+	}
+}
+#Юрий Михайлович в 1499—1509 годах писался князем Шишевским по своей вотчине Шишево под селением Горы
+Yuri_mih_ShishevsTol = {
+	name = "Yuri"
+	dynasty = Drutskiy
+	father = Mikhail_iv_Putyatich
+	religion = "orthodox"
+	culture = zapadnorus
+	1460.3.5 = {
+		birth = yes
+	}
+	1541.1.1 = {
+		death = yes
+	}
+}
+##
+##Дмитрий Семёнович Друцкий Секира - ум. ранее 24 марта 1470 - Прозывался князем Зубревицким
+#имения в в Гродненском повете + Остёр Черниговский
+Dmitr_sem_Dru_sekira = {
+	name = "Dmitriy"
+	dynasty = Drutskiy
+	father = Semyon_Dm_Drutskiy
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = education_martial_1
+	1399.9.9 = {
+		birth = yes
+	}
+	1470.3.24 = {
+		death = yes
+	}
+}
+#княжна Марина Дмитриевна Друцкая-Зубревицкая (ум. после 1496)
+Marina_dm_Dru_zubrev = {
+	name = "Marina"
+	female = yes
+	dynasty = Drutskiy
+	father = Dmitr_sem_Dru_sekira
+	religion = "orthodox"
+	culture = zapadnorus
+	1426.2.6 = {
+		birth = yes
+	}
+	1496.12.12 = {
+		death = yes
+	}
+}
+#Семён Фёдорович Полоз известный, как Сенько Полозович, упоминается в 1494, умер до 1532
+Semen_Fed_Poloz = {
+	name = "Simeon"
+	dynasty = Poloz
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = education_martial_3
+	trait = giant
+	1459.5.9 = {
+		birth = yes
+	}
+	1532.3.2 = {
+		death = yes
+	}
+}
+#Тышкевичи
+#Тышка (Тимофей) Каленикович, Мишкович-Мышкович
+tim_tyshkevich = {
+	name = "Timofey"
+	dynasty = Tyshkevich
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = education_martial_1
+	#1437/52
+	1447.4.4 = {
+		birth = yes
+	}
+	1501.5.11 = {
+		death = yes
+	}
+}
+boris_tim_tyshkevich = {
+	name = "Boris"
+	dynasty = Tyshkevich
+	father = tim_tyshkevich
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = weak
+	1467.6.4 = {
+		birth = yes
+	}
+	1498.9.8 = {
+		death = yes
+	}
+}
+Lev_tim_tyshkevich = {
+	name = "Lev"
+	dynasty = Tyshkevich
+	father = tim_tyshkevich
+	religion = "orthodox"
+	culture = zapadnorus
+	trait = weak
+	1471.7.1 = {
+		birth = yes
+	}
+	1515.9.8 = {
+		death = yes
+	}
+}
+#Василий Тышкевич
+vas_tim_tyshkevich = {
+	name = "Vasilii"
+	dynasty = Tyshkevich
+	father = tim_tyshkevich
+	religion = "orthodox"
+	culture = zapadnorus
+	1490.1.1 = {
+		birth = yes
+	}
+	1571.7.1 = {
+		death = yes
+	}
+}
+#Михайло Гагин, участвовал в разделе Яголдаевой Тьмы, был женат, позже бежал в Москву
+# мозырский государь (1482—1504)
+mihaylo_gagin = {
+	name = "Mikhail"
+	dynasty = Gagin
+	religion = "orthodox"
+	culture = zapadnorus
+	prowess = 5
+	1460.2.3 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		add_spouse = jagoldai_gagina
+	}
+	1544.7.1 = {
+		death = yes
+	}
+}
+## Ильиничи - герба «Корчак - православные, вероятно, с Северщины
+# Ива́н Ильи́нич (Ива́шко; ок. 1440 — ок. 1490) - В 1486—1490 годах был наместником Казимира в Смоленске. лит Iljiničius
+ivan_iliinich = {
+	name = "Ivan"
+	dynasty = Iliinich
+	religion = "orthodox"
+	culture = "zapadnorus"
+	prowess = 6
+	1440.4.4 = {
+		birth = yes
+	}
+	#перешёло в католичество
+	1470.1.1 = {
+		religion = catholic
+	}
+	1490.9.10 = {
+		death = yes
+	}
+}
+#Николай Иванович Ильинич
+nikolay_iv_iliinich = {
+	name = "MikoL_aj"
+	father = ivan_iliinich
+	dynasty = Iliinich
+	religion = "catholic"
+	culture = "zapadnorus"
+	prowess = 6
+	1468.6.8 = {
+		birth = yes
+	}
+	1511.1.1 = {
+		death = yes
+	}
+}
+#Юрий Иванович -1526
+yur_iv_iliinich = {
+	name = "Yuriy"
+	father = ivan_iliinich
+	dynasty = Iliinich
+	religion = "catholic"
+	culture = "zapadnorus"
+	prowess = 6
+	1471.7.3 = {
+		birth = yes
+	}
+	1526.2.6 = {
+		death = yes
+	}
+}
+#дочь Анна, которая была замужем за Доброгостом Нарбутовичем
+anna_iv_iliinich = {
+	name = "Anna"
+	female = yes
+	dynasty = Iliinich
+	father = ivan_iliinich
+	religion = "catholic" #do - orthodox?
+	culture = "zapadnorus"
+	1473.2.1 = {
+		birth = yes
+	}
+	1533.2.6 = {
+		death = yes
+	}
+}
+## Сапега - вероятно, род с корнями на смоленщине, католиками стали позже
+#Семён Сопи́га Sopiha -(Сапе́га) — государственный деятель Великого княжества Литовского. Писарь великого князя литовского Казимира IV в 1440-х годах.
+# По мнению А. Грицкевича происходил из полоцких бояр - Сапег считали Гедиминовичами
+semyon_sopiha = {
+	name = "Semyon"
+	dynasty = sapieha
+	religion = "orthodox"
+	culture = "zapadnorus"
+	trait = physique_good_1
+	1430.3.13 = {
+		birth = yes
+	}
+	1448.1.2 = {
+		add_spouse = anast_polshanka
+	}
+	1469.5.29 = {
+		death = yes
+	}
+}
+# Анастасия Полшанка
+anast_polshanka = {
+	name = "Anastasia"
+	female = yes
+	religion = "orthodox"
+	culture = zapadnorus
+	1431.3.1 = {
+		birth = yes
+	}
+	1520.12.16 = {
+		death = yes
+	}
+}
+#Богда́н Семёнович Сапе́га (до 1450 — после 1512) - Основатель черейско-ружанской ветви -  участвовал в посольствах в Москву, покупал имения
+bogdan_se_sapega = {
+	name = "Bogdan"
+	dynasty = sapieha
+	father = semyon_sopiha
+	mother = anast_polshanka
+	religion = "orthodox"
+	culture = "zapadnorus"
+	trait = physique_good_1
+	trait = education_stewardship_2
+	prowess = 4
+	diplomacy = 10
+	1449.5.10 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		effect = {
+			learn_language_of_culture = culture:polish
+			add_prestige = 10
+			add_gold = 30
+			dynasty = { add_dynasty_prestige = 25 }
+		}
+	}
+	1475.1.2 = {
+		birth = feodora_dru_sokol
+	}
+	1512.12.12 = {
+		death = yes
+	}
+}
+#В 1475 году женился на княжне Федоре Друцкой-Соколинской
+feodora_dru_sokol = {
+	name = "Feodora"
+	female = yes
+	religion = "orthodox"
+	culture = "zapadnorus"
+	trait = education_intrigue_1
+	prowess = 1
+	diplomacy = 6
+	1456.5.6 = {
+		birth = yes
+	}
+	#1519/1522
+	1520.11.12 = {
+		death = yes
+	}
+}
+#Иван Богданович Сапега (ок. 1480 — 1546), маршалок господарский и воевода витебский 1520—1541
+#Иван Богданович состоял на дипломатической службе; был послом в Москву в 1508, 1531—1532 и 1536 годах, в Турцию — в 1534 году - командовал
+ivan_bo_sapega = {
+	name = "Ivan"
+	dynasty = sapieha
+	father = bogdan_se_sapega
+	mother = feodora_dru_sokol #мать - Феодора Фёдоровна Соколинская
+	religion = "orthodox"
+	culture = "zapadnorus"
+	trait = physique_good_1
+	trait = education_diplomacy_1
+	trait = education_martial_1
+	prowess = 9
+	diplomacy = 11
+	martial = 10
+	1480.1.8 = {
+		birth = yes
+	}
+	1546.12.12 = {
+		death = yes
+	}
+}
+#Анна Сапега, 1-й муж — конюший дворский Якуб Кунцевич, 2-й муж — Олехно Скорута
+anna_bog_sapega = {
+	name = "Anna"
+	female = yes
+	dynasty = sapieha
+	father = bogdan_se_sapega
+	mother = feodora_dru_sokol #мать - Феодора Фёдоровна Соколинская
+	religion = "orthodox"
+	culture = "zapadnorus"
+	trait = physique_good_1
+	prowess = 2
+	1478.7.8 = {
+		birth = yes
+	}
+	#?
+	1533.1.1 = {
+		death = yes
+	}
+}
+##
+#Иван Семёнович Сапега -Ивашка Сапежич; около 1450 — 4 декабря 1517)
+# Писарь (с 1488) и маршалок господарский (с 1504), секретарь великий литовский (с 1506), воевода витебский (1508—1514) и подляшский (с 1514)
+ivan_se_sapega = {
+	name = "Ivan"
+	dynasty = sapieha
+	father = semyon_sopiha
+	mother = anast_polshanka
+	religion = "orthodox"
+	culture = "zapadnorus"
+	trait = physique_good_1
+	prowess = 3
+	1450.2.1 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		effect = { learn_language_of_culture = culture:polish }
+	}
+	1517.12.4 = {
+		death = yes
+	}
+}
+#Павел Иванович Сапега (около 1490—1579) — государственный и военный деятель Великого княжества Литовского. 
+# браславский в 1517—1547 годах, маршалок господарский в 1519—1557, воевода подляшский в 1556—1558 и новогродский с 1558[4].
+pavel_iva_sapega = {
+	name = "Pavel"
+	dynasty = sapieha
+	father = ivan_se_sapega
+	religion = "orthodox"
+	culture = "zapadnorus"
+	trait = physique_good_1
+	trait = education_martial_2
+	learning = 7
+	prowess = 9
+	1479.7.9 = {
+		birth = yes
+	}
+	1579.3.3 = {
+		death = yes
+	}
+}
+#Доброхна Сапега (? - после 1528)
+dobrohna_iv_sapega = {
+	name = "Dobroslava" #пусть
+	female = yes
+	dynasty = sapieha
+	father = ivan_se_sapega
+	religion = "orthodox"
+	culture = "zapadnorus"
+	trait = physique_good_1
+	learning = 7
+	prowess = 3
+	1477.7.7 = {
+		birth = yes
+	}
+	1528.11.23 = {
+		death = yes
+	}
+}

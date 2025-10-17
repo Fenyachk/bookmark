@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+ knight_ratnik_no_tooltip: "拉特尼基"
+ knight_ratnik_no_tooltip_plural: "拉特尼基"
+ knight_ratnik_no_tooltip_lowercase: "拉特尼基"
+ knight_ratnik_no_tooltip_lowercase_plural: "拉特尼基"
+ knight_ratnik_no_tooltip_lowercase_plural_possessive: "拉特尼基"
+ knight_ratnik_no_tooltip_lowercase_adjective: "拉特尼基"
+ knight_ratnik: "[Concept( 'knight', '$knight_ratnik_no_tooltip$' )|E]"
+ knight_ratnik_plural: "[Concept( 'knight', '$knight_ratnik_no_tooltip_plural$' )|E]"

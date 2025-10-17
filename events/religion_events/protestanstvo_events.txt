@@ -1,0 +1,46 @@
+﻿namespace = protestanstvo
+##################################
+# Forced Spawning
+# 0001 -
+# Immersive Spawning
+# 0100 -
+##################################
+# 95 Thesen - 31 Okt 1517
+protestanstvo.0001 = {
+	hidden = yes
+	scope = faith
+	trigger = {
+#		AND = {
+			current_date = 1517.10.31
+#		}
+	}
+	immediate = {
+		random_county = {
+			limit = {
+				county.holder.capital_province = { geographical_region = custom_europe_eastern_germany }
+				OR = {
+					religion = religion:christianity_religion
+					religion = religion:dualism_religion
+				}
+			}
+			weight = {
+				base = 100
+				modifier = {
+					add = 10
+					county_holder_opinion < 50
+					county_holder_opinion > 40
+				}
+				modifier = {
+					add = 25
+					county_holder_opinion < 40
+					county_holder_opinion > 30
+				}
+				modifier = {
+					add = 50
+					county_holder_opinion < 30
+				}
+			}
+			set_county_faith = faith:protestant
+		}
+	}
+}

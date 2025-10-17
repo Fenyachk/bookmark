@@ -1,0 +1,1026 @@
+﻿#ХАны монголы Северная Юань
+#Тайсун-хан Тохта-Буга сын Аджая
+TaisunUanHan = {
+	name = "Taisun"
+	dynasty_house = house_mong_sev_uan
+	father = Ajai_taisha_synElbeg
+	religion = tengri_pagan
+	trait = ambitious
+	culture = mongol
+	1410.9.18 = {
+		birth = yes
+	}
+	1451.1.1 = {
+		effect = {
+			set_relation_rival = character:EsenTaishiOirat
+		}
+	}
+	1452.1.1 = {
+		death = yes
+	}
+}
+#Махагургис Северная Юань
+MahaGurgisHan = {
+	name = "Mahagurgis"
+	dynasty_house = house_mong_sev_uan
+	father = TaisunUanHan
+	religion = tengri_pagan
+	trait = ambitious
+	culture = mongol
+	1430.1.13 = {
+		birth = yes
+	}
+	1452.1.1 = {
+		effect = {
+			set_relation_rival = character:EsenTaishiOirat
+		}
+	}
+	1461.1.1 = {
+		effect = {
+			set_relation_rival = character:UchTEmurOiratSouz
+		}
+	}
+	1465.7.24 = {
+		death = yes
+	}
+}
+#Молон хан
+MolonHanMong = {
+	name = "Molon"
+	dynasty_house = house_mong_sev_uan
+	father = TaisunUanHan
+	religion = tengri_pagan
+	trait = ambitious
+	culture = mongol
+	1437.1.13 = {
+		birth = yes
+	}
+	1466.7.24 = {
+		death = yes
+	}
+}
+#Мандуул-хан
+ManduulunHanMong = {
+	name = "Manduulun"
+	dynasty_house = house_mong_sev_uan
+	father = TaisunUanHan
+	religion = tengri_pagan
+	trait = education_diplomacy_3
+	culture = mongol
+	1438.1.13 = {
+		birth = yes
+	}
+	1465.1.13 = {
+		add_spouse = MandukhaiHatun
+	}
+	1478.7.24 = {
+		death = yes
+	}
+}
+#его жена Мандухай из онгутов
+MandukhaiHatun = {
+	name = "Mandukhai"
+	female = yes
+	religion = tengri_pagan
+	culture = ongud
+	trait = education_diplomacy_2
+	prowess = 3
+	1449.1.19 = {
+		birth = yes
+	}
+	1520.7.24 = {
+		death = yes
+	}
+}
+#Баян-Мункэ
+BeyanMunke = {
+	name = "Beyan"
+	dynasty_house = house_mong_sev_uan
+	father = TaisunUanHan #Это не так
+	religion = tengri_pagan
+	trait = education_martial_2
+	culture = mongol
+	1439.1.13 = {
+		birth = yes
+	}
+	1479.7.24 = {
+		death = yes
+	}
+}
+#его мать Шихэр Тайхо
+ShiherTaihoUryan = {
+	name = "Shiha"
+	female = yes
+	religion = tengri_pagan
+	culture = uriankhai
+	1437.1.19 = {
+		birth = yes
+	}
+	1474.7.24 = {
+		death = yes
+	}
+}
+#Первый хан Могулистана Туглук Тимур Чагатаид основатель Ветви Туглуктимуриды
+ThugluqTimurMogolistan = {
+	name = "Thugluq"
+	dynasty_house = house_tugluktimurid
+	father = 93080 #сын или внук Эсен-Буги Чагатаида
+	religion = ashari
+	culture = mongol
+	trait = arbitrary
+	1312.1.13 = {
+		birth = yes
+	}
+	1362.7.24 = {
+		death = yes
+	}
+}
+#Сын его Ильяс Ilyas
+IlyasHojMogolistan = {
+	name = "Ilyas"
+	dynasty_house = house_tugluktimurid
+	father = ThugluqTimurMogolistan
+	religion = ashari
+	culture = mongol
+	1345.1.13 = {
+		birth = yes
+	}
+	1370.7.24 = {
+		death = yes
+	}
+}
+#Хан в 1408-16 Мухаммад-хан Первый ревностный мусульманин сын Хизр-Ходжи напишу Ильяса
+Muhammad1Mogolistan = {
+	name = "Muhammad"
+	dynasty_house = house_tugluktimurid
+	father = IlyasHojMogolistan
+	religion = ashari
+	trait = ambitious
+	culture = mongol
+	1366.1.13 = {
+		birth = yes
+	}
+	1416.7.24 = {
+		death = yes
+	}
+}
+#Хан Могулистана Увайс султан-хан Туглуктимуриды Боржигин
+UvaisMogolistan = {
+	name = "Uvais"
+	father = Muhammad1Mogolistan
+	dynasty_house = house_tugluktimurid
+	religion = ashari
+	trait = ambitious
+	culture = mongol
+	1389.1.13 = {
+		birth = yes
+	}
+	1428.7.24 = {
+		death = yes
+	}
+}
+#Йунус-хан Юнунус хан Хан Моголистана
+YunusMogolistan = {
+	name = "Yunus"
+	dynasty_house = house_tugluktimurid
+	father = UvaisMogolistan
+	religion = ashari
+	culture = mongol
+	trait = education_martial_2
+	prowess = 11
+	1416.1.13 = {
+		birth = yes
+	}
+	1462.1.3 = {
+		add_spouse = Shahbigum_Badakhshi
+	}
+	1487.7.24 = {
+		death = yes
+	}
+}
+#Султан Махмуд-хан I, хан западного Могулистана, признанный верховным ханом, сын Юнус-хана
+SMahmud1Mogolistan = {
+	name = "Mahmud"
+	dynasty_house = house_tugluktimurid
+	father = YunusMogolistan
+	mother = Shahbigum_Badakhshi
+	religion = ashari
+	culture = mongol
+	trait = education_learning_2
+	trait = calm
+	prowess = 2 #мирный
+	martial = 2 #мирный
+	1463.1.23 = {
+		birth = yes
+	}
+	1508.7.24 = {
+		death = {
+			death_reason = death_execution #казнили у Ходжента по приказу Шейбанидов
+		}
+	}
+}
+#Султан-Мухаммад сын Махмуд-хана
+SultanMuhammadMogul = {
+	name = "Muhammad"
+	dynasty_house = house_tugluktimurid
+	father = SMahmud1Mogolistan
+	religion = ashari
+	trait = ambitious
+	culture = mongol
+	1486.1.23 = {
+		birth = yes
+	}
+	1508.7.24 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+#дочь Юнус Йунус хана Кутлуг-Нигар-ханым
+Qutlugh_Nigar_Khanum = {
+	name = "Qutlugh_Nigar"
+	female = yes
+	dynasty_house = house_tugluktimurid
+	father = YunusMogolistan
+	religion = ashari
+	trait = ambitious
+	culture = mongol
+	1459.1.23 = {
+		birth = yes
+	}
+	1505.7.24 = {
+		death = yes
+	}
+}
+#Султан Ахмад-хан I хан Восточного и Центрального Могулистана,Турфанского округа
+SAhmadMogolistan = {
+	name = "Ahmad"
+	dynasty_house = house_tugluktimurid
+	father = YunusMogolistan
+	mother = Shahbigum_Badakhshi
+	religion = ashari
+	trait = ambitious
+	culture = mongol
+	1465.1.3 = {
+		birth = yes
+	}
+	1504.7.24 = {
+		death = yes
+	}
+}
+#Султан-Саид-хан основатель Яркендского ханства
+Sultan_Said_Khan = {
+	name = "Said"
+	dynasty_house = house_tugluktimurid
+	father = SAhmadMogolistan
+	religion = ashari
+	trait = ambitious
+	culture = mongol
+	1487.1.3 = {
+		birth = yes
+	}
+	1533.7.24 = {
+		death = yes
+	}
+}
+#Мансур-хан  хан Восточного (1501—1522) и Центрального (1501—1504) Моголистана, а также Турфанского округа (1501—1544),
+Mansur_Khan_mog = {
+	name = "Mansur"
+	dynasty_house = house_tugluktimurid
+	father = SAhmadMogolistan
+	religion = ashari
+	culture = mongol
+	1484.8.4 = {
+		birth = yes
+	}
+	1544.4.4 = {
+		death = yes
+	}
+}
+#Эмин-Ходжа-султан
+Amin_Hoja_SultanMog = {
+	name = "Amin"
+	dynasty_house = house_tugluktimurid
+	father = SAhmadMogolistan
+	religion = ashari
+	trait = ambitious
+	culture = mongol
+	1489.1.3 = {
+		birth = yes
+	}
+	1546.7.24 = {
+		death = yes
+	}
+}
+#Эсен-Буга
+Esen_BuqaMogolistan = {
+	name = "Esen_Buqa"
+	dynasty_house = house_tugluktimurid
+	father = UvaisMogolistan
+	religion = ashari
+	trait = ambitious
+	culture = mongol
+	1415.1.13 = {
+		birth = yes
+	}
+	1462.7.24 = {
+		death = yes
+	}
+}
+#Сын Эсен-Буши Дуст Мухаммад
+DustMuhammadMogolistan = {
+	name = "DostMuhammad"
+	dynasty_house = house_tugluktimurid
+	father = Esen_BuqaMogolistan
+	religion = ashari
+	trait = ambitious
+	culture = mongol
+	1440.1.13 = {
+		birth = yes
+	}
+	1469.7.24 = {
+		death = yes
+	}
+}
+#Кебек сын Дуст Мухаммад-хана хан Восточного Моголистана 1468—1473
+KebekVostMogol = {
+	name = "Kebek"
+	dynasty_house = house_tugluktimurid
+	father = DustMuhammadMogolistan
+	religion = ashari
+	culture = mongol
+	1456.1.4 = {
+		birth = yes
+	}
+	1473.1.4 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+###
+#19-9-23
+#Чин Тимур-султан - был сыном Султан-Ахмад-хана I, хана Восточного и Центрального Моголистана
+Chintimur_u1529 = {
+	name = "Chintimur"
+	dynasty_house = house_tugluktimurid
+	father = SAhmadMogolistan
+	religion = ashari
+	culture = mongol
+	trait = education_martial_1
+	1488.8.8 = {
+		birth = yes
+	}
+	1529.2.9 = {
+		death = yes
+	}
+}
+#Шах-Султан-Мухаммад Бадахши, правитель Бадахшана
+ShS_Muhammad_Badakhshi = {
+	name = "Muhammad"
+	dynasty = Badakhshi
+	religion = "ismaili" #?
+	culture = "afghan"
+	stewardship = 6
+	1420.11.20 = {
+		birth = yes
+	}
+	1510.1.1 = {
+		death = yes
+	}
+}
+#Шах-бигум Бадахши
+Shahbigum_Badakhshi = {
+	name = "Shahbigum"
+	female = yes
+	dynasty = Badakhshi
+	father = ShS_Muhammad_Badakhshi
+	religion = "maturidi"
+	culture = "afghan"
+	1444.4.4 = {
+		birth = yes
+	}
+	1522.2.2 = {
+		death = yes
+	}
+}
+###Хошуты Алашаня
+fik_Khoshut_1 = {
+	name = "Bogen"
+	dynasty = Khoshut
+	religion = "tengri_pagan"
+	culture = "mongol"
+	1440.1.1 = {
+		birth = yes
+	}
+	1466.1.1 = {
+		add_spouse = fik_mong_zhe_teki
+	}
+	1511.2.2 = {
+		death = yes
+	}
+}
+fik_mong_zhe_teki = {
+	name = "Tekine"
+	female = yes
+	religion = tengri_pagan
+	culture = mongol
+	1450.2.20 = {
+		birth = yes
+	}
+	1522.7.20 = {
+		death = yes
+	}
+}
+fik_Khoshut_2 = {
+	name = "Akhutai"
+	dynasty = Khoshut
+	father = fik_Khoshut_1
+	mother = fik_mong_zhe_teki
+	religion = "tengri_pagan"
+	culture = "mongol"
+	1469.6.9 = {
+		birth = yes
+	}
+	1533.2.2 = {
+		death = yes
+	}
+}
+fik_Khoshut_zhe1 = {
+	name = "Tekine"
+	female = yes
+	dynasty = Khoshut
+	father = fik_Khoshut_1
+	mother = fik_mong_zhe_teki
+	religion = "tengri_pagan"
+	culture = "mongol"
+	1474.1.1 = {
+		birth = yes
+	}
+	1522.2.1 = {
+		death = yes
+	}
+}
+# перенос
+### 1490 МОД
+#первые казахские ханы Жанибек и Керей
+#Дед керея Токтакия хан синей Орды сын Урус-хана Тукатимурида
+Toqtaqiya_hadSiney = {
+	name = "Toqtaqiya"
+	dynasty_house = house_tore_chingizidkaz
+	father = UrusTukatim
+	religion = ashari
+	culture = cuman
+	1380.1.30 = {
+		birth = yes
+	}
+	1433.4.11 = {
+		death = yes
+	}
+}
+#Болат отец Керея
+BulatOtezKerei = {
+	name = "Bolat"
+	dynasty_house = house_tore_chingizidkaz
+	father = Toqtaqiya_hadSiney
+	religion = ashari
+	culture = cuman
+	1400.1.30 = {
+		birth = yes
+	}
+	1455.4.11 = {
+		death = yes
+	}
+}
+#Койричак Младший сын Урус-хана и отец Барак-хана
+Quyurchuq_synUrusa = {
+	name = "Quyurchuq"
+	dynasty_house = house_tore_chingizidkaz
+	father = UrusTukatim
+	religion = ashari
+	culture = mongol
+	1340.12.3 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+#Барак хан Золотой Орды в 1423—1426 и 1427—1428 годах
+Barak_Khan = {
+	name = "Barak"
+	dynasty_house = house_tore_chingizidkaz
+	father = Quyurchuq_synUrusa
+	religion = ashari
+	culture = mongol
+	1369.12.3 = {
+		birth = yes
+	}
+	1429.1.1 = {
+		death = yes
+	}
+}
+#Жанибек-хан сын Барака
+Janibeg1Kazhan = {
+	name = "Zhanibek"
+	dynasty_house = house_tore_chingizidkaz
+	father = Barak_Khan
+	religion = maturidi
+	culture = cuman
+	1428.12.3 = {
+		birth = yes
+	}
+	1449.1.2 = {
+		set_relation_friend = character:Kerei2Kazhan
+		add_spouse = Jagan_begim_hanym
+	}
+	1465.1.2 = {
+		culture = kazakh_hybrid
+	}
+	1480.4.11 = {
+		death = yes
+	}
+}
+## 2 сына Жанибека - Еренши и Махмуд
+# Иренджи-султан 1-й сын к зиме 1470 стал владельцем Саурана, Боролся с Шейбанидами
+erenshi_sult_tore = {
+	name = "Zhirenshe" # Жиренше = Еренши = Иренджи
+	dynasty_house = house_tore_chingizidkaz
+	father = Janibeg1Kazhan
+	religion = ashari
+	culture = cuman
+	trait = education_martial_2
+	trait = infertile #неизвестно о детях
+	prowess = 9
+	1446.4.6 = {
+		birth = yes
+	}
+	1465.1.2 = {
+		culture = kazakh_hybrid
+	}
+	#? упоминаний нет
+	1471.7.1 = {
+		death = yes
+	}
+}
+# Махмуд-султан, 2-й сын Жанибека - захватил Сузак
+mahmud_sult_tore = {
+	name = "Mahmud"
+	dynasty_house = house_tore_chingizidkaz
+	father = Janibeg1Kazhan
+	religion = ashari
+	culture = cuman
+	trait = education_martial_2
+	trait = lifestyle_blademaster
+	prowess = 11
+	martial = 14
+	1448.6.5 = {
+		birth = yes
+	}
+	1465.1.2 = {
+		culture = kazakh_hybrid
+		trait = scarred
+	}
+	1470.1.1 = {
+		employer = erenshi_sult_tore
+	}
+	#погиб в сражении с Шейбанидами, братом Мухаммеда Махмудом
+	1476.7.6 = {
+		death = { death_reason = death_battle }
+	}
+}
+#Жадик-султан Девятый сын хана Жанибека
+Zhadik_sultan_Kazhan = {
+	name = "Zhadik"
+	dynasty_house = house_tore_chingizidkaz
+	father = Janibeg1Kazhan
+	mother = Jagan_begim_hanym
+	religion = maturidi
+	culture = kazakh_hybrid
+	trait = education_martial_1
+	1465.1.22 = {
+		birth = yes
+	}
+	1520.4.11 = {
+		death = yes
+	}
+}
+#Тыныш сын седьмой сын казахского хана Жанибека
+tynysh_sult_tore = {
+	name = "Tynysh"
+	dynasty_house = house_tore_chingizidkaz
+	father = Janibeg1Kazhan
+	mother = Jagan_begim_hanym
+	religion = maturidi
+	culture = kazakh_hybrid
+	1454.11.11 = {
+		birth = yes
+	}
+	1513.3.3 = {
+		death = yes
+	}
+}
+#Султан Джаниш сын хана Жанибека
+Jahnish_sultan_Kazhan = {
+	name = "Jahnish"
+	dynasty_house = house_tore_chingizidkaz
+	father = Janibeg1Kazhan
+	mother = Jagan_begim_hanym
+	religion = maturidi
+	culture = kazakh_hybrid
+	1453.5.13 = {
+		birth = yes
+	}
+	1510.4.11 = {
+		death = yes
+	}
+}
+#Ахмет - сын Джаниша
+Ahmet_syn_Jahnisha = {
+	name = "Ahmet"
+	dynasty_house = house_tore_chingizidkaz
+	father = Jahnish_sultan_Kazhan
+	religion = maturidi
+	culture = kazakh_hybrid
+	1473.7.16 = {
+		birth = yes
+	}
+	1509.3.19 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+#Шигай Шыгай сын Жадика Хан Казахского ханства 1580 — 1582
+#Джаган-бигим Ханым жена казахского хана Жанибека, мать Касым хана
+Jagan_begim_hanym = {
+	name = "Jagan"
+	female = yes
+	father = Ahmed_Fik_Ded_Sheiban
+	religion = maturidi
+	culture = uzbek
+	1433.12.3 = {
+		birth = yes
+	}
+	1487.4.11 = {
+		death = yes
+	}
+}
+# Керей
+Kerei2Kazhan = {
+	name = "Kerey"
+	dynasty_house = house_tore_chingizidkaz
+	father = BulatOtezKerei
+	religion = maturidi
+	culture = cuman
+	1425.12.3 = {
+		birth = yes
+	}
+	1465.1.2 = {
+		culture = kazakh_hybrid
+	}
+	1474.4.11 = {
+		death = yes
+	}
+}
+#Бурундук хан захватил Сузак, Сауран, Сыгнак
+Burunduk3Kazhan = {
+	name = "Burundyk"
+	dynasty_house = house_tore_chingizidkaz
+	father = Kerei2Kazhan
+	religion = maturidi
+	culture = cuman
+	stewardship = 6
+	1452.12.30 = {
+		birth = yes
+	}
+	1465.1.2 = {
+		culture = kazakh_hybrid
+	}
+	1469.12.11 = {
+		add_pressed_claim = title:c_sighnaq #Претензия на Сыгнак и СУзак
+	}
+	1470.1.1 = {
+		add_spouse = Alya_fik_ZhenaBurund
+	}
+	
+	1489.6.22 = {
+		add_realm_law_skip_effects = crown_authority_2
+		add_realm_law_skip_effects = single_heir_succession_law
+	}
+	1511.4.11 = {
+		death = yes
+	}
+}
+#его жена Алия сложая пасхалка-шутка Алия Бурун...
+Alya_fik_ZhenaBurund = {
+	name = "Alya"
+	female = yes
+	religion = maturidi
+	culture = kazakh_hybrid
+	1449.1.3 = {
+		birth = yes
+	}
+	1520.4.11 = {
+		death = yes
+	}
+}
+#Известна его дочь Дадым
+Dadym_doch_Burun = {
+	name = "Dadym"
+	female = yes
+	dynasty_house = house_tore_chingizidkaz
+	father = Burunduk3Kazhan
+	mother = Alya_fik_ZhenaBurund
+	religion = maturidi
+	culture = kazakh_hybrid
+	1476.12.30 = {
+		birth = yes
+	}
+	1557.4.11 = {
+		death = yes
+	}
+}
+#Михр-Султан-ханым дочь жена Мухаммед Тимур-султан
+Mihrsultan_hanym = {
+	name = "Mihrsultan"
+	female = yes
+	dynasty_house = house_tore_chingizidkaz
+	father = Burunduk3Kazhan
+	mother = Alya_fik_ZhenaBurund
+	religion = maturidi
+	culture = kazakh_hybrid
+	1478.7.8 = {
+		birth = yes
+	}
+	1569.4.11 = {
+		death = yes
+	}
+}
+#Касым -  в качестве даты смерти также указываются 1518 и 1523/1524 год
+Kasim4Kazhan = {
+	name = "Kasym"
+	dynasty_house = house_tore_chingizidkaz
+	father = Janibeg1Kazhan
+	mother = Jagan_begim_hanym
+	religion = ashari
+	culture = cuman
+	1451.11.30 = {
+		birth = yes
+	}
+	1465.1.2 = {
+		culture = kazakh_hybrid
+	}
+	1521.4.11 = {
+		death = yes
+	}
+}
+#Мамаш-хан старший сын Касыма
+Mamash_Kazah_han = {
+	name = "Mamash"
+	dynasty_house = house_tore_chingizidkaz
+	father = Kasim4Kazhan
+	religion = maturidi
+	culture = kazakh_hybrid
+	1480.11.30 = {
+		birth = yes
+	}
+	1523.4.11 = {
+		death = yes
+	}
+}
+#Абулхаир-султан вероятно сын Касыма или же Шейбанид
+Abulhair_VerosynKasyma = {
+	name = "Abulhair"
+	dynasty_house = house_tore_chingizidkaz
+	father = Kasim4Kazhan
+	religion = maturidi
+	culture = kazakh_hybrid
+	1482.11.30 = {
+		birth = yes
+	}
+	1511.4.11 = {
+		death = yes
+	}
+}
+#Хак-Назар-хан сын Касым-хана позже
+HaqnazarKazah_han = {
+	name = "Mamash"
+	dynasty_house = house_tore_chingizidkaz
+	father = Kasim4Kazhan
+	religion = maturidi
+	culture = kazakh_hybrid
+	1509.11.30 = {
+		birth = yes
+	}
+	1580.4.11 = {
+		death = yes
+	}
+}
+#Киргиз племени Монолдор
+Monoldor_Kirghiz = {
+	name = "Alykul"
+	dynasty = Monoldor
+	religion = maturidi
+	culture = kirghiz
+	trait = education_martial_1
+	1450.1.21 = {
+		birth = yes
+	}
+	1527.4.11 = {
+		death = yes
+	}
+}
+#Киргиз племени... Черик, родственное монолодорам
+kirgizcherik_1 = {
+	name = "Jusup"
+	dynasty = kirgiz_cherik
+	religion = maturidi
+	culture = kirghiz
+	1452.2.2 = {
+		birth = yes
+	}
+	1511.4.11 = {
+		death = yes
+	}
+}
+##19-90-23
+#Адик-султан, 4-й сын хана Жанибека, а также Тахир-хан, Буйдаш-хан
+#Адик-султан 4-й сын хана Жанибека НЕ путать с Жадиком
+Adik_sultan_4sZhani = {
+	name = "Adik"
+	dynasty_house = house_tore_chingizidkaz
+	father = Janibeg1Kazhan
+	mother = Jagan_begim_hanym
+	religion = maturidi
+	culture = kazakh_hybrid
+	1458.5.8 = {
+		birth = yes
+	}
+	1503.3.3 = {
+		death = yes
+	}
+}
+#Тахир-хан
+Tahir_han_Kazhan = {
+	name = "Tahir"
+	dynasty_house = house_tore_chingizidkaz
+	father = Adik_sultan_4sZhani
+	religion = maturidi
+	culture = kazakh_hybrid
+	1486.8.6 = {
+		birth = yes
+	}
+	1533.3.3 = {
+		death = yes
+	}
+}
+#Буйдаш-хан
+Buydash_han_Kazhan = {
+	name = "Buydash"
+	dynasty_house = house_tore_chingizidkaz
+	father = Adik_sultan_4sZhani
+	religion = maturidi
+	culture = kazakh_hybrid
+	1487.11.26 = {
+		birth = yes
+	}
+	1559.12.12 = {
+		death = yes
+	}
+}
+#Бауш хан - ТОЛЬКО с 1495
+Baush_han_Kazhan = {
+	name = "Baush"
+	dynasty_house = house_tore_chingizidkaz
+	father = Adik_sultan_4sZhani
+	religion = maturidi
+	culture = kazakh_hybrid
+	1495.2.5 = {
+		birth = yes
+	}
+	1537.12.12 = {
+		death = yes
+	}
+}
+## Последние кыпчаки своей культуры  kipchak
+last_kipchak_1 = {
+	name = "Tugor"
+	dynasty = Ozen_shayan #шутка - графства Атаманску и Кбумак похожи на речного рака, на казахском озен шаян - речной рак, специально искал
+	religion = tengri_pagan
+	culture = kipchak
+	trait = education_diplomacy_1
+	trait = physique_good_3
+	1410.1.1 = {
+		birth = yes
+	}
+	1479.1.12 = {
+		death = yes
+	}
+}
+last_kipchak_2 = {
+	name = "Uzluk"
+	father = last_kipchak_1
+	religion = tengri_pagan
+	culture = kipchak
+	trait = infertile
+	trait = physique_good_1
+	1433.3.5 = {
+		birth = yes
+	}
+	1537.12.12 = {
+		death = yes
+	}
+}
+## Чахары, цахары - достигли расцвета при Баяне 
+mongol_chahar_1 = {
+	name = "Bukhatu_Salji"
+	dynasty = Chahar
+	religion = tengri_pagan
+	culture = mongol
+	trait = education_learning_2
+	prowess = 6
+	stewardship = 4
+	1443.3.5 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		trait = loyal
+	}
+	1511.12.12 = {
+		death = yes
+	}
+}
+mongol_chahar_2 = {
+	name = "BelgU_nU_tei"
+	dynasty = Chahar
+	father = mongol_chahar_1
+	religion = tengri_pagan
+	culture = mongol
+	1464.11.3 = {
+		birth = yes
+	}
+	1522.12.12 = {
+		death = yes
+	}
+}
+mongol_chahar_3 = {
+	name = "Jeguredei"
+	dynasty = Chahar
+	father = mongol_chahar_1
+	religion = tengri_pagan
+	culture = mongol
+	1468.2.11 = {
+		birth = yes
+	}
+	1533.12.12 = {
+		death = yes
+	}
+}
+mongol_chahar_4 = {
+	name = "Khaidu"
+	dynasty = Chahar
+	father = mongol_chahar_2
+	religion = tengri_pagan
+	culture = mongol
+	1484.1.1 = {
+		birth = yes
+	}
+	1544.12.12 = {
+		death = yes
+	}
+}
+mongol_pastuh_1 = {
+	name = "Jeguredei"
+	religion = tengri_pagan
+	culture = mongol
+	1444.4.5 = {
+		birth = yes
+	}
+	1522.12.12 = {
+		death = yes
+	}
+}
+mongol_pastuh_2 = {
+	name = "BegU_nU_tei"
+	religion = tengri_pagan
+	culture = mongol
+	1450.4.15 = {
+		birth = yes
+	}
+	1511.12.12 = {
+		death = yes
+	}
+}
+mongol_pastuh_3 = {
+	name = "Baaridai"
+	religion = tengri_pagan
+	culture = mongol
+	trait = one_eyed
+	1447.4.5 = {
+		birth = yes
+	}
+	1502.12.12 = {
+		death = yes
+	}
+}

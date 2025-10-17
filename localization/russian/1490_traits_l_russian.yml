@@ -1,0 +1,17 @@
+﻿l_russian:
+ trait_1490_yorkist_desc: "Йоркист"
+ trait_1490_yorkist: "Йоркист"
+ trait_1490_yorkist_character_desc: "Этот персонаж на данный момент на стороне дома Йорков"
+ trait_1490_yorkist_character: "Этот персонаж на данный момент на стороне дома Йорков"
+ trait_1490_lancastrian_desc: "Ланкастерец"
+ trait_1490_lancastrian: "Ланкастерец"
+ trait_1490_lancastrian_character_desc: "Этот персонаж на данный момент на стороне дома Ланкастеров"
+ trait_1490_lancastrian_character: "Этот персонаж на данный момент на стороне дома Ланкастеров"
+ trait_inkvizitor: "Инквизитор"
+ trait_inkvizitor_character_desc: "Этот персонаж ищет ересь даже там, где её по общему мнению быть не может"
+ trait_inkvizitor_character: "Этот персонаж - член святой инквизиции"
+ trait_inkvizitor_desc: "Этот персонаж ищет ересь даже там, где её по общему мнению быть не может"
+ #
+ trait_1490_preacher: "Проповедник"
+ trait_1490_preachert_desc: "Этот персонаж проповедует религию"
+ trait_1490_preacher_character_desc: "Этот персонаж проповедует религию" #This character preaches religion

@@ -1,0 +1,10 @@
+﻿passages_doutremer_modifier = {
+	monthly_prestige = 0.6
+	monthly_martial_lifestyle_xp_gain_mult = 0.10
+	martial_per_stress_level = 1
+}
+passages_doutremer = {
+	monthly_prestige = 0.6
+	monthly_martial_lifestyle_xp_gain_mult = 0.10
+	martial_per_stress_level = 1
+}

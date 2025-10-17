@@ -1,0 +1,30 @@
+﻿#greki-kiprioty, Greek Cypriots
+cypriot = {
+	color = { 0.12 0.11 0.56 }
+	created = 1454.1.1
+	parents = { greek }
+	ethos = ethos_egalitarian
+	heritage = heritage_byzantine
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_isolationist
+		tradition_maritime_mercantilism
+		tradition_agrarian
+	}
+	dlc_tradition = {
+		trait = tradition_religious_patronage
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_religious_patronage
+	}
+	name_list = name_list_greek
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}

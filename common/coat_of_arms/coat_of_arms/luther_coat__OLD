@@ -1,0 +1,86 @@
+#герб Мартина Лютера от babrusik1, Luther прислал Voidex -house_luther - house_luther - пару ошибок в error log
+#[19:27:42][E][coat_of_arms_render_description.cpp:190]: Failed to find textured emblem texture at path: gfx/coat_of_arms/colored_emblems/ps_small_charge_heart.dds near file: common/coat_of_arms/coat_of_arms/1490_herby_dynastiy.txt line: 18971
+#[19:27:42][E][coat_of_arms_render_description.cpp:190]: Failed to find textured emblem texture at path: gfx/coat_of_arms/colored_emblems/ps_charge_rose.dds near file: common/coat_of_arms/coat_of_arms/1490_herby_dynastiy.txt line: 18971
+Luther_ex={
+	pattern="pattern_solid.dds"
+	color1=rgb { 186 180 176 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=black
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.760000 0.760000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue_light
+		color2=yellow
+		texture="ce_tamgha_roundel_frame.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.850000 0.850000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=green
+		color3=yellow_light
+		texture="ce_flower.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.860000 0.870000 }
+			depth=2.010000
+		}
+
+	}
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ps_small_charge_heart.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.290000 0.290000 }
+			depth=3.010000
+		}
+
+	}
+	colored_emblem={
+		color1=white
+		color2=green
+		texture="ps_charge_rose.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.750000 0.750000 }
+			depth=4.010000
+		}
+
+	}
+	colored_emblem={
+		color1=black
+		texture="ce_religion_christianity_generic.dds"
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.210000 0.190000 }
+		}
+
+	}
+	colored_emblem={
+		color1=red
+		texture="ce_heart.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.310000 0.290000 }
+			depth=1.010000
+		}
+	}
+}

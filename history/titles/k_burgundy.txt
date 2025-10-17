@@ -1,0 +1,2609 @@
+#08-04-2025
+k_burgundy = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 24 }
+	1454.1.1 = { change_development_level = 35 }
+	1466.1.1 = { change_development_level = 37 }
+	1477.1.1 = { change_development_level = 39 }
+	1488.1.1 = { change_development_level = 42 }
+	
+	771.12.4 = {
+		holder = 6392	#Charlemagne
+	}
+	814.1.2 = {
+		holder = 90095	#Louis le Pieux
+	}
+	840.1.1 = {
+		holder = 30227	#Lothaire I
+	}
+	
+	#Treaty of Verdun 843 - Burgundy part of Lotharingia
+	#Treaty of Pr¸m 855 - Burgundy independant, as kingdom of Provence
+	855.8.23 = {
+		holder = 90103 #Charles of Provence
+		liege = 0
+	}
+	863.1.25 = {
+		#Kingdom split in 2 after Charles of PRovence's death
+		holder = 0
+	}
+	#Kingdom of Burgundy/Provence split for some time
+	
+	#Reunification of the Two Burgundies
+	933.1.1 = {
+		holder = 1144 #Rudolf II of Burgundy
+		liege = e_hre
+	}
+	937.12.1 = {
+		holder = 1146	#Conrad of Burgundy
+	}
+	993.10.19 = {
+		holder = 1148	#Rudolf III of Burgundy
+	}
+	1032.9.5 = {
+		holder = 0 #Incorporated into the HRE
+	}
+	#1032.1.1 = {
+	#	holder = 1312 #Konrad II of HRE
+	#}
+	#1039.6.4 = {
+	#	holder = 1314 #Heinrich III of HRE
+	#}
+	#1056.5.10 = {
+	#	holder = 1316 #Heinrich IV of HRE
+	#}
+	#1106.7.8 = {
+	#	holder = 7901 #Heinrich V of HRE
+	#}
+	#1125.1.1 = {
+	#	holder = 30219 #Lothar III von Supplingburg
+	#}
+	#1137.12.4 = {
+	#	holder = 7903 #Konrad III von Hohenstaufen
+	#}
+	#1152.2.15 = {
+	#	holder = 212501 #Friedrich I von Hohenstaufen
+	#}
+	#1190.6.10 = {
+	#	holder = 212507 #Heinrich VI von Hohenstaufen
+	#}
+	##-> Last ruler is Charles IV of the HRE in 1365-1366
+	##
+	1450.1.1 = {
+		name = "ARELAT"
+	}
+}
+
+d_provence = {
+	763.1.1 = {
+		liege = k_lotharingia
+	}
+	763.1.1 = {
+		holder = 194040 #Thomas
+	}
+	855.1.1 = {
+		liege = k_burgundy
+	}
+	855.1.1 = {
+		holder = 90103
+	}
+	863.1.25 = {
+		liege = k_italy
+		holder = 30228
+	}
+	875.8.12 = {
+		holder = 90104
+	}
+	877.6.10 = {
+		liege = k_burgundy
+		holder = 90123
+	}
+	879.1.11 = {
+		holder = 7981
+	}
+	887.2.19 = {
+		holder = 1164
+	}
+	928.1.2 = {
+		holder = 7923
+	}
+	933.1.1 = {
+		holder = 168168
+	}
+	935.9.13 = {
+		holder = 1144
+	}
+	937.7.11 = {
+		holder = 168167
+	}
+	952.12.17 = {
+		holder = 40800
+	}
+	957.6.6 = {
+		holder = 402
+	}
+	993.1.1 = {
+		holder = 40801
+	}
+	1008.1.2 = {
+		holder = 40803
+	}
+	1014.1.2 = {
+		holder = 404
+	}
+	1020.1.1 = {
+		holder = 40804
+	}
+	1025.1.1 = {
+		holder = 40805
+	}
+	1030.1.1 = {
+		holder = 406
+	}
+	1032.9.5 = {
+		liege = e_hre
+	}
+	1040.1.1 = {
+		holder = 410
+	}
+	1050.1.1 = {
+		holder = 40802
+	}
+	1063.1.1 = {
+		holder = 420
+	}
+	1097.1.2 = {
+		holder = 409
+	}
+	1112.1.1 = {
+		holder = 210508
+	}
+	1131.1.19 = {
+		holder = 40807
+	}
+	1144.3.1 = {
+		holder = 40808
+	}
+	1166.1.1 = {
+		holder = 71638
+	}
+	1167.1.1 = {
+		holder = 210500
+	}
+	1173.1.1 = {
+		holder = 71640
+		liege = k_aragon # delegated authority by the king of Aragon
+	}
+	1181.4.5 = {
+		holder = 210514
+	}
+	1185.1.1 = {
+		holder = 210502
+	}
+	1209.12.1 = {
+		holder = 210517
+	}
+	1245.8.19 = {
+		holder = 455407
+	}
+	1246.1.1 = {
+		holder = 455406
+		liege = k_france
+	}
+	1266.2.26 = {
+		liege = k_sicily
+	}
+	1285.1.7 = {
+		holder = 461710
+	}
+	1302.8.31 = {
+		liege = k_naples
+	}
+	1309.5.5 = {
+		holder = 461700
+	}
+	
+	##
+	1343.1.20 = {
+		holder = 461703 #yadob Korol Giovanna I - kak graf Provansa i Forkalie
+	}
+	#v 1367 Provans zahvachen Ludovikom 1
+	1367.1.1 = {
+		holder = 0
+		liege = k_france
+	}
+	1444.1.2 = {
+		liege = k_france
+	}
+	1434.1.30 = {
+		holder = ReneDobrAnju
+	}
+	1469.1.1 = {
+		holder = Charles5Maine
+		liege = k_france
+	}
+	1469.12.31 = {
+		effect = { set_capital_county = title:c_provence }
+	}
+	1470.1.1 = { de_jure_liege = k_france  }
+	1481.12.10 = {
+		holder = 0 #domen
+	}
+	#graf provansa - korol Franzii
+}
+
+
+c_provence = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 29 }
+	1454.1.1 = { change_development_level = 42 }
+	1466.1.1 = { change_development_level = 44 }
+	1488.1.1 = { change_development_level = 47 }
+	
+	#Karling
+	763.1.1 = {
+		liege = k_lotharingia
+	}
+	763.1.1 = {
+		holder = 194040 #Thomas
+	}
+	#Bosonids
+	801.1.1 = {
+		holder = 7976
+	}
+	855.1.1 = {
+		liege = "d_provence"
+	}
+	855.1.1 = {
+		holder = 7561 #Boson
+		liege = k_italy
+	}
+	874.1.1 = {
+		holder = 7981
+	}
+	879.1.1 = {
+		holder = 7921
+	}
+	895.1.1 = {
+		holder = 7923
+	}
+	923.1.1 = {
+		holder = 7980
+	}
+	934.1.1 = {
+		holder = 400
+	}
+	961.1.1 = {
+		holder = 402
+	}
+	993.1.1 = {
+		holder = 40801
+	}
+	1008.1.2 = {
+		holder = 40803
+	}
+	1014.1.2 = {
+		holder = 404
+	}
+	1020.1.1 = {
+		holder = 40804
+	}
+	1025.1.1 = {
+		holder = 40805
+	}
+	1030.1.1 = {
+		holder = 406
+	}
+	1040.1.1 = {
+		holder = 410
+	}
+	1050.1.1 = {
+		holder = 40802
+	}
+	1063.1.1 = {
+		holder = 420
+	}
+	1097.1.2 = {
+		holder = 409
+	}
+	1112.1.1 = {
+		holder = 210508
+	}
+	1131.1.19 = {
+		holder = 40807
+	}
+	1144.3.1 = {
+		holder = 40808
+	}
+	1166.1.1 = {
+		holder = 71638
+	}
+	1167.1.1 = {
+		holder = 210500
+	}
+	1173.1.1 = {
+		holder = 71640
+	}
+	1181.4.5 = {
+		holder = 210514
+	}
+	1185.1.1 = {
+		holder = 210502
+	}
+	1209.12.1 = {
+		holder = 210517
+	}
+	1245.8.19 = {
+		holder = 455407
+	}
+	1246.1.1 = {
+		holder = 455406
+	}
+	1285.1.7 = {
+		holder = 461710
+	}
+	1309.5.5 = {
+		holder = 461700
+	}
+	##
+	1343.1.20 = {
+		holder = 461703 #yadob Koroleva Giovanna I - kak graf Provansa i Forkalie
+	}
+	#v 1367 Provans zahvachen Ludovikom 1
+	1367.1.1 = {
+		holder = Ludov1AnjouValois #kak graf Provansa
+	}
+	1384.9.20 = {
+		holder = Ludov2AnjouValois #kak graf Provansa
+	}
+	1417.4.29 = {
+		holder = Ludov3AnjouValois #kak graf Provansa
+	}
+	1434.1.30 = {
+		holder = ReneDobrAnju #1434‚Äî1475
+		liege = k_france
+	}
+	1469.1.1 = {
+		holder = Charles5Maine #ne 1480.7.10 posle smerti Rene Dobrogo
+		liege = k_france
+	}
+	1481.12.10 = {
+		holder = Ludov11Valua #korol Frantsii
+	}
+	1481.12.31 = {
+		holder = palamede_forbin #gubernator Provansa, Forkalie 1481ñ83 i Dofine 1481ñ82
+		liege = k_france
+	}
+	1483.8.30 = {
+		holder = Karl8LubezValua #korol Frantsii
+	}
+	1487.9.1 = {
+		holder = Lodovico2Vasto #gubernator Provansa
+		government = republic_government
+		liege = k_france
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+}
+
+
+c_nice = {
+	756.1.1 = {
+		liege = k_italy
+	}
+	756.1.1 = {
+		holder = 190330 #Liutprand
+	}
+	
+	860.1.1 = {
+		liege = "k_italy"
+	}
+	860.1.1 = {
+		government = theocracy_government
+		holder = 168009
+	}
+	1024.7.13 = {
+		liege = "d_provence" #d_genoa
+	}
+	1066.1.1 = {
+		holder = 20315
+	}
+	1074.1.1 = {
+		holder = 144585
+	}
+	1078.1.1 = {
+		holder = 144586
+	}
+	1108.1.1 = {
+		holder = 144587
+	}
+	1114.1.1 = {
+		holder = 144588
+	}
+	1149.1.1 = {
+		holder = 144589
+	}
+	1164.1.1 = {
+		holder = 144590
+	}
+	1182.1.1 = {
+		holder = 144591
+	}
+	1191.1.1 = {
+		holder = 144592
+	}
+	1207.1.1 = {
+		holder = 144593
+	}
+	1236.1.1 = {
+		holder = 144594
+	}
+	1246.1.1 = {
+		holder = 144595
+	}
+	1251.1.1 = {
+		holder = 144596
+	}
+	1272.1.1 = {
+		holder = 144597
+	}
+	1292.1.1 = {
+		holder = 144598
+	}
+	1302.1.1 = {
+		holder = 144599
+	}
+	1316.1.1 = {
+		holder = 144600
+	}
+	1323.1.1 = {
+		holder = 144601
+	}
+	1329.1.1 = {
+		holder = 144602
+	}
+	1334.1.1 = {
+		holder = 144603
+	}
+	1335.1.1 = {
+		holder = 144604
+	}
+	##
+	1385.1.1 = {
+		liege = 0
+	}
+	#Zavoevanie Nittsy Savoiey - d0 1860 goda
+	1388.1.1 = {
+		de_jure_liege = d_savoie
+#		liege = d_savoie
+	}
+	1462.1.2 = {
+		holder = Bartolomeo_Chuet #ep Nitsy
+		government = theocracy_government
+		liege = d_savoie
+	}
+}
+
+
+c_forcalquier = {
+	765.1.1 = {
+		liege = "d_provence"
+		holder = 91500 #Welentus, historical as placeholder
+	}
+	801.1.1 = {
+		holder = 7976
+	}
+	855.1.1 = {
+		holder = 7561
+		liege = k_italy
+	}
+	874.1.1 = {
+		holder = 7981
+	}
+	1066.1.1 = {
+		holder = 40802
+		liege = e_hre
+	}
+	1080.1.1 = {
+		holder = 110550
+	}
+	1092.3.28 = {
+		holder = 205985
+	}
+	1129.1.1 = {
+		holder = 205981
+	}
+	1150.1.1 = {
+		holder = 205983
+	}
+	1177.9.1 = {
+		liege = d_provence # acknowledged dependency upon the county of Provence and paid homage
+	}
+	1207.5.13 = {
+		holder = 205980
+	}
+	1209.1.1 = {
+		holder = 210517
+	}
+	1245.8.19 = {
+		holder = 455406
+	}
+	1285.1.7 = {
+		holder = 461710
+	}
+	1309.5.5 = {
+		holder = 461700
+	}
+	
+	##
+	1343.1.20 = {
+		holder = 461703 #yadob Koroleva Giovanna I - kak grafinya Provansa i Forkalie
+	}
+	#v 1367 Provans zahvachen Ludovikom 1
+	1367.1.1 = {
+		holder = Ludov1AnjouValois #kak graf Provansa
+	}
+	1384.9.20 = {
+		holder = Ludov2AnjouValois #kak graf Provansa
+	}
+	1417.4.29 = {
+		holder = Ludov3AnjouValois #kak graf Provansa
+	}
+	1434.1.30 = {
+		holder = ReneDobrAnju #1434-1475
+	}
+	1480.7.10 = {
+		holder = Charles5Maine #posle smerti Rene Dobrogo
+	}
+	1481.12.10 = {
+		holder = Ludov11Valua #korol Frantsii
+	}
+	1481.12.31 = {
+		holder = palamede_forbin #gubernator Provansa, Forkalie 1481ñ83 i Dofine 1481ñ82
+		liege = k_france
+	}
+	1487.9.1 = {
+		holder = Lodovico2Vasto #gubernator Provansa
+	}
+	1490.1.1 = {
+		holder = Fransu1LuxembourgTibo #Fran I de Luxembourg-Martigues - bud gubernator Provansa - s 1491
+		liege = k_france
+	}
+}
+
+
+c_venaissin = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 24 }
+	1466.1.1 = { change_development_level = 40 }
+	1488.1.1 = { change_development_level = 43 }
+	
+	765.1.1 = {
+		liege = "d_provence"
+		holder = 91500 #Welentus, historical as placeholder
+	}
+	801.1.1 = {
+		holder = 7976
+	}
+	855.1.1 = {
+		liege = "d_provence"
+	}
+	855.1.1 = {
+		holder = 168092
+	}
+	883.11.15 = {
+		holder = 168094
+	}
+	
+	1066.1.1 = {
+		holder = 32534
+	}
+	1073.1.1 = {
+		holder = 32535
+	}
+	1121.1.1 = {
+		holder = 32537
+	}
+	1156.6.5 = {
+		holder = 32538
+	}
+	1173.1.1 = {
+		holder = 32516
+	}
+	1181.1.1 = {
+		holder = 32519
+	}
+	1218.7.30 = {
+		holder = 32520
+	}
+	1274.1.1 = {
+		liege = "k_papal_state"
+	holder = 70785
+	}
+	1276.1.10 = {
+		holder = 71827
+	}
+	1276.6.22 = {
+		holder = 71829
+	}
+	1276.8.18 = {
+		holder = 71830
+	}
+	1277.5.20 = {
+		holder = 70851
+	}
+	1280.8.22 = {
+		holder = 71831
+	}
+	1285.3.28 = {
+		holder = 71832
+	}
+	1287.4.3 = {
+		holder = 71833
+	}
+	1292.4.4 = {
+		holder = 71834
+	}
+	1294.12.13 = {
+		holder = 71835
+	}
+	1303.10.11 = {
+		holder = 71836
+	}
+	1304.7.7 = {
+		holder = 71837
+	}
+	1314.4.20 = {
+		holder = 71838
+	}
+	1334.12.20 = {
+		holder = 478501
+	}
+	
+	##
+	#ORANGE
+	1393.12.20 = {
+		holder = Jean3deChalon_Arlay #Zhan III de Shalon-Arle, prinz Oranskiy
+		government = feudal_government
+		name = ORANGE
+		liege = k_papal_state #kak Arl-Avinion, ne e_hre
+	}
+	1418.9.2 = {
+		holder = Louis2deChalon_Arlay #Lui II de Shalon-Arle, prinz Oranskiy
+	}
+	1463.1.1 = {
+		holder = Guillaume7Chalon_Arlay #VII de Shalon-Arle, prinz Oranskiy
+	}
+	1475.10.27 = {
+		holder = Jean4deChalon_Arlay #Zhan IV de Shalon-Arle, prinz Oranskiy
+	}
+	#Jean IV de Chalon-Arlay pereshel na storony Marii Burgudskoy v sent 1477
+	1477.10.10 = {
+		holder = Ludov11Valua #zahvat Oranga Franciey
+		liege = k_france
+	}
+	1477.10.12 = {
+		holder = PhilippZerHahberg #korotkaya Peredaca FIlipu Hohbergu
+		liege = k_france
+	}
+	1483.12.29 = {
+		holder = Jean4deChalon_Arlay #Zhan IV
+		liege = k_france
+	}
+	1660.1.1 = {
+		liege = k_france #tolko togda! Dogovor 1713 Avinion i vovse v 1700
+	}
+}
+
+
+c_viviers = {
+	745.1.1 = {
+		liege = "d_upper_burgundy"
+		holder = 91494 #Wegelenzo, historical as placeholder
+	}
+	864.1.1 = {
+		government = theocracy_government
+		liege = "k_lotharingia"
+	}
+	864.1.1 = {
+		holder = 168148
+	}
+	884.12.12 = {
+		liege = "k_france"
+	}
+	1066.1.1 = {
+		liege = "d_provence"
+	}
+	1066.1.1 = {
+		holder = 20291 #Bishop GÈrard
+	}
+	1070.1.1 = {
+		holder = 138359 #Bishop Jean II
+	}
+	1096.1.1 = {
+		holder = 138371 #Bishop Leodegarius	
+	}
+	1119.1.1 = {
+		holder = 138361 #Bishop Atton
+	}
+	1125.1.1 = {
+		holder = 138375 #Bishop Pierre I
+	}
+	1133.1.1 = {
+		holder = 138381 #Bishop Josserand de Montaigu
+	}
+	1147.1.1 = {
+		holder = 138379 #Bishop Guillaume I
+	}
+	1157.1.1 = {
+		holder = 138365 #Bishop Raymond d'UzËs
+	}
+	1171.1.1 = {
+		holder = 138366 #Bishop Robert de La Tour du Pin
+	}
+	1174.1.1 = {
+		holder = 138367 #Bishop Nicolas
+		liege = e_hre
+	}
+	1198.1.1 = {
+		liege = "d_toulouse"
+	}
+	1206.1.1 = {
+		holder = 138368 #Bishop Burnon
+	}
+	1220.1.1 = {
+		holder = 138369 #Bishop Guillaume II
+	}
+	1222.1.1 = {
+		holder = 138370 #Bishop Bermond d'Anduze
+	}
+	1226.1.1 = {
+		liege = "d_provence"
+	}
+	1242.1.1 = {
+		holder = 138393 #Arnaud de VoguÈ
+	}
+	1255.1.1 = {
+		holder = 32742 #Aimon de GenËve
+	}
+	1263.1.1 = {
+		holder = 138394  #Hugues de La Tour du Pin
+	}
+	#1279 part of vivarais to france
+	1292.1.1 = {
+		holder = 138395 #Guillaume III de FalguiËres
+	}
+	1297.1.1 = {
+		holder = 138396 #Aldebert de Peyre
+	}
+	1302.1.1 = {
+		liege = "e_hre"
+	}
+	1306.1.1 = {
+		holder = 31664 #Bishop Louis I de Poitiers
+	}
+	1309.1.1 = {
+		liege = "k_france"
+	}
+	1318.1.1 = {
+		holder = 138397 #Guillaume IV de Flavacourt
+	}
+	1322.1.1 = {
+		holder = 138398 #Pierre II de Mortemart/Gauvain
+	}
+	1325.1.1 = {
+		holder = 138399 #Pierre III de Moussy
+	}
+	1326.1.1 = {
+		holder = 138388 #Aymar d'anduze de la voulte
+	}
+	
+	##
+	1442.4.2 = {
+		holder = Guillaume_Olivier_epVivie #Guillaume-Olivier de Poitiers
+		government = theocracy_government
+		liege = k_france
+	}
+	1477.1.1 = {
+		holder = Papa_Iulius_II_dellaRov #kak episk Vivie 1477-78
+		government = theocracy_government
+		liege = k_france
+	}
+	1478.1.1 = {
+		holder = Jean_MontchenuVIVIE
+		government = theocracy_government
+		liege = k_france
+	}
+}
+
+
+d_savoie = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 24 }
+	1454.1.1 = { change_development_level = 48 }
+	1466.1.1 = { change_development_level = 52 }
+	1477.1.1 = { change_development_level = 55 }
+	1488.1.1 = { change_development_level = 57 }
+	
+	1034.1.1 = {
+		liege = "e_hre"
+		holder = 1176
+	}
+	1051.7.1 = {
+		holder = 1178
+	}
+	1051.12.18 = {
+		holder = 1180
+	}
+	1060.3.1 = {
+		holder = 1182
+	}
+	1078.8.9 = {
+		holder = 1184
+	}
+	1080.1.26 = {
+		holder = 213119
+	}
+	1103.3.19 = {
+		holder = 213111
+	}
+	1148.8.30 = {
+		holder = 213110
+	}
+	1189.3.4 = {
+		holder = 213117
+	}
+	1233.3.1 = {
+		holder = 70897
+	}
+	1253.7.13 = {
+		holder = 462158
+	}
+	1259.2.7 = {
+		holder = 70902
+	}
+	1263.3.13 = {
+		holder = 70909
+	}
+	1268.5.14 = {
+		liege = 0
+		holder = 70913
+	}
+	1285.8.16 = {
+		holder = 462150
+	}
+	1323.10.16 = {
+		holder = 462153
+	}
+	1329.11.4 = {
+		holder = 462154 #Aymon Mirolub
+	}
+	##
+	1343.1.4 = {
+		holder = 462155 #Lui VI Zeleny
+	}
+	1383.1.4 = {
+		holder = Amad7KrasSav #Lui VII Krasnyi
+	}
+	1391.3.1 = {
+		holder = Amad8MirSav #Lui VIII 1 her Sav, do etogo grafy
+	}
+	1434.3.4 = {
+		holder = LudovikSavoia
+#liege = e_hre  -formalno SVRI, hotya bolshe tuagoteli k koroluam Fransii - dannik s 21_08_25
+	}
+	1465.1.29 = {
+		holder = AmadeusIXSavoia #Lui IX Schastliv
+		succession_laws = { high_partition_succession_law}
+	}
+	1470.1.1 = { de_jure_liege = k_france } #pri Karle I Ludovik vmeshivalsya v dela
+	1472.3.30 = {
+		holder = PhilibertOhotSav #Filibert I Ohotnik
+	}
+	1482.9.22 = {
+		holder = Carlo1SavoiaGue #Karl I Voinstvennyi
+	}
+}
+
+
+c_savoie = {
+	760.1.1 = {
+		liege = k_lotharingia
+	}
+	760.1.1 = {
+		holder = 190562 #Hugh I
+	}
+	798.1.1 = {
+		holder = 190563 #Hugh II
+	}
+	855.1.1 = {
+		liege = "d_upper_burgundy"
+		holder = 7977
+	}
+	
+	864.1.1 = {
+		holder = 144998
+	}
+	866.1.1 = {
+		holder = 7989
+	}
+	876.1.1 = {
+		holder = 7984
+	}
+	
+	1032.9.5 = {
+		liege = "e_hre"
+	}
+	1046.1.1 = {
+		liege = "d_savoie"
+		holder = 1180
+	}
+	1060.3.1 = {
+		holder = 1182
+	}
+	1078.8.9 = {
+		holder = 1184
+	}
+	1080.1.26 = {
+		holder = 213119
+	}
+	1103.3.19 = {
+		holder = 213111
+	}
+	1148.8.30 = {
+		holder = 213110
+	}
+	1189.3.4 = {
+		holder = 213117
+	}
+	1233.3.1 = {
+		holder = 70897
+	}
+	1253.7.13 = {
+		holder = 70902
+	}
+	1259.2.7 = {
+	}
+	1263.3.13 = {
+		holder = 70909
+	}
+	1268.5.14 = {
+		holder = 70913
+	}
+	1285.8.16 = {
+		holder = 462150
+	}
+	1323.10.16 = {
+		holder = 462153
+	}
+	1329.11.4 = {
+		holder = 462154
+	}
+	##
+	1383.1.4 = {
+		holder = Amad7KrasSav #Lui VII Krasnyi
+	}
+	1391.3.1 = {
+		holder = Amad8MirSav #Lui VIII 1 her Sav, do etogo grafy
+	}
+	1434.3.4 = {
+		holder = LudovikSavoia
+	}
+	1465.1.29 = {
+		holder = AmadeusIXSavoia #Lui IX Schastliv
+	}
+	1472.3.30 = {
+		holder = PhilibertOhotSav #Filibert I Ohotnik
+	}
+	1482.9.22 = {
+		holder = Carlo1SavoiaGue #Karl I Voinstvennyi
+	}
+}
+
+
+c_aosta = {
+	760.1.1 = {
+		liege = k_lotharingia
+	}
+	760.1.1 = {
+		holder = 190562 #Hugh I
+	}
+	798.1.1 = {
+		holder = 190563 #Hugh II
+	}
+	855.1.1 = {
+		liege = "d_upper_burgundy"
+		holder = 7977
+	}
+	
+	864.1.1 = {
+		holder = 144998
+	}
+	866.1.1 = {
+		holder = 7989
+	}
+	876.1.1 = {
+		holder = 7984
+	}
+	
+	1032.9.5 = {
+		liege = "e_hre"
+	}
+	1046.1.1 = {
+		liege = "d_savoie"
+		holder = 1180
+	}
+	1060.3.1 = {
+		holder = 1182
+	}
+	1078.8.9 = {
+		holder = 1184
+	}
+	1080.1.26 = {
+		holder = 213119
+	}
+	1100.1.1 = {
+		holder = challant_1 # Boson I de Challant
+		liege = d_savoie
+	}
+	1125.1.1 = {
+		holder = challant_2 # Aymon I de Challant
+	}
+	1147.1.1 = {
+		holder = challant_3 # Boson II de Challant
+	}
+	1189.3.4 = {
+		holder = 213117
+	}
+	1233.3.1 = {
+		holder = 70897
+	}
+	1253.7.13 = {
+		holder = 70902
+	}
+	1259.2.7 = {
+	}
+	1263.3.13 = {
+		holder = 70909
+	}
+	1268.5.14 = {
+		holder = 70913
+	}
+	1285.8.16 = {
+		holder = 462150
+	}
+	1323.10.16 = {
+		holder = 462153
+	}
+	1329.11.4 = {
+		holder = 462154
+	}
+	##
+	#Savoiya do 1870 /krome 1539 i 1800-1814/
+	1383.1.4 = {
+		holder = Amad7KrasSav
+	}
+	1391.3.1 = {
+		holder = Amad8MirSav
+	}
+	1434.3.4 = {
+		holder = LudovikSavoia
+	}
+	1465.1.29 = {
+		holder = AmadeusIXSavoia
+	}
+	1472.3.30 = {
+		holder = PhilibertOhotSav
+	}
+	1482.9.22 = {
+		holder = Carlo1SavoiaGue
+	}
+}
+
+
+c_canavese = {
+	760.1.1 = {
+		liege = k_lotharingia
+	}
+	760.1.1 = {
+		holder = 190562 #Hugh I
+	}
+	798.1.1 = {
+		holder = 190563 #Hugh II
+	}
+	855.1.1 = {
+		liege = "d_upper_burgundy"
+		holder = 7977
+	}
+	
+	864.1.1 = {
+		holder = 144998
+	}
+	866.1.1 = {
+		holder = 7989
+	}
+	876.1.1 = {
+		holder = 7984
+	}
+	
+	1032.9.5 = {
+		liege = "e_hre"
+	}
+	1046.1.1 = {
+		liege = "d_savoie"
+		holder = 1180
+	}
+	1060.3.1 = {
+		holder = 1182
+	}
+	1078.8.9 = {
+		holder = 1184
+	}
+	1080.1.26 = {
+		holder = 213119
+	}
+	1103.3.19 = {
+		holder = 213111
+	}
+	1148.8.30 = {
+		holder = 213110
+	}
+	1189.3.4 = {
+		holder = 213117
+	}
+	1233.3.1 = {
+		holder = 70897
+	}
+	1253.7.13 = {
+		holder = 70902
+	}
+	1259.2.7 = {
+	}
+	1263.3.13 = {
+		holder = 70909
+	}
+	1268.5.14 = {
+		holder = 70913
+	}
+	1285.8.16 = {
+		holder = 462150
+	}
+	1323.10.16 = {
+		holder = 462153
+	}
+	1329.11.4 = {
+		holder = 462154
+	}
+	##
+	#Kanaveze s 1356 u Savoiskogo doma
+	1368.12.31 = {
+		holder = Amedei_SavoyA_1363_1402 #kak pravitel Pinerolo i Piemonta
+		liege = d_savoie
+	}
+	#s 1418 Pinerollo-Kanavese u osnovnoy vetvi
+	1402.5.7 = {
+		holder = Amad8MirSav #Lui VIII 1 her Sav
+	}
+	1434.3.4 = {
+		holder = LudovikSavoia
+	}
+	1465.1.29 = {
+		holder = AmadeusIXSavoia
+	}
+	1472.3.30 = {
+		holder = PhilibertOhotSav
+	}
+	1482.9.22 = {
+		holder = Carlo1SavoiaGue
+	}
+}
+
+d_dauphine = {
+	#Used as Lower Burgundy after Charles of Provence's death in 863
+	#Holders set bit by default to rulers of Lotharingia
+	863.1.25 = {
+		holder = 144998 #Lothair II
+		liege = k_lotharingia
+	}
+	869.8.8 = {
+		holder = 90104 #Charles I the Bald
+	}
+	877.6.10 = {
+		holder = 42019 #Louis I the Younger
+	}
+	882.1.20 = {
+		holder = 90105 #Charles II the Fat
+	}
+	888.1.1 = {
+		holder = 7945 #Arnulf of Carinthia
+	}
+	895.1.1 = {
+		holder = 144997 #Zwentibold
+	}
+	900.8.13 = {
+		holder = 7949 #Louis III the Child
+	}
+	911.9.20 = {
+		holder = 90111 #Charles III the Simple
+	}	
+	933.1.1 = {
+		holder = 0
+		#The two burgundies are reunited under Rudolf II
+	}
+	##
+	1356.1.1 = {
+		holder = Beraud2GrandDauphin #Bero II Velikiy Dofin
+		liege = k_france
+	}
+	1425.7.13 = {
+		holder = Beraud3ClermontSancerre #Bero III –¥–µ Klermon-Sanser gubernator Dofine
+		liege = k_france
+	}
+	1426.7.28 = {
+		holder = 0
+	}
+	1445.4.5 = {
+		holder = Ludov11Valua #kak dofin 1445-1461 posle Dofine v domen
+		liege = k_france
+	}
+	1461.7.22 = {
+		holder = 0 #domen s privodom k vlasti Ludovika
+	}
+	1470.1.1 = { de_jure_liege = k_france } #Viennua-Dofine
+}
+
+c_lyon = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 11 }
+	1466.1.1 = { change_development_level = 54 }
+	1488.1.1 = { change_development_level = 56 }
+	1488.1.1 = { change_development_level = 58 }
+	
+	765.1.1 = {
+		liege = "k_lotharingia"
+		holder = 91491 #VUODO, historical count as placeholder
+	}
+	855.8.23 = {
+		liege = "k_burgundy"
+		holder = 144998
+	}
+	863.1.1 = {
+		holder = 168238  #Guilhem I de Forez
+	}
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	871.1.1 = {
+		holder = 168239  #Guilhem II de Forez
+	}
+	925.8.27 = {
+		holder = 168240  #Artaud I de Forez
+	}
+	933.1.1 = {
+		liege = k_burgundy
+	}
+	960.1.1 = {
+		holder = 168241  #Geraud I de Forez
+	}
+	993.1.1 = {
+		holder = 168242  #Artaud II de Forez
+	}
+	1000.10.11 = {
+		holder = 168243  #Artaud III de Forez
+	}
+	1017.1.1 = {
+		holder = 10028
+	}
+	1032.1.1 = {
+		liege = e_hre
+	}
+	1058.1.1 = {
+		holder = 20290
+	}
+	1079.12.1 = {
+		holder = 212806
+	}
+	1097.6.1 = {
+		holder = 212807
+	}
+	1107.1.1 = {
+		holder = 205681 #Guy d'Albon
+	}
+	1138.10.27 = {
+		holder = 205680 #Guigues d'Albon
+	}
+	1163.1.1 = {
+		liege = "k_france"
+	}
+	1187.1.1 = {
+		liege = "d_burgundy"
+	}
+	1193.1.1 = { #Guigues III should hold Lyon from 1193 to his death, after which his brother Archbishop Renaud holds it.
+		holder = 205684
+	}
+	1202.11.28 = {
+		holder = 205685 #Archbishop Renaud d'Albon
+	}
+	1226.10.21 = {
+		holder = 138427 #ArchBishop Robert d'Auvergne
+	}
+	1234.1.1 = {
+		holder = 138425 #ArchBishop Raoul I de La Roche-Aymon
+	}
+	1236.1.1 = {
+		holder = 138437 #Bishop Aimery de Rives
+	}
+	1245.1.1 = {
+		holder = 70913 #ArchBishop Philippe I de Savoie
+	}
+	1267.1.1 = {
+		holder = 138438	#Bishop Guy II
+	}
+	1268.1.1 = {
+		holder = 71827 #ArchBishop Pierre II de Tarentaise/future Pope Innocent IV
+	}
+	1273.1.1 = {
+		holder = 138439	#ArchBishop Aymar de Roussillon
+	}
+	1283.1.1 = {
+		holder = 138453 #ArchBishop Raoul II de la Tourette
+	}
+	1288.1.1 = {
+		holder = 138404 #ArchBishop BÈrard de Got brother of Pope Clement V
+	}
+	1294.1.1 = {
+		holder = 138440 #ArchBishop Henri I de Villars
+	}
+	1301.1.1 = {
+		holder = 138441	#ArchBishop Louis de Villars
+	}
+	1308.1.1 = {
+		holder = 70926 #ArchBishop Pierre de Savoie
+	}
+	1312.4.10 = {
+		liege = "k_france"
+	}
+	1332.11.1 = {
+		holder = 138442 #ArchBishop Guillaume I de Sure
+	}
+	
+	##
+	1365.7.13 = {
+		holder = 455514 #Arhiep Charles III Alansonski - prinual postrig v 1361
+		government = theocracy_government
+		liege = k_france
+	}
+	1444.12.30 = {
+		holder = Charles_II_deBourbon_aEP #kak Arhiepiskop Liona s 10 let - na postu s 1469
+		government = theocracy_government
+		liege = d_bourbon
+	}
+	1488.9.13 = {
+		holder = PierBourbon1438 #Pier Burbon Bozhe - kak graf Fore i Liona
+		government = feudal_government
+	}
+	1488.10.1 = {
+		holder = ep_andre_d_espinay #Arhiepiskop Liona 1488-1500
+		government = theocracy_government
+		liege = d_bourbon
+	}
+}
+
+
+c_viennois = {
+	750.1.1 = {
+		liege = "d_upper_burgundy"
+		holder = 91490 #VULFARD, historical placeholder
+	}
+	855.1.1 = {
+		liege = "k_burgundy"
+	}
+	855.1.1 = {
+		holder = 163062
+	}
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	870.1.1 = {
+		liege = "d_provence"
+	}
+	
+	996.10.18 = {
+		holder = 138403 #Guigues II d'Albon
+	}
+	1009.1.1 = {
+		holder = 40462 # Guigues III the old d'Albon
+	}
+	1074.4.22 = {
+		holder = 212804 # Guigues IV Pinguis d'Albon
+	}
+	1106.1.19 = {
+		holder = 212803 # Guigues V d'Albon
+	}
+	1125.12.21 = {
+		holder = 212802 # Guigues VI d'Albon
+	}
+	1142.6.28 = {
+		holder = 212801  # Guigues VII d'Albon
+	}
+	1162.7.29 = {
+		holder = 212800 # Beatrix d'Albon
+		liege = e_hre
+	}
+	1187.1.1 = {
+		liege = k_burgundy
+	}
+	1220.1.1 = {
+		liege = d_savoie
+	}
+	1228.12.15 = {
+		holder = 206016 #Andr√© Guigues VIII d'Albon
+	}
+	1237.3.14 = {
+		holder = 7499 #Guigues VII/IX de Viennois
+	}
+	1240.9.24 = {
+		liege = "d_savoie"
+	}	
+	1269.1.1 = {
+		holder = 7495 #Jean I de Viennois
+	}
+	1282.9.24 = {
+		holder = 462701 #Jean II de la Tour du Pin
+	}
+	1307.4.12 = {
+		holder = 7497 #Jean III de la Tour du Pin
+	}
+	1319.3.5 = {
+		holder = 7493 #Guigues VIII/X de Viennois
+	}
+	1333.7.28 = {
+		holder = 7492 #Humbert de la Tour du Pin
+	}
+	
+	##
+	1420.12.31 = {
+		holder = Gilbert_LaFayette #Gouverneur du Dauphine 1420-22
+		government = republic_government
+		liege = k_france
+	}
+	1450.1.2 = {
+		holder = Siboud_AllemanEPgr #knyaz-ep Grenoblya
+		government = theocracy_government
+		liege = k_france
+	}
+	1477.7.7 = {
+		holder = Jost_von_Silenen #vremennyi knyaz-ep Grenoblya
+	}
+	1484.1.2 = {
+		holder = Laurent_Alleman #knyaz-ep Grenoblya
+	}
+}
+
+
+c_valentinois = {
+	750.1.1 = {
+		liege = "d_upper_burgundy"
+		holder = 91490 #VULFARD, historical placeholder
+	}
+	855.1.1 = {
+		liege = "k_burgundy"
+	}
+	855.1.1 = {
+		holder = 163062
+	}
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	870.1.1 = {
+		liege = "d_provence"
+	}
+	
+	996.10.18 = {
+		holder = 138403 #Guigues II d'Albon
+	}
+	1009.1.1 = {
+		holder = 40462 # Guigues III the old d'Albon
+	}
+	1074.4.22 = {
+		holder = 212804 # Guigues IV Pinguis d'Albon
+	}
+	1106.1.19 = {
+		holder = 212803 # Guigues V d'Albon
+	}
+	1125.12.21 = {
+		holder = 212802 # Guigues VI d'Albon
+	}
+	1142.6.28 = {
+		holder = 212801  # Guigues VII d'Albon
+	}
+	1158.1.1 = {
+		holder = 212780
+		liege = "e_hre"
+	}
+	1187.1.1 = {
+		liege = k_burgundy
+	}
+	1220.1.1 = {
+		liege = d_savoie
+	}
+	1228.12.15 = {
+		holder = 206016 #Andr√© Guigues VIII d'Albon
+	}
+	1237.3.14 = {
+		holder = 7499 #Guigues VII/IX de Viennois
+	}
+	1240.9.24 = {
+		liege = "d_savoie"
+	}	
+	1269.1.1 = {
+		holder = 7495 #Jean I de Viennois
+	}
+	1282.9.24 = {
+		holder = 462701 #Jean II de la Tour du Pin
+	}
+	1307.4.12 = {
+		holder = 7497 #Jean III de la Tour du Pin
+	}
+	1319.3.5 = {
+		holder = 7493 #Guigues VIII/X de Viennois
+	}
+	1333.7.28 = {
+		holder = 7492 #Humbert de la Tour du Pin
+	}
+	
+	##
+	1356.1.1 = {
+		holder = Beraud2GrandDauphin #Velikiy Dofin
+	}
+	1425.7.13 = {
+		holder = Beraud3ClermontSancerre #gubernator Dofine
+	}
+	1445.4.5 = {
+		holder = Ludov11Valua #kak dofin 1445-1461 posle Dofine v domen
+	}
+	1463.1.1 = {
+		holder = LouisBastetdeCrussol #Louis Bastet de Crussol gubernator Dofine
+		government = republic_government
+		liege = k_france
+	}
+	1470.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+	1473.11.1 = {
+		holder = Ludov11Valua #korona
+		government = feudal_government
+	}
+	1474.12.31 = {
+		holder = jean_daillon #Gouverneur du Dauphine 1474ñ81
+		government = republic_government
+		liege = k_france
+	}
+	1480.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+	#ranee byl GilbertBourbonMontpe pohemu-to liege = d_auvergne
+	1481.11.22 = {
+		holder = palamede_forbin #gubernator Provansa, Forkalie 1481ñ83 i Dofine 1481ñ82
+		government = republic_government
+		liege = k_france
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+}
+
+
+c_forez = {
+	765.1.1 = {
+		liege = "k_lotharingia"
+		holder = 91491 #VUODO, historical count as placeholder
+	}
+	855.8.23 = {
+		liege = "k_burgundy"
+		holder = 144998
+	}
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	863.1.1 = {
+		holder = 168238  #Guilhem I de Forez
+	}
+	871.1.1 = {
+		holder = 168239  #Guilhem II de Forez
+	}
+	925.8.27 = {
+		holder = 168240  #Artaud I de Forez
+	}
+	933.1.1 = {
+		liege = k_burgundy
+	}
+	960.1.1 = {
+		holder = 168241  #Geraud I de Forez
+	}
+	993.1.1 = {
+		holder = 168242  #Artaud II de Forez
+	}
+	1000.10.11 = {
+		holder = 168243  #Artaud III de Forez
+	}
+	1017.1.1 = {
+		holder = 10028  #Geraud II de Forez
+	}
+	1032.1.1 = {
+		liege = e_hre
+	}
+	1058.3.5 = {
+		holder = 20290 #Artaud IV de Forez
+	}
+	1079.12.6 = {
+		holder = 212806 #Guillaume III de Forez
+	}
+	1097.6.1 = {
+		holder = 212807 #Guillaume IV de Forez
+	}
+	1107.1.1 = {
+		holder = 205681 #Guy d'Albon
+	}
+	1138.10.27 = {
+		holder = 205680 #Guigues d'Albon
+	}
+	1163.1.1 = {
+		liege = "k_france"
+	}
+	1187.1.1 = {
+		liege = "d_burgundy"
+	}
+	1202.11.28 = {
+		holder = 7491 #Guigues IV de Forez/Lyon
+	}
+	1241.10.29 = {
+		holder = 7485 #Renaud de Forez
+	}
+	1270.11.13 = {
+		holder = 7489 #Guy VI de Forez
+	}
+	1278.1.1 = {
+		holder = 7490 #Jean I de Forez
+	}
+	1333.1.1 = {
+		holder = 455670 #Guy VII de Forez
+	}
+	##
+	1372.5.15 = {
+		holder = Anne_dOvern_grFore #sovmestno s bratom
+	}
+	1417.9.22 = {
+		holder = Jean1BourbonHerz #Fore s 1417 posle materyi
+	}
+	1434.12.27 = {
+		holder = Charles1Bourbon1401
+		liege = k_france
+	}
+	1456.12.27 = {
+		holder = Jean2Bourbon1426
+	}
+	1488.4.1 = {
+		holder = Charles_II_deBourbon_aEP #1-15 apr graf Fore
+	}
+	1488.4.15 = {
+		holder = PierBourbon1438 #Pier II Burbon Bozhe - graf Liona i Fore
+		liege = k_france
+	}
+}
+
+
+d_upper_burgundy = {
+	760.1.1 = {
+		liege = k_lotharingia
+	}
+	760.1.1 = {
+		holder = 190562 #Hugh I
+	}
+	798.1.1 = {
+		holder = 190563 #Hugh II
+	}
+	
+	#Traty of Pr¸m in 855, splitting Lotharingia in two
+	855.1.1 = { #duchy of Transjura/kingdom of Upper-Burgundy
+		liege = "k_burgundy"
+		holder = 7977
+	}
+	
+	#Charles of Provence dies, the kingdom of Provence is split between Lotharingia & Italy
+	863.1.1 = {
+		liege = k_italy
+	}
+	864.1.1 = {
+		holder = 144998
+	}
+	866.1.1 = {
+		holder = 7989
+	}
+	876.1.1 = {
+		holder = 7984
+	}
+	
+	#Treaty of Ribemont
+	880.1.1 = {
+		liege = 0
+	}
+	911.10.25 = {
+		holder = 1144
+	}
+	937.12.1 = {
+		holder = 1146
+	}
+	993.10.19 = {
+		holder = 1148
+	}
+	1032.9.5 = {
+		holder = 0
+	}
+	
+	1220.1.1 = {
+		liege = e_hre
+		holder = 32768
+	}
+	1241.1.1 = {
+		holder = 32769
+	}
+	1257.3.14 = {
+		holder = 0
+	}
+	##
+	1470.1.1 = { de_jure_liege = k_france }
+
+}
+
+
+c_besancon = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 24 }
+	1466.1.1 = { change_development_level = 41 }
+	1477.1.1 = { change_development_level = 43 }
+	1488.1.1 = { change_development_level = 45 }
+	
+	#County of Burgundy
+	
+	#Royal Domain
+	769.1.1 = {
+		holder = 144999
+	}
+	855.8.23 = {
+		liege = "k_burgundy"
+		holder = 91383
+	}
+	859.1.1 = {
+		holder = 91384
+	}
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	880.1.1 = {
+		holder = 90105
+	}
+	888.1.14 = {
+		holder = 7984
+	}
+	911.10.25 = {
+		holder = 1144
+	}
+	933.1.1 = {
+		liege = k_burgundy
+	}
+	937.12.1 = {
+		holder = 1146
+	}
+	#House of IvrÈe
+	986.1.1 = {
+		liege = "d_burgundy"
+		holder = 272 #Otte-Guillaume
+	}
+	1026.1.1 = {
+		liege = "e_hre"
+		holder = 276 #Renaud I de Bourgogne
+	}
+	1057.1.1 = {
+		holder = 280 #Guillaume I de Bourgogne
+	}
+	1087.1.2 = {
+		holder = 290 #Renaud II de Bourgogne
+	}
+	1097.1.2 = {
+		holder = 205706 #…tienne I de Bourgogne
+	}
+	1102.5.27 = {
+		holder = 232556 #Renaud III de Bourgogne
+	}
+	1148.1.2 = {
+		holder = 205599 #BÈatrice I de Bourgogne
+	}
+	
+	#House of Hohenstaufen
+	1184.1.1 = {
+		holder = 212501 #FrÈdÈric I Barberousse
+	}
+	1190.6.2 = {
+		holder = 212511 #Othon I de Hohenstaufen
+	}
+	1200.1.13 = {
+		holder = 30772 #Jeanne I de Bourgogne
+	}
+	1205.1.1 = {
+		holder = 7652 #BÈatrice II de Bourgogne
+	}
+	1220.1.1 = {
+		liege = d_upper_burgundy
+	}
+	
+	#House of Andechs
+	1231.1.1 = {
+		holder = 7684 #Othon III de Bourgogne
+	}
+	1248.1.1 = {
+		holder = 7653 #AdÈlaÔde I de Bourgogne
+		liege = e_hre
+	}
+	
+	#House of IvrÈe
+	1279.1.1 = {
+		holder = 455739 #Othon IV de Bourgogne
+	}
+	1303.1.1 = {
+		holder = 91146 #Robert de Bourgogne
+	}
+	1315.1.1 = {
+		liege = "k_france"
+		holder = 455741 #Jeanne de Bourgogne
+	}
+	
+	#Direct Capetians
+	1330.1.1 = {
+		liege = "d_burgundy"
+		holder = 455913 #Jeanne III de Bourgogne
+	}
+	
+	##
+	#Fransh-Konte
+	1346.8.25 = {
+		holder = 455712 #yadob Louis II Male kak Phalzhraf Burg
+	}
+	1384.11.9 = {
+		holder = Fil2SmelBurg
+		liege = "d_burgundy"
+	}
+	1404.4.27 = {
+		holder = Zhan2BesBurg
+		liege = "d_burgundy"
+	}
+	1415.12.31 = {
+		holder = Jean_I_Neufchatel #burg gubernator Fransh-Konte 1415-19
+		liege = "d_burgundy"
+	}
+	1419.9.10 = {
+		holder = Filip3DobrBurg
+		government = feudal_government
+		liege = "d_burgundy"
+	}
+	1463.1.4 = {
+		holder = Charles_NeufchatelEP #kak episkop Bezansona 1463ñ1478
+		government = theocracy_government
+		liege = "d_burgundy"
+	}
+	#v 1478 ego izgnali za pomozh frantsuzam
+	1478.1.1 = {
+		holder = MariedeBourgogne
+		government = feudal_government
+	}
+	#Jean IV de Chalon-Arlay pereshel na storony Marii Burgudskoy v sent 1477
+	1478.12.31 = {
+		holder = Jean4deChalon_Arlay #kak gubernator Fransh-Konte 1477 ó 1481
+		liege = d_burgundy
+		government = republic_government
+	}
+	1481.1.1 = {
+		holder = MariedeBourgogne
+		government = feudal_government
+	}
+	1482.3.27 = {
+		holder = Philip1KrasivHabsb
+		government = feudal_government
+	}
+}
+
+
+c_geneva = {
+	1178.1.1 = { change_development_level = 14 }
+	1466.1.1 = { change_development_level = 45 }
+	1488.1.1 = { change_development_level = 48 }
+
+	760.1.1 = {
+		liege = "k_lotharingia"
+		holder = 91482 #FREDERIC, count of Transjuranie
+	}
+	855.1.1 = {
+		liege = "d_upper_burgundy"
+		holder = 7977
+	}
+	864.1.1 = {
+		holder = 144998
+	}
+	866.1.1 = {
+		holder = 7989
+	}
+	876.1.1 = {
+		holder = 7984
+	}
+	888.1.14 = {
+		holder = 168247
+	}
+	901.1.1 = {
+		holder = 168248
+	}
+	931.1.1 = {
+		holder = 168249
+	}
+	963.1.1 = {
+		holder = 168250
+	}
+	974.1.1 = {
+		holder = 168251
+	}
+	1001.1.1 = {
+		holder = 168252
+	}
+	1023.1.1 = {
+		holder = 20292
+	}
+	1032.9.5 = {
+		liege = "e_hre"
+	}
+	1080.1.1 = {
+		holder = 10079
+	}
+	1128.5.12 = {
+		holder = 212741
+	}
+	1178.6.28 = {
+		holder = 212740
+	}
+	1196.7.25 = {
+		holder = 212742
+	}
+	1220.1.1 = {
+		liege = d_savoie
+	}
+	1225.5.10 = {
+		holder = 212745
+	}
+	1240.8.16 = {
+		liege = "d_savoie"
+	}
+	1252.11.25 = {
+		holder = 32740
+	}
+	1265.5.29 = {
+		holder = 32745
+	}
+	1280.11.18 = {
+		holder = 32748
+	}
+	1285.8.16 = {
+		liege = "d_savoie"
+	}
+	1308.5.22 = {
+		holder = 32750
+	}
+	1320.11.25 = {
+		holder = 32754
+	}
+	
+	##
+	1367.1.19 = {
+		holder = 32757 #yadob Aymon III
+	}
+	1367.8.31 = {
+		holder = 32758 #yadob Amadey IV
+	}
+	1369.12.4 = {
+		holder = Pierre_de_Geneve
+	}
+	1392.3.3 = {
+		holder = Robert_Zhen_AntipaKl7
+	}
+	#v 1401 prodazha Savoie, okonchatelno k 1424
+	1401.12.31 = {
+		holder = Amad8MirSav #de-jure
+	}
+	1425.1.1 = {
+		holder = Philip_Sav_1417_1444
+		liege = "d_savoie"
+	}
+	1460.11.25 = {
+		holder = Janus_Savoia #Zheneva i Fosinii
+		liege = "d_savoie"
+	}
+}
+
+
+c_dole = {
+	769.1.1 = {
+		holder = 144999
+	}
+	855.8.23 = {
+		liege = "k_burgundy"
+		holder = 91383
+	}
+	859.1.1 = 	{
+		holder = 91384
+	}
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	880.1.1 = {
+		holder = 90105
+	}
+	888.1.14 = {
+		holder = 7984
+	}
+	911.10.25 = {
+		holder = 1144
+	}
+	933.1.1 = {
+		liege = k_burgundy
+	}
+	937.12.1 = {
+		holder = 1146
+	}
+	#House of Ivr√©e
+	986.1.1 = {
+		liege = "d_burgundy"
+		holder = 272 #Otte-Guillaume
+	}
+	1026.1.1 = {
+		liege = "e_hre"
+		holder = 276 #Renaud I de Bourgogne
+	}
+	1057.1.1 = {
+		holder = 280 #Guillaume I de Bourgogne
+	}
+	1087.1.2 = {
+		holder = 290 #Renaud II de Bourgogne
+	}
+	1097.1.2 = {
+		holder = 205706 #…tienne I de Bourgogne
+	}
+	1102.5.27 = {
+		holder = 232556 #Renaud III de Bourgogne
+	}
+	1148.1.2 = {
+		holder = 205599 #BÈatrice I de Bourgogne
+	}
+	
+	#House of Hohenstaufen
+	1184.1.1 = {
+		holder = 212501 #Fr√©d√©ric I Barberousse
+	}
+	1190.6.2 = {
+		holder = 212511 #Othon I de Hohenstaufen
+	}
+	1200.1.13 = {
+		holder = 30772 #Jeanne I de Bourgogne
+	}
+	1205.1.1 = {
+		holder = 7652 #B√©atrice II de Bourgogne
+	}
+	1220.1.1 = {
+		liege = d_upper_burgundy
+	}
+	
+	#House of Andechs
+	1231.1.1 = {
+		holder = 7684 #Othon III de Bourgogne
+	}
+	1248.1.1 = {
+		holder = 7653 #Ad√©la√Øde I de Bourgogne
+		liege = e_hre
+	}
+	
+	#House of Ivr√©e
+	1279.1.1 = {
+		holder = 455739 #Othon IV de Bourgogne
+	}
+	1303.1.1 = {
+		holder = 91146 #Robert de Bourgogne
+	}
+	1315.1.1 = {
+		liege = "k_france"
+		holder = 455741 #Jeanne de Bourgogne
+	}
+	
+	#Direct Capetians
+	1330.1.1 = {
+		liege = "d_burgundy"
+		holder = 455913 #Jeanne III de Bourgogne
+	}
+	## Dol' Burgundia
+    1349.1.2 = {
+		holder = PhilippeRuvr #Filip I Ruvrskiy
+		liege = d_burgundy
+		government = feudal_government
+	}
+	1361.11.21 = {
+		holder = 455502 #korol Ioann Dobry h Burgundia
+	}
+	1363.9.6 = {
+		holder = Fil2SmelBurg #korol peredal bratu
+	}
+	1404.4.27 = {
+		holder = Zhan2BesBurg
+	}
+	1419.9.10 = {
+		holder = Filip3DobrBurg
+	}
+	1460.1.1 = {
+		liege = "d_burgundy"
+	}
+	1467.6.15 = {
+		holder = KarlSmelValBurg
+	}
+	1477.1.5 = {
+		holder = MariedeBourgogne
+	}
+	1479.5.25 = {
+		holder = Ludov11Valua #osada i zahvat Dolya
+		liege = k_france
+	}
+	#spad razvitia posle razruhi
+	1479.6.1 = { change_development_level = 33 }
+	#
+	1483.8.30 = {
+		holder = Karl8LubezValua #uderzhanie Dolya
+		liege = k_france
+	}
+	#dogovor 23 maya 1493 vernul gorod Burgundii t.e. Gabsburgam
+	1493.5.23 = {
+		liege = d_burgundy
+	}
+	1670.1.1 = {
+		liege = k_france
+	}
+}
+
+c_bresse = {
+	769.1.1 = {
+		holder = 144999
+	}
+	855.8.23 = {
+		liege = "k_burgundy"
+		holder = 91383
+	}
+	859.1.1 = {
+		holder = 91384
+	}
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	880.1.1 = {
+		holder = 90105
+	}
+	888.1.14 = {
+		holder = 7984
+	}
+	911.10.25 = {
+		holder = 1144
+	}
+	933.1.1 = {
+		liege = k_burgundy
+	}
+	937.12.1 = {
+		holder = 1146
+	}
+	#House of Ivr√©e
+	986.1.1 = {
+		liege = "d_burgundy"
+		holder = 272 #Otte-Guillaume
+	}
+	1026.1.1 = {
+		liege = "e_hre"
+		holder = 276 #Renaud I de Bourgogne
+	}
+	1057.1.1 = {
+		holder = 280 #Guillaume I de Bourgogne
+	}
+	1087.1.2 = {
+		holder = 290 #Renaud II de Bourgogne
+	}
+	1097.1.2 = {
+		holder = 205706 #…tienne I de Bourgogne
+	}
+	1102.5.27 = {
+		holder = 232556 #Renaud III de Bourgogne
+	}
+	1148.1.2 = {
+		holder = 205599 #BÈatrice I de Bourgogne
+	}
+	
+	#House of Hohenstaufen
+	1184.1.1 = {
+		holder = 212501 #Fr√©d√©ric I Barberousse
+	}
+	1190.6.2 = {
+		holder = 212511 #Othon I de Hohenstaufen
+	}
+	1200.1.13 = {
+		holder = 30772 #Jeanne I de Bourgogne
+	}
+	1205.1.1 = {
+		holder = 7652 #B√©atrice II de Bourgogne
+	}
+	1220.1.1 = {
+		liege = d_upper_burgundy
+	}
+	
+	#House of Andechs
+	1231.1.1 = {
+		holder = 7684 #Othon III de Bourgogne
+	}
+	1248.1.1 = {
+		holder = 7653 #Ad√©la√Øde I de Bourgogne
+		liege = e_hre
+	}
+	
+	#House of Ivr√©e
+	1279.1.1 = {
+		holder = 455739 #Othon IV de Bourgogne
+	}
+	1303.1.1 = {
+		holder = 91146 #Robert de Bourgogne
+	}
+	1315.1.1 = {
+		liege = "k_france"
+		holder = 455741 #Jeanne de Bourgogne
+	}
+	
+	#Direct Capetians
+	1330.1.1 = {
+		liege = "d_burgundy"
+		holder = 455913 #Jeanne III de Bourgogne
+	}
+	##
+	#Savoyskiy dom
+	1383.1.4 = {
+		holder = Amad7KrasSav
+	}
+	1391.3.1 = {
+		holder = Amad8MirSav
+	}
+	1440.11.4 = {
+		holder = LudovikSavoia
+	}
+	1465.1.1 = {
+		holder = Filippo2BezSavoia #Filip II Savoyskiy
+		liege = "d_savoie"
+		de_jure_liege = "d_savoie"
+	}
+	# infa pro poteryu Bressa v 1488 tolko v ruwiki - gorod Bur, centr -Bourg-en-Bresse- zavoevan fr tolko v 1535, vykuplen, i snova u Fr s 1601
+	##
+	1535.1.1 = { liege = k_france }
+}
+
+c_bern = {
+	760.1.1 = {
+		liege = d_swabia
+	}
+	760.1.1 = {
+		holder = 167825 #Gerold
+	}
+	#795.1.1 = {
+	#	holder = 0
+	#}
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	864.1.1 = {
+		holder = 168154
+	}
+	890.3.21 = {
+		holder = 168155
+	}
+	899.1.1 = {
+		holder = 168158
+	}
+	933.1.1 = {
+		liege = k_burgundy
+	}
+	1032.9.5 = {
+		liege = "e_hre"
+	}
+	1066.1.1 = {
+		holder = 20287
+	}
+	1081.1.1 = {
+		holder = 40701
+	}
+	1127.1.1 = {
+		holder = 7643
+	}
+	1172.5.9 = {
+		holder = 213162
+	}
+	1227.1.1 = {
+		holder = 7647
+	}
+	1228.1.1 = {
+		holder = 7649
+	}
+	1241.1.1 = {
+		liege = d_upper_burgundy
+	}
+	1257.3.14 = {
+		liege = e_hre
+	}
+	1263.9.3 = {
+		holder = 7650
+	}
+	1269.1.1 = {
+		holder = 7630
+	}
+	1284.1.1 = {
+		holder = 33636
+	}
+	1301.3.29 = {
+		holder = 33637
+	}
+	1322.10.31 = {
+		holder = 33638
+	}
+	##
+	#V 1353 g Bern stal chastiu Shvetsarskoy Konfederazii
+	1444.1.1 = {
+		liege = d_currezia
+		de_jure_liege = d_currezia
+		holder = Benedikt_Tschachtlan
+	}
+	1450.1.1 = {
+		holder = Joh_keller
+	}
+	1463.1.1 = {
+		holder = Nikl_Scharnachthal
+		liege = k_switzerland
+	}
+	1465.1.1 = {
+		holder = Niklaus_von_Diesbach
+	}
+	1465.1.31 = {
+		holder = HansWaldmann
+	}
+	1489.4.15 = {
+		holder = Benedikt_Tschachtlan
+	}
+}
+
+
+c_aargau = {
+	740.1.1 = {
+		liege = d_swabia
+	}
+	740.1.1 = {
+		holder = 161481 #Hugo
+	}
+	#770.1.1 = {
+	#	holder = 0
+	#}
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	864.1.1 = {
+		holder = 167848
+	}
+	933.1.1 = {
+		liege = k_burgundy
+	}
+	1027.1.1 = {
+		holder = 11006
+	}
+	1032.1.1 = {
+		liege = e_hre
+	}
+	1045.1.1 = {
+		holder = 20289
+	}
+	1096.11.11 = {
+		holder = 11010
+	}
+	1111.11.8 = {
+		holder = 213131
+	}
+	1167.1.1 = {
+		holder = 213130
+	}
+	1199.1.1 = {
+		holder = 213135
+	}
+	1220.1.1 = {
+		liege = d_upper_burgundy
+	}
+	1232.4.10 = {
+		holder = 462044
+	}
+	1239.12.13 = {
+		holder = 462021
+	}
+	1278.8.26 = {
+		liege = "d_osterreich"
+	}
+	1282.1.1 = {
+		liege = "e_hre"
+	}
+	1291.7.15 = {
+		liege = "d_osterreich"
+	}
+	1291.7.15 = {
+		holder = 462048
+	}
+	1315.1.28 = {
+		holder = 462050
+	}
+	##
+	#V 1415 Argau stal chastiu Shvetsarskoy Konfederazii
+	1416.1.1 = {
+		liege = d_currezia
+	}
+	1450.1.1 = {
+		holder = Joh_keller
+	}
+	1460.1.1 = {
+		de_jure_liege = d_currezia
+	}
+	1464.1.1 = {
+		holder = Adrian1Bubenberg
+	}
+	1479.6.6 = {
+		holder = Felix_Brennwald
+	}
+}
+
+
+c_neuchatel = {
+	760.1.1 = {
+		liege = "k_lotharingia"
+		holder = 91482 #FREDERIC, count of Transjuranie
+	}
+	855.1.1 = {
+		liege = "d_upper_burgundy"
+		holder = 7977
+	}	
+	863.1.25 = {
+		liege = d_dauphine
+	}
+	864.1.1 = {
+		holder = 168154
+	}
+	868.1.1 = {
+		holder = 7989
+		liege = "d_upper_burgundy"
+	}
+	876.1.1 = {
+		holder = 7984
+	}
+	
+	1032.9.5 = {
+		liege = "e_hre"
+		holder = 40560
+	}
+	1070.1.1 = {
+		holder = 32762
+	}
+	1099.1.1 = {
+		holder = 212010
+	}
+	1132.8.1 = {
+		holder = 212012
+	}
+	1164.1.1 = {
+		holder = 212013
+	}
+	1189.1.1 = {
+		holder = 212018
+	}
+	1196.8.30 = {
+		holder = 32768
+	}
+	1220.1.1 = {
+		liege = d_upper_burgundy
+	}
+	1225.8.1 = {
+		holder = 32769
+	}
+	1257.3.14 = {
+		holder = 32770
+		liege = e_hre
+	}
+	1285.8.16 = {
+		liege = "d_savoie"
+	}
+	1309.8.29 = {
+		holder = 32771
+	}
+	##
+	1395.1.1 = {
+		holder = Konrad_3_4_Urah_tit
+		liege = e_hre
+	}
+	1400.1.1 = {
+		de_jure_liege = d_currezia #svyaz so Shweitsariey
+	}
+	1424.4.16 = {
+		holder = Johann_Freiburg_Fribourg
+		liege = d_burgundy #sluzhil pri dvore Burg
+	}
+	1458.2.19 = {
+		holder = Rudolf4Nevshat
+		liege = "d_burgundy" #syn srazhalsya vmeste s Karlov Smelym
+	}
+	1480.1.1 = {
+		liege = "k_france"
+	}
+	1487.4.12 = {
+		holder = PhilippZerHahberg #Filip fon Hahberg-Zauzenberg Zeringen s 1487
+		liege = k_france #Vstal na storonu Korolua eze v 1470-h, v 1493 velikiy kamerdiner
+	}
+}
+
+## novoe
+# Pinerolo kak centr c_canavese i Piemonta (v igre Ivrea, Pnerolo i Kanaveze)
+b_pinerolo = {
+	1434.12.31 = {
+		holder = LudovikSavoia
+		effect = { set_capital_barony = yes }
+	}
+}

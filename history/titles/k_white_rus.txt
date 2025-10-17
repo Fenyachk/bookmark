@@ -1,0 +1,2183 @@
+#06_01_25
+k_white_rus = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+	##
+	1400.1.1 = { de_jure_liege = e_west_slavia }
+	1454.1.1 = { change_development_level = 32 }
+	1466.1.1 = { change_development_level = 34 }
+	1477.1.1 = { change_development_level = 36 }
+	1488.1.1 = { change_development_level = 40 }
+}
+
+c_grodno = {
+	#rulers of Grodno or Novgorodok
+	750.1.1 = {
+		holder = 194116
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194117
+	}
+	822.1.1 = {
+		holder = 194118
+	}
+	
+	850.1.1 = {
+		liege = "d_lithuanians"
+	}
+	850.1.1 = {
+		holder = 82154
+	}
+	888.1.1 = {
+		holder = 82156 #Tavalas son of Valgina
+	}
+	937.1.1 = {
+		holder = 82158 #Dvargantis son of Tavalas
+	}
+	956.1.1 = {
+		holder = 82161 #Kremata son of Dvargantis
+	}
+	990.1.1 = {
+		holder = 82162 #Ublanycia son of Dvargantis
+	}
+	1000.1.1 = {
+		holder = 82171 #Erdvilas son of Montvilas
+	}
+	1041.1.1 = {
+		holder = 82187 #Mingaila son of Erdvilas
+	}
+	1075.1.1 = {
+		holder = 82189 #Skirmantas son of Mingaila
+	}
+	1132.1.1 = {
+		holder = 82193 #Traidenis son of Skirmantas
+	}
+	1155.1.1 = {
+		holder = 82194 #Liubartas son of Skirmantas
+	}
+	1176.1.1 = {
+		holder = 82195 #Pisimantas son of Skirmantas
+	}
+	1180.1.1 = {
+		holder = 82198 #Algimantas son of Liubartas
+	}
+	1210.1.1 = {
+		holder = 125300 #Rimgaudas son of Algimantas
+	}
+	1213.1.2 = {
+		holder = 125305 #Dausprungas son of Rimgaudas
+	}
+	1236.1.2 = {
+		holder = 125301 #Mindaugas
+	}
+	1253.6.30 = {
+		liege = "k_lithuania"
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	1316.1.2 = {
+		liege = "d_samogitia"
+	}
+	1316.1.2 = {
+		holder = 473508
+	}
+	
+	
+	##
+	#s 1333 k Litve
+	1333.1.1 = {
+		government = feudal_government
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	1468.12.31 = {
+		holder = VasiliyUrievOdoevski
+		liege = k_lithuania
+	}
+}
+
+
+c_volkovysk = {
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	860.1.1 = {
+		holder = 302142		#fictional
+	}
+	865.4.17 = {
+		holder = 302143		#fictional
+	}
+	
+	###Kievan Rus'
+	882.1.2 = {
+		holder = 40606
+		liege = d_kiev
+	}
+	912.1.2 = {
+		holder = 600
+	}
+	945.1.2 = {
+		holder = 602
+	}
+	972.1.2 = {
+		holder = 604
+	}
+	978.1.2 = {
+		holder = 608
+	}
+	1015.7.15 = {
+		holder = 610
+	}
+	1016.1.2 = {
+		holder = 612
+	}
+	1018.1.2 = {
+		holder = 610
+	}
+	1019.1.2 = {
+		holder = 612
+	}
+	1054.2.20 = {
+		holder = 626
+	}
+	1066.3.20 = {
+		holder = 684
+	}
+	1068.9.14 = {
+		holder = 650
+	}
+	
+	###Fragmentation of Kievan Rus'
+	1069.4.15 = {
+		holder = 626
+	}
+	1078.10.4 = {
+		holder = 630
+	}
+	1093.4.13 = {
+		holder = 652
+	}
+	1113.4.16 = {
+		holder = 666
+	}
+	1125.5.19 = {
+		holder = 222574
+	}
+	1132.4.14 = {
+		holder = 125101
+	}
+	1139.2.8 = {
+		holder = 125102
+	}
+	1139.3.4 = {
+		holder = 222602
+	}
+	1146.8.1 = {
+		holder = 125069
+	}
+	1147.1.2 = {
+		holder = 222525
+	}
+	1149.1.2 = {
+		holder = 222672
+	}
+	1151.1.2 = {
+		holder = 125102
+	}
+	1154.2.6 = {
+		holder = 222525
+	}
+	1154.11.13 = {
+		holder = 222672
+	}
+	1157.5.15 = {
+		holder = 125047
+	}
+	1158.1.2 = {
+		holder = 222522
+	}
+	1159.1.2 = {
+		holder = 222572
+	}
+	1161.2.12 = {
+		holder = 125047
+	}
+	1161.3.6 = {
+		holder = 222572
+	}
+	1167.3.14 = {
+		holder = 222522
+	}
+	1169.1.2 = {
+		holder = 222702
+	}
+	1170.1.2 = {
+		holder = 222522
+	}
+	1170.7.19 = {
+		holder = 222520 # Roman the Great
+	}
+	1194.7.27 = {
+		holder = 222579
+	}
+	1202.1.2 = {
+		holder = 125132
+	}
+	1204.1.2 = {
+		holder = 222587
+	}
+	1205.1.2 = {
+		holder = 222579
+	}
+	1206.1.2 = {
+		holder = 222652
+	}
+	1207.1.2 = {
+		holder = 222579
+	}
+	1210.1.2 = {
+		holder = 222652
+	}
+	1214.1.2 = {
+		holder = 222610
+	}
+	1223.6.2 = {
+		holder = 222588
+	}
+	1239.3.3 = {
+		holder = 125154
+	}
+	1240.1.2 = {
+		holder = 125114
+	}
+	1241.1.2 = {
+		holder = 222654
+	}
+	1243.1.2 = {
+		holder = 472885
+	}
+	1246.9.30 = {
+		holder = 472844
+	}
+	1263.11.14 = {
+		holder = 125074
+	}
+	1265.1.2 = {
+		holder = 125075
+	}
+	1285.1.2 = {
+		holder = 125076
+	}
+	1303.1.2 = {
+		holder = 125077
+	}
+	1325.1.2 = {
+		holder = 472100
+	}
+	
+	##
+	1400.1.1 = {
+		government = feudal_government
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	1468.1.12 = {
+		holder = VasiliyUrievOdoevski
+		liege = k_lithuania
+	}
+}
+
+
+c_novogrudok = {
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+	860.1.1 = {
+		holder = 302142		#fictional
+	}
+	865.4.17 = {
+		holder = 302143		#fictional
+	}
+	
+	###Kievan Rus'
+	882.1.2 = {
+		holder = 40606
+		liege = d_kiev
+	}
+	912.1.2 = {
+		holder = 600
+	}
+	945.1.2 = {
+		holder = 602
+	}
+	972.1.2 = {
+		holder = 604
+	}
+	978.1.2 = {
+		holder = 608
+	}
+	1015.7.15 = {
+		holder = 610
+	}
+	1016.1.2 = {
+		holder = 612
+	}
+	1018.1.2 = {
+		holder = 610
+	}
+	1019.1.2 = {
+		holder = 612
+	}
+	1054.2.20 = {
+		holder = 626
+	}
+	1066.3.10 = {
+		holder = 684
+	}
+	1068.9.14 = {
+		holder = 650
+	}
+	
+	###Fragmentation of Kievan Rus'
+	1069.4.15 = {
+		holder = 626
+	}
+	1073.1.2 = {
+		holder = 628
+	}
+	1076.12.27 = {
+		holder = 630
+	}
+	1077.1.2 = {
+		holder = 626
+	}
+	1078.10.4 = {
+		holder = 630
+	}
+	1093.4.13 = {
+		holder = 652
+	}
+	1113.4.16 = {
+		holder = 666
+	}
+	1125.5.19 = {
+		holder = 222574
+	}
+	1132.4.14 = {
+		holder = 125101
+	}
+	1139.2.8 = {
+		holder = 125102
+	}
+	1139.3.4 = {
+		holder = 222602
+	}
+	1146.8.1 = {
+		holder = 125069
+	}
+	1147.1.2 = {
+		holder = 222525
+	}
+	1149.1.2 = {
+		holder = 222672
+	}
+	1151.1.2 = {
+		holder = 125102
+	}
+	1154.2.6 = {
+		holder = 222525
+	}
+	1154.11.13 = {
+		holder = 222672
+	}
+	1157.5.15 = {
+		holder = 125047
+	}
+	1158.1.2 = {
+		holder = 222522
+	}
+	1159.1.2 = {
+		holder = 222572
+	}
+	1161.2.12 = {
+		holder = 125047
+	}
+	1161.3.6 = {
+		holder = 222572
+	}
+	1167.3.14 = {
+		holder = 222522
+	}
+	1169.1.2 = {
+		holder = 222702
+	}
+	1170.7.19 = {
+		holder = 222520 # Roman the Great
+	}
+	1194.7.27 = {
+		holder = 222579
+	}
+	1202.1.2 = {
+		holder = 125132
+	}
+	1204.1.2 = {
+		holder = 222587
+	}
+	1205.1.2 = {
+		holder = 222579
+	}
+	1206.1.2 = {
+		holder = 222652
+	}
+	1207.1.2 = {
+		holder = 222579
+	}
+	1210.1.2 = {
+		holder = 222652
+	}
+	1214.1.2 = {
+		holder = 222610
+	}
+	1223.6.2 = {
+		holder = 222588
+	}
+	1239.3.3 = {
+		holder = 125154
+	}
+	1240.1.2 = {
+		holder = 125114
+	}
+	1241.1.2 = {
+		holder = 222654
+	}
+	1243.1.2 = {
+		holder = 472885
+	}
+	1246.9.30 = {
+		holder = 472844
+	}
+	1263.11.14 = {
+		holder = 125074
+	}
+	1265.1.2 = {
+		holder = 125075
+	}
+	1285.1.2 = {
+		holder = 125076
+	}
+	1303.1.2 = {
+		holder = 125077
+	}
+	1325.1.2 = {
+		holder = 472100
+	}
+	
+	##
+	1386.1.1 = {
+		holder = Korybutas_Ged #do 1404.12.24
+		government = feudal_government
+		liege = k_lithuania
+	}
+	#S 1392 — domen VKL - Vitovt selit tatar
+	1392.1.1 = {
+		holder = VitovtGed
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	1464.1.16 = {
+		holder = MarcinGasztold
+		liege = k_lithuania
+	}
+	1486.1.16 = {
+		holder = Soltan_Aleks_Soltan
+		liege = k_lithuania
+	}
+	#voevodstvo s 1507, Glinskie
+}
+
+
+c_pinsk = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 20 }
+	1454.1.1 = { change_development_level = 30 }
+	1466.1.1 = { change_development_level = 33 }
+	1488.1.1 = { change_development_level = 35 }
+	
+	#Pre Kievan Rus' / Dregovichi tribes
+	856.3.20 = {
+		holder = 302200		#Fictional Dregovichi
+		liege = 0
+		government = tribal_government
+	}
+	901.4.15 = {
+		holder = 302203		#Fictional Dregovichi
+	}
+	929.11.8 = {
+		holder = 302204		#Fictional Dregovichi
+	}
+	959.4.1 = {
+		holder = 302205		#Fictional Dregovichi
+	}
+	978.7.6 = {
+		holder = 302206		#Fictional Dregovichi
+	}
+	
+	#Kievan Rus
+	988.3.12 = {
+		holder = 608		#Vladimir the Great
+		liege = d_turov
+		government = feudal_government
+	}
+	1064.3.5 = {
+		holder = 302207		#Fictional Dregovichi
+	}
+	1170.1.1 = {
+		holder = 125033 # Yaroslav Yurievich, Prince of Pinsk
+	}
+	##
+	1392.1.1 = {
+		holder = VitovtGed
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	1471.1.16 = {
+		holder = Vasiliy_Sim_OlPinsk #Vas Semen Olelkovich
+		liege = k_lithuania
+	}
+}
+
+
+c_slutsk = {
+	#Pre Kievan Rus' / Dregovichi tribes
+	856.3.20 = {
+		holder = 302200		#Fictional Dregovichi
+		liege = 0
+		government = tribal_government
+	}
+	901.4.15 = {
+		holder = 302203		#Fictional Dregovichi
+	}
+	929.11.8 = {
+		holder = 302204		#Fictional Dregovichi
+	}
+	959.4.1 = {
+		holder = 302205		#Fictional Dregovichi
+	}
+	978.7.6 = {
+		holder = 302206		#Fictional Dregovichi
+	}
+	
+	#Kievan Rus
+	988.3.12 = {
+		holder = 608		#Vladimir the Great
+		liege = d_turov
+		government = feudal_government
+	}
+	1060.7.14 = {
+		holder = 302208		#Fictional Izslutska
+	}
+	1168.1.2 = {
+		holder = 222540 # Ivan Yurievich, Prince of Turov
+	}
+	##
+	1392.1.1 = {
+		holder = VitovtGed
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	1454.1.1 = {
+		holder = Mikhaillelko
+		liege = k_lithuania
+	}
+	1469.1.2 = {
+		holder = SemenMihSlutsk
+	}
+	1471.1.2 = {
+		holder = Mikhaillelko
+		liege = k_lithuania
+	}
+	1481.1.1 = {
+		holder = SemenMihSlutsk
+		liege = k_lithuania
+	}
+}
+
+
+c_kletsk = {
+	#Pre Kievan Rus' / Dregovichi tribes
+	856.3.20 = {
+		holder = 302200		#Fictional Dregovichi
+		liege = 0
+		government = tribal_government
+	}
+	901.4.15 = {
+		holder = 302203		#Fictional Dregovichi
+	}
+	929.11.8 = {
+		holder = 302204		#Fictional Dregovichi
+	}
+	959.4.1 = {
+		holder = 302205		#Fictional Dregovichi
+	}
+	978.7.6 = {
+		holder = 302206		#Fictional Dregovichi
+	}
+	
+	#Kievan Rus
+	988.3.12 = {
+		holder = 608		#Vladimir the Great
+		liege = d_turov
+		government = feudal_government
+	}
+	1064.3.5 = {
+		holder = 302207		#Fictional Dregovichi
+	}
+	1168.1.2 = {
+		holder = 222540 # Ivan Yurievich, Prince of Turov
+	}
+	##
+	1392.1.1 = {
+		holder = VitovtGed
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	#Ivan Vas Borovski bezhal v Litvy, v 1456 poluchil Kletsk i Rogachev
+	1452.12.12 = {
+		holder = IvanVasBorovski #s 1456
+		liege = k_lithuania
+	}
+}
+
+
+c_babruysk = {
+	###Pre Kievan Res
+	859.1.1 = {
+		liege = 0
+		holder = 6826		#Gostomysl Radimich
+		government = tribal_government
+	}
+	
+	###Kievan Rus in 882
+	885.1.1 = {
+		liege = k_ruthenia
+	}
+	890.1.1 = {
+		holder = 160099		#Zvonimir Radimich
+	}
+	988.3.12 = {
+		holder = 608		#Vladimir the Great
+		liege = d_turov
+		government = feudal_government
+	}
+	1060.7.14 = {
+		holder = 302208		#Fictional Izslutska
+	}
+	1176.1.2 = {	#some confusion around dates here, 1167 often cited, as well as 1182 thus with a hole, and 1176 as Volodar's death
+		holder = 222790	#Vladimir Volodarovich
+	}
+	##
+	1392.1.1 = {
+		holder = VitovtGed
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	1455.1.12 = {
+		holder = Mikhaillelko
+		liege = k_lithuania
+	}
+	1468.1.16 = {
+		holder = MarcinGasztold
+		liege = k_lithuania
+	}
+	1481.1.12 = {
+		holder = SemenMihSlutsk
+		liege = k_lithuania
+	}
+}
+
+
+d_minsk = {
+	###Pre-Kievan Rus
+	825.12.3 = {
+		holder = 302209		#Fictional Krivichi
+		government = tribal_government
+	}
+	864.2.23 = {
+		holder = 302212		#Fictional Krivichi
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Vladimir the great invades Minsk area
+	978.6.15 = {
+		holder = 0
+	}
+	
+	#Split of the possessions of Polotsk
+	1101.4.14 = {
+		holder = 672	#Gleb Vseslavich
+	}
+	1119.9.13 = {
+		holder = 666	#Kievan influence
+	}
+	1146.1.22 = {
+		holder = 222795	#Rostislav Glebovich
+	}
+	1151.1.2 = {
+		holder = 222792	#Volodar Glebovich
+	}
+	1159.1.2 = {
+		holder = 222795	#Rostislav Glebovich
+	}
+	1165.1.2 = {
+		holder = 222792	#Volodar Glebovich
+	}
+	1176.1.2 = {	#some confusion around dates here, 1167 often cited, as well as 1182 thus with a hole, and 1176 as Volodar's death
+		holder = 222790	#Vladimir Volodarovich
+	}
+	1178.1.1 = {
+		succession_laws = { male_only_law }
+	}
+	##
+	1242.1.1 = {
+		de_jure_liege = k_lithuania
+	}
+	1290.1.1 = {
+		holder = 473500 #Gedimin
+		liege = k_lithuania
+	}
+	1300.1.1 = {
+		holder = 0
+	}
+}
+
+
+c_minsk = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 20 }
+	1466.1.1 = { change_development_level = 37 }
+	1488.1.1 = { change_development_level = 42 }
+	
+	###Pre-Kievan Rus
+	825.12.3 = {
+		holder = 302209		#Fictional Krivichi
+		liege = d_minsk
+		government = tribal_government
+	}
+	864.2.23 = {
+		holder = 302212		#Fictional Krivichi
+	}
+	
+	###Kievan Rus', invasion by Vladimir the Great
+	978.6.15 = {
+		holder = 608		#Vladimir the Great
+		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
+	}
+	987.1.2 = {
+		holder = 616		#Iziaslav I Vladimirovich
+	}
+	1001.1.2 = {
+		holder = 125000		#Vseslav I Iziaslavich
+	}
+	1003.1.2 = {
+		holder = 642		#Briacheslav I Iziaslavich
+	}
+	1044.1.2 = {
+		holder = 650		#Vseslav II Briacheslavich
+	}
+	
+	#Yaroslav the Wise dies, hell breaks loose, taking the liberty to make Polotsk independent at this point as it became "more" independent than the rest in the upcoming civil war
+	#in 1054.2.20
+	
+	#Split of the possessions of Polotsk
+	1101.4.14 = {
+		holder = 672	#Gleb Vseslavich
+		liege = d_minsk
+	}
+	1119.9.13 = {
+		holder = 666	#Kievan influence
+		liege = d_kiev
+	}
+	1146.1.22 = {
+		holder = 222795	#Rostislav Glebovich
+		liege = d_minsk
+	}
+	1151.1.2 = {
+		holder = 222792	#Volodar Glebovich
+	}
+	1159.1.2 = {
+		holder = 222795	#Rostislav Glebovich
+	}
+	1165.1.2 = {
+		holder = 222792	#Volodar Glebovich
+	}
+	1176.1.2 = {	#some confusion around dates here, 1167 often cited, as well as 1182 thus with a hole, and 1176 as Volodar's death
+		holder = 222790	#Vladimir Volodarovich
+	}
+	##
+	1392.1.1 = {
+		holder = VitovtGed
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	1460.1.1 = {
+		holder = OlechnoSudimont
+		liege = k_lithuania
+	}
+}
+
+
+c_orsha = {
+	###Pre-Kievan Rus
+	825.12.3 = {
+		holder = 302209		#Fictional Krivichi
+		liege = d_minsk
+		government = tribal_government
+	}
+	864.2.23 = {
+		holder = 302212		#Fictional Krivichi
+	}
+	
+	###Kievan Rus', invasion by Vladimir the Great
+	978.6.15 = {
+		holder = 608		#Vladimir the Great
+		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
+	}
+	987.1.2 = {
+		holder = 616		#Iziaslav I Vladimirovich
+	}
+	1001.1.2 = {
+		holder = 125000		#Vseslav I Iziaslavich
+	}
+	1003.1.2 = {
+		holder = 642		#Briacheslav I Iziaslavich
+	}
+	1044.1.2 = {
+		holder = 650		#Vseslav II Briacheslavich
+	}
+	
+	#Yaroslav the Wise dies, hell breaks loose, taking the liberty to make Polotsk independent at this point as it became "more" independent than the rest in the upcoming civil war
+	#in 1054.2.20
+	
+	#Split of the possessions of Polotsk
+	1101.4.14 = {
+		holder = 672	#Gleb Vseslavich
+		liege = d_minsk
+	}
+	1119.9.13 = {
+		holder = 666	#Kievan influence
+		liege = d_kiev
+	}
+	1146.1.22 = {
+		holder = 222795	#Rostislav Glebovich
+		liege = d_minsk
+	}
+	1151.1.2 = {
+		holder = 222792	#Volodar Glebovich
+	}
+	1159.1.2 = {
+		holder = 222795	#Rostislav Glebovich
+	}
+	1165.1.2 = {
+		holder = 222792	#Volodar Glebovich
+	}
+	1176.1.2 = {	#some confusion around dates here, 1167 often cited, as well as 1182 thus with a hole, and 1176 as Volodar's death
+		holder = 222790	#Vladimir Volodarovich
+	}
+	##
+	#Orsha s 1359 v VKL
+	1359.12.31 = {
+		holder = 473506 #Olgerd
+	}
+	1382.1.1 = {
+		holder = Jagailo
+	}
+	1392.1.1 = {
+		holder = VitovtGed
+	}
+	1392.9.2 = {
+		holder = Lingveniy_Olgerdovich #kak knyaz Mstislavski 1392 — 1431, kuda vhodila Orsha -Mstis v Smolenske
+	}
+	1431.6.19 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	1444.4.4 = {
+		holder = RadomirRadzvill #Pust budet Radzivil Ostikovich
+		government = feudal_government
+		liege = k_lithuania
+	}
+	1477.2.16 = {
+		holder = Kazimir4Yag
+	}
+	#pust Drutski-Prihabski
+	1477.12.31 = {
+		holder = Andrei_k_Prihabski
+		liege = k_lithuania
+	}
+}
+
+
+d_polotsk = {
+	800.1.2 = {
+		holder = 0
+		government = tribal_government
+	}
+	
+	#Kievan Rus creation
+	987.1.2 = {
+		holder = 616		#Iziaslav I Vladimirovich
+		liege = k_ruthenia
+		government = feudal_government	#Orthodox conversion
+	}
+	1001.1.2 = {
+		holder = 125000		#Vseslav I Iziaslavich
+	}
+	1003.1.2 = {
+		holder = 642		#Briacheslav I Iziaslavich
+	}
+	1044.1.2 = {
+		holder = 650		#Vseslav II Briacheslavich
+	}
+	
+	#Yaroslav the Wise dies
+	1054.2.20 = {
+		liege = 0
+	}
+	1101.4.14 = {
+		holder = 676		#Davyd Vseslavich
+	}
+	1127.1.2 = {
+		holder = 680		#Boris Vseslavichi
+	}
+	1128.1.2 = {
+		holder = 676		#Davyd Vseslavich
+	}
+	1129.1.2 = {
+		holder = 222525		#Iziaslav II Mstislavich
+	}
+	1132.1.2 = {
+		holder = 222554		#Vasilko Sviatoslavich
+	}
+	1144.1.2 = {
+		holder = 125003		#Rogvolod Borisovich
+	}
+	1151.1.2 = {
+		holder = 222795		#Rostislav Glebovich
+	}
+	1159.1.2 = {
+		holder = 125003
+	}
+	1162.1.2 = {
+		holder = 222552
+	}
+	1178.1.1 = {
+		succession_laws = { male_only_law }
+	}
+	1180.1.2 = {
+		holder = 222562
+	}
+	1185.1.2 = {
+		holder = 222550		#Vladimir Vseslavich
+	}
+	##
+	#Posle Konstantina Bezrukogo
+	1280.1.1 = {
+		holder = 0
+	}
+	1333.1.1 = {
+		de_jure_liege = k_lithuania
+	}
+	#ofitsialno titula net posle 1397
+
+}
+
+
+c_polotsk = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 20 }
+	1454.1.1 = { change_development_level = 34 }
+	1466.1.1 = { change_development_level = 37 }
+	
+	###Pre-Kievan Rus
+	863.1.1 = {
+		holder = 302196		#Polochans
+		liege = 0
+		government = tribal_government
+	}
+	910.6.8 = {
+		holder = 302197		#Polochans
+	}
+	917.5.5 = {
+		holder = 302198		#Polochans
+	}
+	945.1.1 = {
+		holder = 302199		#Rogvolod/Ragnvald
+	}
+	
+	###Kievan Rus', invasion by Vladimir the Great
+	978.6.15 = {
+		holder = 608		#Vladimir the Great
+		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
+	}
+	987.1.2 = {
+		holder = 616		#Iziaslav I Vladimirovich
+	}
+	1001.1.2 = {
+		holder = 125000		#Vseslav I Iziaslavich
+	}
+	1003.1.2 = {
+		holder = 642		#Briacheslav I Iziaslavich
+	}
+	1044.1.2 = {
+		holder = 650		#Vseslav II Briacheslavich
+	}
+	
+	#Yaroslav the Wise dies, hell breaks loose, taking the liberty to make Polotsk independent at this point as it became "more" independent than the rest in the upcoming civil war
+	#in 1054.2.20
+	
+	#Split of the possessions of Polotsk
+	1101.4.14 = {
+		holder = 676		#Davyd Vseslavich
+		liege = d_polotsk
+	}
+	1127.1.2 = {
+		holder = 680		#Boris Vseslavichi
+	}
+	1128.1.2 = {
+		holder = 676		#Davyd Vseslavich
+	}
+	1129.1.2 = {
+		holder = 222525		#Iziaslav II Mstislavich
+	}
+	1132.1.2 = {
+		holder = 222554		#Vasilko Sviatoslavich
+	}
+	1144.1.2 = {
+		holder = 125003		#Rogvolod Borisovich
+	}
+	1151.1.2 = {
+		holder = 222795		#Rostislav Glebovich
+	}
+	1159.1.2 = {
+		holder = 125003
+	}
+	1162.1.2 = {
+		holder = 222552
+	}
+	1180.1.2 = {
+		holder = 222562
+	}
+	1185.1.2 = {
+		holder = 222550		#Vladimir Vseslavich
+	}
+	##
+	1335.12.31 = {
+		holder = 473504 #Narimunt -Polotskiy kn 1335 — 1345
+		liege = k_lithuania
+	}
+	1345.12.31 = {
+		holder = 473513 #Andrey Olgerdovich -Polotskiy kn s 1345 - 1377/87/1399 -1399.1.2
+		liege = k_lithuania
+	}
+	##
+	1399.8.12 = {
+		holder = VitovtGed
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	1480.1.1 = {
+		holder = Jan_Zabrzezinski #Yan Urievich Zaberezinskiy s 1484 na dele
+		government = feudal_government
+		liege = k_lithuania
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+	# dalee
+	1513.12.31 = {
+		holder = Albert_Gashtold #voevoda polotski 1513—1519
+	}
+}
+
+
+c_lukoml = {
+	###Pre-Kievan Rus
+	825.12.3 = {
+		holder = 302209		#Fictional Krivichi
+		liege = d_minsk
+		government = tribal_government
+	}
+	864.2.23 = {
+		holder = 302212		#Fictional Krivichi
+	}
+	
+	###Kievan Rus', invasion by Vladimir the Great
+	978.6.15 = {
+		holder = 608		#Vladimir the Great
+		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
+	}
+	987.1.2 = {
+		holder = 616		#Iziaslav I Vladimirovich
+	}
+	1001.1.2 = {
+		holder = 125000		#Vseslav I Iziaslavich
+	}
+	1003.1.2 = {
+		holder = 642		#Briacheslav I Iziaslavich
+	}
+	1044.1.2 = {
+		holder = 650		#Vseslav II Briacheslavich
+	}
+	
+	1058.4.20 = {
+		holder = 672 # Gleb, taking up duties here to prevent handout at game start
+	}
+	
+	#Yaroslav the Wise dies, hell breaks loose, taking the liberty to make Polotsk independent at this point as it became "more" independent than the rest in the upcoming civil war
+	#in 1054.2.20
+	
+	#Split of the possessions of Polotsk
+	1101.4.14 = {
+		holder = 676		#Davyd Vseslavich
+		liege = d_polotsk
+	}
+	1127.1.2 = {
+		holder = 680		#Boris Vseslavichi
+	}
+	1128.1.2 = {
+		holder = 676		#Davyd Vseslavich
+	}
+	1129.1.2 = {
+		holder = 222525		#Iziaslav II Mstislavich
+	}
+	1132.1.2 = {
+		holder = 222554		#Vasilko Sviatoslavich
+	}
+	1144.1.2 = {
+		holder = 125003		#Rogvolod Borisovich
+	}
+	1151.1.2 = {
+		holder = 222795		#Rostislav Glebovich
+	}
+	1159.1.2 = {
+		holder = 125003
+	}
+	1162.1.2 = {
+		holder = 222552
+	}
+	1180.1.2 = {
+		holder = 222562
+	}
+	1185.1.2 = {
+		holder = 222550		#Vladimir Vseslavich
+	}
+	##
+	1345.12.31 = {
+		holder = 473513 #Andrey Olgerdovich -Lukomski kn 1386—99 -1399.8.12
+		liege = k_lithuania
+	}
+	1450.1.12 = {
+		holder = Ivan_Lukomski #bezhal v 1473 godu
+		liege = k_lithuania
+	}
+	1451.4.4 = {
+		holder = MihailMlKezgailo #pust
+		liege = k_lithuania
+	}
+	1453.1.1 = {
+		holder = Ivan_Lukomski #bezhal v 1473 godu
+		liege = k_lithuania
+	}
+	1473.7.3 = {
+		holder = Ivan_iv_Lukomski
+	}
+}
+
+
+c_vitebsk = {
+	###Pre-Kievan Rus
+	825.12.3 = {
+		holder = 302209		#Fictional Krivichi
+		liege = d_minsk
+		government = tribal_government
+	}
+	864.2.23 = {
+		holder = 302212		#Fictional Krivichi
+	}
+	
+	###Kievan Rus', invasion by Vladimir the Great
+	978.6.15 = {
+		holder = 608		#Vladimir the Great
+		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
+	}
+	987.1.2 = {
+		holder = 616		#Iziaslav I Vladimirovich
+	}
+	1001.1.2 = {
+		holder = 125000		#Vseslav I Iziaslavich
+	}
+	1003.1.2 = {
+		holder = 642		#Briacheslav I Iziaslavich
+	}
+	1044.1.2 = {
+		holder = 650		#Vseslav II Briacheslavich
+	}
+	
+	#Yaroslav the Wise dies, all hell breaks lose, taking the liberty to make Polotsk independent at this point as it became "more" independent than the rest in the upcoming civil war
+	#in 1054.2.20
+	
+	#Split of the possessions of Polotsk
+	1101.4.14 = {
+		holder = 682		#Sviatoslav Vseslavich
+	}
+	1129.1.2 = {
+		holder = 222554		#Vasilko Svatoslavich
+	}
+	1132.1.2 = {
+		holder = 222552		#Vseslav Vasilkovich
+	}
+	#1162.x.x = {
+	#	holder = ???		#Roman Vyacheslavich	#No reference to who he is, not enough info and possibly not in game files already
+	#}
+	1167.1.2 = {
+		holder = 222570		#Davyd Rostislavich
+		liege = d_smolensk	#ruled by Smolensk until 1167/1168
+	}
+	1168.1.2 = {
+		holder = 222562		#Briachislav Vasilkovich
+		liege = 0
+	}
+	1175.1.2 = {
+		holder = 222552		#Vseslav Vasilkovich
+		liege = "d_polotsk"
+	}
+	1178.1.2 = {
+		holder = 222562		#Briachislav Vasilkovich
+	}
+	1180.1.2 = {
+		holder = 222552		#Vseslav Vasilkovich
+	}
+	1186.1.13 = {
+		holder = 222560		#Vasilko Briachislavich
+	}
+	##
+	1392.1.1 = {
+		holder = VitovtGed
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1432.12.12 = {
+		holder = VasSemenDrutskiy	#Vasiili Sem Drutskiy, namestnik
+		liege = k_lithuania
+	}
+	1449.1.1 = {
+		holder = IvanVasDrutskiyKr
+	}
+}
+
+
+d_smolensk = {
+	#Death of Yaroslav the Wise, creation of Smolensk Principality
+	1054.2.20 = {
+		holder = 9132	#Viacheslav I Yaroslavich
+		liege = k_ruthenia
+	}
+	1057.1.2 = {
+		holder = 638	#Igor Yaroslavich
+	}
+	1060.1.2 = {
+		holder = 628	#Sviatoslav Yaroslavich
+	}
+	1066.1.1 = {	#Ahistorical, should still be under Kievan Rus', but split for balancing
+		liege = 0
+	}
+	
+	#Split of Kievan Rus
+	1069.4.15 = {
+		liege = 0
+	}
+	1073.1.2 = {
+		holder = 666	#Valdimir Monomakh
+	}
+	1092.1.2 = {
+		holder = 222574	#Mstislav I Vladimirovich (Monomakh)
+	}
+	1093.1.2 = {
+		holder = 125096	#Iziaslav I Vladimirovich
+	}
+	1095.1.2 = {
+		holder = 656	#Davyd Sviatoslavich
+	}
+	1097.1.2 = {
+		holder = 125097	#Sviatoslav Vladimirovich (Monomakh)
+	}
+	1113.1.2 = {
+		holder = 125102	#Viacheslav Vladimirovich (Monomakh)
+	}
+	1125.1.2 = {
+		holder = 222572	#Rostislav Mstislavich
+	}
+	1160.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1171.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1172.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1174.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1175.1.2 = {
+		holder = 222582	#Mstislav Rostislavich "The Brave"
+	}
+	1176.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1178.1.1 = {
+		succession_laws = { male_only_law }
+	}
+	1180.1.2 = {
+		holder = 222570	#David Rostislavich
+	}
+	##
+	1333.1.1 = {
+		holder = 0
+		de_jure_liege = k_lithuania
+	}
+}
+
+
+c_smolensk = {
+	1178.1.1 = { change_development_level = 20 }
+	1466.1.1 = { change_development_level = 33 }
+	1477.1.1 = { change_development_level = 35 }
+	1488.1.1 = { change_development_level = 37 }
+
+	###Pre-Kievan Rus
+	833.8.11 = {
+		holder = 302245		#Fictional Krivichi
+		liege = d_minsk
+		government = tribal_government
+	}
+	861.3.20 = {
+		holder = 302247		#Fictional Krivichi
+	}
+	
+	#Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {
+		holder = 600	#Igor/Helgi, son of Rurik
+	}
+	945.1.2 = {
+		holder = 602	#Sviatoslav I, w/ some regency by St Olga
+	}
+	972.1.2 = {
+		holder = 604	#Yaropolk I
+	}
+	980.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	988.1.2 = {
+		government = feudal_government
+	}
+	1015.7.15 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1016.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1018.1.2 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1019.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	
+	#Death of Yaroslav the Wise, creation of Smolensk Principality
+	1054.2.20 = {
+		holder = 9132	#Viacheslav I Yaroslavich
+		liege = d_smolensk
+	}
+	1057.1.2 = {
+		holder = 638	#Igor Yaroslavich
+	}
+	1060.1.2 = {
+		holder = 654	#Sviatoslav Yaroslavich
+	}
+	1073.1.2 = {
+		holder = 666	#Valdimir Monomakh
+	}
+	1092.1.2 = {
+		holder = 222574	#Mstislav I Vladimirovich (Monomakh)
+	}
+	1093.1.2 = {
+		holder = 125096	#Iziaslav I Vladimirovich
+	}
+	1095.1.2 = {
+		holder = 656	#Davyd Sviatoslavich
+	}
+	1097.1.2 = {
+		holder = 125097	#Sviatoslav Vladimirovich (Monomakh)
+	}
+	1113.1.2 = {
+		holder = 125102	#Viacheslav Vladimirovich (Monomakh)
+	}
+	1125.1.2 = {
+		holder = 222572	#Rostislav Mstislavich
+	}
+	1160.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1171.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1172.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1174.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1175.1.2 = {
+		holder = 222582	#Mstislav Rostislavich "The Brave"
+	}
+	1176.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1180.1.2 = {
+		holder = 222570	#David Rostislavich
+	}
+	##
+	1249.1.2 = {
+		holder = 472504	# Gleb Rostislavich velik knyaz Smolenski
+		government = feudal_government
+	}
+	1281.1.2 = {
+		holder = 472502	# Aleks Glebovich velik knyaz Smolenski de-facto
+	}
+	1297.1.2 = {
+		holder = 472502	# Aleks Glebovich velik knyaz Smolenski de-ure
+	}
+	1313.1.2 = {
+		holder = 472500	# Ivan Alek-vich velik knyaz Smolenski
+	}
+	1359.1.2 = {
+		holder = 472508	# Svyatoslav Ivanovich velik knyaz Smolenski
+	}
+	1386.1.2 = {
+		holder = Yuri_Svyatoslavich_Smolensk #Uriy Svyat posledniy velik knyaz Smolenski
+	}
+	1395.1.2 = {
+		holder = VitovtGed
+		liege = k_lithuania
+	}
+	1397.2.14 = {
+		holder = Roman_Mihail_Bruansky #namestnik Vitovta
+		liege = k_lithuania
+	}
+	1433.1.1 = {
+		holder = Ivan_sem_Putyata_Dru #voevoda Smol, storonnik Svidrigaila
+		liege = k_lithuania
+	}
+	1433.3.22 = {
+		holder = JanGasztold
+		liege = k_lithuania
+	}
+	1458.2.16 = {
+		holder = Kazimir4Yag
+	}
+	1486.12.31 = {
+		holder = ivan_iliinich #namestnik Smolenskiy 1486-1490
+		government = feudal_government
+		liege = k_lithuania
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+	##
+	1514.8.1 = {
+		holder = Vasiliy3VelKn #vzyatie
+	}
+}
+
+
+c_gnezdovo = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 6 }
+	1466.1.1 = { change_development_level = 26 }
+	1488.1.1 = { change_development_level = 29 }
+	
+	###Pre-Kievan Rus
+	833.8.11 = {
+		holder = 302245		#Fictional Krivichi
+		liege = d_minsk
+		government = tribal_government
+	}
+	861.3.20 = {
+		holder = 302246		#Fictional Krivichi
+	}
+	
+	#Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {
+		holder = 600	#Igor/Helgi, son of Rurik
+	}
+	945.1.2 = {
+		holder = 602	#Sviatoslav I, w/ some regency by St Olga
+	}
+	972.1.2 = {
+		holder = 604	#Yaropolk I
+	}
+	980.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	988.1.2 = {
+		government = feudal_government
+	}
+	1015.7.15 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1016.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1018.1.2 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1019.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	
+	#Death of Yaroslav the Wise, creation of Smolensk Principality
+	1054.2.20 = {
+		holder = 9132	#Viacheslav I Yaroslavich
+		liege = d_smolensk
+	}
+	1057.1.2 = {
+		holder = 638	#Igor Yaroslavich
+	}
+	1060.1.2 = {
+		holder = 654	
+	}
+	1073.1.2 = {
+		holder = 666	#Valdimir Monomakh
+	}
+	1092.1.2 = {
+		holder = 222574	#Mstislav I Vladimirovich (Monomakh)
+	}
+	1093.1.2 = {
+		holder = 125096	#Iziaslav I Vladimirovich
+	}
+	1095.1.2 = {
+		holder = 656	#Davyd Sviatoslavich
+	}
+	1097.1.2 = {
+		holder = 125097	#Sviatoslav Vladimirovich (Monomakh)
+	}
+	1113.1.2 = {
+		holder = 125102	#Viacheslav Vladimirovich (Monomakh)
+	}
+	1125.1.2 = {
+		holder = 222572	#Rostislav Mstislavich
+	}
+	1160.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1171.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1172.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1174.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1175.1.2 = {
+		holder = 222582	#Mstislav Rostislavich "The Brave"
+	}
+	1176.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1180.1.2 = {
+		holder = 222570	#David Rostislavich
+	}
+	##
+	1249.1.2 = {
+		holder = 472504	#yadob Gleb Rostislavich velik knyaz Smolenski
+		government = feudal_government
+	}
+	1281.1.2 = {
+		holder = 472502	#yadob Aleks Glebovich velik knyaz Smolenski de-facto
+	}
+	1297.1.2 = {
+		holder = 472502	#yadob Aleks Glebovich velik knyaz Smolenski de-ure
+	}
+	1313.1.2 = {
+		holder = 472500	#yadob Ivan Alek-vich velik knyaz Smolenski
+	}
+	1359.1.2 = {
+		holder = 472508	#yadob Svyatoslav Ivanovich velik knyaz Smolenski
+	}
+	1386.1.2 = {
+		holder = Yuri_Svyatoslavich_Smolensk #Uriy Svyat velik knyaz Smolenski
+	}
+	1392.1.2 = {
+		holder = Gleb_Svyatoslavich_Smolen #Gleb Svyat velik knyaz Smolenski
+	}
+	1395.1.2 = {
+		holder = VitovtGed
+		liege = k_lithuania
+	}
+	1397.2.14 = {
+		holder = Roman_Mihail_Bruansky
+		liege = k_lithuania
+	}
+	#Gnyozdovo teryaet silu
+	1454.1.1 = {
+		effect = { set_title_name = b_velizh }
+	}
+	1466.3.3 = {
+		holder = FedorIvBelskiGed
+		liege = k_lithuania
+	}
+	1481.3.3 = {
+		holder = SemivBelskiGed
+		liege = k_lithuania
+	}
+}
+
+
+c_roslavl = {
+	###Pre Kievan Res
+	859.1.1 = {
+		liege = 0
+		holder = 6826		#Gostomysl Radimich
+		government = tribal_government
+	}
+	
+	#Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {
+		holder = 600	#Igor/Helgi, son of Rurik
+	}
+	945.1.2 = {
+		holder = 602	#Sviatoslav I, w/ some regency by St Olga
+	}
+	972.1.2 = {
+		holder = 604	#Yaropolk I
+	}
+	980.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	988.1.2 = {
+		government = feudal_government
+	}
+	1015.7.15 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1016.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1018.1.2 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1019.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	
+	#Death of Yaroslav the Wise, creation of Smolensk Principality
+	1054.2.20 = {
+		holder = 9132	#Viacheslav I Yaroslavich
+		liege = d_smolensk
+	}
+	1057.1.2 = {
+		holder = 638	#Igor Yaroslavich
+	}
+	1060.1.2 = {
+		holder = 628	#Sviatoslav Yaroslavich
+	}
+	1073.1.2 = {
+		holder = 666	#Valdimir Monomakh
+	}
+	1092.1.2 = {
+		holder = 222574	#Mstislav I Vladimirovich (Monomakh)
+	}
+	1093.1.2 = {
+		holder = 125096	#Iziaslav I Vladimirovich
+	}
+	1095.1.2 = {
+		holder = 656	#Davyd Sviatoslavich
+	}
+	1097.1.2 = {
+		holder = 125097	#Sviatoslav Vladimirovich (Monomakh)
+	}
+	1113.1.2 = {
+		holder = 125102	#Viacheslav Vladimirovich (Monomakh)
+	}
+	1125.1.2 = {
+		holder = 222572	#Rostislav Mstislavich
+	}
+	1160.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1171.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1172.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1174.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1175.1.2 = {
+		holder = 222582	#Mstislav Rostislavich "The Brave"
+	}
+	1176.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1180.1.2 = {
+		holder = 222570	#David Rostislavich
+	}
+	##
+	1358.1.2 = {
+		holder = 473506	#Olgerd Zahvat
+		liege = k_lithuania
+	}
+	1392.1.2 = {
+		holder = Gleb_Svyatoslavich_Smolen
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	1477.7.7 = {
+		holder = Ivan_Vas_Solomeretskiy
+		liege = k_lithuania
+	}
+	#buduschee
+	1494.7.7 = {
+		holder = Andrei_Iva_Kromskiy
+		liege = k_lithuania
+	}
+}
+
+
+c_mozhaysk = {
+	#Pre-Kievan Rus
+	867.1.1 = {
+		liege = 0
+		holder = 302224	#Alyok Goliad, fictional based on Goliad tribe
+		government = tribal_government
+	}
+	
+	#Kievan Rus in 882
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+		liege = k_ruthenia
+	}
+	912.1.2 = {
+		holder = 600	#Igor/Helgi, son of Rurik
+	}
+	945.1.2 = {
+		holder = 602	#Sviatoslav I, w/ some regency by St Olga
+	}
+	972.1.2 = {
+		holder = 604	#Yaropolk I
+	}
+	980.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1015.7.15 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1016.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1018.1.2 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1019.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	
+	#Death of Yaroslav the Wise, creation of Smolensk Principality
+	1054.2.20 = {
+		holder = 9132	#Viacheslav I Yaroslavich
+		liege = d_smolensk
+	}
+	1057.1.2 = {
+		holder = 638	#Igor Yaroslavich
+	}
+	1060.1.2 = {
+		holder = 302258
+	}
+	1073.1.2 = {
+		holder = 666	#Valdimir Monomakh
+	}
+	1092.1.2 = {
+		holder = 222574	#Mstislav I Vladimirovich (Monomakh)
+	}
+	1093.1.2 = {
+		holder = 125096	#Iziaslav I Vladimirovich
+	}
+	1095.1.2 = {
+		holder = 656	#Davyd Sviatoslavich
+	}
+	1097.1.2 = {
+		holder = 125097	#Sviatoslav Vladimirovich (Monomakh)
+	}
+	1113.1.2 = {
+		holder = 125102	#Viacheslav Vladimirovich (Monomakh)
+	}
+	1125.1.2 = {
+		holder = 222572	#Rostislav Mstislavich
+	}
+	1160.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1171.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1172.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1174.1.2 = {
+		holder = 222586	#Yaropolk Romanovich
+	}
+	1175.1.2 = {
+		holder = 222582	#Mstislav Rostislavich "The Brave"
+	}
+	1176.1.2 = {
+		holder = 222577	#Roman Rostislavich
+	}
+	1180.1.2 = {
+		holder = 222570	#David Rostislavich
+	}
+	##
+	1297.9.7 = {
+		holder = 472511	#ya dob Svyatoslav Glebovich 1297-1303
+	}
+	1303.3.3 = {
+		holder = 472848	#ya dob Uriy Danilovich knuaz Moskovskiy - po 21 no 1325
+	}
+	1325.11.21 = {
+		holder = 472840 #ya dob Kalita
+	}
+	1340.3.26 = {
+		holder = 472851 #ya dob Simeon Gordyi
+	}
+	1353.4.27 = {
+		holder = IvanIvanKras #?-1359
+	}
+	1359.5.2 = {
+		holder = DmitrDonskoy #1359-1389
+	}
+	1389.1.1 = {
+		holder = AndreiOtezStarodub	#Andrei Dmitrievich
+		government = feudal_government
+		liege = d_opolye
+	}
+	#
+	1400.1.1 = { de_jure_liege = d_moskva }
+	#
+	1432.7.9 = {
+		holder = IvanAndrStarodub #Ivan Andr, bezhal v VKL 1454
+	}
+	1454.6.7 = {
+		holder = Vas2tem #Vasiliy II
+	}
+	1462.3.27 = {
+		holder = YuriVas #Uriy Vasil 1462-1473
+		liege = k_opolye
+	}
+	1473.9.12 = {
+		holder = iva3vas
+	}
+	1481.8.1 = {
+		holder = AndreiVasbol
+		liege = k_opolye
+	}
+}
+
+
+c_toropets = {
+	###Pre-Kievan Rus
+	833.8.11 = {
+		holder = 302245		#Fictional Krivichi
+		liege = d_minsk
+		government = tribal_government
+	}
+	861.3.20 = {
+		holder = 302246		#Fictional Krivichi
+	}
+	#Kievan Rus in 882
+	###Kievan Rus', invasion by Vladimir the Great
+	978.6.15 = {
+		holder = 608		#Vladimir the Great
+		liege = 0
+	}
+	987.1.2 = {
+		holder = 616		#Iziaslav I Vladimirovich
+	}
+	1001.1.2 = {
+		holder = 125000		#Vseslav I Iziaslavich
+	}
+	1003.1.2 = {
+		holder = 642		#Briacheslav I Iziaslavich
+	}
+	1044.1.2 = {
+		holder = 650		#Vseslav II Briacheslavich
+	}
+	
+	#Death of Yaroslav the Wise, creation of Smolensk Principality
+	1054.2.20 = {
+		holder = 9132	#Viacheslav I Yaroslavich
+		liege = d_smolensk
+		government = feudal_government
+	}
+	1057.1.2 = {
+		holder = 638	#Igor Yaroslavich
+	}
+	1060.1.2 = {
+		holder = 654	
+	}
+	#Split of Kievan Rus 1069.4.15
+	1073.1.2 = {
+		holder = 666	#Valdimir Monomakh
+	}
+	1092.1.2 = {
+		holder = 222574	#Mstislav I Vladimirovich (Monomakh)
+	}
+	1093.1.2 = {
+		holder = 125096	#Iziaslav I Vladimirovich
+	}
+	1095.1.2 = {
+		holder = 656	#Davyd Sviatoslavich
+	}
+	1097.1.2 = {
+		holder = 125097	#Sviatoslav Vladimirovich (Monomakh)
+	}
+	1113.1.2 = {
+		holder = 125102	#Viacheslav Vladimirovich (Monomakh)
+	}
+	1125.1.2 = {
+		holder = 222572	#Rostislav Mstislavich
+	}
+	1159.1.2 = {
+		holder = 222582	#Mstislav the Brave
+		liege = "d_novgorod"
+	}
+	1180.1.12 = {
+		holder = 222589	#Mstislav Mstislavich the Bold/Daring
+	}
+	##
+	1246.1.12 = {
+		holder = 472844	#Al Nevski ya dobavil
+	}
+	1300.4.4 = {
+		de_jure_liege = d_luki
+	}
+	1362.1.12 = {
+		holder = 473506	#Olgerd ya dobavil
+		liege = k_lithuania
+	}
+	1382.1.1 = {
+		holder = Jagailo
+	}
+	1392.1.1 = {
+		holder = VitovtGed
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+	}
+	#
+	1454.1.1 = { de_jure_liege = "d_tver" }
+	1488.1.12 = {
+		holder = Stanislav_Petr_Kishka
+		government = feudal_government
+		liege = k_lithuania
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+}
+
+##Novoe - Drutsk, gorod s 1078
+b_drutsk = {
+	1453.1.1 = { holder = Ivan_F_DruOzer }
+}

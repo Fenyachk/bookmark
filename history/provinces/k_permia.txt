@@ -1,0 +1,233 @@
+#1.13.0.3 Basileus
+#k_permia
+##d_perm ###################################
+###c_perm
+886 = {		#Perm
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	##
+	#pochinok Stroganovyh
+	1647.1.1 = {
+		culture = russian
+		religion = orthodox
+	}
+	#osnovanie Tatishev
+	1723.5.15 = { holding = castle_holding }
+}
+5434 = {	#Kungur
+	holding = none
+}
+5436 = {	#Ovinskoi
+	#Can be found in the XIX atlas of the Russian Empire, in the province of Perm, south-west of Kungur (noted Coungour)
+	holding = none
+}
+5435 = {	#Krasnooufimsk
+	holding = none
+	## 1736
+}
+
+###c_sebur
+5437 = {	#Sebur
+	#Can be seen on XIVth century maps of Volga Bulgaria, location fairly approximate
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+}
+5438 = {	#Okhansk
+	holding = none
+}
+5439 = {	#Aluchi
+	#Can be found in the XIX atlas of the Russian Empire, in the province of Perm, south of Ossa
+	holding = none
+}
+5440 = {	#Saraninskor
+	#Can be found in the XIX atlas of the Russian Empire, in the province of Perm, south of Krasnooufimsk
+	holding = none
+}
+
+###c_lysva
+5441 = {	#Lysva
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	##
+	1787.1.1 = { holding = castle_holding }
+}
+5442 = {	#Kutamych
+	#Appears as "Coutamych" in XIXth century Russian atlas, province of Perm
+	holding = none
+}
+5443 = {	#Serga	based on river of the same name
+	holding = none
+}
+5444 = {	#Sylva	fictional, based on river of the same name
+	holding = none
+}
+
+###c_kumych
+5445 = {	#Kumych
+	#Appears as "Coumych" in XIXth century Russian atlas, province of Perm, east of Perm, just west of the Urals
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	##
+	1735.1.1 = { holding = castle_holding }
+}
+5446 = {	#Bisserskaya
+	#Can be found in the XIX atlas of the Russian Empire, in the province of Perm, west of Yekaterinburg
+	holding = none
+	##
+	#Bisert' - 1735
+}
+5447 = {	#Klenovskaya
+	#Can be found in the XIX atlas of the Russian Empire, in the province of Perm, west of Yekaterinburg
+	holding = none
+}
+5448 = {	#Kirgichanskaya
+	#Can be found in the XIX atlas of the Russian Empire, in the province of Perm, west of Yekaterinburg
+	holding = none
+}
+
+##d_ural ###################################
+###c_ural
+889 = {		#Ural	AKA Uralsk
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	##
+	# posle Solikamska
+	1454.1.1 = { holding = castle_holding }
+	#a tak 1780?
+}
+5453 = {	#Vilva	fictional, based on river of the same name
+	holding = none
+}
+5454 = {	#Solikamsk
+	holding = none
+	##
+	1400.3.19 = { holding = city_holding }
+}
+
+###c_votkinsk
+5449 = {	#Votkinsk
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	##
+	#Votkinsk Udmurtia
+	1300.1.1 = { culture = udmurt }
+	1757.4.14 = { holding = castle_holding }
+}
+5450 = {	#Nytva
+	holding = none
+}
+5451 = {	#Obva	based on river of the same name
+	holding = none
+}
+5452 = {	#Krasnokamsk
+	holding = none
+	#-1929
+}
+
+###c_kerken
+5455 = {	#Kerken
+	#Not to be confused with the german Kerken
+	#Can be found on maps of Volga Bulgaria
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	##
+	#novoe - Cherdyn
+	1444.1.1 = {
+		holding = castle_holding 
+	}
+}
+5456 = {	#Shimal
+	#Can be found on maps of Volga Bulgaria
+	holding = none
+}
+5457 = {	#Akchim	based on river of the same name
+	holding = none
+}
+
+##d_udmurtia ###################################
+###c_kargadan
+888 = {		#Kargadan
+	#Can be found on maps of Volga Bulgaria
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	##
+	1300.1.1 = { culture = udmurt }
+	1780.1.1 = { holding = castle_holding }
+}
+5458 = {	#Kasib
+	holding = none
+}
+5459 = {	#Koca	fictional, based on river of the same name
+	holding = none
+}
+5460 = {	#Karsovay
+	holding = none
+	##
+	#-1780 pochinok Balezinski raion Udmurtii
+}
+
+###c_palniki
+5461 = {	#Palniki
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	##
+	1300.1.1 = { culture = udmurt }
+	1700.1.1 = { holding = castle_holding }
+}
+5462 = {	#Lolog	fictional, based on river of the same name
+	holding = none
+}
+612 = {		#Kai
+	holding = none
+}
+
+###c_glazov
+5463 = {	#Glazov
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	##
+	1300.1.1 = { culture = udmurt }
+	1678.1.1 = { holding = castle_holding }
+}
+5464 = {	#Igra
+	holding = none
+}
+5465 = {	#Uva
+	holding = none
+}
+
+###c_kolyn
+5466 = {	#Kolyn
+	#XIth century settlement, more or less same location as modern day Kirov
+	culture = komi
+	religion = siberian_pagan
+	holding = tribal_holding
+	## Vyatka = Kirov
+	1374.1.1 = { culture = russian religion = orthodox }
+	1400.1.1 = { holding = castle_holding }
+}
+5467 = {	#Nukrat
+	#Can be found on map of Volga Bulgaria in the Xth century, north/east of Kolyn, on the Kama river
+	holding = none
+	##
+	## Katino Kir Obl nukratkie tatary na reke Cheptsa
+	1489.1.1 = { holding = city_holding }
+	# Tatarskoe karinskoe k-vo Arskie knyazia
+}
+5468 = {	#Suna
+	holding = none
+	## Suna Zuevskogo r-na
+}
+5469 = {	#Arkul
+	holding = none
+}

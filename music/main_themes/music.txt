@@ -1,0 +1,11 @@
+﻿##### MAINTHEME
+main_theme_track_roco  = {
+#	music = "event:/MUSIC/MainTheme/Maintheme"
+#	music = "file:/music/Extinrebok_AI1490.ogg"
+	music = "file:/music/Riffusion_Magyar_Court.ogg"
+	can_be_interrupted = yes
+}
+main_theme_track = {
+	music = "event:/MUSIC/MainTheme/Maintheme"
+	can_be_interrupted = yes
+}

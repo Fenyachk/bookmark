@@ -1,0 +1,355 @@
+﻿#1.13.0.3 Basileus
+#k_moldavia
+##d_bukovina ###################################
+###c_suceava
+545 = {		#Suceava
+	culture = russian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+	1178.1.1 = {
+		culture = vlach
+	}
+}
+5034 = {	#Baia
+	holding = none
+	1150.1.1 = {
+		holding = church_holding
+	}
+}
+5035 = {	#Vatra Dornei
+	holding = none
+	##
+	#1592
+	1592.1.1 = { holding = city_holding }
+}
+5036 = {	#Campulung Moldovenesc
+	holding = none
+	##
+	1411.1.11 = { holding = church_holding }
+}
+5037 = {	#Sulina
+	holding = none
+	1150.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_neamnt
+5031 = {	#Piatra Neamnt
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+}
+5032 = {	#Targu Neamnt
+	holding = none
+	1000.1.1 = {
+		holding = city_holding
+	}
+}
+5033 = {	#Roman
+	holding = none
+	##
+	1387.1.1 = { holding = church_holding }
+}
+
+###c_dorohoi
+5038 = {	#Dorohoi
+	culture = russian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+	1178.1.1 = {
+		culture = vlach
+	}
+}
+5039 = {	#Harlau
+	holding = none
+	##
+	1384.1.1 = { holding = city_holding }
+}
+
+###c_hotin
+5040 = {	#Hotin
+	culture = russian
+	religion = slavic_pagan
+	holding = tribal_holding
+	special_building_slot = hotin_fort_01
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+		special_building = hotin_fort_01
+	}
+	##
+	1450.5.5 = { culture = zapadnorus }
+}
+5041 = {	#Tetina
+	holding = none
+	##
+	1400.1.1 = {holding = city_holding}
+	#Tsetinskay krepost - posledni raz v 1481 godu
+	1482.1.1 = {holding = none}
+}
+5042 = {	#Cernauti
+	holding = none
+	##
+	#Chernovtsy
+	1408.1.1 = {holding = city_holding}
+}
+
+##d_moldova ###################################
+###c_iasi
+541 = {		#Iasi
+	culture = russian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+	1178.1.1 = {
+		culture = vlach
+	}
+}
+5023 = {	#Ungheni
+	holding = none
+	##
+	1462.10.8 = {holding = church_holding }
+}
+5024 = {	#Falesti
+	holding = none
+	##
+	1429.10.8 = {holding = city_holding }
+}
+
+###c_orhei
+5019 = {	#Orhei
+	culture = russian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+	1178.1.1 = {
+		culture = vlach
+	}
+	##
+	#Stary Orhei - ordynki gorod Shehr al-Djedid s 1363
+	1363.1.1 = { culture = mongol religion = ashari }
+	1469.1.1 = { culture = litovtatar }
+	1499.1.1 = { culture = vlach religion = orthodox }
+}
+5020 = {	#Tuzara
+	holding = none
+}
+
+###c_soroca
+5021 = {	#Soroca
+	culture = russian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+	1178.1.1 = {
+		culture = vlach
+	}
+	##
+	1450.5.5 = { culture = zapadnorus }
+}
+5022 = {	#Balti
+	holding = none
+	## #Beltsi
+	1620.10.4 = { holding = castle_holding }
+}
+
+###c_barlad
+513 = {		#Barlad
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+}
+5025 = {	#Vaslui
+	holding = none
+	1000.1.1 = {
+		holding = city_holding
+	}
+}
+5026 = {	#Husi
+	holding = none
+	##
+	1494.10.8 = { holding = church_holding }
+}
+
+###c_galati
+511 = {		#Galati
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+}
+5027 = {	#Tecuci
+	holding = none
+	935.1.1 = {
+		holding = city_holding
+	}
+}
+5028 = {	#Focsani
+	holding = none
+	1000.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_stoenesti
+5029 = {	#Stoenesti
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+}
+5030 = {	#Bacau
+	holding = none
+	##
+	# v Rumynii s 1408 yarmarochny centr
+	1408.8.10 = { holding = city_holding }
+}
+
+##d_bugeac ###################################
+###c_tigheci
+5015 = {	#Tigheci
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+	1066.1.1 = {
+		holding = tribal_holding # Pecheneg
+	}
+	##
+	1399.1.1 = { holding = castle_holding }
+}
+5016 = {	#Cahul
+	holding = none
+	## 1502 - 1835
+	1502.10.8 = { holding = city_holding }
+	1835.10.8 = { holding = none }
+}
+
+###c_cetatea_alba
+512 = {		#Cetatea Alba
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+	##
+	1446.1.1 = {
+		culture = armenian #mnogo armyan
+	}
+}
+5011 = {	#Tighina
+	holding = none
+	## Tigina-Bendery
+	1408.10.8 = { holding = city_holding }
+}
+
+###c_chilia
+5012 = {	#Chilia
+	culture = vlach
+	religion = orthodox
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+	1066.1.1 = {
+		holding = tribal_holding # Pecheneg
+	}
+	##
+	1366.1.1 = { holding = castle_holding }
+}
+5013 = {	#Oblucita
+	holding = none
+	1070.1.1 = {
+		holding = city_holding
+	}
+}
+5014 = {	# 5014 - Artsyz
+	holding = none
+}
+
+###c_lapusna
+5017 = {	#Lapusna
+	culture = russian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1000.1.1 = {
+		religion = orthodox
+	}
+	1178.1.1 = {
+		culture = vlach
+	}
+	##
+}
+5018 = {	#Chisinau
+	holding = none
+	## Kishinyow
+	1436.7.17 = {holding = castle_holding}
+}
+

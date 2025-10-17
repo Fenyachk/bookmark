@@ -1,0 +1,48 @@
+﻿l_russian:
+ nick_cicero: "Цицерон"
+ nick_the_blind2: "Тёмный" #the Blind
+ nick_the_shild: "Щит" #the Shild
+ nick_the_donskoy: "Донской" #of the Don
+ nick_corvinus: "Корвин" #Corvinus
+ nick_achilles: "Ахилл" #Achilles
+ nick_wrubel: "Воробей" #Wróbel
+ nick_suhoruk: "Сухорук" #Suhoruk
+ nick_hersekli: "Херсекли" #Hersekli
+ nick_la_Beltraneja: "Бельтранеха"
+ nick_the_kingmaker: "Делатель королей"
+ nick_the_wolf_of_badenoch: "Баденохский волк"
+ nick_the_tanister: "Танистер"
+ nick_bell_the_cat: "Отчаянный" #Арчибальд Дуглас 5-й граф Ангус
+ nick_blednyi_pale: "[Select_CString(CHARACTER.IsFemale, 'Бледная', 'Бледный' )]"
+ nick_the_kalita: "Калита"
+ nick_the_bordo: "Бордо" #Бордо Bordeaux
+ nick_the_gaunt: "Гонт" #Гонт Gaunt
+ nick_the_bolingbroke: "Болингброк"
+ nick_the_lubeznyi: "Любезный" #Любезный the Affable - Карл VIII - есть nick_the_affable
+ nick_the_postum: "Постум" #the Posthumous
+ nick_the_moreplavatel: "Мореплаватель" #the Navigator
+ nick_the_warnenchik: "Варненчик" #
+ nick_roterodamus: "Роттердамский" #Roterodamus
+ nick_mirkhvand: "Мирхонд" #Mirkhvand 
+ nick_khvandamir: "Хондемир" #Khvandamir
+ nick_baykara: "Байкара" #Хусейн Байкара - Bayqara
+ nick_the_eloquent2: "Красноречивый" #Eloquent
+ nick_the_african: "Африканец" #the African, Portuguese: o Africano
+ nick_miskin_abdal: "Мискин Абдал"
+ nick_of_langley: "Лэнгли" #Edmund of Langley, 1st Duke of York
+ nick_of_conisburgh: "Конисбург" #Richard of Conisburgh
+ nick_of_norwich: "Норвичский" #Edward of Norwich, 2nd Duke of York
+ nick_of_westminster: "Вестминстерский" #of Westminster
+ nick_the_alchemist: "Алхимик"
+ nick_paracelsus: "Парацельс"
+ nick_nostradamus: "Нострадамус"
+ nick_kuraka: "Курака"
+ #nick_beth_nahrain: "Бет-Нараин" #пропущенное в самой игровой локализации
+ nick_grammarian: "Грамматик" #Grammarian
+ nick_miechowita: "Меховита" #z Miechowa
+ nick_opolski: "Опольский"
+ nick_poliziano: "Полициано" #Poliziano
+ nick_fra_carnevale: "Фра Карневале" #Fra Carnevale
+ nick_celtis: "Цельтис" #Celtis
+ nick_beaujeu: "де Божё" #de Beaujeu
+ nick_boabdil: "Боабдиль"

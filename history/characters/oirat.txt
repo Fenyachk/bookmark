@@ -1,0 +1,545 @@
+﻿# 29-04-2025
+303009 = {
+	name = "Batula"
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	823.3.16 = {
+		birth = yes
+	}
+	848.7.14 = {
+		add_spouse = 303010
+	}
+	877.9.9 = {
+		death = yes
+	}
+}
+303010 = {
+	name = "Altana"
+	female = yes
+	religion = tengri_pagan
+	culture = oirat
+	830.2.23 = {
+		birth = yes
+	}
+	892.1.28 = {
+		death = yes
+	}
+}
+303011 = {
+	name = "Shukhur"
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	father = 303009
+	mother = 303010
+	849.10.17 = {
+		birth = yes
+	}
+	904.5.15 = {
+		death = yes
+	}
+}
+303012 = {
+	name = "Ytsl"
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	father = 303009
+	mother = 303010
+	852.2.17 = {
+		birth = yes
+	}
+	910.3.15 = {
+		death = yes
+	}
+}
+
+303013 = {
+	name = "Toghon"
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	1037.1.15 = {
+		birth = yes
+	}
+	1058.3.22 = {
+		add_spouse = 303014
+	}
+	1094.8.15 = {
+		death = yes
+	}
+}
+303014 = {
+	name = "Ariuna"
+	female = yes
+	religion = tengri_pagan
+	culture = oirat
+	1041.10.11 = {
+		birth = yes
+	}
+	1093.12.19 = {
+		death = yes
+	}
+}
+303015 = {
+	name = "Zaufishan"
+	female = yes
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	father = 303013
+	mother = 303014
+	1061.5.16 = {
+		birth = yes
+	}
+	1124.2.27 = {
+		death = yes
+	}
+}
+303016 = {
+	name = "Chon"
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	father = 303013
+	mother = 303014
+	1065.8.14 = {
+		birth = yes
+	}
+	1123.12.21 = {
+		death = yes
+	}
+}
+303017 = {
+	name = "Saran"	 
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	father = 303016
+	1087.6.14 = {
+		birth = yes
+	}
+	1133.8.25 = {
+		death = yes
+	}
+}
+303018 = {
+	name = "GU_shi"
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	father = 303017
+	1108.4.10 = {
+		birth = yes
+	}
+	1168.1.18 = {
+		death = yes
+	}
+}
+303019 = {
+	name = "Gulichi"
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	stewardship = 6
+	father = 303018
+	1136.11.30 = {
+		birth = yes
+	}
+	1195.7.28 = {
+		death = yes
+	}
+}
+303020 = {
+	name = "O_rU_g"
+	dynasty = 2001136	#dynn_Oirat
+	religion = tengri_pagan
+	culture = oirat
+	father = 303019
+	1162.1.16 = {
+		birth = yes
+	}
+	1210.6.7 = {
+		death = yes
+	}
+}
+
+303021 = {
+	name = "Kitbugha"
+	dynasty = 2001137	#dynn_DO_rbet
+	religion = tengri_pagan
+	culture = oirat
+	1100.2.2 = {
+		birth = yes
+	}
+	1153.7.15 = {
+		death = yes
+	}
+}
+303022 = {
+	name = "Kundelung"
+	dynasty = 2001137	#dynn_DO_rbet
+	religion = tengri_pagan
+	culture = oirat
+	father = 303021
+	1126.11.3 = {
+		birth = yes
+	}
+	1180.12.24 = {
+		death = yes
+	}
+}
+303023 = {
+	name = "IshtO_mO_r"
+	dynasty = 2001137	#dynn_DO_rbet
+	religion = tengri_pagan
+	culture = oirat
+	father = 303022
+	1151.4.11 = {
+		birth = yes
+	}
+	1202.9.17 = {
+		death = yes
+	}
+}
+303024 = {
+	name = "Taisun"
+	dynasty = 2001137	#dynn_DO_rbet
+	religion = tengri_pagan
+	culture = oirat
+	father = 303023
+	1170.7.16 = {
+		birth = yes
+	}
+	1206.2.13 = {
+		death = yes
+	}
+}
+
+303025 = {
+	name = "Sengge"
+	dynasty = 2001138	#dynn_Kolyokod
+	religion = tengri_pagan
+	culture = oirat
+	1134.3.26 = {
+		birth = yes
+	}
+	1195.4.18 = {
+		death = yes
+	}
+}
+303026 = {
+	name = "BembO_"
+	dynasty = 2001138	#dynn_Kolyokod
+	religion = tengri_pagan
+	culture = oirat		 
+	1158.10.21 = {
+		birth = yes
+	}
+	1206.9.22 = {
+		death = yes
+	}
+}
+fictional_oirats_1 = { #Fictional herder
+	name = "Hurimashi"
+	religion = tengri_pagan
+	culture = oirat
+	1134.4.23 = {
+		birth = yes
+	}
+	1185.4.2 = {
+		death = yes
+	}
+}
+fictional_oirats_2 = { #Fictional herder
+	name = "Sanggaerzha_Yiledeng"
+	religion = tengri_pagan
+	culture = oirat
+	1023.9.14 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+###
+#Чоросы - Ойраты
+#Тогон-тайши ум. 1439) — главный ойратский тайши (1417 — 1439)
+# первый советник при монгольском Тайсун-хане и фактический правитель Монгольского ханства
+#В 1437 году Тогон издал указ о введении «Улан зала» как знака отличия ойратов от остальных монголов
+toghon_taishi = {
+	name = "Toghon"
+	dynasty = ChorosOirat #Чорос
+	religion = tengri_pagan
+	culture = oirat
+	trait = education_martial_2
+	1382.8.2 = {
+		birth = yes
+	}
+	1439.3.9 = {
+		death = yes
+	}
+}
+#Эсэн-тайши /1407 — 1454/
+EsenTaishiOirat = {
+	name = "Esen" #ex Jesen 
+	dynasty = ChorosOirat #Чорос
+	father = toghon_taishi
+	religion = tengri_pagan
+	culture = oirat
+	trait = education_martial_3 #нападал на Китай, узурпировал власть
+	prowess = 11
+	1407.7.4 = {
+		birth = yes
+	}
+	1455.1.1 = {
+		death = yes
+	}
+}
+#его дочь Сэчен
+SesegTaishiOirat = {
+	name = "Seseg"
+	female = yes
+	father = EsenTaishiOirat
+	religion = tengri_pagan
+	culture = oirat
+	1434.1.12 = {
+		birth = yes
+	}
+	1468.1.1 = {
+		death = yes
+	}
+}
+#Уч-Тэмур тайша Ойратского союза с 1455 по 1478
+UchTEmurOiratSouz = {
+	name = "UchTEmur"
+	dynasty = ChorosOirat
+	father = EsenTaishiOirat
+	religion = "tengri_pagan"
+	culture = "oirat"
+	trait = education_diplomacy_2
+	1423.11.17 = {
+		birth = yes
+	}
+	1480.10.10 = {
+		death = yes
+	}
+}
+#сыновья Уч-Тэмура Ойрата
+#Хишиг-Ерлёг
+HishigErlyog_Oirat = {
+	name = "HishigErlyog"
+	dynasty = ChorosOirat
+	father = UchTEmurOiratSouz
+	religion = "tengri_pagan"
+	trait = education_stewardship_1
+	trait = arbitrary
+	culture = "oirat"
+	1447.5.17 = {
+		birth = yes
+	}
+	1489.12.12 = {
+		effect = {
+			set_relation_rival = character:BatuMunkeDayanhan
+		}
+	}
+	1500.10.10 = {
+		death = yes
+	}
+}
+#Бюрэн-айалгу
+BuyrenAyalgu_OIrat = {
+	name = "BuyrenAyalgu"
+	dynasty = ChorosOirat
+	father = UchTEmurOiratSouz
+	religion = "tengri_pagan"
+	culture = "oirat"
+	1458.5.17 = {
+		birth = yes
+	}
+	1506.10.10 = {
+		death = yes
+	}
+}
+#Хамаг
+Hamag_OIrat = {
+	name = "Hamag"
+	dynasty = ChorosOirat
+	father = UchTEmurOiratSouz
+	religion = "tengri_pagan"
+	culture = "oirat"
+	1460.5.17 = {
+		birth = yes
+	}
+	1500.10.10 = {
+		death = yes
+	}
+}
+#Боронагул
+Boronaghul_OIrat = {
+	name = "Boronaghul"
+	dynasty = ChorosOirat
+	father = UchTEmurOiratSouz
+	religion = "tengri_pagan"
+	culture = "oirat"
+	1448.5.17 = {
+		birth = yes
+	}
+	1510.10.10 = {
+		death = yes
+	}
+}
+#Ойрат в герцогстве Алтай - Чингиль
+Oirat_Altay_Chingil = {
+	name = "Ytsl"
+	dynasty = Olot #Олёты - олоты, ойратское племя
+	religion = tengri_pagan
+	culture = oirat
+	prowess = 7
+	1446.11.11 = {
+		birth = yes
+	}
+	1466.1.1 = {
+		trait = scarred
+	}
+	1522.1.1 = {
+		death = yes
+	}
+}
+#Первые источники о массовом принятии ойратами буддизма (ламаизма из Тибета), относят год принятия к 1615 году
+#Буддизм тибетского толка распространялся среди предков калмыков — ойратов еще с XIII века
+fik_oirat_lamaist1 = {
+	name = "Ytsl"
+	culture = oirat
+	religion = lamaism
+	trait = education_learning_2
+	prowess = 4
+	trait = lifestyle_mystic
+	1454.5.3 = {
+		birth = yes
+	}
+	1469.1.1 = {
+		trait = celibate
+	}
+	1533.1.1 = {
+		death = yes
+	}
+}
+fik_oirat_lamaist2 = {
+	name = "Altana"
+	female = yes
+	culture = oirat
+	religion = lamaism
+	trait = education_learning_1
+	prowess = 1
+	1460.5.3 = {
+		birth = yes
+	}
+	1544.1.1 = {
+		death = yes
+	}
+}
+oirat_buddist = {
+	name = "Toghon"
+	dynasty = teegin_gerl #Теегин герл = свет в степи
+	culture = oirat
+	religion = lamaism
+	trait = education_learning_2
+	prowess = 5
+	1444.5.3 = {
+		birth = yes
+	}
+	1522.1.1 = {
+		death = yes
+	}
+}
+oirat_buddist_2 = {
+	name = "Shukhur"
+	dynasty = teegin_gerl #Теегин герл = свет в степи
+	father = oirat_buddist
+	culture = oirat
+	religion = lamaism
+	trait = lifestyle_hunter
+	prowess = 2
+	1467.6.7 = {
+		birth = yes
+	}
+	1522.1.1 = {
+		death = yes
+	}
+}
+## Торгуты
+oirat_torgut_0 = {
+	name = "Toghon"
+	dynasty = Torghut
+	culture = oirat
+	religion = tengri_pagan
+	1422.4.1 = {
+		birth = yes
+	}
+	1467.2.11 = {
+		death = yes
+	}
+}
+oirat_torgut_1 = {
+	name = "Kitbugha"
+	dynasty = Torghut
+	father = oirat_torgut_0
+	culture = oirat
+	religion = tengri_pagan
+	trait = lifestyle_hunter
+	prowess = 5
+	1445.4.1 = {
+		birth = yes
+	}
+	1522.1.1 = {
+		death = yes
+	}
+}
+oirat_torgut_2 = {
+	name = "Kundelung"
+	dynasty = Torghut
+	father = oirat_torgut_1
+	culture = oirat
+	religion = tengri_pagan
+	trait = forder
+	prowess = 11
+	1467.6.7 = {
+		birth = yes
+	}
+	1533.1.1 = {
+		death = yes
+	}
+}
+#брат первог
+oirat_torgut_3 = {
+	name = "GU_shi"
+	dynasty = Torghut
+	father = oirat_torgut_0
+	culture = oirat
+	religion = tengri_pagan
+	1447.2.2 = {
+		birth = yes
+	}
+	1522.1.1 = {
+		death = yes
+	}
+}
+oirat_bud_bazarka = {
+	name = "Taisun"
+	religion = tengri_pagan
+	culture = oirat
+	trait = education_learning_3
+	prowess = 1
+	1422.2.2 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		religion = lamaism
+		trait = lifestyle_mystic
+	}
+	1502.2.13 = {
+		death = yes
+	}
+}

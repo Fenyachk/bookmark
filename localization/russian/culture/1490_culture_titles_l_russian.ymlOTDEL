@@ -1,0 +1,245 @@
+﻿# 14-10-2025   1.17.1 "Ascendant"-убрал лишнее
+l_russian:
+ duke_feudal_independent: "Малый король" #ранее Король
+ duke_feudal_independent_female: "Малая королева" #ранее Королева
+ king_tribal_male: "Племенной король" #изменено
+ king_tribal_female: "Племенная королева" #изменено
+ kingdom_tribal: "Королевство"
+ emperor_tribal_male: "Верховный король"
+ emperor_tribal_female: "Верховная королева"
+ empire_tribal: "Великое королевство" #изменено
+ county_herder: "[Character.GetPrimaryTitle.GetProvince.GetTerrain.GetNameNoTooltip]"
+### Russian ###
+ #Feudal
+ duke_feudal_male_russian: "Князь" #было Великий князь
+ duke_feudal_female_russian: "Княгиня" #Великая княгиня
+ duchy_feudal_russian: "Малое княжество" #Великое княжество
+ emperor_feudal_male_russian: "Царь"
+ emperor_feudal_female_russian: "Царица"
+ empire_feudal_russian: "Царство"
+ ##1490 добавлено ниже
+ baron_feudal_male_russian: "Посадник"
+ baron_feudal_female_russian: "Посадница"
+ baron_republic_male_russian: "Голова"
+ baron_republic_female_russian: "Голова"
+ barony_feudal_russian: "Волость"
+ king_feudal_male_russian: "Великий князь"
+ king_feudal_female_russian: "Великая княгиня"
+ kingdom_feudal_russian: "Великое княжество"
+ count_feudal_male_russian: "Удельный князь"
+ count_feudal_female_russian: "Удельная княгиня"
+ county_feudal_russian: "Удел"
+ county_feudal_k_novgorod: "Пятина"
+ #принцы и принцессы
+ prince_male_russian: "Княжич"
+ prince_female_russian: "Княжна"
+ prince_male_russian_empire: "Царевич"
+ prince_female_russian_empire: "Царевна"
+ #
+ ### МОД 1490 ###
+ #Османская империя turetskaya
+ empire_feudal_osman: "Империя"
+ emperor_feudal_male_osman: "Великий султан"
+ #emperor_feudal_female_osman: "Госпожа"
+ #sultan_osm: "Верховный султан"
+ osm_imperia: "Великий султанат"
+ #
+ empire_feudal_turetskaya: "Великий султанат"
+ empire_clan_turetskaya: "Великий султанат"
+ empire_turetskaya: "Великий султанат"
+ emperor_feudal_male_turetskaya: "Султан-падишах" #+
+ emperor_feudal_female_turetskaya: "Хасеки-султан" #экс Султан-хатун
+ kingdom_feudal_turetskaya: "Эялет"
+ king_feudal_male_turetskaya: "Бейлербей"
+ king_feudal_female_turetskaya: "Эялет-хатун"
+ kingdom_clan_turetskaya: "Эялет"
+ king_clan_male_turetskaya: "Бейлербей"
+ king_clan_female_turetskaya: "Эялет-хатун"
+ duchy_feudal_turetskaya: "Санджак"
+ duke_feudal_male_turetskaya: "Санджакбей"
+ duke_feudal_female_turetskaya: "Санджак-хатун"
+ county_feudal_turetskaya: "Кадылык" #+
+ count_feudal_male_turetskaya: "Кади" #+
+ count_feudal_female_turetskaya: "Кади-хатун" #+
+ barony_republic_turetskaya: "Шехир"
+ baron_republic_male_turetskaya: "Шехирбек"
+ baron_republic_female_turetskaya: "Шехир-хатун"
+ baron_clan_male_turetskaya: "Ага"
+ baron_clan_female_turetskaya: "Ханым"
+ barony_clan_turetskaya: "Тимариот"
+ count_clan_male_turetskaya: "Бег"
+ count_clan_female_turetskaya: "Бегум"
+ county_clan_turetskaya: "Бейлик"
+ duke_clan_male_turetskaya: "Атабег"
+ duke_clan_female_turetskaya: "Атабегум"
+ duchy_clan_turetskaya: "Атабекат"
+ emperor_clan_male_turetskaya: "Великий султан"
+ emperor_clan_female_turetskaya: "Великая Султана"
+ #наследники-турки
+ prince_male_turetskaya: "Шехзаде"
+ prince_female_turetskaya: "Хатун"
+ # 
+ #новое маркизат Мантуя и Монферрат
+ mantua_marchesato: "Маркизат"
+ count_feudal_male_c_mantua: "Маркиз"
+ count_feudal_female_c_mantua: "Маркиза"
+ monferrato_marchesato: "Маркизат"
+ count_feudal_male_c_monferrato: "Маркиз"
+ count_feudal_female_c_monferrato: "Маркиза"
+ #Новое великое княжество
+ kingdom_feudal_k_opolye: "Великое княжество"
+ livonia_landmagisterM: "Ландмейстер"
+ #Новое Игумен и игуменья
+ Igumen_kirillov_mon: "Игумен"
+ Igumenya_kirillov_mon: "Игуменья"
+ ### Ногайская орда ###
+ kingdom_nogai_orda: "Орда"
+ #Ландграф Гессена
+ Landgraf_Hessen: "Ландграф"
+ ###Малые султанаты Индии
+ malyi_sultanat_india: "Малый султанат"
+ count_feudal_male_malsult: "Малый султан"
+ count_feudal_female_malsult: "Госпожа"
+ #Большой Султанат Дели
+ velikiy_sultanat_deli: "Великий султанат"
+ count_feudal_male_velsult: "Великий султан"
+ count_feudal_female_velsult: "Великая госпожа"
+ #Заморин +
+ count_feudal_male_c_eranad: "Заморин"
+ #виконтство
+ vikontstvo_county: "Виконтство"
+ count_feudal_male_c_carcassonne: "Виконт"
+ count_feudal_female_c_carcassonne: "Виконтесса"
+ #Оранж
+ principality_orange: "Княжество"
+ count_feudal_male_c_venaissin: "Князь-принц"
+ count_feudal_female_c_venaissin: "Госпожа оранская"
+ #2023
+ Velikiy_Magistr_Ordena: "Великий магистр"
+ # санджаки
+ duchy_sanjak_osman: "Санджак"
+ kingdom_euyalet_osman: "Эялет"
+ ### Валахи ###
+ king_feudal_male_vlach: "Господарь"
+ king_feudal_female_vlach: "Господарыня"
+ kingdom_feudal_vlach: "Господарство"
+ ### Швейцарцы ###
+ king_feudal_male_swizzar: "Глава конфедерации"
+ king_feudal_female_swizzar: "Великая госпожа"
+ kingdom_feudal_swizzar: "Конфедерация"
+ duke_feudal_male_swizzar: "Глава объединения"
+ duke_feudal_female_swizzar: "Госпожа"
+ duchy_feudal_swizzar: "Объединение кантонов"
+ county_feudal_swizzar: "Кантон"
+ count_feudal_male_swizzar: "Глава кантона"
+ count_feudal_female_swizzar: "Глава кантона"
+ count_theocracy_male_swizzar: "Епископ"
+ count_theocracy_female_swizzar: "Епископиня"
+ county_theocracy_swizzar: "Епископство-кантон"
+ #принцы и принцессы Швейцарии
+ prince_male_swizzar: "Кантон-принц"
+ prince_female_swizzar: "Кантон-принцесса"
+ ### Трансильвания воеводы d_transylvania
+ duke_feudal_male_d_transylvania: "Воевода"
+ duke_feudal_female_d_transylvania: "Госпожа"
+ duchy_feudal_d_transylvania: "Воеводство"
+ ### Казахи ###
+ duke_tribal_male_kazakh: "Султан удела"
+ duke_tribal_female_kazakh: "Ханым удела"
+ duchy_tribal_kazakh: "Жуз"
+ county_tribal_kazakh: "Малый Улус"
+ count_tribal_male_kazakh: "Глава улуса"
+ count_tribal_female_kazakh: "Глава улуса"
+ ## клан
+ count_clan_female_kazakh: "Ханым улуса"
+ duke_clan_male_kazakh: "Султан удела"
+ duke_clan_female_kazakh: "Ханым удела"
+ duchy_clan_kazakh: "Жуз"
+ county_clan_kazakh: "Улус"
+ count_clan_male_kazakh: "Глава улуса"
+ ### Монголы ордынские ###
+ count_tribal_male_mongolic_group: "Тюменши"
+ count_tribal_female_mongolic_group: "Тюменша"
+ county_tribal_mongolic_group: "Тюмен"
+ ###НОгайцы 
+ count_feudal_male_nogai: "Мирза"
+ count_feudal_female_nogai: "Мирзаше"
+ duke_feudal_male_nogai: "Малый бий"
+ duke_feudal_female_nogai: "Байбише"
+ king_feudal_male_nogai: "Бий"
+ king_feudal_female_nogai: "Байбише"
+ emperor_feudal_male_nogai: "Бий биев"
+ emperor_feudal_female_nogai: "Байбише биев"
+ # Tribal
+ count_tribal_male_nogai: "Мирза"
+ count_tribal_female_nogai: "Мирзаше"
+ duke_tribal_male_nogai: "Малый бий"
+ duke_tribal_female_nogai: "Байбише"
+ king_tribal_male_nogai: "Бий"
+ king_tribal_female_nogai: "Байбише"
+ emperor_tribal_male_nogai: "Бий биев"
+ emperor_tribal_female_nogai: "Байбише биев"
+ # Clan
+ count_clan_male_nogai: "Мирза"
+ count_clan_female_nogai: "Мирзаше"
+ duke_clan_male_nogai: "Малый бий"
+ duke_clan_female_nogai: "Байбише"
+ king_clan_male_nogai: "Бий"
+ king_clan_female_nogai: "Байбише"
+ emperor_clan_male_nogai: "Бий биев"
+ emperor_clan_female_nogai: "Байбише биев"
+ atabek_samtskhe_saatabago: "Атабек"
+ #Новое реалии англия Англичане
+ duchy_feudal_english: "Герцогство"
+ duke_feudal_male_english: "Герцог"
+ duke_feudal_female_english: "Герцогиня"
+ #Ганза
+ kingdom_k_hansa: "Торговая республика"
+ head_of_hanza_male: "Первый бургомистр"
+ head_of_hanza_female: "Ганзейская госпожа"
+ #митрополит
+ mitropolit_male: "Митрополит"
+ #Ливония ещё
+ county_livonia: "Комтурство" #Komturei, Kommende
+ count_livonia_male: "Комтур" #Commandery = Komtur
+ count_livonia_female: "Комтуресса" #Komturessa
+ baron_livonia_male: "Фогт" #Vogt
+ baron_livonia_female: "Фогтесса" #Vogtessa
+ #баны ещё
+ duke_feudal_male_ban2: "Бан"
+ duke_feudal_female_ban2: "Баница"
+ duchy_feudal_ban2: "Банат"
+ #Габсбургские Нидерланды -Habsburg Netherlands
+ stadhouder_feudal_male: "Статхаудер" #Штатгальтер -Stadhouder англ. Stadtholder
+ stadhouder_feudal_female: "Леди-статхаудер"
+ habs_niderlandy: "Наместничество"
+ #
+ count_administrative_male_russian: "Воевода"
+ count_administrative_female_russian: "Хранительница"
+ duke_administrative_male_russian: "Наместник"
+ duke_administrative_female_russian: "Наместница"
+ #
+ county_administrative_russian: "Уезд"
+ king_administrative_male_russian: "Великий князь"
+ king_administrative_female_russian: "Великая княгиня"
+ kingdom_administrative_russian: "Великое княжество"
+ baron_feudal_male_turetskaya: "Мухтар"
+ baron_feudal_female_turetskaya: "Мухтар-ханум"
+ #
+ duke_namestnik2_male: "Наместник"
+ duke_namestnik2_female: "Наместница"
+ gospodin_novgoroda: "Господин"
+ gospozha_novgoroda: "Госпожа"
+ count_administrative_male_english: "Шерифф"
+ count_administrative_female_english: "Леди"
+ #копия king_feudal_male_altaic_group king_feudal_female_altaic_group kingdom_feudal_altaic_group
+ king_male_nomadic_1490_other: "Хан"
+ king_female_nomadic_1490_other: "Ханым"
+ kingdom_nomadic_1490_other: "Ханство"
+ #
+ count_administrative_male_polish: "Староста"
+ count_administrative_female_polish: "Пани-староста"
+ duke_administrative_male_polish: "Воевода-наместник"
+ duke_administrative_female_polish: "Пани-наместница"
+ king_theocracy_male_christianity_religion_anglicanism: "Король"
+ king_theocracy_female_christianity_religion_anglicanism: "Королева"

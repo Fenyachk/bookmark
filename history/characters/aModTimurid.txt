@@ -1,0 +1,1021 @@
+﻿#### Тимуриды
+#Отец Эмира Мухаммад Тарагай Barlas
+MuhamOtezTimura = {
+	name = "Muhammad"
+	dynasty = Barlas
+	culture = "mongol"
+	religion = "maturidi"
+	1301.6.2 = {
+		birth = yes
+	}
+	1361.11.1 = {
+		death = yes
+	}
+}
+#Старшая сестра
+QutlughBarlas = {
+	name = "Qutlugh"
+	female = yes
+	dynasty = Barlas
+	father = MuhamOtezTimura
+	culture = "mongol"
+	religion = "maturidi"
+	1331.1.12 = {
+		birth = yes
+	}
+	1388.11.1 = {
+		death = yes
+	}
+}
+#Эмир Тимур Тамерлан
+emir_timur = {
+	name = "Timur"
+	dynasty = Timurid
+	father = MuhamOtezTimura
+	culture = "turkish"
+	religion = "maturidi" #ранее ашари
+	trait = education_stewardship_1
+	trait = education_martial_4
+	trait = ambitious
+	prowess = 14
+	1336.4.9 = {
+		birth = yes
+	}
+	1370.12.12 = {
+		effect = {
+			add_prestige = 300
+			dynasty = { add_dynasty_prestige = 400 }
+		}
+	}
+	1405.2.18 = {
+		death = yes
+	}
+}
+#Шахрух
+shahruh_timurid = {
+	name = "Shahrokh"
+	dynasty = Timurid
+	father = emir_timur
+	culture = "turkish"
+	religion = "maturidi"
+	1377.8.20 = {
+		birth = yes
+	}
+	1447.3.12 = {
+		death = yes
+	}
+}
+#Ибрагим сын Шахруха
+IbrahimShahrukhTim = {
+	name = "Ibrahim"
+	dynasty = Timurid
+	father = shahruh_timurid
+	culture = "persian"
+	religion = "maturidi"
+	1394.9.4 = {
+		birth = yes
+	}
+	1435.4.3 = {
+		death = yes
+	}
+}
+#Абдуллах ибн Ибрахим
+AbdullahIbrahimT = {
+	name = "Abdullah"
+	dynasty = Timurid
+	father = IbrahimShahrukhTim
+	culture = "persian"
+	religion = "maturidi"
+	1433.3.19 = {
+		birth = yes
+	}
+	#казнен казнён Абу Сеидом
+	1451.6.10 = {
+		death = {
+			death_reason = death_execution
+			killer = AbuSaidTimurid
+		}
+	}
+}
+#Байсонкур сын Шахруха
+BaysunghurTimur = {
+	name = "Baysunghur"
+	dynasty = Timurid
+	father = shahruh_timurid
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_learning_3
+	1397.7.2 = {
+		birth = yes
+	}
+	1433.12.20 = {
+		death = yes
+	}
+}
+#Ала уд-Даула-мирза Сын Байсонкура
+AlaudDaulaBTim = {
+	name = "Ala_al-Dawla"
+	dynasty = Timurid
+	father = BaysunghurTimur
+	culture = "persian"
+	religion = "maturidi"
+	1417.7.17 = {
+		birth = yes
+	}
+	1460.12.6 = {
+		death = yes
+	}
+}
+#Ибрагим Мирза сын Ала уд-Даулы 1440—1459
+IbrahimMirzaTimurid = {
+	name = "Ibrahim"
+	dynasty = Timurid
+	father = AlaudDaulaBTim
+	culture = "persian"
+	religion = "maturidi"
+	1440.4.17 = {
+		birth = yes
+	}
+	1459.12.6 = {
+		death = yes
+	}
+}
+#Султан Мухаммад второй сын Байсонкура-мирзы
+MuhammadFarsTim = {
+	name = "Muhammad"
+	dynasty = Timurid
+	father = BaysunghurTimur
+	culture = "persian"
+	religion = "maturidi"
+	1418.1.2 = {
+		birth = yes
+	}
+	1452.2.20 = {
+		death = {
+			death_reason = death_execution
+			killer = Abul_Kasim_Babur #казнен Абул-Касим Бабуром
+		}
+	}
+}
+#Абул-Касим Бабур
+Abul_Kasim_Babur = {
+	name = "Abul_Kasim_Babur"
+	dynasty = Timurid
+	father = BaysunghurTimur
+	culture = "persian"
+	religion = "maturidi"
+	1422.10.12 = {
+		birth = yes
+	}
+	1457.3.22 = {
+		death = yes
+	}
+}
+#Мирза Шах Махмуд сын Абулкасима
+MirzaShahMahmudA = {
+	name = "Mahmud"
+	dynasty = Timurid
+	father = Abul_Kasim_Babur
+	culture = "persian"
+	religion = "maturidi"
+	1446.4.14 = {
+		birth = yes
+	}
+	1466.6.6 = {
+		death = yes
+	}
+}
+#Ядгар Мухаммад 1452-1470 его поддерживал Узун Хасан UzunHasanAk
+Yadgar_MuhammadTim = {
+	name = "Yadgar_Muhammad"
+	dynasty = Timurid
+	father = MuhammadFarsTim
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_learning_3
+	1452.1.10 = {
+		birth = yes
+	}
+	1468.1.1={
+		effect = {
+			set_relation_friend = character:UzunHasanAk
+			set_relation_rival = character:HusaynBaykaraT
+		}
+	}
+	1470.8.21 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+#Улугбек Тимурид
+UlugbekTimurid = {
+	name = UlughBeg
+	father = shahruh_timurid
+	dynasty = Timurid
+	culture = "turkish"
+	religion = "maturidi"
+	1394.3.22 = {
+		birth = yes
+	}
+	1449.10.27 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+#Абд аль-Латиф сын Улугбека
+AbdalLatifTimur = {
+	name = "Addul-Lateef"
+	father = UlugbekTimurid
+	dynasty = Timurid
+	culture = "turkish"
+	religion = "maturidi"
+	1420.3.22 = {
+		birth = yes
+	}
+	1450.5.9 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+#Миран сын Тимура третий
+MiranTimurid = {
+	name = "MI_ran"
+	dynasty = Timurid
+	father = emir_timur
+	culture = "persian"
+	religion = "maturidi"
+	1366.1.1 = {
+		birth = yes
+	}
+	1408.4.21 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+#Абу-бакр мирза сын Мирана
+AbuBakrMiTimurid = {
+	name = "Abu-Bakr"
+	dynasty = Timurid
+	father = MiranTimurid
+	culture = "turkish"
+	religion = "maturidi"
+	1382.2.10 = {
+		birth = yes
+	}
+	1409.1.9 = {
+		death = yes
+	}
+}
+#Омар или УМар сын мирана
+OmarMiranTimurid = {
+	name = "Omar"
+	dynasty = Timurid
+	father = MiranTimurid
+	culture = "persian"
+	religion = "maturidi"
+	1383.3.18 = {
+		birth = yes
+	}
+	1407.7.9 = {
+		death = {
+			death_reason = death_wounds
+		}
+	}
+}
+#Мухаммад сын Мирана
+MuhammadTimurid = {
+	name = "Muhammad"
+	dynasty = Timurid
+	father = MiranTimurid
+	culture = "persian"
+	religion = "maturidi"
+	1390.8.10 = {
+		birth = yes
+	}
+	1440.12.14 = {
+		death = yes
+	}
+}
+#Халиль сын Мирана
+KhaleelTimurid = {
+	name = "Khaleel"
+	dynasty = Timurid
+	father = MiranTimurid
+	culture = "persian"
+	religion = "maturidi"
+	trait = poet
+	trait = education_martial_2
+	1384.4.10 = {
+		birth = yes
+	}
+	1411.12.14 = {
+		death = yes
+	}
+}
+#Абу-Сеид правнук Тимура последний султан единого Тимуридского гос-ва
+AbuSaidTimurid = {
+	name = "Abu_Sa_id"
+	father = MuhammadTimurid
+	dynasty = Timurid
+	culture = "turkish"
+	religion = "maturidi"
+	1424.3.22 = {
+		birth = yes
+	}
+	1469.5.9 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+#брат Абу Сеида Манучир ум в 1468
+ManuchihrTimurid = {
+	name = "Manuchihr"
+	father = MuhammadTimurid
+	dynasty = Timurid
+	culture = "turkish"
+	religion = "maturidi"
+	1426.6.16 = {
+		birth = yes
+	}
+	1468.8.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+#Умар-Шейх-мирза 4-й сын тимурида Абу Сеида эмир Ферганы и отец Бабура
+UmarOtezBabur = {
+	name = "Umar"
+	father = AbuSaidTimurid
+	dynasty = Timurid
+	culture = "persian"
+	religion = "maturidi"
+	1456.1.22 = {
+		birth = yes
+	}
+	1477.1.1 = {
+		add_spouse = Qutlugh_Nigar_Khanum
+	}
+	1485.1.1 = {
+		add_concubine = Umid_Nalozhnitsa
+		add_concubine = Fartima_Sultan_Nalozhnitsa
+	}
+	1494.6.8 = {
+		death = yes
+	}
+}
+#Фатима султан Наложница
+Fartima_Sultan_Nalozhnitsa = {
+	name = "Fatima"
+	female = yes
+	culture = "uzbek"
+	religion = "maturidi"
+	1460.2.14 = {
+		birth = yes
+	}
+	1500.6.8 = {
+		death = yes
+	}
+}
+#Джахангир-мирза тимуридский принц младший брат и соратник Бабура
+Jahangir_Timurid = {
+	name = "Jahangir"
+	father = UmarOtezBabur
+	mother = Fartima_Sultan_Nalozhnitsa
+	dynasty = Timurid
+	culture = "persian"
+	religion = "maturidi"
+	1485.2.14 = {
+		birth = yes
+	}
+	1507.6.8 = {
+		death = yes
+	}
+}
+#Умид Наложница
+Umid_Nalozhnitsa = {
+	name = "Umid"
+	female = yes
+	culture = "uzbek"
+	religion = "maturidi"
+	1455.2.14 = {
+		birth = yes
+	}
+	1500.6.8 = {
+		death = yes
+	}
+}
+#Насир-мирза от наложницы Умид
+Nasir_Mirza_Timurid = {
+	name = "Nasir"
+	dynasty = Timurid
+	father = UmarOtezBabur
+	mother = Umid_Nalozhnitsa
+	culture = "persian"
+	religion = "maturidi"
+	1487.2.14 = {
+		birth = yes
+	}
+	1515.6.8 = {
+		death = yes
+	}
+}
+#Ханзада старшая сестра Бабура
+Khanzada_Begum = {
+	name = "Khanzada"
+	female = yes
+	father = UmarOtezBabur
+	mother = Qutlugh_Nigar_Khanum
+	dynasty = Timurid
+	culture = "persian"
+	religion = "maturidi"
+	1478.2.14 = {
+		birth = yes
+	}
+	1545.6.8 = {
+		death = yes
+	}
+}
+#Бабур Захир-ад-дин Мухаммад
+Babur_Vel_Mogol = {
+	name = "Zahir"
+	father = UmarOtezBabur
+	mother = Qutlugh_Nigar_Khanum
+	dynasty = Timurid
+	culture = "persian"
+	religion = "maturidi"
+	1483.2.14 = {
+		birth = yes
+	}
+	1530.6.8 = {
+		death = yes
+	}
+}
+#Султан Махмуд мирза третий сын тимурида Абу Сеида
+SultanMahmudMirza = {
+	name = "Mahmud"
+	father = AbuSaidTimurid
+	dynasty = Timurid
+	culture = "persian"
+	religion = "maturidi"
+	trait = lifestyle_hunter
+	1453.1.30 = {
+		birth = yes
+	}
+	1495.5.9 = {
+		death = yes
+	}
+}
+#Улукбек Кабули правитель с 1461 Кабула и Газни  Независимый правитель с 1469 четвертый сын Абу Сеида но не младший UlughBeg
+UlughBegKabuli = {
+	name = "UlughBeg"
+	father = AbuSaidTimurid
+	dynasty = Timurid
+	culture = "persian"
+	religion = "maturidi"
+	1454.4.14 = {
+		birth = yes
+	}
+	1502.2.19 = {
+		death = yes
+	}
+}
+#Султан Ахмед мирза после разделения Маверанахр, дядя Бабура, коронован в Самарканде
+SultanAhmedMirza = {
+	name = "Ahmed"
+	father = AbuSaidTimurid
+	dynasty = Timurid
+	culture = "persian"
+	religion = "maturidi"
+	trait = lifestyle_hunter
+	trait = education_learning_1
+	1451.1.22 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		add_pressed_claim = title:c_chah #претензия на Ташкент, который у Шибанидов
+	}
+	1494.5.9 = {
+		death = yes
+	}
+}
+#Абдулали-тархан, Бухарский советник и эмир
+Abdulalitarxon = {
+	name = "Abdul"
+	dynasty = TarhonHokim #должности
+	culture = "uzbek"
+	religion = "maturidi"
+	trait = greedy
+	trait = lustful
+	trait = education_stewardship_1
+	1447.1.22 = {
+		birth = yes
+	}
+	1469.12.12 = {
+		trait = loyal
+	}
+	1496.5.9 = {
+		death = yes
+	}
+}
+#Хусейн Байкара правитель Хорасана со столицей в Герате после разделения правнук Тимура
+HusaynBaykaraT = {
+	name = "Husayn"
+	dynasty = Timurid
+	father = GhiyasaddinBaykara
+	mother = FirozaBegim
+	culture = "persian"
+	religion = "maturidi"
+	trait = poet
+	trait = education_stewardship_3
+	prowess = 3
+	stewardship = 8
+	1438.7.7 = {
+		birth = yes
+	}
+	#Герат и дружба с Навои
+	1470.1.1 = {
+		give_nickname = nick_baykara
+		effect = { set_realm_capital = title:c_herat }
+		set_relation_friend = { reason = friend_generic_history target = character:AlisherNavoi }
+	}
+	1506.5.9 = {
+		death = yes
+	}
+}
+#Отец Баккары Гияс-ад-Дин Мансур
+GhiyasaddinBaykara = {
+	name = "Ghiyasaddin"
+	dynasty = Timurid
+	father = BayqaraMirzaVnukT
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_stewardship_1
+	1408.8.1 = {
+		birth = yes
+	}
+	1466.6.6 = {
+		death = yes
+	}
+}
+#его мать Фируза бегим
+FirozaBegim = {
+	name = "Firoza"
+	female = yes
+	culture = "persian"
+	religion = "maturidi"
+	1412.8.1 = {
+		birth = yes
+	}
+	1468.6.6 = {
+		death = yes
+	}
+}
+#Байкара Мирза принц внук Тимура и сын Умара
+BayqaraMirzaVnukT = {
+	name = "Bayqara"
+	dynasty = Timurid
+	father = Umar2SynTimura
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_martial_2
+	1392.8.1 = {
+		birth = yes
+	}
+	1421.6.21 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+#Умар-шейх второй сын Тимура - наместник Ферганы
+Umar2SynTimura = {
+	name = "Umar"
+	dynasty = Timurid
+	father = emir_timur
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_martial_3
+	1356.5.6 = {
+		birth = yes
+	}
+	1394.1.16 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+#Рустам сын Умара
+RostamVnuTimura = {
+	name = "Rostam"
+	dynasty = Timurid
+	father = Umar2SynTimura
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_martial_1
+	1381.10.3 = {
+		birth = yes
+	}
+	1425.3.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+#Искандар сделал Исфахан своей столицей
+IskandarVnuTimura = {
+	name = "Iskandar"
+	dynasty = Timurid
+	father = Umar2SynTimura
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_stewardship_2
+	1384.4.25 = {
+		birth = yes
+	}
+	1416.3.10 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+#Джахангир старший сын Тимура
+Jakhangir2SynTimura = {
+	name = "Jakhangir"
+	dynasty = Timurid
+	father = emir_timur
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_martial_1
+	1355.12.6 = {
+		birth = yes
+	}
+	1376.7.6 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+#Пир-Мухаммед Пирмухаммад Тимурид внук тимура
+Pirmuhammed1374 = {
+	name = "Pirmuhammed"
+	dynasty = Timurid
+	father = Jakhangir2SynTimura
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_martial_2
+	1374.12.6 = {
+		birth = yes
+	}
+	1407.2.22 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+#Мухаммад Султан любимый внук Тимура умер от ран
+MuhammadSultanVnu = {
+	name = "Muhammad"
+	dynasty = Timurid
+	father = Jakhangir2SynTimura
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_martial_4
+	1375.1.6 = {
+		birth = yes
+	}
+	1403.3.13 = {
+		death = {
+			death_reason = death_wounds
+		}
+	}
+}
+#Мухаммад Джахангир из Гиссара правнук Тимура
+MuhammadJakhangir = {
+	name = "Jakhangir"
+	dynasty = Timurid
+	father = MuhammadSultanVnu
+	culture = "persian"
+	religion = "maturidi"
+	1396.2.6 = {
+		birth = yes
+	}
+	1433.7.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+#Бади аз-Заман Мирза старший сын Младшего Байкары
+BadiazZamanTim = {
+	name = "Badia"
+	dynasty = Timurid
+	father = HusaynBaykaraT
+	culture = "persian"
+	religion = "maturidi"
+	trait = education_intrigue_2
+	1455.7.7 = {
+		birth = yes
+	}
+	1517.5.9 = {
+		death = yes
+	}
+}
+#Музаффар Хусейн - сын Байкары
+Muzaffar_Husseyn = {
+	name = "Muzaffar"
+	dynasty = Timurid
+	father = HusaynBaykaraT
+	culture = "persian"
+	religion = "maturidi"
+	1458.5.18 = {
+		birth = yes
+	}
+	1510.5.9 = {
+		death = yes
+	}
+}
+#Алишер Навои
+AlisherNavoi = {
+	name = "Alisher"
+	dynasty = ANawoi
+	religion = maturidi
+	culture = persian
+	1441.2.9 = {
+		birth = yes
+	}
+	1452.12.8 = {
+		add_trait = poet
+	}
+	1469.12.31 = {
+		employer = HusaynBaykaraT
+	}
+	1501.1.3 = {
+		death = yes
+	}
+}
+#Кемаль-ад-Дин Бехзад
+KemalBehzad = {
+	name = "Kemal"
+	religion = maturidi
+	culture = persian
+	trait = education_learning_3
+	1456.5.6 = {
+		birth = yes
+	}
+	1469.12.30 = {
+		employer = HusaynBaykaraT
+	}
+	1535.1.3 = {
+		death = yes
+	}
+}
+#Дулаты-Уртубиды
+Jahangir_Duglat_PR = {
+	name = "Jahangir"
+	religion = maturidi
+	dynasty = Duglat
+	father = Abu_Bakr_Duglat_Mangalay
+	culture = uyghur #уйгур
+	trait = education_martial_2
+	prowess = 11
+	1472.5.6 = {
+		birth = yes
+	}
+	1533.9.3 = {
+		death = yes
+	}
+}
+Turangir_Duglat_PR = {
+	name = "Turangir"
+	religion = maturidi
+	dynasty = Duglat
+	father = Abu_Bakr_Duglat_Mangalay
+	culture = uyghur
+	prowess = 14
+	trait = forder
+	1475.5.6 = {
+		birth = yes
+	}
+	1521.9.3 = {
+		death = yes
+	}
+}
+Bustangir_Duglat_PR = {
+	name = "Bustangir"
+	religion = maturidi
+	dynasty = Duglat
+	father = Abu_Bakr_Duglat_Mangalay
+	culture = uyghur
+	1486.5.6 = {
+		birth = yes
+	}
+	1522.9.3 = {
+		death = yes
+	}
+}
+#Мирза Абу Бакр Дуглат или Дулат правитель Манглай-Субе Мангалай с Кашгаром, Аксу, Яркендом, Хотаном d Хотан и Кашгар с 1465 но с 1480
+Abu_Bakr_Duglat_Mangalay = {
+	name = "Abu-Bakr"
+	religion = maturidi
+	dynasty = Duglat
+	father = Saniz_Duglat_Mangalay
+	culture = uyghur
+	trait = education_martial_3
+	prowess = 15
+	1440.5.6 = {
+		birth = yes
+	}
+	1514.9.3 = {
+		death = yes #убит
+	}
+}
+#его отец Саниз-мирза, сын Сайида Али, 1457—1464 гг 
+Saniz_Duglat_Mangalay = {
+	name = "Saniz"
+	religion = maturidi
+	dynasty = Duglat
+	father = SayidAli_Duglat_Mangalay
+	culture = uyghur
+	trait = education_martial_1
+	prowess = 5
+	1416.5.6 = {
+		birth = yes
+	}
+	1464.9.3 = {
+		death = yes
+	}
+}
+#Сайид Али, сын Сайид Ахмад-мирзы, сына Худайдада, 1433—1457 гг.
+SayidAli_Duglat_Mangalay = {
+	name = "SayidAli"
+	dynasty = Duglat
+	father = Hydaydad_Duglat_Mangalay
+	culture = uyghur
+	religion = maturidi
+	trait = scarred
+	prowess = 2
+	1388.1.1 = {
+		birth = yes
+	}
+	1457.9.3 = {
+		death = yes
+	}
+}
+#Султан Кашмира Fath Shah из династии  Шах-Мир или Свати или Сайиды с 1339 
+#Фатх-шах
+Fath_Shah_SultanKashmir = {
+	name = "Fath"
+	religion = ashari
+	dynasty = ShahMir
+	father = Zayn_Abidin_SultanKashmir
+	culture = kashmiri
+	trait = education_stewardship_2
+	prowess = 12
+	1444.1.1 = {
+		birth = yes
+	}
+	1540.9.3 = {
+		death = yes
+	}
+}
+#его отец Зайн аль-Абидин с 1422 по 1470
+Zayn_Abidin_SultanKashmir = {
+	name = "Abidin"
+	religion = ashari
+	dynasty = ShahMir
+	culture = kashmiri
+	trait = education_stewardship_4
+	prowess = 14
+	1420.1.1 = {
+		birth = yes
+	}
+	1470.9.3 = {
+		death = yes
+	}
+}
+#король Белуджей Мекрана но не Систана
+Rind_Beluj_Rind = {
+	name = "Rind"
+	religion = maturidi
+	dynasty = Rind
+	culture = baloch
+	trait = education_martial_1
+	1437.1.3 = {
+		birth = yes
+	}
+	1486.9.3 = {
+		death = yes
+	}
+}
+Mir_Chakar_Khan_Rind = {
+	name = "Mir_Chakar_Khan"
+	dynasty = Rind
+	father = Rind_Beluj_Rind
+	culture = baloch
+	religion = maturidi
+	trait = education_martial_2
+	trait = lifestyle_blademaster
+	prowess = 8
+	stewardship = 7
+	1468.1.1 = {
+		birth = yes
+	}
+	1484.1.1 = {
+		add_spouse = fik_dilaram_beluj
+	}
+	1565.9.3 = {
+		death = yes
+	}
+}
+#его жена Dilaram
+fik_dilaram_beluj = {
+	name = "Dilaram"
+	female = yes
+	religion = maturidi
+	dynasty = Rind
+	culture = baloch
+	1468.11.11 = {
+		birth = yes
+	}
+	1515.9.3 = {
+		death = yes
+	}
+}
+Fik_Morteza_Rind = {
+	name = "Morteza"
+	religion = maturidi
+	dynasty = Rind
+	father = Mir_Chakar_Khan_Rind
+	mother = fik_dilaram_beluj
+	culture = baloch
+	1485.1.5 = {
+		birth = yes
+	}
+	1515.9.3 = {
+		death = yes
+	}
+}
+Fik_Feraz_Rind = {
+	name = "Feraz"
+	religion = maturidi
+	dynasty = Rind
+	father = Mir_Chakar_Khan_Rind
+	mother = fik_dilaram_beluj
+	culture = baloch
+	1487.1.4 = {
+		birth = yes
+	}
+	1500.9.3 = {
+		death = yes
+	}
+}
+#Убайдуллах Шаши - Ходжа́ Ахра́р
+#крупный религиозный деятель Мавераннахра. Духовный лидер суфийского тариката Накшбанди
+Ubaydulla_Shahi_sufi = {
+	name = "Ubayd_Allah"
+	religion = maturidi
+	dynasty = Shashi
+	trait = education_learning_3
+	culture = uzbek
+	1404.4.4 = {
+		birth = yes
+	}
+	1426.1.1 = {
+		trait = devoted
+	}
+	1438.1.1 = {
+		trait = theologian
+		trait = poet
+		add_piety = 123
+	}
+	1449.10.27 = {
+		employer = AbuSaidTimurid
+	}
+	1469.5.9 = {
+		employer = SultanAhmedMirza
+		effect = {
+			add_trait = lifestyle_mystic
+			add_trait_xp = {
+				trait = lifestyle_mystic
+				value = {
+					integer_range = {
+						min = small_lifestyle_random_xp_low
+						max = small_lifestyle_random_xp_high
+					}
+				}
+			}
+		}
+	}
+	1470.1.1 = {
+		add_gold = 333 #был богат
+	}
+	1490.2.21 = {
+		death = yes
+	}
+}

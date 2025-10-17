@@ -1,0 +1,128 @@
+﻿l_english:
+ form_golkonda_sultanate_decision: "Create the Sultanate of Golconda"
+ form_golkonda_sultanate_decision_confirm: "A great day to rule!"
+ form_golkonda_sultanate_decision_desc: "A part of India will be in my hands!. I will create my own sultanate, and may [ROOT.Char.GetFaith.HighGodName] bless me!"
+ form_golkonda_sultanate_decision_tooltip: "To create an independent Sultanate of Golconda."
+ form_golkonda_sultanate_decision_effect_tooltip: "To create an independent Sultanate of Golconda"
+ unite_the_netherlands_decision: "Create the de jure title of the Habsburg Netherlands"
+ unite_the_netherlands_decision_tooltip: "To create the Netherlands under the rule of the Holy Roman Empire."
+ unite_the_netherlands_decision_confirm: "Long live the Habsburgs!"
+ unite_the_netherlands_decision_desc: "Brabant, Flanders, Holland, Geldern, Frisia and Utrecht become part of the new kingdom."
+ HN_creation_effect: "Brabant, Flanders, Holland, Geldern, Frisia and Utrecht become part of the new kingdom"
+ zahvat_granady_decision: "To celebrate the fall of Granada"
+ zahvat_granady_decision_tooltip: "The ruler of Castile or Aragon can end the rule of the Moors in Iberia"
+ zahvat_granady_decision_confirm: "We finally did it!"
+ zahvat_granady_decision_desc: "Granada becomes part of the Christian kingdom."
+ sozdat_gretsiu_decision: "To revive Byzantium empire"
+ sozdat_gretsiu_decision_tooltip: "The former Byzantine lands will unite within the approximate borders of the empire under Palaiologos"
+ sozdat_gretsiu_decision_confirm: "The Roman Empire forever!"
+ sozdat_gretsiu_decision_desc: "The de jure empire is being revived"
+ sozdat_gretsiu_creation_effect: "The de jure empire is being revived"
+ #
+ vozrodit_bolgariu_decision: "To revive Bulgaria"
+ vozrodit_bolgariu_decision_tooltip: "Bulgarian lands will unite"
+ vozrodit_bolgariu_decision_confirm: "New Bulgaria!"
+ vozrodit_bolgariu_decision_desc: "The Kingdom of Bulgaria is being revived de jure"
+ vozrodit_bolgariu_creation_effect: "The Kingdom of Bulgaria is being revived de jure"
+ #
+ sozdat_herz_mantua_decision: "Create the Duchy of Mantua"
+ sozdat_herz_mantua_decision_tooltip: "With the favor of the Holy Roman Emperor and the Pope, I can become a duke"
+ sozdat_herz_mantua_decision_confirm: "The Marquise became a duchy!"
+ sozdat_herz_mantua_decision_desc: "A de jure duchy appears"
+ sozdat_herz_mantua_creation_effect: "A new de jure duchy appears in the de jure Kingdom of Italy"
+ #
+ create_safavid_empire_decision: "Create the Safavid Empire" #
+ create_safavid_empire_decision_tooltip: "Long live the Shiite Empire in the lands of Iran (Persia)!" #Long live the Shiite Empire in the lands of Iran (Persia)!
+ create_safavid_empire_decision_confirm: "By the will of the almighty!" #
+ create_safavid_empire_decision_desc: "The de-jure empire of the Safavid dynasty appears" #The de jure empire of the Safavid dynasty appears
+ #
+ create_alzhir_decision: "Create a Turkish Algeria"
+ create_alzhir_decision_tooltip: "Create a controlled kingdom on the coastal lands of the Maghreb!"
+ create_alzhir_decision_confirm: "Algeria is ours!"
+ create_alzhir_decision_desc: "The de-jure Kingdom of Algeria appears"
+ #
+ create_tunis_i_trip_decision: "Create a Tunisia and Tripolitania"
+ create_tunis_i_trip_decision_tooltip: "Create a controlled kingdoms on the coastal lands of the Maghreb"
+ create_tunis_i_trip_decision_confirm: "Our power in Africa will be long!"
+ create_tunis_i_trip_decision_desc: "The de-jure kingdoms Tunisia and Tripolitania appears"
+ #
+ herz_oldenburg_decision: "To worry about the appearance of the Duchy of Oldenburg" #To worry about the appearance of the Duchy of Oldenburg
+ herz_oldenburg_decision_tooltip: "Invest in raising the rank of a county to a duchy" #Invest in raising the rank of a county to a duchy
+ herz_oldenburg_decision_confirm: "Meet the new Imperial Duchy!" #Meet the new Imperial Duchy
+ herz_oldenburg_decision_desc: "As a vassal of the emperor, I will become a powerful duke" #As a vassal of the emperor, I will become a powerful duke
+ #
+ posetit_tserkvi_decision: "Visit the churches"
+ posetit_tserkvi_decision_tooltip: "Visit the churches"
+ posetit_tserkvi_decision_confirm: "I'm going to pray publicly"
+ posetit_tserkvi_decision_desc: ""
+ 
+ knyazhestvo_transilvania_decision: "To establish Transylvania"
+ knyazhestvo_transilvania_decision_tooltip: "To establish Transylvania pr."
+ knyazhestvo_transilvania_decision_confirm: "Transylvania is no longer subject to Hungary!"
+ knyazhestvo_transilvania_decision_desc: "To establish Transylvania" #
+ #
+ nach_zahvgranady_decision: "Begin the capture of Granada"
+ nach_zahvgranady_decision_tooltip: "The ruler of Castile or Aragon will try to end the rule of the Moors in the Pyrenees"
+ nach_zahvgranady_decision_confirm: "The last push!"
+ nach_zahvgranady_decision_desc: "It's worth finally finishing the Reconquista"
+ #30-09-24
+ sozdat_uels_decision: "Establish the Kingdom of Wales"
+ sozdat_uels_decision_tooltip: "The Welsh ruler creates a special kingdom"
+ sozdat_uels_decision_confirm: "Long live the red dragon"
+ sozdat_uels_decision_desc: "It's high time to create a kingdom"
+ dan_vosstan_ko_un_decision: "To restore the unity of the Kalmar Union by military means"
+ dan_vosstan_ko_un_decision_tooltip: "The ruler of Denmark invades Sweden as the head of the union"
+ dan_vosstan_ko_un_decision_confirm: "We attack at dawn"
+ dan_vosstan_ko_un_decision_desc: "Since the 1460s, Sweden has been pursuing a sovereign policy. But the ruler of Sweden is just a regent. It's time to remind the regent and their nobility who is in charge of the union of Denmark, Norway and Sweden." 
+ unite_saxony_decision: "To unite the hereditary Saxon lands"
+ unite_saxony_decision_tooltip: "To restore the de jure Duchy of Saxony"
+ unite_saxony_decision_confirm: "Saxony will be united!"
+ unite_saxony_decision_desc: "The Treaty of Leipzig in 1485 divided the Saxon possessions into 2 duchies. But it's fixable..."
+ smolensk_1_decision: "Celebrate the return of Smolensk"
+ smolensk_1_decision_tooltip: "To return the ancestral fiefdom into their own hands"
+ smolensk_1_decision_confirm: "Smolensk has been returned!"
+ smolensk_1_decision_desc: "To return the ancestral fiefdom into their own hands."
+ #
+ nach_pohodneapol_decision: "Start a hike to Naples"
+ nach_pohodneapol_decision_tooltip: "The war for the Kingdom of Naples begins"
+ nach_pohodneapol_decision_confirm: "Assemble the troops!"
+ nach_pohodneapol_decision_desc: "The Kingdom of Naples is waiting for its liberator from the tyranny of the Aragonese dynasty. It's time to take advantage of my claim to the title"
+ vozrodit_lotaringiu_decision: "Create the de jure title of Lorraine"
+ vozrodit_lotaringiu_decision_tooltip: "To revive ancient Lorraine"
+ vozrodit_lotaringiu_decision_confirm: "Royal manners!"
+ vozrodit_lotaringiu_decision_desc: "Ancient Lorraine will be reborn, a new king may appear in Europe"
+ #
+ anglikanstvo_decision: "Separate the Church of England"
+ anglikanstvo_decision_tooltip: "Renounce Catholicism"
+ anglikanstvo_decision_confirm: "Rome will regret its stupidity!"
+ anglikanstvo_decision_desc: "Will you convert to a new denomination, Anglicanism"
+ protestanty_decision: "Break off relations with the Papacy"
+ protestanty_decision_tooltip: "Will you accept a new denomination"
+ protestanty_decision_confirm: "Renounce Catholicism!"
+ protestanty_decision_desc: "The Papacy and Catholic priests have moved too far away from the early Christian ideas of the church"
+ #
+ portugal_goa_decision: "Gain a foothold in Goa"
+ portugal_goa_decision_tooltip: "Portugal must control trade in the Indian Ocean"
+ portugal_goa_decision_confirm: "Start a conflict!"
+ portugal_goa_decision_desc: "Our brave sailors were able to reach distant shores with outlandish goods. However, the country needs a foothold"
+ #
+ portugal_ormuz_decision: "Try to capture Hormuz"
+ portugal_ormuz_decision_tooltip: "Portugal must control the Strait of Hormuz in the Arabian Sea."
+ portugal_ormuz_decision_confirm: "Seize the Strait of Hormuz!"
+ portugal_ormuz_decision_desc: "Indian goods enter Europe through the Persian Gulf. We need to capture Hormuz in Persia."
+ #
+ avenge_otranto_decision: "To avenge the martyrs of Otranto"
+ avenge_otranto_decision_tooltip: "You will receive the piety and prestige of the dynasty."
+ avenge_otranto_decision_confirm: "The Martyrs of Otranto have been avenged!"
+ avenge_otranto_decision_desc: "On August 14, 1480, the Ottomans attacked Otranto in Puglia and executed 800 inhabitants. We have to take revenge."
+ #
+ form_bukhara_han_decision: "Create the Bukhara Khanate"
+ form_bukhara_han_decision_tooltip: "You will receive a new title"
+ form_bukhara_han_decision_confirm: "A new state was born!"
+ form_bukhara_han_decision_desc: "De-jure Kingdom of Transoxiana will cease to exist"
+ #
+ porcha_cruzado_decision: "Coin damage: gold cruzado"
+ porcha_cruzado_decision_tooltip: "You are reducing the gold content of the coin"
+ porcha_cruzado_decision_confirm: "To cause damage"
+ porcha_cruzado_decision_desc: "The portuguese gold coin become less gold"
+ 

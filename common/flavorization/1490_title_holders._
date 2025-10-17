@@ -1,0 +1,1031 @@
+﻿#udalil otsyda Shveitsariu
+title_prince = {
+	type = character
+	gender = male
+	special = holder
+	priority = 60
+	titles = { k_armenian_principality k_saxony }
+	top_liege = no
+}
+#udalil otsyda Shveitsariu
+title_princess = {
+	type = character
+	gender = female
+	special = holder
+	priority = 60
+	titles = { k_armenian_principality k_saxony }
+	top_liege = no
+}
+title_principality = {
+	type = title
+	titles = { k_armenian_principality k_saxony }
+	priority = 60
+	top_liege = no
+}
+
+swiss_confederation = {
+	type = title
+	titles = { k_switzerland }
+	priority = 60
+	top_liege = no
+}
+
+### Russian ###
+# Feudal
+#новое
+baron_feudal_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian name_list_pomorskay }
+	top_liege = no
+    only_holder = yes
+}
+#Посадница -ноое
+baron_feudal_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian name_list_pomorskay }
+	top_liege = no
+	only_holder = yes
+}
+#барон городской - Тиун - новое
+baron_republic_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { republic_government }
+	name_lists = { name_list_russian name_list_pomorskay }
+	top_liege = no
+    only_holder = yes
+}
+#баронесса городская - новое
+baron_republic_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { republic_government }
+	name_lists = { name_list_russian name_list_pomorskay }
+	top_liege = no
+	only_holder = no
+}
+#добавлена поморская культура
+duke_feudal_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government }
+	name_lists = { name_list_russian name_list_pomorskay }
+}
+#добавлено и племя
+duke_feudal_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian name_list_pomorskay }
+}
+#Малое княжество - добавлено и племя
+duchy_feudal_russian = {
+	type = title
+	tier = duchy
+	priority = 27
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian name_list_pomorskay }
+}
+#новое
+count_feudal_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 102
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian name_list_pomorskay }
+}
+count_feudal_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 102
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+county_feudal_russian = {
+	type = title
+	tier = county
+	priority = 27
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+king_feudal_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 102
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+king_feudal_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 102
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+#новое Великое княжество
+kingdom_feudal_russian = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+###конец нового
+###1490
+#Новое валахи господарь
+king_feudal_male_vlach = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_vlach }
+}
+#Новое валахи господарыня
+king_feudal_female_vlach = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_vlach }
+}
+###Швейцария
+king_feudal_male_swizzar = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	titles = { k_switzerland }
+	name_lists = { name_list_swizzar }
+}
+king_feudal_female_swizzar = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	titles = { k_switzerland }
+	name_lists = { name_list_swizzar }
+}
+kingdom_feudal_swizzar = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	titles = { k_switzerland }
+	name_lists = { name_list_swizzar }
+}
+duke_feudal_male_swizzar = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government }
+	name_lists = { name_list_swizzar }
+}
+duke_feudal_female_swizzar = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government }
+	name_lists = { name_list_swizzar }
+}
+duchy_feudal_swizzar = {
+	type = title
+	tier = duchy
+	priority = 40
+	governments = { feudal_government }
+	name_lists = { name_list_swizzar }
+}
+count_feudal_male_swizzar = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 19
+	liege =  { k_switzerland }
+	governments = { feudal_government }
+	name_lists = { name_list_swizzar }
+}
+count_feudal_female_swizzar = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 19
+	liege =  { k_switzerland }
+	governments = { feudal_government }
+	name_lists = { name_list_swizzar }
+}
+county_feudal_swizzar = {
+	type = title
+	tier = county
+	priority = 19
+	liege =  { k_switzerland }
+	governments = { feudal_government }
+	name_lists = { name_list_swizzar }
+}
+#религиозное
+count_theocracy_male_swizzar = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 30
+	liege =  { k_switzerland }
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+	name_lists = { name_list_swizzar }
+}
+count_theocracy_female_swizzar = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 30
+	liege = { k_switzerland }
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+	name_lists = { name_list_swizzar }
+}
+county_theocracy_swizzar = {
+	type = title
+	tier = county
+	priority = 30
+	liege = { k_switzerland }
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+	name_lists = { name_list_swizzar }
+}
+### Ногаи ###
+#Мирза +
+count_tribal_male_nogai = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_nogai }
+}
+#Мирзаше +
+count_tribal_female_nogai = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_nogai }
+}
+#малый бий
+duke_tribal_male_nogai = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_nogai }
+}
+#байбише
+duke_tribal_female_nogai = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_nogai }
+}
+#бий
+king_tribal_male_nogai = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	titles = { k_oghuz_il }
+	priority = 48
+	governments = { tribal_government clan_government }
+	cultures = { nogai }
+}
+king_tribal_female_nogai = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	titles = { k_oghuz_il }
+	priority = 48
+	governments = { tribal_government clan_government }
+	cultures = { nogai }
+	name_lists = { name_list_nogai }
+}
+#Ногайская Орда
+kingdom_nogai_orda = {
+	type = title
+	tier = kingdom
+	titles = { k_oghuz_il }
+	cultures = { nogai }
+	priority = 50
+	top_liege = no
+}
+emperor_tribal_male_nogai = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_nogai }
+}
+emperor_tribal_female_nogai = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_nogai }
+}
+###КАЗАХИ
+#Глава улуса
+count_tribal_male_kazakh = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_kazakh }
+}
+count_tribal_female_kazakh = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_kazakh }
+}
+#Жуз
+county_tribal_kazakh = {
+	type = title
+	tier = county
+	priority = 19
+	governments = { clan_government tribal_government }
+	name_lists = { name_list_kazakh }
+}
+duke_tribal_male_kazakh = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_kazakh }
+}
+duke_tribal_female_kazakh = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { tribal_government clan_government }
+	name_lists = { name_list_kazakh }
+}
+#Жуз
+duchy_tribal_kazakh = {
+	type = title
+	tier = duchy
+	priority = 30
+	governments = { clan_government tribal_government }
+	name_lists = { name_list_kazakh }
+	only_independent = no
+}
+###Новое Мантуя и Монферрат маркграфство или маркизат ДА
+mantua_marchesato = {
+	type = title
+	tier = county
+	titles = { c_mantua c_monferrato }
+	priority = 20
+	top_liege = no
+}
+#Маркиз Мантуи и Монферрата
+count_feudal_male_c_mantua = {
+	type = character
+	gender = male
+	special = holder
+	priority = 19
+	name_lists = { name_list_cisalpine name_list_italian }
+	governments = { feudal_government }
+	titles = { c_mantua c_monferrato }
+	only_independent = no
+	top_liege = no
+}
+#Маркиза Мантуи и Монферрата ДА
+count_feudal_female_c_mantua = {
+	type = character
+	gender = female
+	special = holder
+	priority = 19
+	name_lists = { name_list_cisalpine name_list_italian }
+	governments = { feudal_government }
+	titles = { c_mantua c_monferrato }
+	only_independent = no
+	top_liege = no
+}
+###Оранж
+#княжество Оранж Principality
+principality_orange = {
+	type = title
+	tier = county
+	titles = { c_venaissin }
+	priority = 20
+	top_liege = no
+}
+#князь-принц
+count_feudal_male_c_venaissin = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 22
+	name_lists = { name_list_french name_list_occitan }
+	governments = { feudal_government }
+	titles = { c_venaissin }
+	only_independent = no
+	top_liege = no
+}
+count_feudal_female_c_venaissin = {
+	type = character
+	gender = female
+	special = holder
+	priority = 22
+	name_lists = { name_list_french name_list_occitan }
+	governments = { feudal_government }
+	titles = { c_venaissin }
+	only_independent = no
+	top_liege = no
+}
+#Трансильвания ДА!
+duchy_feudal_d_transylvania = {
+	type = title
+	tier = duchy
+	titles = { d_transylvania }
+	cultures = { hungarian }
+	priority = 30
+}
+duke_feudal_male_d_transylvania = {
+	type = character
+	gender = male
+	special = holder
+	priority = 47
+	governments = { feudal_government }
+	titles = { d_transylvania }
+	only_independent = no
+}
+duke_feudal_female_d_transylvania = {
+	type = character
+	gender = female
+	special = holder
+	priority = 47
+	governments = { feudal_government }
+	titles = { d_transylvania }
+	only_independent = no
+}
+#Великое княжество Московское ДА!
+kingdom_feudal_k_opolye = {
+	type = title
+	tier = kingdom
+	titles = { k_opolye k_lithuania k_novgorod }
+	only_independent = yes
+	priority = 62
+	top_liege = no
+}
+##Госпитальеры Великие магистры с 1267 года
+#Grand Master of the Knights Hospitaller
+Velikiy_Magistr_Ordena = {
+	type = character
+	gender = male
+	special = holder
+	priority = 60
+	governments = { feudal_government holy_order_government }
+	titles = { d_knights_hospitaler }
+	only_independent = yes
+}
+#Большой султанат Дели и Мальва k_delhi k_malwa
+velikiy_sultanat_deli = {
+	type = title
+	tier = kingdom
+	titles = { k_delhi k_malwa }
+	priority = 60
+	only_independent = yes
+#	top_liege = no
+}
+count_feudal_male_velsult = {
+	type = character
+	gender = male
+	special = holder
+	priority = 47
+	titles = { k_delhi k_malwa }
+	governments = { clan_government feudal_government }
+	only_independent = yes
+}
+count_feudal_female_velsult = {
+	type = character
+	gender = female
+	special = holder
+	priority = 47
+	governments = { clan_government feudal_government }
+	titles = { k_delhi k_malwa }
+	only_independent = yes
+}
+###Малые султанаты Индии Бидар c_kalyani и Биджапур c_taradavadi Ахмаднагар
+malyi_sultanat_india = {
+	type = title
+	tier = county
+	titles = { c_kalyani c_taradavadi c_trikuta }
+	priority = 22
+	top_liege = no
+}
+#Малый Султан
+count_feudal_male_malsult = {
+	type = character
+	gender = male
+	special = holder
+	priority = 47
+	titles = { c_kalyani c_taradavadi c_trikuta }
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	top_liege = no
+}
+#Малый Султан жена
+count_feudal_female_malsult = {
+	type = character
+	gender = female
+	special = holder
+	priority = 47
+	governments = { feudal_government clan_government }
+	titles = { c_kalyani c_taradavadi c_trikuta }
+	only_independent = yes
+	top_liege = no
+}
+###
+#Игумен кириллова Монастыря c_kirillov
+Igumen_kirillov_mon = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	titles = { c_kirillov c_vyangi }
+	priority = 19
+	governments = { theocracy_government }
+	faiths = { orthodox }
+	cultures = { russian pomorskay }
+	top_liege = no
+}
+#Игуменья кириллова Монастыря
+Igumenya_kirillov_mon = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	titles = { c_kirillov c_vyangi }
+	priority = 19
+	governments = { theocracy_government }
+	faiths = { orthodox }
+	cultures = { russian pomorskay }
+	only_independent = no
+	top_liege = no
+}
+#Ландграф Гессена 1264-1567
+Landgraf_Hessen = {
+	type = character
+	gender = male
+	special = holder
+	priority = 47
+	name_lists = { name_list_saxon }
+	governments = { feudal_government }
+	titles = { d_hesse }
+	only_independent = no
+}
+#Заморин Кожикоде-Каликута c_eranad +
+count_feudal_male_c_eranad = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 22
+	governments = { feudal_government clan_government }
+	titles = { c_eranad }
+	only_independent = yes
+}
+#Санджаки
+duchy_sanjak_osman = {
+	type = title
+	tier = duchy
+	titles = { d_sanjak_nish d_sanjak_ohrid d_vidin d_sanjak_ioaninna d_sanjak_avlonaberat d_sanjak_selanik d_sanjak_gelibolu d_sanjak_sofia }
+	liege = { e_ottoman }
+	priority = 47
+	only_independent = no
+	religions = { islam_religion }
+	governments = { clan_government }
+}
+#королевство-провинция Эялет - провинция Эялет во главе Бейлербей
+kingdom_euyalet_osman = {
+	type = title
+	tier = kingdom
+	titles = { k_bulgaria }
+	priority = 67
+	only_independent = no
+	liege = { e_ottoman }
+	religions = { islam_religion }
+	governments = { clan_government }
+}
+#Нарбонна Каркассон виконтство
+vikontstvo_county = {
+	type = title
+	tier = county
+	titles = { c_carcassonne }
+	priority = 19
+	governments = { feudal_government }
+	cultures = { french occitan }
+	only_independent = no
+	liege = { k_france k_aquitaine e_france }
+}
+#Виконт
+count_feudal_male_c_carcassonne = {
+	type = character
+	gender = male
+	special = holder
+	priority = 19
+	governments = { feudal_government }
+	titles = { c_carcassonne }
+	cultures = { french occitan }
+}
+#Виконтесса
+count_feudal_female_c_carcassonne = {
+	type = character
+	gender = female
+	special = holder
+	priority = 19
+	governments = { feudal_government }
+	titles = { c_carcassonne }
+}
+##ОСМАНЫ
+#Верховное Государство
+osm_imperia = {
+	type = title
+	tier = empire
+	priority = 111
+	governments = { clan_government feudal_government }
+	religions = { islam_religion }
+	titles = { e_ottoman }
+	only_independent = yes
+}
+#Османская империя
+#empire_feudal_turetskaya = {
+#	type = title
+#	tier = empire
+#	priority = 103
+#	governments = { clan_government feudal_government }
+#	cultures = { turetskaya }
+#	only_independent = yes
+#	top_liege = yes
+#}
+emperor_feudal_male_turetskaya = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { clan_government feudal_government }
+	titles = { e_ottoman }
+	cultures = { turetskaya }
+}
+emperor_feudal_female_turetskaya = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { clan_government feudal_government }
+	titles = { e_ottoman }
+	cultures = { turetskaya }
+#	name_lists = { name_list_turetskaya }
+}
+#Кадылык = графство кади, Санджак = герцогство санджакбей, Эялет = королевство бейлербей
+#королевство Эялет - провинция Эялет /Бейлербей/ +
+kingdom_feudal_turetskaya = {
+	type = title
+	tier = kingdom
+	priority = 60
+	only_independent = no
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+king_feudal_male_turetskaya = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 60
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+king_feudal_female_turetskaya = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+#Санджак
+duchy_feudal_turetskaya = {
+	type = title
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+#Санджак-бей
+duke_feudal_male_turetskaya = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { clan_government feudal_government }
+	name_lists = { name_list_turetskaya }
+}
+duke_feudal_female_turetskaya = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { clan_government feudal_government }
+	name_lists = { name_list_turetskaya }
+}
+#Кадылык Графство
+county_feudal_turetskaya = {
+	type = title
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+count_feudal_male_turetskaya = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+count_feudal_female_turetskaya = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 20
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+barony_feudal_turetskaya = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+baron_feudal_male_turetskaya = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+baron_feudal_female_turetskaya = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government }
+	name_lists = { name_list_turetskaya }
+}
+###
+#атабек Самцхе-Саатабаго
+atabek_samtskhe_saatabago = {
+	type = character
+	gender = male
+	special = holder
+	priority = 47
+	governments = { feudal_government clan_government }
+	titles = { d_tao-klarjeti }
+	religions = { christianity_religion }
+	only_independent = yes
+}
+#Ганза - торговая республика
+kingdom_k_hansa = {
+	type = title
+	tier = kingdom
+	titles = { k_hansa }
+	governments = { republic_government }
+	priority = 60
+	top_liege = no
+}
+#Ганза
+head_of_hanza_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 50
+	titles = { k_hansa }
+	top_liege = no
+}
+#ганзейская госпожа
+head_of_hanza_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 50
+	titles = { k_hansa }
+	top_liege = no
+}
+###
+#Митрополиты
+mitropolit_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	faiths = { orthodox }
+	priority = 60
+	titles = { d_metropolis_moscow }
+	top_liege = no
+}
+###Ливония - всё в одном месте
+#Ландмейстеры
+livonia_landmagisterM = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 50
+	religions = { christianity_religion }
+	governments = { holy_order_government feudal_government }
+	titles = { d_livonian_confederation }
+	de_jure_liege = { k_livonia }
+}
+#Комтуры = Комтурство - Commandery
+county_livonia = {
+	type = title
+	tier = county
+	priority = 20
+	governments = { holy_order_government feudal_government }
+	de_jure_liege = { k_livonia }
+	liege = { d_livonian_confederation }
+	only_independent = no
+}
+#комтур
+count_livonia_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 20
+	religions = { christianity_religion }
+	governments = { holy_order_government feudal_government }
+	de_jure_liege = { k_livonia }
+	liege = { d_livonian_confederation }
+	only_independent = no
+}
+#комтуресса
+count_livonia_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 20
+	religions = { christianity_religion }
+	governments = { holy_order_government feudal_government }
+	de_jure_liege = { k_livonia }
+	liege = { d_livonian_confederation }
+	only_independent = no
+}
+#Фогт - барон -  Фогт Vogt - замок
+baron_livonia_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	religions = { christianity_religion }
+	governments = { holy_order_government feudal_government }
+	de_jure_liege = { k_livonia }
+}
+#Фогтесса
+baron_livonia_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	religions = { christianity_religion }
+	governments = { holy_order_government feudal_government }
+	de_jure_liege = { k_livonia }
+}
+### Банаты ещё ###
+#баны под властью Венгрии Славония и Хорватия
+duke_feudal_male_ban2 = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government }
+	religions = { christianity_religion }
+	titles = { d_croatia d_slavonia }
+	liege = { k_hungary }
+}
+duke_feudal_female_ban2 = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government }
+	religions = { christianity_religion }
+	titles = { d_croatia d_slavonia }
+	liege = { k_hungary }
+}
+duchy_feudal_ban2 = {
+	type = title
+	tier = duchy
+	priority = 30
+	governments = { feudal_government }
+	titles = { d_croatia d_slavonia }
+	liege = { k_hungary }
+}
+###турки - перенос ниже
+#Верховный султан
+sultan_osm = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 122
+	titles = { e_ottoman }
+	top_liege = yes
+	religions = { islam_religion }
+}
+###конец всего нового

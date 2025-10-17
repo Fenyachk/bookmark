@@ -1,0 +1,39 @@
+﻿#semifeudal
+1490_semifeudal_government = {
+	government_rules = {
+		create_cadet_branches = no
+		rulers_should_have_dynasty = yes
+		dynasty_named_realms = no
+		royal_court = yes
+		inherit_from_dynastic_government = no
+		legitimacy = no
+		use_as_base_on_landed = yes
+		use_as_base_on_rank_up = yes
+		no_capital_movement_cooldown = yes
+	}
+	primary_holding = castle_holding
+	required_county_holdings = { castle_holding city_holding church_holding }
+	vassal_contract_group = feudal_vassal
+
+	ai = {
+		use_legends = yes
+	}
+	character_modifier = {
+		title_creation_cost_mult = 1.2
+		ignore_negative_opinion_of_culture = yes
+		feudal_government_vassal_opinion = 5
+		clan_government_vassal_opinion = 5
+		republic_government_vassal_opinion = 5
+		vassal_opinion = 10
+		tax_contribution_mult = -0.25
+		levy_contribution_mult = -0.25
+		herd_contribution_mult = 0
+		herd_contribution_add = 0
+		vassal_limit = 60
+	} 
+#flag = may_elevate_co_monarch
+	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
+	flag = government_is_1490semifeudal #flag = government_is_feudal
+	flag = government_is_settled
+	color = hsv{ 0.66 1.66 0.66 }
+}

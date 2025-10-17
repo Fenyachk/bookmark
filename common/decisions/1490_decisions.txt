@@ -1,0 +1,1956 @@
+﻿#Василевс поломал
+#Голконда 1512 по 1687
+form_golkonda_sultanate_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds" }
+	desc = form_golkonda_sultanate_decision_desc
+	selection_tooltip = form_golkonda_sultanate_decision_tooltip
+	decision_group_type = major
+	ai_check_interval = 1000 #0, если недоступно для ИИ
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #Разбойники и безземельные не могут
+		OR = {
+			religion = religion:islam_religion
+			culture = { has_cultural_pillar = heritage_turkic }
+		}
+		NOT = { culture = culture:greek }
+		NOT = { faith.religion = religion:christianity_religion }
+		OR = {
+			is_independent_ruler = yes
+			top_liege = { has_title = title:e_deccan }
+		}
+		capital_province = {
+			OR = {
+				geographical_region = world_persian_empire
+				geographical_region = world_asia_minor
+				geographical_region = custom_greater_armenia
+			}
+		}
+		NOR = {
+			exists = title:k_golkonda.holder
+			top_liege = { has_title = title:e_byzantium }
+			top_liege = { has_title = title:e_roman_empire }
+			top_liege = { has_title = title:e_hre }
+			top_liege = { has_title = title:e_west_slavia }
+			top_liege = { has_title = title:e_russia }
+		}
+		NOT = {  #Can only do it once
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_golkonda_sultanate
+			}
+		}
+		OR = {
+			highest_held_title_tier < 4 #Dukes or lower, splitting off from Persia.
+			AND = {
+				highest_held_title_tier < 5
+				is_independent_ruler = yes #Или просто необычный способ получить новый королевский титул
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= medium_prestige_level
+		piety_level >= medium_piety_level
+		completely_controls = title:d_racakonda
+		has_title = title:d_udayagiri
+		has_title = title:d_vengi
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = form_golkonda_sultanate_decision_effect_tooltip
+		gain_heroic_legend_seed_tooltip_effect = yes
+		show_as_tooltip = {
+			create_golkonda_scripted_effect = yes
+		}
+		dynasty = { add_dynasty_prestige = 1500 }
+		#ne uveren
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:k_golkonda = {
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		house = {
+			add_house_modifier = {
+				modifier = 1490_taxbuildglory_modifier
+				years = 20
+			}
+		}
+#trigger_event = { id = middle_east_decisions.0014 }
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_golkonda_sultanate
+			}
+			title:d_racakonda = { set_de_jure_liege_title = title:k_golkonda }
+			title:d_udayagiri = { set_de_jure_liege_title = title:k_golkonda }
+			title:d_vengi = { set_de_jure_liege_title = title:k_golkonda }
+#			set_global_variable = {
+#				name = flag_formed_rum_sultanate
+#				value = root
+#			}
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+#Нидерланды - Габсубргские -де-юре создать
+unite_the_netherlands_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/habsnid.dds" }
+	decision_group_type = major
+	ai_check_interval = 60
+	desc = unite_the_netherlands_decision_desc
+	is_shown = {
+		game_start_date >= 1454.1.1
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		dynasty = dynasty:664
+		top_liege = { has_title = title:e_hre }
+#has_government = feudal_government
+		NOR = {
+			government_has_flag = government_is_tribal
+			government_has_flag = government_is_theocracy
+		}
+		religion = religion:christianity_religion
+		title:k_frisia = { any_in_de_jure_hierarchy = { tier = tier_county } }
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_the_netherlands_decision
+			}
+		}
+		highest_held_title_tier < tier_kingdom
+	}
+
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:c_brabant
+			has_title = title:d_brabant
+			completely_controls = title:c_frisia
+			has_title = title:d_holland
+			OR = {
+			has_title = title:d_flanders
+			has_title = title:d_gelre
+			has_title = title:d_utrecht
+			}
+		}
+		prestige >= 200
+#		prestige >= massive_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+#is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+		effect = {
+		random_list = {
+		50 = {add_gold = 500}
+		50 = {add_gold = 300}
+	    }
+		dynasty = { add_dynasty_prestige = 350 }
+		add_prestige = 200
+		add_legitimacy = 100
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:unite_the_netherlands_decision
+		}
+		custom_tooltip = HN_creation_effect
+		hidden_effect = {
+		title:d_brabant = {
+			set_de_jure_liege_title = title:k_habs_netherlands
+		}
+		title:d_flanders = {
+			set_de_jure_liege_title = title:k_habs_netherlands
+		}
+		title:d_holland = {
+			set_de_jure_liege_title = title:k_habs_netherlands
+		}
+		title:d_gelre = {
+			set_de_jure_liege_title = title:k_habs_netherlands
+		}
+		#dop
+		title:d_frisia = {
+			set_de_jure_liege_title = title:k_habs_netherlands
+		}
+		title:d_utrecht = {
+			set_de_jure_liege_title = title:k_habs_netherlands
+		}
+		title:k_habs_netherlands = {
+			set_capital_county = title:c_brabant
+			set_de_jure_liege_title = title:e_hre
+		}
+		add_realm_law = single_heir_succession_law #новое
+#		random_vassal_or_below = {
+#			limit = {
+#				primary_title = { target_is_de_jure_liege_or_above = title:k_habs_netherlands }
+#				NOT = { any_held_title = { NOT = { target_is_de_jure_liege_or_above = title:k_habs_netherlands } } }
+#			}
+#			save_scope_as = first_governor
+#			create_title_and_vassal_change = {
+#				type = granted
+#				save_scope_as = change
+#				add_claim_on_loss = no
+#			}
+#			title:k_habs_netherlands = {
+#				change_title_holder_include_vassals = {
+#					holder = scope:first_governor
+#					change = scope:change
+#				}
+#			}
+#			every_realm_county = {
+#				limit = {
+#					target_is_de_jure_liege_or_above = title:k_habs_netherlands
+#					NOT = { holder.liege = scope:first_governor }
+#				}
+#				change_title_holder = {
+#					holder = scope:first_governor
+#					change = scope:change
+#				}
+#			}
+#			resolve_title_and_vassal_change = scope:change
+#		}	
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Начать захват Гранады - новое условие: Малага или Альмерия чтобы были
+nach_zahvgranady_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/granada.dds" }
+	decision_group_type = major
+	ai_check_interval = 36
+	desc = nach_zahvgranady_decision_desc
+	is_shown = {
+		game_start_date >= 1480.1.1
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+#		required_year_greater_or_equal_trigger = { YEAR = 1235 }
+		is_independent_ruler = yes
+		OR = {
+			has_primary_title = title:k_castille
+#			has_primary_title = title:k_aragon
+			has_primary_title = title:k_leon
+		}
+		religion = religion:christianity_religion
+		NOT = { completely_controls = title:d_granada }
+		NOT = { completely_controls = title:c_granada }
+		NOT = { has_truce = title:c_granada.holder }
+		NOT = { is_at_war_with = title:c_granada.holder }
+		title:c_granada = {
+			holder = {
+				has_title = title:d_granada
+			}
+		}
+	}
+	is_valid = {
+		prestige >= 100
+		OR = {
+			has_title = title:c_almeria
+			has_title = title:c_malaga
+			any_vassal = { has_title = title:c_almeria }
+			any_vassal = { has_title = title:c_malaga }
+		}
+		
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+#		is_at_war = no
+	}
+
+	effect = {
+		start_war = {
+			cb = duchy_conquest_cb
+			target = title:c_granada.holder
+			claimant = root
+			target_title = title:c_granada
+		}
+#		title:k_papal_state.holder = {
+#			if = { limit = { NOT = { has_title = title:d_latium } } get_title = title:d_latium }
+#		}
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+#отпраздновать захват Гранады и закончить Реконкисту
+zahvat_granady_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/sda_granady.dds" }
+	decision_group_type = major
+	ai_check_interval = 96
+	desc = zahvat_granady_decision_desc
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		game_start_date >= 1453.1.1
+		is_independent_ruler = yes
+		OR = {
+			has_primary_title = title:k_castille
+#			has_primary_title = title:k_aragon
+			has_primary_title = title:k_leon
+		}
+		faith = { religion_tag = christianity_religion  }
+#has_government = feudal_government -бюрократия ещё есть
+		NOR = {
+			government_has_flag = government_is_tribal
+			government_has_flag = government_is_theocracy
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:zahvat_granady
+			}
+		}
+	}
+	is_valid = { 
+		prestige_level >= 1
+		piety_level >= 1
+		completely_controls = title:d_granada
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+#is_capable_adult = yes - лишнее, а если персонажу 12 лет, например, или 14?
+		is_imprisoned = no
+#is_at_war = no - война не должна помешать отпраздновать
+	}
+	effect = {
+#		gain_holy_legend_seed_tooltip_effect = yes
+#		save_scope_as = avenger
+#		custom_tooltip = zahvat_granady_effect
+		add_gold = 500
+		add_piety = 600
+		dynasty = { add_dynasty_prestige = 500 }
+		title:d_granada = { set_de_jure_liege_title = title:k_castille }
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:zahvat_granady
+		}
+		#вызов ивента для завершения иберийской борьбы
+		fp2_struggle_hostility_ender_effect = yes
+		trigger_event = fp2_struggle.0900
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+#Империя Сефевидов 7340 - не вышло с ismaili
+create_safavid_empire_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = create_safavid_empire_decision_desc
+
+	is_shown = {
+		game_start_date >= 1470.1.1
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		dynasty = dynasty:7340
+		religion = religion:islam_religion
+		title:k_daylam = { any_in_de_jure_hierarchy = { tier = tier_county } }
+		NOT = {
+			exists = title:e_safavid_empire.holder
+			exists = title:e_persia.holder
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:create_safavid_empire_decision
+			}
+		}
+		highest_held_title_tier < tier_empire
+	}
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:c_tabriz
+			completely_controls = title:c_qazwin
+			completely_controls = title:c_isfahan
+			has_title = title:d_azerbaijan
+			has_title = title:d_daylam
+			has_title = title:d_isfahan
+			has_title = title:d_hamadan
+			has_title = title:d_kurdistan
+			OR = {
+			has_title = title:k_persia
+			has_title = title:k_aqqoyunlu
+			}
+		}
+		piety_level >= 2
+		prestige >= 300
+		is_independent_ruler = yes
+#		capital_county.faith = ismaili.faith
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		add_gold = 800
+		add_prestige = 900
+		add_piety = 700
+		dynasty = { add_dynasty_prestige = 1000 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:create_safavid_empire_decision
+		}
+		house = {
+			add_house_modifier = {
+				modifier = 1490_taxbuildglory_modifier
+				years = 20
+			}
+		}
+#		custom_tooltip = HN_creation_effect
+		hidden_effect = {
+		title:k_persia = { set_de_jure_liege_title = title:e_safavid_empire }
+		title:k_daylam = { set_de_jure_liege_title = title:e_safavid_empire }
+		title:k_aqqoyunlu = { set_de_jure_liege_title = title:e_safavid_empire }
+		title:k_mesopotamia = { set_de_jure_liege_title = title:e_safavid_empire }
+		title:k_makran = { set_de_jure_liege_title = title:e_safavid_empire }
+		title:k_kabulistan = { set_de_jure_liege_title = title:e_rajastan }
+		title:k_khorasan = { set_de_jure_liege_title = title:e_turan }
+		add_realm_law = single_heir_succession_law
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+#Османский Алжир k_algeria
+create_alzhir_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = create_alzhir_decision_desc
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		religion = religion:islam_religion
+		OR = {
+			has_title = title:e_ottoman
+			top_liege = { has_title = title:e_ottoman }
+			}
+		game_start_date >= 1453.1.1
+		NOT = {
+			exists = title:k_algeria.holder
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:create_alzhir_decision
+			}
+		}
+		highest_held_title_tier >= tier_kingdom
+	}
+
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:d_alger
+			has_title = title:d_tlemcen
+			has_title = title:d_bejaia
+			has_title = title:d_zab
+			has_title = title:d_kroumerie
+			OR = {
+			has_title = title:d_tahert
+			has_title = title:d_mzab
+			}
+		}
+		piety_level >= 2
+		prestige >= 200
+#		is_independent_ruler = yes
+#		capital_county.faith = ismaili.faith
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+#is_at_war = no
+	}
+		effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		add_gold = 500
+		add_prestige = 500
+		add_piety = 303
+		dynasty = { add_dynasty_prestige = 900 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:create_alzhir_decision
+		}
+#		custom_tooltip = HN_creation_effect
+		hidden_effect = {
+		title:d_alger = { set_de_jure_liege_title = title:k_algeria }
+		title:d_tlemcen = { set_de_jure_liege_title = title:k_algeria }
+		title:d_tahert = { set_de_jure_liege_title = title:k_algeria }
+		title:d_bejaia = { set_de_jure_liege_title = title:k_algeria }
+		title:d_kroumerie = { set_de_jure_liege_title = title:k_algeria }
+		title:d_zab = { set_de_jure_liege_title = title:k_algeria }
+		title:d_mzab = { set_de_jure_liege_title = title:k_algeria }
+		add_realm_law = single_heir_succession_law
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Создать османский Тунис и Триполитанию из королевства Африка
+create_tunis_i_trip_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = create_tunis_i_trip_decision_desc
+	sort_order = -10
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		religion = religion:islam_religion
+		OR = {
+			has_title = title:e_ottoman
+			top_liege = { has_title = title:e_ottoman }
+			}
+		game_start_date >= 1453.1.1
+		NOT = {
+			exists = title:k_tunis.holder
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:create_tunis_i_trip_decision
+			}
+		}
+		highest_held_title_tier >= tier_kingdom
+	}
+
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:c_tunis
+			has_title = title:d_tunis
+			has_title = title:d_gabes
+			has_title = title:d_jerid
+			has_title = title:d_kairouan
+			completely_controls = title:c_tripolitana
+			has_title = title:d_tripolitania
+			has_title = title:d_syrte
+			has_title = title:d_cyrenaica
+		}
+		piety_level >= 2
+		prestige >= 300
+#		is_independent_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+#		is_at_war = no
+	}
+		effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		add_gold = 800
+		add_prestige = 800
+		add_piety = 300
+		dynasty = { add_dynasty_prestige = 800 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:create_tunis_i_trip_decision
+		}
+#		custom_tooltip = _creation_effect
+		hidden_effect = {
+		title:d_tunis = { set_de_jure_liege_title = title:k_tunis }
+		title:d_gabes = { set_de_jure_liege_title = title:k_tunis }
+		title:d_jerid = { set_de_jure_liege_title = title:k_tunis }
+		title:d_kairouan = { set_de_jure_liege_title = title:k_tunis }
+		title:d_tripolitania = { set_de_jure_liege_title = title:k_tripolitana }
+		title:d_syrte = { set_de_jure_liege_title = title:k_tripolitana }
+		title:d_cyrenaica = { set_de_jure_liege_title = title:k_tripolitana }
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Превратить графство Ольденбург в герцогство
+herz_oldenburg_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = herz_oldenburg_decision_desc
+	sort_order = -10
+	is_shown = {
+		game_start_date >= 1453.1.1
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		has_title = title:c_oldenburg
+#has_government = feudal_government - бюрократия
+		NOR = {
+			government_has_flag = government_is_tribal
+			government_has_flag = government_is_theocracy
+		}
+		top_liege = { has_title = title:e_hre }
+		religion = religion:christianity_religion
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:herz_oldenburg_decision
+			}
+		}
+		highest_held_title_tier = tier_county
+	}
+
+	is_valid = {
+		prestige_level >= medium_prestige_level
+		piety_level >= medium_piety_level
+		trigger_if = {
+			completely_controls = title:c_oldenburg
+			title:e_hre.holder = { has_any_good_relationship_with_root_trigger = yes }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+		effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		add_prestige = 1000
+		dynasty = { add_dynasty_prestige = 2000 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:herz_oldenburg_decision
+		}
+#		custom_tooltip = HN_creation_effect
+		hidden_effect = {
+		title:c_oldenburg = { set_de_jure_liege_title = title:d_oldenburg }
+		add_realm_law = single_heir_succession_law
+		}
+	}
+
+	cost = { gold = 2000 }
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#посетить местные церкви
+posetit_tserkvi_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/posetit_tserkvi.dds" }
+	decision_group_type = major
+	ai_check_interval = 600
+	desc = posetit_tserkvi_decision_desc
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		highest_held_title_tier >= tier_county
+		NOR = {
+			government_has_flag = government_is_tribal
+			government_has_flag = government_is_theocracy
+			government_has_flag = government_is_republic
+			government_has_flag = government_is_1490semifeudal
+		}
+		religion = religion:christianity_religion
+		legitimacy < 1666 #нет смысла спамить правителям с высокой легитимностью. 5 уровень — 2100
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_imprisoned = no
+#		is_at_war = no - война не мешает посещать церковь, если не коммандуешь
+		age >= 14
+		NOR = {
+			has_trait = excommunicated
+			has_trait = incapable
+		}
+	}
+	effect = {
+		random_list = {
+			50 = {add_legitimacy = 60}
+			50 = {add_legitimacy = 40}
+		}
+		dynasty = { add_dynasty_prestige = 5 }
+		add_stress = 5
+		stress_impact = {
+			cynical = minor_stress_impact_gain
+		}
+		
+#		custom_tooltip = HN_creation_effect
+	}
+	#random ne rabotaet na kuldaun - ranee bylo 7
+	cooldown = { months = 15 }
+	cost = { piety = 10 }
+	ai_potential = {
+		is_landless_adventurer = no
+		highest_held_title_tier > 2
+	}
+	ai_will_do = {
+		base = 30
+		modifier = {
+			add = 50
+			has_trait = zealous
+		}
+		modifier = {
+			add = -30
+			has_trait = cynical
+		}
+	}
+}
+#Трансильвания
+knyazhestvo_transilvania_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = knyazhestvo_transilvania_decision_desc
+	sort_order = -10
+	is_shown = {
+		#Можно сделать это только один раз
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_kn_transilvania
+			}
+		}
+		has_title = title:d_transylvania
+	}
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:c_feher
+			completely_controls = title:c_fogaras
+			has_title = title:d_transylvania
+			has_title = title:c_arad
+			has_title = title:d_bihar
+			NOR = {
+			exists = title:k_hungary.holder
+			top_liege = { has_title = title:k_hungary }
+			}
+		}
+		piety_level >= 2
+#		is_independent_ruler = yes
+#		capital_county.faith = ismaili.faith
+	}
+#destroy_title = title:
+	effect = {
+		dynasty = { add_dynasty_prestige = 500 }
+		add_prestige = 1500
+		add_gold = 500
+		title:d_transylvania = { set_de_jure_liege_title = title:k_transylvania }
+		add_realm_law = single_heir_succession_law
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_kn_transilvania
+			}
+			title:d_bihar = { set_de_jure_liege_title = title:k_transylvania }
+			title:c_arad = { set_de_jure_liege_title = title:d_bihar }
+		}
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+#мантуя 1530 - герцогство
+sozdat_herz_mantua_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 120
+	desc = sozdat_herz_mantua_decision_desc
+	sort_order = -10
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #Разбойники и безземельные не могут
+		has_title = title:c_mantua
+		religion = religion:christianity_religion
+		game_start_date >= 1470.1.1
+		NOT = {
+			exists = title:d_mantua.holder
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:sozdat_herz_mantua_decision
+			}
+		}
+		highest_held_title_tier = tier_county
+	}
+    
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:c_mantua
+			title:e_hre.holder = { has_any_good_relationship_with_root_trigger = yes }
+		}
+		piety_level >= 2
+		prestige >= 700
+	}
+
+	is_valid_showing_failures_only = {
+		trigger_if = {
+			limit = { exists = title:e_hre.holder }
+			title:e_hre.holder = { has_any_bad_relationship_with_root_trigger = no }
+		}
+		trigger_else = {
+			limit = { exists = title:k_papal_state.holder }
+			title:k_papal_state.holder = { has_any_bad_relationship_with_root_trigger = no }
+		}
+		is_landed = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_capable_adult = yes
+	}
+		effect = {
+		add_gold = 500
+		dynasty = { add_dynasty_prestige = 500 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:sozdat_herz_mantua_decision
+		}
+		custom_tooltip = sozdat_herz_mantua_creation_effect
+        hidden_effect = {
+			title:c_mantua = { set_de_jure_liege_title = title:d_mantua }
+            title:d_mantua = { set_de_jure_liege_title = title:k_italy }
+			add_realm_law = single_heir_succession_law
+		}
+	}
+
+	cost = {
+		prestige = 200
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+#возродить Болгарию
+vozrodit_bolgariu_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = vozrodit_bolgariu_decision_desc
+	sort_order = -10
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #Разбойники и безземельные не могут
+		culture = culture:bulgarian
+		religion = religion:christianity_religion
+		game_start_date >= 1453.5.29
+		NOT = {
+			exists = title:k_bulgaria.holder
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:vozrodit_bolgariu_decision
+			}
+		}
+		highest_held_title_tier < tier_empire
+	}
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:d_sanjak_sofia
+			has_title = title:d_vidin
+			has_title = title:d_philippopolis
+			has_title = title:d_turnovo
+			has_title = title:d_dobrudja
+			has_title = title:d_sanjak_ohrid
+			has_title = title:d_skopje
+		}
+		prestige >= 200
+		piety_level >= 1
+		is_independent_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+		effect = {
+		add_gold = 300
+		add_prestige = 400
+		dynasty = { add_dynasty_prestige = 400 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:vozrodit_bolgariu_decision
+		}
+		custom_tooltip = vozrodit_bolgariu_creation_effect
+		hidden_effect = {
+		title:c_vratsa = { set_de_jure_liege_title = title:d_turnovo }
+		title:c_sredets = { set_de_jure_liege_title = title:d_turnovo }
+		title:d_vidin = { set_de_jure_liege_title = title:k_bulgaria }
+		title:d_philippopolis = { set_de_jure_liege_title = title:k_bulgaria }
+		title:d_turnovo = { set_de_jure_liege_title = title:k_bulgaria }
+		title:d_dobrudja = { set_de_jure_liege_title = title:k_bulgaria }
+		title:d_sanjak_ohrid = { set_de_jure_liege_title = title:k_bulgaria }
+		title:d_skopje = { set_de_jure_liege_title = title:k_bulgaria }
+		title:k_bulgaria = { set_capital_county = title:c_sredets }
+		title:k_bulgaria = { set_de_jure_liege_title = title:e_carpathia }
+		title:d_sanjak_nish = { set_de_jure_liege_title = title:k_serbia }
+		title:c_kalliopolis = { set_de_jure_liege_title = title:d_thrace }
+		title:c_veria = { set_de_jure_liege_title = title:d_thessalonika }
+		title:c_thessalonika = { set_de_jure_liege_title = title:d_thessalonika }
+		title:c_chalkidike = { set_de_jure_liege_title = title:d_thessalonika }
+		title:c_serres = { set_de_jure_liege_title = title:d_thessalonika }
+		title:c_mosynopolis = { set_de_jure_liege_title = title:d_thessalonika }
+		title:d_thessalonika = { set_de_jure_liege_title = title:k_hellas }
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Возродить Византию времён Палеологов
+sozdat_gretsiu_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = sozdat_gretsiu_decision_desc
+	sort_order = -10
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #Разбойники и безземельные не могут
+		culture = culture:greek
+		religion = religion:christianity_religion
+		game_start_date >= 1453.5.29
+		NOT = {
+			exists = title:e_byzantium.holder
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:sozdat_gretsiu_decision
+			}
+		}
+		highest_held_title_tier < tier_empire
+	}
+	is_valid = {
+		trigger_if = {
+			OR = {
+			has_title = title:k_hellas
+			has_title = title:k_nikaea
+#			completely_controls = title:k_hellas
+#			completely_controls = title:k_nikaea
+			}
+			completely_controls = title:c_byzantion
+			completely_controls = title:c_brysis
+			completely_controls = title:d_sanjak_selanik
+			completely_controls = title:d_sanjak_gelibolu
+		}
+		prestige >= 1000
+		piety_level >= 2
+		is_independent_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+		effect = {
+		add_gold = 1500
+		add_prestige = 1500
+		add_piety = 600
+		dynasty = { add_dynasty_prestige = 1000 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:sozdat_gretsiu_decision
+		}
+		custom_tooltip = sozdat_gretsiu_creation_effect
+		hidden_effect = {
+		title:c_kalliopolis = { set_de_jure_liege_title = title:d_thrace }
+		title:c_veria = { set_de_jure_liege_title = title:d_thessalonika }
+		title:c_thessalonika = { set_de_jure_liege_title = title:d_thessalonika }
+		title:c_chalkidike = { set_de_jure_liege_title = title:d_thessalonika }
+		title:c_serres = { set_de_jure_liege_title = title:d_thessalonika }
+		title:c_mosynopolis = { set_de_jure_liege_title = title:d_thessalonika }
+		title:d_thessalonika = { set_de_jure_liege_title = title:k_hellas }
+		title:k_hellas = { set_de_jure_liege_title = title:e_byzantium }
+		title:k_nikaea = { set_de_jure_liege_title = title:e_byzantium }
+		title:k_rumelia = { set_de_jure_liege_title = title:e_byzantium }
+		title:k_nikaea = { reset_title_name = yes }
+		title:e_byzantium = { set_capital_county = title:c_byzantion }
+		add_realm_law = single_heir_succession_law
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#создать Уэльс, только через решение с 1470 года
+sozdat_uels_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = sozdat_uels_decision_desc
+	sort_order = -10
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #Разбойники и безземельные не могут
+		culture = culture:welsh
+#		religion = religion:christianity_religion
+		game_start_date >= 1470.1.1
+		NOT = {
+			exists = title:k_wales.holder
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:sozdat_uels_decision
+			}
+		}
+		highest_held_title_tier < tier_kingdom
+	}
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:c_glamorgan
+			has_title = title:d_gwynedd
+			has_title = title:d_walliyskay_marka
+		}
+		legitimacy > 50
+#		prestige >= 300
+		piety_level >= 1
+		is_independent_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		add_gold = 300
+		add_prestige = 500
+		dynasty = { add_dynasty_prestige = 400 }
+		add_realm_law = single_heir_succession_law
+#		custom_tooltip = sozdat_uels_decision_creation_effect
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:sozdat_uels_decision
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:k_wales = {
+				change_title_holder = {
+				holder = root
+				change = scope:change
+				}
+			}
+			title:d_gwynedd = { set_de_jure_liege_title = title:k_wales }
+			title:d_walliyskay_marka = { set_de_jure_liege_title = title:k_wales }
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Военным путём восстановить единство Кальмарской унии. Дания против Швеции -- сохранить унию
+dan_vosstan_ko_un_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/kalmunia.dds" }
+	decision_group_type = major
+	ai_check_interval = 120
+	desc = dan_vosstan_ko_un_decision_desc
+	sort_order = -10
+	is_shown = {
+		game_start_date >= 1470.1.1
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+#		required_year_greater_or_equal_trigger = { YEAR = 1235 }
+		is_independent_ruler = yes
+		has_primary_title = title:k_denmark
+#		religion = religion:christianity_religion
+		NOT = { completely_controls = title:k_sweden }
+		NOT = { completely_controls = title:d_svealand }
+		NOT = { has_truce = title:k_sweden.holder }
+		NOT = { is_at_war_with = title:k_sweden.holder }
+		title:k_denmark = {
+			holder = {
+				has_title = title:k_denmark
+			}
+		}
+	}
+
+	is_valid = {
+		gold >= 1000 #чтобы воевать не бомжами
+		current_date < 1530.1.1 #де-юре уния распадается уже в 1520-х, но дадим ещё 10 лет на раздупление
+	}
+	is_valid_showing_failures_only = {
+		trigger_if = {
+			limit = { exists = title:k_sweden.holder }
+			title:k_sweden.holder = { has_any_good_relationship_with_root_trigger = no }
+		}
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		add_legitimacy = 190 #король Дании как глава унии -почему-то 210 дают
+		add_prestige = 500 #будет потеря
+		start_war = {
+			cb = invasion_war #подумал, что не claim_cb
+			target = title:k_sweden.holder
+			claimant = root
+			target_title = title:k_sweden
+		}
+#		cooldown = { months = 60 }  - вылезает ошибка
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+##
+#Объединить Саксонию
+unite_saxony_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = unite_saxony_decision_desc
+	sort_order = -10
+	is_shown = {
+		game_start_date >= 1490.1.1 #Лейпцигский раздел в 1485
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		dynasty = dynasty:1054 #house_wettin - но дом могут создать
+		OR = {
+			has_title = title:d_albertin_saxony
+			has_title = title:d_ernestin_saxony
+		}
+#		religion = religion:islam_religion
+#		title:k_daylam = { any_in_de_jure_hierarchy = { tier = tier_county } }
+		NOT = {
+			exists = title:d_saxony.holder
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_saxony_decision
+			}
+		}
+		highest_held_title_tier < tier_empire #императору незачем
+	}
+
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:c_dresden
+			completely_controls = title:c_wittenberg
+			has_title = title:d_albertin_saxony
+			has_title = title:d_ernestin_saxony
+		}
+		piety_level >= 2
+		prestige >= 500
+#		is_independent_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		add_gold = 600
+		add_prestige = 700
+		dynasty = { add_dynasty_prestige = 600 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:unite_saxony_decision
+		}
+#		custom_tooltip = HN_creation_effect
+		hidden_effect = {
+		title:c_naumburg = { set_de_jure_liege_title = title:d_saxony }
+		title:c_dresden = { set_de_jure_liege_title = title:d_saxony }
+		title:c_meissen = { set_de_jure_liege_title = title:d_saxony }
+		title:c_wolkenstein = { set_de_jure_liege_title = title:d_saxony }
+		title:c_vogtland = { set_de_jure_liege_title = title:d_saxony }
+		title:c_coburg = { set_de_jure_liege_title = title:d_saxony }
+		title:c_mersenburg = { set_de_jure_liege_title = title:d_saxony }
+		title:c_osterland = { set_de_jure_liege_title = title:d_saxony }
+		title:c_brene = { set_de_jure_liege_title = title:d_saxony }
+		title:c_wittenberg = { set_de_jure_liege_title = title:d_saxony }
+#		destroy_title = title:d_albertin_saxony
+#		destroy_title = title:d_ernestin_saxony
+		add_realm_law = single_heir_succession_law
+		}
+	}
+	ai_potential = {
+		is_landless_adventurer = no
+		highest_held_title_tier > 2
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+#отпраздновать возвращение Смоленска - осада 1502 года была неудачной
+smolensk_1_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	sort_order = -10
+	decision_group_type = major
+	ai_check_interval = 300
+	desc = smolensk_1_decision_desc
+	sort_order = -10
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		game_start_date >= 1453.1.1
+		is_independent_ruler = yes
+		OR = {
+			has_primary_title = title:k_opolye
+			has_primary_title = title:e_russia
+			has_primary_title = title:d_novgorod
+		}
+#		faith = { religion_tag = christianity_religion  }
+#		has_government = feudal_government
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:smolensk_1
+			}
+		}
+	}
+	is_valid = {
+		dynasty = dynasty:705 #Рюриковичи
+		prestige_level >= 2
+		piety_level >= 1
+		completely_controls = title:c_smolensk
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+	effect = {
+		add_prestige = 500
+		dynasty = { add_dynasty_prestige = 300 }
+		house = {
+			add_house_modifier = {
+				modifier = 1490_proslavlpobed_modifier
+				years = 10
+			}
+		}
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:smolensk_1
+		}
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+# создать де-юре титул Лотарингия, Карл Смелый k_lotharingia
+vozrodit_lotaringiu_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	desc = vozrodit_lotaringiu_decision_desc
+	sort_order = -10
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes
+		religion = religion:christianity_religion
+		game_start_date = 1470.1.1
+		OR = {
+			has_primary_title = title:d_burgundy
+			has_primary_title = title:d_brabant
+			has_primary_title = title:d_upper_lorraine
+		}
+		NOT = {
+			exists = title:k_lotharingia.holder
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:vozrodit_lotaringiu_decision
+			}
+			has_title = title:k_habs_netherlands
+		}
+		highest_held_title_tier < tier_kingdom
+	}
+	is_valid = {
+		trigger_if = {
+			completely_controls = title:c_nancy
+			has_title = title:d_upper_lorraine
+			has_title = title:d_bar
+			has_title = title:d_brabant
+			has_title = title:d_luxembourg
+		}
+		prestige >= 500
+		piety_level >= 1
+#		is_independent_ruler = yes
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+		effect = {
+		add_gold = 300
+		add_prestige = 400
+		dynasty = { add_dynasty_prestige = 500 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:vozrodit_lotaringiu_decision
+		}
+#		custom_tooltip = vozrodit_bolgariu_creation_effect
+		hidden_effect = {
+		title:d_upper_lorraine = { set_de_jure_liege_title = title:k_lotharingia }
+		title:d_bar = { set_de_jure_liege_title = title:k_lotharingia }
+		title:d_brabant = { set_de_jure_liege_title = title:k_lotharingia }
+		title:d_luxembourg = { set_de_jure_liege_title = title:k_lotharingia }
+		}
+	}
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+# 24-05-25 - принять англиканство ex fervor_gain_ascetic_example - отделить церковь англии
+anglikanstvo_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/anglikan.dds" }
+	decision_group_type = major
+	ai_check_interval = 1000
+	sort_order = -15
+	desc = anglikanstvo_decision_desc
+	is_shown = {
+		game_start_date >= 1470.1.1
+		is_ruler = yes
+		is_independent_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		faith = faith:catholic
+		exists = faith.religious_head
+		OR = {
+			has_primary_title = title:k_england
+			has_primary_title = title:e_britannia
+		}
+		NOR = {
+			government_has_flag = government_is_tribal
+			government_has_flag = government_is_theocracy
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:anglikanstvo_decision
+			}
+		}
+	}
+	is_valid = {
+		prestige_level >= medium_prestige_level
+#	piety_level <= medium_piety_level
+		legitimacy > 1526 #god nachala brakorazvodnogo procetsessa Genriha VIII
+		trigger_if = {
+			OR = {
+			has_trait = excommunicated
+			title:k_papal_state.holder = { has_any_bad_relationship_with_root_trigger = yes }
+		}	
+		}
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_imprisoned = no
+#		is_at_war = no
+	}
+	effect = {
+		add_piety = 3000
+#		capital_county = { set_county_faith = faith:anglicanism }
+		if = {
+			limit = { capital_county.faith = faith }
+			capital_county = { set_county_faith = faith:anglicanism }
+		}
+		house = {
+			add_house_modifier = {
+				modifier = 1490_desyatina_modifier
+				years = 15
+			}
+		}
+		hidden_effect = { set_character_faith_with_conversion = faith:anglicanism }
+		faith:anglicanism = {
+			change_fervor = {
+				value = 15
+#desc = fervor_gain_ascetic
+			}
+		}
+#	gain_heroic_legend_seed_tooltip_effect = yes
+		dynasty = { add_dynasty_prestige = 500 }
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:anglikanstvo_decision
+		}
+	}
+	cost = { gold = 3000 }
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 10
+		modifier = {
+			add = 30
+			has_trait = ambitious
+		}
+		modifier = {
+			add = 50
+			faith = { fervor <= medium_fervor_value }
+		}
+	}
+}
+# 17-08-25 - порвать с римской церковью -в 1510-е
+protestanty_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/protestant.dds" }
+	decision_group_type = major
+	ai_check_interval = 1200
+	sort_order = -15
+	desc = protestanty_decision_desc
+	is_shown = {
+		game_start_date >= 1470.1.1
+		is_ruler = yes
+#is_independent_ruler = yes - вассалы императора тоже могут
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		faith = faith:catholic
+		OR = {
+			has_primary_title = title:d_saxony
+			has_primary_title = title:d_ernestin_saxony
+			has_primary_title = title:d_albertin_saxony
+			has_primary_title = title:d_prussia
+			has_primary_title = title:k_sweden
+			has_primary_title = title:k_denmark
+			has_title = title:c_zurich
+			NOT = { exists =  faith.religious_head }
+#{ has_any_bad_relationship_with_root_trigger = yes } - хах, пытался сделать дружбу с генерируемым Лютером, но это сложно
+		}
+		NOR = {
+			government_has_flag = government_is_tribal
+			government_has_flag = government_is_theocracy
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:stal_protestantom
+			}
+		}
+	}
+	is_valid = {
+		current_date > 1515.1.1
+		prestige_level >= medium_prestige_level
+		legitimacy > 1000
+		game_start_date >= 1470.1.1
+		trigger_if = {
+			OR = {
+			has_trait = excommunicated
+			title:k_papal_state.holder = { has_any_bad_relationship_with_root_trigger = yes }
+		}	
+		}
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+	effect = {
+		add_piety = 3500
+		dynasty = { add_dynasty_prestige = 500 }
+#		capital_county = { set_county_faith = faith:protestant }
+		if = {
+			limit = { capital_county.faith = faith }
+			capital_county = { set_county_faith = faith:protestant }
+		}
+		hidden_effect = { set_character_faith_with_conversion = faith:protestant }
+		faith:protestant = {
+				change_fervor = {
+					value = 5
+				}
+		}
+#gain_heroic_legend_seed_tooltip_effect = yes
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:stal_protestantom
+		}
+	}
+	cost = { gold = 2000 }
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 10
+		modifier = {
+			add = 20
+			has_trait = ambitious
+		}
+		modifier = {
+			add = 30
+			faith = { fervor <= medium_fervor_value }
+		}
+	}
+}
+#18-08-2025 - Португалии на захват территорий c_kanara This is North Kanara - the domain of the Kadambas of Goa - b_hinawr
+portugal_goa_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1200
+	desc = portugal_goa_decision_desc
+	sort_order = -6
+	is_shown = {
+		game_start_date >= 1470.1.1
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		is_independent_ruler = yes
+		title:k_portugal = { holder = { has_title = title:k_portugal } }
+		has_primary_title = title:k_portugal
+		NOT = { completely_controls = title:c_kanara }
+		NOT = { has_truce = title:c_kanara.holder }
+		NOT = { is_at_war_with = title:c_kanara.holder }
+	}
+	is_valid = {
+		legitimacy > 1000
+		current_date > 1498.1.1 #25 ноября 1510 года
+	}
+	is_valid_showing_failures_only = {
+		trigger_if = {
+			limit = { exists = title:c_kanara.holder }
+			title:c_kanara.holder = { has_any_good_relationship_with_root_trigger = no }
+		}
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+#is_at_war = no
+	}
+	effect = {
+		add_gold = 500
+		dynasty = { add_dynasty_prestige = 300 }
+		start_war = {
+			cb = invasion_war #подумал, что не claim_cb
+			target = title:c_kanara.holder
+			claimant = root
+			target_title = title:c_kanara
+		}
+#	cooldown = { months = 60 }  - вылезает ошибка
+	}
+	cost = { prestige = 1510 }
+	ai_will_do = {
+		base = 100
+	}
+}
+#Закрепиться в Ормузе c_hormuz - 1507
+portugal_ormuz_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 1200
+	desc = portugal_ormuz_decision_desc
+	sort_order = -5
+	is_shown = {
+		game_start_date >= 1470.1.1
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		is_independent_ruler = yes
+		title:k_portugal = { holder = { has_title = title:k_portugal } }
+		has_primary_title = title:k_portugal
+		NOT = { completely_controls = title:c_hormuz }
+		NOT = { has_truce = title:c_hormuz.holder }
+		NOT = { is_at_war_with = title:c_hormuz.holder }
+	}
+	is_valid = {
+		legitimacy > 1000
+		current_date > 1496.1.1 #25 ноября 1510 года
+	}
+	is_valid_showing_failures_only = {
+		trigger_if = {
+			limit = { exists = title:c_hormuz.holder }
+			title:c_hormuz.holder = { has_any_good_relationship_with_root_trigger = no }
+		}
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+	effect = {
+		add_gold = 500
+		dynasty = { add_dynasty_prestige = 300 }
+		start_war = {
+			cb = invasion_war #подумал, что не claim_cb
+			target = title:c_hormuz.holder
+			claimant = root
+			target_title = title:c_hormuz
+		}
+	}
+	cost = { prestige = 1507 }
+	ai_will_do = {
+		base = 100
+	}
+}
+#Месть за Отранто - 14 August 1480 - Martyrs of Otranto
+avenge_otranto_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 1200
+	desc = avenge_otranto_decision_desc
+	sort_order = -10
+	is_shown = {
+		game_start_date >= 1490.1.1
+		is_ruler = yes
+		is_playable_character = yes
+		faith = { religion_tag = christianity_religion  }
+		exists = capital_province
+		OR = {
+			has_title = title:c_lecce
+			any_vassal = { has_title = title:c_lecce }
+		}
+		NOT = { completely_controls = title:c_byzantion }
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:avenge_otranto_decision
+			}
+		}
+	}
+	is_valid = {
+		completely_controls = title:c_byzantion
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+	}
+	effect = {
+		gain_holy_legend_seed_tooltip_effect = yes
+		dynasty = { add_dynasty_prestige = 700 }
+		add_piety = 1000
+		house = {
+			add_house_modifier = {
+				modifier = 1490_proslavlpobed_modifier
+				years = 15
+			}
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:avenge_otranto_decision
+		}
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+#form_bukhara_han_decision
+form_bukhara_han_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds" }
+	desc = form_bukhara_han_decision_desc
+	selection_tooltip = form_bukhara_han_decision_tooltip
+	decision_group_type = major
+	ai_check_interval = 4000 #0, если недоступно для ИИ
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes
+		OR = {
+			religion = religion:islam_religion
+			culture = { has_cultural_pillar = heritage_turkic }
+		}
+		NOT = { faith.religion = religion:christianity_religion }
+		OR = {
+			is_independent_ruler = yes
+			top_liege = { has_title = title:k_transoxiana }
+		}
+		NOT = {
+			exists = title:k_bukhara.holder
+		}
+		NOT = {  #Can only do it once
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_bukhara_han
+			}
+		}
+		OR = {
+			highest_held_title_tier < 4 #Dukes or lower, splitting off from Persia.
+			AND = {
+				highest_held_title_tier < 5
+				is_independent_ruler = yes #Или просто необычный способ получить новый королевский титул
+			}
+		}
+	}
+	is_valid = {
+		prestige_level >= medium_prestige_level
+		piety_level >= medium_piety_level
+		completely_controls = title:c_bukhara
+		has_title = title:d_soghd
+		has_title = title:d_ferghana
+		has_title = title:d_chah
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+#is_at_war = no
+	}
+	effect = {
+#	custom_tooltip = form_golkonda_sultanate_decision_effect_tooltip
+#		gain_heroic_legend_seed_tooltip_effect = yes
+#		show_as_tooltip = {
+#			create_golkonda_scripted_effect = yes
+#		}
+		dynasty = { add_dynasty_prestige = 700 }
+		#ne uveren
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:k_bukhara = {
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		house = {
+			add_house_modifier = {
+				modifier = 1490_taxbuildglory_modifier
+				years = 30
+			}
+		}
+#trigger_event = { id = middle_east_decisions.0014 }
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_bukhara_han
+			}
+			#d_khuttal - zahvachen v 1504-1505
+			title:d_soghd = { set_de_jure_liege_title = title:k_bukhara }
+			title:d_ferghana = { set_de_jure_liege_title = title:k_bukhara }
+			title:d_chah = { set_de_jure_liege_title = title:k_bukhara }
+			title:d_khuttal = { set_de_jure_liege_title = title:k_bukhara }
+			title:d_badakhshan = { set_de_jure_liege_title = title:k_kabulistan }
+			title:d_khorezm = { set_de_jure_liege_title = title:k_khiva }
+			title:d_uzboy = { set_de_jure_liege_title = title:k_khiva }
+			title:d_garabogazkol = { set_de_jure_liege_title = title:k_khiva }
+		}
+	}
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+#возродить Боспорское царство k_bosporan_kingdom 480 до н. э. — VI век Пантикапей - Керчь -- уже есть
+#vozrodit_bospor_decision = {
+#	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+#	decision_group_type = major
+#	ai_check_interval = 1000
+#	desc = vozrodit_bospor_decision_desc
+## убрал чуть ниже это решение
+#Начать поход на Неаполь - Поход Карла VIII в Италию -settembre 1494 - febbraio 1495
+nach_pohodneapol_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 90
+	sort_order = -10
+	desc = nach_pohodneapol_decision_desc
+	is_shown = {
+		game_start_date >= 1490.1.1 #Карл только на 1490
+		dynasty = dynasty:101 #Валуа
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		is_independent_ruler = yes
+		OR = {
+			has_primary_title = title:k_france
+			has_primary_title = title:e_france
+		}
+		exists = title:k_naples.holder
+		NOT = { completely_controls = title:k_naples }
+		NOT = { completely_controls = title:d_napoli }
+		NOT = { has_truce = title:k_naples.holder }
+		NOT = { is_at_war_with = title:k_naples.holder }
+		title:k_naples = {
+			holder = {
+				has_title = title:k_naples
+			}
+		}
+	}
+	is_valid = {
+#required_year_greater_or_equal_trigger = { YEAR = 1493 } - не работает
+		prestige >= 200
+#		OR = {
+#			has_title = title:c_lyon
+#			any_vassal = { has_title = title:c_lyon }
+#		}
+		OR = {
+			trigger_if = {
+			title:d_lombardia.holder = { has_any_good_relationship_with_root_trigger = yes }
+		}
+			trigger_if = {
+			title:d_toscana.holder = { has_any_good_relationship_with_root_trigger = yes }
+		}
+		}
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+#is_at_war = no
+	}
+	effect = {
+		start_war = {
+			cb = claim_cb
+			target = title:k_naples.holder
+			claimant = root
+			target_title = title:k_naples
+		}
+#		title:k_papal_state.holder = {
+#			if = { limit = { NOT = { has_title = title:d_latium } } get_title = title:d_latium }
+#		}
+# spawn_army теперь в error.log
+#		spawn_army = {
+#			name = " "
+#			uses_supply = no
+#			levies = 4000
+#			men_at_arms = {
+#				type = gendarme
+#				stacks = 8
+#			}
+#			men_at_arms = {
+#				type = pikemen_unit
+#				stacks = 10
+#			}
+#			men_at_arms = {
+#				type = bombard
+#				stacks = 2
+#			}
+#			location = 2065 #ne - capital_province
+#			inheritable = no
+#		}
+	}
+	cost = { gold = 1493 }
+	ai_will_do = {
+		base = 100
+	}
+}
+# 1490_cruzado15_modifier 1490_cruzado10_modifier
+# Порча золотого крузадо (португальской монеты)
+porcha_cruzado_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	ai_check_interval = 600
+	desc = porcha_cruzado_decision_desc
+	sort_order = -10
+	is_shown = {
+		game_start_date >= 1470.1.1
+		is_ruler = yes
+		is_playable_character = yes
+		is_landed = yes #безземельные не могут
+		is_independent_ruler = yes
+#		title:k_portugal = { holder = { has_title = title:k_portugal } }
+		has_primary_title = title:k_portugal
+	}
+	is_valid = {
+		gold < 2000
+#		current_date < 1600.1.1
+	}
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+	effect = {
+		add_gold = 11
+		random_list = {
+		50 = {add_character_modifier = { modifier = 1490_cruzado15_modifier years = 6 } }
+		50 = {add_character_modifier = { modifier = 1490_cruzado10_modifier years = 6 } }
+	    }
+	}
+	cooldown = { years = 11 }
+	cost = { prestige = 700 }
+	ai_will_do = {
+		base = 100
+	}
+}

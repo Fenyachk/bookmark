@@ -1,0 +1,415 @@
+# 13-05-2025   1.16.1 "Chamfron"
+#k_denmark
+##d_sjaelland ###################################
+###c_sjaelland
+63 = {		#ROSKILDE
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	867.1.1 = {
+		buildings = {
+			longhouses_01
+		}
+	}
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+	}
+	980.1.1 = {
+		holding = castle_holding
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			#barracks_01
+			regimental_grounds_01
+		}
+	}
+	## ex  buildings
+	# Rosskille - stolitsa do 1443
+}
+433 = {		#HELSINGORA
+	holding = none
+	## Helsingor, prim s 1288
+	1288.8.8 = { holding = church_holding }
+}
+85 = {		#HAFN
+	holding = none
+	1010.1.1 = {
+		holding = city_holding
+	}
+	## u razrabov v 1167 ne zamok
+	#Hafm stanen Kopegagenom. Zamok s 1167, v 1237 gorod vyros
+	1237.1.1 = {
+		holding = castle_holding
+	}
+	# ex buildings
+	1479.1.1 = {
+		special_building_slot = kopengagen_universitet
+		special_building = kopengagen_universitet
+	}
+}
+64 = {		#NAEVSTED
+	holding = none
+	1060.1.1 = {
+		holding = church_holding
+	}
+}
+69 = {		#SLAGELSE
+	holding = none
+	980.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_fyn
+65 = {		#ODENSE
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+	}
+	988.1.1 ={
+		holding = castle_holding
+	}
+	##
+}
+66 = {		#SVENDBORG
+	holding = none
+	1060.1.1 = {
+		holding = city_holding
+	}
+}
+228 = {		#MIDDELFART
+	holding = none
+	##
+	1425.1.1 = { holding = church_holding }
+}
+
+###c_lolland_falster
+67 = {		#NYKOBING
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+	}
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+68 = {		#NAKSKOV
+	holding = none
+	##
+	1242.4.2 = { holding = city_holding }
+}
+
+##d_skane ###################################
+###c_skane
+70 = {		#LUND
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	special_building_slot = lund_cathedral_01
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+	}
+	1020.1.1 = {
+		holding = castle_holding
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			cereal_fields_01
+			#pastures_01
+		}
+	}
+	1145.1.1 = {
+		special_building = lund_cathedral_01
+	}
+	## ex buildings
+	#s 1658 Lund, Skone-Skania i Hallans s Blekinge - Swetsia
+	#universitet 1666
+}
+71 = {		#TRELLEBORG
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+72 = {		#TOMMERUP
+	holding = none
+	##
+	1266.6.6 = { holding = church_holding }
+}
+86 = {		#GOINGE
+	holding = none
+}
+73 = {		#HELSINGBORG
+	holding = none
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_halland
+74 = {		#HALMSTAD
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+	}
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+75 = {		#ONSALA
+	holding = church_holding
+}
+76 = {		#LAHOLM
+	holding = none
+	## posle 1300-h
+	1350.1.3 = { holding = city_holding }
+}
+
+###c_bornholm
+77 = {		#RONNE
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+	}
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_blekinge
+78 = {		#BREGNE
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+	}
+	1066.1.1 = {
+		holding = castle_holding
+	}
+	##
+	#s 1658 Lund, Skone-Skania i Hallans s Blekinge - Swetsia
+}
+79 = {		#RONNEBY
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+87 = {		#LISTER
+	holding = none
+}
+80 = {		#AVASKAR
+	holding = none
+	## Avskær 1350
+	1350.3.3 = { holding = church_holding }
+}
+
+##d_jylland ###################################
+###c_aarhus
+57 = {		#AARHUS
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+		holding = castle_holding
+	}
+	#vazhny port
+	1454.1.1 = { buildings = { common_tradeport_03 } }
+}
+58 = {		#JELLING
+	holding = none
+	965.1.1 = {
+		holding = city_holding
+	}
+}
+226 = {		#DJURSLAND
+	holding = none
+	## -poluostrov
+}
+
+###c_viborg
+56 = {		#VIBORG
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+		holding = castle_holding
+	}
+	1470.1.1 = { buildings = { stables_04 } }
+}
+222 = {		#ORMSTRUP
+	holding = none
+	##
+	1371.7.7 = { holding = city_holding }
+}
+
+###c_ringkobing
+82 = {		#RINGKOBING
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+		holding = castle_holding
+	}
+}
+221 = {		#HOLSTEBRO
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+223 = {		#YCOST
+	holding = none
+}
+225 = {		#TARM
+	holding = none
+	## 1840
+}
+
+###c_aalborg
+81 = {		#AALBORG
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+	}
+	1030.1.1 = {
+		holding = castle_holding
+	}
+	## Asatru na datu 1178
+	1333.3.3 = { religion = catholic }
+}
+55 = {		#LINDHOLM
+	holding = none
+}
+224 = {		#RANDROS
+	holding = none
+	## gorod s 1302, Ranners
+	1302.3.2 = { holding = city_holding }
+}
+
+##d_slesvig ###################################
+###c_slesvig
+62 = {		#HEDEBY
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	special_building_slot = danevirke_01
+	700.1.1 = {
+		special_building = danevirke_01
+	}
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+		holding = castle_holding
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			ramparts_01
+			#military_camps_01	
+		}
+	}
+	## ex 
+	1470.1.1 = {
+		buildings = {
+			common_tradeport_04
+		}
+	}
+}
+61 = {		#AABENRAA
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+84 = {		#HUSUMBRO
+	holding = church_holding
+	700.1.1 = {
+		special_building = danevirke_01
+	}
+}
+
+###c_vorbasse
+59 = {		#VORBASSE
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+		holding = castle_holding
+	}
+}
+227 = {		#TAULOV
+	holding = none
+	1000.1.1 = {
+		holding = city_holding
+	}
+}
+434 = {		#KOLDING
+	holding = none
+	##
+	1231.3.1 = { holding = church_holding }
+}
+
+###c_ribe
+60 = {		#RIBE
+	culture = norse
+	religion = norse_pagan
+	holding = tribal_holding
+	965.1.1 = {
+		culture = danish
+		religion = catholic
+		holding = castle_holding
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			curtain_walls_01
+			#military_camps_01
+		}
+	}
+	##
+	1454.1.1 = { culture = frisian }
+	1470.1.1 = {
+		buildings = {
+			common_tradeport_04
+		}
+	}
+}
+83 = {		#VARDE
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+220 = {		#STRAND
+	holding = none
+	## -ostrov razmyt
+}

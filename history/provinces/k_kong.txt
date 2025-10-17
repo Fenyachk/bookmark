@@ -1,0 +1,8 @@
+###svereno 21_01_24
+# 8147 - WORODUGU
+8147 = {
+	# Misc
+	culture = bobo
+	religion = west_african_pagan
+	# History
+}

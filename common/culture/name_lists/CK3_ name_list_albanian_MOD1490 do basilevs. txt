@@ -1,0 +1,69 @@
+﻿#do obnovy Bazilevs i dobavlenia razrabami albanskoy namE_List_Albanian
+name_list_albanian_MOD1490  = {
+	cadet_dynasty_names = {
+		"dynn_Drosinos"
+		"dynn_Drosos"
+		"dynn_Droulenos"
+		"dynn_Elegmites"
+		"dynn_Galaton"
+		"dynn_Gelotes"
+		"dynn_Gidos"
+		"dynn_Glykys"
+		"dynn_Goudeles"
+		"dynn_Gourzoubathenos"
+		"dynn_Granatos"
+		"dynn_Gribas"
+		"dynn_Grispos"
+		"dynn_Gymnos"
+		"dynn_Kopsenos"
+		"dynn_Kostomyres"
+		"dynn_Kotertzes"
+		"dynn_Kouloukes"
+		"dynn_Kouneres"
+		"dynn_Kritharas"
+		"dynn_Kritopolos"
+		"dynn_Kyminianos"
+		"dynn_Kynochorites"
+		"dynn_Kyriotes"
+		"dynn_Kyritzes"
+		"dynn_Labouzenos"
+		"dynn_Laktentitzes"
+		"dynn_Lalakon"
+		"dynn_Lampsiotes"
+		"dynn_Lapardas"
+		"dynn_Lependrenos"
+		"dynn_Leukedonites"
+		"dynn_Libadares"
+		"dynn_Libadas"
+		"dynn_Libellisios"
+		"dynn_Limas"
+	}
+	dynasty_names = {
+		"dynn_Kantakouzenos"
+		"dynn_Palaiologos"
+		"dynn_Komnenos"
+		"dynn_Macrodoukas"
+		"dynn_Aineidas"
+		"dynn_Kantakouzenos"
+		"dynn_Kastriotis"
+		"dynn_Doukas_Kamateros"
+		"dynn_Skleros"
+	}
+	male_names = {
+		Matthaios Maurikios Maximos Megistos Meletios Methodios Michael Narses Neophytos Nikephoros Niketas Nikodemos Nikolaos Niphon Orestes Pamphilios Pankratios
+		Pavlos Philaretos Philippos Philotheos Phokas Photios Polykarpos Porphyrios Prokopios Pyrros Raphail Romanos Sabas Samuel Serapion Sebastianos Sergios Stephanos
+		Staurakios Symeon Symmachos Theocharistos Theodoros Theodosios Theodotos Theodoulos Theoktistos Theophanes Theophilos Theophylaktos Thomas Tiberios Traianos
+		Ilir Bujar Bamir Sali Ylli Ramiz Pandeli Fatos Gjon Etrit Gjergj Gijon Lorik Erjon Ardian Ylber Nedim Kristjan Taulant Bekim
+		Pal Sokol Aristarchos Timotheos Valerios Pelagios Petros Eirenaios Markos Gabriel Hektorios Arsenios Gennadios Georgios Eugenios Anatolios Konstantinos
+		Moisi Muzaka Nikete
+	}
+	female_names = {
+		Adriane Agathe Agne Aikaterine Alexandra Alexeia Anastasia Anna Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
+		Chrysogone Damiane Demetra Dionysia Dorothea Aigidia Eirene Elaiodora Epiphania Eudokia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne
+		Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene Hypatia Ioanna Ioulia Iouliana Ioustina Kale Konstantia Konstantine Kyra
+		Leontia Margarita Maria Markia Martha Melissa Nikarete Nikoletta Nonna Parthena Pavlina Pelagia Petronia Philippa Phyllis Pulcheria Rhodanthe Romane Romylia
+		Simonis Sophia Stephania Thekla Theochariste Theodora Theodosia Theognosia Theoktiste Theophano Thomais Valeria Viviana Xene Zenobia Zoe
+		Donika Vojsava
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}

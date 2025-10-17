@@ -1,0 +1,37 @@
+﻿on_game_start_after_lobby = {
+	on_actions = { 1490_holy_orders }
+}
+#Пьер д’Обюссон (1476—1503) Великий магистр госпитальеров
+1490_holy_orders = {
+	effect = {
+		if = {
+            limit = {
+                game_start_date >= 1470.1.1
+                game_start_date <= 1490.1.1
+            }
+			character:Pierre_dAubusson = {
+					if = {
+						limit = {
+							is_alive = yes
+						}
+						trigger_event = {
+							id = 1490_holy_orders.666
+							days = -1
+						}
+					}
+			}
+            #Алонсо де Карденас - последний магистр Ордена Сантьяго 1477 — 1493 Alonso de Cárdenas
+            character:Alonso_de_CArdenas = {
+					if = {
+						limit = {
+							is_alive = yes
+						}
+						trigger_event = {
+							id = 1490_holy_orders.777
+							days = 1
+						}
+					}
+				}
+			}
+		}
+}

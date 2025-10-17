@@ -1,0 +1,15 @@
+﻿l_english:
+ start_year_1066_09_15_desc:0 "The return of Halley's Comet heralds a tumultuous 1066 AD as major conflicts flare up all over the world. While the Seljuk push ever further into Byzantine lands and the Sindhalese people rise up against their oppressors in Sri Lanka, an all-out war has broken out in England as three claimants all seek the crown for themselves. Tensions run high in the fractured Iberian peninsula as tribal rulers eye the shifting balance of power on the continent, with equal measures fear and greed."
+ start_year_867_01_01_desc:0 "The year 867 AD sees northern raiders terrorizing coastlines and riverbanks, as Europe remains divided under the Karlings. On the Indian subcontinent the tripartite struggle between the Pratihara, Pala, and Rashtrakuta dynasties has been smoldering for decades, but the conflict is still only in its infancy."
+ #bm_group_867:0 "867"
+ #bm_group_1066:0 "1066"
+ 
+ bm_group_1490:0 "XV" #ex 1490
+ Henry_desc:0 "Henry Tudor was born on January 28, 1457 at Pembroke Castle. There were many royals among his ancestors. On August 22, 1485, he became King of England and founded a new dynasty on the throne."
+ Karl_desc:0 "Charles the Bold of the Burgundy branch of the Valois dynasty was born on November 10, 1433 in Dijon. He opposed France and dreamed of elevating his duchy to a kingdom."
+ James_desc:0 "James Stewart is the 2nd son of King James III of Scotland and Margaret of Denmark. Even as a child, he was involved in government activities and received titles. James, the ruler of Ross, as well as John, the Earl of Mar, remained in the shadow of James IV, their elder brother. James lived a short life, and did not leave a noticeable trace in history. Maybe you'll change that."
+ Frederik_desc:0 "Frederick Oldenburg, the son of Christian I and Dorothea of Brandenburg, helped his brother in the difficult task of governing the Kalmar Union, from which Sweden withdrew... Frederick's descendants ruled many countries. Will you repeat the story?"
+ FranC_ois_desc:0 "In 1465, the Duke of Brittany tried to resist the King of France, but in 1468 he recognized his fief. Relations with Louis XI remained strained. In 1470, Francois II had no heirs. Perhaps you will make a profitable alliance..."
+ Lorenzo_desc:0 "During the reign of Lorenzo, the republican institutions in Florence deteriorated, and the possession turned into a duchy. However, Lorenzo is known by the nickname "The Magnificent". Will you repeat his fate?"
+ Isabel_desc:0 "Isabella I of Castile is about to capture Granada and complete the Reconquista. However, the house of Trastámara will soon be suppressed. Or will the story go in a different direction?"
+ #

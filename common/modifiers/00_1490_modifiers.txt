@@ -1,0 +1,36 @@
+﻿1490_taxbuildglory_modifier = {
+	icon = county_modifier_development_positive
+	build_gold_cost = -0.05
+	tax_mult = 0.1
+	glory_hound_opinion = 5
+}
+#10% theocracy
+1490_desyatina_modifier = {
+	icon = county_modifier_development_positive
+	tax_mult = 0.1
+	theocracy_government_vassal_opinion = -10
+}
+#Набеги
+1490_kochnabegi_modifier = {
+	icon = prowess_negative
+	army_maintenance_mult = -0.2
+	knight_limit = 2
+}
+#Прославление побед в храмах
+1490_proslavlpobed_modifier = {
+	icon = piety_positive
+	clergy_opinion = 5
+	church_holding_build_speed = -0.1
+  	church_holding_build_gold_cost = -0.05
+  	church_holding_holding_build_gold_cost = -0.1
+}
+1490_cruzado15_modifier = {
+	icon = stewardship_positive
+	tax_mult = 0.15
+#	build_speed = -1.5
+}
+1490_cruzado10_modifier = {
+	icon = stewardship_positive
+	tax_mult = 0.1
+#	build_speed = -1
+}

@@ -1,0 +1,142 @@
+﻿l_russian:
+ form_golkonda_sultanate_decision: "Создать султанат Голконда"
+ form_golkonda_sultanate_decision_confirm: "Настало время новых свершений"
+ form_golkonda_sultanate_decision_desc: "Благодатная Индия окажется в #L [ROOT.Char.GetFaith.GetName|l]их#! руках. Я создам собственный султанат, и да благословит меня [ROOT.Char.GetFaith.HighGodName]."
+ form_golkonda_sultanate_decision_tooltip: "Создать независимый Голкондский султанат."
+ form_golkonda_sultanate_decision_effect_tooltip: "Создать независимый султанат Голконда"
+ flag_formed_golkonda_sultanate: "султанат Голконда"
+ #
+ unite_the_netherlands_decision: "Создать де-юре титул Габсбургские Нидерланды"
+ unite_the_netherlands_decision_tooltip: "Создать Нидерланды под властью СвРИ."
+ unite_the_netherlands_decision_confirm: "Да здравствуют Габсбурги!"
+ unite_the_netherlands_decision_desc: "Брабант, Фландрия, Голландия Гелдерн, Фризия и Утрехт становятся частью нового объединения."
+ HN_creation_effect: "Брабант, Фландрия, Голландия, Гелдерн, Фризия и Утрехт становятся частью нового королевства"
+ #
+ zahvat_granady_decision: "Отпраздновать падение Гранады"
+ zahvat_granady_decision_tooltip: "Правитель Кастилии или Арагона может покончить с правлением Мавров в Иберии"
+ zahvat_granady_decision_confirm: "Мы наконец-то победили!"
+ zahvat_granady_decision_desc: "Захваченная Гранада становится частью христианского королевства. Многовековая Иберийская борьба наконец будет закончена"
+ #zahvat_granady_effect
+ #sozdat_gretsiu_decision: "Возродить Грецию"
+ #sozdat_gretsiu_decision_tooltip: "Греческие земли объединяться под новой властью"
+ #sozdat_gretsiu_decision_confirm: "Эллада навеки!"
+ #sozdat_gretsiu_decision_desc: "Появляется новое де-юре королевство"
+ #sozdat_gretsiu_creation_effect: "Появляется новое де-юре королевство"
+ sozdat_gretsiu_decision: "Возродить Византию"
+ sozdat_gretsiu_decision_tooltip: "Бывшие византийске земли объединятся в примерных границах империи при ранних Палеологах"
+ sozdat_gretsiu_decision_confirm: "Да здравствует Ромейская империя!"
+ sozdat_gretsiu_decision_desc: "Возрождается де-юре империя"
+ sozdat_gretsiu_creation_effect: "Империя возрождается в примерных границах при Палеологах"
+ #Возродить Болгарию
+ vozrodit_bolgariu_decision: "Возродить Болгарию"
+ vozrodit_bolgariu_decision_tooltip: "Болгарские земли объединятся"
+ vozrodit_bolgariu_decision_confirm: "Новая Болгария!"
+ vozrodit_bolgariu_decision_desc: "Возрождается де-юре королевство Болгария"
+ vozrodit_bolgariu_creation_effect: "Возрождается де-юре королевство Болгария"
+ #Создать герцогство Мантуя
+ sozdat_herz_mantua_decision: "Создать герцогство Мантуя"
+ sozdat_herz_mantua_decision_tooltip: "Появляется де-юре герцогство Мантуя "
+ sozdat_herz_mantua_decision_confirm: "Маркизат стал герцогством!"
+ sozdat_herz_mantua_decision_desc: "При благоволении императора Священной Римской империи и папы я смогу стать герцогом"
+ sozdat_herz_mantua_creation_effect: "Появляется де-юре герцогство"
+ #Сефевидская империя
+ create_safavid_empire_decision: "Создать Сефевидскую империю" #Create the Safavid Empire
+ create_safavid_empire_decision_tooltip: "Да здравствует шиитская империя на землях Ирана (Персии)!" #Long live the Shiite Empire in the lands of Iran (Persia)!
+ create_safavid_empire_decision_confirm: "На всё воля всевышнего!" #By the will of the almighty!
+ create_safavid_empire_decision_desc: "Появляется де-юре империя династии Сефевидов" #The de jure empire of the Safavid dynasty appears
+ #
+ create_alzhir_decision: "Создать турецкий Алжир" #Create a Turkish Algeria
+ create_alzhir_decision_tooltip: "Создать подконтрольное королевство на прибрежных землях Магриба" #Create a controlled kingdom on the coastal lands of the Maghreb!
+ create_alzhir_decision_confirm: "Алжир — наш!" #Algeria is ours!
+ create_alzhir_decision_desc: "Появляется де-юре королевство Алжир" #The de-jure Kingdom of Algeria appears
+ #
+ create_tunis_i_trip_decision: "Создать Тунис и Триполитанию" #Create a Turkish Algeria
+ create_tunis_i_trip_decision_tooltip: "Создать подконтрольные королевства на прибрежных землях Магриба" #Create a controlled kingdoms on the coastal lands of the Maghreb
+ create_tunis_i_trip_decision_confirm: "Наша власть в Африке будет долгой!" #Our power in Africa will be long
+ create_tunis_i_trip_decision_desc: "Появляются де-юре королевства Тунис и Триполитания" #The de-jure kingdoms Tunisia and Tripolitania appears
+ #
+ herz_oldenburg_decision: "Хлопотать о появлении герцогства Ольденбург" #To worry about the appearance of the Duchy of Oldenburg
+ herz_oldenburg_decision_tooltip: "Вложиться в повышение ранга графства до герцогства" #Invest in raising the rank of a county to a duchy
+ herz_oldenburg_decision_confirm: "Встречайте новое имперское герцогство!" #Meet the new Imperial Duchy
+ herz_oldenburg_decision_desc: "Будучи вассалом императора, я стану могущественным герцогом" #As a vassal of the emperor, I will become a powerful duke
+ #
+ posetit_tserkvi_decision: "Посетить местные церкви" #Visit the churches
+ posetit_tserkvi_decision_tooltip: "Посетить церкви" #Visit the churches
+ posetit_tserkvi_decision_confirm: "Я иду публично молиться" #I'm going to pray publicly
+ posetit_tserkvi_decision_desc: "" #
+ #
+ knyazhestvo_transilvania_decision: "Основать Трансильванию"
+ knyazhestvo_transilvania_decision_tooltip: "Основать Трансильванию"
+ knyazhestvo_transilvania_decision_confirm: "Трансильвания больше не подчиняется Венгрии"
+ knyazhestvo_transilvania_decision_desc: "Основать Трансильванию" #
+ #nach_zahvgranady_decision
+ nach_zahvgranady_decision: "Начать захват Гранады"
+ nach_zahvgranady_decision_tooltip: "Правитель Кастилии или Арагона попробует покончить с правлением мавров на Пиренеях"
+ nach_zahvgranady_decision_confirm: "Последний рывок!"
+ nach_zahvgranady_decision_desc: "Пора наконец-то закончить Реконкисту"
+ #30-09-24
+ sozdat_uels_decision: "Основать королество Уэльса" #Establish the Kingdom of Wales
+ sozdat_uels_decision_tooltip: "Валлийский правитель создаёт особое королевство" #The Welsh ruler creates a special kingdom
+ sozdat_uels_decision_confirm: "Да здравствует красный дракон!" #Long live the red dragon
+ sozdat_uels_decision_desc: "Давно пора создать королевство" #It's high time to create a kingdom
+ #
+ dan_vosstan_ko_un_decision: "Военным путём восстановить единство Кальмарской унии" #To restore the unity of the Kalmar Union by military means
+ dan_vosstan_ko_un_decision_tooltip: "Правитель Дании вторгается в Швецию на правах главы унии" #The ruler of Denmark invades Sweden as the head of the union
+ dan_vosstan_ko_un_decision_confirm: "Выступаем на рассвете!" #We attack at dawn
+ #Since the 1460s, Sweden has been pursuing a sovereign policy. But the ruler of Sweden is just a regent. It's time to remind the regent and their nobility who is in charge of the union of Denmark, Norway and Sweden.
+ dan_vosstan_ko_un_decision_desc: "С 1460-х годов Швеция проводит суверенную политику. Но в моих глазах правитель Швеции — всего лишь регент. Пора напомнить регенту и их знати, кто главный в унии Дании, Норвегии и Швеции."
+ #
+ unite_saxony_decision: "Объединить наследные Саксонские земли" #To unite the hereditary Saxon lands.
+ unite_saxony_decision_tooltip: "Восстановить де-юре герцогство Саксония" #To restore the de jure Duchy of Saxony
+ unite_saxony_decision_confirm: "Саксония будет единой!" #Saxony will be united!
+ unite_saxony_decision_desc: "Лейпцигский договор 1485 года разделил саксонские владения на 2 герцогства. Но это поправимо..." #The Treaty of Leipzig in 1485 divided the Saxon possessions into 2 duchies. But it's fixable...
+ #
+ smolensk_1_decision: "Отпраздновать возвращение Смоленска" #Celebrate the return of Smolensk
+ smolensk_1_decision_tooltip: "Вернуть вотчину предков в свои руки." #To return the ancestral fiefdom into their own hands.
+ smolensk_1_decision_confirm: "Смоленск возвращён!" #Smolensk has been returned!
+ smolensk_1_decision_desc: "Вернуть вотчину предков в свои руки" #To return the ancestral fiefdom into their own hands.
+ #
+ nach_pohodneapol_decision: "Начать поход на Неаполь"
+ nach_pohodneapol_decision_tooltip: "Начинается война за Неаполитанское королевство"
+ nach_pohodneapol_decision_confirm: "Собрать войска!"
+ nach_pohodneapol_decision_desc: "Неаполитанское королевство ждёт своего освободителя от тирании Арагонской династии. Пора воспользоваться моими претензиями на титул"
+ #
+ vozrodit_lotaringiu_decision: "Создать де-юре титул Лотарингия"
+ vozrodit_lotaringiu_decision_tooltip: "Возродить древнюю Лотарингию"
+ vozrodit_lotaringiu_decision_confirm: "Королевские замашки!"
+ vozrodit_lotaringiu_decision_desc: "Древняя Лотарингия возродится, в Европе может появиться новый король"
+ #
+ anglikanstvo_decision: "Отделить церковь Англии"
+ anglikanstvo_decision_tooltip: "Отложиться от католичества"
+ anglikanstvo_decision_confirm: "Рим пожалеет о своей глупости!"
+ anglikanstvo_decision_desc: "Вы примете новую конфессию, англиканство"
+ #
+ protestanty_decision: "Разорвать отношения с Папством"
+ protestanty_decision_tooltip: "Вы примете новую конфессию, лютеранство"
+ protestanty_decision_confirm: "Отложиться от католичества!"
+ protestanty_decision_desc: " Папство и католические священники слишком сильно отдалились от раннехристиански представлений о церкви"
+ #
+ portugal_goa_decision: "Закрепиться на Гоа" #Gain a foothold in Goa
+ portugal_goa_decision_tooltip: "Португалия должна контролировать торговлю в Индийском океане" #Portugal must control trade in the Indian Ocean
+ portugal_goa_decision_confirm: "Начать конфликт!" #Start a conflict
+ portugal_goa_decision_desc: "Наши отважные моряки смогли достичь далёких берегов с диковинными товарами. Однако стране нужен плацдарм" #Our brave sailors were able to reach distant shores with outlandish goods. However, the country needs a foothold
+ #
+ portugal_ormuz_decision: "Попытаться захватить Ормуз" #Try to capture Hormuz
+ portugal_ormuz_decision_tooltip: "Португалия должна контролировать Ормузский пролив Аравийского моря." #Portugal must control the Strait of Hormuz in the Arabian Sea
+ portugal_ormuz_decision_confirm: "Овладейте Ормузским проливом!" #Seize the Strait of Hormuz
+ portugal_ormuz_decision_desc: "Индийские товары попадают в Европу через  Персидский залив. Нам необходимо овладеть Ормузом в Персии." #Indian goods enter Europe through the Persian Gulf. We need to capture Hormuz in Persia.
+ #
+ avenge_otranto_decision: "Отомстить за мучеников Отранто"
+ avenge_otranto_decision_tooltip: "Вы получите благочестие и престиж династии"
+ avenge_otranto_decision_confirm: "Мученики Отранто отомщены!"
+ avenge_otranto_decision_desc: "14 августа 1480 года османы напали на Отранто в Апулии и казнили 800 жителей. Мы должны отомстить"
+ #
+ form_bukhara_han_decision: "Создать Бухарское ханство"
+ form_bukhara_han_decision_tooltip: "Вы получите новый титул"
+ form_bukhara_han_decision_confirm: "Новое государство родилось!"
+ form_bukhara_han_decision_desc: "Де-юре королевство Мавераннахр перестанет существовать"
+ #
+ porcha_cruzado_decision: "Испортить золотую монету"
+ porcha_cruzado_decision_tooltip: "Вы уменьшите содержание золота в монете"
+ porcha_cruzado_decision_confirm: "Произвести порчу"
+ porcha_cruzado_decision_desc: "Португальская золотая монета крузадо станет чуть менее золотой, что"

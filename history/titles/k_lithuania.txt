@@ -1,0 +1,3181 @@
+# 13-05-2025   1.16.1 "Chamfron"
+k_lithuania = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+	1466.1.1 = { change_development_level = 40 }
+	1477.1.1 = { change_development_level = 42 }
+	1488.1.1 = { change_development_level = 44 }
+	
+	1253.6.30 = {
+		holder = 125301
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	##
+	1341.5.2 = {
+		holder = 473507
+	}
+	1345.1.1 = {
+		holder = 473506 #Olgerd
+	}
+	1350.1.2 = {
+		de_jure_liege = e_west_slavia
+	}
+	1382.1.1 = {
+		holder = Jagailo
+		government = feudal_government
+	}
+	1392.1.1 = {
+		holder = VitovtGed
+		succession_laws = { feudal_elective_succession_law }
+	}
+	1430.10.27 = {
+		holder = Svitrigaila_Olgerdovich
+	}
+	1432.1.1 = {
+		holder = Zygimont_Keystutovich_Ged
+	}
+	1440.3.20 = {
+		holder = Kazimir4Yag
+		government = feudal_government
+	}
+	1469.12.31 = {
+		de_jure_liege = e_wendish_empire
+	}
+	1470.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = feudal_government }
+			}
+		}
+	}
+	#
+	1492.6.7 = {
+		holder = AleksanderYagellon
+	}
+	1506.8.19 = {
+		holder = ZygmuntYagellon
+	}
+}
+
+d_lithuanians = {
+	750.1.1 = {
+		holder = 194113
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194114
+	}
+	822.1.1 = {
+		holder = 194115
+	}
+	850.1.1 = {
+		holder = 82140 #Palemon
+	}
+	890.1.1 = {
+		holder = 82144 #Kunos son of Palemon
+	}
+	935.1.1 = {
+		holder = 82152 #Kernius son of Kunos
+	}
+	962.1.1 = {
+		holder = 82165 #Kiras son of Daumantis
+	}
+	967.1.1 = {
+		holder = 82176 #Kukovaitis son of Kiras
+	}
+	1021.1.1 = {
+		holder = 82178 #Utenis son of Kukovaitis
+	}
+	1054.1.1 = {
+		holder = 82182 #Šventaragis son of Utenis
+	}
+	1093.1.1 = {
+		holder = 82200 #Skirmantas son of Šventaragis
+	}
+	1124.1.1 = {
+		holder = 82203 #Koliginas
+	}
+	1167.1.1 = {
+		holder = 82198 #Algimantas son of Liubartas
+	}
+	1210.1.1 = {
+		holder = 125300 #Rimgaudas son of Algimantas
+	}
+	1213.1.1 = {
+		holder = 125305 #Dausprungas son of Rimgaudas
+	}
+	1236.1.2 = {
+		holder = 125301 #Mindaugas
+	}
+	1253.6.30 = {
+		liege = "k_lithuania"
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.1 = {
+		holder = 125311
+	}
+	1285.1.1 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.1 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	
+	##
+	1341.5.2 = { holder = 0 }
+}
+
+
+c_kernave = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 8 }
+	1466.1.1 = { change_development_level = 36 }
+	1477.1.1 = { change_development_level = 38 }
+	1488.1.1 = { change_development_level = 42 }
+	
+	750.1.1 = {
+		holder = 194113
+		liege = d_lithuanians
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194114
+	}
+	822.1.1 = {
+		holder = 194115
+	}
+	850.1.1 = {
+		liege = "d_lithuanians"
+	}
+	850.1.1 = {
+		holder = 82140 #Palemon
+	}
+	890.1.1 = {
+		holder = 82144 #Kunos son of Palemon
+	}
+	935.1.1 = {
+		holder = 82152 #Kernius son of Kunos
+	}
+	962.1.1 = {
+		holder = 82165 #Kiras son of Daumantis
+	}
+	967.1.1 = {
+		holder = 82176 #Kukovaitis son of Kiras
+	}
+	1021.1.1 = {
+		holder = 82178 #Utenis son of Kukovaitis
+	}
+	1054.1.1 = {
+		holder = 82182 #Šventaragis son of Utenis
+	}
+	1093.1.1 = {
+		holder = 82200 #Skirmantas son of Šventaragis
+	}
+	1124.1.1 = {
+		holder = 82203 #Koliginas
+	}
+	1167.1.1 = {
+		holder = 82198 #Algimantas son of Liubartas
+	}
+	1210.1.1 = {
+		holder = 125300 #Rimgaudas son of Algimantas
+	}
+	1213.1.2 = {
+		holder = 125305
+	}
+	1236.1.2 = {
+		holder = 125301
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	##
+	1440.3.3 = {
+		holder = JanGasztold
+	}
+	1465.3.3 = {
+		holder = VojtechMoniwid
+		government = feudal_government
+		liege = k_lithuania
+	}
+	1470.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+	#
+	1475.2.16 = {
+		holder = Kazimir4Yag
+		government = feudal_government
+	}
+}
+
+
+c_trakai = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 8 }
+	1466.1.1 = { change_development_level = 41 }
+	1488.1.1 = { change_development_level = 44 }
+	
+	750.1.1 = {
+		holder = 194113
+		liege = d_lithuanians
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194114
+	}
+	822.1.1 = {
+		holder = 194115
+	}
+	850.1.1 = {
+		liege = "d_samogitia"
+	}
+	850.1.1 = {
+		holder = 82141
+	}
+	890.1.1 = {
+		holder = 82149
+	}
+	910.1.1 = {
+		holder = 82150
+	}
+	930.1.1 = {
+		holder = 82146 #Borkus son of Palemon
+	}
+	938.1.1 = {
+		holder = 82153 #Gimbutas son of Kunos
+	}
+	962.1.1 = {
+		holder = 82166 #Montvilas son of Gimbutas
+	}
+	989.1.1 = {
+		holder = 82170 #Vykintas son of Montvilas
+	}
+	1023.1.1 = {
+		holder = 82175 #Zivinbudas son of Vykintas
+	}
+	1064.1.1 = {
+		holder = 82180 #Kukovaitis son of Zivinbudas
+	}
+	1088.1.1 = {
+		holder = 82182 #Šventaragis son of Utenis
+	}
+	1093.1.1 = {
+		holder = 82200 #Skirmantas son of Šventaragis
+	}
+	1124.1.1 = {
+		holder = 82204 #Trabus son of Skirmantas
+	}
+	1169.1.1 = {
+		holder = 82198 #Algimantas son of Liubartas
+	}
+	1238.1.1 = {
+		holder = 125301 #Mindaugas son of Rimgaudas
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	##
+	1440.3.3 = {
+		holder = JanGasztold
+		government = feudal_government
+		liege = k_lithuania
+	}
+	1465.1.16 = {
+		holder = MarcinGasztold
+	}
+	1488.11.10 = {
+		holder = NikRadzvillSt
+		liege = k_lithuania
+	}
+	# posle
+	1519.12.31 = {
+		holder = Albert_Gashtold #voevoda trokskiy 1519—1522
+	}
+}
+
+
+c_yatvyagi = {
+	1466.1.1 = { change_development_level = 29 }
+	750.1.1 = {
+		holder = 194113
+		liege = d_lithuanians
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194114
+	}
+	820.1.1 = {
+		holder = 82275
+	}
+	850.1.1 = {
+		liege = 0
+	}
+	865.1.1 = {
+		holder = 82276
+	}
+	927.1.1 = {
+		holder = 82278
+	}
+	1000.1.1 = {
+		holder = 82279
+	}
+	1015.1.1 = {
+		holder = 82280
+	}
+	1065.1.1 = {
+		holder = 82283
+	}
+	1123.1.1 = {
+		holder = 82286
+	}
+	1144.1.1 = {
+		holder = 82287
+	}
+	1189.1.1 = {
+		holder = 82288
+	}
+	1235.1.1 = {
+		holder = 82289
+	}
+	1256.1.1 = {
+		holder = 82290
+	}
+	1296.1.1 = {
+		liege = "k_lithuania"
+	}
+	1296.1.1 = {
+		holder = 473500
+	}
+	1316.1.2 = {
+		holder = 473508
+	}
+	
+	##
+	#dogovor 1422 zakrepil za VKL
+	1422.2.2 = {
+		government = feudal_government
+	}
+	1440.3.3 = {
+		holder = JanGasztold
+		liege = k_lithuania
+	}
+	1465.12.16 = {
+		holder = MarcinGasztold
+	}
+	1488.11.10 = {
+		holder = NikRadzvillSt
+	}
+}
+
+
+c_braslau = {
+	750.1.1 = {
+		holder = 194113
+		liege = d_lithuanians
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194114
+	}
+	822.1.1 = {
+		holder = 194115
+	}
+	850.1.1 = {
+		liege = "d_lithuanians"
+	}
+	850.1.1 = {
+		holder = 82140 #Palemon
+	}
+	890.1.1 = {
+		holder = 82144 #Kunos son of Palemon
+	}
+	935.1.1 = {
+		holder = 82152 #Kernius son of Kunos
+	}
+	962.1.1 = {
+		holder = 82165 #Kiras son of Daumantis
+	}
+	967.1.1 = {
+		holder = 82176 #Kukovaitis son of Kiras
+	}
+	1021.1.1 = {
+		holder = 82178 #Utenis son of Kukovaitis
+	}
+	1054.1.1 = {
+		holder = 82182 #Šventaragis son of Utenis
+	}
+	1093.1.1 = {
+		holder = 82200 #Skirmantas son of Šventaragis
+	}
+	1124.1.1 = {
+		holder = 82203 #Koliginas
+	}
+	1167.1.1 = {
+		holder = 82198 #Algimantas son of Liubartas
+	}
+	1210.1.1 = {
+		holder = 125300 #Rimgaudas son of Algimantas
+	}
+	1213.1.2 = {
+		holder = 125305
+	}
+	1236.1.2 = {
+		holder = 125301
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	##
+	1344.1.1 = {
+		holder = 473507 #Yavnut Gediminovich
+		liege = k_lithuania
+		government = feudal_government
+	}
+	1366.1.2 = {
+		holder = Semyon_Evnutievich
+	}
+	1466.1.2 = {
+		holder = Petr_Montygierdowicz_Belyi
+		liege = k_lithuania
+	}
+}
+
+
+d_prussia = {
+	# Pruthenians
+	
+	750.1.1 = {
+		holder = 194074
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194075
+	}
+	822.1.1 = {
+		holder = 167739
+	}
+	
+	867.1.1 = {
+		holder = 167740
+	}
+	1066.1.1 = {
+		holder = 28015
+	}
+	1120.1.1 = {
+		holder = 144671
+	}
+	1170.1.1 = {
+		holder = 228016
+	}
+	1225.1.1 = {
+		holder = 0
+	}
+	##
+	1400.1.1 = { effect = { set_capital_county = title:c_konigsberg } }
+	1400.12.12 = {
+		de_jure_liege = k_prussia
+		government = feudal_government
+	}
+	1511.1.1 = {
+		holder = Albrecht_BrAnsbah_HerPrus
+		government = republic_government #Orden
+		liege = k_poland #formalno
+	}
+	1525.4.8 = {
+		government = feudal_government
+	}
+}
+
+
+c_malbork = {
+	750.1.1 = {
+		holder = 194074
+		liege = d_prussia
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194075
+	}
+	822.1.1 = {
+		holder = 167739
+	}
+	867.1.1 = {
+		holder = 167741
+	}
+	1066.1.1 = {
+		holder = 28015
+	}
+	1120.1.1 = {
+		holder = 144671
+	}
+	1170.1.1 = {
+		holder = 228015 # Milzas
+	}
+	1225.1.1 = {
+		liege = "d_teutonic_order"
+	}
+	1225.1.1 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+	
+	##
+	1410.4.8 = {
+		holder = Heinrich_von_Plauen27Tevton
+		government = feudal_government
+	}
+	1422.3.10 = {
+		holder = Paul_von_Rusdorf_29mT
+	}
+	1449.11.7 = {
+		holder = Ludwig_von_Erlichshausen
+	}
+	1452.1.1 = {
+		holder = Oldrih_Chervonka
+		liege = "d_teutonic_order" #naemnik
+	}
+	1457.6.12 = {
+		holder = Kazimir4Yag #prodazha zamka korolu Polshi
+		government = feudal_government
+#		liege = "d_lesser_poland"
+	}
+	1476.7.6 = {
+		holder = MikoLaj_KoSHcielecki_u1479 #starosta malborgskiy
+		government = feudal_government
+		liege = "k_poland"
+	}
+	1479.7.9 = {
+		holder = Zbigniew_Tenchinski #Zbigniew_Tenchinski starosta malborski
+		government = feudal_government
+		liege = k_poland
+	}
+	#bookmark 1480.7
+	1480.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+}
+
+c_natangia = {
+	750.1.1 = {
+		holder = 194074
+		liege = d_prussia
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194075
+	}
+	822.1.1 = {
+		holder = 167739
+	}
+	
+	867.1.1 = {
+		holder = 167740
+	}
+	
+	1066.1.1 = {
+		holder = 28016
+	}
+	1089.1.1 = {
+		holder = 28015
+	}
+	1120.1.1 = {
+		holder = 144671
+	}
+	1170.1.1 = {
+		holder = 228016
+	}
+	
+	#Golden Bull of Rimini
+	1225.1.1 = {
+	liege = "d_teutonic_order"
+	}
+	
+	1225.1.1 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	1450.1.1 = {
+		holder = Ludwig_von_Erlichshausen
+		government = feudal_government
+	}
+	1469.1.8 = {
+		holder = TevHeinrichPlauen
+	}
+	#
+	1469.12.31 = {
+		holder = TevHeRichtenberg
+		government = feudal_government
+		liege = d_teutonic_order #kak vassal
+	}
+	#
+	1476.12.31 = {
+		holder = Johann_von_TiefenTEV #kak komtur zamka Brandenburg - nyne Ushakovo
+		liege = "d_teutonic_order"
+	}
+	1489.1.1 = {
+		holder = Johann_von_TiefenTEV
+	}
+}
+
+c_konigsberg = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 8 }
+	1466.1.1 = { change_development_level = 38 }
+	1477.1.1 = { change_development_level = 42 }
+	1488.1.1 = { change_development_level = 45 }
+	
+	750.1.1 = {
+		holder = 194074
+		liege = d_prussia
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194075
+	}
+	822.1.1 = {
+		holder = 167739
+	}
+	
+	867.1.1 = {
+		holder = 167740
+	}
+	
+	1066.1.1 = {
+		holder = 28016
+	}
+	1089.1.1 = {
+		holder = 28015
+	}
+	1120.1.1 = {
+		holder = 144671
+	}
+	1170.1.1 = {
+		holder = 228016
+	}
+	
+	#Golden Bull of Rimini
+	1225.1.1 = {
+		liege = "d_teutonic_order"
+	}
+	
+	1225.1.1 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	#kak stolitsa Teutonskogo ordena v 1454—1525
+	1410.4.8 = { holder = Heinrich_von_Plauen27Tevton }
+	1414.1.7 = {
+		holder = M_KuhmasterSternberg_28mT
+	}
+	1422.3.10 = {
+		holder = Paul_von_Rusdorf_29mT
+	}
+	1441.1.9 = {
+		holder = Konrad_von_Erlichshausen
+	}
+	1449.11.7 = {
+		holder = Ludwig_von_Erlichshausen
+	}
+	1469.1.8 = {
+		holder = TevHeinrichPlauen
+	}
+	1470.1.2 = {
+		holder = TevHeRichtenberg
+	}
+	1477.2.20 = {
+		holder = TevMartinWetzhausen
+	}
+	1489.1.1 = {
+		holder = Johann_von_TiefenTEV
+	}
+	1511.1.1 = {
+		holder = Albrecht_BrAnsbah_HerPrus
+	}
+}
+
+
+c_allenstein = {
+	750.1.1 = {
+		holder = 194076
+		liege = d_prussia
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194077
+	}
+	822.1.1 = {
+		holder = 194078
+	}
+	867.1.1 = {
+		holder = 167744
+	}
+	
+	
+	1066.1.1 = {
+		holder = 28019
+	}
+	1120.1.1 = {
+		holder = 144672
+	}	
+	1170.1.1 = {
+		holder = 228019
+	}
+	
+	#Golden Bull of Rimini
+	
+	1225.1.1 = {
+		liege = "d_teutonic_order"
+	}
+	1225.1.1 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+	
+	##
+	1400.1.14 = {
+		effect = { set_title_name = b_allenstein }
+	}
+	1400.4.14 = {
+		liege = d_prusski_souz
+		holder = JohannBaysenPrusso
+		de_jure_liege = d_prusski_souz
+	}
+	1458.1.1 = {
+		holder = Paul_legendorf_ep #ep Varmii 1458-1467
+		government = theocracy_government
+		liege = "d_teutonic_order"
+	}
+	1466.10.19 = {
+		liege = k_poland
+	}
+	#episkopy Varmii
+	#1466-1772
+	1467.7.23 = {
+		holder = NikolausvonTungen
+		liege = k_poland
+	}
+	1468.5.18 = {
+		holder = LucasWatzenrode
+	}
+	1490.1.1 = {
+		de_jure_liege = d_prussia
+	}
+}
+
+
+c_wormditt = {
+	750.1.1 = {
+		holder = 194076
+		liege = d_prussia
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194077
+	}
+	822.1.1 = {
+		holder = 194078
+	}
+	867.1.1 = {
+		holder = 167744
+	}
+	
+	
+	1066.1.1 = {
+		holder = 28019
+	}
+	1120.1.1 = {
+		holder = 144672
+	}	
+	1170.1.1 = {
+		holder = 228019
+	}
+	
+	#Golden Bull of Rimini
+	
+	1225.1.1 = {
+		liege = "d_teutonic_order"
+	}
+	1225.1.1 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+	
+	##
+	#de-jure v sostave Polshi s 6 marta 1454, v 1464 - Legendorf - 1466 – II torunski mir - Polsha
+	1450.1.1 = {
+		holder = Ludwig_von_Erlichshausen
+		government = feudal_government
+		liege = "d_teutonic_order"
+	}
+	1464.10.1 = {
+		holder = Paul_legendorf_ep #ep Varmii 1458-1467
+		government = theocracy_government
+	}
+	#2-y Torunski mir
+	1466.10.19 = {
+		liege = "k_poland"
+	}
+	1467.7.23 = {
+		holder = NikolausvonTungen
+		government = theocracy_government
+		liege = k_poland
+	}
+	1468.5.18 = {
+		holder = LucasWatzenrode
+		government = theocracy_government
+	}
+	#ranee - tevtony
+}
+
+
+c_bartenstein = {
+	750.1.1 = {
+		holder = 194076
+		liege = d_prussia
+	}
+	799.1.1 = {
+		holder = 194077
+	}
+	822.1.1 = {
+		holder = 194078
+	}
+	867.1.1 = {
+		holder = 167744
+	}
+	
+	1066.1.1 = {
+		holder = 28022
+	}
+	1120.1.1 = {
+		holder = 144672
+	}	
+	1170.1.1 = {
+		holder = 228019
+	}
+	
+	#Golden Bull of Rimini
+	
+	1225.1.1 = {
+		liege = "d_teutonic_order"
+	}
+	1225.1.1 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	#Lidzbark Warminski = Heilsberg, s 1350 - kafedra episkopa Varmii
+	1424.1.1 = {
+		holder = Franz_Kuhschmalz_ep #ep Varmii 1424-1457
+		government = theocracy_government
+		liege = "d_teutonic_order"
+	}
+	1457.6.10 = {
+		holder = PapaPiy2 #bud papa kaak ep Varmii 1457-58
+	}
+	1458.1.1 = {
+		holder = Paul_legendorf_ep #ep Varmii 1458-1467
+		government = theocracy_government
+		liege = "d_teutonic_order"
+	}
+	#2-y Torunski mir
+	1466.10.19 = {
+		liege = "k_poland"
+	}
+	1467.7.23 = {
+		holder = NikolausvonTungen
+		government = theocracy_government
+		liege = k_poland
+	}
+	1468.5.18 = {
+		holder = LucasWatzenrode
+		government = theocracy_government
+	}
+}
+
+d_masuria = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 20 }
+	##
+	1466.1.1 = { change_development_level = 26 }
+	1488.1.1 = { change_development_level = 36 }
+	
+	1454.1.1 = {
+		name = PRUS_SOUZ
+		government = feudal_government
+	}
+	
+}
+
+c_torun = {
+	867.1.1 = {
+		holder = 302064
+		government = tribal_government
+	}
+	#888.12.26 = {
+	#	holder = 0
+	#}
+	
+	1066.1.1 = {
+		holder = 28015
+		liege = d_prussia
+	}
+	1120.1.1 = {
+		holder = 144671
+	}
+	1170.1.1 = {
+		holder = 228015 # Milzas
+	}
+	#Golden Bull of Rimini
+	1225.1.1 = {
+		liege = "d_teutonic_order"
+	}
+	
+	1225.1.1 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+	
+	##
+	1432.1.1 = {
+		holder = Konrad_von_Erlichshausen 
+		liege = d_teutonic_order #komtur Torna
+	}
+	1440.3.14 = {
+		liege = d_prusski_souz
+		holder = JohannBaysenPrusso
+		government = republic_government
+		de_jure_liege = d_prusski_souz
+	}
+	1454.1.8 = {
+		holder = TevHeinrichPlauen #30-l-voina
+		government = feudal_government
+	}
+	1457.1.1 = {
+		holder = Wincenty_kieLbasa #ep Helmski 1457–1479
+		government = theocracy_government
+		liege = d_teutonic_order
+	}
+	#2-y Torunski mir -Kazimir4Yag
+	1466.6.6 = {
+		liege = k_poland
+	}
+	1479.5.11 = {
+		holder = Stefan_z_Niborka #ep Helmski 1479-1495
+		government = theocracy_government
+	}
+	1490.1.1 = {
+		de_jure_liege = d_prussia
+	}
+}
+
+
+c_osterode = {
+	750.1.1 = {
+		holder = 194076
+		liege = d_prussia
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194077
+	}
+	822.1.1 = {
+		holder = 194078
+	}
+	867.1.1 = {
+		holder = 167744
+	}
+	
+	1066.1.1 = {
+		holder = 28019
+	}
+	1120.1.1 = {
+		holder = 144672
+	}	
+	1170.1.1 = {
+		holder = 228019
+	}
+	
+	#Golden Bull of Rimini
+	
+	1225.1.1 = {
+		liege = "d_teutonic_order"
+	}
+	1225.1.1 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+	
+	##
+	#Osterode- Eulau - Ilava
+	1400.4.14 = {
+		liege = d_prusski_souz
+		holder = JohannBaysenPrusso
+		de_jure_liege = d_prusski_souz
+	}
+	1466.4.14 = {
+		name = ILAWA
+	}
+	#U Ordena po 2 torunskomu miru 19 okt 1466 goda
+	1466.10.19 = {
+		holder = Ludwig_von_Erlichshausen
+		liege = "d_teutonic_order"
+	}
+	1470.1.1 = {
+		holder = TevHeRichtenberg
+		liege = d_teutonic_order
+	}
+	1477.2.20 = {
+		holder = TevMartinWetzhausen
+	}
+	1489.1.1 = {
+		holder = Johann_von_TiefenTEV
+		liege = "d_teutonic_order"
+	}
+	1490.1.1 = {
+		de_jure_liege = d_prussia
+	}
+}
+
+
+c_angerburg = {
+	750.1.1 = {
+		holder = 194076
+		liege = d_prussia
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194077
+	}
+	822.1.1 = {
+		holder = 194078
+	}
+	867.1.1 = {
+		holder = 167744
+	}
+	
+	
+	
+	1066.1.1 = {
+		holder = 28022
+	}
+	1120.1.1 = {
+		holder = 144672
+	}	
+	1170.1.1 = {
+		holder = 228019
+	}
+	
+	#Golden Bull of Rimini
+	
+	1225.1.1 = {
+		liege = "d_teutonic_order"
+	}
+	1225.1.1 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+	
+	##
+	1400.4.14 = {
+		name = WENGOBORK
+		de_jure_liege = "d_prussia"
+	}
+	1450.1.1 = {
+		holder = Ludwig_von_Erlichshausen
+		government = feudal_government
+		liege = "d_teutonic_order"
+	}
+	1470.1.1 = {
+		holder = TevHeRichtenberg
+		liege = d_teutonic_order
+	}
+	1477.2.20 = {
+		holder = TevMartinWetzhausen
+	}
+	1489.1.1 = {
+		holder = Johann_von_TiefenTEV
+		liege = "d_teutonic_order"
+	}
+	1490.1.1 = {
+		de_jure_liege = d_prussia
+	}
+}
+
+
+d_courland = {
+	750.1.1 = {
+		holder = 194105
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194106
+	}
+	822.1.1 = {
+		holder = 194107
+	}
+	867.1.1 = {
+		holder = 167730
+	}
+	
+	1066.1.1 = {
+		holder = 28075
+	}
+	1089.1.1 = {
+		holder = 143132
+	}
+	1139.1.1 = {
+		holder = 143133
+	}
+	1187.1.1 = {
+		holder = 228075
+	}
+	1202.1.1 = {
+		holder = 0
+	}
+	##
+	1435.12.4 = {
+		de_jure_liege = k_livonia
+	}
+}
+
+
+c_zemigalians = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 8 }
+	1466.1.1 = { change_development_level = 31 }
+	1488.1.1 = { change_development_level = 33 }
+	
+	750.1.1 = {
+		holder = 194105
+		liege = d_courland
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194106
+	}
+	822.1.1 = {
+		holder = 194107
+	}
+	867.1.1 = {
+		holder = 167731
+	}
+	1066.1.1 = {
+		holder = 20603
+	}
+	1120.1.1 = {
+		holder = 144629
+	}
+	1170.1.1 = {
+		holder = 220603
+	}
+	
+	#Archbishop of Riga
+	1199.1.1 = {
+		liege = "e_hre"
+	}
+	
+	1199.1.1 = {
+		holder = 30421 #Albrecht von Buxthoeven
+	}
+	
+	1202.1.1 = {
+		liege = "d_livonia"
+	}
+	
+	
+	
+	1229.1.17 = {
+		holder = 30422 #Nikolaus von Nauen
+	}
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+	}
+	1254.1.1 = {
+		holder = 30423 #Albrecht Suerbeer
+	}
+	1273.3.1 = {
+		holder = 30424 #Johann von Lunen
+	}
+	1284.1.1 = {
+		holder = 30425 #Johann von Vechta
+	}
+	1294.2.4 = {
+		holder = 30426 #Johann von Schwerin
+	}
+	1300.12.19 = {
+		holder = 30427 #Isarno de Fenties
+	}
+	1302.1.1 = {
+		holder = 30313 #Jens Grand
+	}
+	1304.1.1 = {
+		holder = 30428 #Friedrich von Pernstein
+	}
+	
+	##
+    1465.4.5 = {
+		holder = Johann_von_Heerse
+        liege = k_esthonia
+	}
+	1471.12.12 = {
+		holder = Bernhard_von_Borch
+	}
+	1483.2.12 = {
+		holder = JohannLoringhoven
+	}
+}
+
+
+c_vanemane = {
+	750.1.1 = {
+		holder = 194105
+		liege = d_courland
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194106
+	}
+	822.1.1 = {
+		holder = 194107
+	}
+	867.1.1 = {
+		holder = 167730
+	}
+	
+	1066.1.1 = {
+		holder = 28075
+	}
+	1089.1.1 = {
+		holder = 143132
+	}
+	1139.1.1 = {
+		holder = 143133
+	}
+	1187.1.1 = {
+		holder = 228075
+	}
+	##Livonian Swordbrothers
+	1202.1.1 = {
+		liege = "d_livonia"
+	}
+	
+	1202.1.1 = {
+		holder = 30443 #Vinno von Rohrbach
+	}
+	
+	1209.1.1 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	
+	##Swordbrothers absorbed by the Teutonic Order
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+	}
+	1236.9.22 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+	##
+	#Kurkyandskoe Episkopstvo 1234 — 1559 - centr Pilten
+	1341.10.4 = {
+		effect = { set_title_name = d_courland } #ranee KURLUANDSKOE
+		de_jure_liege = k_livonia
+	}
+	#
+	1425.2.25 = {
+		holder = Johann_Tiergart_kurEP
+		government = theocracy_government
+		liege = d_rizhskoe_epis #Arhieparhia tolko v Rige
+	}
+	1457.5.7 = {
+		holder = Paul_II_Einwald_kurEP
+		government = theocracy_government
+		liege = d_rizhskoe_epis #Arhieparhia tolko v Rige
+	}
+	1473.7.3 = {
+		holder = Martin_Lewitz_kurEP
+		government = theocracy_government
+		liege = d_rizhskoe_epis #Arhieparhia tolko v Rige
+	}
+}
+
+
+c_grobin = {
+	750.1.1 = {
+		holder = 194105
+		liege = d_courland
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194106
+	}
+	822.1.1 = {
+		holder = 194107
+	}
+	867.1.1 = {
+		holder = 167730
+	}
+	
+	1066.1.1 = {
+		holder = 28075
+	}
+	1089.1.1 = {
+		holder = 143132
+	}
+	1139.1.1 = {
+		holder = 143133
+	}
+	1177.1.1 = {
+		holder = 228075
+	}
+	##Livonian Swordbrothers
+	1202.1.1 = {
+		liege = "d_livonia"
+	}
+	
+	1202.1.1 = {
+		holder = 30443 #Vinno von Rohrbach
+	}
+	
+	1209.1.1 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	
+	##Swordbrothers absorbed by the Teutonic Order
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+	}
+	1236.9.22 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+	##
+	1447.1.2 = {
+		holder = Johann_von_Mengden
+	}
+    1465.4.5 = {
+		holder = Johann_von_Heerse
+	}
+	1471.12.12 = {
+		holder = Bernhard_von_Borch
+		#succession_laws = { holy_order_succession_law }
+	}
+	1483.2.12 = {
+		holder = JohannLoringhoven
+		government = feudal_government
+	}
+}
+
+
+c_selpils = {
+	750.1.1 = {
+		holder = 194105
+		liege = d_courland
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194106
+	}
+	822.1.1 = {
+		holder = 194107
+	}
+	867.1.1 = {
+		holder = 167731
+	}
+	1066.1.1 = {
+		holder = 20603
+	}
+	1120.1.1 = {
+		holder = 144629
+	}
+	1170.1.1 = {
+		holder = 220603
+	}
+	
+	#Archbishop of Riga
+	1199.1.1 = {
+		liege = "e_hre"
+	}
+	
+	1199.1.1 = {
+		holder = 30421 #Albrecht von Buxthoeven
+	}
+	
+	1202.1.1 = {
+		liege = "d_livonia"
+	}
+	
+	
+	
+	1229.1.17 = {
+		holder = 30422 #Nikolaus von Nauen
+	}
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+	}
+	1254.1.1 = {
+		holder = 30423 #Albrecht Suerbeer
+	}
+	1273.3.1 = {
+		holder = 30424 #Johann von Lunen
+	}
+	1284.1.1 = {
+		holder = 30425 #Johann von Vechta
+	}
+	1294.2.4 = {
+		holder = 30426 #Johann von Schwerin
+	}
+	1300.12.19 = {
+		holder = 30427 #Isarno de Fenties
+	}
+	1302.1.1 = {
+		holder = 30313 #Jens Grand
+	}
+	1304.1.1 = {
+		holder = 30428 #Friedrich von Pernstein
+	}
+	
+	##
+	1469.1.1 = {
+		holder = Johann_von_Heerse
+	}
+	1471.12.12 = {
+		holder = Bernhard_von_Borch
+		#succession_laws = { holy_order_succession_law }
+	}
+	#
+	1483.2.12 = {
+		holder = JohannLoringhoven
+	}
+}
+
+
+c_talava = {
+	765.1.1 = {
+		holder = 170349
+		liege = "d_livonia"
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167737
+	}
+	1066.1.1 = {
+		holder = 28023
+	}
+	1089.1.1 = {
+		holder = 143150
+	}
+	1139.1.1 = {
+		holder = 143151
+	}
+	1178.1.1 = {
+		holder = 228023
+	}
+	
+	##Livonian Swordbrothers
+	1217.9.21 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	##Swordbrothers absorbed by the Teutonic Order
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	#Wenden — centr Livonskogo otdelenia ordena
+	#V 1435 - Livonskaya Konfederatsia - episkopstva + orden 1435.12.4
+	1435.9.1 = {
+		holder = Heinrich_von_B0ckenf0rde #kak landmeyster 1435-1437/8
+	}
+	#
+	1435.12.4 = {
+		de_jure_liege = d_livonian_confederation
+	}
+	#
+	1437.12.30 = {
+		holder = Heinrich_vinckevonOverberg #kak landmeyster *1438 — 1450
+	}
+	1450.6.29 = {
+		holder = Johann_von_Mengden #kak landmeyster 1450 — 1469
+	}
+	1469.8.15 = {
+		holder = Johann_von_Heerse #kak landmeyster 1470 — 1471
+	}
+	1471.12.12 = {
+		holder = Bernhard_von_Borch #kak landmeyster 1471 — 1483
+	}
+	1483.2.12 = {
+		holder = JohannLoringhoven #kak 42 landmeyster 1483 — 1494
+	}
+}
+
+
+c_kokenois = {
+	765.1.1 = {
+		holder = 170349
+		liege = "d_livonia"
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167737
+	}
+	1066.1.1 = {
+		holder = 28023
+	}
+	1089.1.1 = {
+		holder = 143150
+	}
+	1139.1.1 = {
+		holder = 143151
+	}
+	1178.1.1 = {
+		holder = estonian_vassal_1 # Dabrel
+	}
+	1187.1.1 = {
+		holder = 228023
+	}
+	
+	##Livonian Swordbrothers
+	1217.9.21 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	##Swordbrothers absorbed by the Teutonic Order
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	#episkopy Rigi
+	1400.1.1 = {
+		de_jure_liege = d_rizhskoe_epis
+	}
+	1418.11.8 = {
+		holder = Johannes_AmbundiEP
+		government = theocracy_government
+	}
+	1424.2.4 = {
+		holder = Henning_ScharpenbergEP
+		government = theocracy_government
+	}
+	1448.4.18 = {
+		holder = SilvesterStodewescher
+		government = theocracy_government
+	}
+	1479.6.6 = {
+		holder = Stephan_Grube #1480-83
+		government = theocracy_government
+	}
+	1483.12.20 = {
+		holder = Michael_Hildebrand_EP_riga
+		government = theocracy_government
+	}
+}
+
+
+c_jersika = {
+	768.1.1 = {
+		holder = 170351
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167732
+	}
+	1066.1.1 = {
+		holder = 28020
+	}
+	1120.1.1 = {
+		holder = 144628
+	}
+	1170.1.1 = {
+		holder = 228020
+	}
+	
+	###Livonian Swordbrothers
+	
+	1202.1.1 = {
+		holder = 30443 #Vinno von Rohrbach
+	}
+	1209.1.1 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	###Swordbrothers absorbed by the Teutonic Order
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	#
+	1435.12.4 = {
+		de_jure_liege = d_latgale #novaya Latgalia
+	}
+	#
+	1447.1.2 = {
+		holder = Johann_von_Mengden #LIVONIA
+	}
+	#
+	1451.11.11 = {
+		holder = JohannLoringhoven #kak livonski komtur pust
+		liege = d_livonian_confederation
+	}
+	1465.4.4 = {
+		holder = Johann_von_Heerse
+		government = feudal_government #inache plemua
+	}
+	1471.12.12 = {
+		holder = Bernhard_von_Borch
+		government = feudal_government #inache plemua
+	}
+	#
+	1482.1.1 = {
+		holder = Wolter_Plettenberg #kak fogt Rezekne 1482—1488
+		government = feudal_government #inache plemua
+	}
+}
+
+
+c_aluksne = {
+	765.1.1 = {
+		holder = 170349
+		liege = "d_livonia"
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167737
+	}
+	1066.1.1 = {
+		holder = 28023
+	}
+	1089.1.1 = {
+		holder = 143150
+	}
+	1139.1.1 = {
+		holder = 143151
+	}
+	1187.1.1 = {
+		holder = 228023
+	}
+	
+	##Livonian Swordbrothers
+	1217.9.21 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	##Swordbrothers absorbed by the Teutonic Order
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	#
+	1435.12.4 = {
+		de_jure_liege = d_latgale #novaya Latgalia
+	}
+	#
+	1447.1.2 = {
+		holder = Johann_von_Mengden
+	}
+	1466.12.31 = {
+		holder = Johann_von_Heerse #kak komtur Mariensburga Aluksne 1466-?
+		government = feudal_government
+		liege = d_livonian_confederation
+	}
+	1469.4.15 = {
+		holder = Bernhard_von_Borch #kak komtur Mariensburga Aluksne
+		liege = d_livonian_confederation
+	}
+	1483.3.12 = {
+		holder = JohannLoringhoven
+	}
+}
+
+
+d_samogitia = {
+	827.1.1 = {
+		holder = 6893
+	government = tribal_government
+	}
+	850.1.1 = {
+		holder = 82141
+	}
+	890.1.1 = {
+		holder = 82149
+	}
+	910.1.1 = {
+		holder = 82150
+	}
+	930.1.1 = {
+		holder = 82146 #Borkus son of Palemon
+	}
+	938.1.1 = {
+		holder = 82153 #Gimbutas son of Kunos
+	}
+	962.1.1 = {
+		holder = 82166 #Montvilas son of Gimbutas
+	}
+	989.1.1 = {
+		holder = 82170 #Vykintas son of Montvilas
+	}
+	1023.1.1 = {
+		holder = 82175 #Zivinbudas son of Vykintas
+	}
+	1064.1.1 = {
+		holder = 82180 #Kukovaitis son of Zivinbudas
+	}
+	1088.1.1 = {
+		holder = 82182 #Šventaragis son of Utenis
+	}
+	1093.1.1 = {
+		holder = 82200 #Skirmantas son of Šventaragis
+	}
+	1124.1.1 = {
+		holder = 82204 #Trabus son of Skirmantas
+	}
+	1169.1.1 = {
+		holder = 82198 #Algimantas son of Liubartas
+	}
+	1238.1.1 = {
+		holder = 125301 #Mindaugas son of Rimgaudas
+	}
+	1253.6.30 = {
+		liege = "k_lithuania"
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	1316.1.2 = {
+		holder = 473508
+	}
+	
+	##
+	1408.1.2 = {
+		holder = 0
+	}
+	#
+	1409.9.9 = {
+		holder = Rumbaudas_Volimontovich
+		government = feudal_government
+		liege = k_lithuania
+	}
+	1432.3.2 = {
+		holder = MihailKezgailo
+	}
+	1450.2.16 = {
+		holder = JanKezgailo
+		government = feudal_government
+	}
+	1470.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+	1486.1.2 = {
+		holder = StasKezgailo
+		government = feudal_government
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+}
+
+c_raseiniai = {
+	750.1.1 = {
+		holder = 194110
+		liege = d_courland
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194111
+	}
+	822.1.1 = {
+		holder = 194112
+	}
+	850.1.1 = {
+		holder = 82141
+		liege = d_samogitia
+	}
+	890.1.1 = {
+		holder = 82149
+	}
+	910.1.1 = {
+		holder = 82150
+	}
+	930.1.1 = {
+		holder = 82146 #Borkus son of Palemon
+	}
+	938.1.1 = {
+		holder = 82153 #Gimbutas son of Kunos
+	}
+	962.1.1 = {
+		holder = 82166 #Montvilas son of Gimbutas
+	}
+	989.1.1 = {
+		holder = 82170 #Vykintas son of Montvilas
+	}
+	1023.1.1 = {
+		holder = 82175 #Zivinbudas son of Vykintas
+	}
+	1064.1.1 = {
+		holder = 82180 #Kukovaitis son of Zivinbudas
+	}
+	1088.1.1 = {
+		holder = 82182 #Šventaragis son of Utenis
+	}
+	1093.1.1 = {
+		holder = 82200 #Skirmantas son of Šventaragis
+	}
+	1124.1.1 = {
+		holder = 82204 #Trabus son of Skirmantas
+	}
+	1169.1.1 = {
+		holder = 82198 #Algimantas son of Liubartas
+	}
+	1178.1.1 = {
+		holder = 143135 # Antanas
+	}
+	1238.1.1 = {
+		holder = 125301 #Mindaugas son of Rimgaudas
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	1316.1.2 = {
+		holder = 473508
+	}
+	##
+	1409.9.9 = {
+		holder = Rumbaudas_Volimontovich
+		government = feudal_government
+	}
+	1432.3.2 = {
+		holder = MihailKezgailo
+	}
+	1450.2.16 = {
+		holder = JanKezgailo
+	}
+	1486.1.2 = {
+		holder = StasKezgailo
+	}
+}
+
+
+c_scalovia = {
+	750.1.1 = {
+		holder = 194113
+		liege = d_lithuanians
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194114
+	}
+	820.1.1 = {
+		holder = 82275
+	}
+	850.1.1 = {
+		liege = 0
+	}
+	865.1.1 = {
+		holder = 82276
+	}
+	927.1.1 = {
+		holder = 82278
+	}
+	1000.1.1 = {
+		holder = 82279
+	}
+	1015.1.1 = {
+		holder = 82280
+	}
+	1065.1.1 = {
+		holder = 82283
+	}
+	1123.1.1 = {
+		holder = 82286
+	}
+	1144.1.1 = {
+		holder = 82287
+	}
+	1189.1.1 = {
+		holder = 82288
+	}
+	1235.1.1 = {
+		holder = 82289
+	}
+	1256.1.1 = {
+		holder = 82290
+	}
+	1296.1.1 = {
+		liege = "k_lithuania"
+	}
+	1296.1.1 = {
+		holder = 473500
+	}
+	1316.1.2 = {
+		holder = 473508
+	}
+	
+	##
+	1400.1.1 = {
+		effect = { set_title_name = b_ragnit }
+	}
+	1400.1.2 = {
+        de_jure_liege = "d_prussia"
+	}
+	1450.1.2 = {
+		holder = Ludwig_von_Erlichshausen
+        liege = d_teutonic_order
+		government = feudal_government
+	}
+	1469.1.8 = {
+		holder = TevHeinrichPlauen
+	}
+	1477.2.20 = {
+		holder = TevMartinWetzhausen
+	}
+	1489.1.1 = {
+		holder = Johann_von_TiefenTEV
+		liege = "d_teutonic_order"
+	}
+}
+
+
+c_memel = {
+	750.1.1 = {
+		holder = 194110
+		liege = d_courland
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194111
+	}
+	822.1.1 = {
+		holder = 194112
+	}
+	850.1.1 = {
+		holder = 82141
+		liege = d_samogitia
+	}
+	890.1.1 = {
+		holder = 82149
+	}
+	910.1.1 = {
+		holder = 82150
+	}
+	930.1.1 = {
+		holder = 82146 #Borkus son of Palemon
+	}
+	938.1.1 = {
+		holder = 82153 #Gimbutas son of Kunos
+	}
+	962.1.1 = {
+		holder = 82166 #Montvilas son of Gimbutas
+	}
+	989.1.1 = {
+		holder = 82170 #Vykintas son of Montvilas
+	}
+	1023.1.1 = {
+		holder = 82175 #Zivinbudas son of Vykintas
+	}
+	1064.1.1 = {
+		holder = 82180 #Kukovaitis son of Zivinbudas
+	}
+	1088.1.1 = {
+		holder = 82182 #Šventaragis son of Utenis
+	}
+	1093.1.1 = {
+		holder = 82200 #Skirmantas son of Šventaragis
+	}
+	1124.1.1 = {
+		holder = 82204 #Trabus son of Skirmantas
+	}
+	1139.1.1 = {
+		holder = 143133
+	}
+	1166.1.1 = {
+		holder = skalauti_1 # Skalvians
+		liege = 0
+	}
+	1187.1.1 = {
+		liege = "d_samogitia"
+	}
+	1187.1.1 = {
+		holder = 228022
+	}
+	1210.1.1 = {
+		holder = 143149
+	}
+	1253.6.30 = {
+		holder = 125301
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	1316.1.2 = {
+		holder = 473508
+	}
+	1328.1.1 = {
+		liege = "d_teutonic_order"
+	}
+	
+	1328.1.1 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	1400.1.2 = {
+        de_jure_liege = "d_prussia"
+	}
+	1449.12.30 = {
+		holder = Ludwig_von_Erlichshausen
+	}
+	1469.1.8 = {
+		holder = TevHeinrichPlauen
+	}
+	1470.1.1 = {
+		holder = TevHeRichtenberg
+	}
+	1477.2.20 = {
+		holder = TevMartinWetzhausen
+	}
+	1489.1.1 = {
+		holder = Johann_von_TiefenTEV
+		liege = "d_teutonic_order"
+	}
+}
+
+
+c_palanga = {
+	750.1.1 = {
+		holder = 194110
+		liege = d_courland
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194111
+	}
+	822.1.1 = {
+		holder = 194112
+	}
+	850.1.1 = {
+		holder = 82141
+		liege = d_samogitia
+	}
+	890.1.1 = {
+		holder = 82149
+	}
+	910.1.1 = {
+		holder = 82150
+	}
+	930.1.1 = {
+		holder = 82146 #Borkus son of Palemon
+	}
+	938.1.1 = {
+		holder = 82153 #Gimbutas son of Kunos
+	}
+	962.1.1 = {
+		holder = 82166 #Montvilas son of Gimbutas
+	}
+	989.1.1 = {
+		holder = 82170 #Vykintas son of Montvilas
+	}
+	1023.1.1 = {
+		holder = 82175 #Zivinbudas son of Vykintas
+	}
+	1064.1.1 = {
+		holder = 82180 #Kukovaitis son of Zivinbudas
+	}
+	1088.1.1 = {
+		holder = 82182 #Šventaragis son of Utenis
+	}
+	1093.1.1 = {
+		holder = 82200 #Skirmantas son of Šventaragis
+	}
+	1124.1.1 = {
+		holder = 82204 #Trabus son of Skirmantas
+	}
+	1169.1.1 = {
+		holder = 82198 #Algimantas son of Liubartas
+	}
+	1178.1.1 = {
+		holder = 143135 # Antanas
+		liege = d_lithuanians
+	}
+	1238.1.1 = {
+		holder = 125301 #Mindaugas son of Rimgaudas
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	1316.1.2 = {
+		holder = 473508
+	}
+	##
+	1409.9.9 = {
+		holder = Rumbaudas_Volimontovich
+		government = feudal_government
+	}
+	1432.3.2 = {
+		holder = MihailKezgailo
+	}
+	1450.2.16 = {
+		holder = JanKezgailo
+	}
+	1486.1.2 = {
+		holder = StasKezgailo
+	}
+}
+
+
+c_siauliai = {
+	750.1.1 = {
+		holder = 194110
+		liege = d_courland
+		government = tribal_government
+	}
+	799.1.1 = {
+		holder = 194111
+	}
+	822.1.1 = {
+		holder = 194112
+	}
+	850.1.1 = {
+		holder = 82141
+		liege = d_samogitia
+	}
+	890.1.1 = {
+		holder = 82149
+	}
+	910.1.1 = {
+		holder = 82150
+	}
+	930.1.1 = {
+		holder = 82146 #Borkus son of Palemon
+	}
+	938.1.1 = {
+		holder = 82153 #Gimbutas son of Kunos
+	}
+	962.1.1 = {
+		holder = 82166 #Montvilas son of Gimbutas
+	}
+	989.1.1 = {
+		holder = 82170 #Vykintas son of Montvilas
+	}
+	1023.1.1 = {
+		holder = 82175 #Zivinbudas son of Vykintas
+	}
+	1064.1.1 = {
+		holder = 82180 #Kukovaitis son of Zivinbudas
+	}
+	1088.1.1 = {
+		holder = 82182 #Šventaragis son of Utenis
+	}
+	1093.1.1 = {
+		holder = 82200 #Skirmantas son of Šventaragis
+	}
+	1124.1.1 = {
+		holder = 82204 #Trabus son of Skirmantas
+	}
+	1169.1.1 = {
+		holder = 82198 #Algimantas son of Liubartas
+	}
+	1178.1.1 = {
+		holder = 143135 # Antanas
+	}
+	1238.1.1 = {
+		holder = 125301 #Mindaugas son of Rimgaudas
+	}
+	1263.9.12 = {
+		holder = 125302
+	}
+	1264.1.2 = {
+		holder = 125303
+	}
+	1267.4.23 = {
+		holder = 125122
+	}
+	1269.1.2 = {
+		holder = 125310
+	}
+	1282.1.2 = {
+		holder = 125311
+	}
+	1285.1.2 = {
+		holder = 125314
+	}
+	1291.1.2 = {
+		holder = 472352
+	}
+	1295.1.2 = {
+		holder = 125315
+	}
+	1316.1.1 = {
+		holder = 473500
+	}
+	1316.1.2 = {
+		holder = 473508
+	}
+	##
+	1409.9.9 = {
+		holder = Rumbaudas_Volimontovich
+		government = feudal_government
+	}
+	1432.3.2 = {
+		holder = MihailKezgailo
+	}
+	1450.2.16 = {
+		holder = JanKezgailo
+	}
+	1486.1.2 = {
+		holder = StasKezgailo
+	}
+}
+
+##
+#novoe Rezekne - Jersika
+b_rezekne = {
+#	1439.1.1 = {
+#		holder = Heinrich_von_Notleben #kak fogt Rezekne 1439–1441
+#	}
+	1482.1.1 = {
+		holder = Wolter_Plettenberg #kak fogt Rezekne 1482 — 1488
+	}
+}

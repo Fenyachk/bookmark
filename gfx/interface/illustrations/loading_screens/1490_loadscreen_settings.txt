@@ -1,0 +1,7 @@
+﻿1490_damy = {}
+1490_maxi = {}
+1490_zheny = {}
+1490_milan = {}
+1490_muzhi = {}
+1490_tri = {}
+1490_granada = { show_first = yes }

@@ -1,0 +1,383 @@
+#svereno 21_01_24
+k_krete = {
+	1066.1.1 = {
+		holder = 0
+	}
+	1453.5.30 = {
+		de_jure_liege = "e_adriatikaionika"
+	}
+}
+
+
+d_krete = {
+	330.1.1 = {
+		liege = "e_byzantium"
+	}
+	752.1.1 = {
+		holder = 145812
+	}
+	827.1.1 = {
+		liege = 0
+		holder = 159524 # Umar I
+	}
+	855.1.1 = {
+		holder = 159525 # Shu'ayb I
+	}
+	880.1.1 = {
+		holder = 159526 # Umar II
+	}
+	895.1.1 = {
+		holder = 159527 # Muhammad I
+	}
+	910.1.1 = {
+		holder = 159528 # Yusuf I
+	}
+	915.1.1 = {
+		holder = 159530 # Ali I
+	}
+	925.1.1 = {
+		holder = 159529 # Ahmad I
+	}
+	940.1.1 = {
+		holder = 159531 # Shu'ayb II
+	}
+	943.1.1 = {
+		holder = 159532 # Ali II
+	}
+	949.1.1 = {
+		holder = 159533 # Abd-al-Aziz I
+	}
+	964.1.1 = {
+		holder = 1712 # Nikephoros Phokas
+	}
+	1057.1.1 = {
+		holder = 20516
+	}
+	1066.1.1 = {
+		liege = "e_byzantium"
+	}
+	1093.1.1 = {
+		holder = 1781
+	}
+	1137.1.1 = {
+		holder = 93453
+	}
+	1145.1.1 = {
+		holder = 93454
+	}
+	1167.1.1 = {
+		holder = 215028
+	}
+	
+	#4th crusade
+	1204.5.16 = {
+		liege = "k_venice"
+	}
+	1204.5.16 = {
+		holder = 31403 #Enrico de Candia
+	}
+	1211.1.1 = {
+		holder = 32120 #Pietro Ziani
+	}
+	1229.3.13 = {
+		holder = 32124 #Iacopo Tiepolo
+	}
+	1249.7.19 = {
+		holder = 32125 #Marino Morosini
+	}
+	1253.1.1 = {
+		holder = 32126 #Reniero Zeno
+	}
+	1268.7.7 = {
+		holder = 32127 #Lorenzo Tiepolo
+	}
+	1275.8.15 = {
+		holder = 32128 #Iacopo Contarini
+	}
+	1280.3.6 = {
+		holder = 32129 #Giovanni Dandalo
+	}
+	1289.11.2 = {
+		holder = 32130 #Pietro Gradenigo
+	}
+	1311.8.13 = {
+		holder = 32131 #Marino Zorzi
+	}
+	1312.7.3 = {
+		holder = 32132 #Giovannia Soranza
+	}
+	1328.12.31 = {
+		holder = 463600 #Francesco Dandalo
+	}
+	##
+	1463.1.1 = {
+		holder = GiacomoBarozzi
+		name = "CANDIA"
+		liege = k_venice
+	}
+	1472.2.14 = {
+		holder = 0
+	}
+}
+
+
+c_chandax = {
+	330.1.1 = {
+		liege = "d_krete"
+	}
+	752.1.1 = {
+		holder = 145812
+	}
+	827.1.1 = {
+		holder = 159524 # Umar I
+	}
+	855.1.1 = {
+		holder = 159525 # Shu'ayb I
+	}
+	880.1.1 = {
+		holder = 159526 # Umar II
+	}
+	895.1.1 = {
+		holder = 159527 # Muhammad I
+	}
+	910.1.1 = {
+		holder = 159528 # Yusuf I
+	}
+	915.1.1 = {
+		holder = 159530 # Ali I
+	}
+	925.1.1 = {
+		holder = 159529 # Ahmad I
+	}
+	940.1.1 = {
+		holder = 159531 # Shu'ayb II
+	}
+	943.1.1 = {
+		holder = 159532 # Ali II
+	}
+	949.1.1 = {
+		holder = 159533 # Abd-al-Aziz I
+	}
+	964.1.1 = {
+		holder = 1712 # Nikephoros Phokas
+	}
+	1057.1.1 = {
+		holder = 20516
+	}
+	1093.1.1 = {
+		holder = 1781
+	}
+	1137.1.1 = {
+		holder = 93453
+	}
+	1145.1.1 = {
+		holder = 93454
+	}
+	1167.1.1 = {
+		holder = 215028
+	}
+	#4th crusade
+	1204.5.16 = {
+		holder = 31403 #Enrico de Candia
+	}
+	1211.1.1 = {
+		holder = 32120 #Pietro Ziani
+	}
+	1229.3.13 = {
+		holder = 32124 #Iacopo Tiepolo
+	}
+	1249.7.19 = {
+		holder = 32125 #Marino Morosini
+	}
+	1253.1.1 = {
+		holder = 32126 #Reniero Zeno
+	}
+	1268.7.7 = {
+		holder = 32127 #Lorenzo Tiepolo
+	}
+	1275.8.15 = {
+		holder = 32128 #Iacopo Contarini
+	}
+	1280.3.6 = {
+		holder = 32129 #Giovanni Dandalo
+	}
+	1289.11.2 = {
+		holder = 32130 #Pietro Gradenigo
+	}
+	1311.8.13 = {
+		holder = 32131 #Marino Zorzi
+	}
+	1312.7.3 = {
+		holder = 32132 #Giovannia Soranza
+	}
+	1328.12.31 = {
+		holder = 463600 #Francesco Dandalo
+	}
+	##
+	1339.10.31 = { holder = Bartolomeo_Gradenigo }
+	1342.12.28 = { holder = 170071 } #And Dandolo
+	1354.9.7 = { holder = 167576 } #Marino falier
+	1355.4.17 = { holder = Giovanni_Gradenigo_Nosat }
+	1356.8.8 = { holder = Giovanni_Dolfin }
+	1361.7.12 = { holder = Lorenzo_Celsi }
+	1365.7.18 = { holder = Marco_Cornaro }
+	1368.1.13 = { holder = 167607 } #Andrea Contarini 60d
+	1382.6.5 = { holder = 182030 } #Michele Morosini
+	1382.10.16 = { holder = Antonio_Venier_62d }
+	1400.11.23 = { holder = Michele_Steno }
+	1413.12.26 = { holder = Tommaso_Mocenigo_64d }
+	#
+	1423.7.4 = {
+		holder = FrancescoFoskari
+	}
+	1463.1.1 = {
+		holder = GiacomoBarozzi #pust kak herz
+	}
+	1478.5.6 = {
+		holder = GiovanniMocenigo
+		government = republic_government
+	}
+	1488.4.15 = {
+		holder = Francesco_Donato
+		liege = k_venice
+	}
+}
+
+
+c_chania = {
+	330.1.1 = {
+		liege = "d_krete"
+	}
+	754.1.1 = {
+		holder = 145813
+	}
+	827.1.1 = {
+		holder = 159524 # Umar I
+	}
+	855.1.1 = {
+		holder = 159525 # Shu'ayb I
+	}
+	880.1.1 = {
+		holder = 159526 # Umar II
+	}
+	895.1.1 = {
+		holder = 159527 # Muhammad I
+	}
+	910.1.1 = {
+		holder = 159528 # Yusuf I
+	}
+	915.1.1 = {
+		holder = 159530 # Ali I
+	}
+	925.1.1 = {
+		holder = 159529 # Ahmad I
+	}
+	940.1.1 = {
+		holder = 159531 # Shu'ayb II
+	}
+	943.1.1 = {
+		holder = 159532 # Ali II
+	}
+	949.1.1 = {
+		holder = 159533 # Abd-al-Aziz I
+	}
+	964.1.1 = {
+		holder = 1712 # Nikephoros Phokas
+	}
+	1057.1.1 = {
+		holder = 20516
+	}
+	1093.1.1 = {
+		holder = 1781
+	}
+	1137.1.1 = {
+		holder = 93453
+	}
+	1145.1.1 = {
+		holder = 93454
+	}
+	1167.1.1 = {
+		holder = 215028
+	}
+	
+	#4th crusade
+	1204.5.16 = {
+		holder = 31403 #Enrico de Candia
+	}
+	1211.1.1 = {
+		holder = 32120 #Pietro Ziani
+	}
+	1229.3.13 = {
+		holder = 32124 #Iacopo Tiepolo
+	}
+	1249.7.19 = {
+		holder = 32125 #Marino Morosini
+	}
+	1253.1.1 = {
+		holder = 32126 #Reniero Zeno
+	}
+	1268.7.7 = {
+		holder = 32127 #Lorenzo Tiepolo
+	}
+	1275.8.15 = {
+		holder = 32128 #Iacopo Contarini
+	}
+	1280.3.6 = {
+		holder = 32129 #Giovanni Dandalo
+	}
+	1289.11.2 = {
+		holder = 32130 #Pietro Gradenigo
+	}
+	1311.8.13 = {
+		holder = 32131 #Marino Zorzi
+	}
+	1312.7.3 = {
+		holder = 32132 #Giovannia Soranza
+	}
+	1328.12.31 = {
+		holder = 463600 #Francesco Dandalo
+	}
+	##
+	1339.10.31 = { holder = Bartolomeo_Gradenigo }
+	1342.12.28 = { holder = 170071 } #And Dandolo
+	1354.9.7 = { holder = 167576 } #Marino falier
+	1355.4.17 = { holder = Giovanni_Gradenigo_Nosat }
+	1356.8.8 = { holder = Giovanni_Dolfin }
+	1361.7.12 = { holder = Lorenzo_Celsi }
+	1365.7.18 = { holder = Marco_Cornaro }
+	1368.1.13 = { holder = 167607 } #Andrea Contarini 60d
+	1382.6.5 = { holder = 182030 } #Michele Morosini
+	1382.10.16 = { holder = Antonio_Venier_62d }
+	1400.11.23 = { holder = Michele_Steno }
+	1413.12.26 = { holder = Tommaso_Mocenigo_64d }
+	#dalee
+	1423.7.4 = {
+		holder = FrancescoFoskari #	Франческо Фоскари
+	}
+	1456.6.7 = {
+		holder = Jacopo_Foscari # ssylka na Krit
+		liege = k_venice
+	}
+	1457.1.12 = {
+		holder = GiacomoBarozzi #
+	}
+	#
+	1466.12.31 = {
+		holder = pf_kallergis_1
+		liege = k_venice
+	}
+	#
+	1478.5.6 = {
+		holder = GiovanniMocenigo
+	}
+	1479.12.31 = {
+		holder = pf_kallergis_1
+		government = republic_government
+		liege = k_venice
+	}
+	#
+	1488.4.15 = {
+		holder = Domenico_Trevisan #na dele byl v Venezii
+		liege = k_venice
+	}
+}

@@ -1,0 +1,1077 @@
+﻿#15-10-2025
+name_list_russian = {
+
+	cadet_dynasty_names = {
+		"dynn_Mikhailovich"
+		"dynn_Fyodyorov"
+		"dynn_Lukinich"
+		"dynn_Andreievich"
+		"dynn_Dobrynich"
+		"dynn_Petrilov"
+		"dynn_Borisov"
+		"dynn_Kievskiy"
+		"dynn_Kholmsky"
+		"dynn_Izyaslavich"
+		"dynn_Ivannikov"
+		"dynn_Mikulinich"
+		"dynn_Miroslavich"
+		"dynn_Ivankovich"
+		"dynn_Tverdiatich"
+		"dynn_Zakharyinich"
+		"dynn_Nerevinich"
+		"dynn_Stepanovich"
+		"dynn_Nezdinich"
+		"dynn_Feofilaktovich"
+		"dynn_Klimovich"
+		"dynn_Konstantinov"
+		"dynn_Tolstoy"
+		"dynn_Oksakov"
+		"dynn_Ovinov"
+		"dynn_Romanov"
+		"dynn_Okolnichy"
+		"dynn_Yenikeyev"
+		"dynn_Bakunin"
+		"dynn_Balashov"
+		"dynn_Rumyanets"
+		"dynn_Matveev"
+		"dynn_Artamonovich"
+		"dynn_Osipovich"
+		"dynn_Ignatiev"
+		"dynn_Bestuzhev-Ryumin"
+		"dynn_Chernyshev"
+		"dynn_Galitsyn"
+		"dynn_Dashkov"
+		"dynn_Sobakin"
+		"dynn_Gurielov"
+		"dynn_Khitrov"
+		"dynn_Khovansky"
+		{ "dynnp_of" "dynn_Terebovl" }
+		"dynn_Kobylin"
+		"dynn_Lopukhin"
+		"dynn_Rumyantsev"
+		"dynn_Matveyev"
+		"dynn_Menshikov"
+		"dynn_Morozov"
+		"dynn_Naryshkin"
+		"dynn_Poluektovich"
+		"dynn_Pankeyev"
+		"dynn_Pushkin"
+		"dynn_Rtishchev"
+		"dynn_Shein"
+		"dynn_Shemyaka"
+		"dynn_Sheremetev"
+		"dynn_Shuvalov"
+		"dynn_Stolnik"
+		"dynn_Trubetskoy"
+		"dynn_Uvarov"
+		"dynn_Turgenev"
+		"dynn_Valuyev"
+		"dynn_Vogak"
+		"dynn_Andreievich"
+		"dynn_Bryachislavich"
+		"dynn_Igorevich"
+		"dynn_Ivanovich"
+		"dynn_Iziaslavich"
+		"dynn_Mikhailovich"
+		"dynn_Mstislavich"
+		"dynn_Nikitich"
+		"dynn_Rostislavich"
+		"dynn_Sviatoslavich"
+		"dynn_Vasilievich"
+		"dynn_Viacheslavich"
+		"dynn_Vladimirovich"
+		"dynn_Vseslavich"
+		"dynn_Vsevolodovich"
+		"dynn_Vysheslavich"
+		"dynn_Yaroslavich"
+		"dynn_Yurievich"
+		"dynn_Dmitrievich"
+		"dynn_Fedorovich"
+		"dynn_Davidovich"
+		"dynn_Vsevolodich"
+		"dynn_Karpivin"
+		"dynn_Danilovich"
+		"dynn_Kromsky"
+	}
+
+	dynasty_names = {
+		"dynn_Mikhailovich"
+		"dynn_Fyodyorov"
+		"dynn_Lukinich"
+		"dynn_Andreievich"
+		"dynn_Dobrynich"
+		"dynn_Petrilov"
+		"dynn_Borisov"
+		"dynn_Kievskiy"
+		"dynn_Kholmsky"
+		"dynn_Izyaslavich"
+		"dynn_Ivannikov"
+		"dynn_Mikulinich"
+		"dynn_Miroslavich"
+		"dynn_Ivankovich"
+		"dynn_Tverdiatich"
+		"dynn_Zakharyinich"
+		"dynn_Nerevinich"
+		"dynn_Stepanovich"
+		"dynn_Nezdinich"
+		"dynn_Feofilaktovich"
+		"dynn_Klimovich"
+		"dynn_Konstantinov"
+		"dynn_Tolstoy"
+		"dynn_Oksakov"
+		"dynn_Ovinov"
+		"dynn_Romanov"
+		"dynn_Okolnichy"
+		"dynn_Yenikeyev"
+		"dynn_Bakunin"
+		"dynn_Balashov"
+		"dynn_Rumyanets"
+		"dynn_Matveev"
+		"dynn_Artamonovich"
+		"dynn_Osipovich"
+		"dynn_Ignatiev"
+		"dynn_Bestuzhev-Ryumin"
+		"dynn_Chernyshev"
+		"dynn_Galitsyn"
+		"dynn_Dashkov"
+		"dynn_Sobakin"
+		"dynn_Gurielov"
+		"dynn_Khitrov"
+		"dynn_Khovansky"
+		{ "dynnp_of" "dynn_Terebovl" }
+		"dynn_Kobylin"
+		"dynn_Lopukhin"
+		"dynn_Rumyantsev"
+		"dynn_Matveyev"
+		"dynn_Menshikov"
+		"dynn_Morozov"
+		"dynn_Naryshkin"
+		"dynn_Poluektovich"
+		"dynn_Pankeyev"
+		"dynn_Pushkin"
+		"dynn_Rtishchev"
+		"dynn_Shein"
+		"dynn_Shemyaka"
+		"dynn_Sheremetev"
+		"dynn_Shuvalov"
+		"dynn_Stolnik"
+		"dynn_Trubetskoy"
+		"dynn_Uvarov"
+		"dynn_Turgenev"
+		"dynn_Valuyev"
+		"dynn_Vogak"
+		"dynn_Andreievich"
+		"dynn_Bryachislavich"
+		"dynn_Igorevich"
+		"dynn_Ivanovich"
+		"dynn_Iziaslavich"
+		"dynn_Mikhailovich"
+		"dynn_Mstislavich"
+		"dynn_Nikitich"
+		"dynn_Rostislavich"
+		"dynn_Sviatoslavich"
+		"dynn_Vasilievich"
+		"dynn_Viacheslavich"
+		"dynn_Vladimirovich"
+		"dynn_Vseslavich"
+		"dynn_Vsevolodovich"
+		"dynn_Vysheslavich"
+		"dynn_Yaroslavich"
+		"dynn_Yurievich"
+		"dynn_Dmitrievich"
+		"dynn_Fedorovich"
+		"dynn_Davidovich"
+		"dynn_Vsevolodich"
+		"dynn_Karpivin"
+		"dynn_Danilovich"
+		"dynn_Kromsky"
+	}
+
+	male_names = {
+		Afanasiy Alexandr Alexei Andrei Boris Briachislav Daniil Davyd Demid Dmitriy Dobrynia Fedot Feodor Gavriil Gleb
+		Grigoriy Iakov Igor Iliya Ingvar Ivan Iziaslav Kirill Konstantin Koz_ma Lev Matfei Mikhail Mitrofan Mstislav
+		Nikita Oleg Pavel Putiata Radoslav Rodislav Rogvolod Roman Rostislav Rurik Ruslan Simeon Stanislav Stepan Sudislav
+		Svetozar Sviatopolk Sviatoslav Terentiy Trifon Vasiliy Vasilko Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yemelyan Yeremey Yevstafiy Yuriy
+		Aristarkh
+	}
+	female_names = {
+		Agafya Agrafena Alexandra Anastasia Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Yekaterina
+		Yelizaveta Yevdokia Yevpraxia Feodora Feodosia Fevronia Gorislava Gradislava Gremislava Irina Xenia Liubava
+		Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava
+		Pribislava Rogneda Rostislava Sbyslava Sofia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zabava Zvenislava
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 30
+	mother_name_chance = 0
+
+	
+}
+name_list_ilmenian = {
+
+	cadet_dynasty_names = {
+		"dynn_Poloch"
+		"dynn_Izbor"
+		"dynn_Tversky"
+		"dynn_Lukisky"
+		"dynn_Pleskov"
+		"dynn_Toropetsky"
+		"dynn_Dukhovsky"
+	}
+
+	dynasty_names = {
+		"dynn_Poloch"
+		"dynn_Izbor"
+		"dynn_Tversky"
+		"dynn_Lukisky"
+		"dynn_Pleskov"
+		"dynn_Toropetsky"
+		"dynn_Dukhovsky"
+	}
+
+	male_names = {
+		Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+		Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+	}
+	female_names = {
+		Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+		Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+		Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zabava Zvenislava
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 30
+	mother_name_chance = 0
+
+	
+}
+name_list_severian = {
+
+	cadet_dynasty_names = {
+		"dynn_Polan"
+		"dynn_Drevl"
+		"dynn_Lyubech"
+		"dynn_Roslavsky"
+		"dynn_Koroviev"
+		"dynn_Woland"
+	}
+
+	dynasty_names = {
+		"dynn_Polan"
+		"dynn_Drevl"
+		"dynn_Lyubech"
+		"dynn_Roslavsky"
+		"dynn_Koroviev"
+		"dynn_Woland"
+	}
+
+	male_names = {
+		Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+		Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+	}
+	female_names = {
+		Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+		Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+		Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zabava Zvenislava
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 30
+	mother_name_chance = 0
+
+	
+}
+name_list_volhynian = {
+
+	cadet_dynasty_names = {
+		"dynn_Tyvertsky"
+		"dynn_Buzhansky"
+		"dynn_Slutsky"
+		"dynn_Pinesky"
+		"dynn_Zhytomyrsky"
+		"dynn_Vynnytsky"
+	}
+
+	dynasty_names = {
+		"dynn_Tyvertsky"
+		"dynn_Buzhansky"
+		"dynn_Slutsky"
+		"dynn_Pinesky"
+		"dynn_Zhytomyrsky"
+		"dynn_Vynnytsky"
+	}
+
+	male_names = {
+		Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+		Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+	}
+	female_names = {
+		Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+		Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+		Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zabava Zvenislava
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 30
+	mother_name_chance = 0
+
+	
+}
+### 1490
+name_list_russian_1490 = {
+	cadet_dynasty_names = {
+		"dynn_Agafonov"
+		"dynn_Gedeonov"
+		"dynn_Golohvastov"
+		"dynn_Izvolskiy"
+		"dynn_Molchanov"
+		"dynn_Sazonov"
+		"dynn_Talyzin"
+		"dynn_Troekurov"
+		"dynn_Fyodyorov"
+		"dynn_Karpov"
+		"dynn_Petrilov"
+		"dynn_Borisov"
+		"dynn_Makarov"
+		"dynn_Ivannikov"
+		"dynn_Kelarev"
+		"dynn_Oshanin"
+		"dynn_Buturlin"
+		"dynn_Zabortsev"
+		"dynn_Arseniev"
+		"dynn_Esipov"
+		"dynn_Konstantinov"
+		"dynn_Tolstoy"
+		"dynn_Oksakov"
+		"dynn_Ovinov"
+		"dynn_Romanov"
+		"dynn_Okolnichy"
+		"dynn_Yenikeyev"
+		"dynn_Bakunin"
+		"dynn_Balashov"
+		"dynn_Motovilov"
+		"dynn_Matveev"
+		"dynn_Kropotkin"
+		"dynn_Pronchishchev"
+		"dynn_Ignatiev"
+		"dynn_Bestuzhev-Ryumin"
+		"dynn_Chernyshev"
+		"dynn_Galitsyn"
+		"dynn_Dashkov"
+		"dynn_Sobakin"
+		"dynn_Gurielov"
+		"dynn_Khitrov"
+		"dynn_Kobylin"
+		"dynn_Lopukhin"
+		"dynn_Rumyantsev"
+		"dynn_Matveyev"
+		"dynn_Menshikov"
+		"dynn_Morozov"
+		"dynn_Naryshkin"
+		"dynn_Yelagin"
+		"dynn_Pankeyev"
+		"dynn_Pushkin"
+		"dynn_Rtishchev"
+		"dynn_Shein"
+		"dynn_Sheremetev"
+		"dynn_Shuvalov"
+		"dynn_Bezzubtsev"
+		"dynn_Trubetskoy"
+		"dynn_Uvarov"
+		"dynn_Turgenev"
+		"dynn_Valuyev"
+		"dynn_Lemeshev"
+		"dynn_Andreievich"
+		"dynn_Shchelkalov"
+		"dynn_Gerasimov"
+		"dynn_Ivanovich"
+		"dynn_Beloselskiy"
+		"dynn_Mikhailovich"
+		"dynn_Ryabov"
+		"dynn_Kondyrev"
+		"dynn_Eropkin"
+		"dynn_Izborskiy"
+		"dynn_Ivanov"
+		"dynn_ShchepinRostovski"
+		"dynn_Golenishchev_Kutuzov"
+		"dynn_Bobretsov"
+		"dynn_Vorontsov"
+		"dynn_Kuvaldin"
+		"dynn_Yurievich"
+		"dynn_Chernousov"
+		"dynn_Fedorovich"
+		"dynn_Simskiy"
+		"dynn_Shcenyatev"
+		"dynn_Karpivin"
+		"dynn_Saltykov"
+		"dynn_Korsakov"
+		"dynn_Miloslavskiy"
+		"dynn_Dyatlov"
+		"dynn_Naumov"
+		"dynn_Lemeshev"
+		"dynn_Simonov"
+		"dynn_Lazarev"
+		"dynn_Bagadayzhikov"
+		"dynn_Gryaznoy"
+		"dynn_Basmanov"
+		"dynn_Sumarockov"
+	}
+	dynasty_names = {
+		"dynn_Agafonov"
+		"dynn_Ananiev"
+		"dynn_Avinov"
+		"dynn_Artamonov"
+		"dynn_Bagadayzhikov"
+		"dynn_Bakunin"
+		"dynn_Balashov"
+		"dynn_Batushkov"
+		"dynn_Bestuzhev-Ryumin"
+		"dynn_Bezzubtsev"
+		"dynn_Botkin"
+		"dynn_Borisov"
+		"dynn_Basmanov"
+		"dynn_Gedeonov"
+		"dynn_Gryaznoy"
+		"dynn_Golohvastov"
+		"dynn_Izvolskiy"
+		"dynn_Molchanov"
+		"dynn_Valuyev"
+		"dynn_Vasilchikov"
+        "dynn_Voeykov"
+        "dynn_Vyatkin"
+		"dynn_Vorontsov"
+		"dynn_Vnukov"
+		"dynn_Gavrilov"
+		"dynn_Galitsyn"
+        "dynn_Gorchakov"
+		"dynn_Gundorov"
+		"dynn_Golenishchev_Kutuzov"
+		"dynn_Gurielov"
+		"dynn_Demidov"
+        "dynn_Derzhavin"
+		"dynn_Dyatlov"
+		"dynn_Dashkov"
+		"dynn_Eropkin"
+		"dynn_Yelagin"
+		"dynn_Yenikeyev"
+		"dynn_Zhukovskiy"
+		"dynn_Zhitov_Borozdin"
+		"dynn_Zagoskin"
+		"dynn_Ivannikov"
+		"dynn_Ignatiev"
+        "dynn_Inozemtsev"
+		"dynn_Kalinnikov"
+		"dynn_Kromsky"
+		"dynn_Karpivin"
+		"dynn_Kondyrev"
+		"dynn_Kholmsky"
+		"dynn_Kelarev"
+		"dynn_Knyazhin"
+        "dynn_Kozlov"
+		"dynn_Kovrov"
+		"dynn_Konstantinov"
+		"dynn_Khitrov"
+		"dynn_Kobylin"
+        "dynn_Komarov"
+		"dynn_Kropotkin"
+        "dynn_Krylov"
+		"dynn_Levashov"
+		"dynn_Lopukhin"
+		"dynn_Matveev"
+		"dynn_Netshin"
+		"dynn_Ohlyabinin"
+		"dynn_Pozharsky"
+		"dynn_Polynariyn"
+		"dynn_Ananyin"
+		"dynn_Tolstoy"
+		"dynn_Oksakov"
+		"dynn_Ovinov"
+		"dynn_Romanov"
+		"dynn_Motovilov"
+		"dynn_Chernyshev"
+		"dynn_Sobakin"
+		"dynn_Rumyantsev"
+		"dynn_Matveyev"
+		"dynn_Menshikov"
+		"dynn_Morozov"
+		"dynn_Naryshkin"
+		"dynn_Pronchishchev"
+		"dynn_Pankeyev"
+		"dynn_Pushkin"
+		"dynn_Rtishchev"
+		"dynn_Sazonov"
+		"dynn_Talyzin"
+		"dynn_Troekurov"
+		"dynn_Shein"
+		"dynn_Sheremetev"
+		"dynn_Shuvalov"
+		"dynn_Trubetskoy"
+		"dynn_Uvarov"
+		"dynn_Turgenev"
+		"dynn_Shchelkalov"
+		"dynn_Ovtsyn"
+		"dynn_Makarov"
+		"dynn_Ushatyi"
+		"dynn_Pleshcheyev"
+		"dynn_Sanin"
+		"dynn_Pronskiy"
+		"dynn_Gerasimov"
+		"dynn_Shcenyatev"
+		"dynn_Sumarockov"
+		"dynn_Maykov"
+        "dynn_Merzlyakov"
+        "dynn_Mochalov"
+        "dynn_Ozerov"
+        "dynn_Orlov"
+        "dynn_Pavlov"
+        "dynn_Panov"
+        "dynn_Pisarev"
+        "dynn_Pogodin"
+        "dynn_Repnin"
+        "dynn_Ryleev"
+        "dynn_Saharov"
+        "dynn_Chizhov"
+        "dynn_Shumihin"
+        "dynn_Sheremetiev"
+        "dynn_Shevyrev"
+        "dynn_Shishkin"
+        "dynn_Svinin"
+        "dynn_Smirnov"
+        "dynn_Snegirev"
+        "dynn_Stroganov"
+        "dynn_Titov"
+        "dynn_Tolstoy"
+        "dynn_Trubetskoy"
+        "dynn_Ushakov"
+        "dynn_Hvostov"
+        "dynn_Homyakov"
+		"dynn_Saltykov"
+		"dynn_Korsakov"
+		"dynn_Miloslavskiy"
+		"dynn_Streshnev"
+		"dynn_Shestov"
+		"dynn_Hovrin"
+		"dynn_Svoezemtsev"
+		"dynn_Naumov"
+		"dynn_Lemeshev"
+		"dynn_Simonov"
+		"dynn_Lazarev"
+		"dynn_Hvorostinin"
+		"dynn_Fyodyorov"
+		"dynn_Petrilov"
+		"dynn_Yazykov"
+	}
+	#Rurik
+	male_names = {
+		Afanasiy Alexandr Alexei Andrei Artamon Boris Briachislav Daniil Davyd Demid Dmitriy Dobrynia Fedot Feodor Gavriil Gleb
+		Grigoriy Iakov Igor Iliya Ivan Iziaslav Kirill Konstantin Koz_ma Lev Matfei Mikhail Mitrofan Mstislav
+		Nikita Oleg Pavel Putiata Radoslav Rodislav Rogvolod Roman Rostislav Ruslan Simeon Stepan Sudislav
+		Svetozar Sviatopolk Sviatoslav Terentiy Trifon Vasiliy Vasilko Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yemelyan Yeremey Yevstafiy Yuriy
+        Fedor Kuzma Ontsifor Mirolub Hoteslav Bazhen Vlas Kolivan Savelii Evlampi Zhdan Ratmir Domoslav Selefont Onfim Yakim
+		Veniamin Miron Tihon Cyril Timofey Ignat Nikolay Arhip Efim Elizar Pahom Aristarkh Khariton Spirydon
+	}
+	female_names = {
+		Agafya Agrafena Alexandra Anastasia Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Yekaterina
+		Yelizaveta Yevdokia Yevpraxia Feodora Feodosia Fevronia Gorislava Gradislava Gremislava Irina Xenia Liubava
+		Liudmila Malusha Maria Marina Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava
+		Pribislava Rogneda Rostislava Sbyslava Sofia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zabava Zvenislava
+        Alena Fekla Pereslava Nezhka Nastasia Milusha Marena Vasilina Ofrosenia Matrena Lubomila Ofrosenia Matrena Olesya Klava Lida Avdotia Lukeria Luba
+		Fedora Stepanida Alevtina Aksinya Solomonida
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+#	always_use_patronym = yes
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 60
+	mat_grf_name_chance = 30
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 30
+	mother_name_chance = 40
+
+	
+}
+name_list_pomorskay = {
+	cadet_dynasty_names = {
+		"dynn_Bulygin"
+		"dynn_Saukov"
+		"dynn_Fyodyorov"
+		"dynn_Lukinich"
+		"dynn_Petrilov"
+		"dynn_Borisov"
+		"dynn_Ivannikov"
+		"dynn_Miroslavich"
+		"dynn_Konstantinov"
+		"dynn_Tolstoy"
+		"dynn_Oksakov"
+		"dynn_Ovinov"
+		"dynn_Romanov"
+		"dynn_Simonov"
+		"dynn_Yenikeyev"
+		"dynn_Bakunin"
+		"dynn_Balashov"
+		"dynn_Matveev"
+		"dynn_Osipovich"
+		"dynn_Ignatiev"
+		"dynn_Bestuzhev-Ryumin"
+		"dynn_Chernyshev"
+		"dynn_Galitsyn"
+		"dynn_Dashkov"
+		"dynn_Sobakin"
+		"dynn_Gurielov"
+		"dynn_Kobylin"
+		"dynn_Lopukhin"
+		"dynn_Rumyantsev"
+		"dynn_Matveyev"
+		"dynn_Menshikov"
+		"dynn_Morozov"
+		"dynn_Naryshkin"
+		"dynn_Poluektovich"
+		"dynn_Pankeyev"
+		"dynn_Pushkin"
+		"dynn_Rtishchev"
+		"dynn_Shein"
+		"dynn_Shemyaka"
+		"dynn_Sheremetev"
+		"dynn_Shuvalov"
+		"dynn_Lemeshev"
+		"dynn_Trubetskoy"
+		"dynn_Uvarov"
+		"dynn_Turgenev"
+		"dynn_Valuyev"
+		"dynn_Andreievich"
+		"dynn_Bryachislavich"
+		"dynn_Igorevich"
+		"dynn_Ivanovich"
+		"dynn_Iziaslavich"
+		"dynn_Mikhailovich"
+		"dynn_Mstislavich"
+		"dynn_Nikitich"
+		"dynn_Rostislavich"
+		"dynn_Sviatoslavich"
+		"dynn_Vasilievich"
+		"dynn_Viacheslavich"
+		"dynn_Vladimirovich"
+		"dynn_Vseslavich"
+		"dynn_Vsevolodovich"
+		"dynn_Vysheslavich"
+		"dynn_Yaroslavich"
+		"dynn_Yurievich"
+		"dynn_Dmitrievich"
+		"dynn_Fedorovich"
+		"dynn_Davidovich"
+		"dynn_Vsevolodich"
+		"dynn_Karpivin"
+		"dynn_Danilovich"
+		"dynn_Kromsky"
+		"dynn_Saltykov"
+		"dynn_Korsakov"
+		"dynn_Miloslavskiy"
+		"dynn_Lazarev"
+		"dynn_Bagadayzhikov"
+		"dynn_Zabortsev"
+		"dynn_Kelarev"
+	}
+	dynasty_names = {
+		"dynn_Bulygin"
+		"dynn_Saukov"
+		"dynn_Fyodyorov"
+  		"dynn_Lukin"
+		"dynn_Lomonosov"
+		"dynn_Ryabov"
+		"dynn_Petrilov"
+		"dynn_Borisov"
+		"dynn_Hromov"
+		"dynn_Kholmsky"
+		"dynn_Hromtsov"
+		"dynn_Ivannikov"
+		"dynn_Potashev"
+		"dynn_Dorofeev"
+		"dynn_Konstantinov"
+		"dynn_Tolstoy"
+		"dynn_Oksakov"
+		"dynn_Ovinov"
+		"dynn_Merzlyi"
+		"dynn_Chernousov"
+		"dynn_Bakunin"
+		"dynn_Balashov"
+		"dynn_Rumyanets"
+		"dynn_Matveev"
+		"dynn_Leshukov"
+		"dynn_Ignatiev"
+		"dynn_Fofanov"
+		"dynn_Chernyshev"
+		"dynn_Galitsyn"
+		"dynn_Dashkov"
+		"dynn_Sobakin"
+		"dynn_Gurielov"
+		"dynn_Khitrov"
+		"dynn_Kobylin"
+		"dynn_Lopukhin"
+		"dynn_Rumyantsev"
+		"dynn_Matveyev"
+		"dynn_Menshikov"
+		"dynn_Morozov"
+		"dynn_Naryshkin"
+		"dynn_Kogin"
+		"dynn_Pankeyev"
+		"dynn_Rtishchev"
+		"dynn_Shein"
+		"dynn_Kuvaldin"
+		"dynn_Sheremetev"
+		"dynn_Shuvalov"
+		"dynn_Trubetskoy"
+		"dynn_Uvarov"
+		"dynn_Dverin"
+		"dynn_Valuyev"
+		"dynn_Oshukov"
+		"dynn_Karmanov"
+		"dynn_Galahev"
+		"dynn_Listov"
+		"dynn_Porohin"
+		"dynn_Bobretsov"
+        "dynn_Batushkov"
+        "dynn_Botkin"
+        "dynn_Vasilchikov"
+        "dynn_Voeykov"
+        "dynn_Vyatkin"
+        "dynn_Gavrilov"
+        "dynn_Gorchakov"
+        "dynn_Demidov"
+        "dynn_Griboedov"
+        "dynn_Derzhavin"
+        "dynn_Zhukovskiy"
+        "dynn_Zagoskin"
+        "dynn_Ivanov"
+        "dynn_Inozemtsev"
+        "dynn_Knyazhin"
+        "dynn_Kozlov"
+        "dynn_Komarov"
+        "dynn_Krylov"
+        "dynn_Levashov"
+        "dynn_Merzlyakov"
+        "dynn_Mochalov"
+        "dynn_Ozerov"
+        "dynn_Orlov"
+        "dynn_Pavlov"
+        "dynn_Panov"
+        "dynn_Pisarev"
+        "dynn_Pogodin"
+        "dynn_Repnin"
+        "dynn_Ryleev"
+        "dynn_Saharov"
+        "dynn_Chizhov"
+        "dynn_Shumihin"
+        "dynn_Sheremetiev"
+        "dynn_Shevyrev"
+        "dynn_Shishkin"
+        "dynn_Svinin"
+        "dynn_Smirnov"
+        "dynn_Snegirev"
+        "dynn_Stroganov"
+        "dynn_Titov"
+        "dynn_Tolstoy"
+        "dynn_Trubetskoy"
+        "dynn_Ushakov"
+        "dynn_Hvostov"
+        "dynn_Homyakov"
+        "dynn_Yazykov"
+		"dynn_Saltykov"
+		"dynn_Korsakov"
+		"dynn_Miloslavskiy"
+		"dynn_Streshnev"
+		"dynn_Shestov"
+		"dynn_Hovrin"
+		"dynn_Svoezemtsev"
+		"dynn_Lemeshev"
+		"dynn_Simonov"
+		"dynn_Lazarev"
+		"dynn_Bagadayzhikov"
+		"dynn_Zabortsev"
+		"dynn_Kelarev"
+	}
+
+	male_names = {
+		Afanasiy Alexandr Alexei Andrei Boris Briachislav Daniil Davyd Demid Dmitriy Dobrynia Fedot Feodor Gavriil Gleb
+		Grigoriy Iakov Igor Iliya Ivan Iziaslav Kirill Konstantin Koz_ma Lev Matfei Mikhail Mitrofan Mstislav
+		Nikita Oleg Pavel Putiata Radoslav Rodislav Rogvolod Roman Rostislav Rurik Ruslan Simeon Stanislav Stepan Sudislav
+		Svetozar Sviatopolk Sviatoslav Terentiy Trifon Vasiliy Vasilko Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yemelyan Yeremey Yevstafiy Yuriy
+		Aristarkh
+        Fedor Kuzma Ontsifor Mirolub Hoteslav Bazhen Vlas Kolivan Savelii Evlampi Zhdan Ratmir Domoslav Selefont Onfim Yakim
+		Veniamin Miron Tihon Cyril Timofey Elizar
+		Khariton
+	}
+	female_names = {
+		Agafya Agrafena Alexandra Anastasia Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Yekaterina
+		Yelizaveta Yevdokia Yevpraxia Feodora Feodosia Fevronia Gorislava Gradislava Gremislava Irina Xenia Liubava
+		Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava
+		Pribislava Rogneda Rostislava Sbyslava Sofia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zabava Zvenislava
+        Alena Fekla Pereslava Nezhka Nastasia Milusha Marena Vasilina Ofrosenia Matrena Lubomila Ofrosenia Matrena Olesya Klava Lida Avdotia Lukeria Luba
+		Fedora Aksinya Solomonida
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+	always_use_patronym = yes #new
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 60
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 40
+	mat_grm_name_chance = 30
+	mother_name_chance = 30
+
+	
+}
+name_list_zapadnorus = {
+	cadet_dynasty_names = {
+		"dynn_Mikhailovich"
+		"dynn_Lukinich"
+		"dynn_Andreievich"
+		"dynn_Dobrynich"
+		"dynn_Kandyba"
+		"dynn_Buzina"
+		"dynn_Shevchenko"
+		"dynn_Groholskiy"
+		"dynn_Leontovych"
+		"dynn_Kravchuk"
+		"dynn_Kievskiy"
+		"dynn_Kholmsky"
+		"dynn_Yaroshenko"
+		"dynn_Chumak"
+		"dynn_Soroka"
+		"dynn_Dyachenko"
+		"dynn_Miroslavich"
+		"dynn_Ivankovich"
+		"dynn_Tverdiatich"
+		"dynn_Zakharyinich"
+		"dynn_Nerevinich"
+		"dynn_Stepanovich"
+		"dynn_Kravchuk"
+		"dynn_Feofilaktovich"
+		"dynn_Klimovich"
+		"dynn_Shabunya"
+		"dynn_Dashkevich"
+		"dynn_Okolnichy"
+		"dynn_Doroshenko"
+		"dynn_Rumyanets"
+		"dynn_Kalina"
+		"dynn_Artamonovich"
+		"dynn_Osipovich"
+		"dynn_Galushka"
+		"dynn_Krasko"
+		"dynn_Cherevatyi"
+		"dynn_Zhloba"
+		"dynn_Poluektovich"
+		"dynn_Shabunya"
+		"dynn_Antonenko"
+		"dynn_Stolnik"
+		"dynn_Tyvertsky"
+		"dynn_Buzhansky"
+		"dynn_Slutsky"
+		"dynn_Pinesky"
+		"dynn_Zhytomyrsky"
+		"dynn_Vynnytsky"
+		"dynn_Vogak"
+		"dynn_Andreievich"
+		"dynn_Bryachislavich"
+		"dynn_Igorevich"
+		"dynn_Ivanovich"
+		"dynn_Iziaslavich"
+		"dynn_Mikhailovich"
+		"dynn_Mstislavich"
+		"dynn_Melnichuk"
+		"dynn_Rostislavich"
+		"dynn_Sviatoslavich"
+		"dynn_Vasilievich"
+		"dynn_Viacheslavich"
+		"dynn_Lavrik"
+		"dynn_Vseslavich"
+		"dynn_Vsevolodovich"
+		"dynn_Vysheslavich"
+		"dynn_Yaroslavich"
+		"dynn_Shabunya"
+		"dynn_Dmitrievich"
+		"dynn_Fedorovich"
+		"dynn_Davidovich"
+		"dynn_Vsevolodich"
+		"dynn_Nesvitskiy"
+		"dynn_Danilovich"
+		"dynn_Miloslavskiy"
+	}
+	dynasty_names = {
+        "dynn_Kandyba"
+		"dynn_Buzina"
+		"dynn_Shevchenko"
+		"dynn_Groholskiy"
+		"dynn_Leontovych"
+		"dynn_Kravchuk"
+		"dynn_Zaslavski"
+		"dynn_Chetvertinski"
+		"dynn_Ostrozhski"
+		"dynn_Andreievich"
+		"dynn_Dobrynich"
+		"dynn_Kopach"
+		"dynn_Polubinski"
+		"dynn_Kievskiy"
+		"dynn_Odintsevich"
+		"dynn_Glebovich"
+		"dynn_Komaevskiy"
+		"dynn_Yaroshenko"
+		"dynn_Chumak"
+		"dynn_Soroka"
+		"dynn_Dyachenko"
+		"dynn_Mikulinich"
+		"dynn_Miroslavich"
+		"dynn_Ivankovich"
+		"dynn_Zakharyinich"
+		"dynn_Antonenko"
+		"dynn_Nezdinich"
+		"dynn_Feofilaktovich"
+		"dynn_Klimovich"
+		"dynn_Okolnichy"
+		"dynn_Dashkevich"
+		"dynn_Rumyanets"
+		"dynn_Artamonovich"
+		"dynn_Osipovich"
+		"dynn_Khitrov"
+		"dynn_Poluektovich"
+		"dynn_Dashkevich"
+		"dynn_Kalina"
+		"dynn_Nesvitskiy"
+		"dynn_Stolnik"
+		"dynn_Vogak"
+		"dynn_Andreievich"
+		"dynn_Bryachislavich"
+		"dynn_Igorevich"
+		"dynn_Ivanovich"
+		"dynn_Iziaslavich"
+		"dynn_Mikhailovich"
+		"dynn_Mstislavich"
+		"dynn_Nikitich"
+		"dynn_Rostislavich"
+		"dynn_Sviatoslavich"
+		"dynn_Vasilievich"
+		"dynn_Viacheslavich"
+		"dynn_Vladimirovich"
+		"dynn_Vseslavich"
+		"dynn_Vsevolodovich"
+		"dynn_Vysheslavich"
+		"dynn_Yaroslavich"
+		"dynn_Yurievich"
+		"dynn_Dmitrievich"
+		"dynn_Fedorovich"
+		"dynn_Davidovich"
+		"dynn_Vsevolodich"
+		"dynn_Danilovich"
+		"dynn_Kromsky"
+        "dynn_Shabunya"
+        "dynn_Doroshenko"
+        "dynn_Pstygo"
+        "dynn_Korotkevich"
+        "dynn_Melnichuk"
+        "dynn_Lavrik"
+		"dynn_Miloslavskiy"
+		"dynn_Krasko"
+		"dynn_Cherevatyi"
+		"dynn_Zhloba"
+		"dynn_Tyvertsky"
+		"dynn_Buzhansky"
+		"dynn_Slutsky"
+		"dynn_Pinesky"
+		"dynn_Zhytomyrsky"
+		"dynn_Vynnytsky"
+	}
+	male_names = {
+		Afanasiy Alexandr Alexei Andrei Boris Briachislav Daniil Davyd Demid Dmitriy Dobrynia Fedot Feodor Gavriil Gleb
+		Grigoriy Iakov Igor Iliya Ingvar Ivan Iziaslav Kirill Konstantin Koz_ma Lev Matfei Mikhail Mitrofan Mstislav
+		Nikita Oleg Pavel Putiata Radoslav Rodislav Rogvolod Roman Rostislav Simeon Stanislav Stepan Sudislav
+		Svetozar Sviatoslav Terentiy Trifon Vasiliy Vasilko Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yemelyan Yeremey Yevstafiy Yuriy
+        Fedor Kuzma Ontsifor Mirolub Hoteslav Bazhen Vlas Kolivan Savelii Evlampi Zhdan Ratmir Domoslav Selefont Onfim Yakim
+		Veniamin Miron
+	}
+	female_names = {
+		Nevidana Bogdana Oksana Agafya Agrafena Alexandra Anastasia Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Yekaterina
+		Yelizaveta Yevdokia Yevpraxia Feodora Feodosia Fevronia Gorislava Gradislava Gremislava Irina Xenia Liubava
+		Liudmila Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava
+		Pribislava Rogneda Rostislava Sbyslava Sofia Sviatoslava Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zvenislava Fekla Pereslava Nezhka Nastasia Milusha Marena Vasilina Ofrosenia Matrena Lubomila Ofrosenia Matrena Olesya Klava Lida Avdotia Lukeria
+		Fedora
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+#	always_use_patronym = yes
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 60
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 33
+	mat_grm_name_chance = 33
+	mother_name_chance = 0
+}

@@ -1,0 +1,1763 @@
+﻿# 01-05-2025   1.16.0.1 "Chamfron"
+k_oghuz_il = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+	1466.1.1 = { change_development_level = 14 }
+	1488.1.1 = { change_development_level = 17 }
+	
+	#750 start of Oghuz il / Oghuz Yabgu state
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = 74031
+	}
+	
+	#1055 end of Oghuz il
+	1055.1.1 = {
+		holder = 0
+	}
+	##
+}
+
+k_nogai_orda = {
+	1466.1.1 = { change_development_level = 14 }
+	1488.1.1 = { change_development_level = 17 }
+
+	762.1.1 = {
+		name = NOGAIORD #Nogai Orda
+	}
+	##
+	1426.1.1 = {
+		holder = NuraddinNogOrda
+		government = nomad_government
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+		government = nomad_government
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	1454.1.1 = {
+		de_jure_liege = e_turan
+	}
+#	1470.1.1 = { succession_laws = { kurultai_elective_succession_law } }
+}
+
+d_transcaspiana = {
+	1178.1.1 = {
+		holder = khwarezmid_2 # Malikshah
+		liege = k_transoxiana
+	}
+	## Mangyshlak
+	1300.1.1 = { holder = 0 }
+	1454.1.1 = { de_jure_liege = k_nogai_orda }
+}
+
+c_mangyshlak = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_11	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		holder = 302629	#fictional Korkut Mangyt
+		liege = 0
+	}
+	1093.10.30 = {
+		holder = 302631	#fictional Mursel Mangyt
+	}
+	1124.10.9 = {
+		holder = 302632	#fictional Korkut Mangyt
+	}
+	1140.8.2 = {
+		holder = 302633	#fictional Ilgazi Mangyt
+	}
+	1178.1.1 = {
+		holder = khwarezmid_2 # Malikshah
+	}
+	1185.9.1 = {
+		holder = 302634	#fictional Alptigin Mangyt
+	}
+	1210.3.4 = {
+		holder = 302635	#fictional Orhan Mangyt
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	##
+	1350.12.2 = {
+		holder = Tuiy_Hodja_OtezToht
+		liege = e_golden_horde
+	}
+	1426.1.1 = {
+		holder = NuraddinNogOrda
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+}
+
+c_buzachi = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_11	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		holder = fictional_turkish_29	#fictional herder
+		liege = 0
+		government = herder_government
+	}
+	1093.10.30 = {
+		holder = 302631	#fictional Mursel Mangyt
+		government = nomad_government
+	}
+	1124.10.9 = {
+		holder = 302632	#fictional Korkut Mangyt
+	}
+	1140.8.2 = {
+		holder = 302633	#fictional Ilgazi Mangyt
+	}
+	1178.1.1 = {
+		holder = khwarezmid_2 # Malikshah
+	}
+	1185.9.1 = {
+		holder = 302634	#fictional Alptigin Mangyt
+	}
+	1210.3.4 = {
+		holder = 302635	#fictional Orhan Mangyt
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	##
+	1350.12.2 = {
+		holder = Tuiy_Hodja_OtezToht
+		liege = e_golden_horde
+	}
+	1426.1.1 = {
+		holder = NuraddinNogOrda
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+}
+
+# new, tiyul est
+d_garabogazkol = {
+	1454.1.1 = { de_jure_liege = k_transoxiana }
+}
+
+c_garabogazkol = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_13	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		holder = 302629	#fictional Korkut Mangyt
+		liege = 0
+	}
+	1060.1.2 = {
+		holder = fictional_turkish_14	#fic to have more chars and avoid domain overlimit
+	}
+	1093.10.30 = {
+		holder = 302631	#fictional Mursel Mangyt
+	}
+	1124.10.9 = {
+		holder = 302632	#fictional Korkut Mangyt
+	}
+	1140.8.2 = {
+		holder = 302633	#fictional Ilgazi Mangyt
+	}
+	1172.3.1 = {
+		holder = 230000 # Tekish
+	}
+	1178.1.1 = {
+		holder = fictional_turkish_23 # fictional guy
+		government = nomad_government
+		liege = d_transcaspiana
+	}
+	1185.9.1 = {
+		holder = 302634	#fictional Alptigin Mangyt
+	}
+	1210.3.4 = {
+		holder = 302635	#fictional Orhan Mangyt
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	##
+	1426.1.2 = {
+		holder = GhaziBiyNog
+		liege = k_oghuz_il
+	}
+	# ne nogai
+	1466.1.1 = {
+		holder = fik_turkmen_kasp1
+		government = nomad_government
+		liege = k_transoxiana #Maveranahr
+	}
+	1470.1.1 = {
+		#my code - esli est dlc kochevniki
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = khans_of_the_steppe }
+				holder = { change_government = herder_government }
+			}
+		}
+	}
+}
+
+
+c_bekdas = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_32	#fictional herder
+		government = herder_government
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		holder = 302629	#fictional Korkut Mangyt
+		liege = 0
+		government = nomad_government
+	}
+	1060.1.2 = {
+		holder = fictional_turkish_14	#fic to have more chars and avoid domain overlimit
+	}
+	1093.10.30 = {
+		holder = 302631	#fictional Mursel Mangyt
+	}
+	1124.10.9 = {
+		holder = 302632	#fictional Korkut Mangyt
+	}
+	1140.8.2 = {
+		holder = 302633	#fictional Ilgazi Mangyt
+	}
+	1172.3.1 = {
+		holder = 230000 # Tekish
+	}
+	1178.1.1 = {
+		holder = khwarezmid_2 # Malikshah
+	}
+	1185.9.1 = {
+		holder = 302634	#fictional Alptigin Mangyt
+	}
+	1210.3.4 = {
+		holder = 302635	#fictional Orhan Mangyt
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	## ne nogai
+	1466.1.3 = {
+		holder = fik_turkmen_kasp3
+		government = nomad_government
+		liege = k_transoxiana #Maveranahr
+	}
+	1470.1.1 = {
+		#my code - esli est dlc kochevniki
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = khans_of_the_steppe }
+				holder = { change_government = herder_government }
+			}
+		}
+	}
+}
+
+c_oglamych = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_13	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		holder = 302629	#fictional Korkut Mangyt
+		liege = 0
+	}
+	1060.1.2 = {
+		holder = fictional_turkish_14	#fic to have more chars and avoid domain overlimit
+	}
+	1093.10.30 = {
+		holder = 302631	#fictional Mursel Mangyt
+	}
+	1124.10.9 = {
+		holder = 302632	#fictional Korkut Mangyt
+	}
+	1140.8.2 = {
+		holder = 302633	#fictional Ilgazi Mangyt
+	}
+	1172.3.1 = {
+		holder = 230000 # Tekish
+	}
+	1178.1.1 = {
+		holder = khwarezmid_2 # Malikshah
+	}
+	1185.9.1 = {
+		holder = 302634	#fictional Alptigin Mangyt
+	}
+	1210.3.4 = {
+		holder = 302635	#fictional Orhan Mangyt
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	##
+	# ne nogai
+	1466.1.2 = {
+		holder = fik_turkmen_kasp2
+		government = nomad_government
+		liege = k_transoxiana #Maveranahr
+	}
+	1470.1.1 = {
+		#my code - esli est dlc kochevniki
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = khans_of_the_steppe }
+				holder = { change_government = herder_government }
+			}
+		}
+	}
+}
+
+
+c_qaraustyurt = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_10	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		holder = 302629	#fictional Korkut Mangyt
+		liege = 0
+	}
+	1093.10.30 = {
+		holder = 302631	#fictional Mursel Mangyt
+	}
+	1124.10.9 = {
+		holder = 302632	#fictional Korkut Mangyt
+	}
+	1140.8.2 = {
+		holder = 302633	#fictional Ilgazi Mangyt
+	}
+	1178.1.1 = {
+		holder = khwarezmid_2 # Malikshah
+	}
+	1185.9.1 = {
+		holder = 302634	#fictional Alptigin Mangyt
+	}
+	1210.3.4 = {
+		holder = 302635	#fictional Orhan Mangyt
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	##
+	1426.1.1 = {
+		holder = NuraddinNogOrda
+		government = nomad_government
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+		government = nomad_government
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1466.1.1 = {
+		holder = oguz_turkmen_1
+		liege = k_nogai_orda
+	}
+
+}
+
+c_qyzylustyurt = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_12	#fic to have more chars and avoid domain overlimit
+		government = herder_government
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		holder = 302629	#fictional Korkut Mangyt
+		liege = 0
+		government = nomad_government
+	}
+	1093.10.30 = {
+		holder = 302631	#fictional Mursel Mangyt
+	}
+	1124.10.9 = {
+		holder = 302632	#fictional Korkut Mangyt
+	}
+	1140.8.2 = {
+		holder = 302633	#fictional Ilgazi Mangyt
+	}
+	1178.1.1 = {
+		holder = fictional_turkish_24 # fictional guy
+		government = nomad_government
+		liege = d_transcaspiana
+	}
+	1185.9.1 = {
+		holder = 302634	#fictional Alptigin Mangyt
+	}
+	1210.3.4 = {
+		holder = 302635	#fictional Orhan Mangyt
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	##
+	1426.1.1 = {
+		holder = NuraddinNogOrda
+		government = nomad_government
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+		government = nomad_government
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1466.1.2 = {
+		holder = oguz_turkmen_1
+		liege = k_nogai_orda
+	}
+
+}
+
+d_jemba = {
+	1178.1.1 = {
+		holder = khwarezmid_3 # Toghan-Toghdi
+		liege = k_transoxiana
+		government = nomad_government
+	}
+	##
+	1300.1.1 = { holder = 0 }
+	1454.1.1 = { de_jure_liege = k_nogai_orda }
+}
+
+
+c_qoshagyl = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_9	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1060.1.1 = {
+		holder = fictional_turkish_15	#fic to have more chars and avoid domain overlimit
+		government = herder_government
+		liege = k_caspian_steppe
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = khwarezmid_3 # Toghan-Toghdi
+		government = nomad_government
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	##
+	1426.1.1 = {
+		holder = NuraddinNogOrda
+		government = nomad_government
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1465.1.1 = {
+		holder = YamgurchiNogOrda
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+}
+
+
+c_tengiz = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_9	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1060.1.1 = {
+		holder = fictional_turkish_28	#fictional herder
+		liege = k_caspian_steppe
+		government = herder_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_turkish_26 # fictional herder
+		government = nomad_government
+		liege = d_jemba
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	##
+	1426.1.1 = {
+		holder = NuraddinNogOrda
+		government = nomad_government
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+
+}
+
+c_akkityk = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_8	#fic to have more chars and avoid domain overlimit
+		government = herder_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1060.1.1 = {
+		holder = fictional_turkish_27	#fictional herder
+		liege = k_caspian_steppe
+		government = herder_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_turkish_25 # fictional nomad
+		government = nomad_government
+		liege = d_jemba
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	
+	##
+	1426.1.1 = {
+		holder = NuraddinNogOrda
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1465.1.2 = {
+		holder = YamgurchiNogOrda
+		liege = k_oghuz_il
+	}
+}
+
+c_namastau = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_7	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1063.1.1 = {
+		holder = fictional_turkish_17	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_turkish_25 # fictional nomad
+		government = nomad_government
+		liege = d_jemba
+	}
+	1200.1.1 = {
+		holder = 93052
+		government = nomad_government
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102		
+	}
+	##
+	1426.1.2 = {
+		holder = NuraddinNogOrda
+		government = nomad_government
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1465.1.2 = {
+		holder = YamgurchiNogOrda
+		liege = k_nogai_orda
+	}
+	1469.12.29 = {
+		holder = nogai_karakalpak1
+		liege = k_nogai_orda
+		government = nomad_government
+	}
+}
+
+c_kos-buwak = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_31	#fictional herder
+		government = herder_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1055.1.1 = {
+		holder = fictional_turkish_16	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+		government = nomad_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_turkish_26 # fictional herder
+		government = nomad_government
+		liege = d_jemba
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	##
+	1426.1.2 = {
+		holder = NuraddinNogOrda
+		government = nomad_government
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1465.1.2 = {
+		holder = YamgurchiNogOrda
+		liege = k_oghuz_il
+	}
+}
+
+c_churuk = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_10	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1055.1.1 = {
+		holder = fictional_turkish_16	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_turkish_26 # fictional herder
+		government = nomad_government
+		liege = d_jemba
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	##
+	1426.1.2 = {
+		holder = NuraddinNogOrda
+		government = nomad_government
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	# ili pastuh
+	1465.1.2 = {
+		holder = YamgurchiNogOrda
+		liege = k_oghuz_il
+	}
+
+}
+
+d_aral_il = {
+	850.1.1 = {
+		holder = fictional_turkish_6	#fic to have more chars and avoid domain overlimit
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+		holder = 0
+		liege = 0
+	}
+	
+	1178.1.1 = {
+		holder = 93052 # Muhammed
+		liege = k_transoxiana
+	}
+	##
+	1300.1.1 = { holder = 0 }
+	1454.1.1 = { de_jure_liege = k_nogai_orda }
+}
+
+c_yangikent = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = 74031
+	}
+	
+	#1066 start
+	1066.1.1 = {
+		holder = 93087
+		liege = 0
+	}
+	1178.1.1 = {
+		holder = 93052 # Muhammed
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	
+	## Yangikent prishel v upadok posle mongolov i pokinut k XV veku
+	1454.1.1 = { change_development_level = 6 }
+	1468.9.9 = {
+		holder = pastuh_oguz_yangikent
+		government = nomad_government
+		liege = 0
+	}
+	# my code - esli est dlc kochevniki
+	1470.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = khans_of_the_steppe }
+				holder = { change_government = herder_government }
+			}
+		}
+	}
+}
+
+
+c_raimskoe = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = 74031
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1065.1.1 = {
+		holder = fictional_turkish_20	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+	}
+	
+	#1085.1.1 = {
+	#	holder = 93088
+	#}
+	#1097.1.1 = {
+	#	holder = 144099
+	#}
+	#1127.1.1 = {
+	#	holder = 144100
+	#}
+	#1156.1.1 = {
+	#	holder = 144101
+	#}
+	
+	#1178
+	1172.3.1 = {
+		holder = 230000
+	}
+	1178.1.1 = {
+		holder = 93052 # Muhammed
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	
+	##
+	# Uzbekskoe hanstvo?
+	1427.7.17 = {
+		holder = TemirMansNogai
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+	1486.7.17 = {
+		holder = TavvakulMansNogai
+		liege = k_nogai_orda
+	}
+}
+
+c_kara-mugai = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		liege = d_syr_darya
+		holder = 1000230101	#Bozoq, representing the Kinik/the proto-Seljuk
+		government = nomad_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1065.1.1 = {
+		holder = fictional_turkish_20	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+	}
+	
+	#1085.1.1 = {
+	#	holder = 93088
+	#}
+	#1097.1.1 = {
+	#	holder = 144099
+	#}
+	#1127.1.1 = {
+	#	holder = 144100
+	#}
+	#1156.1.1 = {
+	#	holder = 144101
+	#}
+	
+	#1178
+	1172.3.1 = {
+		holder = 230000
+	}
+	1178.1.1 = {
+		holder = 93052 # Muhammed
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	##
+	1426.1.1 = {
+		holder = NuraddinNogOrda
+	}
+	#
+	1427.7.17 = {
+		holder = TemirMansNogai
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+	1448.7.17 = {
+		holder = MusaNogOrda
+	}
+	1486.7.18 = {
+		holder = TavvakulMansNogai
+		liege = k_nogai_orda
+	}
+}
+
+c_ak-dzulpas = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_6	#fic to have more chars and avoid domain overlimit
+		liege = d_aral_il
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1065.1.1 = {
+		holder = fictional_turkish_20	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = 93052 # Muhammed
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	
+	##
+	1419.9.9 = {
+		holder = MansurBiyNog
+	}
+	#
+	1427.7.17 = {
+		holder = NuraddinNogOrda
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1469.12.29 = {
+		holder = nogai_karakalpak1
+		liege = k_nogai_orda
+		government = nomad_government
+	}
+}
+
+
+c_aralkizil = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_6	#fic to have more chars and avoid domain overlimit
+		liege = d_aral_il
+	}
+	
+	#1055 - End of Oghuz il
+	1055.1.2 = {
+		holder = 302636	#fictional Afsin Aiytid
+		liege = 0
+	}
+	1096.12.21 = {
+		holder = 302637	#fictional Dogukan Aiytid
+	}
+	1109.8.13 = {
+		holder = 302638	#fictional Hizir Aiytid
+	}
+	1136.5.10 = {
+		holder = 302639	#fictional Dogukan Aiytid
+	}
+	1163.1.14 = {
+		holder = 302640	#fictional Artuk Aiytid
+	}
+	1178.1.1 = {
+		holder = 93052 # Muhammed
+	}
+	1195.4.9 = {
+		holder = 302641	#fictional Inal Aiytid
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	##
+	1419.9.9 = {
+		holder = MansurBiyNog
+	}
+	#
+	1427.7.17 = {
+		holder = NuraddinNogOrda
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1469.12.29 = {
+		holder = nogai_karakalpak1
+		liege = k_nogai_orda
+		government = nomad_government
+	}
+}
+
+d_barsuki = {
+	1178.1.1 = {
+		holder = khwarezmid_4 # Yunus
+		liege = k_transoxiana
+		government = nomad_government
+	}
+	##
+	1300.1.1 = { holder = 0 }
+	1454.1.1 = { de_jure_liege = k_nogai_orda }
+	##
+	1490.1.1 = {
+		holder = AbbasNogOrda
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+}
+
+#new, est titul
+d_aral_karakum = {
+	1454.1.1 = { de_jure_liege = k_nogai_orda }
+}
+
+c_terekli = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_5	#fic to have more chars and avoid domain overlimit
+		government = herder_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1054.1.1 = {
+		holder = fictional_turkish_19	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+		government = nomad_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_kipchaks_24 # fictional herder Tetr
+		liege = d_barsuki
+		government = nomad_government
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+
+	##
+	1419.9.9 = {
+		holder = MansurBiyNog
+	}
+	#
+	1427.7.17 = {
+		holder = NuraddinNogOrda
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1470.1.1 = {
+		holder = AbbasNogOrda
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+	#
+	1489.9.9 = {
+		holder = Sheih_Mamai_biy_u1549
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+}
+
+c_airyuk = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_33	#fictional herder
+		government = herder_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1039.1.1 = {
+		holder = fictional_turkish_18	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+		government = nomad_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_kipchaks_30 # fictional herder Ituk
+		liege = d_barsuki
+		government = nomad_government
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	##
+	1419.9.9 = {
+		holder = MansurBiyNog
+	}
+	1427.7.17 = {
+		holder = NuraddinNogOrda
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	1470.1.1 = {
+		holder = AbbasNogOrda
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+}
+
+
+c_barsuki = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_6	#fic to have more chars and avoid domain overlimit
+		liege = d_aral_il
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1039.1.1 = {
+		holder = fictional_turkish_18	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = khwarezmid_4 # Yunus
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	##
+	1419.9.9 = {
+		holder = MansurBiyNog
+	}
+	#
+	1427.7.17 = {
+		holder = NuraddinNogOrda
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1470.1.1 = {
+		holder = AbbasNogOrda
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+}
+
+c_jamantau = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_34	#fictional herder
+		government = herder_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1063.1.1 = {
+		holder = fictional_turkish_17	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+		government = nomad_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_kipchaks_30 # fictional herder Ituk
+		liege = d_barsuki
+		government = nomad_government
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	##
+	1419.9.9 = {
+		holder = MansurBiyNog
+	}
+	1427.7.17 = {
+		holder = NuraddinNogOrda
+	}
+	1440.9.9 = {
+		holder = WakkasNogOrda
+	}
+	1448.9.9 = {
+		holder = MusaNogOrda
+	}
+	#
+	1465.6.15 = {
+		holder = AbbasNogOrda
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+}
+
+
+c_aral_karakum = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_4	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1054.1.1 = {
+		holder = fictional_turkish_19	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+	}
+	
+	#1085.1.1 = {
+	#	holder = 93088
+	#}
+	#1097.1.1 = {
+	#	holder = 144099
+	#}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_kipchaks_24 # fictional herder Tetr
+		liege = d_barsuki
+		government = nomad_government
+	}
+	1200.1.1 = {
+		holder = 93052
+		government = nomad_government
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	
+	##
+	1419.9.9 = {
+		holder = MansurBiyNog
+	}
+	1427.7.17 = {
+		holder = TemirMansNogai
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+	1470.1.1 = {
+		holder = AbbasNogOrda
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+	1489.9.9 = {
+		holder = Sheih_Mamai_biy_u1549
+		government = nomad_government
+		liege = k_nogai_orda
+	}
+}
+
+c_chalkar = {
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		liege = k_oghuz_il
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = fictional_turkish_4	#fic to have more chars and avoid domain overlimit
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1054.1.1 = {
+		holder = fictional_turkish_19	#fic to have more chars and avoid domain overlimit
+		liege = k_caspian_steppe
+	}
+	
+	#1085.1.1 = {
+	#	holder = 93088
+	#}
+	#1097.1.1 = {
+	#	holder = 144099
+	#}
+	
+	#1178
+	1178.1.1 = {
+		holder = fictional_kipchaks_24 # fictional herder Tetr
+		liege = d_barsuki
+		government = nomad_government
+	}
+	1200.1.1 = {
+		holder = 93052
+	}
+	1207.1.1 = {
+		holder = 93053
+	}
+	
+	#Mongols
+	1221.1.1 = {
+		liege = e_mongol_empire
+	}
+	1221.1.1 = {
+		holder = 93100
+	}
+	1227.12.2 = {
+		liege = e_golden_horde
+	}
+	1260.1.1 = {
+		holder = 93101
+	}
+	1300.1.1 = {
+		holder = 93102
+	}
+	##
+	1465.1.1 = {
+		holder = kaz_past_shalkar
+		government = herder_government
+		liege = 0
+	}
+	
+
+}
+

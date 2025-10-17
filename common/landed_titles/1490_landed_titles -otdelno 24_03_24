@@ -1,0 +1,454 @@
+﻿###1490
+#Османская империя
+e_ottoman = {
+	color = { 240 40 27 }
+	can_be_named_after_dynasty = no
+	capital = c_byzantion
+}
+#Адриатика-Ионика
+e_adriatikaionika = {
+	color = { 12 1 254 }
+	can_be_named_after_dynasty = no
+	capital = c_attica
+}
+#герцогство Клеве
+d_cleve = {
+	color = { 100 48 67 }
+	can_be_named_after_dynasty = no
+	capital = c_cleves
+}
+#Герцеговина Мостар и Требинье
+d_herzegovina = {
+	color = { 250 8 67 }
+	can_be_named_after_dynasty = no
+	capital = c_travunia
+}
+#Альбертинская саксония Мейсен и Дрезден
+d_albertin_saxony = {
+	color = { 255 255 0 }
+	can_be_named_after_dynasty = no
+	capital = c_dresden
+}
+#Эрнестинская Саксония
+d_ernestin_saxony = {
+	color = { 240 0 24 }
+	can_be_named_after_dynasty = no
+	capital = c_wittenberg
+}
+#ВКЛ с 1240-х годов - ПЛОХАЯ ИДЕЯ
+#k_Vel_Kn_Litovskoe = {
+#	color = { 255 5 10 }
+#	can_be_named_after_dynasty = no
+#	capital = c_kernave #Вильна Кярнаве b_vilnius
+#}
+#герцогство Брауншвейг-Люнебург с 1235 ещё и Ганновер Braunschweig-Lüneburg
+d_braunshweig_Luneburg = {
+	color = { 200 100 5 }
+	can_be_named_after_dynasty = no
+	capital = c_luneburg
+}
+#Имперские города
+d_imperskie_goroda = {
+	color = { 255 184 60 }
+	can_be_named_after_dynasty = no
+	capital = c_aachen
+}
+#Новое герцогство Урбино 1443 — 1631
+d_urbino = {
+	color = { 111 111 111 }
+	can_be_named_after_dynasty = no
+	capital = c_urbino
+}
+#Орден Сен-Мишель
+d_saint_michel = {
+	color = { 52 60 80 }
+	can_be_named_after_dynasty = no
+	capital = c_avranches
+}
+#Герцогство Феррара с 1471
+d_ferrara = {
+	color = { 170 191 255 }
+	can_be_named_after_dynasty = no
+	capital = c_ferrara
+}
+#Ниш санджак
+d_sanjak_nish = {
+	color = { 200 50 55 }
+	can_be_named_after_dynasty = no
+	capital = c_naissus
+}
+#Охрид формально ещё с 1395 был Дебар
+d_sanjak_ohrid = {
+	color = { 100 75 55 }
+	can_be_named_after_dynasty = no
+	capital = c_ohrid
+}
+#Печский санджак с 1455 Sanjak of İpek Хвосно
+d_sanjak_pech = {
+	color = { 88 75 55 }
+	can_be_named_after_dynasty = no
+	capital = c_hvosno
+}
+d_alba = {
+	color = { 66 170 255 }
+	can_be_named_after_dynasty = no
+	capital = c_benavente
+}
+k_prussia = {
+	color = { 165 165 165 }
+	can_be_named_after_dynasty = no
+	capital = c_konigsberg
+}
+d_prusski_souz = {
+	color = { 6 17 200 }
+	can_be_named_after_dynasty = no
+	capital = c_torun
+}
+#Курпфальц Kurpfalz
+d_kurpfalz = {
+	color = { 60 35 88 }
+	can_be_named_after_dynasty = no
+	capital = c_speyer
+}
+d_alba = {
+	color = { 250 170 255 } #ранее  66 170 255
+	can_be_named_after_dynasty = no
+	capital = c_benavente
+}
+d_najera = {
+	color = { 100 100 100 }
+	can_be_named_after_dynasty = no
+	capital = c_najera
+}
+d_bejar_y_plasencia = {
+	color = { 22 70 166 }
+	can_be_named_after_dynasty = no
+	capital = c_plasencia
+}
+#Рижское архиепископство с 1255 самостоятельно
+d_rizhskoe_epis = {
+	color = { 100 55 33 }
+	can_be_named_after_dynasty = no
+	capital = c_vidzeme #с ригой
+}
+#проба Гаити La Española
+#d_haiti_espanola = {
+#	color = { 0 70 100 }
+#	can_be_named_after_dynasty = no
+#	landless = no
+#	can_create = { always = no }
+#}
+#Верховские княжества - Верхнеокские княжества
+d_verhovskie_knyzva = {
+	color = { 233 233 33 }
+	can_be_named_after_dynasty = no
+	capital = c_odoyev #Одоев
+}
+e_ming = {
+	color = { 255 160 10 }
+	can_be_named_after_dynasty = no
+	capital = c_xingqing
+}
+# d_kahetia и d_kartli
+#Кахетия
+d_kahetia = {
+	color = { 255 255 2 }
+	can_be_named_after_dynasty = no
+	capital = c_kakheti
+}
+#Картли
+d_kartli = {
+	color = { 255 36 10 }
+	can_be_named_after_dynasty = no
+	capital = c_tbilisi
+}
+#Имеретия
+d_imeretia = {
+	color = { 182 36 240 } #204 204 254
+	can_be_named_after_dynasty = no
+	capital = c_odishi
+}
+#Герцогство Браганса
+d_braganza = {
+	color = { 217 70 17 }
+	can_be_named_after_dynasty = no
+	capital = c_braganza
+}
+#Визеу-Бежа - 2 в одном Viseu-Beja
+d_vizeu_bezha = {
+	color = { 160 222 77 } #160 210 65
+	can_be_named_after_dynasty = no
+	capital = c_viseu
+}
+#Лиссабон-Алгарви
+d_lissabon_algarvi = {
+	color = { 155 220 10 }
+	can_be_named_after_dynasty = no
+	capital = c_lisboa
+}
+#Герцогство Кадис - Ducado de Cádiz
+d_cadiz = {
+	color = { 255 223 23 }
+	can_be_named_after_dynasty = no
+	capital = c_cadiz
+}
+#Герцогство Росс
+d_ross = {
+	color = { 253 213 83 }
+	can_be_named_after_dynasty = no
+	capital = c_ross
+}
+#Герцогство Винчестер - Уилтшир + Винчестер 
+d_winchester = {
+	color = { 255 188 177 }
+	can_be_named_after_dynasty = no
+	capital = c_hampton #Гэмпшир с центром в городе Винчестер b_winchester
+}
+#Герцогство Саффолк
+d_suffolk = {
+	color = { 153 139 255 }
+	can_be_named_after_dynasty = no
+	capital = c_suffolk
+}
+#Сомерсет-Дорсет, чтобы поделить земли с герцогством Винчестер
+d_somerset2_dorset = {
+	color = { 134 127 86 }
+	can_be_named_after_dynasty = no
+	capital = c_somerset
+}
+#Бедфорд новый - d_bedford назывался Essex  
+d_bedford2 = {
+	color = { 15 25 25 }
+	can_be_named_after_dynasty = no
+	capital = c_bedford
+}
+#герцогство Бекингем (Бакингем/Букингем) - первая креация (1444), но не берём в расчёт
+d_buckingham = {
+	color = { 200 25 25 }
+	can_be_named_after_dynasty = no
+	capital = c_buckinghamshire
+}
+#Валлийская Марка - Welsh Marches
+d_walliyskay_marka = {
+	color = { 113 33 33 }
+	can_be_named_after_dynasty = no
+	capital = c_shropshire
+}
+#переделка Эзель-Викское епископство
+d_ezelvikep = {
+	color = { 23 23 23 }
+	can_be_named_after_dynasty = no
+	capital = c_osel # Эзель
+}
+#Бургундия — королевство на основе герцогства — Королевством именуют Арелат
+k_burgundy2 = {
+	color = { 33 93 233 }
+	can_be_named_after_dynasty = no
+	capital = c_dijon # Дижон
+}
+#Пикардия — центр Амьен
+d_picardie = {
+	color = { 20 50 200 }
+	can_be_named_after_dynasty = no
+	capital = c_amiens
+}
+#Немур
+d_nemours = {
+	color = { 18 76 24 }
+	can_be_named_after_dynasty = no
+	capital = c_brie_francaise #Мелен-Немур
+}
+#герцогство Алансон
+d_alencon = {
+	color = { 13 13 103 }
+	can_be_named_after_dynasty = no
+	capital = c_alencon
+}
+#
+#Псков - как герцогство
+d_pskov = {
+	color = { 140 130 63 }
+	can_be_named_after_dynasty = no
+	capital = c_pskov
+}
+#Тверь - как герцогство
+d_tver = {
+	color = { 50 102 50 }
+	can_be_named_after_dynasty = no
+	capital = c_tver
+}
+#Белоозеро - создаваемое герцогство
+d_beloozero = {
+	color = { 153 250 175 }
+	can_be_named_after_dynasty = no
+	capital = c_beloozero
+}
+#Московская метрополия 1461
+d_metropolis_moscow = {
+	landless = yes
+	capital = c_moskva
+	definite_form = yes
+	ruler_uses_title_name = no
+	color = { 200 100 22 }
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+}
+
+#Санджак Янина
+d_sanjak_ioaninna = {
+	color = { 77 77 77 }
+	can_be_named_after_dynasty = no
+	capital = c_epeiros #столица Янина
+}
+#Санджак Авлона-Берат
+d_sanjak_avlonaberat = {
+	color = { 125 16 135 }
+	can_be_named_after_dynasty = no
+	capital = c_avlonas
+}
+#Румелия
+k_rumelia = {
+	color = { 123 160 91 }
+	can_be_named_after_dynasty = no
+	capital = c_adrianopolis #Эдирне/Адрианополь -  с 1520-х София
+}
+#Санджак Селаник (фессалонини)
+d_sanjak_selanik = {
+	color = { 189 24 133 }
+	can_be_named_after_dynasty = no
+	capital = c_thessalonika
+}
+#Санджак Гелиболу
+d_sanjak_gelibolu = {
+	color = { 177 11 83 }
+	can_be_named_after_dynasty = no
+	capital = c_kalliopolis #Каллиполь = Гелиболу
+}
+#Навпакт - Лепанто+Арта
+d_nafpaktos	= {
+	color = { 150 100 140 }
+	can_be_named_after_dynasty = no
+	capital = c_aetolia #Этолия со столицей Навпакт Naupaktos
+}
+#Скопье - новое
+d_skopje = {
+	color = { 136 96 96 }
+	can_be_named_after_dynasty = no
+	capital = c_skopje
+}
+#Санджак София
+d_sanjak_sofia = {
+	color = { 22 22 22 }
+	can_be_named_after_dynasty = no
+	capital = c_sredets
+}
+#Дулкадир - столица Эльбистан (Албаста) и Маращ 1337-1522
+d_dulkadir = {
+	color = { 122 122 122 }
+	can_be_named_after_dynasty = yes
+	capital = c_ablastha
+}
+#Ак-Коюнлу - 1467—1501/1503 - столица Тебриз (1467–1501)
+k_aqqoyunlu = {
+	color = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_tabriz
+}
+#Ливонская конфедерация - центр Венден (Цесис) в Талаве
+d_livonian_confederation = {
+	color = { 250 251 252 }
+	can_be_named_after_dynasty = no
+	capital = c_talava
+}
+#Латгалия новая Latgale - Латгалия-2 - Центры Латгалии - Динабург, Якобштадт, Резекене
+#всё в Герцике
+d_latgale = {
+	color = { 111 36 36 }
+	can_be_named_after_dynasty = no
+	capital = c_jersika
+}
+#Голконда, создаваемое
+k_golkonda = {
+	color = { 5 162 210 }
+	can_be_named_after_dynasty = no
+	capital = c_racakonda
+}
+#Греция, создаваемое в планах
+k_greece = {
+	color = { 5 6 255 }
+	can_be_named_after_dynasty = no
+	capital = c_attica # Афины
+}
+#Саксония - новое, но ключ был - курфюршество 1356 по 1806, но у меня с 1423, после поглощения Мейсена
+d_saxony = {
+	color = { 250 250 80 }
+	can_be_named_after_dynasty = no
+	capital = c_dresden
+}
+#Передняя Австрия - Брейсгау и до озера Констанц, центр Фрайбург
+d_further_austria = {
+	color = { 211 211 211 }
+	can_be_named_after_dynasty = no
+	capital = c_breisgau
+}
+#Вюртемберг, как герцогство, с 1495
+d_wurttemberg = {
+	color =  { 205 205 205 }
+	can_be_named_after_dynasty = no
+	capital = c_wurttemberg
+}
+#Цоллерн + Зигмаринен в Грюннингене
+d_zollern = {
+	color =  { 225 225 225 }
+	can_be_named_after_dynasty = no
+	capital = c_zollern
+}
+#Ганзейские города - для Любека и Гамбурга
+d_hanseatic_cities = {
+	color = { 141 143 146 }
+	can_be_named_after_dynasty = no
+	capital = c_lubeck
+}
+#Мантуя, как герцогство - с 1530
+d_mantua = {
+	color = { 215 175 215 }
+	can_be_named_after_dynasty = no
+	capital = c_mantua
+}
+#Инфантадо с 1475
+d_infantado = {
+	color = { 233 183 23 }
+	can_be_named_after_dynasty = no
+	capital = c_asturias_de_santillana
+}
+#Невер, создаваемое. С 1535
+d_nevers = {
+	color = { 30 75 165 }
+	can_be_named_after_dynasty = no
+	capital = c_nevers
+}
+#Орден Монтеса в Валенсии Orden de Montesa s 1317
+d_montesa_order = {
+	color = { 85 205 125 }
+	can_be_named_after_dynasty = no
+	capital = c_valencia
+}
+#Сегорбе - Герцог Сегорбе duque de Segorbe с 1459
+d_segorbe = {
+	color = { 85 170 125 }
+	can_be_named_after_dynasty = no
+	capital = c_castellon
+}
+#Мединасели
+d_medinaceli = {
+	color = { 195 125 11 }
+	can_be_named_after_dynasty = no
+	capital = c_molina
+}
+k_habs_netherlands = {
+	color = { 250 250 250 }
+	can_be_named_after_dynasty = no
+	capital = c_brabant
+}

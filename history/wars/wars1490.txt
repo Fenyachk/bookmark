@@ -1,0 +1,158 @@
+# Война бастарда Ангуса Ога за Гебриды
+war = {
+	name = "war_AnusOgScot"
+	start_date = 1488.8.8
+	end_date = 1490.2.2
+	targeted_titles={
+		d_western_isles
+	}
+	casus_belli = claim_cb
+	attackers = { AonghasOgMacDonald }
+	defenders = { James4Stewart }
+	claimant = AonghasOgMacDonald
+}
+# Вторая война роз 1469-1471
+# 12 марта 1470 Битва при Лоскот-Филд
+war = {
+	name = "war_Second_Roses"
+	start_date = 1469.7.20
+	end_date = 1471.12.12
+	targeted_titles={
+		c_lincolnshire
+	}
+	casus_belli = depose_war
+	attackers = { Robert_Welles8b RichardNevill JohnNeville1MMont }
+	defenders = { eduard_4_york }
+	claimant = Robert_Welles8b
+}
+# Война Одоевского княжества Странная война
+#war = {
+#	name = "war_Strange"
+#	start_date = 1489.10.8
+#	end_date = 1490.3.2
+#	targeted_titles={
+#		d_the_isles
+#	}
+#	casus_belli = claim_cb
+#	attackers = { AonghasOgMacDonald }
+#	defenders = { James4Stewart }
+#	claimant = AonghasOgMacDonald
+#}
+# Битва при Кальяно (10 авг 1487) Война Роверето - War of Rovereto
+war = {
+# name = "war_of_rovereto"
+	start_date = 1487.8.1
+	end_date = 1487.8.11
+	targeted_titles = { c_trent }
+	casus_belli = county_conquest_cb
+	attackers = { GiovanniMocenigo }
+	defenders = { Ulrich_Frundsberg_Trent SiegmundHabsTirol }
+	claimant = GiovanniMocenigo
+}
+#тип - invasion_war - вторжение
+#Война Ливонского ордена с Псковом 1480, началась 1 января - примерно до конца августа
+war = {
+# name = 
+	start_date = 1480.1.1
+	end_date = 1480.8.31
+	targeted_titles = { c_pskov }
+	casus_belli = invasion_war
+	attackers = { Bernhard_von_Borch }
+	defenders = { VasilVasShuiski }
+	claimant = Bernhard_von_Borch
+}
+#Возвращение Барселоны и Жироны Арагону, подавление восстания
+war = {
+# name = "war_"
+	start_date = 1466.8.1
+	end_date = 1470.12.16
+	targeted_titles = { c_barcelona c_girona }
+	casus_belli = county_conquest_cb
+	attackers = { Huan2Aragon }
+	defenders = { JoannesAnjuLot }
+	claimant = Huan2Aragon
+}
+#Война за Кастильское наследство Изабелла против Хуаны
+#август 1475 - 4 сентября 1479 года
+#war = {
+#	name = "war_AnusOgScot"
+#	start_date = 1488.8.8
+#	end_date = 1490.2.2
+#	targeted_titles={
+#		d_western_isles
+#	}
+#	casus_belli = claim_cb
+#	attackers = { AonghasOgMacDonald }
+#	defenders = { James4Stewart }
+#	claimant = AonghasOgMacDonald
+#}
+##
+#Оломоуцкий мирный договор был подписан 2 апреля 1479 года между венгерским королём Матьяшем Корвином и королём Богемии Владиславом II (а позже и Венгрии)
+#богемско–венгерской войне (1468-1478)
+# 21 июля 1479 года соглашение было ратифицировано во время праздничных мероприятий в Оломоуце
+war = {
+	start_date = 1471.5.30 #etap do koronovania Vladislava II opustim
+	end_date = 1479.4.2
+	targeted_titles ={
+		d_moravia
+	}
+	casus_belli = claim_cb
+	attackers = { matiakorvin }
+	defenders = { Vladislav2Yagel }
+	claimant = matiakorvin
+}
+#Турецко-венецианская война (1463—1479) - в июле 1470 года турки высадились в Негропонте и захватили Эвбею
+war = {
+	start_date = 1469.12.30
+	end_date = 1479.1.1
+	targeted_titles ={
+		c_euboea
+	}
+	casus_belli = invasion_war
+	attackers = { Mehmed2Zavoevat }
+	defenders = { Anto_Zorzi_poslSevTriarh CristoforoMoro }
+	claimant = Mehmed2Zavoevat
+}
+#Война казахов с Шейбанидами за присырдарьинские города
+war = {
+	start_date = 1469.9.1
+	end_date = 1471.7.1
+	targeted_titles = { c_shavgar }
+	casus_belli = invasion_war
+	attackers = { erenshi_sult_tore Kerei2Kazhan }
+	defenders = { ShaihHaidarUzbek }
+	claimant = erenshi_sult_tore
+}
+#Война Ибака против Шейбанидов
+war = {
+	start_date = 1469.11.11
+	end_date = 1471.7.1
+	targeted_titles = {
+		d_syr_darya
+	}
+	casus_belli = invasion_war
+	attackers = { IbakKhanSibir }
+	defenders = { ShaihHaidarUzbek }
+}
+#война за Киликию между Османами и мамлюками 1485-
+war = {
+	start_date = 1485.12.31
+	end_date = 1491.7.1
+	targeted_titles = {
+		d_cilicia
+	}
+	casus_belli = invasion_war
+	attackers = { BayazidOsm2 Shanishah_Osman }
+	defenders = { Mahmud_synDavuda_Ramazanid al_ashraf_qaitbay }
+}
+#война за Эдессу и Дияр-Бакыр, вторжение мамлюков в Ак-Коюнлу
+war = {
+	start_date = 1480.7.9
+	end_date = 1480.8.8
+	targeted_titles = {
+		d_diyarbakr c_edessa
+	}
+	casus_belli = invasion_war
+	attackers = { al_ashraf_qaitbay egip_v_ozdemir Gansu_Yakhyavi }
+	defenders = { YaqubAkKuun khalil_beg_mosullu }
+}

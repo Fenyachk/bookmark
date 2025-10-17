@@ -1,0 +1,848 @@
+﻿###МОДЫ 1453 1470 1490
+#Анжуйский дом династии Валуа
+house_anjouvalois = {
+	name = "dynn_AnjouValois"
+	dynasty = 101 # Валуа
+}
+#Шемякины дом династии Рюрикович
+house_shemyaka = {
+	name = "dynn_Shemyaka"
+	dynasty = 705 # Рюрик
+}
+#Боровские дом династии Рюрикович
+house_borovski = {
+	name = "dynn_Borovski"
+	dynasty = 705 # Рюрик
+}
+#Ягеллоны теперь дом Гедиминовичей
+house_Yagellon = {
+	name = "dynn_Yagellon"
+	motto = dynn_Yagellon_motto
+	dynasty = 11
+}
+#Ланкастер это дом Плантагенетов с 1362 года
+house_Lankaster = {
+	name = "dynn_Lancaster"
+	dynasty = 723 #до обновы Базилевс 106
+}
+#Браганса дом Ависской династии с 1442 года с детей Жуана I Ависского
+house_BragansaAvis = {
+	name = "dynn_BraganC_a"
+	dynasty = AvissPort
+}
+#Одоевские дом династии Рюрикович
+house_odoevski = {
+	name = "dynn_Odoevski"
+	dynasty = 705 # Рюрик
+}
+#Воротынские дом династии Рюрикович козельск
+house_vorotynski = {
+	name = "dynn_Vorotynski"
+	dynasty = 705 # Рюрик
+}
+#Бофорт Дом внутри дома Ланкастеров Плантагенетов
+house_bofort = {
+	name = "dynn_Bofort"
+	dynasty = 723 #до обновы Базилевс 106
+}
+#Дом Энрикес от Ивреа потомки Фадрике
+house_enriquez = {
+	name = "dynn_EnrI_quez"
+	dynasty = 681
+}
+#Шуйские старшие дом династии Рюрикович
+house_shuiski = {
+	name = "dynn_Shuiski"
+	dynasty = 705
+}
+#Шуйские младшие дом династии Рюрикович
+house_shuiskiMl = {
+	name = "dynn_ShuiskiMl"
+	dynasty = 705
+}
+#Шибаниды, чингизиды, потомки Шибана, пятого сына Джучи
+house_shaybanid = {
+	name = "dynn_Shibanid"
+	dynasty = 11100
+}
+#Тукатимуриды Чингизиды Борджигин
+house_tuqatimchin = {
+	name = "dynn_TuqaTimurid"
+	dynasty = 11100
+}
+#Йорки Дом внутри дома Ланкастеров Плантагенетов
+house_yorkplantag = {
+	name = "dynn_Yorkplantagenet"
+	dynasty = 723 #до обновы Базилевс 106
+}
+#Монфор Бретонский дом Дрё с 1350 годов
+house_monfor = {
+	name = "dynn_Montfort"
+	dynasty = 86
+}
+#Вильяэрмоса Трастамара
+house_villahermosa = {
+	name = "dynn_Villahermosa"
+	dynasty = 774
+}
+#Рязанский дом Рюриковичей темное происхождение
+house_ryazanskiRu = {
+	name = "dynn_Ryazanski"
+	dynasty = 705
+}
+#Бельские Гедиминовичи
+house_belskiGed = {
+	name = "dynn_Belski"
+	dynasty = 11
+}
+#Казанский дом
+house_kazahnany = {
+	name = "dynn_kazahnany"
+	dynasty = 11100
+}
+#Патрикеевы Гедиминовичи
+house_patrikeev = {
+	name = "dynn_Patrikeev"
+	dynasty = 11
+}
+#Олельковичи Гедиминовичи
+house_olelkovich = {
+	name = "dynn_Olelkowicz"
+	dynasty = 11
+}
+#Хованские от Патрикеевых Гедиминовичи
+house_hovanski = {
+	name = "dynn_Hovanskiy"
+	dynasty = 11
+}
+#Щенятевы от Патрикеевых Гедиминовичи
+house_shcenyatev = {
+	name = "dynn_Shcenyatev"
+	dynasty = 11
+}
+#Алансконский дом династии Валуа
+house_alansonvalois = {
+	name = "dynn_AlansonValua"
+	dynasty = 101 # Валуа
+}
+#Орлеан-Лонгвиль Валуа
+house_orleanlongwil = {
+	name = "dynn_Orlean_Longwil"
+	dynasty = 101 # Валуа
+}
+#Валуа-Ангулем
+house_valuaAngulem = {
+	name = "dynn_ValuaAngulem"
+	dynasty = 101 # Валуа
+}
+#Бурбон-Вандом
+house_burbonVandom = {
+	name = "dynn_BurbonVandom"
+	dynasty = 100146 # Бурбоны
+}
+#Гессенский дом Гессен-Лювен
+house_HessenLuven = {
+	name = "dynn_HessenLuven"
+	dynasty = 7198
+}
+#дом Ангальт-Цербст-Дессау
+house_Anhalt_Dessau = {
+	name = "dynn_Anhalt_Dessau"
+	dynasty = 226 # Аскании
+}
+#Стрига-Оболенские 
+house_striga_obolenski = {
+	name = "dynn_StrigaObolenski"
+	dynasty = Obolenski
+}
+#дом Ратцебург-Лауэнбург Аскании dynasty = 226
+house_ratzeburg_lauengurg = {
+	name = "dynn_Ratzeburg_Lauengurg"
+	dynasty = 226
+}
+#Траханиоты от Тарханиотов 101145
+house_trahaniot = {
+	name = "dynn_Trahaniot"
+	dynasty = 101145
+}
+#Верейский дом Рюриковичей
+house_vereiskiRu = {
+	name = "dynn_Vereiskiy"
+	dynasty = 705
+}
+#Bourbon-Roussillon
+house_burbonrusilon = {
+	name = "dynn_BourbonRoussillon"
+	dynasty = 100146
+}
+#Стюарты dynasty = 3134 Дарнли и Леннокс
+house_stewart_darnley = {
+	name = "dynn_Stewart_Darnley"
+	dynasty = 3134
+}
+house_stewart_lennox = {
+	name = "dynn_Stewart_Lennox"
+	dynasty = 3134
+}
+#О’Доннел династия ли 4043
+house_oDonnell_tirkon = {
+	name = "dynn_ODonnell"
+	dynasty = 4043
+}
+#дом Фуа-Грайи с 1380-х
+house_foix_grailly = {
+	prefix = "dynnp_de"
+	name = "dynn_Foix_Grailly"
+	dynasty = 388 #Vasconia
+}
+#дом Фуа-Кандаль
+house_foix_candale = {
+	prefix = "dynnp_de"
+	name = "dynn_Foix_Candale"
+	dynasty = 388 #Vasconia
+}
+#Фуа-Лотрек
+house_foix_lautrec = {
+	prefix = "dynnp_de"
+	name = "dynn_Foix_Lautrec"
+	dynasty = 388 #Vasconia
+}
+#дом Гуриели из Дадиани
+house_gurieli = {
+	name = "dynn_Gurieli"
+	dynasty = 101753
+}
+#Люксембург-Линьи
+house_luxemburg_ligny = {
+	prefix = "dynnp_de"
+	name = "dynn_Luxemburg_Ligny"
+	dynasty = 25061 #Каролинги
+}
+#Пяст-Заторский
+house_zatorski_pyast = {
+	name = "dynn_Zatorski_Pyast"
+	dynasty = 699 #Пясты
+}
+#Торе дом Казахских ханов часть Тукатимуридов Борджигин
+house_tore_chingizidkaz = {
+	name = "dynn_ChingTore"
+	dynasty = 11100
+}
+#Бурбон-Монпасье 100146 Montpensier
+house_burbon_montpensier = {
+	name = "dynn_Burbon_Montpensier"
+	dynasty = 100146 # Бурбоны
+}
+#Гиреи Крым Тукатимуриды Борджигин 
+house_girei_krym = {
+	name = "dynn_Girey"
+	dynasty = 11100
+}
+#Туглуктимуриды Борджигин
+house_tugluktimurid = {
+	name = "dynn_Tugluktimurid"
+	dynasty = 11100
+}
+#Юань Северная Юань Борджигин
+house_mong_sev_uan = {
+	name = "dynn_MongUan"
+	dynasty = 11100
+}
+#Кобринские Гедиминовичи
+house_kobrinski_gedim = {
+	name = "dynn_Kobrinskiy"
+	dynasty = 11
+}
+#Альба дом
+house_alba = {
+	name = "dynn_Alba"
+	dynasty = Alvarez_de_Toledo
+}
+#Бомон дом Эврё Évreux
+house_de_beaumont_evreux = {
+	name = "dynn_Beaumont"
+	prefix = "dynnp_de"
+	dynasty = 752
+}
+#Орсини дель Бальцо
+house_orsiniDELbalzo = {
+	name = "dynn_Orsini_Del_Balzo"
+	dynasty = 2
+}
+#Чарторыйские
+house_chartoryiskiy = {
+	name = "dynn_Czartoryski"
+	dynasty = 11
+}
+#Zbarazhski house_nesvitskiy house_vishnevetskiy
+house_vishnevetskiy = {
+	name = "dynn_Vishnevetskiy"
+	dynasty = Zbarazhski
+}
+house_nesvitskiy = {
+	name = "dynn_Nesvitskiy"
+	dynasty = Zbarazhski
+}
+#Нассау 263
+house_nassau_dillenburg = {
+	name = "dynn_Nassau_Dillenburg"
+	dynasty = 263
+}
+house_nassau_saarbrucken = {
+	name = "dynn_Nassau_SaarbrUcken"
+	dynasty = 263
+}
+house_nassau_weilburg = {
+	name = "dynn_Nassau_Weilburg"
+	dynasty = 263
+}
+#де Шалон-Арле 681 Ивреа
+house_shalon_arle = {
+	name = "dynn_Chalon_Arlay"
+	prefix = "dynnp_de"
+	dynasty = 681
+}
+#Бо́рха Льянсо́ль де Романи́ Бо́рджиа
+house_Borja_Liansol_Romani = {
+	name = "dynn_Borja_Liansol_Romani"
+	dynasty = Borgjia
+}
+#Роган-Жье Rohan_Zhemene
+house_Rohan_Zhemene = {
+	name = "dynn_Rohan_Zhemene"
+	dynasty = 312
+}
+#FernandezDECordoba
+#Кабра дом Fernández de Córdoba
+house_deCabra_FdC = {
+	prefix = "dynnp_de"
+	name = "dynn_Cabra"
+	dynasty = FernandezDECordoba
+}
+#Агилар-и-Приего дом Fernández de Córdoba
+house_AguilaryPriego = {
+	prefix = "dynnp_de"
+	name = "dynn_AguilaryPriego"
+	dynasty = FernandezDECordoba
+}
+#Микулинский дом Тверских княжей
+house_mikulinski = {
+	name = "dynn_Mikulinskyi"
+	dynasty = 705 # Рюриковичи
+}
+#Бошаны из Поуика Бошан
+house_beauchamp_powick = {
+	name = "dynn_Beauchamp_Powick"
+	dynasty = 102008
+}
+#Бошаны из Блетсо
+house_beauchamp_bletso = {
+	name = "dynn_Beauchamp_Bletso"
+	dynasty = 102008
+}
+#Courtenay of Powderham Куртене из Паудерема
+house_courtenay_powderham = {
+	name = "dynn_Courtenay_Powderham"
+	dynasty = 23100
+}
+#Заславские Гедиминовичи потомки Евнутия
+house_zaslavskiy_Ged = {
+	name = "dynn_Zaslavskiy"
+	dynasty = 11
+}
+#Мстиславские
+house_mstislavskiy_Ged = {
+	name = "dynn_Mstislavskiy"
+	dynasty = 11
+}
+#Правильный дом Макдональдов - Соурле
+house_MacDonald = {
+	name = "dynn_MacDonald"
+	dynasty = 25046
+}
+house_Macdonald_Sleat = {
+	name = "dynn_Macdonald_Sleat"
+	dynasty = 25046
+}
+house_Macdonald_Dunnyveg = {
+	name = "dynn_Macdonald_Dunnyveg"
+	dynasty = 25046
+}
+house_Macdonald_Largie = {
+	name = "dynn_Macdonald_Largie"
+	dynasty = 25046
+}
+#Дуглас-Майнс Douglas of Mains
+house_Douglas_Mains = {
+	name = "dynn_Douglas_Mains"
+	dynasty = 3125
+}
+#Бурбон-Каренси
+house_burbonCarency = {
+	name = "dynn_burbonCarency"
+	dynasty = 100146 # Бурбоны
+}
+#Бурбон-Лаведан de Bourbon-Lavedan
+house_burbonLavedan = {
+	name = "dynn_burbonLavedan"
+	dynasty = 100146 # Бурбоны
+}
+#Бурбон-Бюссе
+house_burbonBusset = {
+	name = "dynn_burbonBusset"
+	dynasty = 100146 # Бурбоны
+}
+#Щепин-Ростовский
+house_ShchepinRostovskii = {
+	name = "dynn_ShchepinRostovski"
+	dynasty = 705 # Рюриковичи
+}
+#Холмские переделка в дом 
+house_Holmskiy = {
+	name = "dynn_Kholmsky"
+	dynasty = 705 # Рюриковичи
+}
+#Белосельские - от Белозерский Рюриковичи
+house_beloselskiy = {
+	name = "dynn_Beloselskiy"
+	dynasty = 705 # Рюриковичи
+}
+#Сицкие - Моложские рюриковичи
+house_sitskiy = {
+	name = "dynn_Sitskiy"
+	dynasty = 705 # Рюриковичи
+}
+#Прозоровские
+house_prozorovskiy = {
+	name = "dynn_Prozorovskiy"
+	dynasty = 705 # Рюриковичи
+}
+#Ярославские - всё же дом
+house_yaroslavskyi = {
+	name = "dynn_Yaroslavskyi"
+	dynasty = 705 # Рюриковичи
+}
+#Курбские - Ярославские Рюриковичи
+house_kurbskiy = {
+	name = "dynn_Kurbskiy"
+	dynasty = 705 # Рюриковичи
+}
+#Белёвские
+house_belyovskiy = {
+	name = "dynn_Belyovski"
+	dynasty = 705 # Рюриковичи
+}
+#Арабшахиды - дом Шибанидов, Чингизиды Борджигин
+house_arabshahid = {
+	name = "dynn_Arabshahid"
+	dynasty = 11100
+}
+##Ряполовские - теперь дом - часть Владимирско-Стародубских Рюриковичей
+house_ryapolowskiy = {
+	name = "dynn_Ryapolowskiy"
+	dynasty = 705 # Рюриковичи
+}
+#Ковровы — стародубские Рюриковичи
+house_kovrov = {
+	name = "dynn_Kovrov"
+	dynasty = 705 # Рюриковичи
+}
+#Пожарские  — стародубские Рюриковичи
+house_pozharsky = {
+	name = "dynn_Pozharsky"
+	dynasty = 705 # Рюриковичи
+}
+#Палецкие  — стародубские Рюриковичи
+house_paletskiy = {
+	name = "dynn_Paletskiy"
+	dynasty = 705 # Рюриковичи
+}
+#Гундоровы — от Палецких (Пёстрых)
+house_gundorov = {
+	name = "dynn_Gundorov"
+	dynasty = 705 # Рюриковичи
+}
+#Ромодановские
+house_romodanovskiy = {
+	name = "dynn_Romodanovskiy"
+	dynasty = 705 # Рюриковичи
+}
+#Голибесовские
+house_golibesovski = {
+	name = "dynn_Golibesovskiy"
+	dynasty = 705 # Рюриковичи
+}
+#Охлябинины - Ярославские князья
+house_ohlyabinin = {
+	name = "dynn_Ohlyabinin"
+	dynasty = 705 # Рюриковичи
+}
+#Хворостинины
+house_hvorostinin = {
+	name = "dynn_Hvorostinin"
+	dynasty = 705 # Рюриковичи
+}
+#Соломерецкие - Рюриковичи
+house_solomeretskiy = {
+	name = "dynn_Solomeretskiy"
+	dynasty = 705 # Рюриковичи
+}
+#Клинские-Дорогобужские - отрасль тверских князей Рюриковичи  Клинский-Дорогобужский
+house_klin_dorogobuzhsky = {
+	name = "dynn_Klinsky_Dorogobuzhsky"
+	dynasty = 705 # Рюриковичи
+}
+#Лёвенштейны - Левенштейн-Вертгеймы Löwenstein-Wertheim
+#от house_wittelsbach
+house_LOwensteinWertheim = {
+	name = "dynn_LOwenstein"
+	dynasty = 416
+}
+#Ушатые - моложские князья
+house_ushatyi = {
+	name = "dynn_Ushatyi"
+	dynasty = 705 # Рюриковичи
+}
+#Фюрстенберги, дом Уррахов
+house_furstenberg = {
+	name = "dynn_FU_rstenberg"
+	dynasty = 101718
+}
+#Пхагмодрупа - как дом династии Ланг
+house_phagmodrupa = {
+	name = "dynn_Phagmodrupa"
+	dynasty = 105834
+}
+#Кубелло — Сардинский дом с 1362 ветвь house_cappai_de_bas
+house_cubello = {
+	name = "dynn_Cubello"
+	dynasty = 1040086
+}
+#Бабичевы, от Друцких - на деле Рюриковичи dynasty = 705
+house_babichev = {
+	name = "dynn_Babichev"
+	dynasty = Drutskiy
+}
+#Серебряный-Оболенский - поидее Рюриковичи dynasty = 705
+house_sereb_obolenski = {
+	name = "dynn_Serebryaniy_Obolensky"
+	dynasty = Obolenski
+}
+#Арагонский дом Неаполь - Трастамара
+house_naplesdAragona = {
+	name = "dynn_dAragona"
+	dynasty = 774
+}
+#Трубецкие Трубчевские, от Гедиминовичей
+house_trubetskoy = {
+	name = "dynn_Trubetskoy"
+	dynasty = 11
+}
+#Valois-Bourgogne
+#Бургундский дом Валуа
+house_valois_bourgogne = {
+	name = "dynn_Valois_Bourgogne"
+	dynasty = 101 # Валуа
+}
+##1.13.0 “Basileus” и далее
+#Франкопаны с острова Крк, разрабы ввели династию
+house_frankopan = {
+	name = "dynn_Frankopan"
+	dynasty = croatian_krcki
+}
+#Todeschini
+house_todes_piccolomini = {
+	name = "dynn_TodeschiniPiccolomini"
+	dynasty = Todeschini
+}
+#de Menezes = Meneses. Ранее Menezish особо нужды нет, больше не выкидывает из генеалогического древа
+house_menezes = {
+	prefix = "dynnp_de"
+	name = "dynn_Meneses2"
+	dynasty = 400
+}
+#05-10-24
+#Тюдоры, как дом, ранее — dynasty = tyudors  14259
+house_tudor = {
+	name = "dynn_tyudors"
+	dynasty = 14259
+}
+house_hanau_munzenberg = {
+	prefix = "dynnp_von"
+	name = "dynn_Hanau_MUnzenberg"
+	dynasty = Hanau
+}
+#Ганау-Лихтенберг - Grafschaft Hanau-Lichtenberg
+house_hanau_lichtenberg = {
+	prefix = "dynnp_von"
+	name = "dynn_Hanau_Lichtenberg"
+	dynasty = Hanau
+}
+#Дракулешти, дом Бассарабов 764 Drăculești - имя было в списке и соотвествует румынскому
+house_drakuleshti = {
+	name = "dynn_DrA_culeS_tilor"
+	dynasty = 764
+}
+house_loyola = {
+	prefix = "dynnp_de"
+	name = "dynn_Loyola"
+	dynasty = Loyola
+}
+#де ла Вега, как дом внутри Фигероа, хотя это династия
+house_de_la_vega = {
+	prefix = "dynnp_de"
+	name = "dynn_la_Vega"
+	dynasty = Figueroa
+}
+house_fieramosca = {
+	name = "dynn_Fieramosca"
+	dynasty = Fieramosca
+}
+house_wotton = {
+	name = "dynn_Wotton"
+	dynasty = Wotton
+}
+house_simons = {
+	name = "dynn_Simons"
+	dynasty = Simons
+}
+house_calvin = {
+	name = "dynn_Calvin"
+	dynasty = Calvin
+}
+house_bucer = {
+	name = "dynn_Bucer"
+	dynasty = Bucer
+}
+house_luther = {
+	name = "dynn_Luther"
+	dynasty = Luther
+}
+house_commynes = {
+	name = "dynn_Commynes"
+	dynasty = Clyte
+}
+#Булгаковы-Патрикеевы Гедиминовичи
+house_bulgakov = {
+	name = "dynn_Bulgakov"
+	dynasty = 11
+}
+#Голицыны - Буллгаковы- Патрикеевы
+house_golitsyn = {
+	name = "dynn_Golitsyn"
+	dynasty = 11
+}
+house_knox = {
+	name = "dynn_Knox"
+	dynasty = Knox
+}
+house_nostredame = {
+	prefix = "dynnp_de"
+	name = "dynn_Nostredame"
+	dynasty = Gassonet
+}
+house_dantyszek = {
+	name = "dynn_Dantyszek"
+	dynasty = Hofen
+}
+house_hohenheim = {
+	name = "dynn_Hohenheim"
+	dynasty = Hohenheim
+}
+#Глимс - Регинары --van Glymes
+house_glymes = {
+	prefix = "dynnp_van"
+	name = "dynn_Glymes"
+	dynasty = 7198
+}
+house_bruno = {
+	name = "dynn_Bruno"
+	dynasty = Bruno
+}
+#Дадли, которые Саттоны
+house_dudley = {
+	name = "dynn_Dudley"
+	dynasty = Sutton
+}
+house_sutton_dudley = {
+	name = "dynn_Sutton_Dudley"
+	dynasty = Sutton
+}
+house_medici_popolano = {
+	prefix = "dynnp_de"
+	name = "dynn_medici_popolano"
+	dynasty = Medichii
+}
+house_zwingli = {
+	name = "dynn_Zwingli"
+	dynasty = Zwingli
+}
+house_muntzer = {
+	name = "dynn_MUntzer"
+	dynasty = MUntzer
+}
+house_storch = {
+	name = "dynn_Storch"
+	dynasty = Storch
+}
+house_leiden = {
+	prefix = "dynnp_van"
+	name = "dynn_Leiden"
+	dynasty = Beukelszoon
+}
+house_manz = {
+	name = "dynn_Manz"
+	dynasty = Manz
+}
+house_eck = {
+	name = "dynn_Eck"
+	dynasty = Mayer
+}
+house_farel = {
+	name = "dynn_Farel"
+	dynasty = Farel
+}
+house_karlstadt = {
+	name = "dynn_Karlstadt"
+	dynasty = Bodenstein
+}
+house_servet = {
+	name = "dynn_Servet"
+	dynasty = Servet
+}
+house_gersen = {
+	prefix = "dynnp_von"
+	name = "dynn_Gersen"
+	dynasty = Gersen
+}
+house_philips = {
+	name = "dynn_Philips"
+	dynasty = Philips
+}
+house_hofmann = {
+	name = "dynn_Hofmann"
+	dynasty = Hofmann
+}
+house_hemmingsen = {
+	name = "dynn_Hemmingsen"
+	dynasty = Hemmingsen
+}
+house_fuchs = {
+	name = "dynn_Fuchs"
+	dynasty = Fuchs
+}
+house_par_e = {
+	name = "dynn_Par_e"
+	dynasty = Pare
+}
+# da Cantalice - Porri
+house_cantalice = {
+	prefix = "dynnp_da"
+	name = "dynn_Cantalice"
+	dynasty = Porri
+}
+house_rondelet = {
+	name = "dynn_Rondelet"
+	dynasty = Rondelet
+}
+house_descartes = {
+	name = "dynn_Descartes"
+	dynasty = Descartes
+}
+house_galilei = {
+	name = "dynn_Galilei"
+	dynasty = Galilei
+}
+house_caius = {
+	name = "dynn_Caius"
+	dynasty = Kays
+}
+house_agricola = {
+	name = "dynn_Agricola"
+	dynasty = Olofsson
+}
+house_shakespeare = {
+	name = "dynn_Shakespeare"
+	dynasty = Shakespeare
+}
+house_rabelais = {
+	name = "dynn_Rabelais"
+	dynasty = Rabelais
+}
+house_cervantes = {
+	prefix = "dynnp_de"
+	name = "dynn_Cervantes"
+	dynasty = Cervantes
+}
+house_tabernaemontanus = {
+	name = "dynn_Tabernaemontanus"
+	dynasty = Tabernaemontanus
+}
+house_fyodyorov = {
+	name = "dynn_Fyodyorov"
+	dynasty = 13
+}
+house_skaryna = {
+	name = "dynn_Skarina"
+	dynasty = Skarina
+}
+house_pascal = {
+	name = "dynn_Pascal"
+	dynasty = pascal
+}
+house_petri = {
+	name = "dynn_Petri"
+	dynasty = pettersson
+}
+house_cranmer = {
+	name = "dynn_Cranmer"
+	dynasty = Cranmer
+}
+house_kepler = {
+	name = "dynn_Kepler"
+	dynasty = Kepler
+}
+house_platter = {
+	name = "dynn_Platter"
+	dynasty = Platter
+}
+house_helmont = {
+	prefix = "dynnp_van"
+	name = "dynn_Helmont"
+	dynasty = Helmont
+}
+house_camoens = {
+	name = "dynn_Camoens"
+	dynasty = Camoens
+}
+house_jansenius = {
+	name = "dynn_Jansenius"
+	dynasty = Jansen
+}
+#Komenský
+house_komensky = {
+	name = "dynn_Komensky"
+	dynasty = komensky
+}
+house_diemen = {
+	prefix = "dynnp_van"
+	name = "dynn_Diemen"
+	dynasty = Diemen
+}
+house_kircher = {
+	name = "dynn_Kircher"
+	dynasty = Kircher
+}
+house_avaugour = {
+	prefix = "dynnp_d_"
+	name = "dynn_Avaugour"
+	dynasty = 86
+}
+house_bosch = {
+	name = "dynn_Bosch"
+	dynasty = Aken
+}
+house_gouda = {
+	name = "dynn_Gouda"
+	dynasty = Gouda
+}

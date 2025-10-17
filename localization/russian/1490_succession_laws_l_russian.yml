@@ -1,0 +1,27 @@
+﻿l_russian:
+ new_feudal_elective: "Новые феодальные выборы"
+ kurultai_elective:0 "Курултай"
+ knights_elective_succession_law:0 "Рыцарские выборы"
+ new_feudal_elective_succession_law:0 "Герцоги-выборщики"
+ kurultai_elective_succession_law:0 "Курултай"
+ #
+ kurultai_elective_electors:0 "Правитель и крупные вассалы"
+ kurultai_elective_electors_tooltip:0 "Правитель и крупные вассалы"
+ kurultai_elective_candidates:0 "Крупные вассалы и члены семьи"
+ kurultai_elective_candidates_tooltip:0 "Крупные вассалы и члены семьи"
+ #
+ succession_laws_must_have_valid_kurultai: "Племя с тюркским и монгольским наследием"
+ must_have_valid_kurultai:0 "Племя с тюркским и монгольским наследием"
+ succession_laws_must_have_valid_kurultai_desc:0 "Племя с тюркским и монгольским наследием"
+ kurultai_succession_laws_must_have_valid:0 "Племя с тюркским и монгольским наследием"
+ #
+ knights_elective_electors:0 "Рыцари"
+ knights_elective_electors_desc:0 "Рыцари"
+ knights_elective_candidates:0 "Рыцари"
+ knights_elective_candidates_desc:0 "Рыцари"
+ #
+ new_feudal_elective_electors:0 "Правитель и крупные вассалы"
+ new_feudal_elective_candidates:0 "Члены семьи и крупные вассалы"
+ ###другое
+ #Henry_desc:0 "Генри Тюдор родился 28 января 1457 года в замке Пембрук. Среди его предков было немало королевских особ. 22 августа 1485 года он стал королём Англии и основал новую династию на троне"
+ #Karl_desc:0 "Карл Смелый из Бургундской ветви династии Валуа родился 10 ноября 1433 года в Дижоне. Он противостоял Франции и мечтал возвысить своё герцогство до королевства"

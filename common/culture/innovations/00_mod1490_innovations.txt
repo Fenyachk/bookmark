@@ -1,0 +1,434 @@
+﻿#### Local Types ####
+@administration_1 = "gfx/interface/icons/culture_innovations/innovation_administration_01.dds"
+@administration_2 = "gfx/interface/icons/culture_innovations/innovation_administration_02.dds"
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+@civil_construction_1 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_01.dds"
+@leadership_1 = "gfx/interface/icons/culture_innovations/innovation_leadership_01.dds"
+@raised_banner = "gfx/interface/icons/culture_innovations/innovation_raised_banner.dds"
+@fortifications = "gfx/interface/icons/culture_innovations/innovation_fortifications.dds"
+@siege_weapons = "gfx/interface/icons/culture_innovations/innovation_siege_weapons.dds"
+@levy_building = "gfx/interface/icons/culture_innovations/innovation_levy_building.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@maa_02 = "gfx/interface/icons/culture_innovations/innovation_maa_02.dds"
+@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
+@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@hird = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
+@longboats = "gfx/interface/icons/culture_innovations/innovation_longboats.dds"
+@majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+@majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
+@nobility_01 = "gfx/interface/icons/culture_innovations/innovation_nobility_01.dds"
+@nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
+@nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
+@nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
+@camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
+@elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
+@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+#ispolz
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
+@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+#1490
+@bastion = "gfx/interface/icons/culture_innovations/innovation_bastion.dds"
+@karta = "gfx/interface/icons/culture_innovations/innovation_kartografia.dds"
+@kolestsovyi = "gfx/interface/icons/culture_innovations/innovation_kolestsovyi.dds"
+@mehanchasy = "gfx/interface/icons/culture_innovations/innovation_mehanchasy.dds"
+@karavella = "gfx/interface/icons/culture_innovations/innovation_karavella.dds"
+@mobarmia = "gfx/interface/icons/culture_innovations/innovation_mobarmia.dds"
+@koronavlast = "gfx/interface/icons/culture_innovations/innovation_koronavlast.dds"
+@yazass = "gfx/interface/icons/culture_innovations/innovation_yazass.dds"
+@inquisition = "gfx/interface/icons/culture_innovations/innovation_inquisition.dds"
+@med = "gfx/interface/icons/culture_innovations/innovation_med.dds"
+@padrao = "gfx/interface/icons/culture_innovations/innovation_padrao.dds"
+#Василий Верещагин. Киргизские кибитки на реке Чу, 1869-1870 / Третьяковская галерея
+@step = "gfx/interface/icons/culture_innovations/innovation_step.dds"
+@gory = "gfx/interface/icons/culture_innovations/innovation_gory.dds"
+@arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
+#Военные Мобильная армия у всех
+innovation_mobilnayaya_rmia = {
+	group = culture_group_military
+	culture_era = culture_era_novoevremya
+	icon = @mobarmia
+	character_modifier = {
+		supply_capacity_mult = 0.23 #объем снабжения + 23 процента
+		supply_duration = 0.3 #длительность снабжения
+		knight_limit = 2
+	}
+	flag = global_regular
+}
+#Картография
+innovation_kartografia = {
+	group = culture_group_military
+	culture_era = culture_era_novoevremya
+	icon = @karta
+	character_modifier = {
+		movement_speed = 0.10
+		diplomatic_range_mult = 0.99 #дипломатический радиус на всякий +99%
+		glory_hound_opinion = 10
+	}
+	flag = global_regular
+}
+#Бастионная система
+innovation_bastionnaya_sist = {
+	group = culture_group_military
+	culture_era = culture_era_novoevremya
+	icon = @bastion
+	
+	character_modifier = {
+		controlled_province_advantage = 10 #преимущество обороны на подконтрольных землях
+		siege_morale_loss = 0.05
+	}
+	flag = global_regular
+}
+#Колесцовый замок
+innovation_kolestsovyzamok = {
+	group = culture_group_military
+	culture_era = culture_era_novoevremya
+	icon = @kolestsovyi
+	character_modifier = {
+		knight_effectiveness_mult = 0.1
+		knight_limit = 3
+	}
+	unlock_maa = musketeer
+	flag = global_regular
+	flag = global_maa
+}
+#Цивилизация Зодчие - скорость строительства -10%, мнение местячковых вассалов
+innovation_zodchie = {
+	group = culture_group_civic
+	culture_era = culture_era_novoevremya
+	icon = @civil_construction_2
+    character_modifier = {
+		build_speed = -0.10
+		parochial_opinion = 5
+	}
+	flag = global_regular
+}
+#Механические часы на площадях
+innovation_mehanchasy = {
+	group = culture_group_civic
+	culture_era = culture_era_novoevremya
+	icon = @mehanchasy
+    character_modifier = {
+		city_holding_build_speed = -0.12
+		city_holding_build_gold_cost = -0.12
+		city_holding_holding_build_speed = -0.13
+		city_holding_holding_build_gold_cost = -0.4
+	}
+	flag = global_regular
+}
+#Путь к централизации - все
+innovation_putzentralizatsii = {
+	group = culture_group_civic
+	culture_era = culture_era_novoevremya
+	icon = @leadership_2
+	character_modifier = {
+		men_at_arms_maintenance = -0.2
+		mercenary_hire_cost_mult = -0.1
+	}
+	flag = global_regular
+}
+#Кораблестроение
+innovation_korablestroenie = {
+	group = culture_group_civic
+	culture_era = culture_era_novoevremya
+	icon = @karavella
+    character_modifier = {
+		naval_movement_speed_mult = 0.3 #скорость передвижения по морю +25%
+	}
+	custom = unlocks_sailable_major_rivers
+	flag = global_regular
+}
+#Сильная власть
+innovation_silnyavlast = {
+	group = culture_group_civic
+	culture_era = culture_era_novoevremya
+	icon = @koronavlast
+	character_modifier = {
+		short_reign_duration_mult = -0.5 # -50%
+		monthly_prestige_gain_mult = 0.3
+		domain_limit = 3
+	}
+	flag = global_regular
+}
+#Инквизиция
+innovation_inquisitio1 = {
+	group = culture_group_civic
+	culture_era = culture_era_novoevremya
+#	region = world_europe_west_iberia - в других местах тоже была, даже в Венгрии
+	icon = @inquisition
+    character_modifier = {
+		monthly_piety_gain_mult = 0.1 #благочестие +10%
+		clergy_opinion = 5 #мнение духовенства
+		church_holding_build_gold_cost = -0.10 #стоимость строительства храмовых зданий -10%
+	}
+	flag = global_regular
+}
+#Математика и астрономия +5% к образу жизни
+innovation_matematiastonom = {
+	group = culture_group_civic
+	culture_era = culture_era_novoevremya
+	icon = @misc_inventions
+	character_modifier = {
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+		monthly_martial_lifestyle_xp_gain_mult = 0.05
+	}
+	flag = global_regular
+}
+### - с обновы 1.16.0 смысла в доменах кочевников нет 
+# Степное уложение - казахи и ногайцы, монголы и башкиры
+innovation_stepnoe_ulozhenie = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @step
+    potential = {
+		OR = {
+			this = culture:sibirtatar
+			this = culture:litovtatar
+			this = culture:kazakh_hybrid
+			this = culture:nogai
+			this = culture:astrahan
+			this = culture:bashkir
+			this = culture:mongol
+			this = culture:oirat
+			this = culture:khakas
+			this = culture:kirghiz
+			this = culture:tuvinskaya
+		}
+	}
+	character_modifier = {
+		courtly_opinion = 5
+		nomad_government_vassal_opinion = 5
+		herder_government_vassal_opinion = 5
+	}
+	flag = tribal_era_regional
+}
+#соседство со степью
+innovation_sosedtvo_so_step = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	unlock_maa = boevoi_holop_archers
+	icon = @step
+    potential = {
+				OR = {
+			this = culture:russian
+			this = culture:zapadnorus
+		}
+	}
+	character_modifier = {
+		levy_reinforcement_rate = 0.15
+	}
+	flag = late_medieval_era_regional
+}
+#Швейцарцы Ополченцы гор - скорость пополнения ополчения
+innovation_militia_mountains = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @gory
+	unlock_maa = swiss_pikemen
+	potential = {
+        this = culture:swiss
+	}
+	character_modifier = {
+		levy_reinforcement_rate = 0.3
+	}
+	flag = global_regional
+}
+#Абсолютизация - французы и окситанцы
+innovation_absolutizatia1 = {
+	group = culture_group_regional
+	culture_era = culture_era_novoevremya
+	icon = @leadership_2
+    potential = {
+		OR = {
+			this = culture:french
+			this = culture:occitan
+			this = culture:breton
+		}
+	}
+	character_modifier = {
+		domain_limit = 4
+		barons_and_minor_landholders_opinion = 5
+	}
+	flag = global_regional
+}
+#Каботаж -- и англичане - 1651 год и другие морские народы не icelandic - не португальцы
+innovation_kabotazh = {
+	group = culture_group_regional
+	culture_era = culture_era_novoevremya
+	icon = @longboats
+    potential = {
+        OR = {
+			has_cultural_pillar = heritage_iberian
+			this = culture:english
+			this = culture:scottish
+			this = culture:cornish
+			this = culture:dutch
+			this = culture:frisian
+			this = culture:corsican
+			this = culture:sardinian
+			this = culture:catalan
+			this = culture:sicilian
+			this = culture:venetian
+			this = culture:danish
+			this = culture:french
+			this = culture:saxon
+			this = culture:cypriot
+		}
+	}
+    character_modifier = {
+		embarkation_cost_mult = -0.35 #стоимость погрузки - 30%
+		naval_movement_speed_mult = 0.05 #скорость передвижения по морю +5%
+	}
+	flag = global_regional
+}
+#Языковая ассимиляция  Только для турков Language assimilation - Работает
+innovation_language_assimilation = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @yazass
+	potential = {
+		this = culture:turetskaya
+	}
+	#custom = promote_culture_speed
+	character_modifier = {
+		same_culture_mercenary_hire_cost_mult = -0.20
+	}
+	flag = global_regional
+	flag = late_medieval_era_regional
+}
+#11_09_24 - якобы не нужна, мушкеты раньше существовали
+#Длинноствольная аркебуза — главное огнестрельное оружие XV-XVII веков
+innovation_arquebus = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @arquebus
+	potential = {
+        OR = {
+			has_cultural_pillar = heritage_iberian
+			has_cultural_pillar = heritage_central_germanic
+			has_cultural_pillar = heritage_latin
+			has_cultural_pillar = heritage_frankish
+			has_cultural_pillar = heritage_west_slavic
+			has_cultural_pillar = heritage_east_slavic
+			has_cultural_pillar = heritage_south_slavic
+			has_cultural_pillar = heritage_north_germanic
+			this = culture:welsh
+			this = culture:english
+			this = culture:szekely
+			this = culture:hungarian
+			this = culture:szekely
+			this = culture:croatian
+			this = culture:breton
+			this = culture:vlach
+		}
+	}
+	character_modifier = {
+		same_culture_mercenary_hire_cost_mult = -0.01
+	}
+	flag = global_regional
+	flag = late_medieval_era_regional
+}
+# Медицина
+innovation_medicine = {
+	group = culture_group_civic
+	culture_era = culture_era_novoevremya
+	icon = @med
+	county_modifier = {
+		epidemic_resistance = 20
+	}
+	character_modifier = {
+		life_expectancy = 3
+	}
+	flag = global_regular
+}
+#Падран, только для португальцев. Столб с латинским крестом. Padrão
+innovation_padrao = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @padrao
+	potential = {
+        this = culture:portuguese
+	}
+    character_modifier = {
+		diplomatic_range_mult = 3.5 #дипломатический радиус на всякий было +300%
+		naval_movement_speed_mult = 0.02 #скорость передвижения по морю +2% - сбалансировать
+		#monthly_diplomacy_lifestyle_traveler_xp_gain_mult = 0.02
+	}
+	flag = global_regional
+	flag = late_medieval_era_regional
+}
+# только для рабовладельческих стран Black market - придётся пихать в старую эру
+#unlock_casus_belli = flower_war_cb_active
+innovation_shadow_market = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal #culture_era_novoevremya - не доступна большинству культур
+	icon = @raised_banner
+	potential = {
+        OR = {
+			this = culture:crimean
+			this = culture:kaitag
+			this = culture:kyzylbash
+			this = culture:baranis
+			this = culture:kumyk
+			this = culture:abkhaz
+			this = culture:alan
+		}
+	}
+    character_modifier = {
+		raid_speed = 0.1
+		naval_movement_speed_mult = 0.03 #скорость передвижения по морю +3%
+	}
+	unlock_casus_belli = flowery_war_cb
+	flag = global_regional
+	flag = tribal_era_regional
+}
+# не пойдёт! Надо придумать бонус поинтереснее
+#Hermandad Эрмандада - вооруженная организация по охране общественного порядка
+innovation_hermandada = {
+	group = culture_group_regional
+	culture_era = culture_era_novoevremya
+	region = world_europe_west_iberia
+	icon = @administration_2
+	potential = {
+		OR = {
+			has_cultural_pillar = heritage_iberian
+			this = culture:basque
+		}
+	}
+   character_modifier = {
+		theocracy_government_opinion_same_faith = 5
+#	personal_scheme_resistance_add = 2
+		learning_scheme_resistance = 1
+	}
+	flag = global_regional
+}
+#Гусары - которые называются конни - новые
+innovation_hussars_1 = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @raised_banner
+	potential = {
+        this = culture:polish
+		this = culture:serbian
+		this = culture:hungarian
+		this = culture:croatian
+	}
+	unlock_maa = balkan_hussar
+	flag = global_regional
+	flag = late_medieval_era_regional
+}
+###
+#идеи, сделать что-нибудь с приростом развития и книгопечанием  +10
+#	character_modifier = {
+#		development_growth_factor = 0.1
+#	}
+#ячейки зданий
+#county_modifier = {
+#		building_slot_add = 1
+#	}

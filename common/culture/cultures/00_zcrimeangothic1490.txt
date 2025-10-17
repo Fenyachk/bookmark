@@ -1,0 +1,31 @@
+﻿crimeangothic = {
+	color = { 0.56 0.56 0.19 }
+	created = 1335.1.1
+	parents = { alan gothic }
+	ethos = ethos_egalitarian
+	heritage = heritage_gothic
+	language = language_central_germanic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_isolationist
+		tradition_martial_admiration
+		tradition_stand_and_fight
+	}
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	name_list = name_list_visigothic
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	ethnicities = {
+		40 = caucasian_northern_blond
+		30 = caucasian_northern_brown_hair
+		20 = caucasian_northern_dark_hair
+		5 = caucasian_northern_ginger
+		5 = mediterranean_byzantine
+	}
+}

@@ -1,0 +1,2453 @@
+﻿#23-05-2025  1.16.2.1
+20739 = {
+	name = "Salahaddin"
+	dynasty = 101045
+	martial = 8
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 4
+	religion = "ashari"
+	culture = "egyptian"
+	trait = lisping
+	trait = education_martial_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20787 = {
+	name = "Qawurd"
+	dynasty = 101053
+	martial = 7
+	diplomacy = 7
+	intrigue = 5
+	stewardship = 5
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_learning_3
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20790 = {
+	name = "Yasar"
+	dynasty = 101030
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 4
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_intrigue_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20793 = {
+	name = "Salim"
+	dynasty = 101031
+	martial = 8
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 4
+	religion = "ashari"
+	culture = "egyptian"
+	trait = craven
+	trait = education_learning_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20799 = {
+	name = "Abdul-Madjid"
+	# AKA: Abdul
+	dynasty = 101039
+	martial = 4
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 7
+	religion = "ismaili"
+	culture = "egyptian"
+	trait = honest
+	trait = education_diplomacy_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20800 = {
+	name = "Abdul-Razzaq"
+	# AKA: Abdul
+	martial = 4
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 8
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_martial_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20814 = {
+	name = "Kemaladdin"
+	dynasty = 101048
+	martial = 6
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 8
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_martial_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20819 = {
+	name = "Ilyas"
+	dynasty = 101044
+	martial = 6
+	diplomacy = 8
+	intrigue = 4
+	stewardship = 7
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_martial_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20837 = {
+	name = "Zubeyr"
+	dynasty = 101032
+	martial = 8
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 8
+	religion = "ashari"
+	culture = "egyptian"
+	trait = diligent
+	trait = greedy
+	trait = education_intrigue_2
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+226009 = {
+	name = "Marwan"
+	dynasty = 100709
+	martial = 6
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 7
+	religion = "ashari"
+	culture = "egyptian"
+	trait = greedy
+	trait = education_diplomacy_2
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+226016 = {
+	name = "Is_mail"
+	dynasty = 100710
+	martial = 6
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 8
+	religion = "ashari"
+	culture = "egyptian"
+	trait = humble
+	trait = cynical
+	trait = lisping
+	trait = education_learning_3
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+226030 = {
+	name = "Ubayd"
+	dynasty = 100787
+	martial = 8
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 5
+	religion = "ashari"
+	culture = "egyptian"
+	trait = cynical
+	trait = education_martial_2
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+226031 = {
+	name = "Ashraf"
+	dynasty = 100785
+	martial = 5
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 6
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_stewardship_3
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+226032 = {
+	name = "Abdul-Rahman"
+	# AKA: Abdul
+	dynasty = 100788
+	martial = 4
+	diplomacy = 4
+	intrigue = 8
+	stewardship = 4
+	religion = "ashari"
+	culture = "egyptian"
+	trait = diligent
+	trait = generous
+	trait = education_diplomacy_3
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+226040 = {
+	name = "Qutaiba"
+	dynasty = 100803
+	martial = 7
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 4
+	religion = "ashari"
+	culture = "egyptian"
+	trait = deceitful
+	trait = cynical
+	trait = brave
+	trait = education_diplomacy_3
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+226041 = {
+	name = "Ilyas"
+	dynasty = 100804
+	martial = 6
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 6
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_martial_2
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+3090 = {
+	name = "al-Aziz"
+	dynasty = 589
+	martial = 6
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 6
+	religion = "ismaili"
+	culture = "egyptian"
+	trait = wrathful
+	trait = humble
+	trait = education_martial_2
+	trait = sayyid
+	father = 32903
+	955.1.1 = {
+		birth = "955.1.1"
+	}
+	996.10.13 = {
+		death = "996.10.13"
+	}
+}
+
+3092 = {
+	name = "al-Hakim"
+	dynasty = 589
+	martial = 4
+	diplomacy = 4
+	intrigue = 8
+	stewardship = 6
+	religion = "ismaili"
+	culture = "egyptian"
+	trait = chaste
+	trait = greedy
+	trait = zealous
+	trait = lunatic_1
+	trait = education_martial_3
+	trait = sayyid
+	father = 3090
+	985.1.1 = {
+		birth = "985.1.1"
+	}
+	1021.2.12 = {
+		death = "1021.2.12"
+	}
+}
+
+3094 = {
+	name = "az-Zahir"
+	# AKA: az
+	dynasty = 589
+	martial = 6
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 6
+	religion = "ismaili"
+	culture = "egyptian"
+	trait = education_martial_3
+	trait = sayyid
+	father = 3092
+	1005.6.20 = {
+		birth = yes
+	}
+	1022.1.1 = {
+		add_spouse = additional_fatimids_1
+	}
+	1036.6.13 = {
+		death = yes
+	}
+}
+
+3098 = {
+	name = "al-Majid"
+	dynasty = 589
+	martial = 3
+	diplomacy = 1
+	intrigue = 6
+	stewardship = 6
+	religion = "ismaili"
+	culture = "egyptian"
+	trait = arrogant
+	trait = education_intrigue_2
+	trait = sayyid
+	father = 3096
+	1047.1.1 = {
+		birth = "1047.1.1"
+	}
+	1097.1.1 = {
+		death = "1097.1.1"
+	}
+}
+
+3100 = {
+	name = "al-Mustali"
+	# AKA: al
+	dynasty = 589
+	martial = 6
+	diplomacy = 2
+	intrigue = 4
+	stewardship = 6
+	religion = "ismaili"
+	culture = "egyptian"
+	trait = craven
+	trait = lisping
+	trait = education_intrigue_2
+	trait = sayyid
+	father = 3096
+	1050.1.1 = {
+		birth = "1050.1.1"
+	}
+	1101.1.1 = {
+		death = "1101.1.1"
+	}
+}
+
+41706 = {
+	name = "Abu_Mansur_al-Nizar"
+	# AKA: Abu Mansur al
+	dynasty = 589
+	martial = 4
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 4
+	religion = "nizari"
+	culture = "egyptian"
+	trait = zealous
+	trait = wrathful
+	trait = education_learning_2
+	trait = sayyid
+	father = 3096
+	1045.1.1 = {
+		birth = "1045.1.1"
+	}
+	1097.1.1 = {
+		death = "1097.1.1"
+	}
+}
+
+485020 = {
+	name = "Muhammad"
+	dynasty = 100788
+	martial = 7
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 5
+	religion = "ashari"
+	culture = "egyptian"
+	trait = cynical
+	trait = education_diplomacy_2
+	1300.1.1 = {
+		birth = "1300.1.1"
+	}
+	1350.1.1 = {
+		death = "1350.1.1"
+	}
+}
+
+485120 = {
+	name = "Nadjmaddin"
+	dynasty = 100714
+	martial = 7
+	diplomacy = 8
+	intrigue = 6
+	stewardship = 5
+	religion = "ashari"
+	culture = "egyptian"
+	trait = lazy
+	trait = education_intrigue_2
+	1300.1.1 = {
+		birth = "1300.1.1"
+	}
+	1350.1.1 = {
+		death = "1350.1.1"
+	}
+}
+
+32900 = {
+	name = "Abdullah" # Rabi Abdullah - the Eleventh Ismaili Imam and first Fatimid Caliph
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 33920
+	trait = sayyid
+	870.1.1 = {
+		birth = "870.1.1"
+	}
+	934.1.1 = {
+		death = "934.1.1"
+	}
+}
+32901 = {
+	name = "al-Qaim"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 32900
+	trait = sayyid
+	893.1.1 = {
+		birth = "893.1.1"
+	}
+	946.5.17 = {
+		death = "946.5.17"
+	}
+}
+32902 = {
+	name = "al-Mansur"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 32901
+	trait = sayyid
+	913.1.1 = {
+		birth = "913.1.1"
+	}
+	953.3.19 = {
+		death = "953.3.19"
+	}
+}
+
+32903 = {
+	name = "al-Muizz"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 32902
+	trait = sayyid
+	932.1.1 = {
+		birth = "932.1.1"
+	}
+	975.1.1 = {
+		death = "975.1.1"
+	}
+}
+
+32904 = {
+	name = "Sitt_al-Mulk"
+	female = yes
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 3090
+	trait = sayyid
+	970.1.1 = {
+		birth = "970.1.1"
+	}
+	1023.1.1 = {
+		death = "1023.1.1"
+	}
+}
+
+32905 = {
+	name = "al-Amir"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 3100
+	trait = sayyid
+	1096.1.1 = {
+		birth = "1096.1.1"
+	}
+	1130.1.1 = {
+		death = "1130.1.1"
+	}
+}
+
+32906 = {
+	name = "al-Qasim"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 32905
+	trait = sayyid
+	1126.1.1 = {
+		birth = "1126.1.1"
+	}
+	1176.1.1 = {
+		death = "1176.1.1"
+	}
+}
+
+32907 = {
+	name = "al-Hafiz"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 3098
+	trait = sayyid
+	1090.1.1 = {
+		birth = "1090.1.1"
+	}
+	1149.1.1 = {
+		death = "1149.1.1"
+	}
+}
+
+32908 = {
+	name = "al-Zafir"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 32907
+	trait = sayyid
+	1120.1.1 = {
+		birth = "1120.1.1"
+	}
+	1154.1.1 = {
+		death = "1154.1.1"
+	}
+}
+
+32909 = {
+	name = "al-Faiz"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 32908
+	trait = sayyid
+	1149.1.1 = {
+		birth = "1149.1.1"
+	}
+	1160.1.1 = {
+		death = "1160.1.1"
+	}
+}
+
+32910 = {
+	name = "al-Adid"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 32908
+	trait = sayyid
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1171.1.1 = {
+		death = "1171.1.1"
+	}
+}
+
+485002 = {
+	name = "al-Mansur_Abu_Bakr"
+	# AKA: Abu Bakr
+	dynasty = 762
+	martial = 6
+	diplomacy = 8
+	intrigue = 6
+	stewardship = 5
+	religion = "ashari"
+	culture = "egyptian"
+	trait = lazy
+	trait = arbitrary
+	trait = education_learning_2
+	father = 485000
+	1321.1.1 = {
+		birth = "1321.1.1"
+	}
+	1341.1.1 = {
+		death = "1341.1.1"
+	}
+}
+
+485000 = {
+	name = "al-Nasir_Muhammad"
+	dynasty = 762
+	martial = 4
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 7
+	religion = "ashari"
+	culture = "egyptian"
+	trait = honest
+	trait = education_martial_2
+	father = 32936
+	1285.1.1 = {
+		birth = "1285.1.1"
+	}
+	1343.1.1 = {
+		death = "1343.1.1"
+	}
+}
+
+3096 = {
+	name = "al-Mustansir"
+	dynasty = 589
+	martial = 6
+	diplomacy = 8
+	intrigue = 6
+	stewardship = 1
+	religion = "ismaili"
+	culture = "egyptian"
+	trait = education_diplomacy_1
+	trait = sayyid
+	trait = lazy
+	trait = arbitrary
+	trait = trusting
+	trait = shy
+	father = 3094
+	mother = additional_fatimids_1
+	1029.7.5 = {
+		birth = "1029.7.5"
+	}
+	1060.1.1 = {
+		effect = {
+			remove_short_term_gold = 1000
+			set_designated_heir = character:3098
+
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_1
+			}
+		}
+	}
+	1094.1.10 = {
+		death = "1094.1.10"
+	}
+}
+
+32933 = {
+	name = "Baibars"
+	dynasty = 7267
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_martial_4
+	trait = strong
+	trait = ambitious
+	trait = deceitful
+	1223.7.19 = {
+		birth = "1223.7.19"
+	}
+	1277.7.1 = {
+		death = "1277.7.1"
+	}
+}
+
+32934 = {
+	name = "al-Said_Barakah"
+	dynasty = 7267
+	religion = "ashari"
+	culture = "egyptian"
+	father = 32933
+	1260.1.1 = {
+		birth = "1260.1.1"
+	}
+	1279.1.1 = {
+		death = "1279.1.1"
+	}
+}
+
+32949 = {
+	name = "Solamish"
+	dynasty = 7267
+	religion = "ashari"
+	culture = "egyptian"
+	father = 32933
+	1272.1.1 = {
+		birth = "1272.1.1"
+	}
+	1290.1.1 = {
+		death = "1290.1.1"
+	}
+}
+
+32950 = {
+	name = "Khadir"
+	dynasty = 7267
+	religion = "ashari"
+	culture = "egyptian"
+	father = 32933
+	1273.1.1 = {
+		birth = "1273.1.1"
+	}
+	1286.1.1 = {
+		death = "1286.1.1"
+	}
+}
+
+32936 = {
+	name = "Qalawun"
+	dynasty = 762
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_martial_3
+	trait = brave
+	trait = cynical
+	1240.1.1 = {
+		birth = "1240.1.1"
+	}
+	1291.11.10 = {
+		death = "1291.11.10"
+	}
+}
+
+32937 = {
+	name = "al-Ashraf_Khalil"
+	dynasty = 762
+	religion = "ashari"
+	culture = "egyptian"
+	father = 32936
+	1262.1.1 = {
+		birth = "1262.1.1"
+	}
+	1293.12.14 = {
+		death = "1293.12.14"
+	}
+}
+
+32938 = {
+	name = "Kitbugha"
+	dynasty = 7270
+	religion = "ashari"
+	culture = "egyptian"
+	1247.1.1 = {
+		birth = "1247.1.1"
+	}
+	1296.1.1 = {
+		death = "1296.1.1"
+	}
+}
+
+32939 = {
+	name = "Lajin"
+	dynasty = 7271
+	religion = "ashari"
+	culture = "egyptian"
+	1249.1.1 = {
+		birth = "1249.1.1"
+	}
+	1299.1.16 = {
+		death = "1299.1.16"
+	}
+}
+
+32940 = {
+	name = "Baibars"
+	dynasty = 7272
+	religion = "ashari"
+	culture = "egyptian"
+	1270.1.1 = {
+		birth = "1270.1.1"
+	}
+	1310.1.1 = {
+		death = "1310.1.1"
+	}
+}
+
+34998 = {
+	name = "Sa_id"
+	#placeholder
+	religion = "ismaili"
+	culture = "egyptian"
+	1090.1.1 = {
+		birth = "1090.1.1"
+	}	
+	1153.1.1 = {
+		death = "1153.1.1"
+	}
+}
+
+34999 = {
+	name = "Musa"
+	#placeholder
+	religion = "ismaili"
+	culture = "egyptian"
+	1105.1.1 = {
+		birth = "1105.1.1"
+	}	
+	1153.1.1 = {
+		death = "1153.1.1"
+	}
+}
+
+34979 = {
+	name = "Shahanshah"
+	dynasty = 101684
+	religion = "ismaili"
+	culture = "armenian"
+	father = 34980
+	1066.1.1 = {
+		birth = "1066.1.1"
+		effect = {
+			set_culture = culture:egyptian
+		}
+	}
+	1121.12.11 = {
+		death = "1121.12.11"
+	}
+}
+
+34980 = {
+	name = "Badr"
+	dna = "34980_badr_acre"
+	dynasty = 101684
+	religion = ismaili
+	culture = armenian
+	trait = education_martial_2
+	trait = ambitious
+	trait = shrewd
+	trait = cynical
+	trait = diligent
+	trait = administrator
+	trait = physique_good_1
+	1008.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			set_culture = culture:egyptian
+		}
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+
+34981 = {
+	name = "al-Ma_mum"
+	dynasty = 100793
+	religion = "ismaili"
+	culture = "egyptian"
+	1080.1.1 = {
+		birth = "1080.1.1"
+	}
+
+	1130.1.1 = {
+		death = "1130.1.1"
+	}
+}
+
+34982 = {
+	name = "Shawar"
+	dynasty = 7319
+	religion = "ismaili"
+	culture = "egyptian"
+	1110.1.1 = {
+		birth = "1110.1.1"
+	}
+
+	1169.1.18 = {
+		death = "1169.1.18"
+	}
+}
+
+34983 = {
+	name = "Baktmar"
+	dynasty = 7320
+	religion = "ashari"
+	culture = "egyptian"
+	1260.1.1 = {
+		birth = "1260.1.1"
+	}
+
+	1311.1.1 = {
+		death = "1311.1.1"
+	}
+}
+
+34984 = {
+	name = "as-Salih_Ali"
+	dynasty = 762
+	religion = "ashari"
+	culture = "egyptian"
+	father = 32936
+	1264.1.1 = {
+		birth = "1264.1.1"
+	}
+	1292.1.1 = {
+		death = "1292.1.1"
+	}
+}
+
+34985 = {
+	name = "Musa"
+	dynasty = 762
+	religion = "ashari"
+	culture = "egyptian"
+	father = 34984
+	1285.1.1 = {
+		birth = "1285.1.1"
+	}
+	1311.1.1 = {
+		add_pressed_claim = title:k_egypt
+	}
+	1312.1.1 = {
+		death = "1312.1.1"
+	}
+}
+
+34986 = {
+	name = "Baibars"
+	dynasty = 7321
+	religion = "ashari"
+	culture = "egyptian"
+	1270.1.1 = {
+		birth = "1270.1.1"
+	}
+
+	1330.1.1 = {
+		death = "1330.1.1"
+	}
+}
+
+34987 = {
+	name = "Abdallah"
+	dynasty = 7322
+	religion = "ashari"
+	culture = "egyptian"
+	1275.1.1 = {
+		birth = "1275.1.1"
+	}
+
+	1320.1.1 = {
+		death = "1320.1.1"
+	}
+}
+
+34988 = {
+	name = "Kanz"
+	dynasty = 7322
+	religion = "ashari"
+	culture = "egyptian"
+	father = 34987
+	1300.1.1 = {
+		birth = "1300.1.1"
+	}
+
+	1350.1.1 = {
+		death = "1350.1.1"
+	}
+}
+
+34989 = {
+	name = "Mahmud"
+	dynasty = 7322
+	religion = "ashari"
+	culture = "egyptian"
+	father = 34988
+	1330.1.1 = {
+		birth = "1330.1.1"
+	}
+
+	1380.1.1 = {
+		death = "1380.1.1"
+	}
+}
+
+35001 = {
+	name = "Christodolos"
+	religion = "coptic"
+	culture = "egyptian"
+	1012.1.1 = {
+		birth = "1012.1.1"
+	}
+	1077.1.1 = {
+		death = "1077.1.1"
+	}
+}
+
+161491 = {
+	name = "Kyril" #II
+	religion = "coptic"
+	culture = "egyptian"
+	1032.1.1 = {
+		birth = "1032.1.1"
+	}
+	1092.6.6 = {
+		death = "1092.6.6"
+	}
+}
+
+161492 = {
+	name = "Khail" #IV
+	religion = "coptic"
+	culture = "egyptian"
+	1042.1.1 = {
+		birth = "1042.1.1"
+	}
+	1102.5.25 = {
+		death = "1102.5.25"
+	}
+}
+
+161493 = {
+	name = "Makarios" #II
+	religion = "coptic"
+	culture = "egyptian"
+	1070.1.1 = {
+		birth = "1070.1.1"
+	}
+	1131.1.1 = {
+		death = "1131.1.1"
+	}
+}
+
+161494 = {
+	name = "Gabriel" #II
+	religion = "coptic"
+	culture = "egyptian"
+	1080.1.1 = {
+		birth = "1080.1.1"
+	}
+	1145.1.1 = {
+		death = "1145.1.1"
+	}
+}
+
+161495 = {
+	name = "Khail" #V
+	religion = "coptic"
+	culture = "egyptian"
+	1090.1.1 = {
+		birth = "1090.1.1"
+	}
+	1146.1.1 = {
+		death = "1146.1.1"
+	}
+}
+
+161496 = {
+	name = "Yohannes" #V
+	religion = "coptic"
+	culture = "egyptian"
+	1100.1.1 = {
+		birth = "1100.1.1"
+	}
+	1166.4.29 = {
+		death = "1166.4.29"
+	}
+}
+
+
+161497 = {
+	name = "Markos" #III
+	religion = "coptic"
+	culture = "egyptian"
+	1120.1.1 = {
+		birth = "1120.1.1"
+	}
+	1189.1.1 = {
+		death = "1189.1.1"
+	}
+}
+
+
+161498 = {
+	name = "Yohannes" #VI
+	religion = "coptic"
+	culture = "egyptian"
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1216.1.1 = {
+		death = "1216.1.1"
+	}
+}
+
+161499 = {
+	name = "Kyril" #III
+	religion = "coptic"
+	culture = "egyptian"
+	1170.1.1 = {
+		birth = "1170.1.1"
+	}
+	1243.1.1 = {
+		death = "1243.1.1"
+	}
+}
+
+
+161500 = {
+	name = "Athanasios" #III
+	religion = "coptic"
+	culture = "egyptian"
+	1200.1.1 = {
+		birth = "1200.1.1"
+	}
+	1261.1.1 = {
+		death = "1261.1.1"
+	}
+}
+
+
+161502 = {
+	name = "Yohannes" #VII
+	religion = "coptic"
+	culture = "egyptian"
+	1225.1.1 = {
+		birth = "1225.1.1"
+	}
+	1293.1.1 = {
+		death = "1293.1.1"
+	}
+}
+
+161503 = {
+	name = "Gabriel" #III
+	religion = "coptic"
+	culture = "egyptian"
+	1210.1.1 = {
+		birth = "1210.1.1"
+	}
+	1270.1.1 = {
+		death = "1270.1.1"
+	}
+}
+
+161504 = {
+	name = "Theodosios" #III
+	religion = "coptic"
+	culture = "egyptian"
+	1240.1.1 = {
+		birth = "1240.1.1"
+	}
+	1300.1.1 = {
+		death = "1300.1.1"
+	}
+}
+
+161505 = {
+	name = "Yohannes" #VIII
+	religion = "coptic"
+	culture = "egyptian"
+	1260.1.1 = {
+		birth = "1260.1.1"
+	}
+	1320.5.29 = {
+		death = "1320.5.29"
+	}
+}
+
+161506 = {
+	name = "Yohannes" #IX
+	religion = "coptic"
+	culture = "egyptian"
+	1270.1.1 = {
+		birth = "1270.1.1"
+	}
+	1327.1.1 = {
+		death = "1327.1.1"
+	}
+}
+
+161507 = {
+	name = "Benjamin" #II
+	religion = "coptic"
+	culture = "egyptian"
+	1280.1.1 = {
+		birth = "1280.1.1"
+	}
+	1339.1.1 = {
+		death = "1339.1.1"
+	}
+}
+
+#pre 1066
+
+161508 = {
+	name = "Kyril" #I
+	religion = "coptic"
+	culture = "egyptian"
+	376.1.1 = {
+		birth = "376.1.1"
+	}
+	444.1.1 = {
+		death = "444.1.1"
+	}
+}
+
+161509 = {
+	name = "Khail" #I
+	religion = "coptic"
+	culture = "egyptian"
+	710.1.1 = {
+		birth = "710.1.1"
+	}
+	767.1.1 = {
+		death = "767.1.1"
+	}
+}
+
+
+161510 = {
+	name = "Khail" #II
+	religion = "coptic"
+	culture = "egyptian"
+	790.1.1 = {
+		birth = "790.1.1"
+	}
+	851.1.1 = {
+		death = "851.1.1"
+	}
+}
+
+161511 = {
+	name = "Khail" #III
+	religion = "coptic"
+	culture = "egyptian"
+	850.1.1 = {
+		birth = "850.1.1"
+	}
+	907.1.1 = {
+		death = "907.1.1"
+	}
+}
+
+161512 = {
+	name = "Makarios" #I
+	religion = "coptic"
+	culture = "egyptian"
+	900.1.1 = {
+		birth = "900.1.1"
+	}
+	953.1.1 = {
+		death = "953.1.1"
+	}
+}
+
+
+161513 = {
+	name = "Gabriel" #I
+	religion = "coptic"
+	culture = "egyptian"
+	860.1.1 = {
+		birth = "860.1.1"
+	}
+	921.1.1 = {
+		death = "921.1.1"
+	}
+}
+
+
+161514 = {
+	name = "Yohannes" #I
+	religion = "coptic"
+	culture = "egyptian"
+	450.1.1 = {
+		birth = "450.1.1"
+	}
+	505.4.29 = {
+		death = "505.4.29"
+	}
+}
+
+161515 = {
+	name = "Yohannes" #II
+	religion = "coptic"
+	culture = "egyptian"
+	460.1.1 = {
+		birth = "460.1.1"
+	}
+	516.5.22 = {
+		death = "516.5.22"
+	}
+}
+
+161516 = {
+	name = "Yohannes" #III
+	religion = "coptic"
+	culture = "egyptian"
+	630.1.1 = {
+		birth = "630.1.1"
+	}
+	689.1.1 = {
+		death = "689.1.1"
+	}
+}
+
+161517 = {
+	name = "Yohannes" #IV
+	religion = "coptic"
+	culture = "egyptian"
+	735.1.1 = {
+		birth = "735.1.1"
+	}
+	799.1.1 = {
+		death = "799.1.1"
+	}
+}
+
+161518 = {
+	name = "Markos" #I
+	religion = "coptic"
+	culture = "egyptian"
+	10.1.1 = {
+		birth = "10.1.1"
+	}
+	68.1.1 = {
+		death = "68.1.1"
+	}
+}
+
+161519 = {
+	name = "Markos" #II
+	religion = "coptic"
+	culture = "egyptian"
+	760.1.1 = {
+		birth = "760.1.1"
+	}
+	819.1.1 = {
+		death = "819.1.1"
+	}
+}
+
+
+161520 = {
+	name = "Athanasios" #I
+	religion = "coptic"
+	culture = "egyptian"
+	296.1.1 = {
+		birth = "296.1.1"
+	}
+	373.5.2 = {
+		death = "373.5.2"
+	}
+}
+
+161521 = {
+	name = "Athanasios" #II
+	religion = "coptic"
+	culture = "egyptian"
+	440.1.1 = {
+		birth = "440.1.1"
+	}
+	496.1.1 = {
+		death = "496.1.1"
+	}
+}
+
+161522 = {
+	name = "Theodosios" #I
+	religion = "coptic"
+	culture = "egyptian"
+	500.1.1 = {
+		birth = "500.1.1"
+	}
+	567.6.5 = {
+		death = "567.6.5"
+	}
+}
+
+161523 = {
+	name = "Theodosios" #II
+	religion = "coptic"
+	culture = "egyptian"
+	690.1.1 = {
+		birth = "690.1.1"
+	}
+	742.1.1 = {
+		death = "742.1.1"
+	}
+}
+
+161524 = {
+	name = "Benjamin" #I
+	religion = "coptic"
+	culture = "egyptian"
+	590.1.1 = {
+		birth = "590.1.1"
+	}
+	661.1.3 = {
+		death = "661.1.3"
+	}
+}
+
+163115 = {
+	name = "Ahmad"
+	dna = "163115_ahmad_egypt"
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	diplomacy = 6
+	martial = 7
+	stewardship = 8
+	intrigue = 5
+	learning = 4
+	trait = education_martial_3
+	trait = ambitious
+	trait = diligent
+	trait = patient
+	trait = organizer
+	father = extra_tulunids_5
+	835.9.20 = {
+		birth = "835.9.20"
+
+		effect = {
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_1
+			}
+		}
+	}
+	884.3.1 = {
+		death = "884.3.1"
+	}
+}
+
+163138 = {
+	name = "Khumarawayh"
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = 163115
+	864.1.1 = {
+		birth = "864.1.1"
+	}
+	896.1.1 = {
+		death = "896.1.1"
+	}
+}
+
+163139 = {
+	name = "Shayban"
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = 163115
+	867.1.1 = {
+		birth = "867.1.1"
+	}
+	905.1.10 = {
+		death = "905.1.10"
+	}
+}
+
+168592 = {
+	name = "Shenouda"
+	religion = "coptic"
+	culture = "egyptian"
+	820.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+
+485003 = {
+	name = "al-Ashraf_Kujuk"
+	dynasty = 762
+	martial = 5
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 4
+	religion = "ashari"
+	culture = "egyptian"
+	trait = honest
+	trait = education_intrigue_2
+	father = 485000
+	1334.1.1 = {
+		birth = "1334.1.1"
+	}
+	1345.1.1 = {
+		death = "1345.1.1"
+	}
+}
+
+485004 = {
+	name = "al-Kamil_Shaban"
+	dynasty = 762
+	martial = 6
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 7
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_intrigue_2
+	father = 485000
+	1326.1.1 = {
+		birth = "1326.1.1"
+	}
+	1346.1.1 = {
+		death = "1346.1.1"
+	}
+}
+
+485005 = {
+	name = "al-Salih_Ismail"
+	dynasty = 762
+	martial = 6
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 7
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_intrigue_2
+	father = 485000
+	1325.1.1 = {
+		birth = "1325.1.1"
+	}
+	1345.1.1 = {
+		death = "1345.1.1"
+	}
+}
+
+485006 = {
+	name = "al-Kamil_Sha_ban"
+	dynasty = 762
+	martial = 4
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 5
+	religion = "ashari"
+	culture = "egyptian"
+	trait = lazy
+	trait = education_martial_2
+	father = 485000
+	1327.1.1 = {
+		birth = "1327.1.1"
+	}
+	1346.1.1 = {
+		death = "1346.1.1"
+	}
+}
+
+485007 = {
+	name = "al-Muzzafar_Haji"
+	dynasty = 762
+	martial = 8
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 6
+	religion = "ashari"
+	culture = "egyptian"
+	trait = generous
+	trait = honest
+	trait = education_intrigue_1
+	father = 485000
+	1328.1.1 = {
+		birth = "1328.1.1"
+	}
+	1347.1.1 = {
+		death = "1347.1.1"
+	}
+}
+
+485008 = {
+	name = "al-Nasir_Hassan"
+	dynasty = 762
+	martial = 5
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 7
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_intrigue_2
+	father = 485000
+	1329.1.1 = {
+		birth = "1329.1.1"
+	}
+	1351.1.1 = {
+		death = "1351.1.1"
+	}
+}
+
+485009 = {
+	name = "al-Salik_Salih"
+	dynasty = 762
+	martial = 4
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 8
+	religion = "ashari"
+	culture = "egyptian"
+	trait = gluttonous
+	trait = education_diplomacy_2
+	father = 485000
+	1330.1.1 = {
+		birth = "1330.1.1"
+	}
+	1360.1.1 = {
+		death = "1360.1.1"
+	}
+}
+210021 = {
+	name = "Abderahman"
+	dynasty = 1048002 #Tujibid
+	religion = "ashari"
+	culture = "egyptian"
+	father = 210020
+	700.1.1 = {
+		birth = "700.1.1"
+	}
+	760.1.1 = {
+		death = "760.1.1"
+	}
+}
+210022 = {
+	name = "Abdullah"
+	dynasty = 1048002 #Tujibid
+	religion = "ashari"
+	culture = "egyptian"
+	father = 210021
+	725.1.1 = {
+		birth = "725.1.1"
+	}
+	800.1.1 = {
+		death = "800.1.1"
+	}
+}
+210023 = {
+	name = "Abdul-Aziz"
+	dynasty = 601
+	religion = "ashari"
+	culture = "egyptian"
+	740.1.1 = {
+		birth = "740.1.1"
+	}
+	780.1.1 = {
+		death = "780.1.1"
+	}
+}
+210024 = {
+	name = "Abu-Bakr"
+	dynasty = 611
+	religion = "ashari"
+	culture = "egyptian"
+	735.1.1 = {
+		birth = "735.1.1"
+	}
+	778.1.1 = {
+		death = "778.1.1"
+	}
+}
+
+210025	= {
+	name = "Adnan"
+	dynasty = 614
+	religion = "ashari"
+	culture = "egyptian"
+	737.1.1 = {
+		birth = "737.1.1"
+	}
+	775.1.2 = {
+		death = "775.1.2"
+	}
+}
+210026  = {
+	name = "Da_oud"
+	dynasty = 615
+	religion = "ashari"
+	culture = "egyptian"
+	740.1.1 = {
+		birth = "740.1.1"
+	}
+	800.1.1 = {
+		death = "800.1.1"
+	}
+}
+
+210027 = {
+	name = "Nasir"
+	dynasty = 7312
+	religion = "ashari"
+	culture = "egyptian"
+	720.1.1 = {
+		birth = "720.1.1"
+	}
+	795.1.1 = {
+		death = "795.1.1"
+	}
+}
+
+additional_fatimids_1 = {
+	name = "Rasad" #De facto regent of the Fatimids in 1066.
+	religion = "ismaili"
+	culture = "ethiopian"
+	martial = 6
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 6
+	trait = diligent
+	trait = ambitious
+	trait = callous
+	trait = family_first
+	trait = education_diplomacy_4
+	female = yes
+	1003.1.1 = {
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}
+
+extra_tulunids_1 = {
+	name = "al-Abbas" # Eldest son of Ahmad ibn Tulun
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = 163115
+	857.1.1 = {
+		birth = yes
+	}
+	884.1.1 = {
+		death = yes
+	}
+}
+
+extra_tulunids_2 = {
+	name = "Fatima" # Eldest daughter of Ahmad ibn Tulun
+	female = yes
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = 163115
+	858.1.1 = {
+		birth = yes
+	}
+	909.1.1 = {
+		death = yes
+	}
+}
+
+extra_tulunids_3 = {
+	name = "Mudar"
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = 163115
+	865.1.1 = {
+		birth = yes
+	}
+	894.1.1 = {
+		death = yes
+	}
+}
+
+extra_tulunids_4 = {
+	name = "Rabi_a"
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = 163115
+	866.1.1 = {
+		birth = yes
+	}
+	897.1.1 = {
+		death = yes
+	}
+}
+
+extra_tulunids_5 = {
+	name = "Tulun" # Father of Ahmad ibn Tulun and source of the Tulunid name
+	dynasty = 820
+	religion = "ashari"
+	culture = "turkish"
+	trait = education_martial_2
+	806.1.1 = {
+		birth = yes
+	}
+	854.1.1 = {
+		death = yes
+	}
+}
+
+extra_tulunids_6 = {
+	name = "Musa" # Younger brother of Ahmad ibn Tulun
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = extra_tulunids_5
+	838.1.1 = {
+		birth = yes
+	}
+	879.1.1 = {
+		death = yes
+	}
+}
+
+extra_tulunids_7 = {
+	name = "Habsiya" # Younger sister of Ahmad ibn Tulun
+	female = yes
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = extra_tulunids_5
+	841.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+
+extra_tulunids_8 = {
+	name = "Samana" # Younger sister of Ahmad ibn Tulun
+	female = yes
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = extra_tulunids_5
+	844.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+
+extra_tulunids_9 = {
+	name = "Muhammad" # Muhammad ibn Musa ibn Tulun
+	dynasty = 820
+	religion = "ashari"
+	culture = "egyptian"
+	father = extra_tulunids_6
+	860.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+
+extra_fatimids_1 = {
+	name = "Daoud"
+	dynasty = 589
+	religion = "ismaili"
+	culture = "egyptian"
+	father = 32910
+	trait = sayyid
+	1167.1.1 = {
+		birth = yes
+	}
+	1207.1.1 = {
+		death = yes
+	}
+}
+
+### МОД 1490
+#ан-Насир Мухаммад II (1496—1498)
+NasirMuhammadBurj1496 = {
+	name = "al-Nasir_Muhammad"
+	dynasty = Burjit
+	religion = "ashari"
+	culture = "egyptian"
+	1458.12.12 = {
+		birth = yes
+	}
+	1498.1.1 = {
+		death = yes
+	}
+}
+#Sayf al-Din Bilbay 9 October 1467 – 5 December 1467
+Sayf_aldin_bilbay = {
+	name = "Bilbay"
+	dynasty = Adyg
+	religion = "ashari"
+	culture = "alan" #черкес
+	trait = education_martial_2
+	prowess = 11
+	intrigue = 5
+	stewardship = 3
+	1404.4.4 = {
+		birth = yes
+	}
+	#свергнут, скончался к тюрьме от чумы, да 19 September 1468
+	1468.9.19 = {
+		death = { death_reason = death_bubonic_plague }
+	}
+}
+#Мамлюкский султан Al-Malik al-Zahir Timurbugha al-Rumi (died 1475)
+#правил 5 December 1467 – 30 January 1468 - использовал титул аль-Малик аз-Захир
+# был хорошо образован и преуспел в юриспруденции, истории, литературе и поэзии
+timurbugha_al_rumi = {
+	name = "Timotheos"
+	dynasty = Rumi #отсылает на его происхождение
+	religion = "orthodox"
+	culture = "albanian" #грек или албанец
+	trait = education_learning_2
+	trait = poet
+	prowess = 5
+	intrigue = 5
+	stewardship = 8
+	1412.1.12 = {
+		birth = yes
+	}
+	1421.10.12 = {
+		name = "Timurbugha"
+		religion = "ashari"
+	}
+	1470.1.1 = {
+		trait = loyal
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	#свергнут, жил в Дамиетте
+	1475.7.5 = {
+		death = yes
+	}
+}
+#Al-Ashraf Janbalat - правил с 30 June 1500 – 25 January 1501
+al_ashraf_janbalat = {
+	name = "Al-Ashraf"
+	dynasty = Janbalat #возможно, имя
+	religion = "ashari"
+	culture = "egyptian" #арабы
+	trait = education_intrigue_2
+	1455.5.5 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1470.1.1 = {
+		trait = loyal
+	}
+	#свергнут, видимо, казнён
+	1501.1.25 = {
+		death = yes
+	}
+}
+#Мамлюкский султан аль-Ашраф Сайф ад-Дин Каит-бей
+al_ashraf_qaitbay = {
+	name = "Qaitbay"
+	dynasty = Burjit
+	religion = "ashari"
+	culture = "alan" #черкес
+	trait = education_diplomacy_2
+	trait = physique_good_1
+	prowess = 11
+	stewardship = 10
+	learning = 4
+	intrigue = 2
+	trait = diligent
+	trait = family_first
+	#1416/1418
+	1418.1.12 = {
+		birth = yes
+	}
+	1444.12.12 = {
+#		name = "Al-Ashraf"
+		culture = "egyptian"
+	}
+	1455.1.1 = {
+		add_spouse = fatima_khassbak
+	}
+	1480.1.1 = {
+		add_concubine = nal_asalbay
+	}
+	1468.12.22 = {
+		add_realm_law_skip_effects = crown_authority_2
+		add_legitimacy = 100
+	}
+	1470.1.1 = {
+		add_realm_law_skip_effects = single_heir_succession_law
+	}
+	#битва при Урфе (Эдессе), мамлюки не захватили город и проиграли Ак-Коюнлу
+	1480.8.1 = {
+		add_pressed_claim = title:c_edessa
+		effect = {
+			set_relation_rival = character:YaqubAkKuun
+		}
+	}
+	1496.8.7 = {
+		death = yes
+	}
+}
+#Aṣalbāy
+#Хаванд Ашалбай аль-Джаркасийя (умер в 1509 г.) был супругом мамлюков. Она была наложницей султана Сайф ад-Дин Каитбай (годы правления 1468–1496), 
+#мать султана Ан-Насир Мухаммад ибн Кайтбай (р. 1496–1498), сестра султана Абу Саид Кансух (годы правления 1498–1500) и жена султана Аль-Ашраф Джанбалат (р. 1500–1501)
+nal_asalbay = {
+	name = "Asalbay"
+	female = yes
+	dynasty = Jarkasiyya #Черкессия?
+	father = pf_otez_cherkess
+	religion = "ashari"
+	culture = "alan" #черкес
+	1459.5.9 = {
+		birth = yes
+	}
+	1509.5.8 = {
+		death = yes
+	}
+}
+#Al-Ashraf Qansuh al-Ghuri - al-Ghuri - прозвище
+Qansuh_al_Ghuri = {
+	name = "Al-Ashraf-Qansuh"
+	father = al_ashraf_qaitbay
+	dynasty = Burjit
+	religion = "ashari"
+	culture = "egyptian" #хз
+	trait = "legitimized_bastard" #adopted son - усыновлён
+	trait = education_martial_3
+	prowess = 4
+	1444.4.11 = {
+		birth = yes
+	}
+	1516.8.24 = {
+		death = yes
+	}
+}
+#Abu Sa'id Qansuh 	31 October 1498 – 30 June 1500
+#попытался бежать из дворца под видом женщины, но был пойман и сослан в Александрию
+Abu_Said_Qansuh = {
+	name = "Qansuh"
+	dynasty = Jarkasiyya
+	father = pf_otez_cherkess
+	religion = "ashari"
+	culture = "alan" #черкес
+	trait = education_martial_2
+	prowess = 7
+	1461.6.11 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	#предположительно был задушен по приказу будущего султана
+	1501.5.1 = {
+		death = yes
+	}
+}
+pf_otez_cherkess = {
+	name = "Berozok"
+	dynasty = Jarkasiyya #пусть
+	religion = ashari
+	culture = alan
+	1430.3.9 = {
+		birth = yes
+	}
+	1466.6.1 = {
+		death = yes
+	}
+}
+##
+#Ан-Насир Мухаммад ибн Кайтбай - султан с 1496 по 1498 -- An-Nasir Muhammad ibn Qaitbay
+Nasir_Muhammad_Qaitbay = {
+	name = "al-Nasir_Muhammad"
+	dynasty = Burjit
+	father = al_ashraf_qaitbay
+	mother = nal_asalbay
+	trait = child_of_concubine_female #дитя наложницы
+	religion = "ashari"
+	culture = "egyptian"
+	1482.8.2 = {
+		birth = yes
+	}
+	1484.1.1 = {
+		effect = {
+			create_betrothal = character:Gevhermelik_doch_Djema #помолвка - дочь Султана Джема
+		}
+	}
+	1498.10.31 = {
+		death = yes
+	}
+}
+#Аль-Ашраф Туман-бай II Племянник и преемник предпоследнего султана Бурджит сделаю сыном
+Ashraf_2_Burjt_Posl = {
+	name = "Al-Ashraf"
+	dynasty = Burjit
+	father = al_ashraf_qaitbay
+	mother = fatima_khassbak
+	religion = "ashari"
+	culture = "egyptian"
+	1473.12.12 = {
+		birth = yes
+	}
+	1517.1.1 = {
+		death = yes
+	}
+}
+# noblewoman Fāṭima bint ʿAlī ibn Khaṣṣbak (d. 1505), the rich widow of sultan Qaitbay (r. 1468-1497)
+fatima_khassbak = {
+	name = "Fatima"
+	female = yes
+	father = ali_khassbak
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_stewardship_1
+	prowess = 4
+	1446.2.3 = {
+		birth = yes
+	}
+	1505.1.1 = {
+		death = yes
+	}
+}
+##её сестра Zaynab - Zaynab bint ʿAlī ibn Khaṣṣbakd
+zaynab_khassbak = {
+	name = "Zaynab"
+	female = yes
+	father = ali_khassbak
+	religion = "ashari"
+	culture = "egyptian"
+	1444.12.12 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+#Alī ibn Khaṣṣbak
+ali_khassbak = {
+	name = "Ali"
+	religion = "ashari"
+	culture = "egyptian"
+	1420.12.1 = {
+		birth = yes
+	}
+	1467.6.7 = {
+		death = yes
+	}
+}
+##
+MamInalBurjit = {
+	name = "Inal"
+	dynasty = Burjit
+	religion = "ashari"
+	culture = "egyptian"
+	trait = diligent
+	trait = ambitious
+	trait = family_first
+	1400.1.1 = {
+		birth = "1400.1.1"
+	}
+	1461.1.1 = {
+		death = "1461.1.1"
+	}
+}
+#титул — Папа Александрийский и Патриарх престола Святого Марка
+#Коптский патриарх Матфей II Александрийский
+#Папство закончилось 23 сентября 1465 - Первоначально монах в монастыре Эль-Мухаррак
+koptMat2 = {
+	name = "Matthaios"
+	dynasty = Muharraq
+	religion = "coptic"
+	culture = "egyptian" #из Египта вряд ли nubian
+	trait = education_learning_1
+	1390.1.1 = {
+		birth = "yes"
+	}
+	1400.1.1 = {
+		trait = devoted
+	}
+	1465.9.23 = {
+		death = "yes"
+	}
+}
+#Гавриил VI
+KoptHavri6 = {
+	name = "Gabriel" #ранее Gavriil
+	religion = "coptic"
+	culture = "egyptian"
+	trait = education_learning_1
+	trait = spindly
+	prowess = 3
+	1425.1.12 = {
+		birth = yes
+	}
+	1475.1.1 = {
+		death = yes
+	}
+}
+#Михаил IV (VII) (1477—1478)
+kopt_miha4_7 = {
+	name = "Khail" #Michael I (or Khaʾil I) 
+	religion = "coptic"
+	culture = "egyptian"
+	trait = education_learning_2
+	prowess = 4
+	1433.1.3 = {
+		birth = yes
+	}
+	1483.8.3 = {
+		death = yes
+	}
+}
+#Коптский Иоанн XII Александрийский с 1479/1480 по 1482/1483
+Kopе_Ioan12 = {
+	name = "Yohannes"
+	dynasty = Alexandria
+	religion = "coptic"
+	culture = "egyptian"
+	trait = education_learning_1
+	trait = devoted
+	prowess = 1
+	1401.9.22 = {
+		birth = yes
+	}
+	1483.8.3 = {
+		death = yes
+	}
+}
+#Коптский Иоанн XIII 1483—1524 - о нем мало чего известно
+KopPYohannes13 = {
+	name = "Yohannes"
+	dynasty = Haret_Zuweila #Церковь Девы Марии в Харет-Зувейле была резиденцией александрийского папы коптской православной церкви примерно с 1400 по 1520
+	religion = "coptic"
+	culture = "egyptian"
+	trait = education_learning_2
+	prowess = 5
+	trait = spindly
+	1449.1.12 = {
+		birth = yes
+	}
+	1460.1.12 = {
+		trait = theologian
+		trait = devoted
+	}
+	#погребён в Церкви Девы Марии (Харет Зувейла) в Каире
+	1524.2.4 = {
+		death = yes
+	}
+}
+#Египетский богослов и историк Ас-Сахави (1428-1497)
+Istorik_as_Sakhawi = {
+	name = "Shamsaddin"
+	dynasty = Sakhawi
+	religion = ashari
+	culture = egyptian
+	trait = education_learning_3
+	trait = zealous
+	prowess = 3
+	1428.2.8 = {
+		birth = yes
+	}
+	1448.2.8 = {
+		trait = theologian
+		trait = lifestyle_traveler #путешественник
+	}
+	1497.1.1 = {
+		death = yes
+	}
+}
+#Джанберди аль-Газали наместник мамлюков в Дамаске 12-11-23
+Janbirdi_al_Ghazali = {
+	name = "Janbirdi"
+	dynasty = al_Ghazali
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_diplomacy_2
+	prowess = 8
+	1456.5.20 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		trait = loyal
+	}
+	1521.2.6 = {
+		death = yes
+	}
+}
+#Хайр-бей -мамлюкский наместник Алеппо- - Hayır Bey 
+Hayir_Bey_Aleppo = {
+	name = "Sayf-ad-Din"
+	dynasty = Hayir_Bey
+	religion = ashari
+	culture = "egyptian" #мамлюк
+	trait = education_martial_2
+	trait = brave
+	stewardship = 8
+	prowess = 6
+	1453.5.3 = {
+		birth = yes
+	}
+	1522.2.2 = {
+		death = yes
+	}
+}
+#правитель Искандаруна
+Fik_Egyp_iskandarun = {
+	name = "Usama"
+	religion = "ashari"
+	culture = "egyptian"
+	1457.5.11 = {
+		birth = yes
+	}
+	1470.5.11 = {
+		trait = loyal
+	}
+	1545.1.1 = {
+		death = yes
+	}
+}
+##
+Egyptian_1490_1 = {
+	name = "Da_oud"
+	religion = "ismaili"
+	culture = "egyptian"
+	1466.2.1 = {
+		birth = yes
+	}
+	1520.1.3 = {
+		death = yes
+	}
+}
+Egyptian_1490_2 = {
+	name = "Nasir"
+	religion = "ashari"
+	culture = "egyptian"
+	trait = weak
+	1460.6.6 = {
+		birth = yes
+	}
+	1519.1.1 = {
+		death = yes
+	}
+}
+Egyptian_1490_3 = {
+	name = "Adnan"
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_learning_2
+	1459.6.6 = {
+		birth = yes
+	}
+	1511.1.1 = {
+		death = yes
+	}
+}
+## Джалалуддин ас-Суюти - Jalal al-Din al-Suyuti /1445-1511/
+#Абуль-Фадль Абдуррахман ибн Абу Бакр ибн Мухаммад аль-Худайри ас-Суюти
+ja_as_suyuti = {
+	name = "Abdul-Rahman"
+	dynasty = suyuti #из города Асьют Asyut, вырос в Каире
+	religion = "ashari"
+	culture = "persian" #Persian descent
+	trait = education_learning_3
+	learning = 12
+	prowess = 2
+	1445.10.3 = {
+		birth = yes
+	}
+	1452.1.1 = {
+		employer = MamInalBurjit
+	}
+	#Epithet (Laqab) - Jalāl al-Dīn
+	1468.1.1 = {
+		employer = al_ashraf_qaitbay
+		name = "Jalal_al-Din"
+		trait = theologian
+		trait = celibate
+		trait = lifestyle_mystic
+		trait = poet
+	}
+	1511.10.18 = {
+		death = yes
+	}
+}
+fik_mshrik_harran = {
+	name = "Daoud"
+	religion = "ashari"
+	culture = "levantine"
+	trait = desert_warrior
+	prowess = 4
+	stewardship = 5
+	1455.5.1 = {
+		birth = yes
+	}
+	1522.1.1 = {
+		death = yes
+	}
+}

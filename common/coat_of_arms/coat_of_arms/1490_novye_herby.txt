@@ -1,0 +1,4900 @@
+#Флорентийская республика d_toscana
+d_toscana_new2 ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 255 252 250 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=rgb { 231 15 15 }
+		texture="ce_fleur_florence.dds"
+		instance={
+			scale={ 0.900000 0.950000 }
+		}
+	}
+}
+#герцогство Феррара и Модена
+d_ferrara ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 5 129 248 }
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=yellow
+		texture="ce_eagle.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 1.100000 1.100000 }
+		}
+
+	}
+
+}
+#Вологда
+c_vologda={
+	pattern="pattern_solid.dds"
+	color1=rgb { 227 63 6 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=yellow_light
+		color2=grey
+		texture="ce_sword_simple.dds"
+		instance={
+			position={ 0.500000 0.760000 }
+			scale={ 0.770000 0.780000 }
+			rotation=92
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 250 229 15 }
+		texture="ce_globus_cruciger.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.680000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Суздаль
+c_suzdal={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=rgb { 73 138 199 }
+	color2=rgb { 214 45 41 }
+	color3=red
+	colored_emblem={
+		color1=rgb { 198 242 17 }
+		texture="ce_crown_small.dds"
+		instance={
+			position={ 0.360000 0.260000 }
+			scale={ 0.230000 0.290000 }
+			rotation=18
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=black
+		color3=black
+		texture="ce_martlet.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#пронск Тула граф
+b_pronsk={
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=yellow
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=green_light
+		texture="ce_yggdrasil_ockelbo.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+	}
+}
+#Устюг
+c_ustyug={
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=green_light
+	color2=rgb { 162 146 21 }
+	color3=white
+	colored_emblem={
+		color1=red
+		texture="ce_mena_chalice_02.dds"
+		instance={
+			scale={ 0.480000 0.650000 }
+			rotation=360
+		}
+
+	}
+
+}
+#Тотьма на гербе лиса вообще
+c_totma={
+	pattern="pattern_horizontal_split_02.dds"
+	color1=rgb { 247 163 38 }
+	color2=rgb { 220 56 6 }
+	color3=black
+	colored_emblem={
+		color1=black
+		texture="ce_religion_custom_faith_7.dds"
+		instance={
+			scale={ -0.790000 0.830000 }
+		}
+
+	}
+
+}
+#Кеврола Пинежского района
+c_kevrola={
+	pattern="pattern__solid_designer.dds"
+	color1=green_light
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 237 255 25 }
+		texture="ce_oak_leaf.dds"
+		instance={
+			position={ 0.670000 0.300000 }
+			scale={ 0.450000 0.450000 }
+			depth=1.010000
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 232 255 32 }
+		texture="ce_oak_leaf.dds"
+		instance={
+			position={ 0.330000 0.300000 }
+			scale={ 0.450000 0.450000 }
+			depth=2.010000
+			rotation=-45
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 223 219 13 }
+		texture="ce_oak_leaf.dds"
+		instance={
+			position={ 0.500000 0.670000 }
+			scale={ 0.450000 -0.450000 }
+		}
+
+	}
+
+}
+#Каргополь
+c_kargopol={
+	pattern="pattern_solid.dds"
+	color1=rgb { 94 165 230 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="ce_moon_india.dds"
+		instance={
+			position={ 0.710000 0.000000 }
+			scale={ 0.320000 0.600000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 181 157 140 }
+		color2=purple
+		texture="ce_sheep.dds"
+		instance={
+			scale={ 0.850000 0.920000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Плёс Ивановской области
+c_plyos={
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=white
+	color2=blue_light
+	color3=blue
+	colored_emblem={
+		color1=rgb { 49 34 13 }
+		color2=purple
+		color3=white
+		texture="ce_norse_longship_gotland.dds"
+		instance={
+			scale={ 0.480000 0.500000 }
+		}
+
+	}
+
+}
+#чухлома
+c_choklema={
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=rgb { 215 128 0 }
+		texture="ce_swords_crossed.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#елец город
+b_yelets={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=rgb { 150 128 128 }
+	color2=rgb { 29 52 31 }
+	color3=red
+	colored_emblem={
+		color1=rgb { 231 18 18 }
+		color2=yellow_light
+		color3=yellow_light
+		texture="ce_antelope.dds"
+		instance={
+			position={ 0.500000 0.370000 }
+			scale={ 0.700000 0.700000 }
+			rotation=17
+		}
+
+	}
+
+}
+#можайск графство
+c_mozhaysk={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=orange
+		texture="ce_castle_random.dds"
+		instance={
+			position={ 0.510000 0.700000 }
+			scale={ 0.500000 0.500000 }
+		}
+
+		instance={
+			position={ 0.770000 0.640000 }
+			scale={ 0.540000 0.750000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.250000 0.630000 }
+			scale={ 0.560000 0.790000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+#империя Адриатика-Ионика
+e_adriatikaionika={
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 4 131 248 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=rgb { 245 179 135 }
+		texture="ce_hand.dds"
+		instance={
+			position={ 0.500000 0.850000 }
+			scale={ 0.740000 0.690000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_laurels.dds"
+		instance={
+			position={ 0.490000 0.310000 }
+			scale={ 0.680000 0.620000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#герцогство Клеве
+d_cleve={
+	pattern="pattern_solid.dds"
+	color1=rgb { 139 16 0 }
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_inescutcheon.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_escarbuncle_flory.dds"
+	}
+
+}
+#Словакия в составе Венгрии Кажется я сделал Словению
+d_nyitra={
+	pattern="pattern__solid_designer.dds"
+	color1=blue
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_diamond_01.dds"
+		instance={
+			position={ 0.750000 0.750000 }
+			scale={ 0.640000 0.630000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.770000 }
+			scale={ 1.000000 0.770000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.250000 0.790000 }
+			scale={ 0.640000 0.680000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_star_08.dds"
+		instance={
+			position={ 0.380000 0.220000 }
+			scale={ 0.620000 0.610000 }
+		}
+
+	}
+
+}
+#герцеговина
+d_herzegovina={
+	pattern="pattern_horizontal_split_02.dds"
+	color1=rgb { 240 17 17 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_cross_09.dds"
+		instance={
+			position={ 0.500000 0.630000 }
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#муром новый
+c_murom ={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=rgb { 148 16 3 }
+	color2=blue_light
+	color3=blue
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_lion_guardant.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_religion_christianity_generic.dds"
+		instance={
+			position={ 0.280000 0.300000 }
+			scale={ 0.430000 0.600000 }
+		}
+
+	}
+
+}
+#псков новый
+c_pskov ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 25 106 183 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=rgb { 249 151 5 }
+		color2=black
+		color3=white
+		texture="ce_wolf_passant.dds"
+		instance={
+			position={ 0.530000 0.460000 }
+			scale={ 0.650000 0.820000 }
+		}
+
+	}
+
+}
+#новгород новый
+c_novgorod={
+	pattern="pattern_solid.dds"
+	color1=rgb { 197 183 174 }
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=rgb { 100 6 15 }
+		color2=yellow_light
+		color3=yellow_light
+		texture="ce_bear_rampant.dds"
+		instance={
+			position={ 0.330000 0.450000 }
+			scale={ -0.570000 0.560000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_bear_rampant.dds"
+		instance={
+			position={ 0.720000 0.470000 }
+			scale={ 0.570000 0.600000 }
+		}
+
+	}
+
+}
+#британская империя e_britannia
+e_britannia_new = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "blue"
+	color3 = "blue"
+
+	colored_emblem = {
+		texture = "ce_bendlet.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.44 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.5 0.46 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.49 0.45 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.51 0.45 } scale = { 1.0 1.0 }  }
+		
+		instance = { position = { 0.5 0.44 } rotation = 90 scale = { 1.0 1.0 }  }
+		instance = { position = { 0.5 0.46 } rotation = 90 scale = { 1.0 1.0 }  }
+		instance = { position = { 0.49 0.45 } rotation = 90 scale = { 1.0 1.0 }  }
+		instance = { position = { 0.51 0.45 } rotation = 90 scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_bendlet.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.45 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.5 0.45 } rotation = 90 scale = { 1.0 1.0 }  }
+	}	
+	colored_emblem = {
+		texture = "ce_ordinary_cross_thinnest.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.51 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.5 0.39 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.56 0.45 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.44 0.45 } scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_ordinary_cross_thinnest.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.5 0.4 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.55 0.45 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.45 0.45 } scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_ordinary_cross_thinnest.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.45 } scale = { 1.0 1.0 }  }
+	}	
+}
+#k_england = {
+#	pattern = "pattern_cross_02.dds"
+#	color1 = "white"
+#	color2 = "red"
+#	color3 = "red"	
+#}
+#k_sweden
+k_sweden_new = {
+	pattern = "pattern_cross_02.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	color3 = "yellow"	
+}
+#k_denmark = {
+#	pattern = "pattern_cross_02.dds"
+#	color1 = "red"
+#	color2 = "white"
+#	color3 = "white"	
+#}
+#k_finland
+k_finland_new = {
+	pattern = "pattern_cross_02.dds"
+	color1 = "white"
+	color2 = "blue"
+	color3 = "blue"	
+}
+#Османская империя
+e_ottoman_old = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_religion_islam_generic.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.8 0.7 }  }
+	}
+}
+e_ottoman={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_religion_islam_generic.dds"
+		instance={
+			scale={ 0.800000 0.700000 }
+		}
+
+	}
+
+}
+#ВКЛ полоцкий герб с изменениями
+k_Vel_Kn_Litovskoe={
+	pattern="pattern_solid.dds"
+	color1=rgb { 181 28 7 }
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_knight.dds"
+		instance={
+			position={ 0.510000 0.470000 }
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+}
+#тракай новый
+c_trakai ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 192 3 3 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=black
+		color3=black
+		texture="ce_winged_arrow.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+	}
+}
+#Гродно новый
+c_grodno={
+	pattern="pattern_solid.dds"
+	color1=rgb { 17 19 199 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=rgb { 181 136 70 }
+		texture="ce_antelope.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.840000 0.930000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_carbuncle.dds"
+		instance={
+			position={ 0.500000 0.980000 }
+			scale={ 0.610000 0.510000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_cross_07.dds"
+		instance={
+			position={ 0.500000 0.170000 }
+			scale={ 0.480000 0.500000 }
+			depth=1.010000
+			rotation=53
+		}
+
+	}
+
+}
+#Луки великие Луки
+c_luki={
+	pattern="pattern_solid.dds"
+	color1=rgb { 167 87 35 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 240 255 7 }
+		color2=yellow_light
+		texture="ce_bow.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Витебск
+c_vitebsk ={
+	pattern="pattern_shield_02.dds"
+	color1=rgb { 195 30 7 }
+	color2=rgb { 92 177 255 }
+	color3=red
+	colored_emblem={
+		color1=rgb { 230 250 2 }
+		color2=rgb { 255 255 255 }
+		texture="ce_sword_simple.dds"
+		instance={
+			scale={ 1.000000 0.790000 }
+			rotation=33
+		}
+
+	}
+
+}
+#Олесница
+c_miliez={
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=yellow_light
+	color2=rgb { 189 170 170 }
+	color3=rgb { 211 20 15 }
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		color2=black
+		color3=black
+		texture="ce_eagle_small.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.870000 0.890000 }
+		}
+
+	}
+
+}
+#Новгород-Северский
+c_novgorod_seversky={
+	pattern="pattern_solid.dds"
+	color1=green_light
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_portcullis.dds"
+		instance={
+			position={ 0.500000 0.780000 }
+			scale={ 0.790000 0.700000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow_light
+		texture="ce_axe_long.dds"
+		instance={
+			position={ 0.330000 0.290000 }
+			scale={ 0.570000 0.400000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow_light
+		texture="ce_sabre.dds"
+		instance={
+			position={ 0.670000 0.290000 }
+			scale={ 0.450000 0.450000 }
+			rotation=286
+		}
+
+	}
+
+}
+#Вильна-кернаве
+c_kernave={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_cross_patriarchal_hungary.dds"
+		instance={
+			position={ 0.500000 0.280000 }
+			scale={ -0.510000 0.510000 }
+		}
+
+	}
+
+}
+#Гнёздово новый
+c_gnezdovo={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=white
+	color2=green_light
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="ce_mena_axe_fess.dds"
+		instance={
+			position={ 0.540000 0.300000 }
+			scale={ 0.740000 0.720000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=black
+		color3=black
+		texture="ce_falcon.dds"
+		instance={
+			position={ 0.320000 0.700000 }
+			scale={ 0.360000 0.360000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce__empty_designer.dds"
+		instance={
+			position={ 0.320000 0.200000 }
+			scale={ 0.360000 0.360000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 201 171 171 }
+		texture="ce_martlet.dds"
+		instance={
+			position={ 0.680000 0.700000 }
+			scale={ 0.360000 0.360000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce__empty_designer.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.360000 0.360000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce__empty_designer.dds"
+		instance={
+			position={ 0.680000 0.200000 }
+			scale={ 0.360000 0.360000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+#
+e_china = {
+	pattern = "pattern_solid.dds"
+	color1 = { 160 82 45 }
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_snake.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.5 0.45 } scale = { 0.9 0.9 }  }
+	}
+}
+#герб киева герцогство
+d_kiev ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 5 46 86 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=yellow_light
+		color2=yellow_light
+		texture="ce_frame_circle_borre_single.dds"
+		instance={
+			position={ 0.500000 0.090000 }
+			scale={ 0.270000 0.140000 }
+			depth=1.010000
+			rotation=68
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="ce_angel.dds"
+		instance={
+			scale={ 0.790000 0.870000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=grey
+		texture="ce_sword_simple.dds"
+		instance={
+			position={ 0.330000 0.370000 }
+			scale={ 0.470000 0.400000 }
+			rotation=327
+		}
+
+	}
+
+}
+#Жагань Шпротава
+c_sprottau={
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=rgb { 166 19 0 }
+	color2=yellow_light
+	color3=red
+	colored_emblem={
+		color1=rgb { 39 31 23 }
+		color2=rgb { 216 129 0 }
+		color3=white
+		texture="ce_eagle.dds"
+		instance={
+			scale={ 0.910000 0.910000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_cross_armenian.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.190000 0.170000 }
+		}
+
+	}
+
+}
+#Пшемкув
+c_przemkow={
+	pattern="pattern_solid.dds"
+	color1=yellow_light
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=grey
+		texture="ce_tower.dds"
+		instance={
+			scale={ 0.920000 0.830000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 235 26 0 }
+		color2=red
+		texture="ce_stag.dds"
+	}
+
+}
+#Альба
+d_alba={
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=blue_light
+		texture="ce_checkers_06.dds"
+		instance={
+			scale={ 0.960000 0.810000 }
+		}
+
+	}
+}
+#Сен Мишель Орден
+d_saint_michel={
+	pattern="pattern_chevron_01.dds"
+	color1=rgb { 99 95 92 }
+	color2=rgb { 4 78 147 }
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=purple
+		texture="ce_angel.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+}
+c_moskva={
+	pattern="pattern_solid.dds"
+	color1=rgb { 142 19 2 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=blue
+		color3=black
+		texture="ce_knight.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ -0.820000 0.700000 }
+			depth=1.010000
+			rotation=43
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce__empty_designer.dds"
+	}
+
+}
+b_moskva={
+	pattern="pattern_solid.dds"
+	color1=rgb { 175 28 8 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=rgb { 3 13 21 }
+		color3=rgb { 27 19 10 }
+		texture="ce_knight.dds"
+		instance={
+			position={ 0.490000 0.510000 }
+			scale={ -0.830000 0.750000 }
+			depth=1.010000
+			rotation=25
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce__empty_designer.dds"
+	}
+
+}
+#город Серпухов
+b_serpukhov={
+	pattern="pattern_solid.dds"
+	color1=rgb { 148 22 5 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 226 135 0 }
+		texture="ce_peacock.dds"
+		instance={
+			scale={ 0.850000 0.900000 }
+		}
+
+	}
+
+}
+#город коломна 15 век
+b_kolomna={
+	pattern="pattern_solid.dds"
+	color1=rgb { 204 194 194 }
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=rgb { 88 79 69 }
+		color2=rgb { 0 0 0 }
+		color3=rgb { 27 3 0 }
+		texture="ce_wolf_passant.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#город Дмитров
+b_dmitrov={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=purple
+		texture="ce_crown_random.dds"
+		instance={
+			position={ 0.750000 0.750000 }
+			scale={ 0.300000 0.300000 }
+		}
+
+		instance={
+			scale={ 0.300000 0.300000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.250000 0.250000 }
+			scale={ 0.300000 0.300000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+k_prussia={
+	pattern="pattern_solid.dds"
+	color1=rgb { 255 255 255 }
+	color2=black
+	colored_emblem={
+		color1=black
+		color2=rgb { 155 97 10 }
+		color3=rgb { 251 224 219 }
+		texture="ce_eagle.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 1.100000 1.100000 }
+		}
+
+	}
+
+}
+c_vhrbosna={
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=rgb { 255 246 240 }
+		texture="ce_ordinary_pile_02_inverted.dds"
+		instance={
+			scale={ 0.950000 1.000000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 218 176 148 }
+		texture="ce_eastern_clouds.dds"
+		instance={
+			position={ 0.500000 0.280000 }
+			scale={ 0.630000 0.520000 }
+		}
+
+	}
+
+}
+b_vhrbosna={
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=rgb { 255 200 240 }
+		texture="ce_ordinary_pile_02_inverted.dds"
+		instance={
+			scale={ 0.950000 1.000000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 218 176 148 }
+		texture="ce_eastern_clouds.dds"
+		instance={
+			position={ 0.500000 0.280000 }
+			scale={ 0.630000 0.520000 }
+		}
+
+	}
+
+}
+#Курпфальц - c Василевса цвета менее интенсивные
+d_kurpfalz ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 55 53 51 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=yellow_light
+		color2=rgb { 236 40 8 }
+		texture="ce_lion_rampant_crown.dds"
+		instance={
+			scale={ 0.870000 0.920000 }
+		}
+
+	}
+
+}
+#герцогство Нахера
+d_najera ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 43 85 123 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_tower.dds"
+		instance={
+			scale={ 0.870000 0.830000 }
+		}
+	}
+}
+d_bejar_y_plasencia={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=rgb { 62 60 57 }
+		texture="ce_column.dds"
+		instance={
+			scale={ 1.000000 0.580000 }
+			rotation=122
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_double_tressure.dds"
+		instance={
+			scale={ 0.840000 0.920000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+d_rizhskoe_epis={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_nestorian_cross.dds"
+		instance={
+			scale={ 0.890000 0.930000 }
+		}
+
+	}
+
+}
+#Орден Сантьяго
+d_knights_santiago ={ pattern="pattern_solid.dds"
+ color1=white color2=white
+ color3=black colored_emblem={
+  color1=rgb { 134 2 2 }  texture="ce_religion_custom_faith_1.dds"
+  instance={   scale={ 0.830000 0.890000 }
+  }
+ }
+}
+#Госпитальеры историчный
+d_knights_hospitaler ={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_cross_05_maltese.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.830000 0.850000 }
+		}
+
+	}
+
+}
+#Холмогоры
+c_kholmogory={
+	pattern="pattern_waves_01.dds"
+	color1=rgb { 66 129 188 }
+	color2=rgb { 185 168 157 }
+	color3=red
+	colored_emblem={
+		color1=rgb { 254 252 250 }
+		texture="ce_bow.dds"
+		instance={
+			position={ 0.360000 0.440000 }
+			scale={ 0.520000 0.730000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 252 250 }
+		texture="ce_column.dds"
+		instance={
+			scale={ 0.320000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Тамплиеры
+d_knights_templar={
+	pattern="pattern_solid.dds"
+	color1=rgb { 243 239 236 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=rgb { 246 46 0 }
+		color2=rgb { 251 1 1 }
+		texture="ce_cross_06.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+d_verhovskie_knyzva ={
+	pattern="pattern_waves_01.dds"
+	color1=rgb { 241 236 235 }
+	color2=blue_light
+	color3=blue
+	colored_emblem={
+		color1=grey
+		color2=black
+		texture="ce_religion_melieism.dds"
+		instance={
+			position={ 0.500000 0.280000 }
+			scale={ 0.370000 0.440000 }
+		}
+
+	}
+
+}
+#Империя Мин
+e_ming={
+	pattern="pattern_solid.dds"
+	color1=rgb { 250 250 250 }
+	color2=white
+	color3=purple
+	colored_emblem={
+		color1=red
+		texture="ce_square_kaaba.dds"
+		instance={
+			depth=1.010000
+		}
+
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_square_kaaba.dds"
+		instance={
+			scale={ 0.640000 0.650000 }
+		}
+
+	}
+
+}
+#Яссы
+c_iasi={
+	pattern="pattern_shield_02.dds"
+	color1=white
+	color2=red
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_castle_random.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=black
+		color3=black
+		texture="ce_horse_statant.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.620000 0.580000 }
+		}
+
+	}
+
+}
+#Сорока
+c_soroca={
+	pattern="pattern_vertical_split_01.dds"
+	color1=red
+	color2=rgb { 207 100 8 }
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=grey
+		texture="ce_moors_head_02.dds"
+		instance={
+			position={ 0.670000 0.280000 }
+			scale={ 0.330000 0.360000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 180 180 180 }
+		texture="ce_spearhead.dds"
+		instance={
+			position={ 0.680000 0.440000 }
+			scale={ 0.490000 1.000000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 171 151 151 }
+		texture="ce_castle_random.dds"
+		instance={
+			position={ 0.280000 0.480000 }
+			scale={ 0.580000 1.000000 }
+		}
+
+	}
+
+}
+#Лапушна
+c_lapusna ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 187 33 13 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_cross_crosslet.dds"
+		instance={
+			scale={ 0.810000 0.810000 }
+		}
+
+	}
+
+}
+#Сам Кишинёв
+b_chisinau ={
+	pattern="pattern_shield_02.dds"
+	color1=white
+	color2=blue_light
+	color3=black
+	colored_emblem={
+		color1=rgb { 224 2 13 }
+		texture="ce_maunch.dds"
+		instance={
+			scale={ 0.260000 0.300000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_eagle_islamic.dds"
+		instance={
+			scale={ 0.690000 0.680000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Аравия k_arabia
+k_arabia_new ={
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce__empty_designer.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Буджак d_bugeac
+d_bugeac_new ={
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=blue
+	color2=yellow_light
+	color3=rgb { 255 15 15 }
+	colored_emblem={
+		color1=yellow
+		texture="ce__empty_designer.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Четатя-Албэ
+c_cetatea_alba ={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 179 145 145 }
+		color2=white
+		texture="ce_castle.dds"
+		instance={
+			position={ 0.500000 0.750000 }
+		}
+
+	}
+
+}
+#сгенерирован игрой - Килия
+c_chilia ={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=red
+	color3=white
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_hound_rampant.dds"
+	}
+
+}
+#Астраханская орда k_caucasus
+k_astrakhan_horde ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 135 109 31 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=yellow_light
+		color2=white
+		texture="ce_sabre.dds"
+		instance={
+			scale={ -0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Карачев Россия
+c_karachev={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=blue_light
+	color2=rgb { 185 170 159 }
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_crescent_bone.dds"
+		instance={
+			position={ 0.500000 0.060000 }
+			scale={ 1.000000 -1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=purple
+		texture="ce_tree.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Рама - центр Боснии
+c_rama ={
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_cross_09.dds"
+		instance={
+			position={ 0.500000 0.290000 }
+			scale={ 0.560000 0.490000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_ordinary_pile_02_inverted.dds"
+		instance={
+			scale={ 0.990000 1.000000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Шумадия - Крушевац
+c_sumadija={
+	pattern="pattern_solid.dds"
+	color1=rgb { 105 13 0 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_crown_small.dds"
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.200000 0.190000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_orle.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_double_bow_islamic.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.650000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Имеретия
+d_imeretia={
+	pattern="pattern_solid.dds"
+	color1=rgb { 7 41 74 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="ce_sheep.dds"
+		instance={
+			position={ 0.500000 0.530000 }
+			scale={ 0.880000 0.860000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_african_cross_jenne.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 1.000000 0.280000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Кахетия
+d_kahetia={
+	pattern="pattern_chevron_01.dds"
+	color1=white
+	color2=grey
+	color3=black
+	colored_emblem={
+		color1=red
+		texture="ce_mount_fleurdelisé.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Картли - герб Грузии
+d_kartli={
+	pattern="pattern_solid.dds"
+	color1=rgb { 255 255 255 }
+	color2=red
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_ordinary_cross_thin.dds"
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_cross_patty.dds"
+		instance={
+			position={ 0.730000 0.220000 }
+			scale={ 0.400000 0.400000 }
+		}
+
+		instance={
+			position={ 0.270000 0.220000 }
+			scale={ 0.400000 0.400000 }
+		}
+
+		instance={
+			position={ 0.270000 0.715000 }
+			scale={ 0.350000 0.350000 }
+		}
+
+		instance={
+			position={ 0.730000 0.715000 }
+			scale={ 0.350000 0.350000 }
+		}
+
+	}
+
+}
+#герцогство Браганса - Новая формация
+d_braganza={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=blue
+	colored_emblem={
+		color1=blue
+		color2=white
+		texture="ce_shield_portugal.dds"
+		instance={
+			position={ 0.720000 0.450000 }
+			scale={ 0.450000 0.450000 }
+			rotation=90
+		}
+
+		instance={
+			position={ 0.280000 0.450000 }
+			scale={ 0.450000 0.450000 }
+			depth=1.010000
+			rotation=270
+		}
+
+		instance={
+			position={ 0.500000 0.740000 }
+			scale={ 0.450000 0.450000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.450000 0.450000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.500000 0.200000 }
+			scale={ 0.450000 0.450000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 185 31 10 }
+		color2=white
+		texture="ce_ordinary_saltire_5.dds"
+		instance={
+			depth=5.010000
+		}
+
+	}
+
+}
+d_lissabon_algarvi={
+	pattern="pattern_waves_01.dds"
+	color1=rgb { 184 212 73 }
+	color2=rgb { 253 253 253 }
+	colored_emblem={
+		color1=green
+		color2=white
+		texture="ce_waves_01.dds"
+		mask={ 0 2 0 }
+	}
+
+	colored_emblem={
+		color1=black
+		color2=white
+		texture="ce_ship_lymphad.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+}
+#Визеу новый
+c_viseu ={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=grey
+		texture="ce_orle.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 210 30 6 }
+		color2=rgb { 249 251 8 }
+		texture="ce_castle.dds"
+		instance={
+			scale={ 0.940000 0.930000 }
+		}
+
+	}
+
+}
+#новое Визеу-Бежа
+d_vizeu_bezha={
+	pattern="pattern_solid.dds"
+	color1=rgb { 209 187 165 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=grey
+		texture="ce_orle.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 210 30 6 }
+		color2=rgb { 249 251 8 }
+		texture="ce_castle.dds"
+		instance={
+			scale={ 0.940000 0.930000 }
+		}
+
+	}
+
+}
+#Кадис
+c_cadiz={
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 3 72 137 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 185 23 1 }
+		color2=yellow
+		color3=blue_light
+		texture="ce_lion_rampant_wide_stance_crown.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.650000 0.720000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_shield_01.dds"
+		instance={
+			scale={ 0.800000 0.810000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_inescutcheon.dds"
+		instance={
+			position={ 0.510000 0.070000 }
+			scale={ 0.230000 0.110000 }
+		}
+
+	}
+
+}
+d_cadiz ={
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 7 95 178 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 227 31 5 }
+		color2=yellow
+		color3=yellow_light
+		texture="ce_lion_rampant_wide_stance_crown.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.650000 0.720000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_inescutcheon.dds"
+		instance={
+			position={ 0.510000 0.070000 }
+			scale={ 0.230000 0.110000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_shield_01.dds"
+		instance={
+			scale={ 0.800000 0.810000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+#герцогство Винчестер
+d_winchester={
+	pattern="pattern_horizontal_split_02.dds"
+	color1=black
+	color2=yellow_light
+	color3=blue
+	colored_emblem={
+		color1=yellow_light
+		color2=grey
+		texture="ce_sword_simple.dds"
+		instance={
+			position={ 0.700000 0.600000 }
+			scale={ 0.700000 -0.700000 }
+			depth=2.010000
+			rotation=20
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=grey
+		texture="ce_sword_simple.dds"
+		instance={
+			scale={ 1.000000 -1.000000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=grey
+		texture="ce_sword_simple.dds"
+		instance={
+			position={ 0.310000 0.610000 }
+			scale={ 0.760000 -0.770000 }
+			rotation=337
+		}
+
+	}
+
+}
+#герцогство Саффолк Суффолк
+d_suffolk={
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=yellow_light
+		color2=yellow_light
+		texture="ce_arrow.dds"
+		instance={
+			position={ 0.750000 0.300000 }
+			scale={ 0.500000 0.500000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.250000 0.300000 }
+			scale={ -0.500000 0.500000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_crown_random.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.840000 0.890000 }
+		}
+
+	}
+
+}
+#чистая фантазия
+d_somerset2_dorset={
+	pattern="pattern_solid.dds"
+	color1=rgb { 66 60 60 }
+	color2=blue
+	color3=yellow
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_lozenge.dds"
+		instance={
+			position={ 0.500000 0.220000 }
+			scale={ 0.330000 0.330000 }
+		}
+
+		instance={
+			position={ 0.500000 0.780000 }
+			scale={ 0.330000 0.330000 }
+		}
+
+		instance={
+			position={ 0.260000 0.220000 }
+			scale={ 0.330000 0.330000 }
+		}
+
+		instance={
+			position={ 0.740000 0.220000 }
+			scale={ 0.330000 0.330000 }
+		}
+
+		instance={
+			position={ 0.370000 0.500000 }
+			scale={ 0.330000 0.330000 }
+		}
+
+		instance={
+			position={ 0.630000 0.500000 }
+			scale={ 0.330000 0.330000 }
+		}
+
+	}
+
+}
+d_buckingham={
+	pattern="pattern_solid.dds"
+	color1=rgb { 161 22 3 }
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=black
+		texture="ce_lion_passant_small.dds"
+		instance={
+			position={ 0.500000 0.220000 }
+			scale={ 0.900000 0.800000 }
+		}
+
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.900000 0.800000 }
+		}
+
+		instance={
+			position={ 0.500000 0.740000 }
+			scale={ 0.900000 0.800000 }
+		}
+
+	}
+
+}
+d_walliyskay_marka={
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=rgb { 87 84 81 }
+	color2=yellow
+	color3=green
+	colored_emblem={
+		color1=white
+		color2=black
+		color3=yellow
+		texture="ce_flower.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+d_bedford2={
+	pattern="pattern_horizontal_split_02.dds"
+	color1=white
+	color2=black
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce__empty_designer.dds"
+		instance={
+			position={ 0.500000 0.900000 }
+			scale={ 0.250000 0.250000 }
+		}
+
+		instance={
+			position={ 0.650000 0.500000 }
+			scale={ 0.250000 0.250000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_lion_rampant_per_pale.dds"
+		instance={
+			position={ 0.500000 0.640000 }
+			scale={ 0.840000 0.760000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_quadrilobe.dds"
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.250000 0.250000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.250000 0.250000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		color2=black
+		texture="ce_quadrilobe.dds"
+		instance={
+			position={ 0.800000 0.100000 }
+			scale={ 0.250000 0.250000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+#Мантурово - отсылка к Костромской области
+c_manturovo ={
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=red
+	color2=blue
+	color3=blue
+	colored_emblem={
+		color1=yellow
+		color2=rgb { 49 45 45 }
+		color3=yellow_light
+		texture="ce_norse_longship_gotland_shields.dds"
+		instance={
+			position={ 0.500000 0.620000 }
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Устье - Онсфия
+c_onsthia ={
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=rgb { 136 169 199 }
+	color2=blue
+	color3=rgb { 110 102 100 }
+	colored_emblem={
+		color1=rgb { 70 37 4 }
+		texture="ce_ship_mast.dds"
+		instance={
+			position={ 0.510000 0.420000 }
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Бургундия королевство с центром в Дижоне
+k_burgundy2={
+	pattern="pattern_solid.dds"
+	color1=green_light
+	color2=yellow
+	colored_emblem={
+		color1=rgb { 145 18 1 }
+		color2=red
+		texture="ce_border_shield.dds"
+	}
+
+	colored_emblem={
+		color1=rgb { 6 56 104 }
+		color2=yellow_light
+		texture="ce_diagonal_stripes_01.dds"
+		instance={
+			position={ 0.364000 0.610000 }
+			scale={ 1.230000 1.230000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Шенкурск
+c_shenkursk={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=red
+	color2=green
+	color3=red
+	colored_emblem={
+		color1=rgb { 214 129 72 }
+		texture="ce_bear_passant.dds"
+		instance={
+			position={ 0.510000 0.740000 }
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+
+#Виджаянагара - герб кор Карнаты
+e_deccan={
+	pattern="pattern_solid.dds"
+	color1=rgb { 246 147 0 }
+	color2=black
+	colored_emblem={
+		color1=black
+		color2=black
+		color3=white
+		texture="ce_boar_passant.dds"
+		instance={
+			position={ 0.500000 0.550000 }
+			scale={ -0.900000 0.900000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_crescent.dds"
+		instance={
+			position={ 0.480000 0.150000 }
+			scale={ 0.250000 0.250000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.750000 0.180000 }
+			scale={ 0.260000 0.260000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_pile_mask_thin.dds"
+		instance={
+			position={ 0.236000 0.252000 }
+			scale={ 0.200000 -0.256000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_diamond_01.dds"
+		instance={
+			position={ 0.236000 0.135000 }
+			scale={ 0.100000 0.100000 }
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.236000 0.100000 }
+			scale={ 0.025000 0.090000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.191000 0.145000 }
+			scale={ 0.024000 0.024000 }
+		}
+
+		instance={
+			position={ 0.281000 0.145000 }
+			scale={ 0.024000 0.024000 }
+		}
+
+		instance={
+			position={ 0.236000 0.070000 }
+			scale={ 0.044000 0.032000 }
+		}
+
+		instance={
+			position={ 0.236000 0.050000 }
+			scale={ 0.018000 0.018000 }
+		}
+
+	}
+
+}
+d_prusski_souz ={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=blue_light
+	color2=rgb { 79 73 73 }
+	color3=blue
+	colored_emblem={
+		color1=white
+		color2=grey
+		texture="ce_castle.dds"
+		instance={
+			position={ 0.610000 0.410000 }
+			scale={ 0.910000 0.910000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_tower.dds"
+		instance={
+			position={ 0.300000 0.500000 }
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+d_nemours={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=white
+	color2=rgb { 3 160 19 }
+	color3=red
+	colored_emblem={
+		color1=green
+		texture="ce_shrub.dds"
+		instance={
+			position={ 0.700000 0.500000 }
+			scale={ -0.400000 0.400000 }
+		}
+
+		instance={
+			position={ 0.300000 0.500000 }
+			scale={ 0.400000 0.400000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+d_alencon={
+	pattern="pattern_solid.dds"
+	color1=rgb { 245 153 16 }
+	color2=blue
+	colored_emblem={
+		color1=blue
+		color2=blue
+		texture="ce_bends_03.dds"
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_ordinary_canton.dds"
+	}
+
+}
+d_ernestin_saxony={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=white
+	color2=black
+	color3=black
+	colored_emblem={
+		color1=rgb { 211 25 0 }
+		color2=rgb { 198 29 1 }
+		texture="ce_swords_crossed.dds"
+		instance={
+			scale={ 0.790000 1.000000 }
+		}
+
+	}
+
+}
+d_albertin_saxony={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=black
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 198 29 1 }
+		color2=rgb { 211 25 0 }
+		texture="ce_swords_crossed.dds"
+		instance={
+			scale={ 0.780000 1.000000 }
+		}
+
+	}
+
+}
+d_pskov ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 0 81 158 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=rgb { 249 151 5 }
+		color2=black
+		color3=white
+		texture="ce_wolf_passant.dds"
+		instance={
+			position={ 0.530000 0.460000 }
+			scale={ 0.650000 0.820000 }
+		}
+	}
+}
+d_pskov ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 0 81 158 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=rgb { 249 151 5 }
+		color2=black
+		color3=white
+		texture="ce_wolf_passant.dds"
+		instance={
+			position={ 0.530000 0.460000 }
+			scale={ 0.650000 0.820000 }
+		}
+	}
+}
+d_tver={
+	pattern="pattern_horizontal_split_02.dds"
+	color1=red
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=green
+		texture="ce_crown_head.dds"
+		instance={
+			position={ 0.500000 0.550000 }
+			scale={ 0.550000 0.540000 }
+		}
+
+	}
+
+}
+d_beloozero={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=rgb { 5 42 78 }
+	color2=blue_light
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_cross_patty.dds"
+		instance={
+			position={ 0.320000 0.160000 }
+			scale={ 0.280000 0.270000 }
+		}
+
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_salms_addorsed.dds"
+		instance={
+			scale={ 0.700000 0.710000 }
+			depth=1.010000
+			rotation=73
+		}
+
+	}
+
+}
+#Московский патриархат
+d_metropolis_moscow={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_religion_christianity_orthodox.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Имперские города
+d_imperskie_goroda={
+	pattern="pattern_solid.dds"
+	color1=rgb { 255 184 78 }
+	color2=black
+	colored_emblem={
+		color1=black
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.420000 0.155000 }
+			scale={ 0.256000 0.256000 }
+		}
+
+		instance={
+			position={ 0.580000 0.155000 }
+			scale={ 0.256000 0.256000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.420000 0.155000 }
+			scale={ 0.240000 0.240000 }
+		}
+
+		instance={
+			position={ 0.580000 0.155000 }
+			scale={ 0.240000 0.240000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=red
+		color3=white
+		texture="ce_eagle_double.dds"
+		instance={
+			scale={ 0.900000 1.000000 }
+		}
+
+	}
+
+}
+#Торжок - в игре Валдай
+c_valdai ={
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="ce_nestorian_bird.dds"
+		instance={
+			position={ 0.330000 0.710000 }
+			scale={ -0.340000 0.340000 }
+			rotation=280
+		}
+		instance={
+			position={ 0.330000 0.190000 }
+			scale={ -0.340000 0.340000 }
+			depth=2.010000
+			rotation=285
+		}
+		instance={
+			position={ 0.660000 0.450000 }
+			scale={ -0.340000 0.340000 }
+			depth=4.010000
+			rotation=281
+		}
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_nestorian_bird.dds"
+		instance={
+			position={ 0.660000 0.710000 }
+			scale={ -0.330000 0.330000 }
+			depth=5.010000
+			rotation=282
+		}
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_nestorian_bird.dds"
+		instance={
+			position={ 0.330000 0.450000 }
+			scale={ -0.340000 0.340000 }
+			depth=1.010000
+			rotation=279
+		}
+		instance={
+			position={ 0.660000 0.180000 }
+			scale={ -0.340000 0.340000 }
+			depth=3.010000
+			rotation=284
+		}
+	}
+}
+#Себеж
+c_sebezh={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=yellow
+	color2=blue_light
+	color3=black
+	colored_emblem={
+		color1=blue_light
+		texture="ce_block_01.dds"
+		instance={
+			position={ 0.500000 0.760000 }
+			depth=2.010000
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_crown_head.dds"
+		instance={
+			position={ 0.500000 0.130000 }
+			scale={ 0.310000 0.310000 }
+		}
+	}
+	colored_emblem={
+		color1=white
+		color2=red
+		color3=red
+		texture="ce_knight.dds"
+		instance={
+			position={ 0.500000 0.740000 }
+			scale={ 0.490000 0.490000 }
+			depth=1.010000
+		}
+	}
+	colored_emblem={
+		color1=red
+		color2=red
+		color3=red
+		texture="ce_eagle_double.dds"
+		instance={
+			position={ 0.500000 0.540000 }
+			scale={ 0.830000 0.830000 }
+			depth=3.010000
+		}
+	}
+}
+#Свирь - Вянги
+c_vyangi={
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1 = white
+	color2 = white
+	color3 = yellow
+	colored_emblem={
+		color1=yellow
+		texture="ce_menorah.dds"
+		instance={
+			position={ 0.500000 0.190000 }
+			scale={ 0.360000 0.360000 }
+			depth=8.010000
+		}
+	}
+	colored_emblem={
+		color1=brown
+		color2=rgb { 174 26 6 }
+		color3=blue_light
+		texture="ce_ship_lymphad.dds"
+		instance={
+			position={ 0.500000 0.730000 }
+			scale={ 0.480000 0.480000 }
+		}
+	}
+	colored_emblem={
+		color1=red
+		texture="ce_lozenge.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.210000 0.210000 }
+			depth=2.010000
+			rotation=89
+		}
+	}
+	colored_emblem={
+		color1=black
+		color2=black
+		color3=black
+		texture="ce_bear_rampant.dds"
+		instance={
+			position={ 0.220000 0.450000 }
+			scale={ -0.470000 0.470000 }
+			depth=4.010000
+		}
+		instance={
+			position={ 0.780000 0.450000 }
+			scale={ 0.470000 0.470000 }
+			depth=5.010000
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_tamgha_turkic_14.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.480000 0.480000 }
+			depth=7.010000
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_tamgha_oghuz_yaparli.dds"
+		instance={
+			position={ 0.500000 0.360000 }
+			scale={ 0.520000 0.520000 }
+			depth=6.010000
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_polish_brodzic.dds"
+		instance={
+			position={ 0.500000 0.330000 }
+			scale={ 0.550000 0.550000 }
+			depth=3.010000
+		}
+	}
+	colored_emblem={
+		color1=yellow_light
+		color2=white
+		texture="ce_block_01.dds"
+		instance={
+			position={ 0.530000 0.790000 }
+			depth=1.010000
+		}
+	}
+}
+c_beloozero ={
+	pattern="pattern__solid_designer.dds"
+	color1=blue
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_cross_06.dds"
+		instance={
+			position={ 0.500000 0.210000 }
+			scale={ 0.250000 0.250000 }
+		}
+	}
+	colored_emblem={
+		color1=blue_light
+		color2=blue
+		texture="ce_waves_02.dds"
+		instance={
+			depth=3.010000
+		}
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=blue
+		texture="ce_barbels_addorsed.dds"
+		instance={
+			position={ 0.500000 0.680000 }
+			scale={ 0.820000 0.560000 }
+			depth=2.010000
+		}
+	}
+	colored_emblem={
+		color1=white
+		color2=blue
+		texture="ce_moon_sun.dds"
+		instance={
+			position={ 0.500000 0.300000 }
+			scale={ 0.590000 0.590000 }
+			depth=1.010000
+		}
+	}
+}
+#Гдов
+b_gdov={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=blue_light
+	color2=green_light
+	color3=red
+	colored_emblem={
+		color1=rgb { 252 150 0 }
+		color2=white
+		texture="ce_grain.dds"
+		instance={
+			scale={ 0.700000 -0.700000 }
+		}
+
+	}
+
+}
+#Изборск
+b_izborsk={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=rgb { 77 158 236 }
+	color2=rgb { 63 130 70 }
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=yellow_light
+		texture="ce_norse_bird_alstad.dds"
+		instance={
+			scale={ -0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Бежецк, не очень - вообще неисторичный вид
+c_bezichi ={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=white
+	color2=rgb { 124 98 8 }
+	color3=red
+	colored_emblem={
+		color1=green
+		texture="ce_oak_leaf.dds"
+		instance={
+			scale={ 1.000000 0.830000 }
+		}
+	}
+}
+#королевство Бавария - новый герб
+k_bavaria ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 235 216 216 }
+	color2=blue
+	colored_emblem={
+		color1=rgb { 3 130 247 }
+		color2=rgb { 255 255 255 }
+		texture="ce_lozengy_bend.dds"
+	}
+
+}
+#Авлона-Берат
+d_sanjak_avlonaberat={
+	pattern="pattern_bend_02.dds"
+	color1=rgb { 64 2 138 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=white
+		texture="ce__empty_designer.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Смедерево - на основе герба
+b_smederevo ={
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_tower.dds"
+		instance={
+			position={ 0.500000 0.800000 }
+			scale={ 0.910000 1.000000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_circles_01.dds"
+		instance={
+			position={ 0.500000 0.220000 }
+			scale={ 0.460000 0.480000 }
+		}
+
+	}
+
+}
+#Эдесса герцогство
+d_edessa ={
+	pattern="pattern_shield_01.dds"
+	color1=rgb { 151 18 0 }
+	color2=yellow_light
+	colored_emblem={
+		color1=red
+		texture="ce_circles_01.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.750000 0.750000 }
+		}
+
+	}
+
+}
+#Королество Уэльс
+k_wales={
+	pattern="pattern_waves_01.dds"
+	color1=green_light
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=red
+		texture="ce_wyvern_rising.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+	}
+}
+#Ак Коюнлу - новый титул
+k_aqqoyunlu ={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=rgb { 1 70 137 }
+		texture="ce_tamgha_oghuz_kizik.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.800000 0.900000 }
+			rotation=268
+		}
+
+	}
+
+}
+#Ливония - - старый герб k_esthonia
+d_livonian_confederation ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 236 221 211 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 205 37 15 }
+		color2=rgb { 228 37 5 }
+		texture="ce_sword_simple.dds"
+		instance={
+			position={ 0.500000 0.650000 }
+			scale={ 1.000000 -0.680000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 252 11 11 }
+		texture="ce_cross_armenian.dds"
+		instance={
+			position={ 0.500000 0.210000 }
+			scale={ 0.380000 0.370000 }
+		}
+
+	}
+
+}
+#Латгалия - новая, герб старый
+d_latgale = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_griffin_rampant.dds"
+		color1 = "white"
+		color2 = "white"
+		color3 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 1.1 1.1 }  }
+	}
+}
+#Ливония классическая
+#d_livonia = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "white"
+#	color2 = "black"
+#	colored_emblem = {
+#		texture = "ce_ordinary_cross_5.dds"
+#		color1 = "black"
+#	}
+#}
+k_golkonda ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 11 135 109 }
+	color2=yellow
+	color3=purple
+	colored_emblem={
+		color1=yellow
+		texture="ce__empty_designer.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+	}
+}
+#Греция
+k_greece ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 2 56 106 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=white
+		texture="ce_ordinary_cross_thin.dds"
+	}
+}
+#Саксония, курфюршество /поглощение Мейсена с 1423/ - заменил другим
+d_saxony2 ={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=rgb { 7 7 7 }
+	color2=rgb { 229 255 1 }
+	color3=red
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_escutcheon.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+	}
+	colored_emblem={
+		color1=rgb { 180 5 5 }
+		color2=rgb { 87 18 7 }
+		texture="ce_swords_crossed.dds"
+		instance={
+			scale={ 0.510000 0.500000 }
+		}
+	}
+}
+
+d_picardie={
+	pattern="pattern_cross_01.dds"
+	color1=rgb { 170 21 1 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_cloud_swirl_nestorian.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+d_further_austria={
+	pattern="pattern_chevron_01.dds"
+	color1=blue_light
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_religion_custom_faith_6.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#ганзейские города
+d_hanseatic_cities ={
+	pattern="pattern_horizontal_split_02.dds"
+	color1=rgb { 155 25 7 }
+	color2=yellow_light
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_religion_pagan_hellenic.dds"
+		instance={
+			position={ 0.500000 0.880000 }
+			scale={ 0.550000 0.650000 }
+		}
+
+	}
+
+}
+d_zollern={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=black
+	colored_emblem={
+		color1=yellow
+		texture="ce_crown.dds"
+		instance={
+			scale={ 0.240000 0.230000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 241 239 239 }
+		color2=rgb { 4 4 4 }
+		texture="ce_quarterly.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+d_wurttemberg ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 244 172 64 }
+	color2=black
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_antler.dds"
+		instance={
+			position={ 0.500000 0.690000 }
+			scale={ 0.800000 0.800000 }
+		}
+
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.800000 0.800000 }
+		}
+
+		instance={
+			position={ 0.500000 0.170000 }
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+
+}
+#Gujarat s 1407, svinia ne mogla byt
+k_gujarat={
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=rgb { 142 18 1 }
+	color2=white
+	color3=orange
+	colored_emblem={
+		color1=white
+		texture="ce__empty_designer.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+d_mantua={
+	pattern="pattern_checkers_02.dds"
+	color1=white
+	color2=rgb { 235 30 9 }
+	color3=black
+	colored_emblem={
+		color1=rgb { 255 249 246 }
+		color2=yellow_light
+		texture="ce_lion_rampant_crown.dds"
+		instance={
+			position={ 0.270000 0.270000 }
+			scale={ 0.390000 0.460000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=rgb { 253 40 4 }
+		color3=rgb { 242 46 14 }
+		texture="ce_eagle.dds"
+		instance={
+			position={ 0.290000 0.720000 }
+			scale={ 0.520000 0.520000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		color2=black
+		texture="ce_barruly_08.dds"
+		instance={
+			position={ 0.760000 0.200000 }
+			scale={ 0.520000 0.590000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+d_infantado ={
+	pattern="pattern_checkers_diagonal_01.dds"
+	color1=green
+	color2=yellow_light
+	color3=blue
+	colored_emblem={
+		color1=rgb { 252 32 2 }
+		texture="ce_bend_thin.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.800000 1.000000 }
+			rotation=177
+		}
+
+	}
+
+}
+#herz Never s 1539
+d_nevers ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 1 89 173 }
+	color2=yellow
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_billet.dds"
+		instance={
+			position={ 0.820000 0.680000 }
+			scale={ 0.120000 0.120000 }
+		}
+
+		instance={
+			position={ 0.680000 0.780000 }
+			scale={ 0.120000 0.120000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.360000 0.780000 }
+			scale={ 0.120000 0.120000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.170000 0.700000 }
+			scale={ 0.120000 0.120000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.620000 0.470000 }
+			scale={ 0.120000 0.120000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.170000 0.500000 }
+			scale={ 0.120000 0.120000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.840000 0.090000 }
+			scale={ 0.120000 0.120000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.650000 0.090000 }
+			scale={ 0.120000 0.120000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.350000 0.090000 }
+			scale={ 0.120000 0.120000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.170000 0.090000 }
+			scale={ 0.120000 0.120000 }
+			depth=9.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		color2=rgb { 243 37 9 }
+		color3=black
+		texture="ce_lion_rampant.dds"
+		instance={
+			depth=10.010000
+		}
+
+	}
+
+}
+#Сегорбе
+d_segorbe_boleelkounskiy={
+	pattern="pattern_solid.dds"
+	color1=yellow_light
+	color2=red
+	colored_emblem={
+		color1=yellow_light
+		color2=red
+		texture="ce_checkers_diagonal_6x3.dds"
+		instance={
+			scale={ 1.150000 1.000000 }
+		}
+
+	}
+
+}
+d_segorbe={
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=red
+	colored_emblem={
+		color1=yellow
+		color2=red
+		texture="ce_checkers_diagonal_6x3.dds"
+		instance={
+			scale={ 1.150000 1.000000 }
+		}
+
+	}
+
+}
+
+d_montesa_order ={
+	pattern="pattern_solid.dds"
+	color1=grey
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=red
+		texture="ce_cross_alcantara.dds"
+		instance={
+			scale={ 0.840000 0.840000 }
+		}
+	}
+}
+d_medinaceli ={
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_crown_coronet.dds"
+		instance={
+			position={ 0.320000 0.200000 }
+			scale={ 0.360000 0.360000 }
+		}
+
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.360000 0.360000 }
+		}
+
+		instance={
+			position={ 0.680000 0.200000 }
+			scale={ 0.360000 0.360000 }
+		}
+
+		instance={
+			position={ 0.320000 0.700000 }
+			scale={ 0.360000 0.360000 }
+		}
+
+		instance={
+			position={ 0.680000 0.700000 }
+			scale={ 0.360000 0.360000 }
+		}
+
+	}
+
+}
+#Габсбургские Нидерланды
+k_habs_netherlands ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 184 178 174 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=rgb { 175 22 1 }
+		color2=white
+		texture="ce_african_pattern_04.dds"
+		instance={
+			scale={ 0.810000 0.750000 }
+		}
+	}
+}
+d_sanjak_bosna ={
+	pattern="pattern_bend_01.dds"
+	color1=blue
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_fleur.dds"
+		instance={
+			position={ 0.700000 0.220000 }
+			scale={ 0.340000 0.340000 }
+		}
+
+	}
+
+}
+d_moskva_old={
+	pattern="pattern_solid.dds"
+	color1=rgb { 155 19 2 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=blue
+		color3=black
+		texture="ce_knight.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ -0.820000 0.700000 }
+			depth=1.010000
+			rotation=43
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce__empty_designer.dds"
+	}
+
+}
+d_moskva ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 155 19 2 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=blue
+		color3=black
+		texture="ce_saint_george.dds"
+		instance={
+			position={ 0.490000 0.460000 }
+			scale={ 0.720000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce__empty_designer.dds"
+	}
+
+}
+
+#c_beograd - Belgrad
+c_beograd={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=blue
+	color2=red
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_castle.dds"
+		instance={
+			position={ 0.020000 0.420000 }
+			scale={ 0.890000 1.000000 }
+		}
+
+		instance={
+			position={ 0.810000 0.450000 }
+			scale={ 0.780000 0.900000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.850000 0.870000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+#ex d_lanciano
+d_teramo={
+	pattern="pattern_solid.dds"
+	color1=rgb { 143 17 0 }
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_ordinary_bend_dexter_5.dds"
+	}
+
+}
+#Сефевиды
+e_safavid_empire={
+	pattern="pattern_solid.dds"
+	color1=rgb { 39 105 45 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_lion_passant_guardant.dds"
+		instance={
+			position={ 0.500000 0.620000 }
+			scale={ 0.860000 0.800000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_sun.dds"
+		instance={
+			position={ 0.500000 0.370000 }
+			scale={ 0.620000 0.560000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+k_algeria ={
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=rgb { 30 58 33 }
+	color2=yellow_light
+	color3=rgb { 39 74 43 }
+	colored_emblem={
+		color1=rgb { 220 35 55 }
+		texture="ce_block_03.dds"
+		instance={
+			scale={ 0.940000 0.470000 }
+		}
+	}
+}
+
+k_tunis={
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=white
+		texture="ce_crescent_random.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 0.500000 0.500000 }
+		}
+
+		instance={
+			position={ 0.750000 0.300000 }
+			scale={ 0.500000 0.500000 }
+			depth=1.010000
+			rotation=269
+		}
+
+		instance={
+			position={ 0.250000 0.300000 }
+			scale={ 0.500000 0.500000 }
+			depth=2.010000
+			rotation=85
+		}
+
+	}
+
+}
+
+d_oldenburg ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 186 176 44 }
+	color2=red
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_ordinary_bars_2.dds"
+	}
+
+}
+
+d_biarmia ={
+	pattern="pattern_waves_01.dds"
+	color1=rgb { 66 129 188 }
+	color2=rgb { 185 168 157 }
+	color3=red
+	colored_emblem={
+		color1=rgb { 254 252 250 }
+		texture="ce_bow.dds"
+		instance={
+			position={ 0.360000 0.440000 }
+			scale={ 0.520000 0.730000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 252 250 }
+		texture="ce_column.dds"
+		instance={
+			scale={ 0.320000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+d_trier ={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=red
+	colored_emblem={
+		color1=rgb { 136 27 12 }
+		color2=red
+		texture="ce_ordinary_cross_5.dds"
+	}
+
+}
+d_mainz ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 161 26 7 }
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_wheel.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.900000 0.900000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_religion_lollard.dds"
+		instance={
+			scale={ 0.100000 0.100000 }
+		}
+
+	}
+
+}
+
+#Болонья
+c_bologna={
+	pattern="pattern_cross_01.dds"
+	color1=white
+	color2=red
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_inescutcheon.dds"
+		instance={
+			scale={ 0.250000 0.250000 }
+		}
+
+	}
+
+}
+
+###Zwei833 the High Pinger
+d_anhalt={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=red
+	colored_emblem={
+		color1=green
+		color2=green
+		texture="ce_crancelin.dds"
+		instance={
+			position={ 0.750000 0.500000 }
+			scale={ 0.500000 1.000000 }
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		color2=black
+		texture="ce_horizontal_stripes_03.dds"
+		instance={
+			position={ 1.000000 0.500000 }
+			depth=1.010000
+		}
+
+	}
+	colored_emblem={
+		color1=red
+		color2=yellow
+		texture="ce_eagle_crown.dds"
+		instance={
+			position={ 0.490000 0.500000 }
+			depth=2.010000
+		}
+	}
+}
+#Duchy of Brandenburg - d_ostmark
+d_ostmark={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=red
+	colored_emblem={
+		color1=red
+		color2=yellow
+		color3=white
+		texture="ce_eagle_crown_boned.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 1.100000 1.100000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_shield_01.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.300000 0.300000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_mace.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.280000 0.280000 }
+		}
+	}
+}
+#d_teutonic_order
+d_teutonic_order={
+	pattern="pattern_cross_02.dds"
+	color1=white
+	color2=black
+	color3=yellow
+	colored_emblem={
+		color1=black
+		color2=red
+		color3=red
+		texture="ce_eagle.dds"
+		instance={
+			scale={ 0.460000 0.460000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_shield_01.dds"
+		instance={
+			scale={ 0.410000 0.410000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_shield_01.dds"
+		instance={
+			scale={ 0.480000 0.480000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+#Duchy of Braunshweig Luneburg
+d_braunshweig_Luneburg = {
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_leopard_passant_guardant.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		color3 = "white"
+		instance = { position = { 0.295 0.26 } scale = { 0.44 0.75 }  }
+		instance = { position = { 0.295 0.56 } scale = { 0.44 0.75 }  }
+		mask = {1}
+	}
+	colored_emblem = {
+		texture = "ce_heart.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.65 0.09 } scale = { 0.12 0.12 }  }
+		instance = { position = { 0.84 0.09 } scale = { 0.12 0.12 }  }
+		instance = { position = { 0.62 0.67 } scale = { 0.12 0.12 }  }
+		instance = { position = { 0.55 0.85 } scale = { 0.12 0.12 }  }
+		instance = { position = { 0.88 0.67 } scale = { 0.12 0.12 }  }
+		instance = { position = { 0.56 0.33 } scale = { 0.12 0.12 } }
+		instance = { position = { 0.74 0.85 } scale = { 0.12 0.12 } }
+		instance = { position = { 0.94 0.33 } scale = { 0.12 0.12 } }
+		instance = { position = { 0.97 0.5 } scale = { 0.12 0.12 } }
+		mask = {2}
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant_per_pale.dds"
+		color1 = "blue"
+		color2 = "red"
+		color3 = "white"
+		instance = { position = { 0.725 0.45 } scale = { 0.75 0.8 }  }
+		mask = {2}
+	}
+}
+#новый
+d_saxony={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=yellow
+	colored_emblem={
+		color1=green
+		color2=green
+		texture="ce_crancelin.dds"
+		instance={
+			position={ 0.750000 0.500000 }
+			scale={ 0.500000 1.000000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=white
+		texture="ce_per_fess.dds"
+		instance={
+			position={ 0.000000 0.500000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=black
+		texture="ce_horizontal_stripes_03.dds"
+		instance={
+			position={ 1.000000 0.500000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_swords_crossed.dds"
+		instance={
+			position={ 0.310000 0.550000 }
+			scale={ 0.530000 0.730000 }
+		}
+
+	}
+
+}
+k_transylvania={
+	pattern="pattern_vertical_split_01.dds"
+	color1=white
+	color2=black
+	colored_emblem={
+		color1=blue
+		color2=blue
+		color3=white
+		texture="ce_eagle.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 1.100000 1.100000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=blue
+		texture="ce_eagle.dds"
+		mask={ 0 2 0 }
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 1.100000 1.100000 }
+		}
+
+	}
+
+}
+#Хвар, мокро > Пагания
+c_pagania ={
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=blue
+	color2=yellow_light
+	color3=black
+	colored_emblem={
+		color1=yellow
+		texture="ce_warrior_angel.dds"
+		instance={
+			position={ 0.990000 0.000000 }
+			scale={ 0.620000 0.630000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 223 203 190 }
+		color2=red
+		texture="ce_tower_and_wall.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+d_ankara={
+	pattern="pattern_solid.dds"
+	color1=rgb { 13 37 60 }
+	color2=yellow
+	color3=green
+	colored_emblem={
+		color1=rgb { 190 186 184 }
+		texture="ce_religion_islam_generic.dds"
+		instance={
+			position={ 0.520000 0.380000 }
+			scale={ 0.530000 0.530000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_fess_engrailed.dds"
+		instance={
+			position={ 0.500000 1.000000 }
+			scale={ 0.880000 1.000000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Самцхе-саатабаго - герб появляется через onstart после 1470
+d_samtskhe_saatabago ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 205 138 39 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=rgb { 91 83 83 }
+		color2=grey
+		texture="ce_sword_simple.dds"
+		instance={
+			scale={ 0.900000 -0.850000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_shield_01.dds"
+		instance={
+			scale={ 0.800000 0.800000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#мой титул - видоизменил c_ross
+d_ross ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 135 34 20 }
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=black
+		texture="ce_lion_rampant.dds"
+		instance={
+			position={ 0.315000 0.290000 }
+			scale={ 0.480000 0.480000 }
+		}
+
+		instance={
+			position={ 0.685000 0.290000 }
+			scale={ 0.480000 0.480000 }
+		}
+
+		instance={
+			position={ 0.500000 0.680000 }
+			scale={ 0.480000 0.480000 }
+		}
+	}
+}
+k_karaqoyunlu={
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=black
+		texture="ce_tamgha_chagatayid.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+d_siena ={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=white
+	color2=black
+	color3=black
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_fleur.dds"
+		instance={
+			position={ 0.490000 0.790000 }
+			scale={ 0.240000 0.250000 }
+		}
+
+	}
+
+}
+
+c_nizhny_novgorod = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 191 184 179 }
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=yellow
+		texture="ce_fess_engrailed.dds"
+		instance={
+			position={ 0.500000 0.900000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_fess_engrailed.dds"
+		instance={
+			position={ 0.500000 0.030000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 186 29 8 }
+		color2=black
+		color3=black
+		texture="ce_stag.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=2.010000
+		}
+
+	}
+}
+
+d_medina_sidonia={
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		color2=rgb { 131 18 2 }
+		color3=green_light
+		texture="ce_basket.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+#Теруэль
+c_teruel ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 100 32 43 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_bull_passant_humped.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_pagan_star_04.dds"
+		instance={
+			position={ 0.490000 0.150000 }
+			scale={ 0.250000 0.250000 }
+		}
+
+	}
+
+}
+#Сеннар, Фунг
+k_sennar ={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=black
+		texture="ce_nestorian_cross.dds"
+		instance={
+			position={ 0.500000 0.680000 }
+			scale={ 0.480000 0.480000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_annulet.dds"
+		instance={
+			position={ 0.500000 0.300000 }
+			scale={ 0.500000 0.500000 }
+		}
+
+	}
+
+}
+
+c_krems_new ={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=yellow
+		color2=red
+		color3=orange
+		texture="ce_eagle_double.dds"
+		instance={
+			scale={ 0.740000 0.840000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_crown_papal.dds"
+		instance={
+			position={ 0.500000 0.150000 }
+			scale={ 0.310000 0.250000 }
+		}
+
+	}
+
+}
+#Вельск - Вариация - бочки в шаблонах не было
+c_velsk={
+ pattern="pattern_horizontal_split_01.dds" color1=red
+ color2=yellow color3=red
+ colored_emblem={  color1=rgb { 128 124 119 }
+  texture="ce_pot.dds"  instance={
+   scale={ 0.700000 -0.700000 }   rotation=124
+  }
+ }
+}
+#Кириллов - очень вольный герб города
+c_kirillov ={
+ pattern="pattern_horizontal_split_01.dds" color1=white
+ color2=green_light color3=red
+ colored_emblem={  color1=rgb { 211 138 29 }
+  color2=black  texture="ce_swords_crossed.dds"
+  instance={   scale={ 0.700000 0.700000 }
+  }
+ }
+}
+#Андухар, герб города примерно такой
+c_andujar ={
+ pattern="pattern_solid.dds" color1=white
+ color2=yellow color3=black
+ colored_emblem={  color1=yellow
+  color2=yellow  texture="ce_keys.dds"
+  instance={   scale={ 0.860000 0.810000 }
+   depth=1.010000
+  }
+ }
+ colored_emblem={  color1=rgb { 148 24 7 }
+  texture="ce_block_01.dds"
+  instance={   depth=2.010000
+  }
+ }
+ colored_emblem={  color1=white
+  texture="ce_fish.dds"  instance={
+   scale={ -0.690000 0.830000 }  }
+ }
+}
+#Тоскана, Флоренция - исправленный
+d_toscana_new={ pattern="pattern_solid.dds"
+ color1=rgb { 221 209 202 } color2=white
+ color3=green colored_emblem={
+  color1=rgb { 131 34 21 }  texture="ce_fleur_florence.dds"
+  instance={   scale={ 0.900000 0.950000 }
+  }
+ }
+}
+#Вологда, ИСПРАВЛЕННЫЙ - менее яркий
+c_vologda ={ pattern="pattern_solid.dds"
+ color1=rgb { 150 47 12 } color2=white
+ color3=black colored_emblem={
+  color1=yellow_light  texture="ce_globus_cruciger.dds"
+  instance={   position={ 0.500000 0.430000 }
+   scale={ 0.680000 0.700000 }   depth=1.010000
+  }
+ }
+ colored_emblem={
+  color1=yellow_light  color2=grey
+  texture="ce_sword_simple.dds"  instance={
+   position={ 0.500000 0.760000 }   scale={ 0.770000 0.780000 }
+   rotation=92  }
+ }
+}
+#Калатрава - по мотивам
+d_knights_calatrava ={
+ pattern="pattern_solid.dds" color1=white
+ color2=yellow color3=black
+ colored_emblem={  color1=orange
+  texture="ce_cross_fleury.dds"  instance={
+   scale={ 0.830000 0.820000 }   depth=2.010000
+  }
+ }
+ colored_emblem={
+  color1=red  texture="ce_block_04.dds"
+  instance={   position={ 0.500000 0.920000 }
+  }
+  instance={   position={ 0.500000 0.060000 }
+   depth=1.010000  }
+ }
+}
+d_foix={
+	pattern="pattern_solid.dds"
+	color1=rgb { 239 163 50 }
+	color2=red
+	colored_emblem={
+		color1=red
+		color2=blue
+		color3=white
+		texture="ce_bull_passant.dds"
+		instance={
+			position={ 0.500000 0.300000 }
+			scale={ 0.750000 0.650000 }
+			depth=1.010000
+		}
+
+	}
+	colored_emblem={
+		color1=rgb { 145 22 5 }
+		color2=blue_light
+		color3=white
+		texture="ce_bull_passant.dds"
+		instance={
+			position={ 0.500000 0.680000 }
+			scale={ 0.750000 0.650000 }
+		}
+
+	}
+
+}
+d_lvov={
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=yellow_light
+		color3=black
+		texture="ce_lion_rampant_wide_stance_crown.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+d_clarence ={
+	pattern="pattern_checkers_02.dds"
+	color1=red
+	color2=blue
+	colored_emblem={
+		color1=rgb { 214 195 182 }
+		texture="ce_label_03.dds"
+		instance={
+			position={ 0.500000 0.420000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_fleur.dds"
+		instance={
+			position={ 1.000000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.800000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.600000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.400000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.200000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.000000 1.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.900000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.700000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.500000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.300000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.100000 0.800000 }
+			scale={ 0.230000 0.260000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 1.000000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.800000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.600000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.400000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.200000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.000000 0.600000 }
+			scale={ 0.230000 0.260000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.900000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.700000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.300000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.100000 0.400000 }
+			scale={ 0.230000 0.260000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 1.000000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.800000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.600000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.400000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.200000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.000000 0.200000 }
+			scale={ 0.230000 0.260000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.900000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.700000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.300000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.100000 0.000000 }
+			scale={ 0.230000 0.260000 }
+			depth=39.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=blue
+		color3=black
+		texture="ce_leopard_passant_guardant.dds"
+		instance={
+			position={ 0.310000 0.890000 }
+			scale={ 0.380000 0.380000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.310000 0.750000 }
+			scale={ 0.380000 0.380000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.310000 0.610000 }
+			scale={ 0.380000 0.380000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.690000 0.390000 }
+			scale={ 0.380000 0.380000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.690000 0.250000 }
+			scale={ 0.380000 0.380000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.690000 0.110000 }
+			scale={ 0.380000 0.380000 }
+			depth=6.010000
+		}
+
+	}
+
+}
+d_srebrenik ={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=rgb { 185 179 175 }
+		color2=rgb { 25 56 85 }
+		texture="ce_lozengy.dds"
+	}
+}
+d_magdeburg={
+	pattern="pattern_vertical_split_01.dds"
+	color1=rgb { 134 29 14 }
+	color2=rgb { 187 172 162 }
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="ce_barruly_08.dds"
+		mask={ 0 2 0 }
+	}
+	colored_emblem={
+		color1=white
+		color2=yellow
+		color3=black
+		texture="ce_eagle.dds"
+		mask={ 1 0 0 }
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 1.100000 1.100000 }
+		}
+
+	}
+}
+#new title
+d_alburquerque={
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 147 33 17 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=green_light
+		texture="ce_escutcheon.dds"
+		instance={
+			position={ 0.500000 0.850000 }
+			depth=1.010000
+			rotation=180
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_wyvern.dds"
+		instance={
+			position={ 0.500000 0.770000 }
+			scale={ 0.390000 0.350000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_pales_03.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+}
+d_nf_cornaro={
+	pattern="pattern_vertical_split_01.dds"
+	color1=yellow
+	color2=blue
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_bull_rampant.dds"
+		instance={
+			position={ 0.700000 0.230000 }
+			scale={ 0.310000 0.360000 }
+		}
+
+	}
+
+}
+d_osman_mors={
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=yellow
+		texture="ce_crescent.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 0.500000 0.500000 }
+			rotation=69
+		}
+
+		instance={
+			position={ 0.750000 0.300000 }
+			scale={ 0.500000 0.500000 }
+			depth=1.010000
+			rotation=89
+		}
+
+		instance={
+			position={ 0.260000 0.290000 }
+			scale={ 0.500000 0.500000 }
+			depth=2.010000
+			rotation=88
+		}
+
+	}
+
+}
+# Luther - попытка дать историчный герб ex k_luther 
+d_laamp_nic_poppel={
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		color2=green_light
+		color3=green
+		texture="ce_flower.dds"
+		instance={
+			scale={ 0.780000 0.820000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 55 52 49 }
+		texture="ce_cross_07.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.610000 0.570000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue_light
+		color2=yellow_light
+		texture="ce_border_circle_fimbriated.dds"
+		instance={
+			scale={ 0.820000 0.840000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 152 38 22 }
+		texture="ce_waterlily_angria.dds"
+		instance={
+			scale={ 0.510000 0.530000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#Казахское ханство ex k_kipchak - спустил ниже
+k_kazakh_hanstvo ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 76 120 161 }
+	color2=yellow
+	color3=green
+	colored_emblem={
+		color1=white
+		texture="ce_arewa_knot.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+k_kazan ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 163 116 47 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=rgb { 13 13 13 }
+		texture="ce_dragon.dds"
+		instance={
+			position={ 0.470000 0.480000 }
+			scale={ -0.670000 0.730000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 13 13 13 }
+		texture="ce__empty_designer.dds"
+		instance={
+			position={ 0.500000 0.600000 }
+			scale={ -0.750000 0.700000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 179 173 169 }
+		texture="ce_ordinary_pile_01.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.840000 0.830000 }
+			depth=1.010000
+			rotation=88
+		}
+
+	}
+
+}
+k_nogai_orda ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 52 106 110 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 218 200 188 }
+		texture="ce_pagan_looped_knot.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+k_kazakh_hanstvo={
+	pattern="pattern_solid.dds"
+	color1=rgb { 21 73 122 }
+	color2=red
+	color3=white
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_african_kile.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.950000 0.860000 }
+		}
+
+	}
+
+}
+d_nf_seymour={
+	pattern="pattern_chevron_01.dds"
+	color1=yellow
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=rgb { 167 159 154 }
+		texture="ce_wings.dds"
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_ordinary_pile_02.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+k_khiva={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=yellow
+		texture="ce_religion_islam_generic.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.670000 0.580000 }
+		}
+
+	}
+
+}
+k_bukhara={
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_religion_jain_generic.dds"
+		instance={
+			position={ 0.500000 0.720000 }
+			scale={ 0.410000 0.410000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_religion_islam_generic.dds"
+		instance={
+			position={ 0.500000 0.310000 }
+			scale={ 0.400000 0.400000 }
+			depth=1.010000
+			rotation=302
+		}
+
+	}
+
+}
+d_vyatka={
+	pattern="pattern_solid.dds"
+	color1=rgb { 177 123 43 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 73 42 21 }
+		color2=rgb { 50 11 5 }
+		texture="ce_bow.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			rotation=328
+		}
+
+	}
+
+}

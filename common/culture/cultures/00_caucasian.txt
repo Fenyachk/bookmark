@@ -1,0 +1,137 @@
+﻿# 07-05-2025   1.16.1 Chamfron
+armenian = {
+	color = armenian
+	
+	ethos = ethos_stoic
+	heritage = heritage_caucasian
+	language = language_armenian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_fervent_temple_builders
+		tradition_hill_dwellers
+		tradition_highland_warriors
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_indomitable_azatani
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_roman_legacy
+	}
+	
+	name_list = name_list_armenian
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		20 = turkic_west
+	}
+}
+
+georgian = {
+	color = georgian
+	
+	ethos = ethos_stoic
+	heritage = heritage_caucasian
+	language = language_georgian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hereditary_hierarchy
+		#tradition_esteemed_hospitality
+		tradition_metal_craftsmanship
+		tradition_castle_keepers
+		tradition_caucasian_wolves
+		tradition_monastic_communities #NEW
+	}
+	
+	name_list = name_list_georgian
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		20 = turkic_west
+	}
+}
+
+### MOD 1490
+kaitag = {
+	color = { 0.9 0.1 0.4 }
+	ethos = ethos_communal
+	heritage = heritage_caucasian
+	language = language_zapadnokavk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_wedding_ceremonies
+        tradition_caucasian_wolves
+	}
+	name_list = name_list_kaitag
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+abkhaz = {
+	color = { 0.3 0.4 0.5 }
+	ethos = ethos_bureaucratic
+	heritage = heritage_caucasian
+	language = language_zapadnokavk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_esteemed_hospitality
+		tradition_caucasian_wolves
+		tradition_music_theory
+		tradition_festivities
+	}
+	name_list = name_list_abkhaz
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+#s 17_12_23 Avars = Maharuls' Avar–Andic language
+avar_dag = {
+	color = { 0.8 0.9 0.7 }
+	ethos = ethos_stoic
+	heritage = heritage_caucasian
+	language = language_nakh_daghestani
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_mountaineers
+		tradition_mountain_herding
+		tradition_highland_warriors
+	}
+	name_list = name_list_avarian
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}

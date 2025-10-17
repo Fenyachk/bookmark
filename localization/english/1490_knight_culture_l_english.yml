@@ -1,0 +1,9 @@
+﻿l_english:
+ knight_ratnik_no_tooltip: "Ratnick"
+ knight_ratnik_no_tooltip_plural: "Ratnicks"
+ knight_ratnik_no_tooltip_lowercase: "ratnick"
+ knight_ratnik_no_tooltip_lowercase_plural: "ratnicks"
+ knight_ratnik_no_tooltip_lowercase_plural_possessive: "of ratnicks"
+ knight_ratnik_no_tooltip_lowercase_adjective: "ratnickian"
+ knight_ratnik: "[Concept( 'knight', '$knight_ratnik_no_tooltip$' )|E]"
+ knight_ratnik_plural: "[Concept( 'knight', '$knight_ratnik_no_tooltip_plural$' )|E]"

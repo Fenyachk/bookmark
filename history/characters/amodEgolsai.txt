@@ -1,0 +1,155 @@
+﻿#В состав Еголдаевой тьмы входили города
+#Мужеч (Гочевское городище на Псле, между современными Суджей и Обоянью
+#Милолюбль (Крапивенское городище в окрестностях города Шебекино
+#Оскол (Холковское городище на реке Оскол или нынешний Старый Оскол
+# Около 1494 года князь Вяземский бежал вместе с женой в Москву, и Яголдаевщина ненадолго стала частью домениальных владений великого князя литовского Александра Ягеллончика, 
+#согласно привилею от 19 марта 1497 года была поделена между киевскими боярами Дебром Калениковичем, Михаилом Гагиным, Федко Голенчичем и Кунцой Сеньковичем
+#Гагин был родственником Еголдаев через брак. Позже бежал в Москву
+#правитель Еголдаевой тьмы
+EagoldaiPr1 = {
+	name = "Jagoldai"
+	religion = maturidi
+	culture = litovtatar #mongol
+	trait = ambitious
+	1410.4.14 = {
+		birth = yes
+	}
+	1469.12.29 = {
+		trait = scarred
+		add_trait = infirm
+		add_trait = ill
+#		effect = {
+#			vassal_contract_set_obligation_level = {
+#				type = religious_rights
+#				level = 1	#религиозные права защищены
+#			}
+#		}
+	}
+	1470.2.2 = {
+		death = yes
+	}
+}
+#вымышленные потомки
+EagoldaiPr2 = {
+	name = "Sartaqtay"
+	father = EagoldaiPr1
+	religion = "maturidi"
+	culture = "litovtatar"
+	trait = education_martial_1
+	1436.4.14 = {
+		birth = yes
+	}
+	#формально вассал Литвы
+	1470.1.1 = {
+		effect = {
+			add_opinion = {
+				target = liege
+				modifier = respect_opinion
+				opinion = 60
+			}
+		}
+		add_piety = 50
+	}
+	#контакта на религиозные права нет, ошибка
+#	1480.1.1 = {
+#		effect = {
+#			vassal_contract_set_obligation_level = {
+#				type = religious_rights
+#				level = 1
+#			}
+#		}
+#	}
+	1498.1.2 = {
+		death = yes
+	}
+}
+EagoldaiPr3 = {
+	name = "Khagatai"
+	father = EagoldaiPr1
+	religion = "maturidi"
+	culture = "litovtatar"
+	trait = education_martial_1
+	1433.1.28 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+#Роман Яголдаевич - родственник Вяземских, приходившийся Еголдаю Сараевичу сыном (по другой версии — правнуком)
+Roman_jagoldaevich = {
+	name = "Sotan"
+	father = EagoldaiPr2
+	religion = "maturidi"
+	culture = "litovtatar"
+	trait = education_martial_1
+	prowess = 5
+	1460.2.3 = {
+		birth = yes
+	}
+	1490.1.1 = {
+		name = "Roman"
+		religion = orthodox
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+#Жена Михаила Гагина
+jagoldai_gagina = {
+	name = "Sirin"
+	female = yes
+	father = EagoldaiPr2
+	religion = "maturidi"
+	culture = "litovtatar"
+	prowess = 2
+	1462.1.1 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		religion = orthodox
+	}
+	1544.1.1 = {
+		death = yes
+	}
+}
+lit_tatar_herder = {
+	name = "Jakhangir"
+	religion = "maturidi"
+	culture = "litovtatar"
+	trait = education_stewardship_1
+	prowess = 5
+	1449.4.9 = {
+		birth = yes
+	}
+	1533.1.1 = {
+		death = yes
+	}
+}
+lit_tatar_herder2 = {
+	name = "Jahnish"
+	religion = "maturidi"
+	culture = "litovtatar"
+	trait = education_learning_1
+	prowess = 7
+	1447.5.1 = {
+		birth = yes
+	}
+	1533.1.1 = {
+		death = yes
+	}
+}
+lit_tatar_herder3 = {
+	name = "Turangir"
+	religion = "maturidi"
+	culture = "litovtatar"
+	trait = education_martial_1
+	prowess = 3
+	1454.4.11 = {
+		birth = yes
+	}
+	1533.1.1 = {
+		death = yes
+	}
+}
+

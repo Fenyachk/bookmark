@@ -1,0 +1,77 @@
+﻿#Албанский - разрабы добавили сами
+#language_albanian = {
+#	type = language
+#	color = { 151  10  20 }
+#}
+#Западнокавказский
+language_zapadnokavk = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_zapadnokavk
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_zapadnokavk }
+			multiply = 10
+		}
+	}
+	
+	color = { 95  95  95 }
+}
+#Корсиканский
+language_corsican = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_corsican
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_corsican }
+			multiply = 10
+		}
+	}
+	
+	color = { 81  81  81 }
+}
+#Нахско-дагестанский
+language_nakh_daghestani = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_nakh_daghestani
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_nakh_daghestani }
+			multiply = 10
+		}
+	}
+	
+	color = { 88  88  20 }
+}
+#малаялам
+language_malayali = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_malayali
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_malayali }
+			multiply = 10
+		}
+	}
+	
+	color = { 11  11  11 }
+}

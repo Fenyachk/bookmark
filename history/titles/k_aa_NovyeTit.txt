@@ -1,0 +1,3165 @@
+﻿#Перенос
+#истории титула Гессен не было
+#Гессен Ландграфство с 1264 с 1458 Кассель и Марбург формально отдельно
+d_hesse = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 11 }
+	1433.1.1 = { change_development_level = 35 }
+	1444.1.1 = { change_development_level = 41 }
+	1376.1.1 = {
+		holder = Hermann2vonHessenM #Герман II
+		liege = "e_hre"
+	}
+	1413.1.1 = {
+		holder = Ludwig1Hessen #Людвиг I Миролюбивый
+		liege = "e_hre"
+	}
+	1458.10.17 = {
+		holder = Ludwig2Hessen #Людвиг II ландграф Гессен-Касселя старший брат
+		liege = "e_hre"
+	}
+	1471.11.8 = {
+		holder = 0 #Людвиг II погиб на охоте и владения разделились
+	}
+}
+
+#Новые Саксонии после Лейпцигского раздела 1485.11.11 d_albertin_saxony и d_ernestin_saxony
+#Альбертинская Саксония - Дрезден, Мейсен, Наумбург и Волькенштайн
+d_albertin_saxony = {
+	1480.1.1 = {
+		de_jure_liege = "k_east_francia"
+	}
+	1485.11.11 = {
+		holder = Albrecht3SaxonVet #Альберт III Альбертинская Саксония
+		government = feudal_government
+		liege = e_hre
+	}
+}
+#Эрнестинская Саксония
+d_ernestin_saxony = {
+	1480.1.1 = {
+		de_jure_liege = "k_east_francia"
+	}
+	1485.11.11 = {
+		holder = ErnstSaxonR1441 #Эрнст Эрнестинская Саксония
+		government = feudal_government
+		liege = e_hre
+	}
+	#Кюрфюрствми были именно представители Эрнестинской Саксонии
+#	1485.11.12 = {
+#		effect = {
+#			add_to_global_variable_list = {
+#				name = hre_elector_list
+#				target = title:d_saxony
+#			}
+#		}
+#	}
+	1486.8.26 = {
+		holder = Friedrich3SaxWeise #Fridrih III Эрнестинская Саксония
+	}
+}
+#Имперские города, герцогство
+#Золотая Булла 1356 дата никак не связана но всё же
+d_imperskie_goroda = {
+	1356.1.1 = {
+		de_jure_liege = "k_east_francia"
+		government = feudal_government
+	}
+	1452.3.19 = {
+		holder = Fridrih3_impSRI
+	}
+	#пусть не нагружает
+	1452.12.31 = {
+		holder = 0
+	}
+}
+
+#Новое Брауншвейг-Люнебург с 1235 года
+#Главенство после раскола оставляю за Люнебург-Целле
+d_braunshweig_Luneburg = {
+	1235.1.1 = {
+		liege = e_hre
+		de_jure_liege = k_east_francia
+	}
+	#Luneburg-Tselle - kak centr herzogstva
+	1388.5.11 = {
+		holder = HeinrichMildeWe #s 1388 sam Luneburg
+	}
+	1416.1.1 = {
+		holder = Wilhelm1PobWelf #syn Genr Myagkogo 1416-1428 tolko sam Luneburg
+	}
+	#obmen s dyadey Berhardom
+	1428.1.1 = {
+		holder = Bernhard1BrunswickL #Bernhard I
+	}
+	1434.6.11 = {
+		holder = Friedrich2Luneburg #1434 — 1457
+	}
+	#Fridrih udalilsya v monastyr v 1457
+	1457.1.1 = {
+		holder = Bernhard2FrLuneburg
+	}
+	1464.2.9 = {
+		holder = Otto5PobedLuneburg
+	}
+	1471.1.9 = {
+		holder = Friedrich2Luneburg #kak regent pri vnuke
+	}
+	1478.3.19 = {
+		holder = Heinrich1SredniLuneburg #Luneburg-Tselle
+	}
+}
+#Кёльн, Кёльнское Архиепископство и курфюршество 953 — 1803 после 1288 столица в Бонне
+#В 1368 году архиепископ Кёльна выкупил за 130 000 гульденов у последнего бездетного графа Арнсберг
+#с 1180 года Архиепископ Кёльна были герцогами Вестфалии
+#Вестфалия
+#Османская империя 30 мая 1453 года формально создана в 1299 году султан с 1362
+e_ottoman = {
+	1362.1.1 = {
+		change_development_level = 25
+		name = OTTOMANEMP
+	}
+	1362.6.6 = {
+		holder = 476502 #Мурад I 1-й султан
+		government = clan_government
+	}
+	1389.6.15 = {
+		holder = Bayezid1osman #Баязид I 2-й султан
+	}
+	1413.7.5 = {
+		holder = Mehmed1osman
+	}
+	1421.6.25 = {
+		holder = Murad2_Osman
+		succession_laws = { high_partition_succession_law}
+	}
+	1444.8.1 = {
+		holder = Mehmed2Zavoevat #vremennay peresacha vlasti
+	}
+	1446.9.1 = {
+		holder = Murad2_Osman
+	}
+	1451.2.3 = {
+		holder = Mehmed2Zavoevat
+		government = clan_government
+	}
+	1454.1.1 = {
+		effect = { set_capital_county = title:c_byzantion }
+	}
+	1469.1.1 = {
+		government = clan_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+				set_state_faith = faith:maturidi
+			}
+		}
+	}
+	1470.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_intrigue
+				}
+			}
+		}
+	}
+	1481.5.22 = {
+		holder = BayazidOsm2
+		government = clan_government
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+				set_state_faith = faith:maturidi
+			}
+		}
+	}
+	# posle
+	1512.4.24 = {
+		holder = Selim1OsmGroz
+	}
+	1520.9.30 = {
+		holder = suleiman_velikolepnyi #1520-1566
+	}
+}
+
+#Неополитанское королевство - с 1282 (1282 — 1799)
+k_naples = {
+	1282.1.1 = {
+		holder = 455406 #Karl I Anzhu - osnovatel doma i kor Neapol
+		government = feudal_government
+	}
+	1285.1.7 = {
+		holder = 461710 #Karl II Hromoy Anjou-Sicily
+	}
+	1309.5.5 = {
+		holder = 461700 #Robert Mudryi Anjou-Sicily
+	}
+	1343.1.20 = {
+		holder = 461703 #Giovanna I Anjou-Sicily
+	}
+	1382.5.12 = {
+		holder = Carlo3_Malyi_KNeapol #Karl III Malyi Anjou-Sicily
+	}
+	1386.2.24 = {
+		holder = Ladislao_KNapoli #Ladislao I di Napoli Durazzo
+	}
+	1414.8.6 = {
+		holder = Giovanna_2_Napoli #Giovanna II
+		succession_laws = { high_partition_succession_law}
+	}
+	1435.2.2 = {
+		holder = ReneDobrAnju #Rene Dobryi kak Renato I di Napoli DO 1442
+	}
+	1442.6.2 = {
+		holder = AlfonsuAragon # Alfonso V Velikodushnyi - Alfons I
+	}
+	1458.6.27 = {
+		holder = Ferdinando1KNeap9 #Ferdinand I
+	}
+	1470.1.1 = {
+		succession_laws = { single_heir_succession_law }
+	}
+	# kak Ferdinand III - 31 March 1504 – 23 January 1516
+	1504.3.31 = {
+		holder = FerdinandAragonKas
+	}
+}
+
+#Империя Адриатика-Ионика с падением Константинополя
+e_adriatikaionika = {
+	1453.5.29 = {
+		change_development_level = 30
+		name = ADRIATIKAIONIKA
+	}
+}
+
+##перенёс сюда из 00_other_titles
+k_prussia = {
+	1300.1.1 = {
+		de_jure_liege = e_wendish_empire
+	}
+}
+
+d_prusski_souz = {
+	1300.1.1 = {
+		de_jure_liege = k_prussia
+		name = PRUS_SOUZ
+	}
+	1444.1.2 = {
+		holder = JohannBaysenPrusso
+		government = republic_government
+	}
+	1459.4.29 ={
+		holder = 0
+	}
+}
+d_kurpfalz = {
+	1360.1.1 = {
+		de_jure_liege = k_east_francia
+	}
+	1410.1.12 = {
+		holder = Ludwig3Vit #Lyudvig III kurfurst Pfaltsa
+		liege = e_hre
+	}
+	1451.8.12 = {
+		holder = Friedrich1PfalzPobed #Fridrih I kurfurst Pfaltsa
+		liege = e_hre
+	}
+	1476.1.12 = {
+		holder = PhilippPfalzW #Filipp Pfaltski kurfurst Pfaltsa
+		liege = e_hre
+	}
+}
+#Oranzh
+#d_orange = {
+#	1400.1.2 = {
+#		de_jure_liege = k_aquitaine
+#		name = ORANGE
+#	}
+#}
+
+d_alba = {
+	1460.1.1 = {
+		de_jure_liege = k_leon
+		name = ALBA
+	}
+	1472.1.1 = {
+		holder = GarcIaAlbadeTormes
+		government = feudal_government
+		liege = k_castille
+	}
+	1488.6.20 = {
+		holder = FadriqueAlba2HAlba
+	}
+}
+#Bejar y Plasencia Béjar
+#с 1488 герцог Бехар (столица Саламанки) и Пласенсия
+d_bejar_y_plasencia = {
+	1480.1.1 = {
+		de_jure_liege = k_leon
+#		name = BEJARyPLASENCIA
+	}
+	1488.2.2 = {
+		holder = AlvarodeZuniga
+		government = feudal_government
+		liege = k_castille
+	}
+	1488.6.11 = {
+		holder = A_lvaro_Zuniga_yGuzman2H
+		liege = k_castille
+	}
+}
+#Герцогство Нахера c_najera
+d_najera = {
+	1480.1.1 = {
+		de_jure_liege = k_castille
+	}
+	1482.9.1 = {
+		holder = Pedro_ManriquedeLara_ySandoval
+		government = feudal_government
+		liege = k_castille
+		succession_laws = { single_heir_succession_law }
+	}
+}
+
+#Орден Святого Михаила Сен-Мишель штаб-квартира в Авранше
+d_saint_michel = {
+	1469.1.1 = {
+		de_jure_liege = k_france
+	}
+	1489.1.1 = {
+		holder = OrdenvytMikha1
+#		government = holy_order_government
+		government = feudal_government
+#		succession_laws = { holy_order_succession_law }
+		liege = k_france
+	}
+}
+
+#Герцогство Феррара с 1471
+d_ferrara = {
+	1400.1.1 = {
+		de_jure_liege = k_romagna
+	}
+	1471.8.22 = {
+		holder = ErcoleDEste # Эрколе I д’Эсте Феррара будет первым Титулом
+		government = feudal_government
+	}
+}
+d_sanjak_pech = {
+	1481.5.22 = {
+		de_jure_liege = k_serbia
+	}
+	1482.1.1 = {
+		holder = HadamSulPahaRumelia
+		liege = e_ottoman
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+}
+#Виджевано в Павии (Миланское герц) - не GiovanniSanti!
+#после смерти мужа Бона Савойская
+b_vigevano = {
+	1476.12.26 = {
+		holder = BonaSavoia
+	}
+}
+#Джироламо Риарио делла Ровере - Форли с 1480 года от папы
+#Форли в Равенне - Катерина Сфорца, графиня Форли и Имолы 1488 — 1500
+#Pino III Ordelaffi 1466-1480
+b_forli = {
+	1466.1.1 = {
+		holder = Pino_III_Ordelaffi
+	}
+	1480.2.10 = {
+		holder = Girolamo_Riario
+	}
+	#posle Muzha Forli i Imola
+	1488.4.14 = {
+		holder = Caterina_Sforza_Medici
+	}
+}
+
+#Имола в Равенне/ с 1473 как приданое для Риарио после свадьбы Катерины Сфорца
+b_imola = {
+	1470.1.1 = {
+		holder = Caterina_Sforza_Medici
+	}
+	1488.4.14 = {
+		holder = Ottaviano_Riario
+	}
+}
+#Ашано - Сиена -/пусть
+b_asciano = {
+	1480.1.1 = { holder = Antonio_Maria_Ordelaffi }
+}
+#Тинтагель Корнуэлл
+b_tintagel = {
+	1489.7.7 = {
+		holder = James_Tuchet
+	}
+}
+#город Молдон
+b_maldon = {
+	1470.1.1 = {
+		holder = John_Radcliffe
+	}
+}
+#Пезаро
+b_pesaro = {
+	1445.1.1 = {
+		holder = Alessandro_Sforza_Pezaro
+	}
+	1473.4.3 = {
+		holder = Costanzo_1_Sforza
+	}
+	1483.7.19 = {
+		holder = Giovanni_Sforza_Pesaro
+	}
+}
+#Шатобриан
+b_chateaubriant = {
+	1468.7.19 = {
+		holder = Fransuaza_de_Dinan
+	}
+}
+#Ре в Нанте
+b_rais = {
+	1469.7.19 = {
+		holder = Jean_IV_de_Rieux
+	}
+}
+#Роган город
+b_rohan = {
+	1470.1.1 = {
+		holder = Pierre_I_de_RohanGIE
+	}
+}
+#Туроц город для Туроци
+b_turoc = {
+	1470.1.1 = {
+		holder = Janosh_Turotsi_Hronist
+	}
+}
+#Констанц на Боденском озере, на границе со Швейцарией
+b_konstanz = {
+	1470.1.1 = {
+		holder = Konrad_von_GrUnenberg
+	}
+}
+d_pinsk = {
+	1400.1.1 = {
+		holder = 0
+	}
+	1414.1.1 = {
+		de_jure_liege = k_lithuania
+	}
+}
+d_grodno = {
+	1400.1.1 = {
+		holder = 0
+	}
+	1414.1.1 = {
+		de_jure_liege = k_lithuania
+	}
+}
+#новое НЕ b_strzelce
+#Николай II Немодлинский и Стшелецкий соправитель
+b_strehlitz = {
+	1476.12.12 = {
+		holder = Mikolay_2_NemodlOpolskiPyast
+	}
+}
+b_inowroclaw = {
+	1470.1.1 = {
+		holder = MikoLaj_KoSHcielecki_u1510
+	}
+}
+b_bydgoszcz = {
+	1470.1.1 = {
+		holder = StanisLaw_KoSHcielecki_u1534
+	}
+}
+b_wilton = {
+	1485.11.26 = {
+		holder = Robert_Willoughby_1B
+	}
+}
+#Талавера у Толедо - вместо Македы, которая рядом
+b_talavera = {
+	1470.1.1 = {
+		holder = Gutierre_de_CArdenas #правитель Македы, отец 1 герцога
+	}
+}
+#Гвадалахара у Мадрида
+b_gudalajara = {
+	1470.1.1 = {
+		holder = Francisco_Ramirez_de_Orenya
+	}
+}
+#Коломна - получил Дмитров в 1485, но это церковь
+b_kolomna = {
+	1485.1.1 = {
+		holder = Andrei_Bor_Milulinski
+	}
+}
+#Кромы Кром март 2023 для Кромских князей tak kak Ivan_Vopros_Kromskiy 1444-1485
+b_krom = {
+	1469.12.12 = { holder = Andrei_Iva_Kromskiy }
+}
+#Воротынск в Козельске
+b_vorotynsk = {
+	1472.12.12 = {
+		holder = Dmitriy_Fed_Vorotynski
+	}
+	1483.1.1 = {
+		holder = Ivan_Mih_Vorotynski
+	}
+}
+#Белёв переделал в город для князей
+b_belev = {
+	1462.12.30 = {
+		holder = Ivan_VAS_Belyovski #Иван Васильевич Белёвский
+	}
+}
+#Потоцкие село Поток под Енджеювом в Краковской земле
+b_jedrzejow = {
+	1462.12.30 = {
+		holder = Maciej_Potocki_Enzheduv #хорунжий краковский
+	}
+}
+###ХРАМЫ Кастилии попытка
+b_lerma = {
+	1470.1.1 = {
+		holder = TomAs_TorquemadaInk #Торквемада - нет, епархия не идёт
+	}
+}
+#Цвейбрюккен и Фельденц - Спонхейм
+b_veldenz = {
+	1444.9.16 = {
+		holder = Ludwig1PfalzZv #Людвиг I Пфальц-Цвейбрюккенский
+	}
+	1489.7.19 = {
+		holder = Alexander_Pfalz_ZweibrUcken #в реале - Kaspar1PfalzZv, но нельзя 2 баронства одному, поэтому его брат Александр Пфальц-Цвейбрюккенский Хромой
+	}
+}
+b_zweibrucken = {
+#	1444.9.16 = {
+#		holder = Ludwig1PfalzZv
+#	}
+	1489.7.19 = {
+		holder = Kaspar1PfalzZv
+	}
+}
+#Спонхайм - Спонхейм
+b_sponhem = {
+	1444.9.16 = {
+		holder = Friedrich_1_Pfalz_Simmern #Фридрих Пфальц-Цвейбрюккенский
+	}
+	1480.11.29 = {
+		holder = Johann_1_Pfalz_Simmern
+	}
+}
+#Киддерминстер в Вустершире пусть будет титул Латимер
+b_kidderminster = {
+	1469.12.30 = {
+		holder = Richard_Neville_2bLatimer #2-й барон Латимер
+	}
+}
+#Ижеславль Изяславль или Заславль Литовский — Минская область
+#Заславские которые станут Мстиславскими
+b_zaslawye = {
+	1469.12.30 = {
+		holder = Mikhail_Iv_Zaslavskiy1Mst
+	}
+}
+#Мстиславль и Мстиславские +
+b_mstislavl = {
+	1469.12.30 = {
+		holder = Ivan_Ur_Mstislavskiy #Иван Юрьевич Мстиславский
+	}
+}
+#Льюис остров Скай +
+b_lewis = {
+	1469.12.30 = {
+		holder = Hugh_of_Sleat_Bastard
+	}
+	1489.1.1 = {
+		holder = Godfrey_Macdonald_Sleat
+	}
+}
+#клан Кейт или Кит
+b_garioch = {
+	1470.1.1 = {
+		holder = William_Keith_1Marischal
+	}
+	1483.7.12 = {
+		holder = William_Keith_2Marischal
+	}
+}
+
+#Арран Гебриды Маклейны +
+b_arran = {
+	1472.1.1 = {
+		holder = Hector_Odhar_Maclean #пусть
+	}
+}
+#Ричмонд - граф Ричмонд +
+b_richmond = {
+	1453.1.1 = {
+		holder = EdmundTydor #Эдмунд Тюдор граф Ричмонд
+	}
+	1456.11.1 = {
+		holder = Henry7Tydor #Генри Тюдор как граф Ричмонд до 1461
+	}
+	1461.11.11 = {
+		holder = James_Tyrrell #у Йорков до августа 1485
+	}
+	1485.8.12 = {
+		holder = Charles_Brandon #пусть будет, при Тюдорах часть короны
+	}
+}
+#барон Гастингс
+b_hastings = {
+#	1470.1.1 = {
+#		holder = john_wenlock
+#	}
+	1480.1.1 = {
+		holder = WilliamHastings #Уильям Гастингс 1 барон
+	}
+	1483.6.13 = {
+		holder = EdwardHastings #Эдуард Гастингс
+	}
+}
+#Илчестер в Сомерсете +
+b_ilchester = {
+	1486.6.6 = {
+		holder = Charles_Somerset1wust
+	}
+}
+#титул Граф Мортон и лорд Абердура - Санкер +
+#создан в 1458 году для Джеймса Дугласа из Далкейта +
+b_sanquhar = {
+	1458.1.1 = {
+		holder = JamesDouglas1Morton
+	}
+}
+#Гримсби - сделал барон/виконт Бомонт +
+b_grimsby = {
+	1460.1.1 = {
+		holder = William_Beaumont_2Vik
+	}
+}
+#Слагельсе в Зеландии +
+#Доротея Бранденбургская вместо замка Калуннборг
+b_slagelse = {
+	1470.1.1 = {
+		holder = DoroteaGogenDat
+	}
+}
+#Пальярс-Собира город +
+b_pallars_sobira = {
+	1470.1.1 = {
+		holder = Joan_deCardonai_deNavarra
+	}
+}
+#Pedro Enríquez de Quiñones - Херес +
+#Лорд Тарифы, но город занят другим типом владений
+b_jerez = {
+	1470.1.1 = {
+		holder = Pedro_EnrIquezQ_Tarifa
+	}
+}
+#Эхеа в Арагоне у Сарагосы - с Манресой не вышло
+b_ejea = {
+	1469.1.1 = {
+		holder = Francesc_de_Verntallat
+	}
+}
+#Маркизы Финале и Савоны титулярно +
+b_savona = {
+	1450.1.1 = {
+		holder = Giovanni_I_del_Carretto
+	}
+	1468.6.8 = {
+		holder = Galeotto_II_del_Carretto
+	}
+    1482.2.9 = {
+		holder = Alfonso_I_del_Carretto
+	}
+}
+#Бридлингтон для Скрупов из Месема +
+b_bridlington = {
+	1475.5.1 = {
+		holder = Thomas_Scrope_6bM
+	}
+}
+#Череповец для Белосельских-Белозерских +
+b_cherepovets = {
+	1469.12.12 = {
+		holder = Gavriil_ZVENO_Beloselski
+	}
+}
+#Шербур для Ива Турзеля +
+b_cherbourg = {
+	1469.12.12 = {
+		holder = Yves_II_deTourzel
+	}
+}
+#Серпухов + - замок
+b_serpukhov = {
+	1427.2.7 = {
+		holder = VasBorovski #Василий Ярославич
+	}
+	1489.2.7 = {
+		holder = iva3vas
+	}
+}
+#Форбах в Меце хронист +
+b_forbach = {
+	1444.4.1 = {
+		holder = Jean_Aubrion_hronist
+	}
+}
+d_verhovskie_knyzva = {
+	1001.1.1 = {
+		change_development_level = 12
+	}
+	1333.1.1 = {
+		change_development_level = 25
+	}
+	1400.1.1 = {
+		de_jure_liege = k_opolye
+	}
+	1476.1.1 = {
+		change_development_level = 27
+	}
+}
+##
+#Санджаки
+#Ниш 1448
+d_sanjak_nish = {
+	1448.12.30 = {
+		de_jure_liege = k_bulgaria
+	}
+	1466.1.1 = {
+		de_jure_liege = k_rumelia
+	}
+	1487.12.29 = {
+		holder = Kemal_Reis
+		liege = e_ottoman
+	}
+}
+#Охрид формально ещё с 1395 был Дебар
+d_sanjak_ohrid = {
+	1440.12.30 = {
+		de_jure_liege = k_bulgaria
+	}
+	1466.1.1 = {
+		de_jure_liege = k_rumelia
+	}
+	1490.1.1 = {
+		holder = Kemal_Reis
+		liege = e_ottoman
+	}
+}
+#город Сент-Омер в Кале Гине
+b_saint_omer = {
+	1488.1.2 = {
+		holder = John_Savage
+	}
+}
+##
+#Шомон у Дижона - Бургундский деятель
+b_chaumont = {
+	1440.4.1 = {
+		holder = Jean_IVdeVergy
+	}
+}
+#Мезье в Ретеле занято храмом - Грандпре
+b_grandpre = {
+	1457.4.1 = {
+		holder = LouisdAnzuBastMezier #Мезьер Луи д’Анжу
+	}
+}
+#Лаваль в Сабле
+b_laval = {
+	1457.4.1 = {
+		holder = Guy_XV_de_Laval #Лаваль
+	}
+}
+#Кастельнодари в Альби
+b_castelnaudary = {
+	1469.1.3 = {
+		holder = Marie_dAlbret_Castres #был Боффиль де Жюж, Boffille_de_Juge но жена 
+	}
+}
+#Камерино
+b_camerino = {
+	1470.1.1 = {
+		holder = Giulio_Cesare_da_Varano #да Варано
+	}
+}
+#Пьяченца в Парме - для Боргоново
+b_piacenza = {
+	1453.1.1 = {
+		holder = Sforza_Secondo_bast #Secondo Sforza 1-й граф Боргоново
+	}
+}
+#Хардфорд
+b_hertford = {
+	1460.1.1 = {
+		holder = Sir_John_Fortescue #Для Фортескью из Ньюгейт-Стрит в Хартфордшире
+	}
+}
+#Банбери в Оксфордшире
+b_banbury = {
+	1472.1.1 = {
+		holder = Richard_Fiennes_4b #Ричард Файнс - 4-й барон Сэй и Сил
+	}
+}
+#Мемминген
+b_memmingen = {
+	1477.1.1 = {
+		holder = Christoph_Schappeler
+	}
+}
+
+#Римини b_rimini
+b_rimini = {
+	1300.8.2 = { holder = Pandolfo1_Malatesta }
+	1432.8.2 = { holder = Pandolfo_Malatesta }
+	1482.8.2 = { holder = Pandolfo_4_Malatesta }
+}
+
+#Цилли b_cilli он же KRSKO с 1333 годов у Цельских Не видно в истории
+#b_cilli = {
+#	1341.8.2 = { holder = Friderik_1_CeljskiOsnovat }
+#	1359.8.2 = { holder = Herman_1_Celjski }
+#}
+
+##191
+#Гвасталла - графство Мантуя
+b_guastalla = {
+	1453.1.1 = { holder = Gianfrancesco_Gonzaga } #правил другим
+}
+#Аверса Неаполь - для д'Авалос +
+b_aversa = {
+	1453.1.1 = { holder = Inigo_dAvalos_u1483 } #правил Монтеодорисио
+	1484.9.12 = { holder = Alfonso_dAvalos_Pescara }
+}
+#Империя Мин
+e_ming = {
+	1367.1.1 = { change_development_level = 15 }
+	1435.2.7 = {
+		holder = Imp_Ming_Yingzong #1435-1449, а потом 1457-1464
+	}
+	1449.9.1 = {
+		holder = Imp_Ming_7_Jingtai #1449-1457
+	}
+	1457.3.14 = {
+		holder = Imp_Ming_Yingzong
+	}
+	1464.2.23 = {
+		holder = ImpKitayas1464
+	}
+	1470.1.1 = { change_development_level = 20 }
+	1487.1.1 = {
+		holder = ImpKitaya_Hongzhi
+	}
+	1490.1.1 = { change_development_level = 26 }
+}
+#
+
+#город Стон в Рагузе - Дубровнике
+b_ston = {
+	1469.12.12 = { holder = Dobrich_Dobrievich }
+}
+#Цюрих - Энгельберг
+b_engelberg = {
+	1469.12.12 = { holder = Gerold_Edlibach }
+}
+##
+#Линн в Норфолке - титул барон Морли для Ловелов
+b_lynn = {
+	1453.1.1 = { holder = William_Lovel_7b }
+	1476.7.23 = { holder = Henry_Lovel_8b }
+	1489.8.9 = { holder = Alice_Lovel_9b }
+}
+#Мант вместо Бове в граф Бомон
+b_mantes = {
+	1488.8.9 = { holder = Jeanne_Hachette }
+}
+#
+b_castrovillari = {
+	1453.1.1 = { holder = Angilberto_del_Balzo_Nardo }
+}
+#Епархия Вольтерра
+b_volterra = {
+	1478.3.11 = { holder = Francesco_Soderini }
+}
+# Гейдельберг - столица Пфальца, Курпфальца
+#Fridrih I kurfurst Pfaltsa
+b_heidelberg = {
+	1451.8.1 = {
+		holder = Friedrich1PfalzPobed
+		effect = { set_capital_barony = yes }
+	}
+}
+#Королевство Босния - 1377/1463 - создатели ввели титул 
+k_bosnia = {
+	1377.10.26 = { holder = TvrtkoKorBosn government = feudal_government } #Твртко I Котроманич
+	1391.3.14 = { holder = Stepan_Dabisha_korBo } #Степан Дабиша
+	1395.9.5 = { holder = Jelena_Gruba_kor } #Елена Груба из Николичей
+	1398.1.2 = { holder = StjepanOstkorBosn } #Степан Остоя - 1 раз
+	1404.4.4 = { holder = Tvrtko2Bastard } #Твртко II - 1 раз
+	1409.9.9 = { holder = StjepanOstkorBosn } #Степан Остоя - 2 раз
+	1418.1.18 = { holder = Stepan_Ostoich_k1418_21 } #Степан Остоич 1418—1421
+	1421.4.21 = { holder = Tvrtko2Bastard } #Твртко II - 2 раз
+	1443.4.3 = { holder = StjepanTom_kBosn } #Степан Томаш
+	1461.7.10 = { holder = Stjepan2TomkBosn } #Степан Томашевич II
+	1463.5.25 = { holder = 0 } #уничтожено с казнью короля
+}
+#Герцеговина - перенёс сюда
+d_herzegovina = {
+	1448.1.1 = {
+		de_jure_liege = "k_serbia"
+	}
+	1448.4.8 = {
+		holder = StjepanKosach #Степан Вукчич Косача герцог святого Саввы
+		government = feudal_government
+	}
+	1466.1.1 = { change_development_level = 21 }
+	1466.5.22 = {
+		holder = VladislavKosach #Владислав Герцегович второй и последний герцог святого Саввы
+	}
+	1469.1.1 = {
+		liege = "e_ottoman"
+	}
+	1483.5.22 = {
+		holder = 0 #окончательное подчинение турками и бегство Косача
+	}
+}
+#Швейцария Варесе
+b_vares = {
+	1470.1.1 = { holder = Ulrich_Zasius } #пусть
+}
+#Швейцария Вадуц - Фардуцез - семья Брадисов
+b_farduzes = {
+	1418.1.1 = { holder = Wolfhart_V_Brandis }
+	1452.5.20 = { holder = Ulrich_von_Brandis }
+	1486.8.20 = { holder = Sigmund_II_von_Brandis }
+}
+#Швейцария Верденбург в Куре - для Епископа Кура
+#b_werdenburg = {
+#	1453.1.1 = { holder = Ortlieb_von_Brandis }
+#}
+#Швейцария Швиц в Цюрихе
+b_schwyz = {
+	1469.1.1 = { holder = MelchiorRuss } #пусть
+}
+#Швейцария Тун в Берне
+b_thun = {
+	1470.1.1 = { holder = Nikl_Scharnachthal }
+	1488.1.1 = { holder = Kaspar_Frey } #пусть
+}
+###
+#Центральная власть признала распад Грузии к 1490-м, хотя формально он случился в 1466
+#Картли
+d_kartli = {
+	1448.1.1 = {
+		de_jure_liege = "k_georgia"
+		effect = { set_title_name = c_kartli }
+	}
+	1478.1.6 = {
+		holder = Konstantin2Kartli
+		government = feudal_government
+	}
+}
+#Кахетия
+d_kahetia = {
+	1466.1.1 = {
+		de_jure_liege = "k_georgia"
+		effect = { set_title_name = c_kakheti }
+		holder = GruzGeorgi8 #Георгий VIII - как царь Кахетии Георгий I
+		government = feudal_government
+	}
+	1476.7.6 = {
+		holder = AlexandBKaheti #Александр I
+		government = feudal_government
+	}
+}
+#Имеретия - отложилась первой при Баграте VI
+d_imeretia = {
+	1463.1.1 = {
+		de_jure_liege = "k_georgia"
+		holder = Bagrat6Bag #Баграт VI - восстание против центральной власти
+		government = feudal_government
+	}
+	1478.1.2 = {
+		holder = Alexander2Imereti #неудачно обрёл трон - Александр II царь Имеретии
+	}
+	1479.7.9 = {
+		holder = Konstantin2Kartli #Константин II отбирает Имеретию
+	}
+	1484.8.4 = {
+		holder = Alexander2Imereti #Александр II царь Имеретии
+	}
+	1487.8.7 = {
+		holder = Konstantin2Kartli #Константин II вновь отбирает Имеретию
+	}
+	1489.11.14 = {
+		holder = Alexander2Imereti #Александр II возвращает Имеретию
+	}
+}
+#Граф де Порсеан у Ретеля - Гранпре
+b_grandpre = {
+	1438.1.1 = { holder =  Antoine_1_Croy_Velik } #Антуан I де Крой
+	1475.9.21 = { holder =  PhilippeDeCroyU1511 } #Филипп I де Крой
+}
+### Эрцгерцогство Австрия (1453 — 1806) — официально титул закреплён в 1458
+k_austria = {
+#	1453.5.3 = {
+#		holder = LadislavPostum #Ладислав Постум С 1453 — эрцгерцог
+#	}
+	1458.1.10 = {
+		holder = Albreht6_ergAvst
+		de_jure_liege = "e_hre"
+		liege = "e_hre"
+		government = feudal_government
+	}
+	1463.12.2 = {
+		holder = Fridrih3_impSRI #Фридрих III под именем Фридрих Пятый
+	}
+	1493.1.10 = {
+		holder = MaximilianEmpSRI #Максимилиан I эрцгерцог Австрии, Штирии, Каринтии и Крайны
+	}
+	##
+	1519.1.12 = {
+		holder = carl_v_gabsburg
+	}
+}
+#Лотошино в гр. Можайск - c 1478 не раньше
+b_lotoshino = {
+	1478.1.1 = { holder =  Sem_Ivano_Vorontsov } #Воронцов
+}
+#Соль Великая - Плес
+b_sol_vilikaya = {
+	1453.1.1 = { holder =  Konst_Alex_Bezzubtsev } #Беззубцев пусть
+	1469.11.22 = { holder =  Mihail_Kon_Bezzubtsev } #Беззубцев пусть
+}
+#Эр - Лилль
+b_aire = {
+	1485.8.5 = { holder = Charles1deLalaing } #Карль Шарл Лаллен
+}
+#Степань в г. Дубровица
+b_stepan = {
+	1485.8.5 = { holder = Janusz_Kostewicz } #Януш Костевич пусть
+}
+#Андрос
+b_andros = {
+	1440.1.1 = {
+		holder = CrusinoSommaripa #Крузино I - Парос и Андрос последний с 1440-х
+	}
+	1462.6.3 = {
+		holder = DomenicoSommaripa #Ветвь Андросских Соммарипа
+	}
+	1466.6.3 = {
+		holder = GiovanniSommaripaT
+	}
+	1468.1.1 = {
+		holder = Crusino2Sommaripa #Крузино II Соммарипа (ум. 1500) был сеньором Андроса с 1468 года, сменив своего брата Джованни
+	}
+}
+#5-9-2023
+#Герцогство Кадис - в реальности было создано в 1484 году
+d_cadiz = {
+	1470.1.1 = {
+		effect = { set_title_name = c_cadiz }
+		de_jure_liege = "k_castille"
+		liege = k_castille
+		government = feudal_government
+	}
+}
+#можно создать
+#Герцогство Винчестер - Уилтшир + Винчестер 
+d_winchester = {
+	1470.1.1 = {
+		effect = { set_title_name = b_winchester }
+		de_jure_liege = "k_england"
+		liege = "k_england"
+		government = feudal_government
+	}
+}
+#Герцогство Саффолк (с 1448)
+d_suffolk = {
+	1448.6.2 = {
+		effect = { set_title_name = c_suffolk }
+		de_jure_liege = "k_england"
+		liege = "k_england"
+		holder = WilliamdelaPole #Уильям де ла Поль, 1-й герцог Саффолк
+		government = feudal_government
+	}
+	1450.5.2 = {
+		holder = 0 #герцогский титул изчез, восстановлен в 1463
+	}
+	1463.3.23 = {
+		holder = JohndelaPole #Джон де ла Поль 2-й герцог Саффолк 1463—1492
+		liege = "k_england"
+		government = feudal_government
+	}
+}
+##Герцогство Сомерсет уже было - Сомерсет-Дорсет
+#герцог Сомерсет 1-я короткая креация — 28 августа 1443 — 27 мая 1444
+#третья креация в 1499 году
+#те же даты, что и Винчестер, чтобы был титул
+d_somerset2_dorset = {
+	1470.1.1 = {
+		name = SOMERSET_DORSET
+		de_jure_liege = "k_england"
+		liege = "k_england"
+		government = feudal_government
+	}
+}
+#Герцогство Бедфорд новый титул - d_bedford назывался Essex - столица будет в Бедфорде
+d_bedford2 = {
+	1470.1.1 = {
+		effect = { set_title_name = c_bedford }
+		de_jure_liege = "k_england"
+		liege = "k_england"
+		government = feudal_government
+	}
+}
+#герцогство Бекингем (Бакингем/Букингем) - первая креация (1444), но не берём в расчёт
+d_buckingham = {
+	1470.1.1 = {
+		effect = { set_title_name = b_buckingham }
+		de_jure_liege = "k_england"
+		liege = "k_england"
+		government = feudal_government
+	}
+}
+#08-09-23
+#Ладлоу в Шропшире - Шусбери ЗАМОК!
+b_ludlow = {
+	1453.7.17 = { holder =  Thomas_Talbot_2vL } #Томас Толбот 2-й виконт Лайл пусть
+	1470.3.20 = { holder =  Elizabeth_Talbot_3bL } #бароны и виконты Лайл
+	1487.9.8 = { holder =  Edward_Grey_1Vi_Lisle }
+}
+#Валлийская Марка - Welsh Marches - Центр Шрусбери. Историч. города марки: Шрусбери, Ладлоу, Рексем - (в других герцогствах) Честер, Глостер, Херефорд
+d_walliyskay_marka = {
+	1470.1.1 = {
+		name = WELSH_MARCHES
+		de_jure_liege = "k_england" #Uels tolko po resheniu - k_wales
+		liege = "k_england"
+		government = feudal_government
+	}
+}
+#Ратин в Уэльсе, который был резиденцией Греев
+b_ruthin = {
+	1470.1.1 = { holder =  Anthony_Grey_1443_80 } #Энтони Грей из Ратина
+	1490.1.1 = { holder =  GeorgeGrey } #Джордж Грей - будущий 2-й граф Кент, как 5-й барон Грей из Ратина
+}
+#Юрьев в Суздале
+b_yuryev = {
+	1470.1.1 = { holder =  Andrey_Mi_Pleshcheyev } #Андрей Михайлович Плещеев - пусть будет
+}
+#Копорье --ex Двиница в Кириллове b_dvinitza
+b_koporye = {
+	1470.1.1 = { holder =  Pyotr_Mi_Pleshcheyev } #Пётр Михайлович Плещеев - пусть будет
+}
+#Дедовичи - графство Руса
+b_dedovichi = {
+	1480.1.1 = { holder =  Ivan_Fed_Gundorov } #Иван Фёдорович Гундоров - владел волостями в Новгородской земле
+}
+#Холихед на Англси
+b_holyhead = {
+	1470.1.1 = { holder =  Ralph_Verney } #женат на Поул - пусть
+}
+#Перенос
+#Бургундия со столицей в Дижоне 
+k_burgundy2 = {
+	1466.1.1 = {
+		effect = { set_title_name = d_burgundy }
+		government = feudal_government
+		de_jure_liege = e_france
+	}
+}
+#Сеньор де Шатийон
+b_chatillon = {
+	1470.1.1 = { holder =  Gaspard_de_Coligny } #действительно
+}
+#Пикардия
+d_picardie = {
+	1453.1.1 = {
+		name = PICARDIYA
+		government = feudal_government
+		de_jure_liege = k_france
+	}
+}
+#Кастельсарразен - Тулуза
+b_castelsarrasin = {
+	1470.1.1 = { holder =  Guillaume_Gouffier_1435_95 } #Гийом Гуфье
+}
+#18-09-23
+#Рочестер - барон Бернерс пусть
+b_rochester = {
+	1460.1.1 = { holder =  Humphrey_Bourchier }
+	1471.4.14 = { holder =  John_Bourchier_2Berners } #Джон Буршье, 2-й барон Бернерс
+}
+#Босуорт - Барон Феррерс из Гроуби в Лестершире
+b_bosworth = {
+	1462.1.1 = { holder = John_Bourchier_6BFe }
+}
+#Каменец - Бжесць
+b_kamyanyets = {
+	1460.1.1 = { holder = Henryk_Kamieniecki }
+	1488.8.8 = { holder = Nilolay_Kamieniecki }
+}
+#Аран - Суссекс - пусть владеет и граф Арундел Аран
+b_arun = {
+	1438.4.24 = { holder = WilliamFitzAlan }
+	1487.1.1 = { holder = ThomasFitzAlan }
+}
+#Дарлингтон
+b_darlington = {
+	1470.1.1 = { holder = William_Conyers } #Уильям Коньерс, 1-й барон Коньерс с 1509
+}
+#Уайтхейвен в Камберленде
+b_whitehaven = {
+	1466.1.17 = { holder = WilliamParr }
+	1483.1.17 = { holder = Thomas_Parr_Kendal_1483 }
+}
+#Шидловец
+b_szydlowiec = {
+	1470.1.1 = { holder = Krzysztof_Shydlovez }
+}
+#Кашин
+b_kashin = {
+	1466.1.1 = { holder = Ivan_Fedo_Prozorovskiy }
+}
+#Железный Устюг
+b_zhelezny_ustyug = {
+	1470.1.1 = { holder = Fedor_Petro_Sitskiy }
+}
+#Углич - угличские удельные князья — город в графстве Ярославль
+b_uglich = {
+	1462.6.2 = { holder = AndreiVasbol } #Андрей Васильевич Большой, позднее также Горяй - Удельный князь Углицкий c 1462 — 1492
+	1471.1.2 = { holder = Daniil_Alex_Jarosl_Penko } #сын последнего Ярославского князя, чтобы баронства не было
+}
+#Кара - в Праяге Индия
+b_kara = {
+	1453.1.1 = { holder = Ramananda_Svyat }
+	1476.12.31 = { holder = Fik_hindustani_1 }
+}
+#герцогство Или-Алатау, чтобы Кульджа могла быть столицей Джунгарии
+d_ili-alatau = {
+	1460.1.1 = { de_jure_liege = k_dzungaria }
+}
+#замок у Пучсерды - Дескаллары - владельцы замка - его снесли в 1479
+b_llivia = {
+	1466.1.1 = { holder = Damian_Descatllar }
+}
+##
+#Сен-Кантен у Нуайона в Клермоне - для Гизов
+b_saint_quentin = {
+	1481.12.10 = { holder = Louis_dArmagnac_Nemours } #как граф де Гиз
+}
+##Герцогство Немур можно создать
+d_nemours = {
+	1470.1.1 = {
+		effect = { set_title_name = b_nemours }
+		de_jure_liege = k_france
+	}
+}
+#Ре в Нанте
+b_rais = {
+	1469.12.12 = { holder = Jacques_Laval_Beaumanoir }
+}
+#Комбур в Рене
+b_combourg = {
+	1469.12.12 = { holder = FranSua_Laval_Beaumanoir }
+}
+#Герцогство Алансон можно создать
+d_alencon = {
+	1470.1.1 = {
+		effect = { set_title_name = c_alencon }
+		de_jure_liege = k_france
+	}
+}
+#Ноймюнстер -в Дитмаршене вместо Пиннеберга в Гольштейне
+b_neumunster = {
+	1426.1.1 = { holder = Otto_II_Shau_Pinneberg } #Отто II Шауэнбург
+	1464.6.4 = { holder = Adolf_X_Shau_Pinneberg } #Адольф X
+	1474.5.24 = { holder = Erich_Scha_Pinneberg } #Эрих I
+}
+#Хомбург
+b_homburg = {
+	1432.1.1 = { holder = Wilhelm1PobWelf } #Wilhelm1PobWelf Вильгельм победоносный получил после раздела Каленберг, Эверштейн и Хомбург
+	1473.12.7 = { holder = fik_saxon1490 } #нельзя 2 титула в разных местах
+	1482.7.25 = { holder = Friedrich3Bespok } #Хоть какой-то титул Беспокойному для Каленберга
+}
+#для Вельфов-сыновей Вильгельма IV Младшего
+#Геттинген 
+b_gottingen = {
+	1488.12.12 = { holder = Erich_1_Welf_BrKal }
+}
+#Вольфенбюттель
+b_wolfenbuttel = {
+	1488.12.12 = { holder = Heinrich_4_Welf_BrLu }
+}
+#Лаутербах в Фульде
+b_lauterbach = {
+	1460.1.1 = { holder = Polufik_von_Dernbach }
+}
+#Боппард в Майнце
+b_boppard = {
+	1460.1.1 = { holder = PoluFik_Echter_Mespelbrunn }
+}
+#Ладога
+b_ladoga = {
+	1453.1.1 = { holder = Vasil_I_Polynariyn }
+}
+#Султанат Аир
+d_air = {
+	1404.4.4 = {
+		holder = Yunus_Air_Agadez
+	}
+	1430.3.3 = {
+		holder = Su_Ilisawan_Air_Agadez
+	}
+	1449.4.9 = {
+		holder = Polufik_Sul_Air_Agadez1
+	}
+}
+#Калансия - Сокотра
+b_qualnsiyah = {
+	1470.1.1 = { holder = Sokotra_fik_2 }
+}
+#Сен-Мало - Бретань
+b_saint_malo = {
+	1470.1.1 = { holder = HervE_de_Portzmoguer }
+}
+#Садбери - Саффолк
+b_sudbury = {
+	1470.1.1 = { holder = Edmund_Knyvett_u1504 } #Найветты, рыцарский род
+}
+###
+#Цеханув
+b_ciechanow = {
+	1466.1.1 = { holder = Janusz2Plozk } #Януш II Плоцкий
+}
+###
+#Ганза (королевство)
+k_hansa = {
+	1462.6.2 = { holder = Hinrich_Castorp government = republic_government liege = e_hre }
+	1488.4.14 = { holder = Joh_wickinghof_Lubek government = republic_government liege = e_hre } 
+}
+#Соликамск - основан примерно в 1430-х годах
+b_solikamsk = {
+	1434.1.1 = { holder = Polufik_kup_Kalinnikov } #Вологодские купцы Калинниковы
+}
+#Стародуб-на-Клязьме
+b_starodub-on-the-klyazma = {
+	1466.1.1 = { holder = Vasil_An_Starodub_Kovrov } #Василий Андреевич Стародубский по прозванию Ковёр
+}
+#Волочок
+b_volochok = {
+	1466.1.1 = { holder = Fedor_Dan_Pozharskiy }
+}
+###Ростов - князья Ростовские прав на Ростов не имели уже
+b_rostov = {
+	1453.1.1 = { holder = Alksdr_Vl_Rost_u1523 }
+}
+#Тверь - как герцогство - Тверская область
+# Великое княжество Тверское 1247 по 1485
+d_tver = {
+	1414.1.1 = {
+		effect = { set_title_name = c_tver }
+		de_jure_liege = k_opolye
+	}
+	1425.11.26 = {
+		holder = BorisAlexTver
+		government = feudal_government
+		liege = 0 #
+	}
+	1461.2.10 = {
+		holder = MikhailBorisTver
+		government = feudal_government #ex liege = k_opolye
+	}
+	1485.9.15 = {
+		holder = 0
+	}
+}
+#Белоозеро - создаваемое герцогство
+d_beloozero = {
+	1454.1.1 = {
+		effect = { set_title_name = c_beloozero }
+		de_jure_liege = k_opolye
+	}
+}
+#Уиклоу у Дублина
+b_wicklow = {
+	1462.6.2 = { holder = Richard_Plunkett_2b }
+	1482.8.2 = { holder = John_Plunkett_3b }
+}
+#Бродницы - Штрасбург в Илаве
+b_brodnica = {
+	1469.1.1 = { holder = Nikolaay_DziaLyNski }
+}
+#Кинкардин - Мернс
+b_kincardine = {
+	1460.12.12 = { holder = Robert_Erskine_4 } #Эрскины
+}
+#Шомон в Дижоне
+b_chaumont = {
+	1460.12.12 = { holder = JeandeHaynin } #пусть Жан де Энен
+}
+#Галич Мерьский - в графстве Кострома - пусть
+b_galich_mersky  = {
+	1444.12.12 = { holder = Vasil_Danilov_Uhor } #Ухорские-Охлябинины
+	1469.6.9 = { holder = Fedor_Vasil_Ohluabnin1 } # #Фёдор Васильевич Ухорский первый Охлябинин
+}
+#Кострома - пусть
+b_kostroma = {
+	1450.12.12 = { holder = Mikhail_Vas_Hvorostinin1 } #Ухорские-Хворостинины
+}
+#Кауфбейрен у Аугсбурга - для Якоба Фуггера
+b_kaufbeuren = {
+	1470.1.1 = { holder = JacobFuggerBogat }
+}
+#Величка в Сонче Польша
+b_wieliczka = {
+	1470.1.1 = { holder = jan_pilecki_st } #пусть каштелян Ян Пилецкий
+	1476.7.6 = { holder = otto_pilecki }
+	1480.1.1 = { holder = mik_ocic_pilecki }
+}
+#Куинсфери Шотландия
+b_queensferry = {
+	1453.1.1 = { holder = Malise_Graham_1Menteith } #пусть Малис Грэм, граф Ментейт (нет титула)
+}
+#Клетгау - Фюрстенберге
+b_clettgau = {
+	1444.1.1 = { holder = Alwig_X_von_Sulz }
+}
+#Тюбинген
+b_tubingen = {
+	1470.1.1 = { holder = Johann2_Waldburg_Wolfegg }
+}
+#Катценельнбоген - с 1479 часть Гессена - но он в Майнце
+b_katzenelnbogen = {
+	1469.12.12 = { holder = P_Johannes_SchOnborn }
+}
+##Герцогство Истрия (не было правителей)
+d_istria = {
+	1453.1.1 = {
+		de_jure_liege = k_italy
+	}
+}
+#24 августа 1482 года Берик перешёл Англии
+b_berwick = {
+	1482.8.24 = { holder = Fik_Mer_Berika_eng }
+}
+#Селкерк для Хьюмов - Тэвиотдейл
+b_selkirk = {
+	1460.1.2 = { holder = Alexander_Home_2_Home }
+}
+#Арднамерхан для Монтгомери Earl of Eglinton
+b_ardnamurchon = {
+	1453.1.2 = { holder = Alexander_Montgomerie }
+	1470.8.7 = { holder = Alexander_Montgomerie2_Mlad }
+	1489.9.9 = { holder = Hugh_Montgomerie }
+}
+#Тайн в Россе, Шотл
+b_tain = {
+	1455.1.2 = { holder = Robert_Henryson_poet }
+}
+#Виджаявада
+b_vijayawada = {
+	1453.1.2 = { holder = Tallapaka_Annamacharya } #Аннамачарья
+}
+#Мельфи в Беневенто
+b_melfi = {
+	1453.1.1 = { holder = Giovanni_Caracciolo_ml }
+}
+#Потенца
+b_potenza = {
+	1462.9.9 = { holder = Antonio_deGuevara_Pot }
+}
+#Бриндизи - вместо conte di Montella e Troia
+b_brindisi = {
+	1453.9.9 = { holder = Diego_I_Cavaniglia }
+	1481.3.8 = { holder = Troiano_Cavaniglia }
+}
+#Сливен - Крын
+b_sliven = {
+	1469.12.9 = { holder = Fik_Mer_Stoyanov }
+}
+#митрополия Москвы - Митрополит Московский и всея Руси официально с 3 мая 1461
+d_metropolis_moscow = {
+	1461.5.3 = {
+		holder = Mitropolit_Philip_I
+		government = theocracy_government
+		de_jure_liege = k_opolye
+		liege = k_opolye
+	}
+	1473.4.5 = {
+		holder = Mitropolit_Gerontius
+		government = theocracy_government
+		liege = k_opolye
+	}
+	1489.6.6 = {
+		holder = ZosimaMitropolMsk #в реальности с 26 сентября 1490 - 1490.9.26
+		government = theocracy_government
+		liege = k_opolye
+	}
+}
+##Новое
+#Румелия, как бейлербейство. Чтобы не Болгария
+k_rumelia = {
+	1451.12.12 = {
+		de_jure_liege = e_ottoman
+		name = "RUMELIA"
+		holder = Mehmed2Zavoevat
+	}
+	1453.1.1 = {
+		holder = dayi_karaca_bey #do 20 jul 1456
+		government = clan_government
+		liege = e_ottoman
+	}
+	1456.7.20 = {
+		holder = Mehmed2Zavoevat
+	}
+	1480.1.1 = {
+		holder = Dawud_Pasha_Vizir
+		liege = e_ottoman
+		government = clan_government
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+	#Sofia, tam est herzogskay postroika
+	1490.1.1 = {
+		effect = { set_capital_county = title:c_sredets }
+	}
+}
+#Санджак Янина
+d_sanjak_ioaninna = {
+	1477.1.1 = {
+		de_jure_liege = k_epirus
+		government = clan_government
+		effect = { set_title_name = b_ioaninna }
+		liege = e_ottoman
+	}
+}
+#Санджак Авлона-Берат
+d_sanjak_avlonaberat = {
+	1466.1.1 = {
+		de_jure_liege = k_epirus
+		government = clan_government
+		liege = e_ottoman
+	}
+}
+#Санджак Селаник (фессалонини)
+d_sanjak_selanik = {
+	1465.1.1 = {
+		de_jure_liege = k_rumelia
+#liege = e_ottoman
+	}
+}
+#Санджак Гелиболу
+d_sanjak_gelibolu = {
+	1465.1.1 = {
+		de_jure_liege = k_rumelia
+#liege = e_ottoman
+	}
+	1466.12.31 = {
+		holder = Mesih_Pasha_Paleoli #sanjakbej Gallipoli
+		government = clan_government
+		liege = e_ottoman
+	}
+	1470.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+}
+#Линдос на Родосе
+#b_lindos = {
+#	1470.1.1 = { holder = Emery_DAmboise }
+#}
+#Скопье - новое герцогство
+d_skopje = {
+	1466.1.1 = {
+		de_jure_liege = k_rumelia
+		effect = { set_title_name = c_skopje }
+	}
+}
+#Низовой Городец = Городец-Мещерский = Касимов
+b_gorodets-meshchyorsky = {
+	1452.1.1 = {
+		holder = QasimKasimovski
+		name = KASIMOV
+	}
+	1469.1.1 = {
+		holder = DaniyarKasim
+	}
+	1486.9.9 = {
+		holder = NurDevletKr #Нур-Девлет 3-й касимовский правитель
+	}
+}
+#Клин, графство Тверь
+b_klin = {
+	1470.1.1 = { holder = Semen_Fed_Kurbskiy }
+}
+#Кинешма с 1490-х удел Фёдора Ивановича Бельского
+b_kineshma = {
+	1490.1.1 = { holder = FedorIvBelskiGed }
+}
+#Городок - графство Витебск, Городок у Полоцка -Зеновичи
+b_haradok = {
+	1469.1.1 = { holder = Yuri_Iv_Zienowicz }
+}
+#Идана - Франсишку ди Алмейда, сын 1-го графа Абрантиша - занят епархией, рядом 
+b_idanha = {
+	1453.1.1 = { holder = Lopo_de_Almeida }
+	1486.8.6 = { holder = Francisco_Almeida_Ind }
+}
+#Донкастер - для баронов Грейсток
+b_doncaster = {
+	1470.1.1 = { holder = rob_greystoke }
+	1483.8.3 = { holder = Elizabeth_de_Greystoke }
+}
+#Канавезе - Ивреа - Савойя
+b_canavese = {
+	1466.1.1 = { holder = Guy_de_la_Baume }
+}
+#Шамбери - Савойя графство - Столица примерно с 1295, с 1416 - герцогства
+b_chambery = {
+	1465.1.29 = { holder = AmadeusIXSavoia effect = { set_capital_barony = yes } }
+}
+#Холм - луки Житов-Бороздин
+b_kholm_NOV = {
+	1470.1.1 = { holder = Petr_Iv_Zhitov_Borozdin }
+}
+#Импрунета - Фроренция
+b_impruneta = {
+	1480.1.1 = { holder = Pietro_Aldobrandini }
+}
+#Орике - Силвеш - Португалия
+b_ourique = {
+	1488.1.1 = {
+		holder = JoanaAviss1452
+	}
+}
+#Адрия Полезине около Ровиго
+#реально был губернатором Ровиго
+b_adria = {
+	1483.1.1 = {
+		holder = FilippoM_de_Rossi
+	}
+}
+#Биелла - Новара - пусть
+b_biella = {
+	1453.1.1 = {
+		holder = Giberto_III_Sanvitale
+	}
+}
+#Крема в Кремоне
+b_crema = {
+	1453.1.1 = { holder = Cristoforo_I_Torelli }
+	1460.3.3 = { holder = Marcantonio_Torelli }
+	1462.8.8 = { holder = Marsilio_Torelli }
+	1489.8.15 = { holder = Cristoforo_II_Torelli }
+}
+#Тирано в Тренте // Giorgio di Pietrapiana = Georg von Ebenstein
+b_tirano = {
+	1453.1.1 = {
+		holder = Giorgio_Georg_Pietrapiana
+	}
+}
+#Мюрау в 13-15 город штирийского рода Лихтенштейнов
+b_murau = {
+	1470.1.1 = {
+		holder = Fik_Heinrich_Liechtenstein
+	}
+}
+#Грейффенст в Бамберге для Шварценбергов
+#Иоганн фон Шварценберг (1463—1528) управляющий двором архиепископа Бамберга
+b_greiffenst = {
+	1470.1.1 = {
+		holder = Johann_von_Schwarzenberg
+	}
+}
+#Каносса в Модене - для Корреджо
+b_canossa = {
+	1453.1.1 = {
+		holder = Borso_da_Correggio
+	}
+}
+#Альба-ди-Монферрато - Монферрато - герц Пьемонт - как Арона
+b_alba_di_monferrato = {
+	1453.1.1 = {
+		holder = Giovanni_I_Borromeo
+	}
+}
+#Санджак София с 1393
+d_sanjak_sofia = {
+	1393.9.3 = {
+		name = SOFIA
+	}
+	1448.12.30 = {
+		de_jure_liege = k_bulgaria
+	}
+	1466.1.1 = {
+		de_jure_liege = k_rumelia
+	}
+}
+#Прато в Лукке, для семьи Маласпина   
+b_prato = {
+	1452.1.1 = { holder = Giacomo_I_Malaspina }
+	1481.3.18 = { holder = AntonioAl_II_Malaspina }
+}
+#Левенштейн - Файинген
+b_lowenstein = {
+	1470.1.1 = { holder = LudwigMorganatic }
+}
+##пусть
+#Пейтинг - Альпезе
+b_peiting = {
+	1470.1.1 = { holder = Georg_I_Lichteneck }
+}
+#Кауфбейрен - Аугсбург
+b_kaufbeuren = {
+	1470.1.1 = { holder = Konrad_III_Lichteneck }
+}
+#Штольберги в Вернингероде - Хальберштадт
+b_werningerode = {
+	1453.1.1 = { holder = Genrih_Stolberg_1433_1511 }
+}
+#словенские - карантайские баронства
+#Камник
+b_kamnik = {
+	1453.1.1 = { holder = Fik_Slovenets_1 }
+}
+#Марпурх - Марибор
+b_maribor = {
+	1453.1.1 = { holder = Fik_Slovenets_2 }
+}
+#Ревениц --Рыбница
+b_ribnica = {
+	1453.1.1 = { holder = Fik_Slovenets_3 }
+}
+#Рудольфсверде - после Рудольфово или Ново-Место
+b_rudolfswerde = {
+	1453.1.1 = { holder = Fik_Slovenets_4 }
+}
+#южнотирольский род, пусть Рива в Тренте
+b_val_camonica = {
+	1453.1.1 = { holder = Balthasar_Lihtenstein_K }
+	1478.1.1 = { holder = Paul_Liechtenstein_K }
+}
+#Соль Галичская - Солигалич - гр-во Любим
+b_soligalich = {
+	1453.1.1 = { holder = GrigoriiVasZabolotskiy }
+	1473.1.1 = { holder = AndreiFChelyadin }
+}
+#Порхов - Руса
+b_porkhov = {
+	1466.1.1 = { holder = Ivan_fed_ushatyi_mesh }
+}
+#Ржева Пустая - Себеж
+b_novorzhev = {
+	1467.1.1 = { holder = Konst_fed_ushatyi }
+}
+##Бейлик Дулкадир отдельно - столицы: Эльбистан (Албаста) и Мараш 1337-1522
+d_dulkadir = {
+	1337.1.1 = {
+		name = DULKADIR
+		de_jure_liege = k_anatolia
+	}
+	##
+	#Beylik Dulkadir - Ablasta + Marash
+	1355.1.1 = {
+		holder = 93418 #Ghars al-Din Khalil 1355—1386
+	}
+	1386.1.1 = {
+		holder = Shaban_suli_dulkadir #1386-may 1398
+	}
+	1398.5.5 = {
+		holder = Sadaqa_dulkadir #1398–2 August 1399
+	}
+	1399.8.2 = {
+		holder = nasir_Mehmed_dulkadir #1399—1442
+	}
+	1442.1.1 = {
+		holder = SuleymanDulkadir
+		liege = 0
+	}
+	1454.1.1 = {
+		holder = MelikArslanDulkadir
+	}
+	1465.1.1 = {
+		holder = Shahbudag_dulkadirid #1465–1466 i 1472-1480
+	}
+	1466.1.1 = {
+		holder = SheihSuvarDulkadir #kaznen v Kaire
+	}
+	1472.8.24 = {
+		holder = Shahbudag_dulkadirid #1465–1466 i 1472-1480
+	}
+	1479.12.30 = {
+		holder = Alauddevle_Bozkurt_Dulk
+	}
+}
+#Бакирда в Хаккари
+b_baqirda = {
+	1488.1.1 = { holder = Mohammad_Khan_Ustajlu }
+}
+
+#Ак-Коюнлу - 1467—1501/1503 - столица Тебриз (1467–1501), Диярбакыр - вторая
+#допустим, не успел произойти де-юре дрифт, в 1470-х точно
+k_aqqoyunlu = {
+	1453.1.1 = { change_development_level = 17 }
+	1466.1.1 = { change_development_level = 19 }
+	1477.1.1 = { change_development_level = 24 }
+	1488.1.1 = { change_development_level = 26 }
+	1467.1.1 = {
+		name = Aq_Qoyunlu
+		de_jure_liege = e_persia
+	}
+	#весь иран к 1469
+	1469.1.2 = {
+		holder = UzunHasanAk #1-й султан
+		government = clan_government
+	}
+	1478.1.6 = {
+		holder = KhaleelAk #Султан Халил
+	}
+	1478.6.15 = {
+		holder = YaqubAkKuun #Султан Ягуб
+	}
+}
+#Бракель - Падеборн - Вестфалия
+#Кетлер = Кеттлер, вестфальский род
+b_brakel = {
+	1453.1.1 = { holder = Gotthard_Kettler_1450 }
+}
+#Нукрат --Вятка/Колын
+#Арские князья
+b_nukrat = {
+	1488.1.1 = { holder = Qara_bek_Nukrat }
+}
+#Роттердам
+# Frans_Brederode 18 ноября 1488 захватил Роттердам - удерживал город до 29 июня 1490 года
+b_rotterdam = {
+	1488.11.18 = { holder = Frans_Brederode }
+}
+#СОЗДАВАЕМЫЙ ТИТУЛ - Голконда, султанат
+k_golkonda = {
+	1470.1.1 = {
+		de_jure_liege = e_deccan
+		effect = { set_title_name = b_golkonda }
+		government = clan_government
+	}
+}
+#Тонбридж = Кент
+b_tonbridge = {
+	1469.1.1 = { holder = James_St_Leger }
+}
+#Скарборо
+b_scarborough = {
+	1469.1.1 = { holder = Robert_Manners }
+}
+#Создаваемый титул - в будущем // в базе k_byzantium = Греция
+k_greece = {
+	1400.1.1 = {
+		change_development_level = 10
+		effect = { set_title_name = k_byzantium }
+		de_jure_liege = e_ottoman
+	}
+	1444.1.1 = {
+		change_development_level = 15
+	}
+}
+#Саксония - титул БЫЛ
+#Ядро Саксонии — герцогство Саксен-Виттенберг 1296 — 1356
+#Саксония (курфюршество) существовало с 1356 по 1806 годы
+#равил род Асканиев. Династия угасла в 1422 году после смерти Альбрехта III, после чего император Сигизмунд пожаловал герцогство Саксен-Виттенберг 
+#в награду за помощь в войне с гуситами маркграфу Мейсена Фридриху, из династии Веттинов,
+#с 1423 года Мейсен вошёл в состав Саксонии
+d_saxony = {
+	1453.1.1 = { change_development_level = 27 }
+	1466.1.1 = { change_development_level = 33 }
+	1477.1.1 = { change_development_level = 37 }
+	1488.1.1 = { change_development_level = 44 }
+	1423.1.1 = {
+		de_jure_liege = k_east_francia
+		holder = FriedrihMeisDO1428
+		liege = e_hre
+	}
+	#курфюршество 1365 - эффекта remove_from_global_variable_list нет, поэтому придётся заполнять
+#	1423.1.1 = {
+#		effect = {
+#			clear_global_variable_list = hre_elector_list
+#		}
+#	}
+#	1423.1.2 = {
+#		effect = {
+#			add_to_global_variable_list = {
+#				name = hre_elector_list
+#				target = title:d_saxony
+#			}
+#		}
+#	}
+	1428.11.16 = {
+		holder = Fridrih2_krotki_wet
+	}
+	1464.9.7 = {
+		holder = ErnstSaxonR1441 #Ernst Vettin - kurfurst Saksonii
+	}
+	#Leyptsigskiy razdel 1485.11.11
+	1485.11.11 = {
+		holder = 0
+	}
+}
+#Плауэн - Фогланд
+b_plauen = {
+	1453.1.1 = { holder = Polufik_Hans_Wolffersdorff }
+}
+#Висбаден - Майнц
+b_wiesbaden = {
+	1450.1.1 = { holder = johann_nas_wis_id }
+	1480.5.9 = { holder = adold3_nas_wis_id }
+}
+#город Бреда — Антверпен
+#Энгельберт II Нассауский из Бреды, активный сторонник Максимилиана, 1-й Штатгальтер Габсбургских Нидерландов
+#пусть и был старшим, но больше времени провёл подле Максимилиана Габсбурга, и в Нидерландах, а не в Зигене-Дилленбурге
+b_breda = {
+	1442.1.1 = {
+		holder = Engelbert2NassauBreda
+	}
+}
+#Тюрнхаут - Брабант
+b_turnhout = {
+	1469.1.1 = {
+		holder = Louis_Pynnock
+	}
+}
+#Берген-оп-Зом - Зеландия. Глимы, правители города
+b_bergen_op_zoom = {
+	1453.1.1 = {
+		holder = Jan_II__Glymes
+	}
+}
+#Дорт - Голландия, как раз на границе с Утрехтом // Для Гаспара Кулемборга
+b_dort = {
+	1466.1.1 = {
+		holder = Gaspar_Culemborg
+	}
+}
+#Бон - Шалон
+#Николас Перрено (де Гранвель) из Франш-Конте 1486-1550, советник Карла V - в 1527 купил Гранвель и дополнил фамилию
+b_beaune = {
+	1490.1.1 = {
+		holder = Nicolas_Perrenot_gr
+	}
+}
+#Отен - Шалон
+b_autun = {
+	1466.1.1 = {
+		holder = Jean_Carondelet
+	}
+}
+#Куртре, к югу от Лилля, где и сеньория НЕ Charles1deLalaing
+#b_courtrai = {
+#	1470.1.1 = {
+#		holder = 
+#	}
+#}
+#Юи между Намюром и Льежем - ранее в локализации Хю
+#Гийом де Крой в 1488 году назначен капитаном города и замка Юи, сменив в этой должности Филиппа Клевского, поднявшего мятеж.
+b_huy = {
+	1466.1.1 = {
+		holder = Guillaume_deCroy_Mudr
+	}
+}
+#Ла-Рош (Ла-Рош-ан-Арден) Льеж
+#Филипп Бургундский-Беверенский (1450—1498) — граф де ла Рош
+b_la_roche = {
+	1469.1.1 = {
+		holder = Philippe_BourgogneBe
+	}
+}
+#Шато-Тьерри - западнее Реймса, во владениях Антуана Бастарда в 1480-х
+b_chateau_thierry = {
+	1485.1.1 = {
+		holder = AntoineBastBurg
+	}
+}
+#Новые герцогства
+#Передняя Австрия - Брейсгау и до озера Констанц, центр Фрайбург в c_breisgau
+d_further_austria = {
+	1400.1.1 = {
+		de_jure_liege = k_east_francia
+	}
+	1453.1.1 = {
+		holder = SiegmundHabsTirol
+	}
+}
+#Вюртемберг, как герцогство, с 1495
+d_wurttemberg = {
+	1400.1.1 = {
+		de_jure_liege = k_east_francia
+		effect = { set_title_name = c_wurttemberg }
+	}
+#	1444.1.1 = {
+#		change_development_level = 15
+#	}
+}
+#Цоллерн + Зигмаринен в Грюннингене
+d_zollern = {
+	1400.1.1 = {
+		de_jure_liege = k_east_francia
+		effect = { set_title_name = c_zollern }
+	}
+}
+#Ганзейские города - для Любека и Гамбурга
+d_hanseatic_cities = {
+	1400.1.1 = {
+		de_jure_liege = k_east_francia
+	}
+}
+
+#Зольмс - Нассау
+b_solms = {
+	1453.1.1 = {
+		holder = Otto_2_Solms_Braunfels
+	}
+}
+#Сипунт в Апулии, для Кастриоти, после 1484 года
+b_siponto = {
+	1484.12.31 = {
+		holder = Gjon2Kastrioti
+	}
+}
+#Апт в Форкалье, вальденс
+b_apt = {
+	1484.12.31 = {
+		holder = Waldens_mu_1
+	}
+}
+#Ковно = Каунас - Тракай
+b_kaunas = {
+	1469.12.31 = {
+		holder = Stanis_Kostewicz
+	}
+}
+#Памфилия - Коракесион - Коракессий, Аланья
+#до 1935 года — Алайя или Алайе
+b_korakesion = {
+	1453.1.1 = {
+		name = ALAIYE #Alaiye
+		holder = Fik_Alania_Orhan
+	}
+}
+#Трухильо - Мерида, смотритель замка Gutierre Velázquez de Cuéllar
+b_trujillo = {
+	1453.1.1 = {
+		holder = Gutierre_Velaz_deCuellar
+	}
+}
+#Гюстров - Росток, пусть Блюхеры
+b_gustrow = {
+	1453.1.1 = {
+		holder = Polufik_BlUcher
+	}
+}
+#Тараскон - Фуа //вместо титула Кортес в Наварее у Туделы, которого нет
+b_tarascon = {
+	1453.1.1 = {
+		holder = Jacques_de_Foix #Жак, Жайме де Фуа
+	}
+}
+#Олонец, город //Бабичевы, совершенно неисторично
+b_aunus = {
+	1466.1.1 = {
+		holder = Vas_Ivan_BabichDRuzk
+	}
+}
+#Мценск - Новосиль, наместник Мценский
+b_mtensk = {
+	1453.1.1 = {
+		holder = Dmitr_iv_Putyatich
+	}
+}
+#Велиж - Гнёздово // пусть Друцкие-Толочинские - Шишевские-Толочинские
+b_velizh = {
+	1453.1.1 = {
+		holder = Mikhail_iv_Putyatich
+	}
+}
+#Лида - Гродно
+b_lida = {
+	1453.1.1 = {
+		holder = Dmitr_sem_Dru_sekira
+	}
+	1470.3.24 = {
+		holder = Marina_dm_Dru_zubrev
+	}
+}
+#Мантуя, пока просто - именно Италия!
+d_mantua = {
+	1453.1.1 = {
+		effect = { set_title_name = c_mantua }
+		de_jure_liege = k_italy
+	}
+}
+#Окана - Мора
+#на деле Алкальд Гвадалахары, но она занята
+b_ocana = {
+	1470.1.1 = {
+		holder = Gonzalo_Bravo_Lagunas
+	}
+}
+#Инфантадо
+d_infantado = {
+	1475.7.22 = {
+		holder = DiegoMendoza #2 markiz Santiliana
+		government = feudal_government
+		de_jure_liege = k_castille
+		liege = k_castille
+	}
+	1479.1.25 = {
+		holder = Inigo2Mendoza #3 markiz Santiliana
+		government = feudal_government
+	}
+}
+#Бетансос - гр Саньтьяго. Lope Gómez de Marzoa из Сантьяго-де-Компостелла
+b_betanzos = {
+	1453.1.1 = {
+		holder = Lope_Gomez_de_Marzoa
+	}
+}
+#Донзи - Осер, исторически баронство относилось к Неверу
+#Пусть, брат епископа Осера, барон Со
+b_donzy = {
+	1477.1.19 = {
+		holder = Thibault_Baillet
+	}
+}
+#Орнан в Безансоне - после кончины Марии Бургундской
+b_ornans = {
+	1482.3.27 = {
+		holder = Claude_de_Toulongeon
+	}
+}
+#Везуль замок - Безансон Bailliage d'Amont Оливье де Ламарш
+b_vesoul = {
+	1477.1.5 = {
+		holder = OlivierdeLaMarche
+	}
+}
+#Боркуло - Зютфен -патриций Бредеворта рядом
+b_borculo = {
+	1470.1.1 = {
+		holder = Johan_van_Isendoorn
+	}
+}
+#Майен в Сабле - Louis_de_Montjean - как Монжан
+b_mayenne = {
+	1466.1.5 = {
+		holder = Louis_de_Montjean
+	}
+}
+#Речица, Бобруйск - Семен Полоз
+b_rechytsa = {
+	1466.1.5 = {
+		holder = Semen_Fed_Poloz
+	}
+}
+#Брянск, Дебрянск - Стародуб -Якуб Немирович по прозвищу Щит, наместник Брянский в 1490-х
+b_debryansk = {
+	1466.1.5 = {
+		holder = Jakub_Niemirowicz_Zhit
+	}
+}
+#Невер, создаваемое герцогство (с 1539 в истории)
+#после арраского договора в конце 1482 года
+d_nevers = {
+	1470.1.1 = {
+		effect = { set_title_name = c_nevers }
+	}
+	1483.1.1 = {
+		de_jure_liege = k_france
+		government = feudal_government
+	}
+}
+#Бургхаузен - его гофмейстер
+b_burghausen = {
+	1466.1.5 = {
+		holder = Hans_Ebran_Wildenberg
+	}
+}
+#Орден Монтесса в Валенсии (Арагон)
+d_montesa_order = {
+	1453.1.1 = {
+		de_jure_liege = k_aragon
+	}
+	1453.3.8 = {
+		holder = Luis_Despuig #1453-1482
+		government = holy_order_government
+#		government = republic_government
+		liege = k_aragon
+	}
+	1482.10.3 = {
+		holder = Felipe_de_VianaEP #1482-1488
+		liege = k_aragon
+	}
+	1488.8.8 = {
+		holder = Felipe_Vivas_deCan #Felipe Vivas de Cañamanes y Boll 14-1492
+		government = holy_order_government
+#		government = republic_government
+		liege = k_aragon
+	}
+}
+#Герцогство Сегорбе, исторически с 1469 года (не 59-го)
+d_segorbe = {
+	1459.1.1 = {
+		effect = { set_title_name = b_segorbe }
+		de_jure_liege = k_aragon
+		holder = EnriqAragonPimentel
+		liege = k_aragon
+	}
+}
+#Капошвар - Шомодь Tamási Henrik
+b_kaposvar = {
+	1466.1.1 = {
+		holder = Henrik_TamAsi
+	}
+}
+#Шмозолань - Пожонь, Братислава - предок Эстергази
+b_smozolany = {
+	1466.1.1 = {
+		holder = PF_Rafain_EsterhAzy
+	}
+}
+#Капувар - Шомодь - просто землевладелец Keresztúri Miklós
+b_kapuvar = {
+	1466.1.1 = {
+		holder = Miklosh_KeresztUri
+	}
+}
+#Дюрен - Аахен
+b_duren = {
+	1466.1.1 = {
+		holder = Fik_Limburg_1
+	}
+}
+#Лембур - который Лимбург (НЕ у Франфуркта)
+##Jacques II de Hornes comte de Horn u Limburga
+b_limbourg = {
+	1453.1.1 = {
+		holder = Jacques_II_Hornes
+	}
+}
+#Комаккьо - Феррара
+#пусть Conte di Scandiano 1456
+b_comacchio = {
+	1453.1.1 = {
+		holder = Matteo_Boiardo
+	}
+}
+#перенёс ниже
+#Кличен - Торжок, после 1393 года — Осташков, есть в базе откуда-то b_ostashkov / Нетшин
+b_klichen = {
+	1400.1.1 = { effect = { set_title_name = b_ostashkov } }
+	1470.1.1 = { holder = Grigoriy_An_Netshin_M }
+}
+#Герцог Мединасели с 31 окт 1479
+#Луис де ла Серда
+d_medinaceli = {
+	1479.10.31 = {
+		effect = { set_title_name = b_medinaceli }
+		government = feudal_government
+		de_jure_liege = k_castille
+		liege = k_castille
+		holder = LuisCerda
+	}
+}
+#Симанкас -Вальядолид, вместо замка Ла-Мотта
+b_simancas = {
+	1470.1.1 = {
+		holder = Alonso_quintanilla1420
+	}
+}
+#Медина-дель-Кампо - Авила
+b_medinadelcampo = {
+	1470.1.1 = {
+		holder = Sancho_del_Aguila 
+	}
+}
+#Бездез, полный бездез в Болеславе, замок
+b_bezdez = {
+	1470.1.1 = {
+		holder = Bohus_2_KostzPost 
+	}
+}
+#Ludovico di Leonardo Buonarroti Simoni, подеста Капрезе и Кьюзи-делла-Верна у Ареццо, отец Микелан.
+#Кортона в Ареццо
+b_cortona = {
+	1466.1.1 = {
+		holder = Ludovico_Buonarroti 
+	}
+}
+#Перуджа, с 1438 синьория Бальони -после Braccio Baglioni
+b_perugia = {
+	1479.12.8 = {
+		holder = Guido_Baglioni 
+	}
+}
+#Чивитавеккья - Витербо
+b_civitavecchia = {
+	1479.12.8 = {
+		holder = Donato_Bramante 
+	}
+}
+#Приеполе - Подринье, албанцы рода Mataruge, Mataruga or Motoruga
+b_prijepolje = {
+	1466.1.1 = {
+		holder = Alb_mataruge 
+	}
+}
+#Ужице - Мачва, замок -Сербия-у османов с 1463 в Смедеревском Санджаке, но мусульман изначально мало
+b_uzice = {
+	1463.1.1 = {
+		holder = fik_uzhice 
+	}
+}
+#Крагуевац -Белград, -заселён с древности, впервые упоминается под 1476 как часть Санджака Смедерево
+b_kragujevac = {
+	1463.1.1 = {
+		holder = fik_kragujevac
+	}
+}
+#Кониц -Зеленгора-Гацко --боснийский город, мусульман половина
+b_konjic = {
+	1460.1.1 = {
+		holder = fik_bosn_konjic
+	}
+}
+#Дувно - Завршье с центром в Хливно
+b_duvno = {
+	1453.1.1 = {
+		holder = fik_bosn_duvno
+	}
+}
+#Имотски -Завршье -совр Хорватия
+b_imotski = {
+	1453.1.1 = {
+		holder = fik_horv_imotski
+	}
+}
+#Гент - город в графстве Брюгге
+#Hugues_de_Melun -kak burggraf-vikont Gentski i Gub Dendermonde s 1492
+b_gent = {
+	1453.1.1 = {
+		holder = Jean4_deMelun
+	}
+	1484.2.15 = {
+		holder = Jean_5_deMelun
+	}
+}
+#Санджак Босния - можно было отдельно Эялет Босния
+d_sanjak_bosna = {
+	1463.1.1 = {
+		effect = { set_title_name = k_bosnia }
+		de_jure_liege = "k_croatia"
+		government = clan_government
+	}
+}
+d_srebrenik = {
+	1463.1.1 = {
+		effect = { set_title_name = b_srebrenik }
+		de_jure_liege = "k_croatia"
+		government = feudal_government
+	}
+}
+#Сокол, вероятно Соколац в БиГ, сербское большинство с 1470.1.1
+b_sokol = {
+	1470.1.1 = {
+		holder = fik_serb_sokol
+	}
+}
+#Ключ-на-Сани - Яйце, исторически крепость в составе Венгрии
+b_kljucnasani = {
+	1453.1.1 = {
+		holder = fik_horv_kluch
+	}
+}
+#Иванчице - Брно
+b_ivancice = {
+	1453.1.1 = {
+		holder = Jan_st_Zherotin
+	}
+}
+#Дамфрис - Аннандейл
+b_dumfries = {
+	1453.1.1 = {
+		holder = Andrew_Kerr
+	}
+}
+#Аркарт экс Эркарт --Инвернесс
+b_urquhart = {
+	1453.1.1 = {
+		holder = sco_1490_1
+	}
+}
+#Мар - Ангус
+b_mar = {
+	1453.1.1 = {
+		holder = sco_1490_2
+	}
+}
+#Биггар - Ланаркшир
+b_biggar = {
+	1453.1.1 = {
+		holder = sco_1490_3
+	}
+}
+#Орошхаза - Бекеш
+b_oroshaza = {
+	1453.1.1 = {
+		holder = Gergely_Kereki
+	}
+}
+#Тетово - Скопье
+b_tetovo = {
+	1466.1.1 = {
+		holder = fik_tetovo
+	}
+} 
+#Кичево  - Скопье
+b_kicevo = {
+	1480.1.1 = {
+		holder = fik_kichevo
+	}
+}
+#Штип в Струмице
+#экс b_bosilegrad - Босилеград - болгария передала после ПМВ > Штип
+b_shtip = {
+	1466.1.1 = {
+		holder = fik_bosilegrad
+	}
+}
+#Анкара c_galatia
+d_ankara = {
+	1470.1.1 = {
+		effect = { set_title_name = cn_ankara }
+		de_jure_liege = "k_pontus"
+		government = clan_government
+	}
+}
+#Парма, на будущее 1545 — 1859
+d_parma = {
+	1470.1.1 = {
+		effect = { set_title_name = c_parma }
+		de_jure_liege = "k_italy"
+		government = feudal_government
+	}
+}
+#Цилли - Крайна
+b_krsko = {
+	1466.1.1 = {
+		holder = PF_Engelbert_Auersperg
+	}
+}
+#Сигетвар - Шомодь
+b_szigetvar = {
+	1466.6.6 = {
+		holder = PF_KristOf_Erdyody
+	}
+}
+#Терамо, ранее Ланчано, формальное герцогство d_lanciano
+d_teramo = {
+	1453.1.1 = {
+		effect = { set_title_name = c_teramo }
+		de_jure_liege = "k_naples"
+		government = feudal_government
+	}
+}
+#Алжир
+k_algeria = {
+	1453.1.1 = {
+		effect = { set_title_name = c_algier }
+		de_jure_liege = "e_maghreb"
+		government = clan_government
+	}
+}
+#Феодосия - Керчь
+b_theodosia = {
+	1453.1.1 = {
+		holder = fik_feodos_kaffa
+	}
+}
+#Чефалу - Мессина, Сицилия 
+b_cefalu = {
+	1470.1.1 = {
+		holder = Enrico_Ventimiglia
+	}
+}
+k_tunis = {
+	1453.1.1 = {
+		effect = { set_title_name = c_tunis }
+		de_jure_liege = "e_maghreb"
+		government = clan_government
+	}
+}
+
+k_tripolitana = {
+	1453.1.1 = {
+		effect = { set_title_name = c_tripolitana }
+		de_jure_liege = "e_maghreb"
+		government = clan_government
+	}
+}
+#Ольденбург, как герцогство в реале 1777 год
+d_oldenburg = {
+	1453.1.1 = {
+		effect = { set_title_name = c_oldenburg }
+		de_jure_liege = "k_east_francia"
+		government = feudal_government
+	}
+}
+#Леобен - Грац - Штирия
+b_leoben = {
+	1470.1.1 = {
+		holder = Andree_von_Graben
+	}
+}
+#Тамбов, новое
+d_tambov = {
+	1454.1.1 = {
+		effect = { set_title_name = c_tambov }
+		de_jure_liege = "k_mordvinia"
+	}
+}
+#Йошкар-Ола c_yoshkar-ola - новое
+d_yoshkar_ola = {
+	1454.1.1 = {
+		effect = { set_title_name = c_yoshkar-ola } 
+		de_jure_liege = k_kazan
+	}
+}
+#Саранск - Саран - севернее Пензы
+d_saran = {
+	1454.1.1 = {
+		effect = { set_title_name = c_saran }
+		de_jure_liege = k_mordvinia
+	}
+}
+#Вислица — Краков - Турзо, бургомистр Кракова
+b_wislica = {
+	1470.1.1 = {
+		holder = Jan_Thurzo
+	}
+}
+#Остия - Рим /вместо Браччано
+b_ostia = {
+	1453.1.1 = { holder = Napoleone_Orsini_bra }
+	1470.1.1 = { holder = Gentile_Virginio_Orsini }
+}
+#Сеньи - Тиволи
+b_segni = {
+	1470.1.1 = { holder = Paolo_Orsini_Atripalda }
+	1503.1.18 = { holder = Fabio_Orsini }
+}
+#Губбио -Анкона- с 1384 года в руках Монтефельтро
+b_gubbio = {
+	1470.1.1 = { holder = Antonio_da_MontefeltroBAS }
+}
+#Самара, новое
+d_samara = {
+	1453.1.1 = {
+		effect = { set_title_name = "c_samar_VB" }
+		de_jure_liege = "k_kazan"
+	}
+}
+#Лландидно - Карнавоншир - в Уэльсе
+b_llandudno = {
+	1470.1.1 = { holder = Roland_de_Velville }
+}
+#Нортуич - Чешир
+#пусть барон Стрейндж из Нокин
+b_northwich = {
+	1444.1.1 = { holder = John_Lestrange8b }
+	1479.10.16 = { holder = Joan_Lestrange }
+}
+#Бонн - Кёльн - город
+#Якоб Шпренгер декан Кёльнского университета, автор трактата "Молот Ведьм"
+b_bonn = {
+	1470.1.1 = { holder = Jacob_Sprenger }
+}
+#Абенберг - Нюрнберг
+b_abenberg = {
+	1470.1.1 = { holder = Hans_Folz }
+}
+#Селеста - Кольмар — Эльзас
+b_selestat = {
+	1488.8.8 = { holder = Konrad_Wickram }
+}
+#Пшедбуж - Серадз
+b_przedborz = {
+	1488.8.8 = { holder = Hans_Boner }
+}
+#Кальи - Анкона
+b_cagli = {
+	1470.1.1 = { holder = Ludovico_II_Ordelaffi }
+}
+#Шартрез - Вьеннуа-Гренобль
+b_chartreuse = {
+	1470.1.1 = { holder = Gilbert4_LaFayette }
+}
+#Емецк - Вельск
+b_yemetsk = {
+	1470.1.1 = { holder = Petr_Bor_Borozdin }
+}
+#Витри-ан-Пертуа  - Шампань - были владения у герцогства Бар
+b_vitry_en_perthois = {
+	1470.1.1 = { holder = Jean_Baudricourt }
+	1490.1.1 = { holder = Jean_Baudricourt }
+}
+#Эмполи - Флоренция
+b_empoli = {
+	1470.1.1 = { holder = Giuliano_da_Sangallo }
+}
+#Трубецк
+b_trubetsk = {
+	1470.1.1 = { holder = Ivan_U_trub }
+}
+#Чериков -Могилёвской области-- Рославль
+#Кромские
+b_cherykaw = {
+	1470.1.1 = { holder = Ivan_Vopros_Kromskiy }
+}
+#Ветрино - Лукомль /Полубинские
+b_vetrino = {
+	1470.1.1 = { holder = andrei_fe_Polubinski }
+}
+#Овруч - Коростень /Тышкевичи
+b_ovruch = {
+	1470.1.1 = { holder = tim_tyshkevich }
+}
+#де-юре, Трир
+d_trier = {
+	1470.1.1 = {
+		de_jure_liege = "k_lotharingia"
+		effect = { set_title_name = c_trier }
+	}
+	1470.1.1 = { de_jure_liege = k_east_francia }
+}
+#де-юре, Майнц
+d_mainz = {
+	1470.1.1 = {
+		de_jure_liege = "k_east_francia"
+		effect = { set_title_name = c_mainz }
+	}
+}
+#Виртон, Бульон - Люксембург
+b_virton = {
+	1466.1.1 = { holder = fik_virton }
+}
+#Калансия, Сокотра
+b_qualnsiyah = {
+	1466.1.1 = { holder = sokotra_kalansia }
+}
+#Леаль — Вик
+b_leal = {
+	1466.1.1 = { holder = otto_von_ungern }
+}
+#Марсель — Прованс
+b_marseille = {
+	1466.1.1 = { holder = Aymar_de_Poitiers }
+}
+#Коньяк — Ангулем
+b_cognac = {
+	1453.1.1 = { holder = jean_larosfuko }
+	1471.7.1 = { holder = fransua_larosfuko }
+}
+#Шательро - Пуату, Пуатье
+#b_chatellerault = {
+#	1453.1.1 = { holder = jean_larosfuko }
+#	1471.7.1 = { holder = fransua_larosfuko }
+#}
+
+#Агд — Безье
+#bastard Jean Arm, seigneur de Camboulas, Millau, Occitanie
+b_agde = {
+	1489.12.30 = { holder = JeanBastArm }
+}
+#Фезенсак  — Арманьяк
+b_fesensac = {
+	1470.1.1 = { holder = IsabelleArmInz }
+	1476.3.6 = { holder = AntuaBastArm }
+}
+#Монлери — Иль-де-Франс, столичное
+#Гийом де Монморанси - феодальное владение в Иль-де-Франсе с центром в городе Монморанси
+b_montlhery = {
+	1470.1.1 = { holder = Guillaume_de_Montmorency }
+}
+#Куси — Валуа -пусть
+#Кальв — Баден
+b_calw = {
+	1470.1.1 = { holder = shweikhart_sickingen }
+}
+#Ньюпорт — Бакингемшир --титул Маунджой
+b_newport = {
+	1465.1.1 = { holder = John_Blount_3b }
+	1485.8.5 = { holder = William_Blount_4b }
+}
+#Браунберг, Пруссия - Донна
+b_braunsberg = {
+	1460.1.1 = { holder = Stanislav_von_Dohna }
+}
+#Корк - Десмонд - центр английкого влияния
+b_cork = {
+	1460.1.1 = { holder = richard_skiddy }
+}
+#Кинсейл - Десмонд - для ирландских племенных королей Десмонда
+b_kinsale = {
+	1428.1.1 = { holder = domnall_an_Dana_MC }
+	1469.6.9 = { holder = Tadhg_Liath_Mac }
+	1503.5.3 = { holder = Domnall_sTL_Mac }
+}
+#Честерфилд - в Дерби
+b_chesterfield = {
+	1470.1.1 = { holder = edmund_denny }
+}
+#Каслбар — Мейо - современный центр Коннахта, семья де Барри
+#убрал effect = { set_capital_barony = yes }
+b_castlebar = {
+	1453.1.1 = { holder = William_barry_8 }
+	1480.8.10 = { holder = john_barry_9 }
+	1486.8.6 = { holder = Thomas_barry_10 }
+	1488.8.8 = { holder = William_barry_11 }
+	1500.5.10 = { holder = john_barry_12 }
+}
+#Атенри - Ирландия - новое
+b_athenry = {
+	1453.1.1 = { holder = Thomas_2_Berm_5 }
+	1473.7.3 = { holder = Thomas_3_Berm_6 }
+}
+#Ретфорд - Ноттингемшир, Кранмеры дворяне оттуда
+b_retford = {
+	1470.1.1 = { holder = thomas_cranmer_st }
+}
+#Коруэн у Харлеха, гр Мерионетшир
+b_corwen = {
+	1470.1.1 = { holder = Ieuan_ap_Robert }
+	1480.1.1 = { holder = Maredudd_ab_Ieuan }
+}
+#Аберистуит - Кардиган -Уэльс
+b_aberystwyth = {
+	1470.1.1 = { holder = Thomas_iz_Llandeilo }
+	1474.7.4 = { holder = Rhys_ap_Thomas }
+}
+#Кеттеринг в графстве Нортгемптоншир - пусть будет для барон Риверс-Скейлз
+b_kettering = {
+	1485.9.1 = { holder = Rich_wudwil_3riv }
+}
+#Керменд - Ваш - город
+b_kormend = {
+	1470.1.1 = { holder = Ferenc_Nadasdy }
+}
+#Капувар - Шопрон --пусть
+b_kapuvar = {
+	1470.1.1 = { holder = Laslo_Terjek }
+}
+#Эгерсег - Колон --пусть
+b_egerszeg = {
+	1470.1.1 = { holder = Tamas_Terjek }
+}
+#Домбовар
+b_dombovar = {
+	1470.1.1 = { holder = Pal_Dombo }
+}
+#Удбина - Лика - Хорв
+b_udbina = {
+	1453.1.1 = { holder = Juraj_I_drashkovich }
+	1490.3.3 = { holder = Luka_I_drashkovich }
+}
+#Каша - Сепешшег - Венгр
+b_kassa = {
+	1470.1.1 = { holder = Jiskra_Orszag_gut }
+}
+k_transylvania = {
+	1470.1.1 = {
+		effect = { set_title_name = d_transylvania }
+		de_jure_liege = "e_carpathia"
+	}
+}
+#Бокшанбанья - Темеш - Венгр
+b_boksanbanya = {
+	1453.1.1 = { holder = mark_Bethlen }
+	1472.7.2 = { holder = bernat_Bethlen }
+}
+#Мошон - Дьер --для семьи Тёрёк - на их месте Батьяни
+#uprav zamkom Keseg gr Shopron s 1483
+b_moson = {
+	1470.1.1 = { holder = Boldizhar_Battiany }
+	1483.12.31 = { holder = Ambrus_t0r0k }
+}
+#Треллеборг в Сконе
+b_trelleborg = {
+	1470.1.1 = { holder = Axel_Pedersen_Brahe }
+	1487.8.17 = { holder = Tyge_Alex_Brahe }
+}
+#Лахольм - Халлаланд
+b_laholm = {
+	1470.1.1 = { holder = Holger_Munk_Lange }
+}
+# Оршова - Северин- Сереньи --будущий бан
+b_orsova = {
+	1470.1.1 = { holder = Mihaly_Paksy }
+}
+#Хейльбронн - Файинген - Франкония -- для семьи  фон Гемминген
+#В 1473 году пфальцграф Фридрих увещевал город Хайльбронн проявлять бдительность в отношении Йорга фон Розенберга, который взял в плен камергера Эберхарда фон Геммингена
+b_heilbronn = {
+	1453.1.1 = { holder = Eberhard_von_Gemmingen }
+	1479.5.25 = { holder = Eberhard_ml_Gemmingen }
+}
+#Хоккенхейм у Гейдельберга столицы Пфальца и Шпеера
+b_hockenheim = {
+	1470.1.1 = { holder = Jakob_Wimpfeling } #Якоб Вимпфелинг С 1471 года — профессор в Гейдельберге
+}
+#Каор в Керси, родина кагора
+b_cahors = {
+	1470.1.1 = { holder = Guillot_la_valette }
+}
+#Крепи в Валуа, перенёс сюда
+b_crepy = {
+	1453.1.1 = { holder = Mathieu_V_deRoye_Muret }
+	1477.4.3 = { holder = Jean_de_Roye }
+	1489.8.20 = { holder = Antoine_de_Roye }
+}
+#Хеб, Фогтланд
+#Heinrich XI der Ältere Reuß von Plauen, Herr zu Greiz i Kranichfeld
+b_cheb = {
+	1470.1.1 = { holder = heinrich11_rvp }
+}
+#Бостон Линкольншир, город
+b_boston = {
+	1470.1.1 = { holder = Thomas_Kyme }
+}
+#Закинф, -Кефалония - Эпир или Эллада
+#Нотара, отец Герасима Кефалонского
+b_zakynthos = {
+	1470.1.1 = { holder = Demetrios_otez }
+}
+#Хульван в Каире, не в Персии
+#для 
+#b_hulwan-cairo: "Хульван"
+#Ахтырь - Градиж > Михайло Гагин, участвовал в дележе Еголдаевой тьмы с центром в Осколе
+b_akhtyr = {
+	1470.1.1 = { holder = mihaylo_gagin }
+}
+###
+#Лихтенберг - Страссбург и Хагенау, ошибочно названный Лихбергом
+#графство Ганау-Лихтенберг - Grafschaft Hanau-Lichtenberg
+b_lichtberg = {
+	1458.1.1 = { holder = Philipp_I_Hanau_Lichtenberg }
+	1480.5.10 = { holder = Philipp_2_Hanau_Lichtenberg }
+}
+##novoe - Ханау-Ганау
+b_hanau = {
+	1470.1.1 = { holder = Reinhard_4_HanauMunzenberg }
+}
+##Абхар в Казвине, для муминитов
+#b_abhar = {
+#	1470.1.1 = { holder = shah_radi_addin_2 }
+#}
+##Qara Qoyunlu, Kara Koyunlu, Black Sheep Turkomans 1374–1468
+#stavki — Tebriz, Mosul, Erjish
+k_karaqoyunlu = {
+	1374.1.1 = {
+		name = KARAKUN
+		de_jure_liege = e_persia
+	}
+	1389.1.2 = {
+		holder = QaraYusuf_Karakoy #Kara Usuf
+		government = clan_government
+	}
+	#umer 1420.11.17
+	1420.11.17 = {
+		holder = Iskandar_QaraQoyunlu #1421-29 i 1431-36
+	}
+	1436.3.6 = {
+		holder = jahanshah_kara
+	}
+	1468.6.15 = {
+		holder = Yusuf_KaraKuun
+	}
+	1469.10.22 = {
+		holder = 0
+	}
+}
+d_siena = {
+	1454.1.1 = {
+		de_jure_liege = k_italy
+		effect = { set_title_name = c_siena }
+		government = republic_government
+	}
+	1470.1.1 = { de_jure_liege = k_romagna }
+	#chtoby ne sozdavalos herzogstvo
+	1487.12.31 = {
+		holder = Pandolfo_Petrucci
+		liege = 0
+		government = republic_government
+	}
+}
+#Везуль - Безансон
+b_vesoul = {
+	1470.1.1 = { holder = philippe_longwy }
+}
+# Маратеа - Салерно - Неаполь
+b_maratea = {
+	1470.1.1 = { holder = Fran_orsini_di_gravina }
+}
+#Даниловское Ярославщины - Вологда
+b_danilov = {
+	1470.1.1 = { holder = iva_dm_runo }
+}
+##
+#Нейс у Кёльна, семья Neuenahr-Alpen, наследственные фогты Кёльна и Лимбурга
+b_neuss = {
+	1454.1.1 = { holder = Friedrich_NeuenahrA }
+	1468.6.23 = { holder = Gumprecht_3NeuenahrA }
+}
+#Медина-Сидония, герцогство для Гусманов
+d_medina_sidonia = {
+	1454.1.1 = {
+		de_jure_liege = k_castille
+		government = feudal_government
+	}
+	1468.1.1 = {
+		holder = EnriqueGuzman
+		liege = k_castille
+	}
+}
+#Любеч
+#Василий Михайлович Верейский от Казимира в удельное владение Любеч, Койданово, Воложин, Радошковичи
+b_lyubech = {
+	1483.8.3 = { holder = VasilMihVereiski }
+}
+#Султанат Сеннар, Фунг - k_sennar
+k_sennar = {
+	1470.1.1 = {
+		de_jure_liege = e_abyssinia
+		effect = { set_title_name = c_sennar }
+	}
+}
+#Вольфсберг в Каринтии, верноый
+b_wolfsberg = {
+	1470.1.1 = { holder = pankraz_dietrichstein }
+}
+#Астарак в Комменже для рода Астарак, Жан IV где-то с 1458
+b_astarac = {
+	1470.1.1 = { holder = jean_4_astarac }
+}
+#Неаполь, чтобы заменить герцогство Капуя, существовавшее до 1172 года
+d_napoli = {
+	1470.1.1 = {
+		de_jure_liege = k_naples
+		effect = { set_title_name = k_naples }
+	}
+}
+#Шибеник в Книне, сделал замком
+b_sibenik = {
+	1470.1.1 = { holder = fik_ven_shibenik }
+}
+#Полицкая республика, столица Омиш
+b_omis = {
+	1470.1.1 = { holder = pf_martin_politsa }
+	1488.8.8 = { holder = Dujam_r_Poljica }
+}
+#Фуа, для наследных земель семьи Фуа - Фуа, Беарн, Бигорр и Марсан с Габарданом
+d_foix = {
+	1470.1.1 = {
+		effect = { set_title_name = c_foix }
+		de_jure_liege = k_navarra
+		government = feudal_government
+	}
+}
+#Эспоо - Нюланд
+b_espoo = {
+	1470.1.1 = { holder = Klas_kurck }
+}
+#герцог Кларенс
+d_clarence = {
+	1461.6.28 = { holder = george_york_clarence liege = k_england de_jure_liege = k_england }
+	#kaznili
+	1478.2.18 = { holder = 0 }
+}
+#Шательро - Пуатье ---вместо Argenton-Château
+b_chatellerault = {
+	1488.1.1 = { holder = PhilippedeCommynes }
+}
+#Ковель - Владимир
+b_kovel = {
+	1480.1.1 = { holder = andrzej_czurylo }
+}
+#Усора
+b_usora = {
+	1464.1.1 = { holder = Srebrenikbanfik }
+}
+#Берёзовое- Койвисто
+b_koivisto = {
+	1470.1.1 = { holder = pf_ovtsyn_1 }
+}
+# Орешек -- пусть Ушатые - вместо земель на реке Шелонь
+b_noteborg = {
+	1470.1.1 = { holder = Vasili_fed_ushatyi }
+}
+#Вианден - Люксембург // на деле Вержи в Бургундии
+b_vianden = {
+	1470.1.1 = { holder = guillaume_4_vergy }
+}
+#Клерво - Люксембург
+b_clervaux = {
+	1470.1.1 = { holder = cornelis_van_glymes }
+}
+#Абвиль - Булонь - церковное владение
+#b_abbeville: "Абвиль"
+#Корасера - Ольмедо -- regidor de Segovia
+b_coracera = {
+	1470.1.1 = { holder = Rodrigo_Tordesillas }
+}
+#Бастонь - Люксембург // деятель герцогства Люксембург
+b_bastogne = {
+	1470.1.1 = { holder = gilles_busleiden }
+}
+#Кириния - Фамагуста - Кипр
+b_cerynia = {
+	1470.1.1 = { holder = kipr_haldei_katolik }
+}
+#Рожмберк - Будуёвице-Крумлов
+b_rozmberk = {
+	1470.1.1 = { holder = jan_2_rozhm }
+	1472.11.8 = { holder = jind_5_rozhm }
+	1489.5.21 = { holder = Vok_2_rozhm }
+}
+# Крумлов
+b_krumlov = {
+	1470.1.1 = { holder = Vok_2_rozhm }
+	1480.7.10 = { holder = Petr_4_rozhm }
+}
+#Эмптхилл b_ampthill
+#Ельня - Смоленск -- для Сапег
+b_yelnya = {
+	1470.1.1 = { holder = bogdan_se_sapega }
+}
+d_laamp_nic_poppel = {
+	1480.1.1 = {
+		liege = 0
+		holder = nikol_poppel
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1480.7.10 = {
+		effect = { destroy_landless_title_no_dlc_effect = { DATE = 1480.7.10 } }
+	}
+	1490.1.1 = {
+		effect = { destroy_landless_title_no_dlc_effect = { DATE = 1490.1.1 } }
+	}
+}
+# Тотнес - Девон -- William Huddesfield
+b_totnes = {
+	1470.1.1 = { holder = will_huddesfield }
+}
+#Poyntz - Gloucestershire
+b_bristol = {
+	1470.1.1 = { holder = robert_poyntz }
+}
+#Мант - Бомонт пусть
+b_mantes = {
+	1470.1.1 = { holder = artus_villequier }
+}
+# в графстве Пентьевр b_saint_malo на бретонском cn_sant_malou
+# пусть
+b_saint_malo = {
+	1470.1.1 = { holder = ar_lesperviez }
+}
+#Версаль - пусть для прево Парижа
+b_versailles = {
+	1470.1.1 = { holder = rob7_estoutev }
+	1479.7.9 = { holder = jacques_estoutev }
+}
+#u Pragi
+b_vysehrad = {
+	1470.1.1 = { holder = vaclav_koranda_ml }
+}
+# Grafstvo Plzen
+b_prachen = {
+	1470.1.1 = { holder = benesh_kolovratl }
+}
+#new title
+k_khiva = {
+	800.1.1 = {
+		effect = { set_title_name = c_khiva }
+	}
+	1454.1.1 = {
+		de_jure_liege = e_turan
+	}
+}
+#new title
+k_bukhara = {
+	800.1.1 = {
+		effect = { set_title_name = c_bukhara }
+	}
+	1454.1.1 = {
+		de_jure_liege = e_turan
+	}
+}
+#Эгер - Хевеш -- пусть
+b_eger = {
+	1470.1.1 = { holder = benedek_zichy }
+}
+# Флоридсдорф - Вена
+b_floridsdorf = {
+	1470.1.1 = { holder = fridr_enzersdorf }
+}

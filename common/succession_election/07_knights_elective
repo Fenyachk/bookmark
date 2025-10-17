@@ -1,0 +1,119 @@
+﻿#выборщики-рыцари для священного ордена
+knights_elective = {
+	electors = {
+		add = holder
+		add = {
+			type = title_dejure_vassals
+			limit = {
+				is_adult = yes
+			}
+		}
+		add = {
+			type = title_direct_vassals
+			limit = {
+				is_adult = yes
+			}
+		}
+		add = {
+			type = title_claimants
+			limit = { is_adult = yes }
+		}
+		add = {
+			type = holder_direct_vassals
+#			limit = {
+#				is_adult = yes
+#			}
+		}
+		add = {
+			limit = {
+				faith = faith:catholic
+#				highest_held_title_tier > tier_barony
+#				is_capable_adult = yes
+#				is_imprisoned = no
+#				is_married = no
+#				is_betrothed = no
+#				is_independent_ruler = no
+				is_knight = yes
+				NOT = { has_trait = excommunicated }
+			}
+		}
+        add = {
+			limit = { is_knight_of = scope:holder }
+		}
+		add = {
+			limit = { is_courtier_of = scope:holder } #придворные - совета у ордена нет
+		}
+		add = {
+			limit = { is_extended_family_of = scope:holder } #родственник
+		}
+}
+	candidate_score = {
+		base = 0
+		######################	Elector self-voting pattern	##########################
+		elector_self_voting_pattern_feudal_elective_modifier = yes
+
+		##########################	Holder voting pattern	##########################
+		holder_voting_pattern_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (circumstances)	##########################
+		elector_voting_pattern_circumstances_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (prestige/piety)	##########################
+		elector_voting_pattern_prestige_piety_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (traits)	##########################
+		elector_voting_pattern_traits_feudal_elective_modifier = no #yes
+
+		##########################	Elector voting patterns (opinion)	##########################
+		elector_voting_pattern_opinion_feudal_elective_modifier = yes
+	}
+	
+	#scope:candidate = Candidate, scope:title = Title, scope:holder_candidate = Candidate currently selected by ruler.
+	candidates = {
+		add = {
+			type = holder_direct_vassals
+			limit = {
+				feudal_elective_potential_landed_candidate_trigger = yes
+			}
+		}
+		add = {
+			is_knight_of = scope:holder
+		}
+		add = {
+			is_courtier_of = scope:holder #придворные - совета у ордена нет
+		}
+		add = {
+			type = holder_knights
+			limit = {
+				is_adult = yes
+			}
+		}
+		add = {
+			type = title_vassals
+			limit = {
+				is_independent_ruler = no
+				feudal_elective_potential_landed_candidate_trigger = yes
+			}
+		}
+		add = {
+			type = title_dejure_vassals
+			limit = {
+				is_independent_ruler = no #ранее - yes  - Де-юре вассалы титула, которые де-факто не являются вассалами нынешнего правителя.
+				feudal_elective_potential_landed_candidate_trigger = yes
+			}
+		}
+		add = {
+			type = title_claimants
+			limit = {
+				feudal_elective_potential_landless_claimant_candidate_trigger = yes
+			}
+		}
+		add = {
+			type = holder_close_or_extended_family
+			limit = {
+				is_close_or_extended_family_of = scope:holder #ранее  is_close_family_of
+				feudal_elective_potential_landless_dynastic_candidate_trigger = yes
+			}
+		}
+	}
+}

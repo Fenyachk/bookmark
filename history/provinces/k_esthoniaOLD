@@ -1,0 +1,473 @@
+﻿#08_06_24
+#главное владение c_osel на острове Саарема  1228—1560 Эзельвикское епископство
+# 88 - ARENSBURG
+88 = {	# 88 - Arensburg
+	
+	# Misc
+	culture = estonian
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1228.1.1 = {
+		religion = catholic
+	}
+	##
+	1228.1.1 = { holding = castle_holding }
+}
+
+#Маасилинна орденский замок Зонебург в 1345 2-й раз
+# 89 - SONEBURG
+89 = {	# 89 - SONEBURG
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+#	1228.1.1 = {
+#		religion = catholic
+	}
+	##
+	1345.1.1 = { holding = castle_holding }
+}
+#Muhu, dikiy ostrov cn_moon
+# 90 - MUHU
+90 = {	# 90 - MUHU
+	holding = none
+	# Misc
+	culture = estonian
+	religion = finnish_pagan
+	
+	# History
+	1228.1.1 = {
+		religion = catholic
+	}
+
+						   
+	  
+			   
+}
+
+
+# - b_hiiumaa - Hiiumaa, Dago-Dagden s 1228
+# 91 - DAGO
+91 = {	# 91 - DAGO
+	
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	holding = none #novoe
+	
+	# History
+#	1228.1.1 = {
+#		religion = catholic
+#	}
+	1228.1.1 = {
+		holding = city_holding
+	}
+
+}
+#tsrntr c_wiek Вик k_esthonia c_wiek
+# 92 - HAPSAL
+92 = {	# 92 - HAPSAL
+	# Misc
+	culture = estonian
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History -gorod s 1279
+	1290.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+}
+
+# 93 - LEAL
+93 = {	# 93 - LEAL ЛЕаль или Лихула 1238
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+#	1290.1.1 = {
+#		religion = catholic
+#	}
+	1238.12.12 = {
+		holding = city_holding
+	}
+}
+###c_reval -Таллин-Колывань
+# 94 - REVAL
+94 = {	# 97 - REVAL
+	
+	# Misc
+	culture = estonian
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1066.1.1 = {
+		buildings = {
+			palisades_01
+			market_villages_01
+		}
+	}
+	1279.1.1 = {
+		religion = catholic
+	}
+	##
+	1300.1.1 = {
+		holding = castle_holding
+	}
+	1444.1.1 = { buildings = { common_tradeport_02 military_camps_02 } }
+}
+
+# 95 - HARJUMAA -oblast
+95 = {	# 95 - HARJUMAA
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+#	1279.1.1 = {
+#		religion = catholic
+#	}
+}
+
+# 96 - JARVA
+96 = {	# 96 - JARVA
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+#	1279.1.1 = {
+#		religion = catholic
+#	}
+}
+
+# 97 - WESENBURG - с 1226 Раквере - Раковор - Везенберг Нарва2
+97 = {	# 97 - WESENBURG
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+	1226.1.1 = {
+		holding = city_holding
+	}
+
+}
+
+# 98 - NARVA
+98 = {	# 98 - NARVA
+	
+	# Misc
+	culture = estonian
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1066.1.1 = {
+		buildings = {
+			palisades_01
+		}
+	}
+	1220.1.1 = {
+		religion = catholic
+	}
+	1400.1.1 = { holding = castle_holding }
+	1444.1.1 = {
+		buildings = { military_camps_03 }
+	}
+}
+
+# 99 - PARNU -b_parnu — centr c_livs ПЕРНАУ
+99 = {	# 99 - PARNU
+	
+	# Misc
+	culture = estonian
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1290.1.1 = {
+		religion = catholic
+	}
+	1300.1.1 = {
+		holding = castle_holding
+	}
+
+}
+
+# 100 - VILJANDI -Вильянди/Фе́ллин 1263
+100 = {	# 100 - VILJANDI
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+	1263.1.1 = {
+		holding = city_holding
+	}
+
+}
+#-Limbazhi -Lemsalu -Lemsal 1385
+# 101 - LEMISELE
+101 = {	# 101 - LEMISELE
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+	1385.1.1 = {
+		holding = church_holding
+	}
+
+}
+
+# 108 - RIGA c_vidzeme
+108 = {	# 108 - RIGA
+	
+	# Misc
+	culture = estonian
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	1066.1.1 = {
+		buildings = {
+			market_villages_01
+			longhouses_01
+		}
+	}
+	
+	# History
+	1290.1.1 = {
+		religion = catholic
+	}
+	##
+	1400.1.1 = {
+		holding = castle_holding
+		culture = saxon
+	}
+	1466.1.1 = {
+		buildings = {
+			castle_04
+			farm_estates_03
+		}
+	}
+}
+
+# 143 - VASTSELIINA -Нейгаузен b_vastseliina 1273—1342 v c_dorpat
+143 = {	# 143 - VASTSELIINA
+	
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+	1342.1.1 = {
+		holding = castle_holding
+	}
+}
+
+# 144 - VALGA -1286 v c_dorpat
+144 = {	# 144 - VALGA
+	
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+	1286.1.1 = {
+		holding = church_holding
+	}
+}
+
+# 145 - TARTU c_dorpat
+145 = {	# 145 - TARTU/DORPAT
+	
+	# Misc
+	culture = estonian
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1066.1.1 = {
+		buildings = {
+			longhouses_01
+		}
+	}
+	1224.1.1 = {
+		religion = catholic
+	}
+	##
+	1410.1.1 = {
+		holding = castle_holding
+	}
+	1444.1.1 = {
+		buildings = {
+			castle_02
+			farm_estates_02
+		}
+	}
+
+}
+
+# 146 - POLTSAMAA - Oberpahlen - Polchev 1272 v c_narva
+146 = {	# 146 - POLTSAMAA
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+	1272.1.1 = {
+		holding = castle_holding
+	}
+}
+
+# 147 - ALISTEGUNDE --karkus - 3 Perone
+147 = {	# 147 - ALISTEGUNDE
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History
+	1248.1.1 = {
+		holding = castle_holding
+	}
+
+}
+
+# 148 - SALACGRIVA -salismunde - riga 3 -zamok Rizh episk
+148 = {	# 148 - SALACGRIVA
+	holding = none #novoe
+	# Misc
+#	culture = estonian
+#	religion = finnish_pagan
+	
+	# History 1226
+	1226.1.1 = {
+		holding = church_holding
+	}
+
+}
+
+##d_latgalians ###################################
+###c_talava
+102 = {		#VALMIERA Вольмар в Талаве Валмиера замок 13 века
+	culture = estonian
+	religion = finnish_pagan
+	holding = tribal_holding
+	1290.1.1 = {
+		religion = catholic
+	}
+	##
+	1333.1.1 = {
+		holding = castle_holding
+	}
+	1444.1.1 = {
+		buildings = {
+			castle_03
+			farm_estates_03
+		}
+	}
+	1480.1.1 = { culture = latysh }
+}
+109 = {		#VENDEN Венден Цесис Кесь
+	holding = none
+	##
+	1213.12.12 = { holding = castle_holding }
+}
+142 = {		#RAUNA Роннебург
+	holding = none
+	1262.12.12 = {
+		holding = church_holding
+	}
+}
+
+###c_kokenois
+103 = {		#KOKENOIS Кукейнос
+	culture = estonian
+	religion = finnish_pagan
+	
+	
+	1050.1.1 = {
+		culture = latgalian
+		religion = baltic_pagan
+	}
+	holding = tribal_holding
+	1290.1.1 = {
+		religion = catholic
+	}
+	##
+	1310.1.1 = {
+		holding = castle_holding
+	}
+	1480.1.1 = { culture = latysh }
+}
+139 = {		#CESVAINE
+	holding = none
+}
+134 = {		#LENNEWARDEN
+	holding = none
+}
+
+###c_jersika
+136 = {		#JERSIKA
+	culture = latgalian
+	religion = baltic_pagan
+	holding = tribal_holding
+	1290.1.1 = {
+		religion = catholic
+	}
+	1400.1.1 = {
+		holding = castle_holding
+	}
+}
+135 = {		#JEKABPILS Екабпилс Якобштадт
+	holding = none
+	##
+	1237.1.1 = { holding = city_holding }
+}
+137 = {		#DAUGAVPILS
+	holding = none
+	##
+	1275.1.1 = { holding = castle_holding }
+}
+138 = {		#REZEKNE Резекненский замок Розиттен
+	holding = none
+	##
+	1285.1.1 = { holding = castle_holding }
+}
+
+###c_aluksne
+141 = {		#ALUKSNE
+	culture = latgalian
+	religion = baltic_pagan
+	holding = tribal_holding
+	1290.1.1 = {
+		religion = catholic
+	}
+	## 1291?
+	1300.1.1 = { holding = castle_holding }
+}
+140 = {		#GULBENE Шваненбург
+	holding = none
+	## 1224?
+	1224.1.1 = { holding = city_holding }
+}

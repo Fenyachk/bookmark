@@ -1,0 +1,17 @@
+﻿l_english:
+ kurultai_elective:0 "Kurultai"
+ knights_elective_succession_law:0 "Knightly elections"
+ new_feudal_elective_succession_law:0 "Other election"
+ kurultai_elective_succession_law:0 "Kurultai"
+ #
+ kurultai_elective_electors:0 "Ruler and major vassals"
+ kurultai_elective_electors_tooltip:0 "Ruler and major vassals"
+ kurultai_elective_candidates:0 "Major vassals and family member"
+ kurultai_elective_candidates_tooltip:0 "Major vassals and family member"
+ succession_laws_must_have_valid_kurultai:0 "Племя with Turkic and Mongolian heritage"
+ #
+ knights_elective_electors:0 "Knights"
+ knights_elective_candidates:0 "Knights"
+ #
+ new_feudal_elective_electors:0 "Ruler and major vassals"
+ new_feudal_elective_candidates:0 "Family members and major vassals"

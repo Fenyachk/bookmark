@@ -1,0 +1,2764 @@
+# 27-03-2025
+k_finland = {
+	21.1.1 = {
+		change_development_level = 1
+	}
+	1001.1.1 = {
+		change_development_level = 4
+	}
+	1101.1.1 = {
+		change_development_level = 7
+	}
+	1178.1.1 = { change_development_level = 9 }
+	##
+	1454.1.1 = { change_development_level = 27 }
+	1466.1.1 = { change_development_level = 29 }
+	1477.1.1 = { change_development_level = 32 }
+	1488.1.1 = { change_development_level = 34 }
+}
+
+d_finland = {
+	755.1.1 = {
+		holder = 170306
+		government = tribal_government
+	}
+	800.1.1 = {
+		holder = 170307
+	}
+	835.1.1 = {
+		holder = 170308
+	}
+	867.1.1 = {
+		holder = 170131
+	}
+	901.1.1 = {
+		holder = 170132
+	}
+	957.1.1 = {
+		holder = 170133
+	}
+	978.1.1 = {
+		holder = 170134
+	}
+	1020.1.1 = {
+		holder = 170135
+	}
+	1066.1.1 = {
+		holder = 28011
+	}
+	1120.1.1 = {
+		holder = 144641
+	}
+	1158.1.1 = {
+		holder = 0
+	}
+	1284.1.1 = {
+		liege = "k_sweden"
+		holder = 33338 # Bengt Duke of Finland
+#		effect = { reset_coa = THIS } -èíà÷å îøèáêà â ýððîð ëîã
+	}
+	1291.5.25 = {
+		liege = 0
+	}
+	1302.1.1 = {
+		liege = "k_sweden"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1310.7.20 = {
+		# The Peace of Helsingborg - Sweden is divided
+		liege = 0
+	}
+	1318.2.16 = {
+		liege = "k_sweden" # Duke Valdemar dies at Nyköpingshus
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450760
+	}
+	##
+	1400.1.1 = {
+		government = feudal_government
+	}
+	1444.11.25 = {
+		holder = karlbunde8
+		liege = "k_sweden"
+	}
+	1480.1.1 = {
+		holder = StenStureElder #Sve Regen Sture
+		liege = "k_sweden"
+	}
+}
+
+
+c_finland = {
+	768.1.1 = {
+		holder = 170309
+		liege = "d_finland"
+		government = tribal_government
+	}
+	798.1.1 = {
+		holder = 170310
+	}
+	818.1.1 = {
+		holder = 170311
+	}
+	843.1.1 = {
+		holder = 170312
+	}
+	866.1.1 = {
+		holder = 170136
+	}
+	893.1.1 = {
+		holder = 170137
+	}
+	955.1.1 = {
+		holder = 170138
+	}
+	982.1.1 = {
+		holder = 170139
+	}
+	1019.1.1 = {
+		holder = 170140
+	}
+	1066.1.1 = {
+		holder = 20612
+	}
+	1120.1.1 = {
+		holder = 144635
+	}
+	## Horn ancestors
+	1158.1.1 = {
+		liege = "k_sweden" # Erik the Holy's crusade
+		holder = 194229
+	}
+	1210.1.1 = {
+		holder = 194230
+	}
+	1250.1.1 = {
+		holder = 194231
+	}
+	1284.1.1 = {
+		liege = "d_finland"
+	}
+	1290.1.1 = {
+		holder = 194232
+	}
+	##
+	
+	1291.5.25 = {
+		liege = "k_sweden"
+		holder = 450504 # Birger Magnusson
+	}
+	
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1319.7.8 = {
+		holder = 450500 # Magnus Eriksson
+	}
+	1337.1.1 = {
+		holder = 450760
+	}
+	##
+	#koroli Shvezii
+	1448.6.8 = {
+		holder = karlbunde8 #x3
+	}
+	#bishops of Turku
+	1454.1.1 = {
+		holder = Olof_Magnusson
+		government = feudal_government #pust ne teokratia
+		liege = k_sweden
+	}
+	1489.8.9 = {
+		holder = Magnus_Stjarnkors
+	}
+}
+
+
+c_nyland = {
+	767.1.1 = {
+		holder = 170313
+		government = tribal_government
+	}
+	792.1.1 = {
+		holder = 170314
+	}
+	834.1.1 = {
+		holder = 170315
+	}
+	865.1.1 = {
+		holder = 170126
+	}
+	910.1.1 = {
+		holder = 170127
+	}
+	926.1.1 = {
+		holder = 170128
+	}
+	970.1.1 = {
+		holder = 170129
+	}
+	1013.1.1 = {
+		holder = 170130
+	}
+	1066.1.1 = {
+		holder = 28003
+	}
+	1120.1.1 = {
+		holder = 144626
+	}
+	1170.1.1 = {
+		holder = 228003
+	}
+	1187.1.1 = {
+		holder = 228002
+	}
+	1250.1.1 = {
+		liege = "k_sweden"
+		holder = 450506 # Valdemar Birgersson
+	}
+	1302.12.26 = {
+		holder = 450504 # Birger Magnusson
+	}
+	1320.1.1 = {
+		holder = 450841
+	}
+	1334.1.2 = {
+		holder = 450840
+	}
+	##
+	1434.12.31 = {
+		holder = Abrahamsotez
+		liege = k_sweden
+		government = feudal_government
+	}
+	#koroli Shvezii
+	1448.6.8 = {
+		holder = karlbunde8 #x3
+	}
+	1454.12.31 = {
+		holder = Olof_Magnusson #episkop Turku, no ne teokratia
+		liege = k_sweden
+	}
+	1489.8.9 = {
+		holder = Magnus_Stjarnkors #episkop Turku, no ne teokratia
+		liege = k_sweden
+	}
+}
+
+
+c_satakunta = {
+	755.1.1 = {
+		holder = 170306
+		liege = "d_finland"
+		government = tribal_government
+	}
+	800.1.1 = {
+		holder = 170307
+	}
+	835.1.1 = {
+		holder = 170308
+	}
+	867.1.1 = {
+		holder = 170131
+	}
+	901.1.1 = {
+		holder = 170132
+	}
+	957.1.1 = {
+		holder = 170133
+	}
+	978.1.1 = {
+		holder = 170134
+	}
+	1020.1.1 = {
+		holder = 170135
+	}
+	1066.1.1 = {
+		holder = 28011
+	}
+	1120.1.1 = {
+		holder = 144641
+	}
+	## Horn ancestors
+	1158.1.1 = {
+		liege = "k_sweden" # Erik the Holy's crusade
+		holder = 194229
+	}
+	1210.1.1 = {
+		holder = 194230
+	}
+	1250.1.1 = {
+		holder = 194231
+	}
+	##
+	
+	
+	1284.1.1 = {
+		liege = "d_finland"
+		holder = 33338 # Bengt Duke of Finland
+	}
+	1291.5.25 = {
+		liege = "k_sweden"
+		holder = 450504 # Birger Magnusson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450760
+	}
+	##
+	#koroli Shvezii
+	1448.6.8 = {
+		holder = karlbunde8 #x3
+	}
+	#pust
+	1470.1.1 = {
+		holder = KnutJPosse #a ne StenStureElder
+		government = feudal_government
+		liege = "k_sweden"
+	}
+
+}
+
+
+c_aland = {
+	761.1.1 = {
+		holder = 194060
+		liege = d_svealand
+		government = tribal_government
+	}
+	860.1.1 = {
+		holder = 6840
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1066.1.1 = {
+		holder = 20006
+	}
+	1067.12.20 = {
+		liege = 0
+	}
+	1089.1.1 = {
+		holder = 143136
+	}
+	1139.1.1 = {
+		holder = 143137
+	}
+	1158.1.1 = {
+		liege = "k_sweden" # Erik the Holy's crusade
+		holder = 200017
+	}
+	1200.1.1 = {
+		holder = 200604 # Sverker den Yngre, son of 200602 - Karl Sverkersson
+	}
+	1208.1.31 = {
+		holder = 200504 # Erik Knutsson, son of 200500, Knut Eriksson
+	}
+	1216.4.10 = {
+		holder = 200609 # Johan, son of Sverker (200604)
+	}
+	1222.3.10 = {
+		holder = 200507 # Erik 'den Läspe och Halte'
+	}
+	
+	1229.11.29 = {
+		holder = 200508 # Knut Holmgersson 'den Långe'
+	}
+	
+	1234.6.6 = {
+		holder = 200507 # Erik 'den Läspe och Halte', reinstated
+	}
+	
+	1250.2.2 = {
+		holder = 450506 # Valdemar Birgersson
+	}
+	
+	1275.7.22 = {
+		holder = 450502 # Magnus 'Ladulås'
+	}
+	
+	1290.12.18 = {
+		holder = 450504 # Birger Magnusson
+	}
+	
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1321.1.1 = {
+		holder = 450710
+	}
+	##
+	# -Alandskie ostrova
+	#koroli Swezii
+	1374.12.1 = {
+		holder = Hakon_Magnusson_korol
+		government = feudal_government
+	}
+	1380.2.2 = {
+		holder = Albrecht_Mecklenburg_kSwezii #uzurpator
+	}
+	1389.2.2 = {
+		holder = Margrete_Valdemarsdatter #oshibki net
+	}
+	1412.10.28 = {
+		holder = ErikPommeran
+	}
+	1441.1.1 = {
+		holder = Christoffer3Bav
+	}
+	#
+	1448.1.5 = {
+		holder = karlbunde8 #oficialno s 28-06-1448
+	}
+	1457.2.2 = {
+		holder = KristianOldenburg
+	}
+	1464.8.9 = {
+		holder = karlbunde8 #x2
+	}
+	1465.1.30 = {
+		holder = KristianOldenburg
+	}
+	1467.11.12 = {
+		holder = karlbunde8 #x3
+	}
+	#
+	1470.1.1 = {
+		holder = Johan1Vaza #pust
+		liege = k_sweden
+	}
+	1477.12.31 = {
+		holder = StenStureElder
+	}
+	1490.1.1 = {
+		holder = ErikJohVasa #upravlyal Kastelholmkim zamkom v Sunde
+		liege = k_sweden
+	}
+}
+
+
+c_messukyla = {
+	755.1.1 = {
+		holder = 170306
+		liege = "d_finland"
+		government = tribal_government
+	}
+	800.1.1 = {
+		holder = 170307
+	}
+	835.1.1 = {
+		holder = 170308
+	}
+	867.1.1 = {
+		holder = 170131
+	}
+	901.1.1 = {
+		holder = 170132
+	}
+	957.1.1 = {
+		holder = 170133
+	}
+	978.1.1 = {
+		holder = 170134
+	}
+	1020.1.1 = {
+		holder = 170135
+	}
+	1066.1.1 = {
+		holder = 28011
+	}
+	1120.1.1 = {
+		holder = 144641
+	}
+	## Horn ancestors
+	1158.1.1 = {
+		liege = "k_sweden" # Erik the Holy's crusade
+		holder = 194229
+	}
+	1210.1.1 = {
+		holder = 194230
+	}
+	1250.1.1 = {
+		holder = 194231
+	}
+	##
+	
+	
+	1284.1.1 = {
+		liege = "d_finland"
+		holder = 33338 # Bengt Duke of Finland
+	}
+	1291.5.25 = {
+		liege = "k_sweden"
+		holder = 450504 # Birger Magnusson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450760
+	}
+	##
+	#koroli Swezii
+	1374.12.1 = {
+		holder = Hakon_Magnusson_korol
+	}
+	1380.2.2 = {
+		holder = Albrecht_Mecklenburg_kSwezii #uzurpator
+	}
+	1389.2.2 = {
+		holder = Margrete_Valdemarsdatter #oshibki net
+	}
+	1412.10.28 = {
+		holder = ErikPommeran
+	}
+	1441.1.1 = {
+		holder = Christoffer3Bav
+	}
+	1448.1.5 = {
+		holder = karlbunde8 #oficialno s 28-06-1448
+	}
+	1457.2.2 = {
+		holder = KristianOldenburg
+	}
+	1464.8.9 = {
+		holder = karlbunde8 #x2
+	}
+	1465.1.30 = {
+		holder = KristianOldenburg
+	}
+	1467.11.12 = {
+		holder = karlbunde8 #x3
+	}
+	#
+	1470.2.2 = {
+		holder = ErikJohVasa #pust
+		liege = k_sweden
+	}
+}
+
+
+c_tavasts = {
+	767.1.1 = {
+		holder = 170313
+		government = tribal_government
+	}
+	792.1.1 = {
+		holder = 170314
+	}
+	834.1.1 = {
+		holder = 170315
+	}
+	865.1.1 = {
+		holder = 170126
+	}
+	910.1.1 = {
+		holder = 170127
+	}
+	926.1.1 = {
+		holder = 170128
+	}
+	970.1.1 = {
+		holder = 170129
+	}
+	1013.1.1 = {
+		holder = 170130
+	}
+	1066.1.1 = {
+		holder = 28003
+	}
+	1120.1.1 = {
+		holder = 144626
+	}
+	1170.1.1 = {
+		holder = 228003
+	}
+	1200.1.1 = {
+		holder = 144627
+	}
+	1250.1.1 = {
+		liege = "k_sweden"
+		holder = 450506 # Valdemar Birgersson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450841
+	}
+	1334.1.2 = {
+		holder = 450840
+	}
+	##
+	1406.1.2 = {
+		holder = BoKnutGrip
+		liege = "k_sweden"
+	}
+	1453.1.2 = {
+		holder = ErikAxTott #Vyborgskiy len
+		government = feudal_government
+	}
+	1484.1.1 = {
+		holder = KnutJPosse
+		government = feudal_government
+		liege = "k_sweden"
+	}
+}
+
+
+c_olavinlinna = {
+	762.1.1 = {
+		holder = 170320
+		#liege = "d_kexholm"
+		government = tribal_government
+	}
+	781.1.1 = {
+		holder = 170321
+	}
+	812.1.1 = {
+		holder = 170322
+	}
+	837.1.1 = {
+		holder = 170323
+	}
+	866.1.1 = {
+		holder = 170121
+	}
+	895.1.1 = {
+		holder = 170122
+	}
+	952.1.1 = {
+		holder = 170123
+	}
+	970.1.1 = {
+		holder = 170124
+	}
+	1022.1.1 = {
+		holder = 170125
+	}
+	1066.1.1 = {
+		holder = 28005
+	}
+	1120.1.1 = {
+		holder = 144636
+	}
+	1170.1.1 = {
+		holder = 228005
+	}
+	1210.1.1 = {
+		holder = 144637
+	}
+	1250.1.1 = {
+		liege = "k_sweden"
+		holder = 450506 # Valdemar Birgersson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450760
+	}
+	##
+	1415.12.12 = {
+		holder = BoKnutGrip
+		government = feudal_government
+		liege = k_sweden
+	}
+	1453.1.2 = {
+		holder = ErikAxTott #Vyborgskiy len
+		government = feudal_government
+	}
+	1468.1.1 = {
+		holder = Kristina3zhena
+		government = feudal_government
+		liege = k_sweden
+	}
+}
+
+
+c_sysma = {
+	767.1.1 = {
+		holder = 170313
+		government = tribal_government
+	}
+	792.1.1 = {
+		holder = 170314
+	}
+	834.1.1 = {
+		holder = 170315
+	}
+	865.1.1 = {
+		holder = 170126
+	}
+	910.1.1 = {
+		holder = 170127
+	}
+	926.1.1 = {
+		holder = 170128
+	}
+	970.1.1 = {
+		holder = 170129
+	}
+	1013.1.1 = {
+		holder = 170130
+	}
+	1066.1.1 = {
+		holder = 28003
+	}
+	1120.1.1 = {
+		holder = 144626
+	}
+	1170.1.1 = {
+		holder = 228003
+	}
+	1200.1.1 = {
+		holder = 144627
+	}
+	1250.1.1 = {
+		liege = "k_sweden"
+		holder = 450506 # Valdemar Birgersson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450841
+	}
+	1334.1.2 = {
+		holder = 450840
+	}
+	##
+	1406.1.1 = {
+		holder = BoKnutGrip
+		liege = "k_sweden"
+		government = feudal_government
+	}
+	1453.1.2 = {
+		holder = ErikAxTott #Vyborgskiy len
+		government = feudal_government
+	}
+	1488.1.1 = {
+		holder = KristiernJohVasa
+		government = feudal_government
+	}
+}
+
+
+c_pielinen = {
+	762.1.1 = {
+		holder = 170320
+		#liege = "d_kexholm"
+		government = tribal_government
+	}
+	781.1.1 = {
+		holder = 170321
+	}
+	812.1.1 = {
+		holder = 170322
+	}
+	837.1.1 = {
+		holder = 170323
+	}
+	866.1.1 = {
+		holder = 170121
+	}
+	895.1.1 = {
+		holder = 170122
+	}
+	952.1.1 = {
+		holder = 170123
+	}
+	970.1.1 = {
+		holder = 170124
+	}
+	1022.1.1 = {
+		holder = 170125
+	}
+	1066.1.1 = {
+		holder = 28005
+	}
+	1120.1.1 = {
+		holder = 144636
+	}
+	1170.1.1 = {
+		holder = 228005
+	}
+	1210.1.1 = {
+		holder = 144637
+	}
+	1250.1.1 = {
+		liege = "k_sweden"
+		holder = 450506 # Valdemar Birgersson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450760
+	}
+	##
+	1410.1.1 = {
+		holder = BoKnutGrip
+		government = feudal_government
+		liege = k_sweden
+	}
+	1453.1.2 = {
+		holder = ErikAxTott #Vyborgskiy len
+		government = feudal_government
+	}
+	1468.1.1 = {
+		holder = LarsAxTott
+		liege = k_sweden
+	}
+	1488.1.12 = {
+		holder = KristiernJohVasa
+		government = feudal_government
+	}
+}
+
+
+c_oulu = {
+	761.1.1 = {
+		holder = 170329
+		government = tribal_government
+	}
+	790.1.1 = {
+		holder = 170330
+	}
+	807.1.1 = {
+		holder = 170331
+	}
+	838.1.1 = {
+		holder = 170332
+	}
+	862.1.1 = {
+		holder = 170141
+	}
+	907.1.1 = {
+		holder = 170142
+	}
+	953.1.1 = {
+		holder = 170143
+	}
+	993.1.1 = {
+		holder = 170144
+	}
+	1012.1.1 = {
+		holder = 170145
+	}
+	1066.1.1 = {
+		holder = 20618
+	}
+	1089.1.1 = {
+		holder = 143126
+	}
+	1158.1.1 = {
+		liege = "k_sweden" # Erik the Holy's crusade
+		holder = 200490 # Erik the Holy
+	}
+	1160.6.6 = {
+		holder = 100553 # Magnus Henriksson, son of Danish prince Henrik 'Skadelår'
+	}
+	1161.6.6 = {
+		holder = 200602 # Karl Sverkersson, son of Sverker the Older
+	}
+	1167.4.12 = {
+		holder = 200608 # Kol Sverkersson, son of Sverker the Older
+	}
+	1173.1.1 = {
+		holder = 200500 # Knut Eriksson
+	}
+	1195.1.1 = {
+		holder = 200604 # Sverker den Yngre, son of 200602 - Karl Sverkersson
+	}
+	1208.1.31 = {
+		holder = 200504 # Erik Knutsson, son of 200500, Knut Eriksson
+	}
+	1216.4.10 = {
+		holder = 200609 # Johan, son of Sverker (200604)
+	}
+	1222.3.10 = {
+		holder = 200507 # Erik 'den Läspe och Halte'
+	}
+	1229.11.29 = {
+		holder = 200508 # Knut Holmgersson 'den Långe'
+	}
+	1234.6.6 = {
+		holder = 200507 # Erik 'den Läspe och Halte', reinstated
+	}
+	1250.2.2 = {
+		holder = 450506 # Valdemar Birgersson
+	}
+	1275.7.22 = {
+		holder = 450502 # Magnus 'Ladulås'
+	}
+	1284.1.1 = {
+		liege = "d_finland"
+		holder = 33338 # Bengt Duke of Finland
+	}
+	1291.5.25 = {
+		liege = "k_sweden"
+		holder = 450504 # Birger Magnusson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450760
+	}
+	##
+	1444.1.1 = {
+		holder = finfik1
+		liege = "d_pohjanmaa"
+	}
+	1482.1.12 = {
+		holder = SvanteNSture
+		government = feudal_government
+		liege = "k_sweden"
+	}
+}
+
+
+c_pedersore = {
+	761.1.1 = {
+		holder = 170329
+		government = tribal_government
+	}
+	790.1.1 = {
+		holder = 170330
+	}
+	807.1.1 = {
+		holder = 170331
+	}
+	838.1.1 = {
+		holder = 170332
+	}
+	862.1.1 = {
+		holder = 170141
+	}
+	907.1.1 = {
+		holder = 170142
+	}
+	953.1.1 = {
+		holder = 170143
+	}
+	993.1.1 = {
+		holder = 170144
+	}
+	1012.1.1 = {
+		holder = 170145
+	}
+	1066.1.1 = {
+		holder = 28010
+	}
+	1089.1.1 = {
+		holder = 143126
+	}
+	1158.1.1 = {
+		liege = "k_sweden" # Erik the Holy's crusade
+		holder = 200490 # Erik the Holy
+	}
+	1160.6.6 = {
+		holder = 100553 # Magnus Henriksson, son of Danish prince Henrik 'Skadelår'
+	}
+	1161.6.6 = {
+		holder = 200602 # Karl Sverkersson, son of Sverker the Older
+	}
+	1167.4.12 = {
+		holder = 200608 # Kol Sverkersson, son of Sverker the Older
+	}
+	1173.1.1 = {
+		holder = 200500 # Knut Eriksson
+	}
+	1195.1.1 = {
+		holder = 200604 # Sverker den Yngre, son of 200602 - Karl Sverkersson
+	}
+	1208.1.31 = {
+		holder = 200504 # Erik Knutsson, son of 200500, Knut Eriksson
+	}
+	1216.4.10 = {
+		holder = 200609 # Johan, son of Sverker (200604)
+	}
+	1222.3.10 = {
+		holder = 200507 # Erik 'den Läspe och Halte'
+	}
+	1229.11.29 = {
+		holder = 200508 # Knut Holmgersson 'den Långe'
+	}
+	1234.6.6 = {
+		holder = 200507 # Erik 'den Läspe och Halte', reinstated
+	}
+	1250.2.2 = {
+		holder = 450506 # Valdemar Birgersson
+	}
+	1275.7.22 = {
+		holder = 450502 # Magnus 'Ladulås'
+	}
+	1284.1.1 = {
+		liege = "d_finland"
+		holder = 33338 # Bengt Duke of Finland
+	}
+	1291.5.25 = {
+		liege = "k_sweden"
+		holder = 450504 # Birger Magnusson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450760
+	}
+	##
+	1412.10.28 = {
+		holder = ErikPommeran
+		government = feudal_government
+	}
+	1441.1.1 = {
+		holder = Christoffer3Bav
+	}
+	#
+	1448.1.5 = {
+		holder = karlbunde8 #oficialno s 28-06-1448
+	}
+	1457.2.2 = {
+		holder = KristianOldenburg
+	}
+	1464.8.9 = {
+		holder = karlbunde8 #x2
+	}
+	1465.1.30 = {
+		holder = KristianOldenburg
+	}
+	1467.11.12 = {
+		holder = karlbunde8 #x3
+	}
+	#de-facto s iunia 1470
+	1470.5.15 = {
+		holder = StenStureElder
+	}
+	1482.1.12 = {
+		holder = ErikJohVasa
+		government = feudal_government
+		liege = k_sweden
+	}
+}
+
+
+c_mustasaari = {
+	761.1.1 = {
+		holder = 170329
+		government = tribal_government
+	}
+	790.1.1 = {
+		holder = 170330
+	}
+	807.1.1 = {
+		holder = 170331
+	}
+	838.1.1 = {
+		holder = 170332
+	}
+	862.1.1 = {
+		holder = 170141
+	}
+	907.1.1 = {
+		holder = 170142
+	}
+	953.1.1 = {
+		holder = 170143
+	}
+	993.1.1 = {
+		holder = 170144
+	}
+	1012.1.1 = {
+		holder = 170145
+	}
+	1066.1.1 = {
+		holder = 28010
+	}
+	1089.1.1 = {
+		holder = 143126
+	}
+	1158.1.1 = {
+		liege = "k_sweden" # Erik the Holy's crusade
+		holder = 200490 # Erik the Holy
+	}
+	1160.6.6 = {
+		holder = 100553 # Magnus Henriksson, son of Danish prince Henrik 'Skadelår'
+	}
+	1161.6.6 = {
+		holder = 200602 # Karl Sverkersson, son of Sverker the Older
+	}
+	1167.4.12 = {
+		holder = 200608 # Kol Sverkersson, son of Sverker the Older
+	}
+	1173.1.1 = {
+		holder = 200500 # Knut Eriksson
+	}
+	1195.1.1 = {
+		holder = 200604 # Sverker den Yngre, son of 200602 - Karl Sverkersson
+	}
+	1208.1.31 = {
+		holder = 200504 # Erik Knutsson, son of 200500, Knut Eriksson
+	}
+	1216.4.10 = {
+		holder = 200609 # Johan, son of Sverker (200604)
+	}
+	1222.3.10 = {
+		holder = 200507 # Erik 'den Läspe och Halte'
+	}
+	1229.11.29 = {
+		holder = 200508 # Knut Holmgersson 'den Långe'
+	}
+	1234.6.6 = {
+		holder = 200507 # Erik 'den Läspe och Halte', reinstated
+	}
+	1250.2.2 = {
+		holder = 450506 # Valdemar Birgersson
+	}
+	1275.7.22 = {
+		holder = 450502 # Magnus 'Ladulås'
+	}
+	1284.1.1 = {
+		liege = "d_finland"
+		holder = 33338 # Bengt Duke of Finland
+	}
+	1291.5.25 = {
+		liege = "k_sweden"
+		holder = 450504 # Birger Magnusson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450760
+	}
+	##
+	1454.1.1 = {
+		holder = finfik2
+		government = feudal_government
+		liege = "d_pohjanmaa"
+	}
+	1480.1.1 = {
+		holder = ErikJohVasa
+		liege = k_sweden
+	}
+}
+
+
+c_kainuu = {
+	761.1.1 = {
+		holder = 170329
+		government = tribal_government
+	}
+	790.1.1 = {
+		holder = 170330
+	}
+	807.1.1 = {
+		holder = 170331
+	}
+	838.1.1 = {
+		holder = 170332
+	}
+	862.1.1 = {
+		holder = 170141
+	}
+	907.1.1 = {
+		holder = 170142
+	}
+	953.1.1 = {
+		holder = 170143
+	}
+	993.1.1 = {
+		holder = 170144
+	}
+	1012.1.1 = {
+		holder = 170145
+	}
+	1066.1.1 = {
+		holder = 20618
+	}
+	1089.1.1 = {
+		holder = 143126
+	}
+	1158.1.1 = {
+		liege = "k_sweden" # Erik the Holy's crusade
+		holder = 200490 # Erik the Holy
+	}
+	1160.6.6 = {
+		holder = 100553 # Magnus Henriksson, son of Danish prince Henrik 'Skadelår'
+	}
+	1161.6.6 = {
+		holder = 200602 # Karl Sverkersson, son of Sverker the Older
+	}
+	1167.4.12 = {
+		holder = 200608 # Kol Sverkersson, son of Sverker the Older
+	}
+	1173.1.1 = {
+		holder = 200500 # Knut Eriksson
+	}
+	1195.1.1 = {
+		holder = 200604 # Sverker den Yngre, son of 200602 - Karl Sverkersson
+	}
+	1208.1.31 = {
+		holder = 200504 # Erik Knutsson, son of 200500, Knut Eriksson
+	}
+	1216.4.10 = {
+		holder = 200609 # Johan, son of Sverker (200604)
+	}
+	1222.3.10 = {
+		holder = 200507 # Erik 'den Läspe och Halte'
+	}
+	1229.11.29 = {
+		holder = 200508 # Knut Holmgersson 'den Långe'
+	}
+	1234.6.6 = {
+		holder = 200507 # Erik 'den Läspe och Halte', reinstated
+	}
+	1250.2.2 = {
+		holder = 450506 # Valdemar Birgersson
+	}
+	1275.7.22 = {
+		holder = 450502 # Magnus 'Ladulås'
+	}
+	1284.1.1 = {
+		liege = "d_finland"
+		holder = 33338 # Bengt Duke of Finland
+	}
+	1291.5.25 = {
+		liege = "k_sweden"
+		holder = 450504 # Birger Magnusson
+	}
+	1302.1.1 = {
+		liege = "d_finland"
+		holder = 450607 # Valdemar Magnusson
+	}
+	1318.2.16 = {
+		holder = 450504 # King Birger
+	}
+	1320.1.1 = {
+		holder = 450760
+	}
+	##
+	#do 1520-h pochti ne zaseleno
+	#zamok 1605, sam gorod Kajana, Kajaani osnovan v 1651
+	1454.1.1 = {
+		holder = finfik3
+		government = feudal_government
+		liege = "d_pohjanmaa"
+	}
+	1488.1.12 = {
+		holder = SvanteNSture
+		government = feudal_government
+		liege = "k_sweden"
+	}
+}
+
+#novoe
+d_pohjanmaa  = {
+	1444.1.1 = {
+		holder = finfik1
+		liege = "k_sweden"
+	}
+	1467.1.1 = {
+		holder = ErikAxTott
+		liege = "k_sweden"
+		government = feudal_government
+	}
+	1481.7.10 = {
+		holder = 0
+	}
+}
+
+d_karelia = {
+	747.1.1 = {
+		holder = 170324
+		government = tribal_government
+	}
+	780.1.1 = {
+		holder = 170325
+	}
+	795.1.1 = {
+		holder = 170326
+	}
+	820.1.1 = {
+		holder = 170327
+	}
+	846.1.1 = {
+		holder = 170328
+	}
+	864.1.1 = {
+		holder = 170111
+	}
+	907.1.1 = {
+		holder = 170112
+	}
+	944.1.1 = {
+		holder = 170113
+	}
+	976.1.1 = {
+		holder = 170114
+	}
+	1031.1.1 = {
+		holder = 170115
+	}
+	1066.1.1 = {
+		holder = 28004
+	}
+	1100.1.1 = {
+		holder = 144634
+	}
+	1150.1.1 = {
+		holder = 0
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	1204.1.2 = {
+		holder = 125233
+	}
+	1205.1.2 = {
+		holder = 125235
+	}
+	1208.1.2 = {
+		holder = 125236
+	}
+	1210.1.2 = {
+		holder = 125237
+	}
+	1212.1.2 = {
+		holder = 125236
+	}
+	1215.1.2 = {
+		holder = 125238
+	}
+	1216.1.2 = {
+		holder = 125236
+	}
+	1219.1.2 = {
+		holder = 125239
+	}
+	1219.7.2 = {
+		holder = 0
+	}
+	1220.1.2 = {
+		holder = 125240
+	}
+	1221.1.2 = {
+		holder = 125241
+	}
+	1225.1.2 = {
+		holder = 125242
+	}
+	1226.1.2 = {
+		holder = 125240
+	}
+	1229.1.2 = {
+		holder = 125243
+	}
+	1229.6.6 = {
+		holder = 0 #125244
+	}
+	1243.1.2 = {
+		holder = 125245
+	}
+	1250.1.2 = {
+		holder = 125246
+	}
+	1255.1.2 = {
+		holder = 125247
+	}
+	1258.1.2 = {
+		holder = 125248
+	}
+	1268.1.2 = {
+		holder = 125249
+	}
+	1274.1.2 = {
+		holder = 125250
+	}
+	1280.1.2 = {
+		holder = 125251
+	}
+	1286.1.2 = {
+		holder = 125252
+	}
+	1290.1.2 = {
+		holder = 125253
+	}
+	1292.1.2 = {
+		holder = 125254
+	}
+	1294.1.2 = {
+		holder = 125252
+	}
+	1297.1.2 = {
+		holder = 125253
+	}
+	1298.1.2 = {
+		holder = 125254
+	}
+	1299.1.2 = {
+		holder = 125252
+	}
+	1301.1.2 = {
+		holder = 125254
+	}
+	1302.1.2 = {
+		holder = 125252
+	}
+	1303.1.2 = {
+		holder = 125254
+	}
+	1305.1.2 = {
+		holder = 125253
+	}
+	1306.1.2 = {
+		holder = 125255
+	}
+	1312.1.2 = {
+		holder = 125254
+	}
+	1317.1.2 = {
+		holder = 125256
+	}
+	1324.1.2 = {
+		holder = 125257
+	}
+	1328.1.2 = {
+		holder = 125258
+	}
+	1330.1.2 = {
+		holder = 125256
+	}
+	1332.1.2 = {
+		holder = 125258
+	}
+	1333.1.2 = {
+		holder = 125259
+	}
+	1334.1.2 = {
+		holder = 125258
+	}
+	1335.1.2 = {
+		holder = 125260
+	}
+	##
+	1360.1.2 = {
+		holder = 0 #Nikakoi Karelii kak herzogstva
+	}
+	1399.1.2 = {
+		de_jure_liege = k_novgorod
+	}
+	1470.1.1 = { de_jure_liege = k_opolye }
+}
+
+
+c_kakisalmi = {
+	768.1.1 = {
+		holder = 170316
+		#liege = "d_kexholm"
+		government = tribal_government
+	}
+	787.1.1 = {
+		holder = 170317
+	}
+	821.1.1 = {
+		holder = 170318
+	}
+	838.1.1 = {
+		holder = 170319
+	}
+	864.1.1 = {
+		holder = 170116
+	}
+	899.1.1 = {
+		holder = 170117
+	}
+	955.1.1 = {
+		holder = 170118
+	}
+	974.1.1 = {
+		holder = 170119
+	}
+	1025.1.1 = {
+		holder = 170120
+	}
+	1066.1.1 = {
+		holder = 28035
+	}
+	1120.1.1 = {
+		holder = 144642
+	}
+	1170.1.1 = {
+		holder = 228035
+	}
+	1210.1.1 = {
+		holder = 144643
+	}
+	1249.1.1 = {
+		liege = "d_novgorod"
+	}
+	1249.1.1 = {
+		holder = 125245
+	}
+	1250.1.2 = {
+		holder = 125246
+	}
+	1255.1.2 = {
+		holder = 125247
+	}
+	1258.1.2 = {
+		holder = 125248
+	}
+	1268.1.2 = {
+		holder = 125249
+	}
+	1274.1.2 = {
+		holder = 125250
+	}
+	1280.1.2 = {
+		holder = 125251
+	}
+	1286.1.2 = {
+		holder = 125252
+	}
+	1290.1.2 = {
+		holder = 125253
+	}
+	1292.1.2 = {
+		holder = 125254
+	}
+	1294.1.2 = {
+		holder = 125252
+	}
+	1297.1.2 = {
+		holder = 125253
+	}
+	1298.1.2 = {
+		holder = 125254
+	}
+	1299.1.2 = {
+		holder = 125252
+	}
+	1301.1.2 = {
+		holder = 125254
+	}
+	1302.1.2 = {
+		holder = 125252
+	}
+	1303.1.2 = {
+		holder = 125254
+	}
+	1305.1.2 = {
+		holder = 125253
+	}
+	1306.1.2 = {
+		holder = 125255
+	}
+	1312.1.2 = {
+		holder = 125254
+	}
+	1317.1.2 = {
+		holder = 125256
+	}
+	1324.1.2 = {
+		holder = 125257
+	}
+	##
+	#Korela
+	1454.5.4 = {
+		holder = afanas_gruz
+		government = feudal_government
+		liege = d_novgorod
+	}
+	1480.1.1 = {
+		holder = Uriy_Kons_Saburov #Sverchkov-Saburov namest Korely
+		liege = k_opolye
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+	#Shwetsia 1580-95
+}
+
+#Vyborg
+c_viipuri = {
+	768.1.1 = {
+		holder = 170316
+		#liege = "d_kexholm"
+		government = tribal_government
+	}
+	787.1.1 = {
+		holder = 170317
+	}
+	821.1.1 = {
+		holder = 170318
+	}
+	838.1.1 = {
+		holder = 170319
+	}
+	864.1.1 = {
+		holder = 170116
+	}
+	899.1.1 = {
+		holder = 170117
+	}
+	955.1.1 = {
+		holder = 170118
+	}
+	974.1.1 = {
+		holder = 170119
+	}
+	1025.1.1 = {
+		holder = 170120
+	}
+	1066.1.1 = {
+		holder = 28035
+	}
+	1120.1.1 = {
+		holder = 144642
+	}
+	1170.1.1 = {
+		holder = 228035
+	}
+	1210.1.1 = {
+		holder = 144643
+	}
+	1249.1.1 = {
+		liege = "d_novgorod"
+	}
+	1249.1.1 = {
+		holder = 125245
+	}
+	1250.1.2 = {
+		holder = 125246
+	}
+	1255.1.2 = {
+		holder = 125247
+	}
+	1258.1.2 = {
+		holder = 125248
+	}
+	1268.1.2 = {
+		holder = 125249
+	}
+	1274.1.2 = {
+		holder = 125250
+	}
+	1280.1.2 = {
+		holder = 125251
+	}
+	1286.1.2 = {
+		holder = 125252
+	}
+	1290.1.2 = {
+		holder = 125253
+	}
+	1292.1.2 = {
+		holder = 125254
+	}
+	1294.1.2 = {
+		holder = 125252
+	}
+	1297.1.2 = {
+		holder = 125253
+	}
+	1298.1.2 = {
+		holder = 125254
+	}
+	1299.1.2 = {
+		holder = 125252
+	}
+	1301.1.2 = {
+		holder = 125254
+	}
+	1302.1.2 = {
+		holder = 125252
+	}
+	1303.1.2 = {
+		holder = 125254
+	}
+	1305.1.2 = {
+		holder = 125253
+	}
+	1306.1.2 = {
+		holder = 125255
+	}
+	1312.1.2 = {
+		holder = 125254
+	}
+	1317.1.2 = {
+		holder = 125256
+	}
+	1324.1.2 = {
+		holder = 125257
+	}
+	##
+	1417.1.1 = {
+		holder = KristiernNilVasa
+	}
+	1442.4.2 = {
+		holder = karlbunde8
+		liege = "k_sweden"
+	}
+	1449.1.1 = {
+		holder = ErikAxTott #Vyborgskiy len
+		liege = "k_sweden"
+		government = feudal_government
+	}
+	1453.1.1 = {
+		de_jure_liege = d_finland
+	}
+	1467.1.1 = {
+		holder = ErikGyllensterna
+		liege = "k_sweden"
+	}
+	1478.1.1 = {
+		holder = IvarAxTott
+	}
+	1483.1.1 = {
+		holder = KnutJPosse
+		liege = "k_sweden"
+	}
+	1486.1.1 = {
+		holder = NilsGyllensterna #umer v 1495 v Vyborge
+		liege = "k_sweden"
+	}
+}
+
+
+c_sortavala = {
+	768.1.1 = {
+		holder = 170316
+		#liege = "d_kexholm"
+		government = tribal_government
+	}
+	787.1.1 = {
+		holder = 170317
+	}
+	821.1.1 = {
+		holder = 170318
+	}
+	838.1.1 = {
+		holder = 170319
+	}
+	864.1.1 = {
+		holder = 170116
+	}
+	899.1.1 = {
+		holder = 170117
+	}
+	955.1.1 = {
+		holder = 170118
+	}
+	974.1.1 = {
+		holder = 170119
+	}
+	1025.1.1 = {
+		holder = 170120
+	}
+	1066.1.1 = {
+		holder = 28035
+	}
+	1120.1.1 = {
+		holder = 144642
+	}
+	1170.1.1 = {
+		holder = 228035
+	}
+	1210.1.1 = {
+		holder = 144643
+	}
+	1249.1.1 = {
+		liege = "d_novgorod"
+	}
+	1249.1.1 = {
+		holder = 125245
+	}
+	1250.1.2 = {
+		holder = 125246
+	}
+	1255.1.2 = {
+		holder = 125247
+	}
+	1258.1.2 = {
+		holder = 125248
+	}
+	1268.1.2 = {
+		holder = 125249
+	}
+	1274.1.2 = {
+		holder = 125250
+	}
+	1280.1.2 = {
+		holder = 125251
+	}
+	1286.1.2 = {
+		holder = 125252
+	}
+	1290.1.2 = {
+		holder = 125253
+	}
+	1292.1.2 = {
+		holder = 125254
+	}
+	1294.1.2 = {
+		holder = 125252
+	}
+	1297.1.2 = {
+		holder = 125253
+	}
+	1298.1.2 = {
+		holder = 125254
+	}
+	1299.1.2 = {
+		holder = 125252
+	}
+	1301.1.2 = {
+		holder = 125254
+	}
+	1302.1.2 = {
+		holder = 125252
+	}
+	1303.1.2 = {
+		holder = 125254
+	}
+	1305.1.2 = {
+		holder = 125253
+	}
+	1306.1.2 = {
+		holder = 125255
+	}
+	1312.1.2 = {
+		holder = 125254
+	}
+	1317.1.2 = {
+		holder = 125256
+	}
+	1324.1.2 = {
+		holder = 125257
+	}
+	## Sortavala = Serdobol
+	1454.1.1 = {
+		holder = afanas_gruz
+		government = feudal_government
+		liege = d_novgorod
+	}
+	1480.1.2 = {
+		liege = k_opolye
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+	# Shevetsii po Stolbovskomu dogovoru 1617
+}
+
+
+c_salinis = {
+	747.1.1 = {
+		holder = 170324
+		liege = "d_karelia"
+		government = tribal_government
+	}
+	780.1.1 = {
+		holder = 170325
+	}
+	795.1.1 = {
+		holder = 170326
+	}
+	820.1.1 = {
+		holder = 170327
+	}
+	846.1.1 = {
+		holder = 170328
+	}
+	864.1.1 = {
+		holder = 170111
+	}
+	907.1.1 = {
+		holder = 170112
+	}
+	944.1.1 = {
+		holder = 170113
+	}
+	976.1.1 = {
+		holder = 170114
+	}
+	1031.1.1 = {
+		holder = 170115
+	}
+	1066.1.1 = {
+		holder = 28004
+	}
+	1100.1.1 = {
+		holder = 144634
+	}
+	1150.1.1 = {
+		holder = 228004 # Aimo
+		liege = d_novgorod
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	1204.1.2 = {
+		holder = 125233
+	}
+	1205.1.2 = {
+		holder = 125235
+	}
+	1208.1.2 = {
+		holder = 125236
+	}
+	1210.1.2 = {
+		holder = 125237
+	}
+	1212.1.2 = {
+		holder = 125236
+	}
+	1215.1.2 = {
+		holder = 125238
+	}
+	1216.1.2 = {
+		holder = 125236
+	}
+	1219.1.2 = {
+		holder = 125239
+	}
+	1219.7.2 = {
+		liege = d_novgorod
+	holder = 194186
+	}
+	1220.1.2 = {
+		holder = 125240
+	}
+	1221.1.2 = {
+		holder = 125241
+	}
+	1225.1.2 = {
+		holder = 125242
+	}
+	1226.1.2 = {
+		holder = 125240
+	}
+	1229.1.2 = {
+		holder = 125243
+	}
+	1230.1.2 = {
+		holder = 194177
+		liege = d_novgorod
+	}
+	1243.1.2 = {
+		holder = 125245
+	}
+	1250.1.2 = {
+		holder = 125246
+	}
+	1255.1.2 = {
+		holder = 125247
+	}
+	1258.1.2 = {
+		holder = 125248
+	}
+	1268.1.2 = {
+		holder = 125249
+	}
+	1274.1.2 = {
+		holder = 125250
+	}
+	1280.1.2 = {
+		holder = 125251
+	}
+	1286.1.2 = {
+		holder = 125252
+	}
+	1290.1.2 = {
+		holder = 125253
+	}
+	1292.1.2 = {
+		holder = 125254
+	}
+	1294.1.2 = {
+		holder = 125252
+	}
+	1297.1.2 = {
+		holder = 125253
+	}
+	1298.1.2 = {
+		holder = 125254
+	}
+	1299.1.2 = {
+		holder = 125252
+	}
+	1301.1.2 = {
+		holder = 125254
+	}
+	1302.1.2 = {
+		holder = 125252
+	}
+	1303.1.2 = {
+		holder = 125254
+	}
+	1305.1.2 = {
+		holder = 125253
+	}
+	1306.1.2 = {
+		holder = 125255
+	}
+	1312.1.2 = {
+		holder = 125254
+	}
+	1317.1.2 = {
+		holder = 125256
+	}
+	1324.1.2 = {
+		holder = 125257
+	}
+	1328.1.2 = {
+		holder = 125258
+	}
+	1330.1.2 = {
+		holder = 125256
+	}
+	1332.1.2 = {
+		holder = 125258
+	}
+	1333.1.2 = {
+		holder = 125259
+	}
+	1334.1.2 = {
+		holder = 125258
+	}
+	1335.1.2 = {
+		holder = 125260
+	}
+	## Salminski
+	1442.12.12 = {
+		holder = afanas_gruz
+		government = feudal_government
+		liege = d_novgorod
+	}
+	1468.6.8 = {
+		holder = Luka_I_Polynariyn
+		liege = d_novgorod
+	}
+	1480.1.1 = { liege = k_opolye }
+	1489.8.9 = {
+		holder = Osip_Andr_Dorogobuzh #pust
+		government = feudal_government
+		liege = "k_opolye"
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+}
+
+#Onega Olonets
+c_onega = {
+	747.1.1 = {
+		holder = 170324
+		liege = "d_karelia"
+		government = tribal_government
+	}
+	780.1.1 = {
+		holder = 170325
+	}
+	795.1.1 = {
+		holder = 170326
+	}
+	820.1.1 = {
+		holder = 170327
+	}
+	846.1.1 = {
+		holder = 170328
+	}
+	864.1.1 = {
+		holder = 170111
+	}
+	907.1.1 = {
+		holder = 170112
+	}
+	944.1.1 = {
+		holder = 170113
+	}
+	976.1.1 = {
+		holder = 170114
+	}
+	1031.1.1 = {
+		holder = 170115
+	}
+	1066.1.1 = {
+		holder = 28004
+	}
+	1100.1.1 = {
+		holder = 144634
+	}
+	1150.1.1 = {
+		holder = 228004 # Aimo
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	1204.1.2 = {
+		holder = 125233
+	}
+	1205.1.2 = {
+		holder = 125235
+	}
+	1208.1.2 = {
+		holder = 125236
+	}
+	1210.1.2 = {
+		holder = 125237
+	}
+	1212.1.2 = {
+		holder = 125236
+	}
+	1215.1.2 = {
+		holder = 125238
+	}
+	1216.1.2 = {
+		holder = 125236
+	}
+	1219.1.2 = {
+		holder = 125239
+	}
+	1219.7.2 = {
+		liege = d_novgorod
+	holder = 194186
+	}
+	1220.1.2 = {
+		holder = 125240
+	}
+	1221.1.2 = {
+		holder = 125241
+	}
+	1225.1.2 = {
+		holder = 125242
+	}
+	1226.1.2 = {
+		holder = 125240
+	}
+	1229.1.2 = {
+		holder = 125243
+	}
+	1230.1.2 = {
+		holder = 194177
+		liege = d_novgorod
+	}
+	1243.1.2 = {
+		holder = 125245
+	}
+	1250.1.2 = {
+		holder = 125246
+	}
+	1255.1.2 = {
+		holder = 125247
+	}
+	1258.1.2 = {
+		holder = 125248
+	}
+	1268.1.2 = {
+		holder = 125249
+	}
+	1274.1.2 = {
+		holder = 125250
+	}
+	1280.1.2 = {
+		holder = 125251
+	}
+	1286.1.2 = {
+		holder = 125252
+	}
+	1290.1.2 = {
+		holder = 125253
+	}
+	1292.1.2 = {
+		holder = 125254
+	}
+	1294.1.2 = {
+		holder = 125252
+	}
+	1297.1.2 = {
+		holder = 125253
+	}
+	1298.1.2 = {
+		holder = 125254
+	}
+	1299.1.2 = {
+		holder = 125252
+	}
+	1301.1.2 = {
+		holder = 125254
+	}
+	1302.1.2 = {
+		holder = 125252
+	}
+	1303.1.2 = {
+		holder = 125254
+	}
+	1305.1.2 = {
+		holder = 125253
+	}
+	1306.1.2 = {
+		holder = 125255
+	}
+	1312.1.2 = {
+		holder = 125254
+	}
+	1317.1.2 = {
+		holder = 125256
+	}
+	1324.1.2 = {
+		holder = 125257
+	}
+	1328.1.2 = {
+		holder = 125258
+	}
+	1330.1.2 = {
+		holder = 125256
+	}
+	1332.1.2 = {
+		holder = 125258
+	}
+	1333.1.2 = {
+		holder = 125259
+	}
+	1334.1.2 = {
+		holder = 125258
+	}
+	1335.1.2 = {
+		holder = 125260
+	}
+	##
+	1404.1.1 = {
+		name = OLONETS
+	}
+	1442.12.12 = {
+		holder = afanas_gruz
+		liege = d_novgorod
+	}
+	1455.1.2 = {
+		holder = LukaFedorovNovgPos
+		liege = d_novgorod
+		government = feudal_government
+	}
+	1480.1.1 = { liege = k_opolye }
+	1489.1.10 = {
+		holder = Vladimir_Iv_Dolgorukov #kak i Salinis
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+}
+
+#Kemskaya volost
+c_viena = {
+	747.1.1 = {
+		holder = 170324
+		liege = "d_karelia"
+		government = tribal_government
+	}
+	780.1.1 = {
+		holder = 170325
+	}
+	795.1.1 = {
+		holder = 170326
+	}
+	820.1.1 = {
+		holder = 170327
+	}
+	846.1.1 = {
+		holder = 170328
+	}
+	864.1.1 = {
+		holder = 170111
+	}
+	907.1.1 = {
+		holder = 170112
+	}
+	944.1.1 = {
+		holder = 170113
+	}
+	976.1.1 = {
+		holder = 170114
+	}
+	1031.1.1 = {
+		holder = 170115
+	}
+	1066.1.1 = {
+		holder = 28004
+	}
+	1100.1.1 = {
+		holder = 144634
+	}
+	1150.1.1 = {
+		holder = 228004 # Aimo
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	1204.1.2 = {
+		holder = 125233
+	}
+	1205.1.2 = {
+		holder = 125235
+	}
+	1208.1.2 = {
+		holder = 125236
+	}
+	1210.1.2 = {
+		holder = 125237
+	}
+	1212.1.2 = {
+		holder = 125236
+	}
+	1215.1.2 = {
+		holder = 125238
+	}
+	1216.1.2 = {
+		holder = 125236
+	}
+	1219.1.2 = {
+		holder = 125239
+	}
+	1219.7.2 = {
+		liege = d_novgorod
+		holder = 194186
+	}
+	1220.1.2 = {
+		holder = 125240
+	}
+	1221.1.2 = {
+		holder = 125241
+	}
+	1225.1.2 = {
+		holder = 125242
+	}
+	1226.1.2 = {
+		holder = 125240
+	}
+	1229.1.2 = {
+		holder = 125243
+	}
+	1230.1.2 = {
+		holder = 194177
+		liege = d_novgorod
+	}
+	1243.1.2 = {
+		holder = 125245
+	}
+	1250.1.2 = {
+		holder = 125246
+	}
+	1255.1.2 = {
+		holder = 125247
+	}
+	1258.1.2 = {
+		holder = 125248
+	}
+	1268.1.2 = {
+		holder = 125249
+	}
+	1274.1.2 = {
+		holder = 125250
+	}
+	1280.1.2 = {
+		holder = 125251
+	}
+	1286.1.2 = {
+		holder = 125252
+	}
+	1290.1.2 = {
+		holder = 125253
+	}
+	1292.1.2 = {
+		holder = 125254
+	}
+	1294.1.2 = {
+		holder = 125252
+	}
+	1297.1.2 = {
+		holder = 125253
+	}
+	1298.1.2 = {
+		holder = 125254
+	}
+	1299.1.2 = {
+		holder = 125252
+	}
+	1301.1.2 = {
+		holder = 125254
+	}
+	1302.1.2 = {
+		holder = 125252
+	}
+	1303.1.2 = {
+		holder = 125254
+	}
+	1305.1.2 = {
+		holder = 125253
+	}
+	1306.1.2 = {
+		holder = 125255
+	}
+	1312.1.2 = {
+		holder = 125254
+	}
+	1317.1.2 = {
+		holder = 125256
+	}
+	1324.1.2 = {
+		holder = 125257
+	}
+	1328.1.2 = {
+		holder = 125258
+	}
+	1330.1.2 = {
+		holder = 125256
+	}
+	1332.1.2 = {
+		holder = 125258
+	}
+	1333.1.2 = {
+		holder = 125259
+	}
+	1334.1.2 = {
+		holder = 125258
+	}
+	1335.1.2 = {
+		holder = 125260
+	}
+	## zemli Kemi kupil mezhdu 1447-58 posadnik Dmitriy Vasilievich Gluhov
+	# kupil u karelskoi znati - Hovry Toyvutovoi, docherii Vasilia Konduya
+	1450.1.2 = {
+		holder = MarfaPNovgorod
+		government = feudal_government
+		liege = d_novgorod
+		name = KEMSK
+	}
+	1479.2.2 = {
+		holder = kuzma_gruzov
+		liege = d_novgorod
+	}
+	1480.1.1 = {
+		liege = k_opolye
+	}
+}
+
+c_kontupohja = {
+	747.1.1 = {
+		holder = 170324
+		liege = "d_karelia"
+		government = tribal_government
+	}
+	780.1.1 = {
+		holder = 170325
+	}
+	795.1.1 = {
+		holder = 170326
+	}
+	820.1.1 = {
+		holder = 170327
+	}
+	846.1.1 = {
+		holder = 170328
+	}
+	864.1.1 = {
+		holder = 170111
+	}
+	907.1.1 = {
+		holder = 170112
+	}
+	944.1.1 = {
+		holder = 170113
+	}
+	976.1.1 = {
+		holder = 170114
+	}
+	1031.1.1 = {
+		holder = 170115
+	}
+	1066.1.1 = {
+		holder = 28004
+	}
+	1100.1.1 = {
+		holder = 144634
+	}
+	1150.1.1 = {
+		holder = 228004 # Ai
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	1204.1.2 = {
+		holder = 125233
+	}
+	1205.1.2 = {
+		holder = 125235
+	}
+	1208.1.2 = {
+		holder = 125236
+	}
+	1210.1.2 = {
+		holder = 125237
+	}
+	1212.1.2 = {
+		holder = 125236
+	}
+	1215.1.2 = {
+		holder = 125238
+	}
+	1216.1.2 = {
+		holder = 125236
+	}
+	1219.1.2 = {
+		holder = 125239
+	}
+	1219.7.2 = {
+		liege = d_novgorod
+        holder = 194186
+	}
+	1220.1.2 = {
+		holder = 125240
+	}
+	1221.1.2 = {
+		holder = 125241
+	}
+	1225.1.2 = {
+		holder = 125242
+	}
+	1226.1.2 = {
+		holder = 125240
+	}
+	1229.1.2 = {
+		holder = 125243
+	}
+	1230.1.2 = {
+		holder = 194177
+		liege = d_novgorod
+	}
+	1243.1.2 = {
+		holder = 125245
+	}
+	1250.1.2 = {
+		holder = 125246
+	}
+	1255.1.2 = {
+		holder = 125247
+	}
+	1258.1.2 = {
+		holder = 125248
+	}
+	1268.1.2 = {
+		holder = 125249
+	}
+	1274.1.2 = {
+		holder = 125250
+	}
+	1280.1.2 = {
+		holder = 125251
+	}
+	1286.1.2 = {
+		holder = 125252
+	}
+	1290.1.2 = {
+		holder = 125253
+	}
+	1292.1.2 = {
+		holder = 125254
+	}
+	1294.1.2 = {
+		holder = 125252
+	}
+	1297.1.2 = {
+		holder = 125253
+	}
+	1298.1.2 = {
+		holder = 125254
+	}
+	1299.1.2 = {
+		holder = 125252
+	}
+	1301.1.2 = {
+		holder = 125254
+	}
+	1302.1.2 = {
+		holder = 125252
+	}
+	1303.1.2 = {
+		holder = 125254
+	}
+	1305.1.2 = {
+		holder = 125253
+	}
+	1306.1.2 = {
+		holder = 125255
+	}
+	1312.1.2 = {
+		holder = 125254
+	}
+	1317.1.2 = {
+		holder = 125256
+	}
+	1324.1.2 = {
+		holder = 125257
+	}
+	1328.1.2 = {
+		holder = 125258
+	}
+	1330.1.2 = {
+		holder = 125256
+	}
+	1332.1.2 = {
+		holder = 125258
+	}
+	1333.1.2 = {
+		holder = 125259
+	}
+	1334.1.2 = {
+		holder = 125258
+	}
+	1335.1.2 = {
+		holder = 125260
+	}
+	##
+	1400.1.1 = {
+		name = KONDOPOGA
+	}
+	1453.1.1 = {
+		holder = LukaFedorovNovgPos
+		liege = d_novgorod
+		government = feudal_government
+	}
+	1480.1.1 = {
+		holder = VasilTimPushkin
+		liege = k_opolye
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+}

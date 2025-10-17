@@ -1,0 +1,4453 @@
+# 14-03-25
+k_romagna = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 14 }
+	1454.1.1 = { change_development_level = 58 }
+	1466.1.1 = { change_development_level = 60 }
+	1477.1.1 = { change_development_level = 62 }
+	1488.1.1 = { change_development_level = 65 }
+	
+	756.1.1 = {
+		holder = 7895
+	}
+	757.4.29 = {
+		holder = 7865
+	}
+	767.6.28 = {
+		holder = 7864
+	}
+	772.1.24 = {
+		holder = 7863
+	}
+	795.12.25 = {
+		holder = 7862
+	}
+	816.6.12 = {
+		holder = 7861
+	}
+	817.1.24 = {
+		holder = 7860
+	}
+	824.2.11 = {
+		holder = 7859
+	}
+	827.8.27 = {
+		holder = 7858
+	}
+	827.9.16 = {
+		holder = 7857
+	}
+	844.1.11 = {
+		holder = 7856
+	}
+	847.1.24 = {
+		holder = 7855
+	}
+	855.7.17 = {
+		holder = 7854
+	}
+	858.4.17 = {
+		holder = 7853
+	}
+	867.11.13 = {
+		holder = 7852
+	}
+	872.12.14 = {
+		holder = 7851
+	}
+	882.12.16 = {
+		holder = 7850
+	}
+	884.5.15 = {
+		holder = 7849
+	}
+	885.9.1 = {
+		holder = 7848
+	}
+	891.9.14 = {
+		holder = 7847
+	}
+	896.4.4 = {
+		holder = 7846
+	}
+	896.5.1 = {
+		holder = 7845
+	}
+	897.8.1 = {
+		holder = 7844
+	}
+	897.11.1 = {
+		holder = 7843
+	}
+	897.12.1 = {
+		holder = 7842
+	}
+	900.1.1 = {
+		holder = 7841
+	}
+	903.7.1 = {
+		holder = 7840
+	}
+	903.9.1 = {
+		holder = 7916
+	}
+	911.4.14 = {
+		holder = 7839
+	}
+	913.7.1 = {
+		holder = 7838
+	}
+	914.3.1 = {
+		holder = 7837
+	}
+	928.5.1 = {
+		holder = 7836
+	}
+	929.1.1 = {
+		holder = 7835
+	}
+	931.3.15 = {
+		holder = 7917
+	}
+	935.12.1 = {
+		holder = 7834
+	}
+	939.7.13 = {
+		holder = 7833
+	}
+	942.10.1 = {
+		holder = 7832
+	}
+	946.5.1 = {
+		holder = 7831
+	}
+	955.12.16 = {
+		holder = 7931
+	}
+	964.4.14 = {
+		holder = 7830
+	}
+	964.6.23 = {
+		holder = 7829
+	}
+	965.3.1 = {
+		holder = 7828
+	}
+	972.9.6 = {
+		holder = 7827
+	}
+	974.7.1 = {
+		holder = 7930
+	}
+	983.7.10 = {
+		holder = 7826
+	}
+	984.8.20 = {
+		holder = 7825
+	}
+	996.5.3 = {
+		holder = 1318
+	}
+	999.2.18 = {
+		holder = 7824
+	}
+	1003.5.12 = {
+		holder = 7823
+	}
+	1003.12.6 = {
+		holder = 7822
+	}
+	1009.7.1 = {
+		holder = 7821
+	}
+	1012.5.12 = {
+		holder = 7933
+	}
+	1024.8.9 = {
+		holder = 7934
+	}
+	1032.10.1 = {
+		holder = 7937
+	}
+	1045.1.20 = {
+		holder = 7820
+	}
+	1045.2.10 = {
+		holder = 7937
+	}
+	1045.5.1 = {
+		holder = 7819
+	}
+	1046.12.20 = {
+		holder = 7818
+	}
+	1047.10.9 = {
+		holder = 7937
+	}
+	1048.7.17 = {
+		holder = 7817
+	}
+	1048.8.9 = {
+		holder = 1338
+	}
+	1054.4.19 = {
+		holder = 7894
+	}
+	1057.8.3 = {
+		holder = 11034
+	}
+	1058.3.29 = {
+		holder = 7940
+	}
+	1061.7.27 = {
+		holder = 2008
+	}
+	1073.4.21 = {
+		holder = 2010
+	}
+	1085.5.25 = {
+		holder = 2012
+	}
+	1087.9.16 = {
+		holder = 2013
+	}
+	1099.7.29 = {
+		holder = 2014
+	}
+	1118.1.21 = {
+		holder = 2017
+	}
+	1119.1.28 = {
+		holder = 294
+	}
+	1124.12.13 = {
+		holder = 2021
+	}	
+	1130.2.13 = {
+		holder = 71800
+	}
+	1143.9.24 = {
+		holder = 71805
+	}
+	1144.3.8 = {
+		holder = 71806
+	}
+	1145.2.15 = {
+		holder = 71807
+	}
+	1153.7.8 = {
+		holder = 71808
+	}	
+	1154.12.3 = {
+		holder = 71809
+	}
+	1159.9.1 = {
+		holder = 71810
+	}
+	1181.8.30 = {
+		holder = 71811
+	}
+	1185.5.25 = {
+		holder = 223754
+	}
+	1187.10.20 = {
+		holder = 71812
+	}
+	1187.12.17 = {
+		holder = 71813
+	}
+	1191.3.20 = {
+		holder = 70841
+	}
+	1198.1.8 = {
+		holder = 71814
+	}
+	1216.7.16 = {
+		holder = 71820
+	}
+	1227.3.18 = {
+		holder = 71821
+	}
+	1241.8.22 = {
+		holder = 71822
+	}
+	1241.11.10 = {
+		holder = 71823
+	}
+	1254.12.7 = {
+		holder = 71824
+	}
+	1261.5.25 = {
+		holder = 71825
+	}
+	1264.10.2 = {
+		holder = 71826
+	}
+	1268.11.29 = {
+		holder = 70785
+	}
+	1276.1.10 = {
+		holder = 71827
+	}
+	1276.6.22 = {
+		holder = 71829
+	}
+	1276.8.18 = {
+		holder = 71830
+	}
+	1277.5.20 = {
+		holder = 70851
+	}
+	1280.8.22 = {
+		holder = 71831
+	}
+	1285.3.28 = {
+		holder = 71832
+	}
+	1287.4.3 = {
+		holder = 71833
+	}
+	1292.4.4 = {
+		holder = 71834
+	}
+	1294.12.13 = {
+		holder = 71835
+	}
+	1303.10.11 = {
+		holder = 71836
+	}
+	1304.7.7 = {
+		holder = 71837
+	}
+	1314.4.20 = {
+		holder = 71838
+	}
+	1334.12.20 = {
+		holder = 478501
+	}
+	##
+	#Tut Papy rimskie
+	1342.4.25 = {
+		holder = 0
+	}
+	#
+	1342.5.7 = {
+		holder = Papa_Clemens_6
+	}
+	1352.12.18 = {
+		holder = Papa_Innocentius6
+	}
+	1362.9.28 = {
+		holder = Papa_Urban_V
+	}
+	1370.12.30 = {
+		holder = Papa_Gregorius_XI
+	}
+	1378.4.9 = {
+		holder = Papa_Urbanus_6
+	}
+	1389.11.2 = {
+		holder = Papa_Bonifacius9
+	}
+	1404.10.17 = {
+		holder = Papa_Innocentius7
+	}
+	1417.11.11 = {
+		holder = Papa_Martinus_5_Colonna
+	}
+	1431.2.20 = {
+		holder = papaEvgenIV
+	}
+	1447.2.23 = {
+		holder = papaNikV
+	}
+	1455.1.10 = {
+		holder = PapaKalikst3Borj
+	}
+	1458.8.6 = {
+		holder = PapaPiy2
+	}
+	1464.8.30 = {
+		holder = PapaPavel2
+	}
+	1471.8.9 = {
+		holder = PapaSixtusIV
+	}
+	1484.8.29 = {
+		holder = PapaInnocentius8
+	}
+	1492.2.9 = {
+		holder = PapaRodrigoBorj
+	}
+	1503.9.22 = {
+		holder = Francesco_PapaPius3 #de-jure s 1503.9.22
+	}
+	1523.11.19 = {
+		holder = Giulio_Medici_Clemens7 #de-jure s 1523.11.19
+	}
+	1534.10.13 = {
+		holder = Papa_Paulus_3_Farnese #de-jure s 1534.10.13
+	}
+}
+
+
+d_romagna = {
+	1209.1.1 = {
+		holder = 223596 # Azzo I d'Este
+		liege = "e_hre"
+		insert_title_history = d_lombardia
+	}
+	1212.11.1 = {
+		holder = 70658 # Aldobrandino I
+	}
+	1215.10.10 = {
+		holder = 70661 # Azzo II
+	}
+	1222.1.1 = {
+		holder = 0
+	}
+	1240.1.1 = {
+		holder = 70661 # Azzo II (2nd time)
+	}
+	1264.2.17 = {
+		holder = 70669 # Obizzo II
+		liege = 0
+	}
+	1293.2.20 = {
+		holder = 70674 # Azzo III
+	}
+	1308.1.31 = {
+		holder = 70686 # Fresco
+	}
+	1308.10.1 = {
+		holder = 70689 # Folco II
+		liege = k_venice
+	}
+	1309.1.1 = {
+		holder = 0
+	}
+	1317.1.1 = {
+		holder = 70678 # Aldobrandino II
+		liege = 0
+	}
+	1326.7.26 = {
+		holder = 70700 # Rinaldo 
+	}
+	1335.12.31 = {
+		holder = 70709 # NiccolÃ² I
+	}
+	##
+	1400.1.1 = {
+		holder = 0
+	}
+}
+
+
+c_ravenna = {
+	763.1.1 = {
+		liege = k_italy
+	}
+	763.1.1 = {
+		holder = 190287 #Teuderic
+	}
+	776.1.1 = {
+		holder = 190288 #Hilderic
+	}
+	834.1.1 = {
+		liege = "d_spoleto"
+		holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	865.1.1 = {
+		holder = 168002
+	}
+	1051.1.1 = {
+		government = theocracy_government
+		holder = 7740
+		liege = "e_hre"
+	}
+	1072.1.1 = {
+		holder = 73529
+	}
+	1072.7.1 = {
+		holder = 73530
+	}
+	1100.9.8 = {
+		holder = 73531
+	}
+	1110.1.1 = {
+		holder = 73532
+	}
+	1110.7.1 = {
+		holder = 73533
+	}
+	1119.1.1 = {
+		holder = 73534
+	}
+	1144.1.1 = {
+		holder = 73535
+	}
+	1154.1.1 = {
+		holder = 73536
+	}
+	1155.1.1 = {
+		holder = 73537
+	}
+	1159.1.1 = {
+		holder = 71263 # Guido di Biandrate, Bishop of Ravenna
+	}
+	1168.1.1 = {
+		holder = 73538
+	}
+	1169.1.1 = {
+		holder = 73539
+	}
+	1177.8.1 = {
+		liege = 0 # Treaty of Venice
+	}
+	1178.1.1 = {
+		holder = 73547 # Pietro Traversari
+		government = republic_government
+	}
+	1187.1.1 = {
+		liege = "e_hre"
+		holder = 223597
+	}
+	1193.12.15 = {
+		holder = 223596
+	}
+	1212.11.1 = {
+		holder = 70658
+	}
+	1215.1.1 = {
+		holder = 70661
+	}
+	1264.2.17 = {
+		holder = 70669
+	liege = 0
+	}
+	1293.2.20 = {
+		holder = 70674
+	}
+	1308.1.31 = {
+		holder = 70686
+	}
+	1308.10.1 = {
+		holder = 70689
+	}
+	1310.1.1 = {
+		liege = "k_papal_state"
+	}
+	1317.1.1 = {
+		liege = 0
+		holder = 70700
+	}
+	1335.12.31 = {
+		holder = 70709
+	}
+	##
+	#Ravenna v fev-aprele - Venezia, da Polenta 1287-1441
+	1441.2.24 = {
+		holder = FrancescoFoskari #Francesco Foskari
+	}
+	#
+	1445.9.26 = {
+		holder = BartolomeoRovRav  #Archbishop of Ravenna 26 settembre 1445 - 9 gennaio 1475
+		government = theocracy_government
+		liege = k_papal_state # k_venice - diskutivno
+	}
+	#ubral Venetsiu
+	1475.1.9 = {
+		holder = Fil_Roverella_EPRaven #Archbishop of Ravenna 9 Jan 1475 - 1516
+	}
+}
+
+
+c_bologna = {
+	1178.1.1 = { change_development_level = 32 }
+	1466.1.1 = { change_development_level = 51 }
+	1477.1.1 = { change_development_level = 53 }
+	1488.1.1 = { change_development_level = 57 }
+	
+	750.1.1 = {
+		liege = k_italy
+	}
+	750.1.1 = {
+		holder = 190268 #Ursus
+	}
+	772.1.1 = {
+		holder = 190269 #John
+	}
+	776.1.1 = {
+		holder = 190270 #Ursus
+	}
+	855.9.20 = {
+		liege = "d_spoleto"
+	}
+	855.9.20 = {
+		holder = 167976
+	}
+	
+	893.3.1 = {
+		holder = 167981
+	}
+	953.12.1 = {
+		holder = 167982
+	}
+	957.1.1 = {
+		holder = 167985
+	}
+	1011.1.1 = {
+		holder = 167987
+	}
+	1012.1.1 = {
+		holder = 167991
+	}
+	1056.1.14 = {
+		holder = 167994
+	}	
+	1066.1.1 = {
+		liege = "e_hre"
+	}
+	1091.12.10 = {
+		holder = 167999
+	}
+	1139.1.1 = {
+		holder = 73513
+	}
+	1141.1.1 = {
+		holder = 73514
+	}
+	1170.1.1 = {
+		holder = 73515
+	}
+	1174.1.1 = {
+		holder = asinelli_1 # Pietro Asinelli, consul in 1174
+		government = republic_government
+	}
+	1177.8.1 = {
+		liege = 0 # Treaty of Venice
+	}
+	1185.1.1 = {
+		holder = 213011
+	}
+	1190.1.1 = {
+		holder = cisalpine0781 # Orlando Rossi II of Parma, PodestÃ 
+	}
+	1212.1.1 = {
+		holder = 73516
+	}
+	1220.1.1 = {
+		liege = d_romagna
+	}
+	1230.1.1 = {
+		holder = 73517
+	}
+	1255.1.1 = {
+		holder = 73518
+	liege = 0
+	}
+	1259.1.1 = {
+		holder = cisalpine0156 # Jacopino Rangoni
+		liege = k_papal_state
+	}
+	1260.1.1 = {
+		holder = 73518
+		liege = 0
+	}
+	1272.1.1 = {
+		holder = 73519
+		liege = k_papal_state
+	}
+	1287.1.1 = {
+		holder = cisalpine0789 # Ugolino Rossi of Lucca
+	}
+	1307.1.1 = {
+		holder = 73520
+	}
+	1324.1.1 = {
+		holder = 463300
+	liege = 0
+	}
+	##
+	1401.3.14 = {
+		holder = Giovanni_I_Bentivoglio
+		government = feudal_government
+		liege = 0
+	}
+	1420.2.2 = {
+		holder = Anton_Galeazzo_Bentivoglio #1420-1435
+		government = feudal_government
+		liege = 0
+	}
+	1443.1.1 = {
+		holder = Annibale_1_Bentivoglio #Annibale I Bentivolio
+		government = feudal_government
+		liege = 0
+	}
+	1445.6.24 = {
+		holder = Sante_Bentivoglio #1445 - 1463
+	}
+	1463.10.1 = {
+		holder = Giovanni_2_BentivoglioBOL #Jovanni II Bentivolio
+	}
+	1503.1.1 = {
+		liege = k_papal_state
+	}
+}
+
+
+c_ferrara = {
+	1178.1.1 = { change_development_level = 14 }
+	1454.1.1 = { change_development_level = 47 }
+	1466.1.1 = { change_development_level = 54 }
+	1488.1.1 = { change_development_level = 57 }
+
+	747.1.1 = {
+		liege = k_italy
+	}
+	747.1.1 = {
+		holder = 190282 #Lupo
+	}
+	834.1.1 = {
+		liege = "d_spoleto"
+		holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	860.1.1 = {
+		holder = 167882
+	}
+	984.1.1 = {
+		holder = 260621 # Alberto Atto of Modena
+		liege = k_italy
+	}
+	988.2.13 = {
+		holder = 7926 # Tedaldo of Modena
+	}
+	1012.1.1 = {
+		holder = 7756 # Bonifacio IV of Tuscany
+	}
+	1027.1.1 = {
+		liege = d_toscana
+	}
+	1052.5.6 = {
+		holder = 7758 # Federigo of Tuscany
+	}
+	1055.7.1 = {
+		holder = 7757 # Matilda of Tuscany
+	}
+	1115.7.24 = {
+		government = republic_government
+		holder = cisalpine0137 # Guglielmo I Adelardi, PodestÃ 
+		liege = k_papal_state
+	}
+	1116.1.1 = {
+		holder = cisalpine0138 # Bulgaro, PodestÃ 
+	}
+	1139.1.1 = {
+		holder = cisalpine0139 # Guglielmo II, PodestÃ 
+	}
+	1144.1.1 = {
+		holder = cisalpine0140 # Guglielmo III, PodestÃ 
+	}
+	1178.1.1 = {
+		holder = cisalpine0153 # Salinguerra I Torelli, PodestÃ 
+		liege = 0
+	}
+	1194.1.1 = {
+		holder = 73505 # Salinguerra II, PodestÃ 
+	}
+	1196.1.1 = {
+		liege = 0
+	}
+	1209.1.1 = {
+		government = feudal_government
+		holder = 223596 # Azzo I of Romagna
+		liege = d_romagna
+	}
+	1212.11.1 = {
+		holder = 70658 # Aldobrandino I of Romagna
+	}
+	1215.10.10 = {
+		holder = 70661 # Azzo II of Romagna
+	}
+	1222.1.1 = {
+		government = republic_government
+		holder = 73505 # Salinguerra II (2 time)
+		liege = 0
+	}
+	1240.1.1 = {
+		government = feudal_government
+		holder = 70661 # Azzo II (2nd time)
+		liege = d_romagna
+	}
+	1264.2.17 = {
+		holder = 70669 # Obizzo II of Romagna
+	}
+	1293.2.20 = {
+		holder = 70674 # Azzo III of Romagna
+	}
+	1308.1.31 = {
+		holder = 70686 # Fresco of Romagna
+	}
+	1308.11.1 = {
+		holder = 70689 # Folco II of Romagna
+	}
+	1309.1.1 = {
+		government = republic_government
+		holder = cisalpine0171 # Salinguerra III Torelli
+		liege = 0
+	}
+	1310.1.1 = {
+		government = theocracy_government
+		liege = k_papal_state
+		holder = 145031
+	} # 2nd reign
+	1310.5.9 = {
+		holder = 145033
+	}
+	1315.5.12 = {
+		holder = 145034
+	}
+	1317.1.1 = {
+		government = feudal_government
+		holder = 70678 # Aldobrandino II of Romagna
+		liege = d_romagna
+	}
+	1326.7.26 = {
+		holder = 70700 # Rinaldo of Romagna
+	}
+	1335.12.31 = {
+		holder = 70709 # NiccolÃ² I of Romagna
+	}
+	##
+	1388.1.1 = {
+		holder = Alberto5DEste # Alberto V d’Este signore di Ferrara e di Modena
+	}
+	1393.7.30 = {
+		holder = Nicolo3DEste #d'Este
+	}
+	1441.12.26 = {
+		holder = LeonelloDEste #d'Este
+	}
+	1450.10.1 = {
+		holder = BorsoDEste #d'Este
+		liege = 0
+	}
+	1460.1.1 = {
+		de_jure_liege = d_ferrara
+	}
+	1471.8.20 = {
+		holder = ErcoleDEste
+		liege = d_ferrara
+	}
+}
+
+
+c_casentino = {
+	763.1.1 = {
+		liege = k_italy
+	}
+	763.1.1 = {
+		holder = 190287 #Teuderic
+	}
+	776.1.1 = {
+		holder = 190288 #Hilderic
+	}
+	834.1.1 = {
+		liege = "d_spoleto"
+	holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	865.1.1 = {
+		holder = 168002
+	}
+	1051.1.1 = {
+		government = theocracy_government
+		holder = 7740
+		liege = "e_hre"
+	}
+	1072.1.1 = {
+		holder = 73529
+	}
+	1072.7.1 = {
+		holder = 73530
+	}
+	1100.9.8 = {
+		holder = 73531
+	}
+	1103.11.1 = {
+		holder = guidi_13 # Guido Guerra
+	}
+	1124.1.1 = {
+		holder = guidi_13 # Guido Guerra
+	}
+	1157.1.1 = {
+		holder = guidi_1 # Guido Guerra III
+		government = feudal_government
+		liege = 0
+	}
+	1190.1.1 = {
+		holder = 213010
+	}
+	1194.1.1 = {
+		holder = 73540
+	}
+	1198.1.1 = {
+		holder = 73541
+	}
+	1201.1.1 = {
+		holder = 73542
+	}
+	1207.1.1 = {
+		holder = 73543
+	}
+	1208.1.1 = {
+		holder = 73544
+	}
+	1215.1.1 = {
+		holder = 73545
+	}
+	1217.1.1 = {
+		holder = 73546
+	}
+	1218.1.1 = {
+		holder = 73547
+	}
+	1220.1.1 = {
+		liege = d_romagna
+	}
+	1225.1.1 = {
+		holder = 73548
+	}
+	1240.1.1 = {
+		holder = 70661
+	}
+	1248.1.1 = {
+		holder = 71823
+	liege = k_papal_state
+	}
+	1254.12.7 = {
+		holder = 71824
+	}
+	1261.5.25 = {
+		holder = 71825
+	}
+	1264.10.2 = {
+		holder = 71826
+	}
+	1268.11.29 = {
+		holder = 70785
+	}
+	1275.1.1 = {
+		holder = 73549
+	}
+	1297.1.1 = {
+		holder = 73550
+	}
+	1316.1.1 = {
+		holder = 73551
+	}
+	1322.1.1 = {
+		holder = 463210
+	}
+	
+	##
+	1443.2.21 = {
+		holder = Oddantonio_1HerUrbino
+		de_jure_liege = d_urbino
+		government = feudal_government
+	}
+	1444.7.22 = {
+		holder = Federico_da_Montefeltro
+	}
+	1482.9.10 = {
+		holder = Guidobaldo_da_Montefeltro #her Urbino
+	}
+}
+
+
+d_ancona = {
+	1095.1.1 = {
+		holder = 30657
+	liege = e_hre
+	}
+	1119.1.1 = {
+		holder = 7656
+	}
+	1137.1.1 = {
+		holder = 0
+	}
+	
+	1149.1.1 = {
+		holder = 73495
+		liege = 0
+	}
+	1155.1.1 = {
+		holder = 73496
+	}
+	1170.1.1 = {
+		holder = 0
+	}
+	1199.1.1 = {
+		holder = 73498
+	}
+	1212.1.1 = {
+		holder = 73499
+	}
+	1221.1.1 = {
+		holder = 73500
+	}
+	1245.1.1 = {
+		holder = 73501
+	}
+	1263.1.1 = {
+		holder = 73502
+	}
+	1289.1.1 = {
+		holder = 73503
+	}
+	1315.1.1 = {
+		holder = 73504
+	}
+	1336.1.1 = {
+		holder = 463470
+	}
+	##
+	1362.1.1 = {
+		holder = 0
+	}
+}
+
+
+c_ancona = {
+	741.1.1 = {
+		liege = d_spoleto
+	}
+	741.1.1 = {
+		holder = 190283 #Tachiperto
+	}
+	760.1.1 = {
+		holder = 190284 #Lupo
+	}
+	834.1.1 = {
+		liege = "d_spoleto"
+		holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	860.1.1 = {
+		holder = 71908
+	}
+	867.1.1 = {
+		holder = 71903 # Guy
+	}
+	1066.1.1 = {
+		government = republic_government
+		holder = 73492
+		liege = "e_hre"
+	}
+	1079.1.1 = {
+		holder = 73493
+	}
+	1095.1.1 = {
+		holder = 30657
+		liege = d_ancona
+	}
+	1119.1.1 = {
+		holder = 7656
+	}
+	1137.1.1 = {
+		holder = 73494
+		liege = k_papal_state
+	}
+	1149.1.1 = {
+		holder = 73495
+		liege = d_ancona
+	}
+	1155.1.1 = {
+		holder = 73496
+	}
+	1170.1.1 = {
+		holder = 73497
+	}
+	1173.1.1 = {
+		holder = cisalpine0140 # Guglielmo Adelardi "According to some Latin sources, he was also granted lordship over Ancona until his death"
+		liege = 0
+	}
+	1199.1.1 = {
+		holder = 73498
+	}
+	1212.1.1 = {
+		holder = 73499
+	}
+	1221.1.1 = {
+		holder = 71265 # Gottefredo di Biandrate
+	}
+	1221.6.1 = {
+		holder = 73500
+	}
+	1245.1.1 = {
+		holder = 73501
+	}
+	1263.1.1 = {
+		holder = 73502
+	}
+	1289.1.1 = {
+		holder = 73503
+	}
+	1315.1.1 = {
+		holder = 73504
+	}
+	1336.1.1 = {
+		holder = 463470
+	}
+
+	##
+	1464.6.6 = {
+		holder = AnkonaMer1470
+		liege = 0
+	}
+	1532.6.6 = {
+		liege = k_papal_state
+	}
+}
+
+
+c_urbino = {
+	741.1.1 = {
+		liege = d_spoleto
+	}
+	741.1.1 = {
+		holder = 190283 #Tachiperto
+	}
+	760.1.1 = {
+		holder = 190285 #Halo
+	}
+	834.1.1 = {
+		liege = "d_spoleto"
+		holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	860.1.1 = {
+		holder = 71908
+	}
+	867.1.1 = {
+		holder = 71903 # Guy
+	}
+	1058.1.1 = {
+		government = republic_government
+		holder = 73604
+		liege = "e_hre"
+	}
+	1072.1.1 = {
+		holder = 73605
+	}
+	1089.1.1 = {
+		holder = 73606
+	}
+	1120.1.1 = {
+		holder = 73607
+	}
+	1142.1.1 = {
+		holder = 73608
+	}
+	1155.1.1 = {
+		holder = 213027
+		government = feudal_government
+	}
+	1177.8.1 = {
+		liege = 0 # Treaty of Venice
+	}
+	1184.1.1 = {
+		holder = 213026
+	}
+	1216.2.12 = {
+		holder = 20331
+	}
+	1241.1.1 = {
+		holder = 73580
+		liege = d_romagna
+	}
+	1252.1.21 = {
+		holder = 73581
+		liege = e_hre
+	}
+	1255.1.1 = {
+		holder = 73587
+		liege = 0
+	}
+	1286.1.1 = {
+		holder = 73582
+	}
+	1289.1.1 = {
+		holder = 71833
+		liege = k_papal_state
+	}
+	1292.1.1 = {
+		holder = 73587
+		liege = 0
+	}
+	1298.1.1 = {
+		holder = 463461
+	}
+	1322.1.1 = {
+		holder = 73589
+	}
+	1328.3.29 = {
+		holder = 463460
+	}
+	
+	##
+	1364.1.1 = {
+		holder = 73590 #dobavil pravlenie syna
+	}
+	1369.1.1 = {
+		liege = k_papal_state #Papski prestol zahv Urbino, namestnik Maltesta do 1375
+	}
+	1375.12.12 = {
+		holder = Antonio_2_Montefeltro #Antonio II, zahvatil gorod, kogda papskie sily ushli
+		liege = 0
+	}
+	1404.4.4 = {
+		holder = Guidantonio_Montefeltro
+		liege = k_papal_state
+		government = feudal_government
+	}
+	1443.2.21 = {
+		holder = Oddantonio_1HerUrbino
+		de_jure_liege = d_urbino
+		government = feudal_government
+	}
+	1444.7.22 = {
+		holder = Federico_da_Montefeltro
+	}
+	1482.9.10 = {
+		holder = Guidobaldo_da_Montefeltro #3 her Urbino
+	}
+}
+
+
+c_fermo = {
+	762.1.1 = {
+		liege = d_benevento
+	}
+	762.1.1 = {
+		holder = 190308 #Maio
+	}
+	813.1.1 = {
+		holder = 190309 #Maio
+	}
+	834.1.1 = {
+		liege = d_spoleto
+		holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	860.1.1 = {
+		holder = 71908
+	}
+	867.1.1 = {
+		holder = 71903 # Guy
+	}
+	880.7.8 = {
+		holder = 71909
+	}
+	883.1.1 = {
+		holder = 71903
+	}
+	894.12.12 = {
+		holder = 71904
+	}
+	898.10.15 = {
+		holder = 71911
+	}
+	899.1.1 = {
+		holder = 7918
+	}
+	922.1.1 = {
+		holder = 7919
+	}
+	943.1.1 = {
+		holder = 7924
+	}
+	989.1.1 = {
+		holder = 7925
+	}
+	1043.1.1 = {
+		holder = 7756
+	}
+	1052.5.6 = {
+		holder = 7758
+	}
+	1057.1.1 = {
+		holder = 7757
+	}
+	1060.1.1 = {
+		holder = 7804
+	}
+	1082.1.1 = {
+		holder = 73471
+	}
+	1086.1.1 = {
+		holder = 7757
+	}
+	1093.1.1 = {
+		holder = 30657
+	}
+	1120.1.1 = {
+		holder = 33466
+	}
+	1127.1.1 = {
+		holder = 30219
+	}
+	1135.1.1 = {
+		holder = 212996
+	}
+	1137.1.1 = {
+		holder = 212602
+	}
+	1139.10.20 = {
+		holder = 73405
+	}
+	1140.1.1 = {
+		liege = k_sicily
+	}
+	1140.1.1 = {
+		holder = 73478
+	}
+	1145.1.1 = {
+		holder = 73479
+	}
+	1146.1.1 = {
+		holder = 73480
+	}
+	1155.1.1 = {
+		holder = 73481
+	}
+	1166.5.7 = {
+		holder = 211500 # William II
+	}
+	1179.1.1 = {
+		holder = 73483
+	}
+	1225.1.1 = {
+		holder = 73484
+	}
+	1254.1.1 = {
+		holder = 73485
+	}
+	1280.1.1 = {
+		holder = 73486
+	}
+	1295.1.1 = {
+		holder = 73487
+	}
+	1300.1.1 = {
+		holder = 73488
+	}
+	1302.1.1 = {
+		holder = 73489
+	}
+	1302.8.31 = {
+		liege = k_naples
+	}
+	1303.1.1 = {
+		holder = 73490
+	}
+	1331.1.1 = {
+		holder = 73491
+	}
+	##
+	# Mercenario da Monteverde (1275 circa – Fermo, 20 febbraio 1340 zahvatil v 1331
+	# PAPY k_papal_state
+	1342.5.7 = {
+		holder = Papa_Clemens_6
+	}
+	1352.12.18 = {
+		holder = Papa_Innocentius6
+	}
+	1362.9.28 = {
+		holder = Papa_Urban_V
+	}
+	1370.12.30 = {
+		holder = Papa_Gregorius_XI
+	}
+	1378.4.9 = {
+		holder = Papa_Urbanus_6
+	}
+	1389.11.2 = {
+		holder = Papa_Bonifacius9
+	}
+	1404.10.17 = {
+		holder = Papa_Innocentius7
+	}
+	1417.11.11 = {
+		holder = Papa_Martinus_5_Colonna
+	}
+	1431.2.20 = {
+		holder = papaEvgenIV
+	}
+	1447.2.23 = {
+		holder = papaNikV
+	}
+	1455.1.10 = {
+		holder = PapaKalikst3Borj
+	}
+	1458.8.6 = {
+		holder = PapaPiy2
+	}
+	1464.8.30 = {
+		holder = PapaPavel2
+	}
+	1471.8.9 = {
+		holder = PapaSixtusIV
+	}
+	1484.8.29 = {
+		holder = PapaInnocentius8
+	}
+	1485.2.20 = {
+		holder = Francesco_PapaPius3 #kak apostolski administrator eparhii Fermo
+		liege = k_papal_state
+	}
+	1492.2.9 = {
+		holder = PapaRodrigoBorj
+	}
+}
+
+
+d_spoleto = {
+	763.1.1 = {
+		liege = k_italy
+	}
+	763.1.1 = {
+		holder = 190265 #Theodicus
+	}
+	764.1.1 = {
+		holder = 190267 #Hildeprand
+	}
+	822.1.1 = {
+		liege = "k_italy"
+		holder = 167879
+	}
+	824.3.5 = {
+		holder = 167880
+	}
+	824.9.1 = {
+		holder = 167881
+	}
+	
+	836.12.30 = {
+		holder = 71905
+	}
+	860.1.1 = {
+		holder = 71908
+	}
+	871.1.1 = {
+		holder = 167882
+	}
+	874.1.1 = {
+		holder = 71908
+	}
+	880.7.8 = {
+		holder = 71909
+	}
+	883.1.1 = {
+		holder = 71903
+	}
+	894.12.12 = {
+		holder = 71904
+	}
+	898.10.15 = {
+		holder = 71911
+	}
+	899.1.1 = {
+		holder = 7918
+	}
+	922.1.1 = {
+		holder = 7919
+	}
+	924.1.1 = {
+		holder = 167930
+	}
+	
+	940.1.1 = {
+		holder = 7924
+	}
+	953.1.1 = {
+		holder = 167981
+	}
+	953.12.1 = {
+		holder = 167982
+	}
+	957.7.1 = {
+		holder = 7924
+	}
+	989.1.1 = {
+		holder = 7925
+	}
+	1024.7.13 = {
+		liege = "e_hre"
+	}
+	1043.1.1 = {
+		holder = 7756
+	}
+	1052.5.6 = {
+		holder = 7758
+	}
+	1057.1.1 = {
+		holder = 7757
+	}
+	1082.1.1 = {
+		holder = 73471
+	}
+	1086.1.1 = {
+		holder = 7757
+	}
+	1093.1.1 = {
+		holder = 30657
+	}
+	1120.1.1 = {
+		holder = 33466
+	}
+	1127.1.1 = {
+		holder = 30219
+	}
+	1135.1.1 = {
+		holder = 212996
+	}
+	1137.1.1 = {
+		holder = 212602
+	}
+	1139.10.20 = {
+		holder = 73405
+	}
+	1152.1.1 = {
+		holder = 7595
+	}
+	1160.1.1 = {
+		holder = 7596
+	}
+	1167.9.12 = {
+		holder = 7595
+	}
+	1176.1.1 = {
+		holder = 213100 # Konrad von Urslingen
+	}
+	1183.1.1 = {
+		holder = 213100
+	}
+	1190.1.1 = {
+		holder = 73470
+	}
+	1195.1.1 = {
+		holder = 213100
+	}
+	1198.1.8 = {
+		holder = 71814
+		liege = k_papal_state
+	}
+	1205.1.1 = {
+		holder = 73467
+	}
+	1209.1.1 = {
+		holder = 73469
+	}
+	1223.1.1 = {
+		holder = 213102
+	}
+	1227.1.1 = {
+		holder = 213103
+	}
+	1251.1.1 = {
+		holder = 73468
+	}
+	1276.1.1 = {
+		holder = 70785
+	}
+	1276.1.10 = {
+		holder = 71827
+	}
+	1276.6.22 = {
+		holder = 71829
+	}
+	1276.8.18 = {
+		holder = 71830
+	}
+	1277.5.20 = {
+		holder = 70851
+	}
+	1280.8.22 = {
+		holder = 71831
+	}
+	1285.3.28 = {
+		holder = 71832
+	}
+	1287.4.3 = {
+		holder = 71833
+	}
+	1292.4.4 = {
+		holder = 71834
+	}
+	1294.12.13 = {
+		holder = 71835
+	}
+	1303.10.11 = {
+		holder = 71836
+	}
+	1304.7.7 = {
+		holder = 71837
+	}
+	1314.4.20 = {
+		holder = 71838
+	}
+	1334.12.20 = {
+		holder = 478501
+	}
+	##
+	1342.4.25 = {
+		holder = 0 #Papskaya oblast
+	}
+	#Pedro Luis de Borja - Duca di Spoleto 1456 - 1458
+	1456.2.2 = {
+		holder = pedro_l_borja1432
+		government = feudal_government
+		liege = k_papal_state
+	}
+	1458.9.26 = {
+		holder = 0
+	}
+}
+
+
+c_spoleto = {
+	763.1.1 = {
+		liege = k_italy
+	}
+	763.1.1 = {
+		holder = 190265 #Theodicus
+	}
+	764.1.1 = {
+		holder = 190267 #Hildeprand
+	}
+	834.1.1 = {
+		liege = "d_spoleto"
+		holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	860.1.1 = {
+		holder = 71908
+	}
+	880.7.8 = {
+		holder = 71909
+	}
+	883.1.1 = {
+		holder = 71903
+	}
+	894.12.12 = {
+		holder = 71904
+	}
+	898.10.15 = {
+		holder = 71911
+	}
+	899.1.1 = {
+		holder = 7918
+	}
+	922.1.1 = {
+		holder = 7919
+	}
+	943.1.1 = {
+		holder = 7924
+	}
+	989.1.1 = {
+		holder = 7925
+	}
+	1043.1.1 = {
+		holder = 7756
+	}
+	1052.5.6 = {
+		holder = 7758
+	}
+	1057.1.1 = {
+		holder = 7757
+		liege = d_toscana
+	}
+	1060.1.1 =  {
+		holder = 167671
+	}
+	1082.1.1 = {
+		holder = 73471
+	}
+	1086.1.1 = {
+		holder = 7757
+	}
+	1093.1.1 = {
+		holder = 30657
+	}
+	1120.1.1 = {
+		holder = 33466
+	}
+	1127.1.1 = {
+		holder = 30219
+	}
+	1135.1.1 = {
+		holder = 212996
+	}
+	1137.1.1 = {
+		holder = 212602
+	}
+	1139.10.20 = {
+		holder = 73405
+	}
+	1152.1.1 = {
+		holder = 7595
+	}
+	1160.1.1 = {
+		holder = 7596
+	}
+	1167.9.12 = {
+		holder = 7595
+	}
+	1176.1.1 = {
+		holder = 213100 # Konrad von Urslingen
+	}
+	1183.1.1 = {
+		holder = 213100
+	}
+	1190.1.1 = {
+		holder = 73470
+	}
+	1195.1.1 = {
+		holder = 213100
+	}
+	1198.1.8 = {
+		holder = 71814
+	}
+	1205.1.1 = {
+		holder = 73467
+	}
+	1209.1.1 = {
+		holder = 73469
+	}
+	1223.1.1 = {
+		holder = 213102
+	}
+	1227.1.1 = {
+		holder = 213103
+	}
+	1251.1.1 = {
+		holder = 73468
+	}
+	1276.1.1 = {
+		holder = 70785
+	}
+	1276.1.10 = {
+		holder = 71827
+	}
+	1276.6.22 = {
+		holder = 71829
+	}
+	1276.8.18 = {
+		holder = 71830
+	}
+	1277.5.20 = {
+		holder = 70851
+	}
+	1280.8.22 = {
+		holder = 71831
+	}
+	1285.3.28 = {
+		holder = 71832
+	}
+	1287.4.3 = {
+		holder = 71833
+	}
+	1292.4.4 = {
+		holder = 71834
+	}
+	1294.12.13 = {
+		holder = 71835
+	}
+	1303.10.11 = {
+		holder = 71836
+	}
+	1304.7.7 = {
+		holder = 71837
+	}
+	1314.4.20 = {
+		holder = 71838
+	}
+	1334.12.20 = {
+		holder = 478501
+	}
+	
+	##
+	#PAPY
+	1342.5.7 = {
+		holder = Papa_Clemens_6
+		liege = k_papal_state
+	}
+	1352.12.18 = {
+		holder = Papa_Innocentius6
+	}
+	1362.9.28 = {
+		holder = Papa_Urban_V
+	}
+	1370.12.30 = {
+		holder = Papa_Gregorius_XI
+	}
+	1378.4.9 = {
+		holder = Papa_Urbanus_6
+	}
+	1389.11.2 = {
+		holder = Papa_Bonifacius9
+	}
+	1404.10.17 = {
+		holder = Papa_Innocentius7
+	}
+	1417.11.11 = {
+		holder = Papa_Martinus_5_Colonna
+	}
+	1431.2.20 = {
+		holder = papaEvgenIV
+	}
+	1447.2.23 = {
+		holder = papaNikV
+	}
+	1455.1.10 = {
+		holder = PapaKalikst3Borj
+	}
+	#
+	1456.1.1 = {
+		holder = pedro_l_borja1432 #Duca di Spoleto 1456-58
+	}
+	#
+	1458.9.26 = {
+		holder = PapaPiy2
+	}
+	1464.8.30 = {
+		holder = PapaPavel2
+	}
+	1471.8.9 = {
+		holder = PapaSixtusIV
+	}
+	1474.1.1 = {
+		holder = Constantino_Eruli_EPSpol #Constantin Eruli, episkop Spoleto
+		government = theocracy_government
+		liege = k_papal_state
+	}
+}
+
+
+c_orvieto = {
+	758.1.1 = {
+		liege = k_italy
+	}
+	758.1.1 = {
+		holder = 190328 #Peter
+	}
+	846.1.1 = {
+		liege = "d_toscana"
+	}
+	867.1.1 = {
+		holder = 7913
+	}
+	1066.1.1 = {
+		holder = 20330
+	}
+	1095.1.1 = {
+		holder = 70839
+	}
+	1110.1.1 = {
+		holder = 70840
+	}
+	1159.5.27 = {
+		holder = 70842
+	}
+	1172.1.1 = {
+		holder = 70843
+	}
+	1177.8.1 = {
+		holder = monaldeschi_1 # Pietro Monaldeschi
+		government = republic_government
+		liege = 0 # Treaty of Venice
+	}
+	1207.1.1 = {
+		holder = 70845
+	}
+	1232.4.12 = {
+		holder = 70846
+	}
+	1246.10.13 = {
+		holder = 70850
+	}
+	1246.11.15 = {
+		holder = 70855
+	}
+	1319.1.1 = {
+		holder = 70862
+	}
+	1327.1.1 = {
+		holder = 70864
+	}
+	##
+	#S 1450 okonchatelno g v Papskoy oblasti
+	#PAPY
+	1342.5.7 = {
+		holder = Papa_Clemens_6
+		liege = k_papal_state
+	}
+	1352.12.18 = {
+		holder = Papa_Innocentius6
+	}
+	1362.9.28 = {
+		holder = Papa_Urban_V
+	}
+	1370.12.30 = {
+		holder = Papa_Gregorius_XI
+	}
+	1378.4.9 = {
+		holder = Papa_Urbanus_6
+	}
+	1389.11.2 = {
+		holder = Papa_Bonifacius9
+	}
+	1404.10.17 = {
+		holder = Papa_Innocentius7
+	}
+	1417.11.11 = {
+		holder = Papa_Martinus_5_Colonna
+	}
+	1431.2.20 = {
+		holder = papaEvgenIV
+	}
+	#pravitel Peruji
+	1438.3.8 = {
+		holder = Braccio_Baglioni
+		government = feudal_government
+		liege = k_papal_state
+	}
+	#
+	1479.12.8 = {
+		holder = PapaSixtusIV
+	}
+	1484.8.29 = {
+		holder = PapaInnocentius8
+	}
+	1484.9.1 = {
+		holder = PapaRodrigoBorj #pust
+		liege = k_papal_state
+		government = theocracy_government
+	}
+}
+
+c_teramo = {
+	762.1.1 = {
+		liege = d_benevento
+	}
+	762.1.1 = {
+		holder = 190308 #Maio
+	}
+	813.1.1 = {
+		holder = 190309 #Maio
+	}
+	834.1.1 = {
+		liege = d_spoleto
+		holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	860.1.1 = {
+		holder = 71908
+	}
+	880.7.8 = {
+		holder = 71909
+	}
+	883.1.1 = {
+		holder = 71903
+	}
+	894.12.12 = {
+		holder = 71904
+	}
+	898.10.15 = {
+		holder = 71911
+	}
+	899.1.1 = {
+		holder = 7918
+	}
+	922.1.1 = {
+		holder = 7919
+	}
+	943.1.1 = {
+		holder = 7924
+	}
+	989.1.1 = {
+		holder = 7925
+	}
+	1043.1.1 = {
+		holder = 7756
+	}
+	1052.5.6 = {
+		holder = 7758
+	}
+	1057.1.1 = {
+		holder = 7757
+	}
+	1060.1.1 = {
+		holder = 7804
+	}
+	1082.1.1 = {
+		holder = 73471
+	}
+	1086.1.1 = {
+		holder = 7757
+	}
+	1093.1.1 = {
+		holder = 30657
+	}
+	1120.1.1 = {
+		holder = 33466
+	}
+	1127.1.1 = {
+		holder = 30219
+	}
+	1135.1.1 = {
+		holder = 212996
+	}
+	1137.1.1 = {
+		holder = 212602
+	}
+	1139.10.20 = {
+		holder = 73405
+	}
+	1140.1.1 = {
+		liege = k_sicily
+	}
+	1140.1.1 = {
+		holder = 73478
+	}
+	1145.1.1 = {
+		holder = 73479
+	}
+	1146.1.1 = {
+		holder = 73480
+	}
+	1155.1.1 = {
+		holder = 73481
+	}
+	1166.5.7 = {
+		holder = 211500 # William II
+	}
+	1179.1.1 = {
+		holder = 73483
+	}
+	1225.1.1 = {
+		holder = 73484
+	}
+	1254.1.1 = {
+		holder = 73485
+	}
+	1280.1.1 = {
+		holder = 73486
+	}
+	1295.1.1 = {
+		holder = 73487
+	}
+	1300.1.1 = {
+		holder = 73488
+	}
+	1302.1.1 = {
+		holder = 73489
+	}
+	1302.8.31 = {
+		liege = k_naples
+	}
+	1303.1.1 = {
+		holder = 73490
+	}
+	1331.1.1 = {
+		holder = 73491
+	}
+	##
+	#s 1393 herzogi Atri + Teramo
+	1393.9.3 = {
+		holder = Antonio_Acquaviva_1her
+		liege = k_naples
+	}
+	1395.9.5 = {
+		holder = Andrea_Matteo_Acquaviva
+	}
+	#
+	1442.4.2 = {
+		holder = Giosia_Acquaviva_6Atri
+		government = feudal_government
+		liege = k_naples
+	}
+	1462.8.22 = {
+		holder = Giulio_Antonio_Acquaviva
+	}
+	#
+	1470.1.1 = { de_jure_liege = d_teramo }
+	#
+	1481.2.7 = {
+		holder = Andrea_Ma_III_Acquaviva
+	}
+}
+
+c_lanciano = {
+	571.1.1 = {
+		liege = k_italy
+	}
+	571.1.1 = {
+		holder = 190127 #Zotto
+	}
+	591.1.1 = {
+		holder = 190153 #Arechis I
+	}
+	641.1.1 = {
+		holder = 190154 #Aiulf I
+	}
+	646.1.1 = {
+		holder = 190130 #Radoald
+	}
+	651.1.1 = {
+		holder = 190133 #Grimoald
+	}
+	662.1.1 = {
+		holder = 190135 #Romuald I
+	}
+	687.1.1 = {
+		holder = 190138 #Grimoald II
+	}
+	689.1.1 = {
+		holder = 190139 #Gisulf I
+	}
+	706.1.1 = {
+		holder = 190141 #Romuald II
+	}
+	743.1.1 = {
+		holder = 190144 #Gisulf II
+	}
+	751.1.1 = {
+		holder = 190146 #Liutprand
+	}
+	756.1.1 = {
+		holder = 190147 #Arechis II
+	}
+	787.8.26 = {
+		holder = 190150 #Grimoald III
+	}
+	806.1.1 = {
+		holder = 190157 #Grimoald IV
+	}
+	817.1.1 = {
+		holder = 190160 #Sico
+	}
+	817.10.1 = {
+		liege = 0
+	}
+	832.9.1 = {
+		holder = 190161
+	}
+	839.8.1 = {
+		holder = 145216
+	}
+	851.6.1 = {
+		holder = 145217
+	}
+	853.12.1 = {
+		holder = 163071
+	}
+	878.5.1 = {
+		holder = 145218
+	}
+	881.1.1 = {
+		holder = 145219
+	}
+	884.10.1 = {
+		holder = 145220
+	}
+	890.1.1 = {
+		holder = 145221
+	}
+	891.1.1 = {
+		holder = 1702
+	}
+	895.1.1 = {
+		liege = d_apulia
+	}
+	912.5.11 = {
+		holder = 1704
+	}
+	913.6.6 = {
+		holder = 1708
+	}
+	920.12.17 = {
+		holder = 1706
+	}
+	944.12.16 = {
+		holder = 1708
+	}
+	959.11.9 = {
+		holder = 1710
+	}
+	963.3.15 = {
+		holder = 1712
+	}
+	969.12.10 = {
+		holder = 1714
+	}
+	976.1.10 = {
+		holder = 1716
+	}
+	1025.12.15 = {
+		holder = 1718
+	}
+	1028.11.15 = {
+		holder = 1720
+	}
+	1034.4.11 = {
+		holder = 1722
+	}
+	1041.12.10 = {
+		holder = 1724
+	}
+	1042.4.20 = {
+		holder = 1717
+	}
+	1042.6.11 = {
+		holder = 1726
+	}
+	1053.1.1 = {
+		holder = 85003 #Robert de Hauteville
+	}
+	1107.1.1 = {
+		holder = 30870 #William de Hauteville
+	}
+	1130.12.25 = {
+		liege = k_sicily
+	}
+	1137.1.1 = {
+		holder = 30900 #Robert I de Bassonville
+	}
+	1154.1.1 = {
+		holder = 30900 #Robert II de Bassonville
+	}
+	1182.9.15 = {
+		holder = 73358
+	}
+	1200.1.1 = {
+		holder = 73359
+	}
+	1240.1.1 = {
+		holder = 73360
+	}
+	1249.1.1 = {
+		holder = 73363
+	}
+	#des Baux dynasty
+	1266.2.26 = {
+		holder = 32523
+	}
+	1268.10.12 = {
+		holder = 32524
+	}
+	1302.8.31 = {
+		liege = k_naples
+	}
+	1305.9.25 = {
+		holder = 32525
+	}
+	1321.1.1 = {
+		holder = 32530
+	}
+	##
+	#Neapolitanskoe kor-vo
+	1351.1.1 = {
+		holder = 461703 #Giovanna I Anjou-Sicily
+		liege = k_naples
+	}
+	1382.5.12 = {
+		holder = Carlo3_Malyi_KNeapol #Karl III Malyi Anjou-Sicily
+	}
+	1386.2.24 = {
+		holder = Ladislao_KNapoli #Ladislao I di Napoli Durazzo
+	}
+	1414.8.6 = {
+		holder = Giovanna_2_Napoli #Giovanna II
+	}
+	1435.2.2 = {
+		holder = ReneDobrAnju #Rene Dobryi kak Renato I di Napoli DO 1442
+	}
+	1442.6.2 = {
+		holder = AlfonsuAragon # Alfonso V Velikodushnyi - Alfons I
+	}
+	1458.6.27 = {
+		holder = Ferdinando1KNeap9 #Ferdinand I
+	}
+	1470.1.1 = { de_jure_liege = d_teramo }
+}
+
+
+c_abruzzi = {
+	762.1.1 = {
+		liege = d_benevento
+	}
+	762.1.1 = {
+		holder = 190308 #Maio
+	}
+	813.1.1 = {
+		holder = 190309 #Maio
+	}
+	834.1.1 = {
+		liege = d_spoleto
+		holder = 71906
+	}
+	836.12.30 = {
+		holder = 71905
+	}
+	860.1.1 = {
+		holder = 71908
+	}
+	880.7.8 = {
+		holder = 71909
+	}
+	883.1.1 = {
+		holder = 71903
+	}
+	894.12.12 = {
+		holder = 71904
+	}
+	898.10.15 = {
+		holder = 71911
+	}
+	899.1.1 = {
+		holder = 7918
+	}
+	922.1.1 = {
+		holder = 7919
+	}
+	943.1.1 = {
+		holder = 7924
+	}
+	989.1.1 = {
+		holder = 7925
+	}
+	1043.1.1 = {
+		holder = 7756
+	}
+	1052.5.6 = {
+		holder = 7758
+	}
+	1057.1.1 = {
+		holder = 7757
+	}
+	1060.1.1 = {
+		holder = 7804
+	}
+	1082.1.1 = {
+		holder = 73471
+	}
+	1086.1.1 = {
+		holder = 7757
+	}
+	1093.1.1 = {
+		holder = 30657
+	}
+	1120.1.1 = {
+		holder = 33466
+	}
+	1127.1.1 = {
+		holder = 30219
+	}
+	1135.1.1 = {
+		holder = 212996
+	}
+	1137.1.1 = {
+		holder = 212602
+	}
+	1139.10.20 = {
+		holder = 73405
+	}
+	1140.1.1 = {
+		liege = k_sicily
+	}
+	1140.1.1 = {
+		holder = 73478
+	}
+	1145.1.1 = {
+		holder = 73479
+	}
+	1146.1.1 = {
+		holder = 73480
+	}
+	1155.1.1 = {
+		holder = 73481
+	}
+	1170.1.1 = {
+		holder = 73482
+	}
+	1178.1.1 = {
+		holder = 71810 # Pope Alexander III
+	}
+	1179.1.1 = {
+		holder = 73483
+	}
+	1225.1.1 = {
+		holder = 73484
+	}
+	1254.1.1 = {
+		holder = 73485
+	}
+	1280.1.1 = {
+		holder = 73486
+	}
+	1295.1.1 = {
+		holder = 73487
+	}
+	1300.1.1 = {
+		holder = 73488
+	}
+	1302.1.1 = {
+		holder = 73489
+	}
+	1302.8.31 = {
+		liege = k_naples
+	}
+	1303.1.1 = {
+		holder = 73490
+	}
+	1331.1.1 = {
+		holder = 73491
+	}
+	##
+	1450.1.1 = {
+		holder = Napoleone_Orsini
+		government = feudal_government
+		liege = k_papal_state
+	}
+	1480.9.7 = {
+		holder = Virginio_Orsini
+		liege = k_papal_state
+	}
+	1485.1.1 = {
+		holder = FranceschettoCybo
+		liege = k_papal_state
+		de_jure_liege = k_papal_state 
+	}
+}
+
+d_latium = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	1178.1.1 = { change_development_level = 19 }
+	1454.1.1 = { change_development_level = 48 }
+	1466.1.1 = { change_development_level = 50 }
+	1488.1.1 = { change_development_level = 52 }
+}
+
+c_roma = {
+	867.1.1 = { change_development_level = 25 }
+	1066.1.1 = { change_development_level = 30 }
+	1178.1.1 = { change_development_level = 34 }
+	1454.1.1 = { change_development_level = 56 }
+	1466.1.1 = { change_development_level = 59 }
+	1477.1.1 = { change_development_level = 61 }
+	1488.1.1 = { change_development_level = 63 }
+	
+	42.1.1 = {
+		holder = 145292
+	} # Peter's first visit to Rome
+	
+	64.10.13 = {
+		holder = 145291
+	}
+	79.1.1 = {
+		holder = 7615
+	}
+	92.1.1 = {
+		holder = 7614
+	}
+	99.1.1 = {
+		holder = 7613
+	}
+	107.1.1 = {
+		holder = 7612
+	}
+	115.1.1 = {
+		holder = 7611
+	}
+	125.1.1 = {
+		holder = 7610
+	}
+	137.1.1 = {
+		holder = 7609
+	}
+	140.1.1 = {
+		holder = 7608
+	}
+	154.1.1 = {
+		holder = 7607
+	}
+	167.4.20 = {
+		holder = 7606
+	}
+	174.1.1 = {
+		holder = 7605
+	}
+	189.1.1 = {
+		holder = 7604
+	}
+	199.1.1 = {
+		holder = 7603
+	}
+	217.12.20 = {
+		holder = 7602
+	}
+	222.10.14 = {
+		holder = 7601
+	}
+	230.1.1 = {
+		holder = 7600
+	}
+	235.9.29 = {
+		holder = 7799
+	}
+	236.1.3 = {
+		holder = 7798
+	}
+	250.1.20 = {
+		holder = 7797
+	}
+	253.6.1 = {
+		holder = 7796
+	}
+	254.3.5 = {
+		holder = 7795
+	}
+	257.8.2 = {	
+		holder = 7794
+	}
+	258.8.6 = {
+		holder = 7793
+	}
+	268.12.26 = {
+		holder = 7792
+	}
+	274.12.30 = {
+		holder = 7791
+	}
+	283.7.12 = {
+		holder = 7790
+	}
+	296.4.22 = {
+		holder = 7789
+	}
+	304.4.1 = {
+		holder = 7787
+	}
+	309.1.16 = {
+		holder = 7786
+	}
+	310.8.17 = {
+		holder = 7785
+	}
+	314.1.10 = {
+		holder = 7784
+	}
+	335.12.31 = {
+		holder = 7783
+	}
+	336.10.7 = {
+		holder = 7782
+	}
+	352.4.12 = {
+		holder = 7781
+	}
+	366.9.24 = {
+		holder = 7780
+	}
+	384.12.11 = {
+		holder = 7779
+	}
+	399.11.26 = {
+		holder = 7778
+	}
+	401.11.27 = {
+		holder = 7777
+	}
+	417.3.12 = {
+		holder = 7776
+	}
+	418.12.26 = {
+		holder = 7775
+	}
+	422.9.4 = {
+		holder = 7774
+	}
+	432.4.6 = {
+		holder = 7773
+	}
+	440.8.18 = {
+		holder = 7772
+	}
+	461.11.10 = {
+		holder = 7771
+	}
+	468.2.28 = {
+		holder = 7770
+	}
+	483.3.10 = {
+		holder = 7769
+	}
+	492.1.1 = {
+		holder = 7768
+	}
+	496.11.21 = {
+		holder = 7767
+	}
+	498.11.19 = {
+		holder = 7766
+	}
+	514.7.19 = {
+		holder = 7765
+	}
+	523.8.6 = {
+		holder = 7763
+	}
+	526.5.18 = {
+		holder = 7762
+	}
+	530.1.1 = {
+		holder = 7761
+	}
+	532.1.1 = {
+		holder = 7760
+	}
+	535.5.8 = {
+		holder = 7759
+	}
+	536.4.22 = {
+		holder = 7764
+	}
+	536.6.8 = {
+		holder = 7900
+	}
+	555.6.7 = {
+		holder = 7899
+	}
+	561.3.4 = {
+		holder = 7898
+	}
+	574.7.13 = {
+		holder = 7897
+	}
+	579.7.20 = {
+		holder = 7896
+	}
+	590.1.1 = {
+		holder = 7893
+	}
+	604.3.15 = {
+		holder = 7892
+	}
+	606.2.22 = {
+		holder = 7891
+	}
+	607.11.12 = {
+		holder = 7890
+	}
+	615.5.25 = {
+		holder = 7889
+	}
+	618.11.8 = {
+		holder = 7888
+	}
+	625.10.25 = {
+		holder = 7887
+	}
+	638.10.12 = {
+		holder = 7886
+	}
+	640.8.2 = {
+		holder = 7885
+	}
+	642.10.12 = {
+		holder = 7884
+	}
+	649.5.14 = {
+		holder = 7883
+	}
+	653.7.17 = {
+		holder = 7882
+	}
+	657.6.1 = {
+		holder = 7881
+	}
+	672.1.27 = {
+		holder = 7880
+	}
+	676.6.17 = {
+		holder = 7879
+	}
+	678.4.11 = {
+		holder = 7878
+	}
+	681.1.10 = {
+		holder = 7877
+	}
+	683.6.28 = {
+		holder = 7876
+	}
+	685.5.8 = {
+		holder = 7875
+	}
+	686.8.2 = {
+		holder = 7874
+	}
+	687.9.21 = {
+		holder = 7873
+	}
+	701.9.8 = {
+		holder = 7872
+	}
+	705.1.11 = {
+		holder = 7871
+	}
+	707.10.18 = {
+		holder = 7870
+	}
+	708.2.4 = {
+		holder = 7869
+	}
+	715.4.9 = {
+		holder = 7868
+	}
+	731.2.11 = {
+		holder = 7867
+	}
+	741.11.28 = {
+		holder = 7866
+	}
+	752.3.22 = {
+		holder = 7895
+	}
+	757.4.29 = {
+		liege = "k_papal_state"
+		holder = 7865
+	}
+	767.6.28 = {
+		holder = 7864
+	}
+	772.1.24 = {
+		holder = 7863
+	}
+	795.12.25 = {
+		holder = 7862
+	}
+	816.6.12 = {
+		holder = 7861
+	}
+	817.1.24 = {
+		holder = 7860
+	}
+	824.2.11 = {
+		holder = 7859
+	}
+	827.8.27 = {
+		holder = 7858
+	}
+	827.9.16 = {
+		holder = 7857
+	}
+	844.1.11 = {
+		holder = 7856
+	}
+	847.1.24 = {
+		holder = 7855
+	}
+	855.7.17 = {
+		holder = 7854
+	}
+	858.4.17 = {
+		holder = 7853
+	}
+	867.11.13 = {
+		holder = 7852
+	}
+	872.12.14 = {
+		holder = 7851
+	}
+	882.12.16 = {
+		holder = 7850
+	}
+	884.5.15 = {
+		holder = 7849
+	}
+	885.9.1 = {
+		holder = 7848
+	}
+	891.9.14 = {
+		holder = 7847
+	}
+	896.4.4 = {
+		holder = 7846
+	}
+	896.5.1 = {
+		holder = 7845
+	}
+	897.8.1 = {
+		holder = 7844
+	}
+	897.11.1 = {
+		holder = 7843
+	}
+	897.12.1 = {
+		holder = 7842
+	}
+	900.1.1 = {
+		holder = 7841
+	}
+	903.7.1 = {
+		holder = 7840
+	}
+	903.9.1 = {
+		holder = 7916
+	}
+	911.4.14 = {
+		holder = 7839
+	}
+	913.7.1 = {
+		holder = 7838
+	}
+	914.3.1 = {
+		holder = 7837
+	}
+	928.5.1 = {
+		holder = 7836
+	}
+	929.1.1 = {
+		holder = 7835
+	}
+	931.3.15 = {
+		holder = 7917
+	}
+	935.12.1 = {
+		holder = 7834
+	}
+	939.7.13 = {
+		holder = 7833
+	}
+	942.10.1 = {
+		holder = 7832
+	}
+	946.5.1 = {
+		holder = 7831
+	}
+	955.12.16 = {
+		holder = 7931
+	}
+	964.4.14 = {
+		holder = 7830
+	}
+	964.6.23 = {
+		holder = 7829
+	}
+	965.3.1 = {
+		holder = 7828
+	}
+	972.9.6 = {
+		holder = 7827
+	}
+	974.7.1 = {
+		holder = 7930
+	}
+	983.7.10 = {
+		holder = 7826
+	}
+	984.8.20 = {
+		holder = 7825
+	}
+	996.5.3 = {
+		holder = 1318
+	}
+	999.2.18 = {
+		holder = 7824
+	}
+	1003.5.12 = {
+		holder = 7823
+	}
+	1003.12.6 = {
+		holder = 7822
+	}
+	1009.7.1 = {
+		holder = 7821
+	}
+	1012.5.12 = {
+		holder = 7933
+	}
+	1024.8.9 = {
+		holder = 7934
+	}
+	1032.10.1 = {
+		holder = 7937
+	}
+	1045.1.20 = {
+		holder = 7820
+	}
+	1045.2.10 = {
+		holder = 7937
+	}
+	1045.5.1 = {
+		holder = 7819
+	}
+	1046.12.20 = {
+		holder = 7818
+	}
+	1047.10.9 = {
+		holder = 7937
+	}
+	1048.7.17 = {
+		holder = 7817
+	}
+	1048.8.9 = {
+		holder = 1338
+	}
+	1054.4.19 = {
+		holder = 7894
+	}
+	1057.8.3 = {
+		holder = 11034
+	}
+	1058.3.29 = {
+		holder = 7940
+	}
+	1061.7.27 = {
+		holder = 2008
+	}
+	1073.4.21 = {
+		holder = 2010
+	}
+	1085.5.25 = {
+		holder = 2012
+	}
+	1087.9.16 = {
+		holder = 2013
+	}
+	1099.7.29 = {
+		holder = 2014
+	}
+	1118.1.21 = {
+		holder = 2017
+	}
+	1119.1.28 = {
+		holder = 294
+	}
+	1124.12.13 = {
+		holder = 2021
+	}
+	1130.2.13 = {
+		holder = 71800
+	}
+	1143.9.24 = {
+		holder = 71805
+	}
+	1144.3.8 = {
+		holder = 71806
+	}
+	1145.2.15 = {
+		holder = 71807
+	}
+	1145.10.1 = {
+		holder = 213016
+		liege = e_hre
+	}
+	1148.1.1 = {
+		holder = 413016
+	}
+	1155.1.1 = {
+		holder = 71809
+		liege = k_papal_state
+	}
+	1159.9.1 = {
+		holder = 71810
+	}
+	1181.8.30 = {
+		holder = 71811
+	}
+	1185.5.25 = {
+		holder = 223754
+	}
+	1187.10.20 = {
+		holder = 71812
+	}
+	1187.12.17 = {
+		holder = 71813
+	}
+	1190.1.1 = {
+		holder = 220330
+		liege = e_hre
+	}
+	1193.1.1 = {
+		holder = 70841
+		liege = k_papal_state
+	}
+	1198.1.8 = {
+		holder = 71814
+	}
+	1216.7.16 = {
+		holder = 71820
+	}
+	1227.3.18 = {
+		holder = 71821
+	}
+	1228.1.1 = {
+		#REMOVE BEFORE RELEASE
+		#liege = d_spoleto
+	}
+	1241.8.22 = {
+		holder = 71822
+	}
+	1241.11.10 = {
+		holder = 71823
+	}
+	1254.12.7 = {
+		holder = 71824
+	}
+	1261.5.25 = {
+		holder = 71825
+	}
+	1264.10.2 = {
+		holder = 71826
+	}
+	1268.11.29 = {
+		holder = 70785
+	}
+	1276.1.10 = {
+		holder = 71827
+	}
+	1276.6.22 = {
+		holder = 71829
+	}
+	1276.8.18 = {
+		holder = 71830
+	}
+	1277.5.20 = {
+		holder = 70851
+	}
+	1280.8.22 = {
+		holder = 71831
+	}
+	1285.3.28 = {
+		holder = 71832
+	}
+	1287.4.3 = {
+		holder = 71833
+	}
+	1292.4.4 = {
+		holder = 71834
+	}
+	1294.12.13 = {
+		holder = 71835
+	}
+	1303.10.11 = {
+		holder = 71836
+	}
+	1304.7.7 = {
+		holder = 71837
+	}
+	1314.4.20 = {
+		holder = 71838
+	}
+	1334.12.20 = {
+		holder = 478501
+	}
+	
+	##
+	#PAPY
+	1342.5.7 = {
+		holder = Papa_Clemens_6
+	}
+	1352.12.18 = {
+		holder = Papa_Innocentius6
+	}
+	1362.9.28 = {
+		holder = Papa_Urban_V
+	}
+	1370.12.30 = {
+		holder = Papa_Gregorius_XI
+	}
+	1378.4.9 = {
+		holder = Papa_Urbanus_6
+	}
+	1389.11.2 = {
+		holder = Papa_Bonifacius9
+	}
+	1404.10.17 = {
+		holder = Papa_Innocentius7
+	}
+	1417.11.11 = {
+		holder = Papa_Martinus_5_Colonna
+	}
+	1431.2.20 = {
+		holder = papaEvgenIV
+	}
+	1447.2.23 = {
+		holder = papaNikV
+	}
+	1455.1.10 = {
+		holder = PapaKalikst3Borj
+	}
+	1458.8.6 = {
+		holder = PapaPiy2
+	}
+	1464.8.30 = {
+		holder = PapaPavel2
+	}
+	1471.8.9 = {
+		holder = PapaSixtusIV
+	}
+	1484.8.29 = {
+		holder = PapaInnocentius8
+	}
+	1492.2.9 = {
+		holder = PapaRodrigoBorj
+	}
+	1503.9.22 = {
+		holder = Francesco_PapaPius3 #de-jure s 1503.9.22
+	}
+	1523.11.19 = {
+		holder = Giulio_Medici_Clemens7 #de-jure s 1523.11.19
+	}
+	1534.10.13 = {
+		holder = Papa_Paulus_3_Farnese #de-jure s 1534.10.13
+	}
+}
+
+
+c_viterbo = {
+	42.1.1 = {
+	 holder = 145292
+	} # Peter's first visit to Rome
+	
+	64.10.13 = {
+	 holder = 145291
+	}
+	79.1.1 = {
+		holder = 7615
+	}
+	92.1.1 = {
+		holder = 7614
+	}
+	99.1.1 = {
+		holder = 7613
+	}
+	107.1.1 = {
+		holder = 7612
+	}
+	115.1.1 = {
+		holder = 7611
+	}
+	125.1.1 = {
+		holder = 7610
+	}
+	137.1.1 = {
+		holder = 7609
+	}
+	140.1.1 = {
+		holder = 7608
+	}
+	154.1.1 = {
+		holder = 7607
+	}
+	167.4.20 = {
+		holder = 7606
+	}
+	174.1.1 = {
+		holder = 7605
+	}
+	189.1.1 = {
+		holder = 7604
+	}
+	199.1.1 = {
+		holder = 7603
+	}
+	217.12.20 = {
+		holder = 7602
+	}
+	222.10.14 = {
+		holder = 7601
+	}
+	230.1.1 = {
+		holder = 7600
+	}
+	235.9.29 = {
+		holder = 7799
+	}
+	236.1.3 = {
+		holder = 7798
+	}
+	250.1.20 = {
+		holder = 7797
+	}
+	253.6.1 = {
+		holder = 7796
+	}
+	254.3.5 = {
+		holder = 7795
+	}
+	257.8.2 = {	
+		holder = 7794
+	}
+	258.8.6 = {
+		holder = 7793
+	}
+	268.12.26 = {
+		holder = 7792
+	}
+	274.12.30 = {
+		holder = 7791
+	}
+	283.7.12 = {
+		holder = 7790
+	}
+	296.4.22 = {
+		holder = 7789
+	}
+	304.4.1 = {
+		holder = 7787
+	}
+	309.1.16 = {
+		holder = 7786
+	}
+	310.8.17 = {
+		holder = 7785
+	}
+	314.1.10 = {
+		holder = 7784
+	}
+	335.12.31 = {
+		holder = 7783
+	}
+	336.10.7 = {
+		holder = 7782
+	}
+	352.4.12 = {
+		holder = 7781
+	}
+	366.9.24 = {
+		holder = 7780
+	}
+	384.12.11 = {
+		holder = 7779
+	}
+	399.11.26 = {
+		holder = 7778
+	}
+	401.11.27 = {
+		holder = 7777
+	}
+	417.3.12 = {
+		holder = 7776
+	}
+	418.12.26 = {
+		holder = 7775
+	}
+	422.9.4 = {
+		holder = 7774
+	}
+	432.4.6 = {
+		holder = 7773
+	}
+	440.8.18 = {
+		holder = 7772
+	}
+	461.11.10 = {
+		holder = 7771
+	}
+	468.2.28 = {
+		holder = 7770
+	}
+	483.3.10 = {
+		holder = 7769
+	}
+	492.1.1 = {
+		holder = 7768
+	}
+	496.11.21 = {
+		holder = 7767
+	}
+	498.11.19 = {
+		holder = 7766
+	}
+	514.7.19 = {
+		holder = 7765
+	}
+	523.8.6 = {
+		holder = 7763
+	}
+	526.5.18 = {
+		holder = 7762
+	}
+	530.1.1 = {
+		holder = 7761
+	}
+	532.1.1 = {
+		holder = 7760
+	}
+	535.5.8 = {
+		holder = 7759
+	}
+	536.4.22 = {
+		holder = 7764
+	}
+	536.6.8 = {
+		holder = 7900
+	}
+	555.6.7 = {
+		holder = 7899
+	}
+	561.3.4 = {
+		holder = 7898
+	}
+	574.7.13 = {
+		holder = 7897
+	}
+	579.7.20 = {
+		holder = 7896
+	}
+	590.1.1 = {
+		holder = 7893
+	}
+	604.3.15 = {
+		holder = 7892
+	}
+	606.2.22 = {
+		holder = 7891
+	}
+	607.11.12 = {
+		holder = 7890
+	}
+	615.5.25 = {
+		holder = 7889
+	}
+	618.11.8 = {
+		holder = 7888
+	}
+	625.10.25 = {
+		holder = 7887
+	}
+	638.10.12 = {
+		holder = 7886
+	}
+	640.8.2 = {
+		holder = 7885
+	}
+	642.10.12 = {
+		holder = 7884
+	}
+	649.5.14 = {
+		holder = 7883
+	}
+	653.7.17 = {
+		holder = 7882
+	}
+	657.6.1 = {
+		holder = 7881
+	}
+	672.1.27 = {
+		holder = 7880
+	}
+	676.6.17 = {
+		holder = 7879
+	}
+	678.4.11 = {
+		holder = 7878
+	}
+	681.1.10 = {
+		holder = 7877
+	}
+	683.6.28 = {
+		holder = 7876
+	}
+	685.5.8 = {
+		holder = 7875
+	}
+	686.8.2 = {
+		holder = 7874
+	}
+	687.9.21 = {
+		holder = 7873
+	}
+	701.9.8 = {
+		holder = 7872
+	}
+	705.1.11 = {
+		holder = 7871
+	}
+	707.10.18 = {
+		holder = 7870
+	}
+	708.2.4 = {
+		holder = 7869
+	}
+	715.4.9 = {
+		holder = 7868
+	}
+	731.2.11 = {
+		holder = 7867
+	}
+	741.11.28 = {
+		holder = 7866
+	}
+	752.3.22 = {
+		holder = 7895
+	}
+	757.4.29 = {
+		liege = "k_papal_state"
+		holder = 7865
+	}
+	767.6.28 = {
+		holder = 7864
+	}
+	772.1.24 = {
+		holder = 7863
+	}
+	795.12.25 = {
+		holder = 7862
+	}
+	816.6.12 = {
+		holder = 7861
+	}
+	817.1.24 = {
+		holder = 7860
+	}
+	824.2.11 = {
+		holder = 7859
+	}
+	827.8.27 = {
+		holder = 7858
+	}
+	827.9.16 = {
+		holder = 7857
+	}
+	844.1.11 = {
+		holder = 7856
+	}
+	847.1.24 = {
+		holder = 7855
+	}
+	855.7.17 = {
+		holder = 7854
+	}
+	858.4.17 = {
+		holder = 7853
+	}
+	867.11.13 = {
+		holder = 7852
+	}
+	872.12.14 = {
+		holder = 7851
+	}
+	882.12.16 = {
+		holder = 7850
+	}
+	884.5.15 = {
+		holder = 7849
+	}
+	885.9.1 = {
+		holder = 7848
+	}
+	891.9.14 = {
+		holder = 7847
+	}
+	896.4.4 = {
+		holder = 7846
+	}
+	896.5.1 = {
+		holder = 7845
+	}
+	897.8.1 = {
+		holder = 7844
+	}
+	897.11.1 = {
+		holder = 7843
+	}
+	897.12.1 = {
+		holder = 7842
+	}
+	900.1.1 = {
+		holder = 7841
+	}
+	903.7.1 = {
+		holder = 7840
+	}
+	903.9.1 = {
+		holder = 7916
+	}
+	911.4.14 = {
+		holder = 7839
+	}
+	913.7.1 = {
+		holder = 7838
+	}
+	914.3.1 = {
+		holder = 7837
+	}
+	928.5.1 = {
+		holder = 7836
+	}
+	929.1.1 = {
+		holder = 7835
+	}
+	931.3.15 = {
+		holder = 7917
+	}
+	935.12.1 = {
+		holder = 7834
+	}
+	939.7.13 = {
+		holder = 7833
+	}
+	942.10.1 = {
+		holder = 7832
+	}
+	946.5.1 = {
+		holder = 7831
+	}
+	955.12.16 = {
+		holder = 7931
+	}
+	964.4.14 = {
+		holder = 7830
+	}
+	964.6.23 = {
+		holder = 7829
+	}
+	965.3.1 = {
+		holder = 7828
+	}
+	972.9.6 = {
+		holder = 7827
+	}
+	974.7.1 = {
+		holder = 7930
+	}
+	983.7.10 = {
+		holder = 7826
+	}
+	984.8.20 = {
+		holder = 7825
+	}
+	996.5.3 = {
+		holder = 1318
+	}
+	999.2.18 = {
+		holder = 7824
+	}
+	1003.5.12 = {
+		holder = 7823
+	}
+	1003.12.6 = {
+		holder = 7822
+	}
+	1009.7.1 = {
+		holder = 7821
+	}
+	1012.5.12 = {
+		holder = 7933
+	}
+	1024.8.9 = {
+		holder = 7934
+	}
+	1032.10.1 = {
+		holder = 7937
+	}
+	1045.1.20 = {
+		holder = 7820
+	}
+	1045.2.10 = {
+		holder = 7937
+	}
+	1045.5.1 = {
+		holder = 7819
+	}
+	1046.12.20 = {
+		holder = 7818
+	}
+	1047.10.9 = {
+		holder = 7937
+	}
+	1048.7.17 = {
+		holder = 7817
+	}
+	1048.8.9 = {
+		holder = 1338
+	}
+	1054.4.19 = {
+		holder = 7894
+	}
+	1057.8.3 = {
+		holder = 11034
+	}
+	1058.3.29 = {
+		holder = 7940
+	}
+	1061.7.27 = {
+		holder = 2008
+	}
+	1073.4.21 = {
+		holder = 2010
+	}
+	1085.5.25 = {
+		holder = 2012
+	}
+	1087.9.16 = {
+		holder = 2013
+	}
+	1099.7.29 = {
+		holder = 2014
+	}
+	1118.1.21 = {
+		holder = 2017
+	}
+	1119.1.28 = {
+		holder = 294
+	}
+	1124.12.13 = {
+		holder = 2021
+	}
+	1130.2.13 = {
+		holder = 71800
+	}
+	1143.9.24 = {
+		holder = 71805
+	}
+	1144.3.8 = {
+		holder = 71806
+	}
+	1145.2.15 = {
+		holder = 71807
+	}
+	1145.10.1 = {
+		holder = 213016
+		liege = e_hre
+	}
+	1148.1.1 = {
+		holder = 413016
+	}
+	1155.1.1 = {
+		holder = 71809
+		liege = k_papal_state
+	}
+	1159.9.1 = {
+		holder = 71810
+	}
+	1181.8.30 = {
+		holder = 71811
+	}
+	1185.5.25 = {
+		holder = 223754
+	}
+	1187.10.20 = {
+		holder = 71812
+	}
+	1187.12.17 = {
+		holder = 71813
+	}
+	1190.1.1 = {
+		holder = 220330
+		liege = e_hre
+	}
+	1193.1.1 = {
+		holder = 70841
+		liege = k_papal_state
+	}
+	1198.1.8 = {
+		holder = 71814
+	}
+	1216.7.16 = {
+		holder = 71820
+	}
+	1227.3.18 = {
+		holder = 71821
+	}
+	1228.1.1 = {
+		#REMOVE BEFORE RELEASE
+		#liege = d_spoleto
+	}
+	1241.8.22 = {
+		holder = 71822
+	}
+	1241.11.10 = {
+		holder = 71823
+	}
+	1254.12.7 = {
+		holder = 71824
+	}
+	1261.5.25 = {
+		holder = 71825
+	}
+	1264.10.2 = {
+		holder = 71826
+	}
+	1268.11.29 = {
+		holder = 70785
+	}
+	1276.1.10 = {
+		holder = 71827
+	}
+	1276.6.22 = {
+		holder = 71829
+	}
+	1276.8.18 = {
+		holder = 71830
+	}
+	1277.5.20 = {
+		holder = 70851
+	}
+	1280.8.22 = {
+		holder = 71831
+	}
+	1285.3.28 = {
+		holder = 71832
+	}
+	1287.4.3 = {
+		holder = 71833
+	}
+	1292.4.4 = {
+		holder = 71834
+	}
+	1294.12.13 = {
+		holder = 71835
+	}
+	1303.10.11 = {
+		holder = 71836
+	}
+	1304.7.7 = {
+		holder = 71837
+	}
+	1314.4.20 = {
+		holder = 71838
+	}
+	1334.12.20 = {
+		holder = 478501
+	}
+	##
+	#PAPY
+	1342.5.7 = {
+		holder = Papa_Clemens_6
+		liege = k_papal_state
+	}
+	1352.12.18 = {
+		holder = Papa_Innocentius6
+	}
+	1362.9.28 = {
+		holder = Papa_Urban_V
+	}
+	1370.12.30 = {
+		holder = Papa_Gregorius_XI
+	}
+	1378.4.9 = {
+		holder = Papa_Urbanus_6
+	}
+	1389.11.2 = {
+		holder = Papa_Bonifacius9
+	}
+	1404.10.17 = {
+		holder = Papa_Innocentius7
+	}
+	1417.11.11 = {
+		holder = Papa_Martinus_5_Colonna
+	}
+	1431.2.20 = {
+		holder = papaEvgenIV
+	}
+	1447.2.23 = {
+		holder = papaNikV
+	}
+	1455.1.10 = {
+		holder = PapaKalikst3Borj
+	}
+	1458.8.6 = {
+		holder = PapaPiy2
+	}
+	1464.8.30 = {
+		holder = PapaPavel2
+	}
+	1471.8.9 = {
+		holder = PapaSixtusIV
+	}
+	1484.8.29 = {
+		holder = PapaInnocentius8
+	}
+	1492.2.9 = {
+		holder = PapaRodrigoBorj
+	}
+}
+
+
+c_tivoli = {
+	42.1.1 = {
+	 holder = 145292
+	} # Peter's first visit to Rome
+	
+	64.10.13 = {
+	 holder = 145291
+	}
+	79.1.1 = {
+		holder = 7615
+	}
+	92.1.1 = {
+		holder = 7614
+	}
+	99.1.1 = {
+		holder = 7613
+	}
+	107.1.1 = {
+		holder = 7612
+	}
+	115.1.1 = {
+		holder = 7611
+	}
+	125.1.1 = {
+		holder = 7610
+	}
+	137.1.1 = {
+		holder = 7609
+	}
+	140.1.1 = {
+		holder = 7608
+	}
+	154.1.1 = {
+		holder = 7607
+	}
+	167.4.20 = {
+		holder = 7606
+	}
+	174.1.1 = {
+		holder = 7605
+	}
+	189.1.1 = {
+		holder = 7604
+	}
+	199.1.1 = {
+		holder = 7603
+	}
+	217.12.20 = {
+		holder = 7602
+	}
+	222.10.14 = {
+		holder = 7601
+	}
+	230.1.1 = {
+		holder = 7600
+	}
+	235.9.29 = {
+		holder = 7799
+	}
+	236.1.3 = {
+		holder = 7798
+	}
+	250.1.20 = {
+		holder = 7797
+	}
+	253.6.1 = {
+		holder = 7796
+	}
+	254.3.5 = {
+		holder = 7795
+	}
+	257.8.2 = {	
+		holder = 7794
+	}
+	258.8.6 = {
+		holder = 7793
+	}
+	268.12.26 = {
+		holder = 7792
+	}
+	274.12.30 = {
+		holder = 7791
+	}
+	283.7.12 = {
+		holder = 7790
+	}
+	296.4.22 = {
+		holder = 7789
+	}
+	304.4.1 = {
+		holder = 7787
+	}
+	309.1.16 = {
+		holder = 7786
+	}
+	310.8.17 = {
+		holder = 7785
+	}
+	314.1.10 = {
+		holder = 7784
+	}
+	335.12.31 = {
+		holder = 7783
+	}
+	336.10.7 = {
+		holder = 7782
+	}
+	352.4.12 = {
+		holder = 7781
+	}
+	366.9.24 = {
+		holder = 7780
+	}
+	384.12.11 = {
+		holder = 7779
+	}
+	399.11.26 = {
+		holder = 7778
+	}
+	401.11.27 = {
+		holder = 7777
+	}
+	417.3.12 = {
+		holder = 7776
+	}
+	418.12.26 = {
+		holder = 7775
+	}
+	422.9.4 = {
+		holder = 7774
+	}
+	432.4.6 = {
+		holder = 7773
+	}
+	440.8.18 = {
+		holder = 7772
+	}
+	461.11.10 = {
+		holder = 7771
+	}
+	468.2.28 = {
+		holder = 7770
+	}
+	483.3.10 = {
+		holder = 7769
+	}
+	492.1.1 = {
+		holder = 7768
+	}
+	496.11.21 = {
+		holder = 7767
+	}
+	498.11.19 = {
+		holder = 7766
+	}
+	514.7.19 = {
+		holder = 7765
+	}
+	523.8.6 = {
+		holder = 7763
+	}
+	526.5.18 = {
+		holder = 7762
+	}
+	530.1.1 = {
+		holder = 7761
+	}
+	532.1.1 = {
+		holder = 7760
+	}
+	535.5.8 = {
+		holder = 7759
+	}
+	536.4.22 = {
+		holder = 7764
+	}
+	536.6.8 = {
+		holder = 7900
+	}
+	555.6.7 = {
+		holder = 7899
+	}
+	561.3.4 = {
+		holder = 7898
+	}
+	574.7.13 = {
+		holder = 7897
+	}
+	579.7.20 = {
+		holder = 7896
+	}
+	590.1.1 = {
+		holder = 7893
+	}
+	604.3.15 = {
+		holder = 7892
+	}
+	606.2.22 = {
+		holder = 7891
+	}
+	607.11.12 = {
+		holder = 7890
+	}
+	615.5.25 = {
+		holder = 7889
+	}
+	618.11.8 = {
+		holder = 7888
+	}
+	625.10.25 = {
+		holder = 7887
+	}
+	638.10.12 = {
+		holder = 7886
+	}
+	640.8.2 = {
+		holder = 7885
+	}
+	642.10.12 = {
+		holder = 7884
+	}
+	649.5.14 = {
+		holder = 7883
+	}
+	653.7.17 = {
+		holder = 7882
+	}
+	657.6.1 = {
+		holder = 7881
+	}
+	672.1.27 = {
+		holder = 7880
+	}
+	676.6.17 = {
+		holder = 7879
+	}
+	678.4.11 = {
+		holder = 7878
+	}
+	681.1.10 = {
+		holder = 7877
+	}
+	683.6.28 = {
+		holder = 7876
+	}
+	685.5.8 = {
+		holder = 7875
+	}
+	686.8.2 = {
+		holder = 7874
+	}
+	687.9.21 = {
+		holder = 7873
+	}
+	701.9.8 = {
+		holder = 7872
+	}
+	705.1.11 = {
+		holder = 7871
+	}
+	707.10.18 = {
+		holder = 7870
+	}
+	708.2.4 = {
+		holder = 7869
+	}
+	715.4.9 = {
+		holder = 7868
+	}
+	731.2.11 = {
+		holder = 7867
+	}
+	741.11.28 = {
+		holder = 7866
+	}
+	752.3.22 = {
+		holder = 7895
+	}
+	757.4.29 = {
+		liege = "k_papal_state"
+		holder = 7865
+	}
+	767.6.28 = {
+		holder = 7864
+	}
+	772.1.24 = {
+		holder = 7863
+	}
+	795.12.25 = {
+		holder = 7862
+	}
+	816.6.12 = {
+		holder = 7861
+	}
+	817.1.24 = {
+		holder = 7860
+	}
+	824.2.11 = {
+		holder = 7859
+	}
+	827.8.27 = {
+		holder = 7858
+	}
+	827.9.16 = {
+		holder = 7857
+	}
+	844.1.11 = {
+		holder = 7856
+	}
+	847.1.24 = {
+		holder = 7855
+	}
+	855.7.17 = {
+		holder = 7854
+	}
+	858.4.17 = {
+		holder = 7853
+	}
+	867.11.13 = {
+		holder = 7852
+	}
+	872.12.14 = {
+		holder = 7851
+	}
+	882.12.16 = {
+		holder = 7850
+	}
+	884.5.15 = {
+		holder = 7849
+	}
+	885.9.1 = {
+		holder = 7848
+	}
+	891.9.14 = {
+		holder = 7847
+	}
+	896.4.4 = {
+		holder = 7846
+	}
+	896.5.1 = {
+		holder = 7845
+	}
+	897.8.1 = {
+		holder = 7844
+	}
+	897.11.1 = {
+		holder = 7843
+	}
+	897.12.1 = {
+		holder = 7842
+	}
+	900.1.1 = {
+		holder = 7841
+	}
+	903.7.1 = {
+		holder = 7840
+	}
+	903.9.1 = {
+		holder = 7916
+	}
+	911.4.14 = {
+		holder = 7839
+	}
+	913.7.1 = {
+		holder = 7838
+	}
+	914.3.1 = {
+		holder = 7837
+	}
+	928.5.1 = {
+		holder = 7836
+	}
+	929.1.1 = {
+		holder = 7835
+	}
+	931.3.15 = {
+		holder = 7917
+	}
+	935.12.1 = {
+		holder = 7834
+	}
+	939.7.13 = {
+		holder = 7833
+	}
+	942.10.1 = {
+		holder = 7832
+	}
+	946.5.1 = {
+		holder = 7831
+	}
+	955.12.16 = {
+		holder = 7931
+	}
+	964.4.14 = {
+		holder = 7830
+	}
+	964.6.23 = {
+		holder = 7829
+	}
+	965.3.1 = {
+		holder = 7828
+	}
+	972.9.6 = {
+		holder = 7827
+	}
+	974.7.1 = {
+		holder = 7930
+	}
+	983.7.10 = {
+		holder = 7826
+	}
+	984.8.20 = {
+		holder = 7825
+	}
+	996.5.3 = {
+		holder = 1318
+	}
+	999.2.18 = {
+		holder = 7824
+	}
+	1003.5.12 = {
+		holder = 7823
+	}
+	1003.12.6 = {
+		holder = 7822
+	}
+	1009.7.1 = {
+		holder = 7821
+	}
+	1012.5.12 = {
+		holder = 7933
+	}
+	1024.8.9 = {
+		holder = 7934
+	}
+	1032.10.1 = {
+		holder = 7937
+	}
+	1045.1.20 = {
+		holder = 7820
+	}
+	1045.2.10 = {
+		holder = 7937
+	}
+	1045.5.1 = {
+		holder = 7819
+	}
+	1046.12.20 = {
+		holder = 7818
+	}
+	1047.10.9 = {
+		holder = 7937
+	}
+	1048.7.17 = {
+		holder = 7817
+	}
+	1048.8.9 = {
+		holder = 1338
+	}
+	1054.4.19 = {
+		holder = 7894
+	}
+	1057.8.3 = {
+		holder = 11034
+	}
+	1058.3.29 = {
+		holder = 7940
+	}
+	1061.7.27 = {
+		holder = 2008
+	}
+	1073.4.21 = {
+		holder = 2010
+	}
+	1085.5.25 = {
+		holder = 2012
+	}
+	1087.9.16 = {
+		holder = 2013
+	}
+	1099.7.29 = {
+		holder = 2014
+	}
+	1118.1.21 = {
+		holder = 2017
+	}
+	1119.1.28 = {
+		holder = 294
+	}
+	1124.12.13 = {
+		holder = 2021
+	}
+	1130.2.13 = {
+		holder = 71800
+	}
+	1143.9.24 = {
+		holder = 71805
+	}
+	1144.3.8 = {
+		holder = 71806
+	}
+	1145.2.15 = {
+		holder = 71807
+	}
+	1145.10.1 = {
+		holder = 213016
+		liege = e_hre
+	}
+	1148.1.1 = {
+		holder = 413016
+	}
+	1155.1.1 = {
+		holder = 71809
+		liege = k_papal_state
+	}
+	1159.9.1 = {
+		holder = 71810
+	}
+	1178.1.1 = {
+		holder = 71815 # Ugolino di Conti
+	}
+	1181.8.30 = {
+		holder = 71811
+	}
+	1185.5.25 = {
+		holder = 223754
+	}
+	1187.10.20 = {
+		holder = 71812
+	}
+	1187.12.17 = {
+		holder = 71813
+	}
+	1190.1.1 = {
+		holder = 220330
+		liege = e_hre
+	}
+	1193.1.1 = {
+		holder = 70841
+		liege = k_papal_state
+	}
+	1198.1.8 = {
+		holder = 71814
+	}
+	1216.7.16 = {
+		holder = 71820
+	}
+	1227.3.18 = {
+		holder = 71821
+	}
+	1228.1.1 = {
+		#REMOVE BEFORE RELEASE
+		#liege = d_spoleto
+	}
+	1241.8.22 = {
+		holder = 71822
+	}
+	1241.11.10 = {
+		holder = 71823
+	}
+	1254.12.7 = {
+		holder = 71824
+	}
+	1261.5.25 = {
+		holder = 71825
+	}
+	1264.10.2 = {
+		holder = 71826
+	}
+	1268.11.29 = {
+		holder = 70785
+	}
+	1276.1.10 = {
+		holder = 71827
+	}
+	1276.6.22 = {
+		holder = 71829
+	}
+	1276.8.18 = {
+		holder = 71830
+	}
+	1277.5.20 = {
+		holder = 70851
+	}
+	1280.8.22 = {
+		holder = 71831
+	}
+	1285.3.28 = {
+		holder = 71832
+	}
+	1287.4.3 = {
+		holder = 71833
+	}
+	1292.4.4 = {
+		holder = 71834
+	}
+	1294.12.13 = {
+		holder = 71835
+	}
+	1303.10.11 = {
+		holder = 71836
+	}
+	1304.7.7 = {
+		holder = 71837
+	}
+	1314.4.20 = {
+		holder = 71838
+	}
+	1334.12.20 = {
+		holder = 478501
+	}
+	##
+	1447.1.1 = {
+		holder = papaNikV
+		liege = k_papal_state
+		government = theocracy_government
+	}
+	1450.1.1 = {
+		holder = LorenzoOFM
+		liege = "k_papal_state"
+	}
+	1471.9.4 = {
+		holder = Angelo_Lupi_ep
+		liege = "k_papal_state"
+	}
+	1484.8.30 = {
+		holder = PapaInnocentius8
+		liege = k_papal_state
+	}
+	1485.3.2 = {
+		holder = antonio_de_grassi
+		liege = k_papal_state
+	}
+}
+
+# NOVOE herzogstvo Urbino 1443-1631
+d_urbino = {
+	1443.2.21 = {
+		holder = Oddantonio_1HerUrbino
+		de_jure_liege = k_romagna
+		liege = k_papal_state
+		government = feudal_government
+	}
+	1444.7.22 = {
+		holder = Federico_da_Montefeltro
+	}
+	1482.9.10 = {
+		holder = Guidobaldo_da_Montefeltro #3 her Urbino
+	}
+}

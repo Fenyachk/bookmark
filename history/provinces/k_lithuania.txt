@@ -1,0 +1,568 @@
+﻿# 25-02-25
+#k_lithuania
+##d_lithuanians ###################################
+###c_kernave
+154 = {		#KERNAVE
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	1323.1.1 = {
+		holding = castle_holding
+		religion = orthodox
+	}
+}
+155 = {		#VILNIUS
+	holding = none
+	##
+	1323.1.1 = { holding = castle_holding }
+	1454.1.1 = {
+		buildings = { hunting_grounds_04 }
+	}
+}
+149 = {		#VILKMERGE
+	holding = none
+	## -1225/1333
+	1333.1.1 = { holding = church_holding }
+}
+165 = {		#KREVA
+	holding = none
+	##-Krevski zamok
+	1399.1.1 = { holding = city_holding }
+}
+
+###c_trakai
+153 = {		#TRAKAI
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+	1066.1.1 = {
+		buildings = {
+			war_camps_01
+		}
+	}
+	##
+	1337.1.1 = {
+		religion = orthodox
+		holding = castle_holding
+	}
+	1454.1.1 = {
+		buildings = { farm_estates_03 }
+	}
+}
+130 = {		#KAUNAS
+	holding = none
+	##
+	1361.1.1 = { holding = castle_holding }
+}
+160 = {		#MERKINE
+	holding = none
+	##
+	1410.1.1 = { holding = city_holding }
+}
+162 = {		#ALITEN
+	holding = none
+	##
+	1377.1.2 = { holding = church_holding }
+}
+159 = {		#VALKININKAI
+	holding = none
+	##
+	1418.1.2 = { holding = church_holding }
+}
+
+###c_yatvyagi
+156 = {		#PANEMUNE
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+	1290.1.1 = {
+		religion = catholic
+	}
+	##
+	# PANEMUNE kak gorod v 1920 osnovan
+	1470.1.1 = {
+		holding = castle_holding
+	}
+}
+158 = {		#VILKAVISKIS
+	holding = none
+	##  -1561
+}
+157 = {		#SUVALKAI
+	holding = none
+	##  -1690
+}
+163 = {		#SEJNY
+	holding = none
+	##  -1522
+}
+
+###c_braslau
+166 = {		#BRASLAU
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	1355.1.1 = { holding = castle_holding }
+	1388.1.1 = { religion = orthodox }
+}
+151 = {		#UTENA
+	holding = none
+	##
+	1261.1.1 = { holding = city_holding }
+}
+
+##d_prussia ###################################
+###c_malbork (c_pomesania)
+2835 = {	#TRUSO
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	1309.1.1 = {
+		holding = castle_holding
+		culture = franconian
+		religion = catholic
+	}
+	1454.1.1 = { culture = prussian_teutonic }
+}
+2834 = {	#MALBORK
+	holding = none
+	##
+	1309.1.1 = { holding = castle_holding }
+}
+3197 = {	#KWEDIS
+	holding = none
+	##
+	1309.1.1 = { holding = city_holding }
+}
+2831 = {	#WEIKSLA
+	holding = none
+	##
+	1400.1.1 = { holding = church_holding }
+}
+
+###c_wormditt (c_warmia)
+3220 = {	#WORMDETEN
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	# Orneta
+	1400.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+	#polskaya korona - Pruss souz
+	1454.1.1 = { culture = polish }
+}
+3201 = {	#MAURIN
+	holding = none
+	## Morong
+	1430.1.1 = { holding = castle_holding }
+}
+3217 = {	#BRUS
+	holding = none
+	## Branevo
+	1460.1.1 = { holding = city_holding }
+}
+
+###c_natangia
+3218 = {	#POKARWIS
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	1454.1.1 = {
+		holding = castle_holding
+		religion = catholic
+	}
+}
+3203 = {	#TAPIAU
+	holding = none
+	## perestroen v1347-1359
+	1347.1.1 = {
+		holding = castle_holding
+	}
+}
+3219 = {	#VELOWE
+	holding = none
+	## Velau-Znamensk, Kalin obl
+	1460.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_konigsberg (c_sambia)
+3216 = {	#TWANGSTE
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	867.1.1 = {
+		buildings = {
+			market_villages_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			market_villages_01
+			palisades_01
+		}
+	}
+	1255.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+	##
+	1260.1.1 = {
+		culture = franconian
+	}
+	1433.1.1 = { culture = prussian_teutonic }
+	1466.1.1 = {
+		buildings = {
+			curtain_walls_05
+			common_tradeport_03
+		}
+	}
+}
+122 = {		#KAUP
+	holding = none
+	##
+	1255.1.1 = { holding = church_holding }
+}
+
+###c_bartenstein (c_bartia)
+3204 = {	#LECBARG
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	## -Lidzbark Warmiński-Heilsberg
+	1244.12.12 = {
+		holding = castle_holding
+	}
+	1350.1.1 = {
+		religion = catholic
+	}
+}
+3205 = {	#LYNA
+	holding = none
+	##
+	1244.12.12 = {
+		holding = city_holding
+	}
+}
+3206 = {	#ISRUTIS
+	holding = none
+	## Isterburg v Chernyahovke, Kaliningr obl s 1336
+	1336.12.12 = { holding = castle_holding }
+}
+3207 = {	#AESTIA
+	holding = none
+	## Rastenburg - Kentshin
+	1329.12.12 = { holding = church_holding }
+}
+
+##d_masuria ###################################
+###c_torun (c_chelmno)
+3198 = {	#CHELMNO
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	## Helmno - Kulm
+	1232.1.1 = { holding = castle_holding }
+	1255.1.1 = {
+		religion = catholic
+		culture = saxon
+	}
+	1460.1.1 = {
+		culture = polish
+	}
+}
+3199 = {	#TORUN
+	holding = none
+	##
+	1233.1.1 = { holding = castle_holding }
+}
+3202 = {	#WABRZEZNO
+	holding = none
+	## Briesen
+	1251.1.1 = { holding = city_holding }
+}
+
+###c_osterode (c_sasna)
+3214 = {	#YLAVIA
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	1305.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+	1466.1.1 = { culture = polish }
+}
+3200 = {	#LUBAVIA
+	holding = none
+	## Strasburg = Brodnica
+	1263.1.1 = { holding = church_holding }
+}
+3213 = {	#DRWECA
+	holding = none
+	## Osterode zamok
+	1320.1.1 = { holding = castle_holding }
+}
+
+###c_allenstein (c_galindia)
+3212 = {	#ALNASTEINI
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	1334.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+	1400.1.1 = { culture = polish }
+}
+3211 = {	#SCTINO
+	holding = none
+	##
+	1359.1.1 = { holding = city_holding }
+}
+3215 = {	#NIDZIA
+	holding = none
+	##
+	1376.1.1 = { holding = church_holding }
+}
+
+###c_angerburg (c_sudovia)
+3208 = {	#RINS
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	# Letsten - Gizhitsko
+	1298.1.1 = {
+		holding = castle_holding
+	}
+	1340.1.1 = {
+		religion = catholic
+	}
+}
+3210 = {	#LUKS
+	holding = none
+}
+3209 = {	#ANGER
+	holding = none
+	## Vengorbork
+	1398.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_courland ###################################
+###c_zemigalians
+
+104 = {	# 104 - JURMALA
+
+	# Misc
+	culture = latgalian
+	religion = baltic_pagan
+	holding = tribal_holding
+	1199.1.1 = {
+		religion = catholic
+	}
+	##
+	1300.1.1 = { holding = castle_holding }
+	1480.1.1 = { culture = latysh }
+}
+106 = {		#DOBELE
+	holding = none
+	culture = latgalian
+	religion = baltic_pagan
+	1199.1.1 = {
+		religion = catholic
+	}
+}
+107 = {		#MITAU --Elgava, ordenski zamok
+	holding = none
+	1266.1.1 = {
+		holding = castle_holding
+	}
+}
+105 = {		#BAUSKA
+	holding = none
+	1451.1.1 = { holding = castle_holding } #zamok Bauska - 1451
+}
+121 = {		#NEUENBURG -- Yaunpils zamok s 1301
+	holding = none
+	1301.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_vanemane
+110 = {		#PILTENE -Pilten
+	culture = estonian
+	religion = finnish_pagan
+	holding = tribal_holding
+	1290.1.1 = {
+		religion = catholic
+	}
+	##
+	1309.1.1 = {
+		holding = castle_holding
+	}
+	1454.1.1 = { culture = livy }
+}
+117 = {		#DUNDAGA
+	holding = none
+	##
+	1245.1.2 = { holding = city_holding }
+}
+112 = {		#KANDAVA
+	holding = none
+	##
+	1231.1.2 = { holding = church_holding }
+}
+
+###c_grobin
+114 = {		#GROBIN
+	culture = latgalian
+	religion = baltic_pagan
+	holding = tribal_holding
+	1290.1.1 = {
+		religion = catholic
+	}
+	1400.1.1 = { holding = castle_holding }
+	1480.1.1 = { culture = latysh }
+}
+113 = {		#BANDAVA -oblast
+	holding = none
+}
+116 = {		#DUVZARE -oblast
+	holding = none
+}
+111 = {		#CEKLIS -oblast kurshei
+	holding = none
+}
+
+###c_selpils
+133 = {		#SELPILS
+	culture = latgalian
+	religion = baltic_pagan
+	holding = tribal_holding
+	1199.1.1 = {
+		religion = catholic
+	}
+	##
+	1208.1.1 = { holding = castle_holding }
+}
+150 = {		#OKNIST
+	holding = none
+	## s 1991
+}
+
+##d_samogitia ###################################
+###c_raseiniai
+124 = {		#RASEINIAI
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	1238.1.1 = {
+		holding = castle_holding
+		religion = catholic
+	}
+}
+123 = {		#JURBARKAS
+	holding = none
+	##
+	1259.1.2 = { holding = city_holding }
+}
+129 = {		#VELIUONA
+	holding = none
+	##
+	1291.1.1 = { holding = church_holding }
+}
+131 = {		#KEDAINIAI
+	holding = none
+	## 1590
+	1590.1.1 = { holding = church_holding }
+}
+
+###c_scalovia
+120 = {		#RAGNIT
+	culture = prussian
+	religion = baltic_pagan
+	holding = tribal_holding
+	1290.1.1 = {
+		religion = catholic
+	}
+	##
+	1409.1.1 = { holding = castle_holding }
+}
+119 = {		#TILSIT
+	holding = none
+	##
+	1412.1.1 = { holding = city_holding }
+}
+
+###c_memel
+118 = {		#MEMEL
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+	1290.1.1 = {
+		religion = catholic
+	}
+	##
+	1300.1.1 = { holding = castle_holding }
+}
+125 = {		#TAURAGE
+	holding = none
+	## 1499/1507
+	1507.1.1 = { holding = city_holding }
+}
+
+###c_palanga
+115 = {		#PALANGA
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	1290.12.12 = { religion = catholic }
+	1303.1.1 = { holding = castle_holding }
+}
+126 = {		#MEDENIKEN
+	holding = none
+	## Medniki - Varnyai
+	1314.12.12 = { holding = city_holding }
+}
+128 = {		#TELSIAI
+	holding = none
+	1450.1.2 = { holding = church_holding }
+}
+
+###c_siauliai
+127 = {		#SIAULIAI
+	culture = lithuanian
+	religion = baltic_pagan
+	holding = tribal_holding
+	##
+	1236.1.1 = {
+		holding = castle_holding
+	}
+	1454.1.1 = { religion = catholic }
+}
+132 = {		#UPYTE
+	holding = none
+	##
+	1208.12.12 = { holding = city_holding }
+}
+152 = {		#BIRZAI
+	holding = none
+	##
+	1455.12.12 = { holding = church_holding }
+}

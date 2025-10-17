@@ -1,0 +1,66 @@
+﻿khakas_muzh_fik1 = {
+	name = BO_nek
+	religion = tengri_pagan
+	culture = khakas
+	1459.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+khakas_muzh_fik2 = {
+	name = Bonyak
+	religion = tengri_pagan
+	culture = khakas
+	1459.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+khakas_muzh_fik3 = {
+	name = Kutan
+	religion = tengri_pagan
+	culture = khakas
+	1459.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+khakas_muzh_fik4 = {
+	name = Sotan
+	religion = tengri_pagan
+	culture = khakas
+	1459.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+khakas_muzh_fik5 = {
+	name = "TO_rtogul"
+	religion = tengri_pagan
+	culture = khakas
+	1459.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+khakas_muzh_fik6 = {
+	name = "Uzluk"
+	religion = tengri_pagan
+	culture = khakas
+	1460.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,143 @@
+﻿praha1490 = {
+	county = c_praha
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+		supply_duration = 0.1
+	}
+}
+gorlitz1490 = {
+	county = c_gorlitz
+	character_modifier = {
+		stewardship_per_piety_level = 1
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+wittenberg1490 = {
+	county = c_wittenberg
+	character_modifier = {
+		stewardship_per_piety_level = 1
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+regensburg1490 = {
+	county = c_regensburg
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+		supply_duration = 0.1
+	}
+}
+#ex +5 za obzhuu konfessiu
+basel = {
+	county = c_zurich
+	barony = b_basel
+	character_modifier = {
+		diplomacy = 1
+		diplomacy_per_piety_level = 1
+	}
+}
+plzen = {
+	county = c_plzen
+	character_modifier = {
+		prowess_per_piety_level = 1
+		knight_effectiveness_mult = 0.3
+	}
+}
+1490_geneva = {
+	county = c_geneva
+	character_modifier = {
+		mountains_development_growth_factor = 0.1
+		mountains_advantage = 5
+	}
+}
+1490_debrecen = {
+	county = c_bihar
+	barony = b_debrecen
+	character_modifier = {
+		different_faith_opinion = 10
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+}
+#La Rochelle
+1490_la_rochelle = {
+	county = c_aunis
+	barony = b_la_rochelle
+	character_modifier = {
+		prowess_per_piety_level = 1
+		learning_per_piety_level = 1
+	}
+}
+#
+#Münster
+1490_munster = {
+	county = c_munster
+	character_modifier = {
+		cultural_head_fascination_mult = 0.1
+		max_combat_roll = 3
+	}
+}
+# hortitsa - mennonity
+1490_khortytsia = {
+	county = c_khortytsia
+	character_modifier = {
+		title_creation_cost_mult = -0.2
+		men_at_arms_maintenance_per_dread_mult = -0.005
+	}
+}
+1490_amsterdam = {
+	county = c_holland
+	barony = b_amsterdam
+	character_modifier = {
+		naval_movement_speed_mult = 0.3
+		coastal_advantage = 4
+	}
+}
+1490_cambridge = {
+	county = c_cambridgeshire
+	barony = b_cambridge
+	character_modifier = {
+		learning = 2
+		personal_scheme_phase_duration_add = miniscule_scheme_phase_duration_bonus_value
+	}
+}
+# Pert - Scotland "c_gowrie # Perth/St Johnston" Perth, Scotland
+1490_perth = {
+	county = c_gowrie
+	character_modifier = {
+		clergy_opinion = 5
+		monthly_piety_gain_mult = 0.1
+	}
+}
+1490_zurich = {
+	county = c_zurich
+	character_modifier = {
+		monthly_county_control_growth_factor = 0.15
+		diplomacy = 1
+	}
+}
+#Stockholm
+1490_stockholm = {
+	county = c_upland
+	barony = b_sigtuna
+	character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+		stewardship_per_piety_level = 1.15
+	}
+}
+#Konstanz
+1490_konstanz = {
+	county = c_sankt_gallen
+	barony = b_konstanz
+	character_modifier = {
+		cultural_head_fascination_mult = 0.05
+		learning_per_piety_level = 2
+	}
+}
+#Tabor - 10 km k vostoku ot Hinova
+1490_tabor = { 
+	county = c_doudleby
+	barony = b_chynov
+	character_modifier = {
+		religious_vassal_opinion = 5
+		martial_per_piety_level = 3
+	}
+}

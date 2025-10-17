@@ -1,0 +1,2504 @@
+#14-03-25
+k_novgorod  = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 5 }
+	1454.1.1 = { change_development_level = 33 }
+	1466.1.1 = { change_development_level = 37 }
+	1477.1.1 = { change_development_level = 40 }
+	1488.1.1 = { change_development_level = 46 }
+}
+
+d_novgorod = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 24 }
+	1454.1.1 = { change_development_level = 35 }
+	1466.1.1 = { change_development_level = 40 }
+	1488.1.1 = { change_development_level = 45 }
+	
+	###Pre Kievan Rus
+	862.1.2 = {
+		holder = 40605	#Rurik
+		liege = 0
+		government = tribal_government
+	}
+	879.1.2 = {
+		holder = 40606	#Oleg the Seer
+	}
+	
+	##Kievan Rus in 882
+	882.1.1 = {
+		liege = k_ruthenia
+	}
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1066.1.1 = {	#Ahistorical, should still be under Kievan Rus', but split for balancing
+		liege = 0
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	
+	###Fragmentation of Kievan Rus'
+	1069.4.15 = {
+		liege = 0
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1136.7.2 = {
+		liege = 0
+	}
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1160.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1161.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1168.1.2 = {
+		holder = 222520	#Roman I the Great
+	}
+	1170.1.2 = {
+		holder = 222579	#Rurik II
+	}
+	1171.1.2 = {
+		holder = 222828	#Yuri I Bogolyubsky
+	}
+	1175.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1176.1.2 = {
+		holder = 222710	#Yaroslav III the Red
+	}
+	1177.1.2 = {
+		holder = 125232 # Zavid Nerevinich
+		government = republic_government
+	}
+	1179.1.2 = {
+		holder = 222582	#Mstislav V the Brave
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1209.1.2 = {
+		holder = 222589 #ya dob Mstislav Udat
+	}
+	1215.1.2 = {
+		holder = 472885 #ya dob Jaroslav Vsevolod
+	}
+	1216.1.2 = {
+		holder = 222589 #ya dob Mstislav Udat
+	}
+	1222.2.2 = {
+		holder = 222589 #ya dob Jaroslav Vsevolod 3 sroka
+	}
+	1236.1.2 = {
+		holder = 472844 #ya dob Alexansr Jar Nevski
+	}
+	1252.1.2 = {
+		holder = 125210 #ya dob Vasil Alexanrovich
+	}
+	1255.1.2 = {
+		holder = 472864 #ya dob Jaroslav Alexanrovich
+	}
+	1259.1.2 = {
+		holder = 472864 #ya dob Dmitry Alexanrovich
+	}
+	1281.1.2 = {
+		holder = 472846 #ya dob Andrey Alexanrovich
+	}
+	1328.1.2 = {
+		holder = 472840 #ya dob Ivan Kalita
+	}
+	1355.1.2 = {
+		holder = IvanIvanKras
+	}
+	1363.1.2 = {
+		holder = DmitrDonskoy
+	}
+	1389.1.2 = {
+		holder = Lingveniy_Olgerdovich
+#		succession_laws = { feudal_elective_succession_law }
+	}
+	#Posadnik Bogdan Abakumovich
+	1391.1.2 = {
+		holder = Bogdan_Abakumovich
+	}
+	1408.1.2 = {
+		holder = Vas1Dmitr
+	}
+	1432.1.2 = {
+		holder = Uriy_Lugvenovich
+	}
+	1447.4.7 = {
+		holder = Aleksandr_Vas_Chartoryiski
+	}
+	##
+	1451.1.2 = {
+		holder = DmitUrShemyaka
+		government = feudal_government
+	}
+	1453.7.17 = {
+		holder = VasiliGrebenka #v Novgorode s 1455
+	}
+	#d_noVgorod
+	1467.12.31 = {
+		holder = arh_nov_iona #arhiepiskop i glava Novgoroda
+		government = republic_government
+#succession_laws = { feudal_elective_succession_law } - rabotaet, no ploho
+	}
+	1470.1.1 = { de_jure_liege = k_opolye }
+	1470.11.5 = {
+		holder = Mikhaillelko #v marte 1471 goda pokinul gorod
+	}
+	1471.3.3 = {
+		holder = MarfaPNovgorod #dan traditsii - Marfa Posadniza
+	}
+	1471.3.13 = {
+		holder = DmitriyBoretskiy #vozglavil voiska na Sheloni
+	}
+	1471.7.14 = {
+		holder = Foma_Andreevich_Kuryatnik #platil Ivanu III 1000 rub serebrom
+	}
+	1473.6.5 = {
+		holder = VasiliGrebenka
+	}
+	1475.8.1 = {
+		holder = Vas_Anan_Golenishchev_Kutuzov
+		liege = k_opolye
+	}
+	1477.7.7 = {
+		holder = VasilFShuiski #Vas Fed Shuiski "Kitay"
+		liege = k_opolye
+	}
+	1480.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+}
+
+
+c_novgorod = {
+	1178.1.1 = { change_development_level = 31 }
+	1466.1.1 = { change_development_level = 44 }
+	1488.1.1 = { change_development_level = 46 }
+
+	###Pre Kievan Rus
+	862.1.2 = {
+		holder = 40605	#Rurik
+		liege = d_novgorod
+		government = tribal_government
+	}
+	879.1.2 = {
+		holder = 40606	#Oleg the Seer
+	}
+	
+	##Kievan Rus in 882
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1160.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1161.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1168.1.2 = {
+		holder = 222520	#Roman I the Great
+	}
+	1170.1.2 = {
+		holder = 222579	#Rurik II
+	}
+	1171.1.2 = {
+		holder = 222828	#Yuri I Bogolyubsky
+	}
+	1175.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1176.1.2 = {
+		holder = 222710	#Yaroslav III the Red
+	}
+	1177.1.2 = {
+		holder = 125232 # Zavid Nerevinich
+	}
+	1179.1.2 = {
+		holder = 222582	#Mstislav V the Brave
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1209.1.2 = {
+		holder = 222589 #ya dob Mstislav Udat
+	}
+	1215.1.2 = {
+		holder = 472885 #ya dob Jaroslav Vsevolod
+	}
+	1216.1.2 = {
+		holder = 222589 #ya dob Mstislav Udat
+	}
+	1222.2.2 = {
+		holder = 222589 #ya dob Jaroslav Vsevolod 3 sroka
+	}
+	1236.1.2 = {
+		holder = 472844 #ya dob Alexansr Jar Nevski
+	}
+	1252.1.2 = {
+		holder = 125210 #ya dob Vasil Alexanrovich
+	}
+	1255.1.2 = {
+		holder = 472864 #ya dob Jaroslav Alexanrovich
+	}
+	1259.1.2 = {
+		holder = 472864 #ya dob Dmitry Alexanrovich
+	}
+	1281.1.2 = {
+		holder = 472846 #ya dob Andrey Alexanrovich
+	}
+	1328.1.2 = {
+		holder = 472840 #ya dob Ivan Kalita
+	}
+	1355.1.2 = {
+		holder = IvanIvanKras
+	}
+	1363.1.2 = {
+		holder = DmitrDonskoy
+	}
+	1389.1.2 = {
+		holder = Lingveniy_Olgerdovich
+	}
+	#Posadnik Bogdan Abakumovich
+	1391.1.2 = {
+		holder = Bogdan_Abakumovich
+	}
+	1408.1.2 = {
+		holder = Vas1Dmitr
+	}
+	1432.1.2 = {
+		holder = Uriy_Lugvenovich
+	}
+	1447.4.7 = {
+		holder = Aleksandr_Vas_Chartoryiski
+	}
+	1451.1.2 = {
+		holder = DmitUrShemyaka
+	}
+	1453.7.17 = {
+		holder = VasiliGrebenka #v Novgorode s 1455
+	}
+	#c_NovGorod
+	1467.12.31 = {
+		holder = arh_nov_iona #arhiepiskop i glava Novgoroda
+	}
+	1470.11.5 = {
+		holder = Mikhaillelko #v marte 1471 goda pokinul gorod
+	}
+	1471.3.3 = {
+		holder = MarfaPNovgorod #dan traditsii - Marfa Posadniza
+	}
+	1471.3.13 = {
+		holder = DmitriyBoretskiy #vozglavil voiska na Sheloni
+	}
+	1471.7.14 = {
+		holder = Foma_Andreevich_Kuryatnik #platil Ivanu III 1000 rub serebrom
+	}
+	1473.6.5 = {
+		holder = VasiliGrebenka
+	}
+	1475.8.1 = {
+		holder = Vas_Anan_Golenishchev_Kutuzov
+	}
+	1477.7.7 = {
+		holder = VasilFShuiski #Vas Fed Shuiski po pr Kitay
+	}
+}
+
+
+c_rusa = {
+	###Pre Kievan Rus
+	862.1.2 = {
+		holder = 40605	#Rurik
+		liege = d_novgorod
+		government = tribal_government
+	}
+	879.1.2 = {
+		holder = 40606	#Oleg the Seer
+	}
+	
+	##Kievan Rus in 882
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	#1066.2.20 = {
+	#	holder = 652
+	#}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1160.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1161.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1168.1.2 = {
+		holder = 222520	#Roman I the Great
+	}
+	1170.1.2 = {
+		holder = 222579	#Rurik II
+	}
+	1171.1.2 = {
+		holder = 222828	#Yuri I Bogolyubsky
+	}
+	1175.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1176.1.2 = {
+		holder = 222710	#Yaroslav III the Red
+	}
+	1177.1.2 = {
+		holder = 125233 # Mikhail Stepanovich, technically of Novgorod
+	}
+	1179.1.2 = {
+		holder = 222582	#Mstislav V the Brave
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1328.1.2 = {
+		holder = 472840 #ya dob Ivan Kalita
+	}
+	1355.1.2 = {
+		holder = IvanIvanKras
+	}
+	1384.1.1 = {
+		holder = PatrikeyNarimunt #Rusa i Ladoga
+		liege = d_novgorod
+	}
+	1386.1.2 = {
+		holder = DmitrDonskoy
+	}
+	1389.1.2 = {
+		holder = Lingveniy_Olgerdovich
+		liege = d_novgorod
+	}
+	1400.12.30 = {
+		holder = Foma_Abakumovich #posadnik Staroi Rusy
+		liege = d_novgorod
+	}
+	1408.1.2 = {
+		holder = Vas1Dmitr
+	}
+	1432.1.2 = {
+		holder = Uriy_Lugvenovich
+	}
+	1451.1.2 = {
+		holder = DmitUrShemyaka
+	}
+	1453.7.17 = {
+		holder = VasiliGrebenka #v Novgorode s 1455
+	}
+	1456.2.3 = {
+		holder = Fedor_V_Basyonok #srazhenie pod Russoi
+		liege = k_opolye
+	}
+	1456.2.25 = {
+		holder = Uriy_Lugvenovich #dogovor
+	}
+	1469.1.2 = {
+		holder = Mikhaillelko
+	}
+	1469.12.30 = {
+		holder = Foma_Andreevich_Kuryatnik #pust
+		liege = d_novgorod
+	}
+	1471.1.12 = {
+		holder = VasiliGrebenka
+	}
+	1475.8.1 = {
+		holder = Vas_Anan_Golenishchev_Kutuzov
+	}
+	1477.7.7 = {
+		holder = VasilFShuiski #Vas Fed Shuiski po pr Kitay
+	}
+}
+
+#novoe — kak herz
+d_pskov = {
+	1414.1.1 = {
+		effect = { set_title_name = c_pskov }
+		de_jure_liege = k_novgorod
+	}
+	1454.1.1 = {
+		holder = VasiliGrebenka
+		liege = k_opolye
+	}
+	1456.1.2 = {
+		holder = Aleksandr_Vas_Chartoryiski # po 1460
+	}
+	1461.1.2 = {
+		holder = Vladimir_Andr_RosBor #1461-1462 ot Moskvy
+	}
+	1463.12.22 = {
+		holder = FedorUShuiski
+		government = republic_government
+		liege = k_opolye
+	}
+	1469.12.31 = { de_jure_liege = k_opolye }
+	1470.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+	1476.12.22 = {
+		holder = VasilVasShuiski #Blednyi
+	}
+	1480.1.1 = { de_jure_liege = k_opolye }
+	1482.8.2 = {
+		holder = Yaroslav_Vas_Obolensky
+	}
+	1488.1.18 = {
+		holder = SemenRomanovYaroslav
+	}
+}
+
+c_pskov = {
+	###Pre Kievan Rus
+	860.1.2 = {
+		holder = 302222	#Truvor
+		liege = 0
+		government = tribal_government
+	}
+	862.1.2 = {
+		holder = 302219	#fictional Ingvar Pskovych
+		liege = d_novgorod
+	}
+	
+	###Added to Rus
+	882.4.10 = {
+		holder = 40606	#Oleg the Seer
+	}
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1160.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1161.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1168.1.2 = {
+		holder = 222520	#Roman I the Great
+	}
+	1170.1.2 = {
+		holder = 222579	#Rurik II
+	}
+	1171.1.2 = {
+		holder = 222828	#Yuri I Bogolyubsky
+	}
+	1175.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1176.1.2 = {
+		holder = 222710	#Yaroslav III the Red
+	}
+	1177.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1177.1.2 = {
+		holder = 125233 # Mikhail Stepanovich, technically of Novgorod
+		government = republic_government
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1215.1.2 = {
+		holder = 125150 #yadoba Vladimir Mstislavovich Pskovski
+	}
+	1233.1.2 = {
+		holder = 125151 #yadoba Jaroslav Vladimirovich Pskovski
+	}
+	1266.6.6 = {
+		holder = 125312 #yadoba Dovmont knyaz Pskovski
+	}
+	1299.1.2 = {
+		holder = David_iz_Grodno #vozm syn Dovmonta
+	}
+	1327.2.7 = {
+		holder = 472868 #yad Aleksandr Mikhailovich Vladimirski
+	}
+	1341.4.1 = {
+		holder = Alexander_Vsevolozh1 #Aleksandr Vsevolodovich Vsevolozh
+	}
+	1342.4.2 = {
+		holder = 473513 #yad Andrei Olgerdovich x1
+	}
+	#Bolotovskiy dogovor 1348 - Novgorod priznal suverennost Pskova
+	#
+	1349.4.9 = {
+		holder = Yevstafiy_knIzborski
+	}
+	1360.6.6 = {
+		holder = Aleksandr_IzPSK1360e
+	}
+	1369.6.9 = {
+		holder = Matvei_knPskovsk1370e
+	}
+	1377.7.7 = {
+		holder = 473513 #yad Andrei Olgerdovich x2
+	}
+	1394.4.2 = {
+		holder = 473513 #yad Andrei Olgerdovich x3
+	}
+	1398.4.2 = {
+		holder = Ivan_Vsevolod_Holmsk #4 mes kak Moskovski namestnik
+	}
+	1401.4.1 = {
+		holder = Daniil_Al_Psk_Porhov
+	}
+	1406.4.2 = {
+		holder = KonstaDmitrDonUg #Konstantin Uglichski namestnik 1 raz
+	}
+	1408.8.1 = {
+		holder = Daniil_Al_Psk_Porhov #x2
+	}
+	1410.10.10 = {
+		holder = Aleksandr_Fef_Zhepa #1 raz iz 3
+	}
+	1412.1.12 = {
+		holder = KonstaDmitrDonUg #Konstantin Uglichski namestnik 2 raz
+	}
+	1415.1.15 = {
+		holder = Andrei_alks_RosBor #Pskovski namestnik 1415-1417
+	}
+	1417.7.1 = {
+		holder = Fedor_alks_RosBor #Pskovski namestnik 1415-420
+	}
+	1421.2.21 = {
+		holder = Aleksandr_Fef_Zhepa #2 raz iz 3
+	}
+	1424.2.21 = {
+		holder = FedorPatPatikeev
+	}
+	1428.2.8 = {
+		holder = Dmitri_Alks_Zhepa
+	}
+	1429.2.9 = {
+		holder = Aleksandr_Fef_Zhepa #3 raz iz 3
+	}
+	1434.3.4 = {
+		holder = Vladimir_Danil_Litovski
+	}
+	1443.1.2 = {
+		holder = Aleksandr_Vas_Chartoryiski
+	}
+	1448.1.2 = {
+		holder = VasiliGrebenka
+	}
+	1453.1.2 = { de_jure_liege = "d_pskov" }
+	#
+	1456.1.2 = {
+		holder = Aleksandr_Vas_Chartoryiski #po 1460
+	}
+	1461.1.2 = {
+		holder = Vladimir_Andr_RosBor #1461-1462 ot Moskvy
+	}
+	1463.12.22 = {
+		holder = FedorUShuiski
+	}
+	1476.12.22 = {
+		holder = VasilVasShuiski #Blednyi
+	}
+	1482.8.2 = {
+		holder = Yaroslav_Vas_Obolensky
+	}
+	1488.1.18 = {
+		holder = SemenRomanovYaroslav
+	}
+}
+
+
+c_sebezh = {
+	###Pre Kievan Rus
+	860.1.2 = {
+		holder = 302222	#Truvor
+		liege = 0
+		government = tribal_government
+	}
+	862.1.2 = {
+		holder = 302219	#fictional Ingvar Pskovych
+		liege = d_novgorod
+	}
+	
+	###Added to Rus
+	882.4.10 = {
+		holder = 40606	#Oleg the Seer
+	}
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1160.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1161.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1168.1.2 = {
+		holder = 222520	#Roman I the Great
+	}
+	1170.1.2 = {
+		holder = 222579	#Rurik II
+	}
+	1171.1.2 = {
+		holder = 222828	#Yuri I Bogolyubsky
+	}
+	1175.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1176.1.2 = {
+		holder = 222710	#Yaroslav III the Red
+	}
+	1177.1.2 = {
+		holder = 125233 # Mikhail Stepanovich, technically of Novgorod
+	}
+	1179.1.2 = {
+		holder = 222582	#Mstislav V the Brave
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1215.1.2 = {
+		holder = 125150 #yadoba Vladimir Mstislavovich Pskovski
+		government = feudal_government
+	}
+	1233.1.2 = {
+		holder = 125151 #yadoba Jaroslav Vladimirovich Pskovski
+	}
+	1448.1.2 = {
+		holder = VasiliGrebenka
+	}
+	#
+	1453.1.2 = {
+		de_jure_liege = "d_pskov"
+	}
+	#
+	1463.12.22 = {
+		holder = FedorUShuiski
+	}
+	1478.12.22 = {
+		holder = VasilVasShuiski #Blednyi
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+	1482.8.2 = {
+		holder = Yaroslav_Vas_Obolensky
+	}
+	1488.1.18 = {
+		holder = SemenRomanovYaroslav
+	}
+	1489.1.18 = {
+		holder = Ivan_Nikitich_Buturlin
+		liege = k_opolye
+	}
+}
+
+
+c_vodi = {
+	###Pre-Kievan Rus
+	764.1.1 = {
+		holder = 170338
+		liege = 0
+		government = tribal_government
+	}
+	860.1.1 = {
+		holder = 6830
+	}
+	
+	###Kievan Rus'
+	882.1.2 = {
+		liege = d_novgorod
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1066.1.1 = {
+		holder = 28007
+	}
+	1120.1.1 = {
+		holder = 144638
+	}
+	1170.1.1 = {
+		holder = 228007
+	}
+	1177.1.2 = {
+		holder = 125232 # Zavid Nerevinich
+		government = republic_government
+		liege = d_novgorod
+	}
+	1220.1.1 = {
+		holder = 144639
+	}
+	1249.1.1 = {
+		holder = 125245
+	}
+	1250.1.2 = {
+		holder = 125246
+	}
+	1255.1.2 = {
+		holder = 125247
+	}
+	1258.1.2 = {
+		holder = 125248
+	}
+	1268.1.2 = {
+		holder = 125249
+	}
+	1274.1.2 = {
+		holder = 125250
+	}
+	1280.1.2 = {
+		holder = 125251
+	}
+	1286.1.2 = {
+		holder = 125252
+	}
+	1290.1.2 = {
+		holder = 125253
+	}
+	1292.1.2 = {
+		holder = 125254
+	}
+	1294.1.2 = {
+		holder = 125252
+	}
+	1297.1.2 = {
+		holder = 125253
+	}
+	1298.1.2 = {
+		holder = 125254
+	}
+	1299.1.2 = {
+		holder = 125252
+	}
+	1301.1.2 = {
+		holder = 125254
+	}
+	1302.1.2 = {
+		holder = 125252
+	}
+	1303.1.2 = {
+		holder = 125254
+	}
+	1305.1.2 = {
+		holder = 125253
+	}
+	1306.1.2 = {
+		holder = 125255
+	}
+	1312.1.2 = {
+		holder = 125254
+	}
+	1317.1.2 = {
+		holder = 125256
+	}
+	1324.1.2 = {
+		holder = 125257
+	}
+	1328.1.2 = {
+		holder = 125258
+	}
+	1330.1.2 = {
+		holder = 125256
+	}
+	1332.1.2 = {
+		holder = 125258
+	}
+	1333.1.2 = {
+		holder = 125259
+	}
+	1334.1.2 = {
+		holder = 125258
+	}
+	1335.1.2 = {
+		holder = 125260
+	}
+	
+	##
+	1460.12.12 = {
+		holder = DmitriyBoretskiy #pust budet
+		government = feudal_government
+		liege = d_novgorod
+	}
+	1471.7.14 = {
+		holder = fedor_boretski #pust budet
+		government = feudal_government
+		liege = d_novgorod
+	}
+	1476.5.9 = {
+		holder = Vas_Anan_Golenishchev_Kutuzov #pust budet
+	}
+	1488.1.2 = {
+		holder = Ivan_Alex_BuinosovRostovski
+		liege = d_novgorod #ne nado administrative_government
+	}
+}
+
+
+d_vepsia = {
+	###Pre Kievan Rus
+	860.1.2 = {
+		holder = 159715	#assumed fictional Karhu Vepsä
+		liege = 0
+		government = tribal_government
+	}
+	862.1.2 = {
+		holder = 40605	#Rurik
+		liege = 0
+	}
+	879.1.2 = {
+		holder = 0
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+}
+
+
+c_beloozero = {
+	###Pre Kievan Rus
+	860.1.2 = {
+		holder = 302221	#Sineus
+		liege = 0
+		government = tribal_government
+	}
+	862.1.2 = {
+		holder = 40605	#Rurik
+		liege = d_novgorod
+	}
+	879.1.2 = {
+		holder = 40606	#Oleg the Seer
+	}
+	
+	##Kievan Rus in 882
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1066.2.20 = {
+		holder = 652
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1160.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1161.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1168.1.2 = {
+		holder = 222520	#Roman I the Great
+	}
+	1170.1.2 = {
+		holder = 222579	#Rurik II
+	}
+	1171.1.2 = {
+		holder = 222828	#Yuri I Bogolyubsky
+	}
+	1175.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1176.1.2 = {
+		holder = 222710	#Yaroslav III the Red
+	}
+	1177.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1178.7.2 = {
+		holder = 125231 # Ivanko, placeholder
+	}
+	1179.1.2 = {
+		holder = 222582	#Mstislav V the Brave
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1220.1.1 = {
+		holder = 125170 #yad Vasilko Konst kn Rostovskiy
+	}
+	1238.3.4 = {
+		holder = 472824 #yad Gleb Vasilkov 1 nezav knyaz
+		government = feudal_government #otdelnoe knyazhestvo ot Rostovskogo
+		liege = 0
+	}
+	1278.12.13 = {
+		holder = 472822 #yad Mikhail Glebovich
+	}
+	1293.1.4 = {
+		holder = 472826 #yad Fedor Mikhailovich S 1302 po pravde
+	}
+	1314.1.2 = {
+		holder = 472820 #yad Roman Mikhailovich
+	}
+	1328.1.4 = {
+		holder = 472840 #yad Kalita kupil knyazhestvo 1328-1338
+	}
+	1338.3.8 = {
+		holder = 472820 #vozvratili Romanu Mihailovichu
+	}
+	1339.1.2 = {
+		holder = 472827 #yad Fedor Romanovich
+	}
+	1380.9.8 = {
+		holder = Uriy_Vas_Belozerski #posledni ud
+	}
+	1389.1.2 = {
+		holder = DmitrDonskoy #Moskva
+		liege = d_opolye
+	}
+	1389.5.2 = {
+		holder = Vas1Dmitr #1 vel knyaz Vladimirski i moskovski
+	}
+	1425.2.27 = {
+		holder = Vas2tem
+	}
+	1434.6.5 = {
+		holder = Vas_Ur_Kosoy
+	}
+	1434.7.2 = {
+		holder = Vas2tem
+	}
+	#
+	1453.1.2 = { de_jure_liege = "d_beloozero" }
+	#
+	1462.3.27 = {
+		holder = MikhailAnVereiskBel
+		liege = k_opolye
+	}
+	1470.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+	1488.1.2 = {
+		holder = Vasiliy_Dan_Holmskiy
+	}
+}
+
+
+c_tikhvin = {
+	###Pre Kievan Rus
+	860.1.2 = {
+		holder = 159715	#assumed fictional Karhu Vepsä
+		liege = d_vepsia
+		government = tribal_government
+	}
+	862.1.2 = {
+		holder = 40605	#Rurik
+		liege = 0
+	}
+	879.1.2 = {
+		holder = 40606	#Oleg the Seer
+		liege = d_novgorod
+	}
+	
+	##Kievan Rus in 882
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1066.2.20 = {
+		holder = 122503
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1160.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1161.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1168.1.2 = {
+		holder = 222520	#Roman I the Great
+	}
+	1170.1.2 = {
+		holder = 222579	#Rurik II
+	}
+	1171.1.2 = {
+		holder = 222828	#Yuri I Bogolyubsky
+	}
+	1175.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1176.1.2 = {
+		holder = 222710	#Yaroslav III the Red
+	}
+	1177.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1178.7.2 = {
+		holder = 125231 # Ivanko, placeholder
+	}
+	1179.1.2 = {
+		holder = 222582	#Mstislav V the Brave
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1400.1.1 = {
+		government = feudal_government
+	}
+	1408.1.2 = {
+		holder = Vas1Dmitr
+	}
+	1432.1.2 = {
+		holder = Uriy_Lugvenovich
+	}
+	1447.4.7 = {
+		holder = Aleksandr_Vas_Chartoryiski
+	}
+	1451.1.2 = {
+		holder = DmitUrShemyaka
+	}
+	#
+	1453.1.2 = { de_jure_liege = "d_novgorod" }
+	# c_tikhvin
+	1467.12.31 = {
+		holder = arh_nov_iona #arhiepiskop i glava Novgoroda
+	}
+	1470.11.5 = {
+		holder = Mikhaillelko #v marte 1471 goda pokinul gorod
+	}
+	1471.3.3 = {
+		holder = MarfaPNovgorod #dan traditsii - Marfa Posadniza
+	}
+	1471.3.13 = {
+		holder = DmitriyBoretskiy #vozglavil voiska na Sheloni
+	}
+	1471.7.14 = {
+		holder = Foma_Andreevich_Kuryatnik #platil Ivanu III 1000 rub serebrom
+	}
+	1473.6.5 = {
+		holder = VasiliGrebenka
+	}
+	1487.1.2 = {
+		holder = BorisIvShuGorbat
+		liege = k_opolye
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+}
+
+
+c_vyangi = {
+	###Pre Kievan Rus
+	860.1.2 = {
+		holder = 159715	#assumed fictional Karhu Vepsä
+		liege = d_vepsia
+		government = tribal_government
+	}
+	879.1.2 = {
+		holder = 40606	#Oleg the Seer
+		liege = d_novgorod
+	}
+	
+	##Kievan Rus in 882
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1066.2.20 = {
+		holder = 122503
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1160.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1161.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1168.1.2 = {
+		holder = 222520	#Roman I the Great
+	}
+	1170.1.2 = {
+		holder = 222579	#Rurik II
+	}
+	1171.1.2 = {
+		holder = 222828	#Yuri I Bogolyubsky
+	}
+	1175.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1176.1.2 = {
+		holder = 222710	#Yaroslav III the Red
+	}
+	1177.1.2 = {
+		holder = 222722	#Mstislav IV the Eyeless
+	}
+	1178.7.2 = {
+		holder = 125231 # Ivanko, placeholder
+	}
+	1179.1.2 = {
+		holder = 222582	#Mstislav V the Brave
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1433.3.3 = {
+		holder = Savva_Visherskiy
+		liege = d_novgorod
+		government = feudal_government
+	}
+	#
+	1453.1.2 = { de_jure_liege = "d_beloozero" }
+	#
+	1469.12.14 = {
+		holder = DmitriyBoretskiy
+		liege = d_novgorod
+		government = feudal_government
+	}
+	1475.1.2 = {
+		name = "SVIR"
+		holder = AleksSvirskiIgumen
+		liege = k_opolye
+		government = theocracy_government
+	}
+}
+
+
+c_luki = {
+	###Pre Kievan Rus
+	862.1.2 = {
+		holder = 40605	#Rurik
+		liege = d_novgorod
+		government = tribal_government
+	}
+	879.1.2 = {
+		holder = 40606	#Oleg the Seer
+	}
+	
+	##Kievan Rus in 882
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1066.2.20 = {
+		holder = 122503
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1159.1.2 = {
+		holder = 222582	#Mstislav the Brave
+		liege = d_smolensk
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1210.10.10 = {
+		holder = 125150 #yad Vladimir Mstislavich kak knyaz Luk
+		liege = d_novgorod
+	}
+	1300.12.12 = {
+		government = feudal_government
+	}
+	1408.1.2 = {
+		holder = Vas1Dmitr
+	}
+	1408.8.8 = {
+		holder = VitovtGed #korotki zahvat Luk Vitovtom
+	}
+	1410.1.2 = {
+		holder = Vas1Dmitr #-
+	}
+	1432.1.2 = {
+		holder = Uriy_Lugvenovich
+	}
+	1447.4.7 = {
+		holder = Aleksandr_Vas_Chartoryiski
+	}
+	1451.1.2 = {
+		holder = DmitUrShemyaka
+	}
+	#
+	1453.1.2 = {
+		de_jure_liege = "d_novgorod"
+	}
+	#
+	1453.7.17 = {
+		holder = VasiliGrebenka #v Novgorode s 1455
+	}
+	1469.1.2 = {
+		holder = Mikhaillelko
+	}
+	##
+	1469.12.12 = {
+		holder = DmitriyBoretskiy
+		liege = d_novgorod
+	}
+	1471.7.23 = {
+		holder = iva3vas #domen
+	}
+	1488.1.2 = {
+		holder = Grigoriy_Velyaminov #namestnik Vel Luk s 1500
+		liege = k_opolye
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+}
+
+
+c_valdai = {
+	###Pre Kievan Rus
+	865.1.2 = {
+		holder = 302223	#fictional Kyyrö Valdii
+		liege = d_vepsia
+		government = tribal_government
+	}
+	862.1.2 = {
+		holder = 40605	#Rurik
+		liege = 0
+	}
+	879.1.2 = {
+		holder = 40606	#Oleg the Seer
+		liege = d_novgorod
+	}
+	
+	##Kievan Rus in 882
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+		liege = d_novgorod
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1066.1.1 = {
+		holder = 40600
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1159.1.2 = {
+		holder = 222582	#Mstislav the Brave
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##	
+	#TORZHOK
+	1200.1.1 = {
+		government = feudal_government
+		effect = { set_title_name = b_torzhok }
+	}
+	#Novgorodsakaya zemlya
+	1209.1.2 = {
+		holder = 222589 #ya dob Mstislav Udat
+	}
+	1215.1.2 = {
+		holder = 472885 #ya dob Jaroslav Vsevolod
+	}
+	1216.1.2 = {
+		holder = 222589 #ya dob Mstislav Udat
+	}
+	1222.2.2 = {
+		holder = 222589 #ya dob Jaroslav Vsevolod 3 sroka
+	}
+	1236.1.2 = {
+		holder = 472844 #ya dob Alexansr Jar Nevski
+	}
+	1252.1.2 = {
+		holder = 125210 #ya dob Vasil Alexanrovich
+	}
+	1255.1.2 = {
+		holder = 472864 #ya dob Jaroslav Alexanrovich
+	}
+	1259.1.2 = {
+		holder = 472864 #ya dob Dmitry Alexanrovich
+	}
+	1281.1.2 = {
+		holder = 472846 #ya dob Andrey Alexanrovich
+	}
+	1328.1.2 = {
+		holder = 472840 #ya dob Ivan Kalita - razoril Torzhok
+	}
+	1355.1.2 = {
+		holder = IvanIvanKras
+	}
+	1363.1.2 = {
+		holder = DmitrDonskoy
+	}
+	#
+	1372.2.2 = {
+		holder = Alksndr_AbakumovichTor #Oboronyal Torzhok i pogib
+	}
+	1372.5.31 = {
+		holder = DmitrDonskoy
+	}
+	1389.1.2 = {
+		holder = Lingveniy_Olgerdovich
+	}
+	#Posadnik Bogdan Abakumovich
+	1391.1.2 = {
+		holder = Bogdan_Abakumovich
+	}
+	1408.1.2 = {
+		holder = Vas1Dmitr
+	}
+	1432.1.2 = {
+		holder = Uriy_Lugvenovich
+	}
+	1447.4.7 = {
+		holder = Aleksandr_Vas_Chartoryiski
+	}
+	1451.1.2 = {
+		holder = DmitUrShemyaka
+	}
+	#
+	1453.1.2 = {
+		de_jure_liege = "d_tver"
+	}
+	#
+	1453.7.17 = {
+		holder = VasiliGrebenka #v Novgorode s 1455
+	}
+	1467.12.31 = {
+		holder = arh_nov_iona #arhiepiskop i glava Novgoroda
+	}
+	1470.11.5 = {
+		holder = Mikhaillelko #v marte 1471 goda pokinul gorod
+	}
+	1471.3.3 = {
+		holder = MarfaPNovgorod #dan traditsii - Marfa Posadniza
+	}
+	1471.3.13 = {
+		holder = DmitriyBoretskiy #vozglavil voiska na Sheloni
+	}
+	1471.7.14 = {
+		holder = Foma_Andreevich_Kuryatnik #platil Ivanu III 1000 rub serebrom
+	}
+	1473.6.5 = {
+		holder = VasiliGrebenka
+	}
+	1478.1.1 = {
+		holder = iva3vas #v sostave Moskowskogo kn
+		liege = k_opolye
+	}
+	1479.12.31 = {
+		holder = DaniilVasPatikeev
+		liege = k_opolye
+	}
+	1480.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}	
+}
+
+
+c_bezichi = {
+	###Pre Kievan Rus
+	865.1.2 = {
+		holder = 302223	#fictional Kyyrö Valdii
+		liege = d_vepsia
+		government = tribal_government
+	}
+	862.1.2 = {
+		holder = 40605	#Rurik
+		liege = 0
+	}
+	879.1.2 = {
+		holder = 40606	#Oleg the Seer
+		liege = d_novgorod
+	}
+	
+	##Kievan Rus in 882
+	912.1.1 = {
+		holder = 600	#Igor I the Old
+		liege = d_novgorod
+	}
+	945.1.1 = {
+		holder = 601	#Olga of Kiev
+	}
+	962.1.2 = {
+		holder = 602	#Sviatoslav I the Brave
+	}
+	969.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	977.1.2 = {
+		holder = 604	#Yaropolk I Sviatoslavich
+	}
+	978.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1010.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1034.1.2 = {
+		holder = 634	#Vladimir II Yaroslavich
+	}
+	1052.10.4 = {
+		holder = 626	#Iziaslav I Yaroslavich
+	}
+	1054.2.20 = {
+		holder = 686	#Mstislav I Iziaslavich
+	}
+	1066.2.20 = {
+		holder = 652
+	}
+	1067.1.2 = {
+		holder = 654	#Gleb I Sviatoslavich
+	}
+	1078.5.30 = {
+		holder = 652	#Sviatopolk I Iziaslavich
+	}
+	1088.1.2 = {
+		holder = 222574	#Mstislav II the Great Vladimirovich
+	}
+	1117.1.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1132.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1132.7.2 = {
+		holder = 222822	#Vsevolod I Mstislavich
+	}
+	1136.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	
+	#Novgorod Republic
+	1138.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1138.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1140.1.2 = {
+		holder = 222632	#Sviatoslav II Olgovich
+	}
+	1141.1.2 = {
+		holder = 222650	#Sviatoslav III Vsevolodovich
+	}
+	1141.7.2 = {
+		holder = 222675	#Rostislav I Yuryevich
+	}
+	1142.1.2 = {
+		holder = 125113	#Sviatopolk II
+	}
+	1148.1.2 = {
+		holder = 222622	#Yaroslav II Iziaslavich
+	}
+	1154.1.2 = {
+		holder = 222572	#Rostislav II Mstislavich
+	}
+	1154.7.2 = {
+		holder = 222570	#David II Rostislavich
+	}
+	1155.1.2 = {
+		holder = 222681	#Mstislav III
+	}
+	1158.1.2 = {
+		holder = 125142	#Sviatoslav IV
+	}
+	1159.1.2 = {
+		holder = 222582	#Mstislav the Brave
+	}
+	1180.1.2 = {
+		holder = 125233
+	}
+	1184.1.2 = {
+		holder = 125231
+	}
+	1186.1.2 = {
+		holder = 125233
+	}
+	1189.1.2 = {
+		holder = 125234
+	}
+	##
+	1433.3.3 = {
+		holder = DmitUr_KrasnyMenshoy #knyaz Bezhetskogo verha
+		liege = d_opolye
+		government = feudal_government
+	}
+	1440.9.22 = {
+		holder = Vas2tem
+		liege = d_opolye
+	}
+	1452.1.1 = {
+		holder = Ivan_Ivanovich_Koshkin #namestnik Bezhetsk
+		liege = d_opolye
+	}
+	#
+	1453.1.2 = { de_jure_liege = "d_tver" }
+	#
+	1469.3.27 = {
+		holder = iva3vas
+	}
+	1479.12.31 = {
+		holder = Vasi_Fed_Simski_Obraz #pust
+	}
+	#my code
+	1480.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = roads_to_power
+				}
+				holder = {
+					change_government = administrative_government
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,109 @@
+﻿1490_yorkist = {
+	icon = "yorkist.dds"
+	opposites = {
+		1490_lancastrian
+	}
+	shown_in_ruler_designer = no
+	same_opinion = 15
+	opposite_opinion = -15
+	
+#	ai_war_cooldown = -0.5
+#	ai_war_chance = 5
+#	flag = can_foment_revolt_interaction
+#	flag = can_request_incursion_interaction
+#	flag = can_change_to_iranian_faith_decision
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_1490_yorkist_desc
+			}
+			desc = trait_1490_yorkist_character_desc
+		}
+	}
+}
+#trait_1490_yorkist_desc trait_1490_yorkist_character_desc
+#trait_1490_lancastrian_desc  trait_1490_lancastrian_character_desc
+#fp3_struggle_supporter.dds
+1490_lancastrian = {
+	icon = "lancastrian.dds"
+	opposites = {
+		1490_yorkist
+	}
+	shown_in_ruler_designer = no
+#	flag = can_use_install_loyalist_cb	
+	same_opinion = 15
+	opposite_opinion = -15
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_1490_lancastrian_desc
+			}
+			desc = trait_1490_lancastrian_character_desc
+		}
+	}
+}
+inkvizitor = {
+	category = fame
+	learning = 1
+	intrigue = 3
+	enemy_hostile_scheme_success_chance_growth_add = -1
+	same_opinion = 10
+	ruler_designer_cost = 10
+	compatibility = {
+		zealous = @pos_compat_low
+		devoted = @pos_compat_low
+		theologian = @pos_compat_low
+		cynical = @neg_compat_low
+		witch = @neg_compat_high
+		heresiarch = @neg_compat_high
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_inkvizitor_desc
+			}
+			desc = trait_inkvizitor_character_desc
+		}
+	}
+}
+#propovednik -- trait_1490_preachert_desc  trait_1490_preacher_character_desc 1490_preacher
+1490_preacher = {
+	icon = "devoted.dds"
+	category = fame
+	monthly_piety = 0.3
+	same_faith_opinion = 5
+	attraction_opinion = -5
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 15
+	inheritance_blocker = all
+	culture_modifier = {
+		parameter = prowess_from_religious_traits
+		prowess = 2
+	}
+	culture_modifier = {
+		parameter = devoted_trait_bonuses
+		learning = 2
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_1490_preachert_desc
+			}
+			desc = trait_1490_preacher_character_desc
+		}
+	}
+}

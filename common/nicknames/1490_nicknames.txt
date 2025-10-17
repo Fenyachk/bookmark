@@ -1,0 +1,51 @@
+﻿#######################################
+### 1490 прозвища ###
+#######################################
+# Исторические
+nick_cicero = {} #Цицерон Иоганн Цицерон
+nick_achilles = {} #Ахилл
+nick_the_blind2 = {} #Тёмный
+nick_the_shild = {} #Щит
+nick_the_donskoy = {} #Донской
+nick_corvinus = {} #Корвин
+nick_wrubel = {} #Врубель Воробей
+nick_suhoruk = {} #Сухорук
+nick_hersekli = {} #Херсекли сын Герцога на турецком
+nick_la_Beltraneja = {} #Бельтранеха для Хуаны
+nick_the_kingmaker = {} #Делатель королей Ричард Невилл
+nick_the_wolf_of_badenoch = {} # the Wolf of Badenoch
+nick_the_tanister = {} #Танистер
+nick_bell_the_cat = {} #Bell-the-Cat Отчаянный
+nick_blednyi_pale = {} #Бледный Pale
+nick_the_kalita = {} #Калита Kalitá - обнова 1.9.*
+nick_the_bordo = {} #Бордо Bordeaux - обнова 1.9.*
+nick_the_gaunt = {} #Гонт Gaunt - обнова 1.9.*
+nick_the_bolingbroke = {}
+nick_the_lubeznyi = {} #Любезный the Affable
+nick_the_postum = {} #Постум
+nick_the_moreplavatel = {} #Мореплаватель
+nick_the_warnenchik = {} #Варненчик - of Varna - Warneńczyk
+nick_roterodamus = {} #Роттердамский Roterodamus
+nick_mirkhvand = {}
+nick_khvandamir = {}
+nick_baykara = {} #Байкара  - Хусейн Байкара Bayqara
+nick_the_eloquent2 = {} #Красноречи́вый для Дуарте I
+nick_the_african = {} #Африканец для Афонсу V
+nick_miskin_abdal = {}
+nick_of_langley = {} #Лэнгли
+nick_of_conisburgh = {} #Конисбург
+nick_of_norwich = {} #Норвичский
+nick_of_westminster = {} #Вестминстерский
+nick_the_alchemist = {} #Алхимик the Alchemist
+nick_paracelsus = {} #Парацельс
+nick_nostradamus = {} #
+nick_kuraka = {} #hist
+nick_grammarian = {} # Grammarian
+nick_miechowita = {} #
+nick_opolski = {} #
+nick_poliziano = {} #Poliziano --
+nick_fra_carnevale = {} #Fra Carnevale
+nick_celtis = {} #Celtis
+nick_beaujeu = {} #Beaujeu
+nick_boabdil = {} #Boabdil
+# Petition Nicknames nick_the_foreigner = { is_bad = yes }

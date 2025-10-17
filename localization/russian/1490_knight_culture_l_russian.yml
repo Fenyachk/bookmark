@@ -1,0 +1,9 @@
+﻿l_russian:
+ knight_ratnik_no_tooltip: "Ратник"
+ knight_ratnik_no_tooltip_plural: "Ратники"
+ knight_ratnik_no_tooltip_lowercase: "ратник"
+ knight_ratnik_no_tooltip_lowercase_plural: "ратники"
+ knight_ratnik_no_tooltip_lowercase_plural_possessive: "ратников"
+ knight_ratnik_no_tooltip_lowercase_adjective: "ратническ"
+ knight_ratnik: "[Concept( 'knight', '$knight_ratnik_no_tooltip$' )|E]"
+ knight_ratnik_plural: "[Concept( 'knight', '$knight_ratnik_no_tooltip_plural$' )|E]"

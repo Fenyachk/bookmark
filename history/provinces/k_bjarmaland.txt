@@ -1,0 +1,370 @@
+#1.13.0.3 Basileus
+#k_bjarmaland
+##d_biarmia ###################################
+###c_kholmogory
+5798 = {	#Kholmogory
+	culture = samoyed
+	religion = finnish_pagan
+	holding = tribal_holding
+	1066.1.1 = {
+		buildings = {
+			market_villages_01
+		}
+	}
+	##
+	1399.1.1 = {
+		religion = orthodox
+		holding = castle_holding
+	}
+	1444.1.1 = { buildings = { hunting_grounds_02 } }
+	1450.1.1 = { culture = pomorskay }
+	
+}
+5799 = {	#Arkhangelsk
+	holding = none
+	## Mihalo-Arhangelski Monastyr
+	1433.4.22 = { holding = church_holding }
+}
+5800 = {	#Brin Navolok
+	holding = none
+}
+5801 = {	#Pertominsk
+	holding = none
+	## Pert Spaso-Pr monastyr
+	1599.1.1 = { holding = church_holding }
+}
+5802 = {	#Lopshenga
+	holding = none
+}
+
+###c_onega_BJA
+5803 = {	#Onega
+	culture = samoyed
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1399.1.1 = {
+		religion = orthodox
+		holding = castle_holding
+	}
+	1444.1.1 = { buildings = { hunting_grounds_02 } }
+	1450.1.1 = { culture = pomorskay }
+}
+5804 = {	#Pole
+	#Small settlement, mostly placeholder
+	holding = none
+}
+5805 = {	#Korelskoye
+	holding = none
+}
+5806 = {	#Malashuyka
+	#Appears on XIXth century Russian Empire atlas, as Malochouyskaia, other side of Onega, Archangel province
+	holding = none
+	##
+	1638.1.1 = { holding = city_holding }
+}
+
+###c_povenets
+5807 = {	#Povenets
+	culture = samoyed
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1399.1.1 = {
+		religion = orthodox
+		holding = castle_holding
+	}
+	1450.1.1 = { culture = pomorskay }
+}
+5808 = {	#Malenga
+	holding = none
+}
+5809 = {	#Yangary
+	#Mostly placeholder
+	holding = none
+}
+5810 = {	#Kustranda
+	#Can be found on map of Muscovy in XVIIIth century
+	holding = none
+}
+
+###c_pudozh
+5811 = {	#Pudozh
+	culture = samoyed
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1399.1.1 = {
+		religion = orthodox
+		holding = castle_holding
+	}
+	1450.1.1 = { culture = pomorskay }
+}
+5812 = {	#Vershinino
+	holding = none
+}
+5813 = {	#Yarnema
+	holding = none
+}
+
+##d_chudia ###################################
+###c_kargopol
+5814 = {	#Kargopol
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1422.1.1 = {
+		religion = orthodox
+		holding = castle_holding
+	}
+}
+5815 = {	#Vitzgora	AKA Vytegra
+	holding = none
+	##
+	1496.1.1 = { holding = city_holding }
+}
+5816 = {	#Ostrov
+	holding = none
+}
+
+###c_kirillov
+5817 = {	#Kirillov
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1397.1.1 = {
+		culture = russian
+		religion = orthodox
+		holding = church_holding
+	}
+}
+5818 = {	#Dvinitza
+	#Can be found on map of Muscovy in XVIIIth century
+	holding = none
+	## reka i zabroshennyi posyolok
+#	1397.1.1 = { holding = castle_holding }
+}
+5819 = {	#Pelsina
+	#Can be found on map of Muscovy in XVIIIth century
+	holding = none
+	##
+	# reka Pel'shma v Vologodkoy obl?
+#	1397.1.1 = { holding = city_holding }
+}
+
+###c_totma
+5820 = {	#Totma
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1400.1.1 = {
+		religion = orthodox
+		holding = castle_holding
+	}
+}
+5821 = {	#Tasta
+	#Mostly placeholder
+	holding = none
+}
+5822 = {	#Tischna
+	#Can be found on map of Muscovy in XVIIIth century
+	holding = none
+	# Titovschina?
+}
+5823 = {	#Kadnikov
+	holding = none
+	##
+	1492.1.1 = { holding = city_holding }
+}
+
+##d_vologda ###################################
+###c_vologda
+5824 = {	#Vologda
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	#Data 1147 god — Skazanie o chudesah Gerasima Vologodskogo XVII vek
+	#Upominanie — dogovor Yaroslava Yaroslavicha 1264, potom NPL mladshego izvoda 1273
+	1264.1.1 = {
+		holding = castle_holding
+		religion = orthodox
+		culture = russian
+	}
+}
+5825 = {	#Sheksna
+	holding = none
+	## kstati, kak posyolok Ust-Ugla s XV veka
+}
+5826 = {	#Gryazovets
+	holding = none
+	## s 1538
+}
+5827 = {	#Danilov
+	holding = none
+	#Yaroslavskaya obl
+	# 1457 selo mitropolita Iony
+	1457.1.1 = { holding = city_holding }
+}
+5828 = {	#Vyatskoye
+	holding = none
+	# Nekrasovskiy r-n, Yaroslavsk obl, s 1420. Tochno s 1473-89
+	1470.1.1 = { holding = church_holding }
+}
+
+###c_lyubim
+5829 = {	#Lyubim
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1433.1.1 = {
+		culture = russian
+		religion = orthodox
+		holding = castle_holding
+	}
+}
+5830 = {	#Razlivnoye
+	#small settlement, mostly placeholder
+	holding = none
+}
+5831 = {	#Soligalich
+	holding = none
+	##
+	1250.12.1 = { holding = city_holding }
+}
+
+###c_onsthia
+5832 = {	#Onsthia
+	#Can be found on XVIIth century map (Grande Blanche Russie 1677)
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1398.1.1 = {
+		religion = orthodox
+		culture = russian
+	}
+	1433.1.1 = { holding = castle_holding }
+}
+5833 = {	#Karitsa
+	holding = none
+}
+5834 = {	#Suday
+	#mostly placeholder
+	holding = none
+}
+
+###c_choklema
+5835 = {	#Choklema
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	#Vtoruaya Chuhloma? pust ostanetsya chudskoe
+	1400.1.1 = {
+#		culture = russian
+		religion = orthodox
+		holding = castle_holding
+	}
+}
+5836 = {	#Gorodek
+	holding = none
+}
+5837 = {	#Boborossa
+	#Can be found on XVIIth century map (Grande Blanche Russie 1677)
+	holding = none
+}
+
+##d_ustyug ###################################
+###c_ustyug
+5838 = {	#Veliky Ustyug
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1230.1.1 = { holding = castle_holding }
+	1300.1.1 = {
+		culture = russian
+		religion = orthodox
+	}
+}
+5839 = {	#Nyuksenitsa
+	holding = none
+}
+5840 = {	#Kotlas
+	holding = none
+}
+5841 = {	#Usyorga
+	#mostly placeholder
+	holding = none
+}
+
+###c_shenkursk
+5842 = {	#Shenkursk
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1315.4.22 = {
+		holding = castle_holding
+		culture = russian
+		religion = orthodox
+	}
+}
+5843 = {	#Krasny Bor
+	holding = none
+}
+5844 = {	#Bereznik
+	holding = none
+}
+
+###c_velsk
+5845 = {	#Velsk
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	1400.4.22 = {
+		holding = castle_holding
+		culture = russian
+		religion = orthodox
+	}
+}
+5846 = {	#Verkhovazhye
+	holding = none
+}
+5847 = {	#Ous Vaga
+	#Based on river Vaga
+	holding = none
+	## Ust' Vaga s 1137
+	1137.1.2 = { holding = church_holding } #novoe
+}
+5848 = {	#Yemetsk
+	holding = none
+	1137.1.2 = { holding = city_holding } #novoe
+}
+
+###c_kevrola
+5849 = {	#Kevrola
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
+	##
+	1400.1.1 = {
+		holding = castle_holding
+		culture = russian
+		religion = orthodox
+	}
+	1470.1.1 = { culture = pomorskay }
+}
+5850 = {	#Verkola
+	holding = none
+	## 1552
+}
+5851 = {	#Osmova
+	#mostly placeholder
+	holding = none
+}

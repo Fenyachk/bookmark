@@ -1,0 +1,6331 @@
+﻿#29-04-2025   1.16.0.1 "Chamfron"
+212057 = {
+	name = "KonrA_d"
+	# AKA: Konrad Ota
+	dynasty = 506
+	martial = 6
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 8
+	religion = "catholic"
+	culture = "czech"
+	trait = diligent
+	trait = ambitious
+	trait = calm
+	trait = education_diplomacy_3
+	father = 221522
+	mother = 218512
+	1136.1.1 = {
+		birth = "1136.1.1"
+	}
+	1191.9.9 = {
+		death = "1191.9.9"
+	}
+}
+
+212560 = {
+	name = "SobE_slav"
+	dynasty = 506
+	martial = 7
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = paranoid
+	trait = education_martial_3
+	father = 212872
+	mother = 219533
+	1128.1.1 = {
+		birth = "1128.1.1"
+	}
+	1173.1.1 = {
+		add_spouse = 221563
+	}
+	1176.1.1 = {
+		trait = excommunicated
+	}
+	1178.1.1 = {
+		remove_trait = excommunicated
+		effect = {
+			set_relation_rival = character:212850 # Bedrich
+		}
+	}
+	1180.1.29 = {
+		death = "1180.1.29"
+	}
+}
+
+212850 = {
+	name = "BedR_ich"
+	dynasty = 506
+	martial = 4
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 7
+	religion = "catholic"
+	culture = "czech"
+	trait = craven
+	trait = greedy
+	trait = education_intrigue_2
+	father = 212851
+	mother = 212852
+	1141.1.1 = {
+		birth = "1141.1.1"
+	}
+	1157.1.1 = {
+		add_spouse = 219512
+	}
+	1189.3.25 = {
+		death = "1189.3.25"
+	}
+}
+
+212851 = {
+	name = "Vladislav"
+	dynasty = 506
+	martial = 7
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 8
+	religion = "catholic"
+	culture = "czech"
+	trait = brave
+	trait = lazy
+	trait = education_martial_3
+	father = 212861
+	mother = 212862
+	1110.10.2 = {
+		birth = "1110.10.2"
+	}
+	1139.1.1 = {
+		add_spouse = 212852
+	}
+	1154.1.1 = {
+		add_spouse = 212441
+	}
+	1174.1.18 = {
+		death = "1174.1.18"
+	}
+}
+
+212853 = {
+	name = "Z_ofie"
+	# AKA: Sofie
+	female = yes
+	dynasty = 506
+	martial = 7
+	diplomacy = 8
+	intrigue = 4
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = education_diplomacy_2
+	father = 212850
+	mother = 219512
+	1168.1.1 = {
+		birth = "1168.1.1"
+	}
+	1195.1.1 = {
+		death = "1195.1.1"
+	}
+}
+
+212854 = {
+	name = "Ludmila"
+	female = yes
+	dynasty = 506
+	martial = 5
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 8
+	religion = "catholic"
+	culture = "czech"
+	trait = generous
+	trait = temperate
+	trait = education_learning_3
+	father = 212850
+	mother = 219512
+	1170.1.1 = {
+		birth = "1170.1.1"
+	}
+	1240.8.5 = {
+		death = "1240.8.5"
+	}
+}
+
+212855 = {
+	name = "Otakar"
+	# AKA: PR_emysl
+	dynasty = 506
+	martial = 8
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 7
+	religion = "catholic"
+	culture = "czech"
+	trait = arrogant
+	trait = lustful
+	trait = intellect_good_1
+	trait = education_intrigue_3
+	father = 212851
+	mother = 212441
+	1155.1.1 = {
+		birth = "1155.1.1"
+	}
+	1178.1.1 = {
+		effect = {
+			create_betrothal = character:212044
+		}
+	}
+	1199.1.1 = {
+		add_spouse = 219503
+	}
+	1230.12.15 = {
+		death = "1230.12.15"
+	}
+}
+
+212856 = {
+	name = "Vladislav"
+	# AKA: Vladislav Jindrich
+	dynasty = 506
+	martial = 7
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = just
+	trait = humble
+	trait = education_stewardship_3
+	father = 212851
+	mother = 212441
+	1160.1.1 = {
+		birth = "1160.1.1"
+	}
+	1222.8.12 = {
+		death = "1222.8.12"
+	}
+}
+
+212858 = {
+	name = "VojtE_ch"
+	dynasty = 506
+	martial = 5
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 4
+	religion = "catholic"
+	culture = "czech"
+	trait = stuttering
+	trait = temperate
+	trait = education_learning_2
+	father = 212851
+	mother = 212852
+	1145.1.1 = {
+		birth = "1145.1.1"
+	}
+	1200.4.8 = {
+		death = "1200.4.8"
+	}
+}
+
+212859 = {
+	name = "AneZ_ka"
+	female = yes
+	dynasty = 506
+	martial = 5
+	diplomacy = 8
+	intrigue = 6
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = ambitious
+	trait = education_learning_3
+	father = 212851
+	mother = 212852
+	1148.1.1 = {
+		birth = "1148.1.1"
+	}
+	1228.6.7 = {
+		death = "1228.6.7"
+	}
+}
+
+212860 = {
+	name = "Richenza"
+	# AKA: Richza
+	female = yes
+	dynasty = 506
+	martial = 7
+	diplomacy = 4
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = lustful
+	trait = deceitful
+	trait = education_learning_3
+	father = 212851
+	mother = 212441
+	1162.1.1 = {
+		birth = "1162.1.1"
+	}
+	1183.4.19 = {
+		death = "1183.4.19"
+	}
+}
+
+212861 = {
+	name = "Vladislav"
+	dynasty = 506
+	martial = 5
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 8
+	religion = "catholic"
+	culture = "czech"
+	trait = trusting
+	trait = education_martial_2
+	father = 522
+	mother = 765
+	1065.1.1 = {
+		birth = "1065.1.1"
+	}
+	1110.1.1 = {
+		add_spouse = 212862
+	}
+	1125.4.12 = {
+		death = "1125.4.12"
+	}
+}
+
+212863 = {
+	name = "Diepold"
+	dynasty = 506
+	martial = 6
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 5
+	religion = "catholic"
+	culture = "czech"
+	trait = content
+	trait = diligent
+	trait = education_martial_3
+	father = 212861
+	mother = 212862
+	1113.1.1 = {
+		birth = "1113.1.1"
+	}
+	1154.1.1 = {
+		add_spouse = 212033
+	}
+	1167.8.14 = {
+		death = "1167.8.14"
+	}
+}
+
+212864 = {
+	name = "Diepold"
+	dynasty = 506
+	martial = 7
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 5
+	religion = "catholic"
+	culture = "czech"
+	trait = chaste
+	trait = calm
+	trait = education_martial_3
+	father = 212863
+	mother = 212033
+	1155.1.1 = {
+		birth = "1155.1.1"
+	}
+	1190.11.21 = {
+		death = "1190.11.21"
+	}
+}
+
+212865 = {
+	name = "Hedvika"
+	# AKA: Hedwig
+	female = yes
+	dynasty = 506
+	martial = 7
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 5
+	religion = "catholic"
+	culture = "czech"
+	trait = arrogant
+	trait = lustful
+	trait = education_learning_3
+	father = 212863
+	mother = 212033
+	1155.1.1 = {
+		birth = "1155.1.1"
+	}
+	1210.2.19 = {
+		death = "1210.2.19"
+	}
+}
+
+212866 = {
+	name = "Diepold"
+	dynasty = 506
+	martial = 7
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = wrathful
+	trait = just
+	trait = education_learning_2
+	father = 212864
+	1170.10.2 = {
+		birth = "1170.10.2"
+	}
+	1196.1.1 = {
+		add_spouse = 221540
+	}
+	1223.1.1 = {
+		death = "1223.1.1"
+	}
+}
+
+212868 = {
+	name = "JindR_ich"
+	# AKA: Heinrich
+	dynasty = 506
+	martial = 7
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 5
+	religion = "catholic"
+	culture = "czech"
+	trait = humble
+	trait = education_stewardship_1
+	father = 212861
+	mother = 212862
+	1116.1.1 = {
+		birth = "1116.1.1"
+	}
+	1169.8.1 = {
+		death = "1169.8.1"
+	}
+}
+
+212869 = {
+	name = "JindR_ich"
+	# AKA: Heinrich
+	dynasty = 506
+	martial = 6
+	diplomacy = 7
+	intrigue = 5
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = zealous
+	trait = diligent
+	trait = education_learning_3
+	father = 212868
+	1151.1.1 = {
+		birth = "1151.1.1"
+	}
+	1197.6.15 = {
+		death = "1197.6.15"
+	}
+}
+
+212870 = {
+	name = "EliS_ka"
+	# AKA: Alzbeta
+	female = yes
+	dynasty = 506
+	martial = 6
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 4
+	religion = "catholic"
+	culture = "czech"
+	trait = deceitful
+	trait = education_learning_3
+	father = 212868
+	1161.1.1 = {
+		birth = "1161.1.1"
+	}
+	1211.1.1 = {
+		death = "1211.1.1"
+	}
+}
+
+212871 = {
+	name = "MarkE_ta"
+	# AKA: Marketa
+	female = yes
+	dynasty = 506
+	martial = 4
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 7
+	religion = "catholic"
+	culture = "czech"
+	trait = arrogant
+	trait = education_diplomacy_1
+	father = 212868
+	1165.1.1 = {
+		birth = "1165.1.1"
+	}
+	1215.1.1 = {
+		death = "1215.1.1"
+	}
+}
+
+212872 = {
+	name = "SobE_slav"
+	dynasty = 506
+	martial = 7
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 5
+	religion = "catholic"
+	culture = "czech"
+	trait = brave
+	trait = calm
+	trait = education_martial_4
+	father = 522
+	mother = 765
+	1075.1.1 = {
+		birth = "1075.1.1"
+	}
+	1123.1.1 = {
+		add_spouse = 219533
+	}
+	1140.2.14 = {
+		death = "1140.2.14"
+	}
+}
+
+212873 = {
+	name = "OldR_ich"
+	dynasty = 506
+	martial = 7
+	diplomacy = 4
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = just
+	trait = education_intrigue_1
+	father = 212872
+	mother = 219533
+	1134.1.1 = {
+		birth = "1134.1.1"
+	}
+	1170.1.1 = {
+		add_spouse = 212043
+	}
+	1177.1.1 = {
+		death = "1177.1.1"
+	}
+}
+
+212875 = {
+	name = "VA_clav"
+	# AKA: Vaclav
+	dynasty = 506
+	martial = 3
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = education_intrigue_1
+	father = 212872
+	mother = 219533
+	1137.1.1 = {
+		birth = "1137.1.1"
+	}
+	1192.1.9 = {
+		death = "1192.1.9"
+	}
+}
+
+212881 = {
+	name = "Judita" # Vratislav II's daughter Judita
+	dna = 212881_judita
+	# AKA: Judith
+	female = yes
+	dynasty = 506
+	martial = 4
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 4
+	religion = "catholic"
+	culture = "czech"
+	disallow_random_traits = yes
+	trait = generous
+	trait = charming #childhood trait
+	trait = humble
+	trait = calm
+	trait = education_learning_1
+	father = 522
+	mother = 477
+	1056.1.1 = {
+		birth = "1056.1.1"
+	}
+	1086.8.26 = {
+		death = "1086.8.26"
+	}
+}
+
+212889 = {
+	name = "Litold"
+	# AKA: Lupold
+	dynasty = 506
+	martial = 5
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 8
+	religion = "catholic"
+	culture = "czech"
+	trait = education_martial_2
+	father = 526
+	mother = 531
+	1086.1.1 = {
+		birth = "1086.1.1"
+	}
+	1107.1.1 = {
+		add_spouse = 212890
+	}
+	1112.3.15 = {
+		death = "1112.3.15"
+	}
+}
+
+212892 = {
+	name = "Ota"
+	dna = 212892_ota_the_handsome
+	dynasty = 506
+	martial = 4
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	disallow_random_traits = yes
+	trait = patient
+	trait = just
+	trait = honest
+	trait = beauty_good_2
+	trait = education_martial_3
+	father = 518
+	mother = 1437
+	1045.1.1 = {
+		give_nickname = nick_the_handsome
+		birth = "1045.1.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1066.1.1 = {
+		add_spouse = 473
+	}
+	1087.6.9 = {
+		death = "1087.6.9"
+	}
+}
+
+212893 = {
+	name = "Ota"
+	dynasty = 506
+	martial = 4
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = education_martial_2
+	father = 96009
+	mother = 96073
+	1122.1.1 = {
+		birth = "1122.1.1"
+	}
+	1160.5.12 = {
+		death = "1160.5.12"
+	}
+}
+
+212894 = {
+	name = "VladimI_r"
+	# AKA: Vladimir
+	dynasty = 506
+	martial = 7
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = wrathful
+	trait = diligent
+	trait = education_martial_2
+	father = 212893
+	1145.1.1 = {
+		birth = "1145.1.1"
+	}
+	1199.1.1 = {
+		death = "1199.1.1"
+	}
+}
+
+212895 = {
+	name = "BR_etislav"
+	dynasty = 506
+	martial = 6
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = chaste
+	trait = calm
+	trait = diligent
+	trait = education_learning_3
+	father = 212893
+	1148.1.1 = {
+		birth = "1148.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+221521 = {
+	name = "Helena"
+	dna = 221521_helena_of_poland			
+	female = yes
+	dynasty = 506
+	martial = 8
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 6	
+	religion = "catholic"
+	culture = "czech"
+	trait = lustful
+	trait = intellect_good_1
+	trait = education_diplomacy_3
+	father = 221522
+	mother = 218512
+	1150.1.1 = {
+		birth = "1150.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+221522 = {
+	name = "KonrA_d"
+	# AKA: Konrad
+	dynasty = 506
+	martial = 4
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = "czech"
+	trait = ambitious
+	trait = education_stewardship_2
+	father = 212889
+	mother = 212890
+	1111.1.1 = {
+		birth = "1111.1.1"
+	}
+	1132.1.1 = {
+		add_spouse = 218512
+	}
+	1162.1.2 = {
+		death = "1162.1.2"
+	}
+}
+
+232526 = {
+	name = "Helena"
+	# AKA: Helena-Eirene
+	female = yes
+	dynasty = 506
+	martial = 6
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = "czech"
+	trait = calm
+	trait = education_intrigue_2
+	father = 212850
+	mother = 219512
+	1158.1.1 = {
+		birth = "1158.1.1"
+	}
+	1164.1.1 = {
+		name = "Eirene"
+	}
+	1221.1.1 = {
+		death = "1221.1.1"
+	}
+}
+
+462855 = {
+	name = "EliS_ka"
+	female = yes
+	dynasty = 506
+	martial = 5
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 8
+	religion = "catholic"
+	culture = "czech"
+	trait = just
+#	trait = stressed
+	trait = arrogant
+	trait = beauty_good_1
+	trait = education_learning_2
+	father = 96002
+	mother = 7526 #Jutta von Habsburg
+	1292.1.20 = {
+		birth = "1292.1.20"
+	}
+	1330.9.28 = {
+		death = "1330.9.28"
+	}
+}
+
+470161 = {
+	name = "Zdeslav"
+	dynasty = 12474
+	martial = 7
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = "czech"
+	trait = chaste
+	trait = education_martial_2
+	1270.1.1 = {
+		birth = "1270.1.1"
+	}
+	1298.1.1 = {
+		add_spouse = 470162
+	}
+	1309.1.10 = {
+		death = "1309.1.10"
+	}
+}
+
+500 = {
+	name = "BoR_ivoj"
+	dynasty = 506
+	martial = 7
+	diplomacy = 8
+	intrigue = 6
+	stewardship = 5
+	religion = "slavic_pagan"
+	culture = "czech"
+	trait = deceitful
+	trait = cynical
+	trait = education_stewardship_3
+	father = 168352
+	mother = 168356
+	852.1.1 = {
+		birth = "852.1.1"
+	}
+	874.1.1 = {
+		add_spouse = 501
+	}
+	883.1.1 = {
+		religion = "catholic"
+
+	}
+	890.1.1 = {
+		death = "890.1.1"
+	}
+}
+
+501 = {
+	name = "Ludmila"
+	female = yes
+	dynasty = 250
+	martial = 7
+	diplomacy = 7
+	intrigue = 5
+	stewardship = 8
+	religion = "slavic_pagan"
+	culture = "czech"
+	trait = just
+	trait = zealous
+	trait = education_learning_3
+	father = 168344
+	858.1.1 = {
+		birth = "858.1.1"
+	}
+	883.1.1 = {
+		religion = "catholic"
+
+	}
+	921.9.15 = {
+		death = "921.9.15"
+	}
+}
+
+
+502 = {
+	name = "SpytihnE_v"
+	dynasty = 506
+	martial = 6
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 8
+	religion = "catholic"
+	culture = "czech"
+	trait = calm
+	trait = deceitful
+	trait = education_martial_3
+	father = 500
+	mother = 501
+	875.1.1 = {
+		birth = "875.1.1"
+	}
+	883.1.1 = {
+		religion = "catholic"
+
+	}
+	915.1.1 = {
+		death = "915.1.1"
+	}
+}
+
+504 = {
+	name = "Vratislav"
+	dynasty = 506
+	martial = 6
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 7
+	religion = "catholic"
+	culture = "czech"
+	trait = humble
+	trait = education_learning_2
+	father = 500
+	mother = 501
+	888.1.1 = {
+		birth = "888.1.1"
+	}
+	906.1.1 = {
+		add_spouse = 505
+	}
+	921.1.1 = {
+		death = "921.1.1"
+	}
+}
+
+506 = {
+	name = "VA_clav"
+	# AKA: Vaclav
+	dynasty = 506
+	martial = 7
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = temperate
+	trait = education_martial_3
+	father = 504
+	mother = 505
+	907.1.1 = {
+		birth = "907.1.1"
+	}
+	935.9.28 = {
+		death = {
+			death_reason = death_murder
+			killer = 508
+		}
+		add_trait = saint
+	}
+}
+
+507 = {
+	name = "Biagota"
+	female = yes
+	martial = 7
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 4
+	religion = "catholic"
+	culture = "czech"
+	trait = diligent
+	trait = cynical
+	trait = education_intrigue_1
+	915.1.1 = {
+		birth = "915.1.1"
+	}
+	965.1.1 = {
+		death = "965.1.1"
+	}
+}
+
+508 = {
+	name = "Boleslav"
+	dynasty = 506
+	martial = 6
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 4
+	religion = "catholic"
+	culture = "czech"
+	trait = lisping
+	trait = kinslayer_3
+	trait = greedy
+	trait = education_intrigue_2
+	father = 504
+	mother = 505
+	915.1.1 = {
+		give_nickname = nick_the_cruel
+		birth = "915.1.1"
+	}
+	931.1.1 = {
+		add_spouse = 507
+	}
+	972.1.1 = {
+		death = "972.1.1"
+	}
+}
+
+509 = {
+	name = "Doubravka"
+	# AKA: Dubravka
+	female = yes
+	dynasty = 506
+	martial = 7
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 4
+	religion = "catholic"
+	culture = "czech"
+	trait = arrogant
+	trait = cynical
+	trait = education_learning_3
+	father = 508
+	mother = 507
+	933.1.1 = {
+		birth = "933.1.1"
+	}
+	977.1.1 = {
+		death = "977.1.1"
+	}
+}
+
+510 = {
+	name = "Boleslav"
+	dynasty = 506
+	martial = 7
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = just
+	trait = education_stewardship_3
+	father = 508
+	mother = 507
+	932.1.1 = {
+		give_nickname = nick_the_pious
+		birth = "932.1.1"
+	}
+	952.1.1 = {
+		add_spouse = 511
+	}
+	977.1.1 = {
+		add_spouse = 513
+	}
+	999.1.1 = {
+		death = "999.1.1"
+	}
+}
+
+
+512 = {
+	name = "Boleslav"
+	dynasty = 506
+	martial = 4
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = calm
+	trait = education_martial_2
+	father = 510
+	mother = 511
+	965.1.1 = {
+		birth = "965.1.1"
+	}
+	1037.1.1 = {
+		death = "1037.1.1"
+	}
+}
+
+514 = {
+	name = "JaromI_r"
+	# AKA: Jaromir
+	dynasty = 506
+	martial = 5
+	diplomacy = 7
+	intrigue = 5
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = honest
+	trait = disfigured
+	trait = education_martial_2
+	father = 510
+	mother = 513
+	978.1.1 = {
+		birth = "978.1.1"
+	}
+	1035.1.1 = {
+		death = "1035.1.1"
+	}
+}
+
+516 = {
+	name = "OldR_ich"
+	dynasty = 506
+	martial = 6
+	diplomacy = 8
+	intrigue = 6
+	stewardship = 7
+	religion = "catholic"
+	culture = "czech"
+	trait = lustful
+	trait = education_martial_2
+	father = 510
+	mother = 513
+	980.1.1 = {
+		birth = "980.1.1"
+	}
+	1001.1.1 = {
+		add_spouse = 517
+	}
+	1034.1.1 = {
+		death = "1034.1.1"
+	}
+}
+
+517 = {
+	name = "BoZ_ena"
+	female = yes
+	martial = 3
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 6
+	religion = "baltic_pagan"
+	culture = "czech"
+	trait = education_intrigue_1
+	985.1.1 = {
+		birth = "985.1.1"
+	}
+	1052.1.1 = {
+		death = "1052.1.1"
+	}
+}
+
+518 = {
+	name = "BR_etislav" #The czech Achilles
+	dynasty = 506
+	martial = 9
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 5
+	religion = "catholic"
+	culture = "czech"
+	trait = deceitful
+	trait = education_martial_2
+	father = 516
+	mother = 517
+	1002.1.1 = {
+		birth = "1002.1.1"
+	}
+	1030.1.10 = {
+		add_spouse = 1437
+	}
+	1055.1.10 = {
+		death = "1055.1.10"
+	}
+}
+
+520 = {
+	name = "SpytihnE_v"
+	dynasty = 506
+	martial = 8
+	diplomacy = 4
+	intrigue = 8
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = education_martial_2
+	father = 518
+	mother = 1437
+	1031.1.1 = {
+		birth = "1031.1.1"
+	}
+	1050.1.1 = {
+		add_spouse = 532
+	}
+	1061.1.1 = {
+		death = "1061.1.1"
+	}
+}
+
+522 = {
+	name = "Vratislav"
+	dna = 522_duke_vratislav
+	dynasty = 506
+	martial = 12
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 7
+	learning = 8
+	prowess = 12
+	religion = "catholic"
+	culture = "czech"
+	trait = just
+	trait = diligent
+	trait = wrathful
+	trait = education_stewardship_4
+	sexuality = heterosexual
+	father = 518
+	mother = 1437
+	1032.1.1 = {
+		birth = "1032.1.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1056.1.1 = {
+		add_spouse = 477
+	}
+	1062.2.1 = {
+		add_spouse = 765
+		effect = {
+			learn_language = language_high_german
+			refund_all_perks = yes
+			remove_all_perk_lifestyle_traits_effect = yes
+			add_stewardship_lifestyle_perk_points = -10
+			add_perk = golden_obligations_perk
+			add_perk = heregeld_perk
+			add_perk = detailed_ledgers_perk
+			add_perk = war_profiteer_perk
+			add_perk = fearful_troops_perk
+			add_perk = it_is_my_domain_perk
+			add_perk = golden_aplomb_perk
+			add_perk = at_any_cost_perk
+			add_perk = avaricious_perk
+			add_trait = avaricious
+			add_perk = tax_man_perk
+			add_perk = pedagogy_perk
+			add_perk = cutting_corners_perk
+			add_perk = professional_workforce_perk
+			add_perk = centralization_perk
+			add_prestige_level = 1
+			set_relation_rival = { target = character:528 reason = rival_historical } # constantly fought each other
+			set_relation_friend = { reason = friend_generic_history target = character:john_monk }
+		}
+	}
+	1092.1.14 = {
+		death = "1092.1.14"
+	}
+}
+
+john_monk = { # John, a monk of Břevnov
+	name = "Jan"
+	learning = 18
+	religion = "catholic"
+	culture = "czech"
+	trait = just
+	trait = zealous
+	trait = humble
+	trait = devoted
+	trait = education_learning_4
+	1030.1.1 = {
+		birth = "1032.1.1"
+	}
+	1062.1.1 = {
+		set_relation_rival = { target = character:528 reason = rival_historical } # constantly fought each other
+		employer = 522
+	}
+	1092.1.14 = {
+		death = "1092.1.14"
+	}
+}
+
+526 = {
+	name = "KonrA_d"
+	# AKA: Konrad
+	dynasty = 506
+	martial = 5
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 5
+	religion = "catholic"
+	culture = "czech"
+	trait = generous
+	trait = arrogant
+	trait = honest
+	trait = education_martial_2
+	father = 518
+	mother = 1437
+	1035.1.1 = {
+		birth = "1035.1.1"
+	}
+	1065.1.1 = {
+		add_spouse = 531
+	}
+	1092.9.6 = {
+		death = "1092.9.6"
+	}
+}
+
+528 = {
+	name = "JaromI_r"
+	# AKA: Jaromir
+	dynasty = 506
+	martial = 3
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 5
+	religion = "catholic"
+	culture = "czech"
+	trait = arbitrary
+	trait = lazy
+	trait = lifestyle_hunter
+	trait = education_learning_2
+	father = 518
+	mother = 1437
+	1039.1.1 = {
+		birth = "1039.1.1"
+	}
+	1090.6.26 = {
+		death = "1090.6.26"
+	}
+}
+
+530 = {
+	name = "BR_etislav"
+	dynasty = 506
+	martial = 5
+	diplomacy = 6
+	intrigue = 3
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	disallow_random_traits = yes
+	trait = compassionate
+	trait = honest
+	trait = generous
+	trait = charming #childhood trait
+	trait = education_stewardship_2
+	father = 522
+	mother = 477
+	1058.1.13 = {
+		birth = "1058.1.13"
+	}
+	#1094.1.1 =
+	#{
+		#add_spouse = Lukarta von Bogen
+	#}
+	1100.12.22 = {
+		death = "1100.12.22"
+	}
+}
+
+534 = {
+	name = "Svatobor"
+	# AKA: Svatobor Friedrich
+	dynasty = 506
+	martial = 3
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_2
+	father = 520
+	mother = 532
+	1055.1.1 = {
+		birth = "1055.1.1"
+	}
+	1086.2.23 = {
+		death = "1086.2.23"
+	}
+}
+
+8500 = {
+	name = "Boleslav"
+	dynasty = 506
+	martial = 3
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = diligent
+	trait = education_stewardship_2
+	father = 522
+	mother = 765
+	1063.1.15 = {
+		birth = "1063.1.15"
+	}
+	1091.8.11 = {
+		death = "1091.8.11"
+	}
+}
+
+8502 = {
+	name = "Ludmila"
+	female = yes
+	dynasty = 506
+	martial = 3
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_2
+	father = 522
+	mother = 477
+	1060.1.1 = {
+		birth = "1060.1.1"
+	}
+	1110.1.1 = {
+		death = "1110.1.1"
+	}
+}
+
+8504 = {
+	name = "BoR_ivoj"
+	dynasty = 506
+	martial = 2
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 2
+	religion = "catholic"
+	culture = "czech"
+	trait = greedy
+	trait = trusting
+	trait = education_martial_1
+	father = 522
+	mother = 765
+	1064.1.1 = {
+		birth = "1064.1.1"
+	}
+	1100.1.1 = {
+		add_spouse = 183188 #Gerberga von Babenberg
+	}
+	1124.2.2 = {
+		death = "1124.2.2"
+	}
+}
+
+96000 = {
+	name = "VA_clav"
+	# AKA: Vaclav
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = arbitrary
+	trait = calm
+	trait = trusting
+	trait = education_diplomacy_3
+	father = 212855
+	mother = 219503
+	1205.1.1 = {
+		birth = "1205.1.1"
+	}
+	1224.1.1 = {
+		add_spouse = 30777
+	}
+	1247.1.3 = {
+		trait = lifestyle_hunter
+	}
+	1247.1.3 = {
+		trait = depressed_1
+	}
+	1253.9.23 = {
+		death = "1253.9.23"
+	}
+}
+
+96001 = {
+	name = "PR_emysl"
+	# AKA: Otakar
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = ambitious
+	trait = wrathful
+	trait = just
+	trait = brave
+	trait = intellect_good_1
+	trait = education_stewardship_4
+	father = 96000
+	mother = 30777
+	1233.1.1 = {
+		birth = "1233.1.1"
+	}
+	1252.1.1 = {
+		add_spouse = 30810
+	}
+	1260.7.12 = {
+		give_nickname = nick_the_magnificent
+	}
+	1261.1.1 = {
+		remove_spouse = 30810
+	}
+	1261.1.3 = {
+		add_spouse = 98016
+	}
+	1278.8.26 = {
+		death = "1278.8.26"
+	}
+}
+
+96002 = {
+	name = "VA_clav"
+	# AKA: Vaclav
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = lustful
+	trait = generous
+	trait = arrogant
+	trait = education_diplomacy_3
+	father = 96001
+	mother = 98016
+	1271.9.27 = {
+		birth = "1271.9.27"
+	}
+	1285.1.24 = {
+		add_spouse = 7526 #Jutta Habsburg
+	}
+	1303.5.26 = {
+		add_spouse = 125978 #Elzbieta Ryksa
+	}
+	1305.6.21 = {
+		death = "1305.6.21"
+	}
+}
+
+96003 = {
+	name = "VA_clav"
+	# AKA: Vaclav
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = lifestyle_reveler
+	trait = lazy
+	trait = education_stewardship_2
+	trait = twin
+	father = 96002
+	mother = 7526 #Jutta von Habsburg
+	1289.10.6 = {
+		birth = "1289.10.6"
+	}
+	1305.10.5 = {
+		add_spouse = 125952 #Viola/Elzbieta Cieszynska
+	}
+	1306.1.1 = {
+		remove_trait = lazy
+	}
+	1306.8.4 = {
+		death = "1306.8.4"
+	}
+}
+
+96004 = {
+	name = "Vratislav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96012
+	1112.1.1 = {
+		birth = "1112.1.1"
+	}
+	1156.1.2 = {
+		death = "1156.1.2"
+	}
+}
+
+96005 = {
+	name = "SpytihnE_v"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96004
+	1143.1.1 = {
+		birth = "1143.1.1"
+	}
+	1199.1.1 = {
+		death = "1199.1.1"
+	}
+}
+
+96006 = {
+	name = "Svatopluk"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96004
+	1145.1.1 = {
+		birth = "1145.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+96007 = {
+	name = "VA_clav"
+	# AKA: Vaclav Jindrich
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96011
+	1107.1.1 = {
+		birth = "1107.1.1"
+	}
+	1130.3.1 = {
+		death = "1130.3.1"
+	}
+}
+
+96008 = {
+	name = "Eufemie"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96012
+	mother = 96073
+	1115.1.1 = {
+		birth = "1115.1.1"
+	}
+	1172.1.1 = {
+		death = "1172.1.1"
+	}
+}
+
+96009 = {
+	name = "Ota"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = wrathful
+	trait = arrogant
+	trait = trusting
+	trait = education_martial_2
+	father = 212892
+	mother = 473
+	1085.1.1 = {
+		birth = "1085.1.1"
+	}
+	1114.1.1 = {
+		add_spouse = 96073
+	}
+	1126.2.18 = {
+		death = "1126.2.18"
+	}
+}
+
+96010 = {
+	name = "Svatava"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212893
+	1144.1.1 = {
+		birth = "1144.1.1"
+	}
+	1159.1.1 = {
+		death = "1159.1.1"
+	}
+}
+
+96011 = {
+	name = "Svatopluk"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = calm
+	trait = diligent
+	trait = education_martial_2
+	father = 212892
+	mother = 473
+	1067.1.1 = {
+		birth = "1067.1.1"
+	}
+	1109.9.21 = {
+		death = "1109.9.21"
+	}
+}
+
+96012 = {
+	name = "OldR_ich"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = deceitful
+	trait = education_martial_2
+	father = 526
+	mother = 531
+	1076.1.1 = {
+		birth = "1076.1.1"
+	}
+	1115.3.27 = {
+		death = "1115.3.27"
+	}
+}
+
+96014 = {
+	name = "Eufemie"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212893
+	1149.1.1 = {
+		birth = "1149.1.1"
+	}
+	1159.1.1 = {
+		death = "1159.1.1"
+	}
+}
+
+96015 = {
+	name = "Hedvika"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96009
+	1126.1.1 = {
+		birth = "1126.1.1"
+	}
+	1187.1.1 = {
+		death = "1187.1.1"
+	}
+}
+
+96016 = {
+	name = "Marie"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212893
+	1151.1.1 = {
+		birth = "1151.1.1"
+	}
+	1159.1.1 = {
+		death = "1159.1.1"
+	}
+}
+
+96017 = {
+	name = "BR_etislav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 530
+	#mother = Lukarta von Bogen
+	1095.6.30 = {
+		birth = "1095.6.30"
+	}
+	1132.3.8 = {
+		death = "1132.3.8"
+	}
+}
+
+96018 = {
+	name = "JaromI_r"
+	# AKA: Jaromir
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = lifestyle_hunter
+	trait = education_martial_2
+	father = 8504
+	mother = 183188 #Gerberga von Babenberg
+	1101.1.1 = {
+		birth = "1101.1.1"
+	}
+	1138.1.1 = {
+		death = "1138.1.1"
+	}
+}
+
+96019 = {
+	name = "SpytihnE_v"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 8504
+	mother = 183188 #Gerberga von Babenberg
+	1101.1.1 = {
+		birth = "1101.1.1"
+	}
+	1157.1.1 = {
+		death = "1157.1.1"
+	}
+}
+
+96020 = {
+	name = "Litold"
+	# AKA: Lupold
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 8504
+	mother = 183188 #Gerberga von Babenberg
+	1102.1.1 = {
+		birth = "1102.1.1"
+	}
+	1143.1.1 = {
+		death = "1143.1.1"
+	}
+}
+
+96021 = {
+	name = "Richenza"
+	# AKA: Richza
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 8504
+	mother = 183188 #Gerberga von Babenberg
+	1103.1.1 = {
+		birth = "1103.1.1"
+	}
+	1123.1.1 = {
+		death = "1123.1.1"
+	}
+}
+
+96022 = {
+	name = "Albrecht"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 8504
+	mother = 183188 #Gerberga von Babenberg
+	1104.1.1 = {
+		birth = "1104.1.1"
+	}
+	1123.1.1 = {
+		death = "1123.1.1"
+	}
+}
+
+96023 = {
+	name = "Judita"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 522
+	mother = 765
+	1067.1.1 = {
+		birth = "1067.1.1"
+	}
+	1108.1.1 = {
+		death = "1108.1.1"
+	}
+}
+
+96024 = {
+	name = "Vladislav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212872
+	mother = 219533
+	1124.1.1 = {
+		birth = "1124.1.1"
+	}
+	1165.1.1 = {
+		death = "1165.1.1"
+	}
+}
+
+96025 = {
+	name = "Marie"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212872
+	mother = 219533
+	1125.1.1 = {
+		birth = "1125.1.1"
+	}
+	1172.1.1 = {
+		death = "1172.1.1"
+	}
+}
+
+96026 = {
+	name = "Svatava"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212861
+	mother = 212862
+	1111.10.2 = {
+		birth = "1111.10.2"
+	}
+	1147.1.29 = {
+		death = "1147.1.29"
+	}
+}
+
+96027 = {
+	name = "Diepold"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_3
+	father = 212866
+	mother = 221540
+	1196.10.2 = {
+		birth = "1196.10.2"
+	}
+	1226.1.1 = {
+		death = "1226.1.1"
+	}
+}
+
+96028 = {
+	name = "Boleslav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = education_martial_2
+	father = 212866
+	mother = 221540
+	1198.1.1 = {
+		birth = "1198.1.1"
+	}
+	1241.4.9 = {
+		death = "1241.4.9"
+	}
+}
+
+96029 = {
+	name = "SobE_slav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212866
+	mother = 221540
+	1199.1.1 = {
+		birth = "1199.1.1"
+	}
+	1246.1.1 = {
+		death = "1246.1.1"
+	}
+}
+
+96030 = {
+	name = "BoR_ivoj"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212866
+	mother = 221540
+	1200.1.1 = {
+		birth = "1200.1.1"
+	}
+	1235.1.1 = {
+		death = "1235.1.1"
+	}
+}
+
+96032 = {
+	name = "Vratislav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212850
+	mother = 219512
+	1158.1.1 = {
+		birth = "1158.1.1"
+	}
+	1180.1.1 = {
+		death = "1180.1.1"
+	}
+}
+
+96033 = {
+	name = "Olga"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212850
+	mother = 219512
+	1159.1.1 = {
+		birth = "1159.1.1"
+	}
+	1163.1.1 = {
+		death = "1163.1.1"
+	}
+}
+
+96034 = {
+	name = "MarkE_ta"
+	# AKA: Marketa
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212850
+	mother = 219512
+	1178.1.1 = {
+		birth = "1178.1.1"
+	}
+	1183.1.1 = {
+		death = "1183.1.1"
+	}
+}
+
+96035 = {
+	name = "Svatopluk"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = wrathful
+	father = 212851
+	mother = 212852
+	1144.1.1 = {
+		birth = "1144.1.1"
+	}
+	1164.1.1 = {
+		add_spouse = 98021
+	}
+	1170.10.15 = {
+		death = "1170.10.15"
+	}
+}
+
+96036 = {
+	name = "Vratislav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = education_martial_1
+	father = 212855
+	mother = 212044
+	1186.1.1 = {
+		birth = "1186.1.1"
+	}
+	1197.1.1 = {
+		trait = bastard
+	}
+	1197.1.1 = {
+		dynasty = 10109
+	}
+	1226.1.1 = {
+		death = "1226.1.1"
+	}
+}
+
+96037 = {
+	name = "MarkE_ta"
+	# AKA: Marketa
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = gregarious
+	father = 212855
+	mother = 212044
+	1186.1.1 = {
+		birth = "1186.1.1"
+	}
+	1213.5.24 = {
+		death = "1213.5.24"
+	}
+}
+
+96038 = {
+	name = "BoZ_islava"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212855
+	mother = 212044
+	1196.1.1 = {
+		birth = "1196.1.1"
+	}
+	1245.1.1 = {
+		death = "1245.1.1"
+	}
+}
+
+96039 = {
+	name = "Hedvika"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212855
+	mother = 212044
+	1197.1.1 = {
+		birth = "1197.1.1"
+	}
+	1260.1.1 = {
+		death = "1260.1.1"
+	}
+}
+
+96040 = {
+	name = "Vratislav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212855
+	mother = 219503
+	1200.1.1 = {
+		birth = "1200.1.1"
+	}
+	1201.1.1 = {
+		death = "1201.1.1"
+	}
+}
+
+96041 = {
+	name = "Judita"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212855
+	mother = 219503
+	1201.1.1 = {
+		birth = "1201.1.1"
+	}
+	1230.6.2 = {
+		death = "1230.6.2"
+	}
+}
+
+96042 = {
+	name = "Anna"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = diligent
+	trait = education_learning_2
+	father = 212855
+	mother = 219503
+	1204.1.1 = {
+		birth = "1204.1.1"
+	}
+	1265.6.23 = {
+		death = "1265.6.23"
+	}
+}
+
+96043 = {
+	name = "Vladislav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 212855
+	mother = 219503
+	1207.1.1 = {
+		birth = "1207.1.1"
+	}
+	1227.1.1 = {
+		death = "1227.1.1"
+	}
+}
+
+96044 = {
+	name = "PR_emysl"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = ambitious
+	father = 212855
+	mother = 219503
+	1209.1.1 = {
+		birth = "1209.1.1"
+	}
+	#1232.9.23 = {
+		#add_spouse = Margaret von Meran
+	#}
+	1239.10.16 = {
+		death = "1239.10.16"
+	}
+}
+
+96045 = {
+	name = "AneZ_ka"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = humble
+	trait = generous
+	trait = content
+	trait = education_learning_4
+	father = 212855
+	mother = 219503
+	1211.1.1 = {
+		birth = "1211.1.1"
+	}
+	1219.1.1 = {
+		trait = celibate
+	}
+	1282.3.6 = {
+		death = "1282.3.6"
+	}
+}
+
+96046 = {
+	name = "VilemI_na"
+	# AKA: Vilemina
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = gregarious
+	trait = education_learning_2
+	father = 212855
+	mother = 219503
+	1210.1.1 = {
+		birth = "1210.1.1"
+	}
+	1281.8.24 = {
+		death = "1281.8.24"
+	}
+}
+
+96047 = {
+	name = "Vladislav"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96000
+	mother = 30777
+	1227.1.1 = {
+		birth = "1227.1.1"
+	}
+	#1246.1.1 = {
+		#add_spouse = Gertrude von Babenberg
+	#}
+	1247.1.3 = {
+		death = "1247.1.3"
+	}
+}
+
+96048 = {
+	name = "AneZ_ka"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96000
+	mother = 30777
+	1227.1.1 = {
+		birth = "1227.1.1"
+	}
+	1268.10.10 = {
+		death = "1268.10.10"
+	}
+}
+
+96049 = {
+	name = "BoZ_ena"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96000
+	mother = 30777
+	1228.1.1 = {
+		birth = "1228.1.1"
+	}
+	1286.5.25 = {
+		death = "1286.5.25"
+	}
+}
+
+96050 = {
+	name = "Kunhuta"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_1
+	father = 96001
+	mother = 98016
+	1265.1.1 = {
+		birth = "1265.1.1"
+	}
+	1321.11.27 = {
+		death = "1321.11.27"
+	}
+}
+
+96051 = {
+	name = "AneZ_ka"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96001
+	mother = 98016
+	1269.9.5 = {
+		birth = "1269.9.5"
+	}
+	1296.5.17 = {
+		death = "1296.5.17"
+	}
+}
+
+96052 = {
+	name = "MikulA_S_"
+	# AKA: Mikulas
+	dynasty = 10110
+	religion = "catholic"
+	culture = "czech"
+	trait = bastard
+	trait = just
+	trait = education_martial_3
+	father = 96001
+	1255.1.1 = {
+		birth = "1255.1.1"
+	}
+	1318.7.26 = {
+		death = "1318.7.26"
+	}
+}
+
+96053 = {
+	name = "MikulA_s"
+	# AKA: Mikulas
+	dynasty = 10110
+	religion = "catholic"
+	culture = "czech"
+	father = 96052
+	1288.1.1 = {
+		birth = "1288.1.1"
+	}
+	#1318.1.1 = {
+		#add_spouse = Anna Raciborska
+	#}
+	1365.12.8 = {
+		death = "1365.12.8"
+	}
+}
+
+96054 = {
+	name = "Jan"
+	dynasty = 10110
+	religion = "catholic"
+	culture = "czech"
+	father = 96053
+	#mother = Anna Raciborska
+	1332.1.1 = {
+		birth = "1332.1.1"
+	}
+	1380.1.1 = {
+		death = "1380.1.1"
+	}
+}
+
+96055 = {
+	name = "Jan"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = bastard
+	trait = cynical
+	trait = gregarious
+	trait = education_learning_4
+	father = 96001
+	1256.1.1 = {
+		birth = "1256.1.1"
+	}
+	1296.8.26 = {
+		death = "1296.8.26"
+	}
+}
+
+96056 = {
+	name = "PR_emysl"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96002
+	mother = 7526 #Jutta von Habsburg
+	1288.1.1 = {
+		birth = "1288.1.1"
+	}
+	1289.1.1 = {
+		death = "1289.1.1"
+	}
+}
+
+96057 = {
+	name = "AneZ_ka"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = twin
+	father = 96002
+	mother = 7526 #Jutta von Habsburg
+	1289.10.6 = {
+		birth = "1289.10.6"
+	}
+	1296.1.1 = {
+		death = "1296.1.1"
+	}
+}
+
+96058 = {
+	name = "Anna"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96002
+	mother = 7526 #Jutta von Habsburg
+	1290.10.15 = {
+		birth = "1290.10.15"
+	}
+	1313.9.3 = {
+		death = "1313.9.3"
+	}
+}
+
+96059 = {
+	name = "Guta"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96002
+	mother = 7526 #Jutta von Habsburg
+	1293.1.1 = {
+		birth = "1293.1.1"
+	}
+	1294.1.1 = {
+		death = "1294.1.1"
+	}
+}
+
+96060 = {
+	name = "Jan"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96002
+	mother = 7526 #Jutta von Habsburg
+	1294.1.1 = {
+		birth = "1294.1.1"
+	}
+	1295.1.1 = {
+		death = "1295.1.1"
+	}
+}
+
+96061 = {
+	name = "MarkE_ta"
+	# AKA: Marketa
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = shy
+	trait = content
+	father = 96002
+	mother = 7526 #Jutta von Habsburg
+	1296.2.21 = {
+		birth = "1296.2.21"
+	}
+	1322.4.8 = {
+		death = "1322.4.8"
+	}
+}
+
+96062 = {
+	name = "Guta"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96002
+	mother = 7526 #Jutta von Habsburg
+	1297.1.1 = {
+		birth = "1297.1.1"
+	}
+	1298.1.1 = {
+		death = "1298.1.1"
+	}
+}
+
+96063 = {
+	name = "AneZ_ka"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 96002
+	mother = 125978 #Elzbieta Ryksa
+	1305.6.15 = {
+		birth = "1305.6.15"
+	}
+	1336.1.1 = {
+		death = "1336.1.1"
+	}
+}
+
+96064 = {
+	name = "Jan"
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	trait = bastard
+	trait = education_learning_3
+	father = 96002
+	1296.1.1 = {
+		birth = "1296.1.1"
+	}
+	1351.9.27 = {
+		death = "1351.9.27"
+	}
+}
+
+96065 = {
+	name = "MarkE_ta"
+	# AKA: Marketa
+	female = yes
+	dynasty = 10110
+	religion = "catholic"
+	culture = "czech"
+	father = 96053
+	#mother = Anna Raciborska
+	1325.1.1 = {
+		birth = "1325.1.1"
+	}
+	1363.1.1 = {
+		death = "1363.1.1"
+	}
+}
+
+96066 = {
+	name = "Budivoj"
+	dynasty = 10106
+	religion = "catholic"
+	culture = "czech"
+	1220.1.1 = {
+		birth = "1220.1.1"
+	}
+	1245.1.1 = {
+		add_spouse = 96067
+	}
+	1268.1.1 = {
+		death = "1268.1.1"
+	}
+}
+
+96067 = {
+	name = "Perchta"
+	female = yes
+	dynasty = 10105
+	religion = "catholic"
+	culture = "czech"
+	1222.1.1 = {
+		birth = "1222.1.1"
+	}
+	1271.1.1 = {
+		death = "1271.1.1"
+	}
+}
+
+96068 = {
+	name = "ZA_viS_"
+	# AKA: Zavis
+	dynasty = 10106
+	religion = "catholic"
+	culture = "czech"
+	trait = ambitious
+	trait = beauty_good_1
+	trait = gregarious
+	trait = education_intrigue_3
+	father = 96066
+	mother = 96067
+	1250.1.1 = {
+		birth = "1250.1.1"
+	}
+	1284.1.1 = {
+		add_spouse = 98016
+	}
+	1287.1.1 = {
+		add_spouse = 98044
+	}
+	1288.1.1 = {
+		trait = excommunicated
+	}
+	1290.8.24 = {
+		death = "1290.8.24"
+	}
+}
+
+96069 = {
+	name = "JeS_ek"
+	dynasty = 10106
+	religion = "catholic"
+	culture = "czech"
+	trait = bastard
+	trait = education_learning_2
+	father = 96068
+	mother = 98016
+	1282.1.1 = {
+		birth = "1282.1.1"
+	}
+	1351.9.27 = {
+		death = "1351.9.27"
+	}
+}
+
+222623 = {
+	name = "Vladislava"
+	female = yes
+	dynasty = 506
+	martial = 7
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 4
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_2
+	father = 212851
+	mother = 212852
+	1141.1.1 = {
+		birth = "1141.1.1"
+	}
+	1182.1.1 = {
+		death = "1182.1.1"
+	}
+}
+
+471525 = {
+	name = "Eufemia"
+	female = yes
+	dynasty = 10110
+	religion = "catholic"
+	culture = "czech"
+	father = 96053
+	mother = 125972
+	1319.1.2 = {
+			birth = "1319.1.2"
+	}
+	1352.1.2 = {
+			death = "1352.1.2"
+	}
+}
+
+96070 = {
+	name = "Radim-Gaudentius"
+	religion = "catholic"
+	culture = "czech"
+	trait = bastard
+	trait = education_learning_3
+	trait = celibate
+	trait = zealous
+	trait = honest
+	father = 168360
+	970.1.1 = {
+		birth = "970.1.1"
+	}
+	
+	1020.1.1 = {
+		death = "1020.1.1"
+	}
+}
+
+96113 = {
+	name = "Prokop"
+	religion = "catholic"
+	culture = "czech"
+	1227.1.1 = {
+		birth = "1227.1.1"
+	}
+	1295.1.1 = {
+		death = "1295.1.1"
+	}
+}
+
+221551 = {
+	name = "Ludmila"
+	female = yes
+	religion = "catholic"
+	culture = "czech"
+	1150.1.2 = {
+		birth = "1150.1.2"
+	}
+	1211.1.2 = {
+		death = "1211.1.2"
+	}
+}
+
+168344 = {
+	name = "Slavibor"
+	dynasty = 250
+	religion = "slavic_pagan"
+	culture = "czech"
+	827.1.1 = {
+		birth = "827.1.1"
+	}
+	
+	877.1.1 = {
+		death = "877.1.1"
+	}
+}
+
+168345 = {
+	name = "PR_emysl"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	694.1.1 = {
+		birth = "694.1.1"
+	}
+	745.1.1 = {
+		death = "745.1.1"
+		give_nickname = nick_the_ploughman
+	}
+}
+
+168346 = {
+	name = "Nezamysl"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168345
+	715.1.1 = {
+		birth = "715.1.1"
+	}
+	
+	783.1.1 = {
+		death = "783.1.1"
+	}
+}
+
+168347 = {
+	name = "Mnata"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168346
+	732.1.1 = {
+		birth = "732.1.1"
+	}
+	
+	804.1.1 = {
+		death = "804.1.1"
+	}
+}
+
+168348 = {
+	name = "Vojen"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168347
+	748.1.1 = {
+		birth = "748.1.1"
+	}
+	
+	820.1.1 = {
+		death = "820.1.1"
+	}
+}
+
+168349 = {
+	name = "Unislav"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168348
+	764.1.1 = {
+		birth = "764.1.1"
+	}
+	
+	833.1.1 = {
+		death = "833.1.1"
+	}
+}
+
+168350 = {
+	name = "KR_esomysl"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168349
+	782.1.1 = {
+		birth = "782.1.1"
+	}
+	
+	851.1.1 = {
+		death = "851.1.1"
+	}
+}
+
+168351 = {
+	name = "Neklan"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168350
+	800.1.1 = {
+		birth = "800.1.1"
+	}
+	819.1.1 = {
+		add_spouse = 168355
+	}
+	873.1.1 = {
+		death = "873.1.1"
+	}
+}
+
+168352 = {
+	name = "HostivI_t"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168351
+	mother = 168355
+	820.1.1 = {
+		birth = "820.1.1"
+	}
+	851.1.1 = {
+		add_spouse = 168356
+	}
+	870.1.1 = {
+		death = "870.1.1"
+	}
+}
+
+
+
+168353 = {
+	name = "SpytimI_r" #revolted against his kinsman Borivoj in 885
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168617
+	845.1.1 = {
+		birth = "845.1.1"
+	}
+	
+	885.1.1 = {
+		death = "885.1.1"
+	}
+}
+
+168354 = {
+	name = "StrojmI_r" #revolted against his kinsmen Borivoj in 885
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168617
+	847.1.1 = {
+		birth = "847.1.1"
+	}
+	
+	885.1.1 = {
+		death = "885.1.1"
+	}
+}
+
+
+
+168355 = {
+	name = "Ponislava"
+	female = yes
+	religion = "slavic_pagan"
+	culture = "czech"
+	802.1.1 = {
+		birth = "802.1.1"
+	}
+	
+	870.1.1 = {
+		death = "870.1.1"
+	}
+}
+
+
+
+168356 = {
+	name = "Miloslava"
+	female = yes
+	religion = "slavic_pagan"
+	culture = "czech"
+	835.1.1 = {
+		birth = "835.1.1"
+	}
+	
+	885.1.1 = {
+		death = "885.1.1"
+	}
+}
+
+168357 = {
+	name = "Vitislav"
+	dynasty = 9588
+	religion = "slavic_pagan"
+	culture = "czech"
+	850.1.1 = {
+		birth = "850.1.1"
+	}
+	883.1.1 = {
+		religion = "catholic"
+	}
+	910.1.1 = {
+		death = "910.1.1"
+	}
+}
+
+168358 = {
+	name = "Vok"
+	dynasty = 9588
+	religion = "catholic"
+	culture = "czech"
+	father = 168357
+	890.1.1 = {
+		birth = "890.1.1"
+	}
+	
+	968.1.1 = {
+		death = "968.1.1"
+	}
+}
+
+168360 = {
+	name = "SlavnI_k"
+	dynasty = 9588
+	religion = "catholic"
+	culture = "czech"
+	father = 168358
+	920.1.1 = {
+		birth = "920.1.1"
+	}
+	950.1.1 = {
+		add_spouse = 168361
+	}
+	981.3.18 = {
+		death = "981.3.18"
+	}
+}
+
+
+
+168361 = {
+	name = "StR_ezislava"
+	female = yes
+	dynasty = 506
+	religion = "catholic"
+	culture = "czech"
+	father = 504
+	mother = 505
+	920.1.1 = {
+		birth = "920.1.1"
+	}
+	
+	987.1.1 = {
+		death = "987.1.1"
+	}
+}
+
+
+168362 = {
+	name = "VojtE_ch" #Saint Adalbert of Prague
+	dynasty = 9588
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_4
+	trait = celibate
+	trait = zealous
+	trait = brave
+	trait = just
+	trait = diligent
+	trait = temperate
+	father = 168360
+	mother = 168361
+	956.1.1 = {
+		birth = "956.1.1"
+	}
+	
+	997.4.23 = {
+		death = "997.4.23"
+	}
+}
+
+
+
+168363 = {
+	name = "SobE_slav"
+	dynasty = 9588
+	religion = "catholic"
+	culture = "czech"
+	father = 168360
+	mother = 168361
+	952.1.1 = {
+		birth = "952.1.1"
+	}
+	
+	1004.1.1 = {
+		death = "1004.1.1"
+	}
+}
+
+168580 = {
+	name = "SlavomI_r"
+	#placeholder
+	dynasty = 9603
+	religion = "catholic"
+	culture = "czech"
+	845.1.1 = {
+		birth = yes
+	}
+	
+	895.1.1 = {
+		death = yes
+	}
+}
+
+
+
+168581 = {
+	name = "Draslav"
+	#placeholder
+	dynasty = 9604
+	religion = "catholic"
+	culture = "czech"
+	845.1.1 = {
+		birth = yes
+	}
+	
+	899.1.1 = {
+		death = yes
+	}
+}
+
+168617 = {
+	name = "Diepold"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168351
+	mother = 168355
+	825.1.1 = {
+		birth = yes
+	}
+	
+	865.1.1 = {
+		death = yes
+	}
+}
+146174 = {
+	name = "KR_esomysl"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 168345
+	722.1.1 = {
+		birth = yes
+	}
+	787.1.1 = {
+		death = yes
+	}
+}
+
+146175 = {
+	name = "StrojmI_r"
+	dynasty = 506
+	religion = "slavic_pagan"
+	culture = "czech"
+	father = 146174
+	742.1.1 = {
+		birth = yes
+	}
+	801.1.1 = {
+		death = yes
+	}
+}
+
+
+273020 = { #prior of capitule of Litomerice, originally German, but naturalized czech
+	name = "LanZ_"
+	religion = catholic
+	culture = saxon
+	trait = education_learning_4
+	1022.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		culture = czech
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+273021 = { #fantasy father of Slavibor ze Pšova
+	name = "VeliS_"
+	dynasty = 250
+	religion = slavic_pagan
+	culture = czech
+	father = 273022
+	795.1.1 = {
+		birth = yes
+	}
+	843.1.1 = {
+		death = yes
+	}
+}
+273022 = { #fantasy rulers of Pšov
+	name = "Slavibor"
+	dynasty = 250
+	religion = slavic_pagan
+	culture = czech
+	father = 273023
+	765.1.1 = {
+		birth = yes
+	}
+	816.1.1 = {
+		death = yes
+	}
+}
+273023 = { #fantasy rulers of Pšov
+	name = "Nemoj"
+	dynasty = 250
+	religion = slavic_pagan
+	culture = czech
+	748.1.1 = {
+		birth = yes
+	}
+	793.1.1 = {
+		death = yes
+	}
+}
+273024 = { #semi-legendary ruler of Zatec/Louny
+	name = "Vlastislav"
+	dynasty = 1069074 #z Loun
+	religion = slavic_pagan
+	culture = czech
+	735.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+273052 = { #fantasy ruler of Zatec/Louny
+	name = "CC_astohnev"
+	dynasty = 1069074 #z Loun
+	religion = slavic_pagan
+	culture = czech
+	father = 273024
+	753.1.1 = {
+		birth = yes
+	}
+	809.1.1 = {
+		death = yes
+	}
+}
+#Vršovci
+273025 = { #fictional forefather of the dynasty
+	name = "VrS_a" #fictional
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	918.1.1 = {
+		birth = yes
+	}
+	976.1.1 = {
+		death = yes
+	}
+}
+273026 = {
+	name = "Kochan" #unknown by name - a husband of daughter of Boleslav
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273029
+	976.1.1 = {
+		birth = yes
+	}
+	999.1.1 = {
+		add_spouse = 273027
+	}
+	1003.2.9 = {
+		death = yes
+	}
+}
+273027 = {
+	name = "Svatava" #unknown daughter of Boleslav III.
+	female = yes
+	dynasty = 506
+	religion = catholic
+	culture = czech
+	father = 512
+	mother = 273028
+	983.1.1 = {
+		birth = yes
+	}
+	999.1.1 = {
+		add_spouse = 273026
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+273028 = {
+	name = "Svatava" #unknown wife of Boleslav III.
+	female = yes
+	religion = catholic
+	culture = czech
+	957.1.1 = {
+		birth = yes
+	}
+	981.1.1 = {
+		add_spouse = 512
+	}
+	1022.1.1 = {
+		death = yes
+	}
+}
+273029 = {
+	name = "Kochan" #fictional
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273025
+	950.1.1 = {
+		birth = yes
+	}
+	999.9.9 = {
+		death = yes
+	}
+}
+273030 = {
+	name = "BoZ_ej" #in 1014 the leader of Vršovci - at that date a possible Vršovic grandson of Boleslav III was still too young.
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273029
+	980.1.1 = {
+		birth = yes
+	}
+	1014.9.9 = {
+		death = yes
+	}
+}
+273031 = {
+	name = "Kochan" #murderer of Jaromír Premyslid
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273026
+	mother = 273027
+	1002.1.1 = {
+		birth = yes
+	}
+	1035.11.11 = {
+		death = yes
+	}
+}
+273032 = {
+	name = "CC_aslav" #fictional link between the first Vršovci and those massacred in 1108
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273031
+	1033.1.1 = {
+		birth = yes
+	}
+	1083.11.11 = {
+		death = yes
+	}
+}
+273033 = {
+	name = "Nemoj" #in 1107 gave large territories to Vyšehrad kapitula
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273031
+	1034.1.1 = {
+		birth = yes
+	}
+	1107.11.11 = {
+		death = yes
+	}
+}
+273034 = {
+	name = "Mutina" #1092-1096 and 1101-1108 Litomerice
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273032
+	1059.1.1 = {
+		birth = yes
+	}
+	1108.10.27 = {
+		death = yes
+	}
+}
+273035 = {
+	name = "Mutina" #son of Mutina murdered in 1108
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273034
+	1083.1.1 = {
+		birth = yes
+	}
+	1108.10.27 = {
+		death = { death_reason = death_murder }
+	}
+}
+273036 = {
+	name = "Nemoj" #son of Mutina murdered in 1108
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273034
+	1087.1.1 = {
+		birth = yes
+	}
+	1108.10.27 = {
+		death = { death_reason = death_murder }
+	}
+}
+273037 = {
+	name = "Vnislav" #murdered in 1108 together with Mutina
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273033
+	1064.1.1 = {
+		birth = yes
+	}
+	1108.10.27 = {
+		death = { death_reason = death_murder }
+	}
+}
+273038 = {
+	name = "DamaS_a" #murdered in 1108 together with Mutina
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273033
+	1066.1.1 = {
+		birth = yes
+	}
+	1108.10.27 = {
+		death = { death_reason = death_murder }
+	}
+}
+273039 = {
+	name = "NeuS_a" #in 1108 was with Mutina, escaped, but was murdered later
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273033
+	1083.1.1 = {
+		birth = yes
+	}
+	1108.10.28 = {
+		death = { death_reason = death_murder }
+	}
+}
+273040 = {
+	name = "BoZ_ej"
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273031
+	1036.1.1 = {
+		birth = yes
+	}
+	1089.11.11 = {
+		death = yes
+	}
+}
+273041 = {
+	name = "BoZ_ej" #1092-1096 and 1101-1108 Zatec, Murdered in 1108
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273040
+	1065.1.1 = {
+		birth = yes
+	}
+	1108.10.29 = {
+		death = { death_reason = death_murder }
+	}
+}
+273042 = {
+	name = "CCesta" #Murdered in 1108
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273040
+	1066.1.1 = {
+		birth = yes
+	}
+	1108.10.29 = {
+		death = { death_reason = death_murder }
+	}
+}
+273043 = {
+	name = "Borut" #son of Bozej of Zatec, Murdered in 1108
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273041
+	1093.1.1 = {
+		birth = yes
+	}
+	1108.10.29 = {
+		death = { death_reason = death_murder }
+	}
+}
+273044 = {
+	name = "Jan" #son of Czesta (Česta), the only one from czech, who survived the massacre of 1108
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273042
+	1092.1.1 = {
+		birth = yes
+	}
+	1144.10.10 = {
+		death = yes
+	}
+}
+#Moravian branch of Vršovci
+273045 = {
+	name = "Hruta" #castellan of Bitov
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273033
+	1065.1.1 = {
+		birth = yes
+	}
+	1112.10.10 = {
+		death = yes
+	}
+}
+273046 = {
+	name = "Detrich" #castellan of Bitov 1112-1155
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273045
+	1093.1.1 = {
+		birth = yes
+	}
+	1155.10.10 = {
+		death = yes
+	}
+}
+273047 = {
+	name = "Detrich" #castellan of Bitov 1155-1170
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273046
+	1115.1.1 = {
+		birth = yes
+	}
+	1170.10.10 = {
+		death = yes
+	}
+}
+273048 = {
+	name = "Hruta" #castellan of Bitov 1170-1192
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273046
+	1122.1.1 = {
+		birth = yes
+	}
+	1192.10.10 = {
+		death = yes
+	}
+}
+#descendants of the survivor Jan, governors in Litomerice and Zatec
+273049 = {
+	name = "Nemoj" #fictional son of Jan, who survived the massacre of 1108
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273044
+	1110.1.1 = {
+		birth = yes
+	}
+	1154.10.10 = {
+		death = yes
+	}
+}
+273050 = {
+	name = "Nemoj" # Nemoj II. in 1160 castellan of Litomerice, since 1160 also steward
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273049
+	1127.1.1 = {
+		birth = yes
+	}
+	1190.10.10 = {
+		death = yes
+	}
+}
+273051 = {
+	name = "JarohnEE_v" # 1146-77 castellan of Zatec
+	dynasty = 10107
+	religion = catholic
+	culture = czech
+	father = 273049
+	1128.1.1 = {
+		birth = yes
+	}
+	1177.10.10 = {
+		death = yes
+	}
+}
+
+#Slavníkids
+273053 = {
+	name = "SpytimIr"
+	dynasty = 9588
+	religion = catholic
+	culture = czech
+	father = 168360
+	mother = 168361
+	953.1.1 = {
+		birth = yes
+	}
+	995.9.27 = {
+		death = yes
+	}
+}
+273054 = {
+	name = "Pobreslav"
+	dynasty = 9588
+	religion = catholic
+	culture = czech
+	father = 168360
+	mother = 168361
+	955.1.1 = {
+		birth = yes
+	}
+	995.9.27 = {
+		death = yes
+	}
+}
+273055 = {
+	name = "Porej"
+	dynasty = 9588
+	religion = catholic
+	culture = czech
+	father = 168360
+	mother = 168361
+	957.1.1 = {
+		birth = yes
+	}
+	995.9.27 = {
+		death = yes
+	}
+}
+273056 = {
+	name = "CCaslav"
+	dynasty = 9588
+	religion = catholic
+	culture = czech
+	father = 168360
+	mother = 168361
+	959.1.1 = {
+		birth = yes
+	}
+	995.9.27 = {
+		death = yes
+	}
+}
+273066 = {
+	name = "Mutina"
+	dynasty = 1069072
+	religion = slavic_pagan
+	culture = czech
+	750.1.1 = {
+		birth = yes
+	}
+	809.1.1 = {
+		death = yes
+	}
+}
+273067 = {
+	name = "Radosta"
+	dynasty = 1069072
+	religion = slavic_pagan
+	culture = czech
+	father = 273066
+	792.1.1 = {
+		birth = yes
+	}
+	848.1.1 = {
+		death = yes
+	}
+}
+273068 = {
+	name = "DobeS_"
+	dynasty = 1069072
+	religion = catholic
+	culture = czech
+	father = 273067
+	830.1.1 = {
+		birth = yes
+	}
+	887.1.1 = {
+		death = yes
+	}
+}
+273069 = {
+	name = "Kojata"
+	dynasty = 1069073
+	religion = catholic
+	culture = czech
+	848.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+
+### МОД 1490
+#Йиржи Подебрад (из Подебрад), король Чехии 2 марта 1458 — 22 марта 1471
+JirzhiIzPodebrad = {
+	name = "Jirzhi"
+	dna = 14201471_irzjipodebrad
+	dynasty = Podebrad
+	father = ViktorinIzPodebrad
+	religion = catholic
+	culture = czech
+	trait = education_stewardship_2
+	trait = athletic
+	1420.4.23 = {
+		birth = yes
+	}
+	1440.5.1 = {
+		add_spouse = PodebradKunhuta
+	}
+	1449.11.19 = {
+		remove_spouse = PodebradKunhuta
+	}
+	1450.1.1 = {
+		add_spouse = JohanazRozh
+	}
+	1458.3.2 = {
+		effect = {
+			add_prestige = 200
+			dynasty = { add_dynasty_prestige = 400 }
+		}
+	}
+	1469.12.12 = {
+		add_trait = excommunicated
+	}
+	#лишение титула невозможно
+	1470.1.1 = {
+		add_gold = 100
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1
+			}
+		}
+	}
+	1471.3.22 = {
+		death = yes
+	}
+}
+#первая Жена Иржи Кунгута из Штернберка
+PodebradKunhuta = {
+	name = "Kunhuta"
+	female = yes
+	dynasty = 12474
+	father = SmilShternberk
+	religion = catholic
+	culture = czech
+	prowess = 4
+	1425.11.18 = {
+		birth = yes
+	}
+	1449.11.19 = {
+		death  = {
+			death_reason = death_childbirth
+		}
+	}
+}
+#Смил Штернберк чех
+SmilShternberk = {
+	name = "Smil"
+	dynasty = 12474
+	religion = catholic
+	culture = czech
+	1400.2.2 = {
+		birth = yes
+	}
+	1433.1.19 = {
+		death = yes
+	}
+}
+#Йогана из Рожмиталя -Rožmitál
+JohanazRozh = {
+	name = "Johanna"
+	female = yes
+	dynasty = Rozhmital #Rožmitál
+	religion = catholic
+	culture = czech
+	1425.5.14 = {
+		birth = yes #?1430-e
+	}
+	1471.11.19 = {
+		death = yes
+	}
+}
+#Викторин отец
+ViktorinIzPodebrad = {
+	name = "ViktorI_n"
+	dynasty = Podebrad
+	religion = catholic
+	trait = education_stewardship_1
+	trait = athletic
+	culture = czech
+	1403.1.1 = {
+		birth = yes
+	}
+	1427.1.1 = {
+		death = yes
+	}
+}
+#BoC_ek Бочек сын лишён наследства слабоумен
+BochekPodebrad = {
+	name = "BoC_ek"
+	dynasty = Podebrad
+	father = JirzhiIzPodebrad
+	mother = PodebradKunhuta
+	trait = intellect_bad_3
+	religion = catholic
+	culture = czech
+	1442.1.1 = {
+		birth = yes
+	}
+	1458.3.3 = {
+		add_trait = disinherited
+	}
+	1496.1.1 = {
+		death = yes
+	}
+}
+#Викторин Подебрад Младший
+ViktoPodebrad = {
+	name = "ViktorI_n"
+	dynasty = Podebrad
+	father = JirzhiIzPodebrad
+	mother = PodebradKunhuta
+	religion = catholic
+	culture = czech
+	trait = education_learning_2
+	1443.7.11 = {
+		birth = yes
+	}
+	1463.7.11 = {
+		add_spouse = Marketa_PtachekizPi
+	}
+	1477.1.1 = {
+		add_pressed_claim = title:c_opava
+	}
+	1473.7.11 = {
+		add_spouse = Zofia_Cieszyn_Podebrad
+	}
+	1480.1.1 = {
+		add_spouse = MargaretePaleologMonf
+	}
+	1500.9.30 = {
+		death = yes
+	}
+}
+#Маркета жена из семьи Ptáček
+Marketa_PtachekizPi = {
+	name = "MarkE_ta"
+	female = yes
+	dynasty = PtacekCHE
+	father = Hynce_PtachekizPi
+	religion = catholic
+	culture = czech
+	1446.11.17 = {
+		birth = yes
+	}
+	1472.2.29 = {
+		death = yes
+	}
+}
+#Гинце Птачек из Пиркштейна
+Hynce_PtachekizPi = {
+	name = "Hynce"
+	dynasty = PtacekCHE
+	religion = catholic
+	culture = czech
+	1404.4.14 = {
+		birth = yes
+	}
+	1444.4.24 = {
+		death = yes
+	}
+}
+#Дочь Иоанна Подебрад
+Johana_Podebrad = {
+	name = "Johanna"
+	female = yes
+	dynasty = Podebrad
+	father = ViktoPodebrad
+	mother = Marketa_PtachekizPi
+	religion = catholic
+	culture = czech
+	1464.1.1 = {
+		birth = yes
+	}
+	1509.11.19 = {
+		death = yes
+	}
+}
+Magdalena_PodebradMon = {
+	name = "Magdalena"
+	female = yes
+	dynasty = Podebrad
+	father = ViktoPodebrad
+	mother = Zofia_Cieszyn_Podebrad
+	religion = catholic
+	culture = czech
+	1478.1.1 = {
+		birth = yes
+	}
+	1478.1.1 = {
+		add_trait = devoted
+	}
+	1497.1.19 = {
+		death = yes
+	}
+}
+#Вавжинец
+Wawrzyniec_Podebrad = {
+	name = "Wawrzyniec"
+	dynasty = Podebrad
+	father = ViktoPodebrad
+	mother = Zofia_Cieszyn_Podebrad
+	trait = education_learning_2
+	religion = catholic
+	culture = czech
+	1479.1.12 = {
+		birth = yes
+	}
+	1503.11.19 = {
+		death = yes
+	}
+}
+#Бартоломей Bartoloměj
+Bartolo_Podebrad = {
+	name = "Bartholomaios"
+	dynasty = Podebrad
+	father = ViktoPodebrad
+	mother = Zofia_Cieszyn_Podebrad
+	trait = education_diplomacy_2
+	religion = catholic
+	culture = czech
+	1477.1.1 = {
+		birth = yes
+	}
+	1515.11.19 = {
+		death = yes
+	}
+}
+#Йиндржих I из Подебрад
+JindR_ichPodebrad = {
+	name = "JindR_ich"
+	dynasty = Podebrad
+	father = JirzhiIzPodebrad
+	mother = PodebradKunhuta
+	religion = catholic
+	culture = czech
+	1448.1.1 = {
+		birth = yes
+	}
+	1467.1.1 = {
+		add_spouse = UrsulavonBrandenburg
+	}
+	1498.1.1 = {
+		death = yes
+	}
+}
+#Альбрехт I Мюнстербергский Подебрад
+AlbrechtPodebrad = {
+	name = "Albrecht"
+	dynasty = Podebrad
+	father = JindR_ichPodebrad
+	mother = UrsulavonBrandenburg
+	religion = catholic
+	culture = czech
+	1468.8.3 = {
+		birth = yes
+	}
+	1487.8.3 = {
+		add_spouse = SalomeaPyastZhagan
+	}
+	1511.1.1 = {
+		death = yes
+	}
+}
+#Георг Иржи I Мюнстербергский
+GeorgIrzhiPodebrad = {
+	name = "Jirzhi"
+	dynasty = Podebrad
+	father = JindR_ichPodebrad
+	mother = UrsulavonBrandenburg
+	religion = catholic
+	culture = czech
+	1470.1.1 = {
+		birth = yes
+	}
+	1488.1.7 = {
+		add_spouse = Jadwiga_PyastZhagan
+	}
+	1502.1.1 = {
+		death = yes
+	}
+}
+#Карл I Мюнстербергский Подебрад
+Karel_Must_Podebrad = {
+	name = "Karel"
+	dynasty = Podebrad
+	father = JindR_ichPodebrad
+	mother = UrsulavonBrandenburg
+	religion = catholic
+	culture = czech
+	1476.5.4 = {
+		birth = yes
+	}
+	1488.1.7 = {
+		add_spouse = Anna_PyastZhagan
+	}
+	1536.1.1 = {
+		death = yes
+	}
+}
+#Маргарита Мюнстербергская Подебрад
+Margarethe_Podebrad = {
+	name = "Margarita"
+	female = yes
+	dynasty = Podebrad
+	father = JindR_ichPodebrad
+	mother = UrsulavonBrandenburg
+	religion = catholic
+	culture = czech
+	1473.8.25 = {
+		birth = yes
+	}
+	1530.6.28 = {
+		death = yes
+	}
+}
+#Зденка Мюнстербергская 3 июня 1483—1522
+ZdenkaPodebrad_1483_1522 = {
+	name = "Zdenka"
+	female = yes
+	dynasty = Podebrad
+	father = JindR_ichPodebrad
+	mother = UrsulavonBrandenburg
+	religion = catholic
+	culture = czech
+	1483.6.3 = {
+		birth = yes
+	}
+	1522.2.2 = {
+		death = yes
+	}
+}
+##
+#Зденка Сидония Zdenka
+ZdenkaPodebrad = {
+	name = "Zdenka"
+	female = yes
+	dynasty = Podebrad
+	father = JirzhiIzPodebrad
+	mother = PodebradKunhuta
+	religion = catholic
+	culture = czech
+	1449.1.1 = {
+		birth = yes
+	}
+	1510.1.1 = {
+		death = yes
+	}
+}
+#KateR_ina Катержина из Подебрад будущая королева Венгрии умерла в 14 при родах накинуть два года не 1449
+KateRPodebrad = {
+	name = "KateR_ina"
+	female = yes
+	dynasty = Podebrad
+	father = JirzhiIzPodebrad
+	mother = PodebradKunhuta
+	religion = catholic
+	culture = czech
+	1447.11.19 = {
+		birth = yes
+	}
+	1464.1.1 = {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}
+#Гинек Hynek
+HynekPodebrad = {
+	name = "Hynek"
+	dynasty = Podebrad
+	father = JirzhiIzPodebrad
+	mother = JohanazRozh
+	religion = catholic
+	culture = czech
+	trait = poet
+	trait = education_diplomacy_3
+	1452.3.17 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		add_spouse = CatherineSaxWet
+	}
+	1475.1.1 = {
+		death = yes
+	}
+}
+#единственная дочь Гинека и Катерины Anna Kateřina Minsterberská с 1493 в браке
+Anna_Hyn_Podebrad = {
+	name = "Anna"
+	female = yes
+	dynasty = Podebrad
+	father = HynekPodebrad
+	mother = CatherineSaxWet
+	religion = catholic
+	culture = czech
+	trait = education_diplomacy_1
+	1471.3.17 = {
+		birth = yes
+	}
+	1517.1.1 = {
+		death = yes
+	}
+}
+#Людмила из Подебрад Княгиня-вдова Бжегская и Олавская
+LiudmilaPodebrad = {
+	name = "Liudmila"
+	female = yes
+	dynasty = Podebrad
+	father = JirzhiIzPodebrad
+	mother = JohanazRozh
+	religion = catholic
+	culture = czech
+	1456.10.16 = {
+		birth = yes
+	}
+	1503.1.20 = {
+		death = yes
+	}
+}
+###Пернштейны из Юга Чехии Пернштейн у Брно
+#Jan II. z Pernštejna (kolem 1406 – 28. prosince 1475) 
+Jan2Pernstein = {
+	name = "Jan"
+	dynasty = PernsteinCZE
+	religion = catholic
+	trait = education_stewardship_1
+	culture = czech
+	1406.6.6 = {
+		birth = yes
+	}
+	1475.12.28 = {
+		death = yes
+	}
+}
+#Vratislav I. z Pernštejna - умер бездетным
+Vratislav_I_Pernstein = {
+	name = "Vratislav"
+	dynasty = PernsteinCZE
+	father = Jan2Pernstein
+	religion = catholic
+	culture = czech
+	fertility = 0.5
+	prowess = 8
+	1438.8.8 = {
+		birth = yes
+	}
+	1496.1.16 = {
+		death = yes
+	}
+}
+#Вилем II из Пернштейна (?1435 – 1521)
+#Vilém II. z Pernštejna
+Wilem2Pernstein = {
+	name = "VilE_m"
+	dynasty = PernsteinCZE
+	father = Jan2Pernstein
+#	mother = JohanazRozh
+	religion = catholic
+	trait = education_stewardship_2
+	culture = czech
+	1435.3.17 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		add_spouse = JohankaZHENPernstein
+	}
+	1479.3.17 = {
+		add_gold = 499
+	}
+	1521.4.8 = {
+		death = yes
+	}
+}
+#Zikmund I. z Pernštejna
+ZikmundPernstein = {
+	name = "Zikmund"
+	dynasty = PernsteinCZE
+	father = Jan2Pernstein #вероятно
+	religion = catholic
+	culture = czech
+	1433.3.17 = {
+		birth = yes # между 1430 и 1435 
+	}
+	1473.7.3 = {
+		death = yes
+	}
+}
+#Dorota (asi 1470 – před 1488), provdána před rokem 1488 za Ctibora z Landštejna
+Dorota_Pernstein = {
+	name = "Dorota"
+	female = yes
+	dynasty = PernsteinCZE
+	father = ZikmundPernstein
+	religion = catholic
+	culture = czech
+	1466.3.17 = {
+		birth = yes #?
+	}
+	1488.1.1 = {
+		trait = ill
+	}
+	1488.7.3 = {
+		death = yes
+	}
+}
+#Machna (Markéta, okolo 1472 – mezi 1515 a 1520), provdána roku 1488 za Petra staršího ze Žerotína a Šumperka († 1530)
+Marketa_Pernstein = {
+	name = "MarkE_ta"
+	female = yes
+	dynasty = PernsteinCZE
+	father = ZikmundPernstein
+	religion = catholic
+	culture = czech
+	1472.7.2 = {
+		birth = yes #?
+	}
+	1520.2.2 = {
+		death = yes
+	}
+}
+##
+#Йоганка жена
+JohankaZHENPernstein = {
+	name = "Johanka"
+	female = yes
+	religion = catholic
+	culture = czech
+	1457.3.17 = {
+		birth = yes
+	}
+	1479.3.17 = {
+		add_gold = 49
+	}
+	1515.1.1 = {
+		death = yes
+	}
+}
+Bohunka_Pernstein = {
+	name = "Bohunka"
+	female = yes
+	dynasty = PernsteinCZE
+	father = Wilem2Pernstein
+	mother = JohankaZHENPernstein
+	religion = catholic
+	trait = education_stewardship_1
+	culture = czech
+	1485.5.5 = {
+		birth = yes
+	}
+	1549.1.1 = {
+		death = yes
+	}
+}
+VojtEch_Pernstein = {
+	name = "VojtE_ch"
+	dynasty = PernsteinCZE
+	father = Wilem2Pernstein
+	mother = JohankaZHENPernstein
+	religion = catholic
+	culture = czech
+	1490.1.1 = {
+		birth = yes
+	}
+	1534.1.1 = {
+		death = yes
+	}
+}
+#Ян IV Богатый из Пернштейна родился у Зноймо
+Jan4izPernstein = {
+	name = "Jan"
+	dynasty = PernsteinCZE
+	father = Wilem2Pernstein
+	mother = JohankaZHENPernstein
+	religion = catholic
+	culture = czech
+	trait = education_stewardship_3
+	1487.11.14 = {
+		birth = yes
+	}
+	1548.9.9 = {
+		death = yes
+	}
+}
+#Мартин Кабатник чешский путешественник и писатель
+Martin_Kabatnik = {
+	name = "Martin"
+	dynasty = Kabatnik
+	religion = catholic
+	culture = czech
+	learning = 12
+	prowess = 4
+	martial = 3
+	trait = physique_good_1
+	1428.12.30 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		trait = lifestyle_traveler #путешественник
+		religion = jednota_bratrska #Чешские братья
+		trait = adventurer
+		trait = journaller
+	}
+	#судя по чешской вики, отправился в путь к 1490 году
+	#ткацкое вдохновение? был ткачом. Вдохновение странника
+	1490.1.1 = {
+		if = {
+			limit = { has_dlc_feature = royal_court }
+			create_inspiration = adventure_inspiration
+		}
+	}
+	#да
+	1503.2.2 = {
+		death = yes
+	}
+}
+#Ульрих Червонка командир чешских наемных отрядов, воевавших на стороне тевтонских крестоносцев
+#в июне 1457 года за сумму в размере 190 тысяч венгерских флоринов продал Польше тевтонские замки Мариенбург
+#Oldřich Chervonka Červonka
+Oldrih_Chervonka = {
+	name = "OldR_ich"
+	dynasty = Chervonka
+	religion = "catholic"
+	culture = "czech"
+	#
+	martial = 14
+	diplomacy = 3
+	intrigue = 9
+	stewardship = 3
+	learning = 1
+	#
+	trait = education_martial_2
+	trait = reaver
+	1406.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		trait = order_member
+	}
+	1465.1.1 = {
+		death = yes
+	}
+}
+###Опавские Пшемысловичи бастарды - ранее отдельным файлом
+#Пржемысл I Опавский
+Przemysl1OpawPrze = {
+	name = "Przemysl"
+	dynasty = 10110
+	father = 96053
+	religion = catholic
+	culture = czech
+	1365.1.12 = {
+		birth = yes
+	}
+	1433.10.28 = {
+		death = yes
+	}
+}
+#Вацлав II Опавский старший сын
+Vaclav2OpavP = {
+	name = "VA_clav"
+	dynasty = 10110
+	father = Przemysl1OpawPrze
+	religion = "catholic"
+	culture = "czech"
+	1397.1.1 = {
+		birth = yes
+	}
+	1449.1.2 = {
+		death = yes
+	}
+}
+#Микулаш IV Опавский
+Mikulash4OpavP = {
+	name = "MikulA_s"
+	dynasty = 10110
+	father = Przemysl1OpawPrze
+	religion = "catholic"
+	culture = "czech"
+	1401.1.1 = {
+		birth = yes
+	}
+	1437.1.2 = {
+		death = yes
+	}
+}
+#Пржемысл II Опавский
+Przemysl2OpavP = {
+	name = "Przemysl"
+	dynasty = 10110
+	father = Przemysl1OpawPrze
+	trait = education_learning_3
+	religion = "catholic"
+	culture = "czech"
+	1424.1.24 = {
+		birth = yes
+	}
+	1478.6.16 = {
+		death = yes
+	}
+}
+#Вилем Вильгельм Опавский
+VilemOpavPrz = {
+	name = "VilE_m"
+	dynasty = 10110
+	father = Przemysl1OpawPrze
+	religion = "catholic"
+	culture = "czech"
+	1410.10.14 = {
+		birth = yes
+	}
+	1439.10.14 = {
+		add_spouse = SalomeaChastolov
+	}
+	1452.8.15 = {
+		death = yes
+	}
+}
+#Эрнест Опавский Пшемыслович бездетен
+ErnestOpawPrze = {
+	name = "Ernest"
+	dynasty = 10110
+	father = Przemysl1OpawPrze
+	religion = catholic
+	culture = czech
+	1415.1.17 = {
+		birth = yes
+	}
+	1464.1.11 = {
+		death = yes
+	}
+}
+#Дети Вацлава II
+HanushOpavFuln = {
+	name = "HanuS_"
+	dynasty = 10110
+	father = Vaclav2OpavP
+	religion = "catholic"
+	culture = "czech"
+	1420.1.20 = {
+		birth = yes
+	}
+	1452.12.22 = {
+		add_trait = ill
+	}
+	1454.4.14 = {
+		death = yes
+	}
+}
+#Ян III Благочестивый
+Jan3OpavBlag = {
+	name = "Jan"
+	dynasty = 10110
+	father = Vaclav2OpavP
+	religion = "catholic"
+	culture = "czech"
+	1425.1.20 = {
+		birth = yes
+	}
+	1484.1.1 = {
+		death = yes
+	}
+}
+#дети и жена Вилема Вильгельма Опавского
+SalomeaChastolov = {
+	name = "Salomea"
+	female = yes
+	religion = "catholic"
+	culture = "czech"
+	1419.1.20 = {
+		birth = yes
+	}
+	1484.1.1 = {
+		death = yes
+	}
+}
+#Фридрих Опавский
+FrederickOpavP = {
+	name = "Frederic"
+	dynasty = 10110
+	father = VilemOpavPrz
+	mother = SalomeaChastolov
+	religion = "catholic"
+	culture = "czech"
+	1440.1.20 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		death = yes
+	}
+}
+#Вацлав III Опавский, бездетен
+Vaclav3OpavP = {
+	name = "VA_clav"
+	dynasty = 10110
+	father = VilemOpavPrz
+	mother = SalomeaChastolov
+	religion = "catholic"
+	culture = "czech"
+	1445.1.20 = {
+		birth = yes
+	}
+	1474.1.1 = {
+		death = yes
+	}
+}
+AnnaOpavsAbat = {
+	name = "Anna"
+	female = yes
+	dynasty = 10110
+	father = VilemOpavPrz
+	mother = SalomeaChastolov
+	religion = "catholic"
+	culture = "czech"
+	1448.1.20 = {
+		birth = yes
+	}
+	1464.1.20 = {
+		add_trait = devoted
+	}
+	1515.1.1 = {
+		death = yes
+	}
+}
+KatarzynaOpavska = {
+	name = "Katarzyna"
+	female = yes
+	dynasty = 10110
+	father = VilemOpavPrz
+	mother = SalomeaChastolov
+	religion = "catholic"
+	culture = "czech"
+	1443.1.20 = {
+		birth = yes
+	}
+	1505.1.1 = {
+		death = yes
+	}
+}
+#Пржемысл III Опавский
+Przemysl3OpavP = {
+	name = "Przemysl"
+	dynasty = 10110
+	father = VilemOpavPrz
+	mother = SalomeaChastolov
+	religion = "catholic"
+	culture = "czech"
+	1450.12.20 = {
+		birth = yes
+	}
+	1464.12.20 = {
+		add_trait = devoted
+	}
+	1493.2.17 = {
+		death = yes
+	}
+}
+###Пржемысловичи Силезские Опавские Ратиборское в Рацибуже. Князь ратиборско-крновский 1424 — 1437
+#Mikuláš IV z Bruntálu
+Mikulash_4_bruntalu = {
+	name = "MikulA_S_"
+	dynasty = 10110
+	father = 96054 #Ян I Ратиборгский
+	religion = "catholic"
+	culture = "czech"
+	trait = ill
+	1370.12.2 = {
+		birth = yes
+	}
+	1405.4.14 = {
+		death = yes
+	}
+}
+#Ян II Железный Опавский и Ратибор
+Jan_2_Zhelezny_Raziburzh = {
+	name = "Jan"
+	dynasty = 10110
+	father = 96054 #Ян I Ратиборгский
+	religion = "catholic"
+	culture = "czech"
+	1365.5.2 = {
+		birth = yes
+	}
+	1393.5.2 = {
+		add_spouse = Helena_Litovskaya
+	}
+	1424.12.12 = {
+		death = yes
+		give_nickname = nick_the_ironside
+	}
+}
+#жена Яна некая Елена Литовская
+Helena_Litovskaya = {
+	name = "Helena"
+	female = yes
+	religion = "catholic"
+	culture = "lithuanian"
+	1370.5.2 = {
+		birth = yes
+	}
+	1477.9.5 = {
+		death = yes
+	}
+}
+#Микулаш V Крновский Mikuláš V Krnovský
+Mikulash_5_krnovski = {
+	name = "MikulA_S_"
+	dynasty = 10110
+	father = Jan_2_Zhelezny_Raziburzh
+	mother = Helena_Litovskaya
+	religion = "catholic"
+	culture = "czech"
+	1409.12.2 = {
+		birth = yes
+	}
+	1433.12.2 = {
+		add_spouse = Marketa_Klemova
+	}
+	1452.4.14 = {
+		death = yes
+	}
+}
+#Маргарита Маркета Клемнова из Элгута Markéta Klemová ze Lhoty
+Marketa_Klemova = {
+	name = "MarkE_ta"
+	dynasty = Klemova
+	female = yes
+	religion = "catholic"
+	culture = "czech"
+	1410.5.2 = {
+		birth = yes
+	}
+	1467.9.5 = {
+		death = yes
+	}
+}
+#Ян IV Крновский Старший
+Jan_4_krnovski = {
+	name = "Jan"
+	dynasty = 10110
+	father = Mikulash_5_krnovski
+	mother = Marketa_Klemova
+	religion = "catholic"
+	culture = "czech"
+	1440.12.2 = {
+		birth = yes
+	}
+	1483.4.14 = {
+		death = yes
+	}
+}
+#Маргарита Малгоржата Крновская дочь Микулаша V и второй жены
+Margarita_krnovski = {
+	name = "Margarita"
+	female = yes
+	dynasty = 10110
+	father = Mikulash_5_krnovski
+#	mother = Marketa_Klemova
+	religion = "catholic"
+	culture = "czech"
+	1451.12.22 = {
+		birth = yes
+	}
+	1508.4.14 = {
+		death = yes
+	}
+}
+#Вацлав III Простачок князь Рыбницкий 1456 — 1478 бездетен
+Vazlav_3_Prostachok_Rybniza = {
+	name = "VA_clav"
+	dynasty = 10110
+	father = Mikulash_5_krnovski
+	mother = Marketa_Klemova
+	religion = "catholic"
+	culture = "czech"
+	1442.4.2 = {
+		birth = yes
+	}
+	1477.4.2 = {
+		give_nickname = nick_the_silly
+	}
+	1478.7.8 = {
+		death = {
+			death_reason = death_dungeon #умер в плену в заточении
+		}
+	}
+}
+#Вацлав II Рациборжский также 4-й Václav IV Ratibořský
+Vazlav_2_Raziburzh = {
+	name = "VA_clav"
+	dynasty = 10110
+	father = Jan_2_Zhelezny_Raziburzh
+	mother = Helena_Litovskaya
+	religion = "catholic"
+	culture = "czech"
+	1405.5.2 = {
+		birth = yes
+	}
+	1427.5.2 = {
+		add_spouse = Malogzhata_z_Shamotul
+	}
+	1456.12.12 = {
+		death = yes
+	}
+}
+#Małgorzata z Szamotuł
+Malogzhata_z_Shamotul = {
+	name = "MaL_gorzata"
+	female = yes
+	religion = "catholic"
+	culture = "polish"
+	1410.5.2 = {
+		birth = yes
+	}
+	1464.9.5 = {
+		death = yes
+	}
+}
+#Ян V Рациборжский князь Ратиборский 1456—1493 поддержал Хуньяди в его претензиях
+Jan_5_Raziburzh = {
+	name = "Jan"
+	dynasty = 10110
+	father = Vazlav_2_Raziburzh
+	mother = Malogzhata_z_Shamotul
+	religion = "catholic"
+	culture = "czech"
+	1446.5.2 = {
+		birth = yes
+	}
+	1474.1.1={
+		effect = {
+			set_relation_friend = character:matiakorvin #за Матьяша Хуньяди в споре за богемию
+		}
+	}
+	1478.1.2 = {
+		add_spouse = Magdalena_opolska
+	}
+	1493.4.14 = {
+		death = yes
+	}
+}
+#Микулаш VI Рациборжский, Около 1505 года Микулаш женился на Анне Тенчинской
+Mikulash_6_Raziburzh = {
+	name = "MikulA_S_"
+	dynasty = 10110
+	father = Jan_5_Raziburzh
+	mother = Magdalena_opolska
+	religion = "catholic"
+	culture = "czech"
+	1482.12.2 = {
+		birth = yes
+	}
+	1506.4.14 = {
+		death = yes
+	}
+}
+#Ян VI Рациборжский
+Jan_6_Raziburzh = {
+	name = "Jan"
+	dynasty = 10110
+	father = Jan_5_Raziburzh
+	mother = Magdalena_opolska
+	religion = "catholic"
+	culture = "czech"
+	trait = weak
+	1484.5.2 = {
+		birth = yes
+	}
+	1506.4.14 = {
+		death = yes
+	}
+}
+#Валентин Горбатый князь Ратиборский
+Valentin_Gorvaty_Raziburzh = {
+	name = "Valentin"
+	dynasty = 10110
+	father = Jan_5_Raziburzh
+	mother = Magdalena_opolska
+	religion = "catholic"
+	culture = "czech"
+	trait = hunchbacked
+	1485.5.2 = {
+		birth = yes
+	}
+	1521.11.13 = {
+		death = yes
+	}
+}
+#19-9-23
+#гуманист Викторин Корнел из Вшегрд
+#Viktorin Kornel ze Všehrd
+Viktorin_KornelizVshehrd = {
+	name = "Viktorin"
+	dynasty = KornelizVshehrd
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_2
+	1460.12.6 = {
+		birth = yes
+	}
+	1480.12.6 = {
+		trait = poet
+	}
+	1520.9.21 = {
+		death = yes
+	}
+}
+##Конопиштьская ветвь панского рода Штернберков
+#Зденек Конопиштьский из Штернберка - 3 мая 1469 года добился того, что католическая знать избрала Матьяша чешским антикоролем в Оломоуце
+Zdenek_Konopish_Sten = {
+	name = "ZdenE_k"
+	dynasty = 12474 #Штернберки
+	religion = "catholic"
+	culture = "czech"
+	trait = education_diplomacy_1
+	trait = lustful
+	1420.2.20 = {
+		birth = yes
+	}
+	1439.2.20 = {
+		add_spouse = Anezka_z_Janovic
+	}
+	1466.1.1={
+		effect = {
+			set_relation_rival = character:JirzhiIzPodebrad
+			set_relation_friend = character:matiakorvin
+		}
+	}
+	1469.5.3 = {
+		employer = matiakorvin
+	}
+	1476.12.4 = {
+		death = yes
+	}
+}
+#Анежка - 1-я, Anezka z Janovic
+Anezka_z_Janovic = {
+	name = "AneZ_ka"
+	female = yes
+	religion = "catholic"
+	culture = "czech"
+	1422.2.2 = {
+		birth = yes
+	}
+	1471.7.1 = {
+		death = yes
+	}
+}
+#Ярослав III Конопиштьский из Штернберка
+#Jaroslav III. ze Šternberka
+Jaroslav_III_K_Sten = {
+	name = "Jaroslav"
+	dynasty = 12474 #Штернберки
+	father = Zdenek_Konopish_Sten
+	mother = Anezka_z_Janovic
+	religion = "catholic"
+	culture = "czech"
+	trait = education_diplomacy_1
+	1440.1.4 = {
+		birth = yes
+	}
+	1492.9.2 = {
+		death = yes
+	}
+}
+##Адамиты, в Чехии были адамитские общины. В 1421 в окрестностях Табора. Сохранялись до 18 века
+adamit_che_m1 = {
+	name = "SobE_slav"
+	religion = "adamites"
+	culture = "czech"
+	1449.4.24 = {
+		birth = yes
+	}
+	1511.9.2 = {
+		death = yes
+	}
+}
+adamit_che_m2 = {
+	name = "BR_etislav"
+	religion = "adamites"
+	culture = "czech"
+	1470.2.3 = {
+		birth = yes
+	}
+	1544.9.2 = {
+		death = yes
+	}
+}
+#ретроспект Ян Искра из Брандиса (1400 — 1468)
+#C 1440 года в Венгрии, в 1442 назначен главнокомандующим войск Ладислава Постума
+#хозяйничал в комитатах Спиш и Шарош примерно с 1448 года
+Jan_Jiskra = {
+	name = "Jan"
+	dynasty = Jiskra
+	religion = "hussit" #возможно, гусит-чашник - catholic
+	culture = "czech"
+	trait = education_martial_2
+	trait = reaver #разбой
+	diplomacy = 12 #дипломат
+	prowess = 11
+	learning = 2
+	1400.2.26 = {
+		birth = yes
+	}
+	1445.5.30 = {
+		employer = LadislavPostum
+	}
+	1457.11.23 = {
+		employer = matiakorvin
+	}
+	1463.12.31 = {
+		add_spouse = Jiskra_Orszag_gut
+	}
+	1468.10.22 = {
+		death = yes
+	}
+}
+#Его семья жила в Венгрии до 17 века
+PF_Jiskra = {
+	name = "VA_clav"
+	dynasty = Jiskra
+	father = Jan_Jiskra
+	mother = Jiskra_Orszag_gut
+	religion = "catholic"
+	culture = "czech"
+	1464.6.4 = {
+		birth = yes
+	}
+	1522.2.22 = {
+		death = yes
+	}
+}
+#Bratr Řehoř - Řehoř Krajčí, глава чешских братьев в Кунвальде, основатель общины
+Brat_Rehor_ednota = {
+	name = "R_eho_R"
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_3
+	diplomacy = 7
+	prowess = 1
+	trait = zealous
+	1420.2.20 = {
+		birth = yes
+	}
+	1448.2.20 = {
+		trait = celibate #брат-мирянин, не стал священником
+		trait = theologian
+	}
+	1457.1.1 = {
+		religion = jednota_bratrska
+		trait = heresiarch
+		add_piety = 250
+	}
+	1469.1.1 = {
+		trait = poet
+	}
+	1474.8.12 = {
+		death = yes
+	}
+}
+#
+fik_brat_Litold = {
+	name = "Litold"
+	religion = "jednota_bratrska"
+	culture = "czech"
+	trait = giant
+	1460.2.1 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		trait = celibate
+	}
+	1555.8.6 = {
+		death = yes
+	}
+}
+fik_brat_Vatslav = {
+	name = "VA_clav"
+	religion = "catholic"
+	culture = "czech"
+	trait = lisping
+	prowess = 2
+	1453.2.1 = {
+		birth = yes
+	}
+	1480.2.4 = {
+		religion = jednota_bratrska
+	}
+	1533.8.6 = {
+		death = yes
+	}
+}
+fik_reneb_jednota = {
+	name = "BedR_ich"
+	religion = "jednota_bratrska"
+	culture = "czech"
+	1479.7.9 = { birth = yes }
+	1555.1.1 = { death = yes }
+}
+##
+#Vilém Kostka z Postupic - католики пустили слух, что в него била молния
+Vilem_KostzPost = {
+	name = "VilE_m"
+	dynasty = Kostka_z_Postupic
+	religion = "utraquism" #утраквист-чашник, но противник Яна Рокицаны и моравских братьев
+	culture = "czech"
+	1400.3.3 = {
+		birth = yes #?
+	}
+	1436.11.15 = {
+		death = yes
+	}
+}
+#Zdeněk Kostka z Postupic - друг и соратник Подебрада
+Zdenek_KostzPost = {
+	name = "ZdenE_k"
+	dynasty = Kostka_z_Postupic
+	father = Vilem_KostzPost
+	religion = "catholic"
+	culture = "czech"
+	1425.2.5 = {
+		birth = yes #?
+	}
+	1460.1.1 = {
+		religion = jednota_bratrska
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:JirzhiIzPodebrad }
+		}
+	}
+	1468.10.2 = {
+		death = yes
+	}
+}
+#Костки из Поступиц
+#Jan I. († ? 1486)
+Jan_I_KostzPost = {
+	name = "Jan"
+	dynasty = Kostka_z_Postupic
+	father = Vilem_KostzPost
+	religion = "catholic"
+	culture = "czech"
+	1420.2.4 = {
+		birth = yes #?
+	}
+	1486.8.6 = {
+		death = yes
+	}
+}
+#Bohuš II. Kostka z Postupic - владелец Литомышля
+#Он владел обширными поместьями в Восточной Чехии, где развивал добычу драгоценных металлов, а также работал главным монетным двормейстером при дворе чешского короля Владислава II Ягеллона. 
+Bohus_2_KostzPost = {
+	name = "BohuS_"
+	dynasty = Kostka_z_Postupic
+	father = Jan_I_KostzPost
+	religion = "catholic"
+	culture = "czech"
+	trait = education_stewardship_2
+	prowess = 4
+	1440.4.4 = {
+		birth = yes #?
+	}
+	#покровитель, пусть будет другом
+	1470.1.1 = {
+		religion = jednota_bratrska
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:Brat_Rehor_ednota }
+		}
+	}
+	1505.1.29 = {
+		death = yes
+	}
+}
+#Jan (II.) zemřel v únoru 1509 bez potomků
+Jan_2_KostzPost = {
+	name = "Jan"
+	dynasty = Kostka_z_Postupic
+	father = Jan_I_KostzPost
+	religion = "catholic"
+	culture = "czech"
+	trait = weak
+	prowess = 3
+	1446.4.4 = {
+		birth = yes #?
+	}
+	1509.5.9 = {
+		death = yes
+	}
+}
+##
+#Жеротины или Жеротинские, моравский род из Блудова, выводили своё происхождение от загадочного Олега Русского
+#Žerotínové - Zierotinové
+#Jan starší (cca 1435–1499)
+Jan_st_Zherotin = {
+	name = "Jan"
+	dynasty = Zherotin
+	religion = "catholic"
+	culture = "czech"
+	prowess = 6
+	1435.3.5 = {
+		birth = yes
+	}
+	1499.9.9 = {
+		death = yes
+	}
+}
+#?
+Jan_ml_Zherotin = {
+	name = "Jan"
+	dynasty = Zherotin
+	father = Jan_st_Zherotin
+	religion = "catholic"
+	culture = "czech"
+	1466.3.15 = {
+		birth = yes
+	}
+	1539.9.9 = {
+		death = yes
+	}
+}
+#Ханс Черте из Брно, архитектор, военный инженер, фортификатор (ок. 1470 — 1522)
+# Первое документальное упоминание о Черте датируется 1486 годом, когда он был зачислен в Венский университе
+Hans_Tscherte = {
+	name = "Hynek" #Hans
+	dynasty = Tscherte #прозвище Чёрт?
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_2
+	trait = intellect_good_1
+	prowess = 4
+	martial = 10
+	1469.6.4 = {
+		birth = yes
+	}
+	1508.6.4 = {
+		name = "Hans"
+	}
+	1552.9.7 = {
+		death = yes
+	}
+}
+# род  z Častolovic пресёкся по мужской линии после кончины Půta III. z Častolovic в 1434 или 1435
+## не особо ясно, кто представлял семью z Lichtenburka, хозяев Битова
+# Hynek Krušina IV. z Lichtenburka (ok 1392 – 4. března 1454, Kladsko)
+# У него был сын Вилем от первого брака и две дочери, Евфимия и Регина, от второго брака
+# Вилем унаследовал Kumburk, Miletín a Hostinné
+##
+## Páni z Cimburka
+# официальная должность Moravský zemský hejtman
+#Jan Tovačovský z Cimburka
+#  На рубеже 1426–1427 возглавил экспедицию моравских гуситов в восточную Моравию - ушел с поста гетмана моравии в конце 1459 года
+jan_tov_z_cimburka = {
+	name = "Jan"
+	dynasty = Tovacovsky_z_Cimburka #Tovačovský z Cimburka
+	religion = "hussit" #гусит
+	culture = "czech"
+	trait = education_stewardship_1
+	prowess = 8
+	martial = 11
+	1400.4.14 = {
+		birth = yes
+	}
+	1437.1.2 = {
+		add_spouse = Zofie_z_kunshatu
+	}
+	1464.2.27 = {
+		death = yes
+	}
+}
+#жена - Žofie z Kunštátu
+Zofie_z_kunshatu = {
+	name = "Z_ofie"
+	female = yes
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_1
+	1417.1.7 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		religion = jednota_bratrska
+		add_piety = 80
+	}
+	1488.8.8 = {
+		death = yes
+	}
+}
+
+# Ctibor Tovačovský z Cimburka
+# В 1464–1469 выполнял функцию регионального судьи Моравия, с 1469 он был до самой смерти морав. областной губернатор и канцлером 1471-79 
+Ctibor_tovzcimburka = {
+	name = "Ctibor"
+	dynasty = Tovacovsky_z_Cimburka #Tovačovský z Cimburka
+	father = jan_tov_z_cimburka
+	mother = Zofie_z_kunshatu
+	religion = "hussit" #гусит
+	culture = "czech"
+	trait = education_diplomacy_2
+	1438.3.8 = {
+		birth = yes
+	}
+	1494.6.26 = {
+		death = yes
+	}
+}
+#Jan Tovačovský z Cimburka (mladší)
+Jan_tovzcimburka = {
+	name = "Jan"
+	dynasty = Tovacovsky_z_Cimburka #Tovačovský z Cimburka
+	father = jan_tov_z_cimburka
+	mother = Zofie_z_kunshatu
+	religion = "catholic"
+	culture = "czech"
+	trait = education_diplomacy_2
+	1440.4.4 = {
+		birth = yes
+	}
+	1463.1.1 = {
+		add_spouse = Magdalena_z_Michalovic
+	}
+	1470.1.1 = {
+		religion = jednota_bratrska #гусит - был сторонником едноты братарской
+		add_piety = 80
+	}
+	1477.1.1 = {
+		add_spouse = Johanka_z_krajku
+	}
+	1483.11.24 = {
+		death = yes
+	}
+}
+#Magdalena z Michalovic zemřela 15. července 1469 nebo 1470
+Magdalena_z_Michalovic = {
+	name = "Magdalena"
+	female = yes
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_1
+	1442.4.2 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		religion = jednota_bratrska
+		add_trait = gout_ridden #подагра
+	}
+	1470.5.6 = {
+		death = yes
+	}
+}
+#Anežka Tovačovská z Cimburka - 15 октября 1484 года заключила брак
+anezhka_tovzcimburka = {
+	name = "AneZ_ka"
+	female = yes
+	dynasty = Tovacovsky_z_Cimburka #Tovačovský z Cimburka
+	father = Jan_tovzcimburka
+	mother = Magdalena_z_Michalovic
+	religion = "jednota_bratrska"
+	culture = "czech"
+	trait = education_learning_1
+	1464.6.1 = {
+		birth = yes
+	}
+	1544.1.4 = {
+		death = yes
+	}
+}
+# В 1477 году он женился на Утраквистке Йоханке Крайиржовой из Крайко, известной своей поддержкой Братского Единства. У них родился сын Адам
+#Johankou Krajířovou z Krajku
+Johanka_z_krajku = {
+	name = "Johanka"
+	female = yes
+	religion = "catholic" #гусит - был сторонником едноты братарской
+	culture = "czech"
+	trait = education_learning_1
+	1464.6.1 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		religion = jednota_bratrska
+		add_piety = 80
+	}
+	1544.1.4 = {
+		death = yes
+	}
+}
+adam_tovzcimburka = {
+	name = "Adam"
+	dynasty = Tovacovsky_z_Cimburka #Tovačovský z Cimburka
+	father = Jan_tovzcimburka
+	mother = Johanka_z_krajku
+	religion = "jednota_bratrska"
+	culture = "czech"
+	1478.12.1 = {
+		birth = yes
+	}
+	1533.1.1 = {
+		death = yes
+	}
+}
+#гусит
+fik_utraquist_1 = {
+	name = "JaromI_r"
+	religion = "utraquism"
+	culture = "czech"
+	trait = lifestyle_hunter
+	trait = education_martial_1
+	1433.1.3 = {
+		birth = yes
+	}
+	1466.1.1 = {
+		trait = scarred
+	}
+	1522.1.2 = {
+		death = yes
+	}
+}
+fik_taborit_2 = {
+	name = "Zdeslav"
+	religion = "taborism"
+	culture = "czech"
+	trait = physique_good_1
+	martial = 7
+	1466.1.3 = {
+		birth = yes
+	}
+	1544.1.2 = {
+		death = yes
+	}
+}
+## Паны из Рожмберка, Рожмберки или Розенберги - ветвь клана Витковичей, происходящая от Витека III Младшего
+# Ольдржих II из Рожмберка - Oldřich II. z Rožmberka
+oldrzhih_2_rozhm = {
+	name = "OldR_ich"
+	dynasty = Rozhmberk
+	religion = "catholic" #Ранее гусит, но Недовольный усилением таборитов на юге Чехии Ольдржих перешёл на сторону католической церкви 
+	culture = "czech"
+	trait = physique_good_1
+	trait = education_intrigue_2 #сфальсифицировал грамоты короля
+	stewardship = 9
+	prowess = 10
+	1403.1.13 = {
+		birth = yes
+	}
+	#Чески-Крумлов
+	1462.4.28 = {
+		death = yes
+	}
+}
+#Jindřich IV. z Rožmberka (1427–1457)
+jindrih4_rozhm = {
+	name = "JindR_ich"
+	dynasty = Rozhmberk
+	father = oldrzhih_2_rozhm
+	religion = "catholic"
+	culture = "czech"
+	trait = physique_good_1
+	trait = education_martial_2
+	stewardship = 2
+	prowess = 6
+	1427.12.19 = {
+		birth = yes
+	}
+	#чума, умер в Вене
+	1457.1.25 = {
+		death = { death_reason = death_bubonic_plague }
+	}
+}
+#Йошт II из Рожмберка - епископ Вроцлава и князь Нысы 1456 — 1467 // польск - Jodok z Rożemberka -- Jošt II. z Rožmberka
+e_josht_2_rozhm = {
+	name = "JoS_t"
+	dynasty = Rozhmberk
+	father = oldrzhih_2_rozhm
+	religion = "catholic"
+	culture = "czech"
+	trait = physique_good_1
+	trait = education_learning_2
+	stewardship = 2
+	prowess = 2
+	1429.2.9 = {
+		birth = yes
+	}
+	1454.1.1 = {
+		trait = celibate
+		trait = devoted
+	}
+	#Чески-Крумлов
+	1467.12.15 = {
+		death = yes
+	}
+}
+#Jan II. "Pokojný" z Rožmberka; 1434 – 8 November 1472, Ortenburg
+# Roku 1454 se Jan oženil s Anna Hlohovská, dcerou hlohovského knížete Jindřicha IX
+jan_2_rozhm = {
+	name = "Jan"
+	dynasty = Rozhmberk
+	father = oldrzhih_2_rozhm
+	religion = "catholic" #переметнулся
+	culture = "czech"
+	trait = physique_good_1
+	trait = education_learning_1
+	stewardship = 8
+	prowess = 2
+	1434.3.4 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		effect = {
+			dynasty = { add_dynasty_prestige = 444 }
+		}
+	}
+	1472.11.8 = {
+		death = yes
+	}
+}
+# Jindřich V. z Rožmberka = Heinrich V. von Rosenberg
+jind_5_rozhm = {
+	name = "JindR_ich"
+	dynasty = Rozhmberk
+	father = jan_2_rozhm
+	religion = "catholic" #переметнулся
+	culture = "czech"
+	trait = education_learning_2
+	stewardship = 9
+	prowess = 1
+	trait = physique_bad_1 #у него были проблемы со здоровьем
+	1456.6.25 = {
+		birth = yes
+	}
+	1489.5.21 = {
+		death = yes
+	}
+}
+#Vok II. z Rožmberka
+Vok_2_rozhm = {
+	name = "Vok"
+	dynasty = Rozhmberk
+	father = jan_2_rozhm
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_2
+	stewardship = 9
+	prowess = 1
+	trait = physique_bad_1 #у него были проблемы со здоровьем
+	1459.7.18 = {
+		birth = yes
+	}
+	1483.1.13 = {
+		add_spouse = marketa_z_gunst
+	}
+	1505.9.1 = {
+		death = yes
+	}
+}
+#Vok se 13. ledna 1483 oženil s Markétou z Gutštejna († před 1528)
+marketa_z_gunst = {
+	name = "MarkE_ta"
+	female = yes
+	dynasty = Gutshtejn
+	father = burian_2_gunst
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_2
+	stewardship = 4
+	prowess = 3
+	trait = fecund
+	1464.6.2 = {
+		birth = yes
+	}
+	1527.9.10 = {
+		death = yes
+	}
+}
+#Burian II. z Gutštejna -- Буриан II из Гутштейна
+burian_2_gunst = {
+	name = "Burian"
+	dynasty = Gutshtejn
+	religion = "catholic"
+	culture = "czech"
+	trait = education_stewardship_2
+	stewardship = 9
+	prowess = 5
+	trait = fecund
+	1432.3.1 = {
+		birth = yes
+	}
+	1488.8.8 = {
+		death = yes
+	}
+}
+##
+#Petr IV. z Rožmberka -- Петр IV из Рожмберка - высочайший гетман Чешского королевства - Владарж Рожмберкского дома c 1493 — 1523
+Petr_4_rozhm = {
+	name = "Petr"
+	dynasty = Rozhmberk
+	father = jan_2_rozhm
+	religion = "catholic" #переметнулся
+	culture = "czech"
+	trait = education_learning_2 #гуманист
+	stewardship = 9
+	prowess = 7
+	martial = 9
+	1462.1.17 = {
+		birth = yes
+	}
+	1523.10.9 = {
+		death = yes
+	}
+}
+#Oldřich III. z Rožmberka (17. ledna 1471 – 4. listopadu 1513)
+oldrih_3_rozhm = {
+	name = "OldR_ich"
+	dynasty = Rozhmberk
+	father = jan_2_rozhm
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_1
+	stewardship = 3
+	prowess = 3
+	martial = 3
+	trait = hunchbacked
+	#как и у брата, странно
+	1471.1.17 = {
+		birth = yes
+	}
+	1513.11.4 = {
+		death = yes
+	}
+}
+##
+#другое поколение
+#Ян III из Рожмберка - Jan III. z Rožmberk
+yan_3_rozhm = {
+	name = "Jan"
+	dynasty = Rozhmberk
+	father = Vok_2_rozhm #сын Вока II из Рожмберка и Маркеты из Гутштейна
+	mother = marketa_z_gunst
+	religion = "catholic" #переметнулся
+	culture = "czech"
+	1484.11.24 = {
+		birth = yes
+	}
+	1532.2.28 = {
+		death = yes
+	}
+}
+#Jošt III. z Rožmberka (30. června 1488, Český Krumlov – 15. října 1539)
+jost_3_rozhm = {
+	name = "JoS_t"
+	dynasty = Rozhmberk
+	father = Vok_2_rozhm #сын Вока II из Рожмберка и Маркеты из Гутштейна
+	mother = marketa_z_gunst
+	religion = "catholic" #переметнулся
+	culture = "czech"
+	1488.6.30 = {
+		birth = yes
+	}
+	1539.10.15 = {
+		death = yes
+	}
+}
+#адамит Макус, без негатива
+adamit_makus300 = {
+	name = "Makus"
+	dynasty = zoo_300 #отсылка считывается кириллическим шрифтом
+	religion = "adamites"
+	culture = "czech"
+	trait = possessed_1
+	trait = education_stewardship_1
+	prowess = 4
+	learning = 9
+	# должен быть совершеннолетним
+	1453.5.16 = {
+		birth = yes
+	}
+	1490.1.1 = {
+		add_gold = 111
+	}
+	1539.10.15 = {
+		death = yes
+	}
+}
+##  House of Lobkowicz, в английском — z Lobkovic. Вторая часть Hasištejnský отсылает к замку Hasištejn у Кадани
+# Mikuláš Chudý z Újezda - Chudý z Lobkowicz
+# Николай происходил из бедной дворянской семьи, но благодаря своим способностям вскоре стал одним из самых влиятельных людей при дворе
+# Верховный провинциальный писец Королевства Богемии (1417–1419)
+mikul_chudy_lob = {
+	name = "MikulA_S_"
+	dynasty = Lobkowicz
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_3
+	learning = 15
+	prowess = 5
+	martial = 2
+	trait = intellect_good_1
+	# или 1386
+	1390.9.19 = {
+		birth = yes
+	}
+	#	1435 или 1441
+	1435.3.5 = {
+		death = yes
+	}
+}
+#Jan I. Popel z Lobkowicz - † 1470 Český Krumlov)
+# был заключён в тюрьму Яном из Рожмберка († 1472) в Чески-Крумлове , где умер в 1470 году и был похоронен в местной церкви Святого Вита .
+jan_popel_lobko = {
+	name = "Jan"
+	dynasty = Lobkowicz
+	father = mikul_chudy_lob
+	religion = "catholic"
+	culture = "czech"
+	trait = education_stewardship_1
+	learning = 15
+	prowess = 5
+	martial = 2
+	trait = intellect_good_1
+	1419.1.8 = {
+		birth = yes
+	}
+	1470.7.1 = {
+		death = yes
+	}
+}
+#Děpolt Popel z Lobkowicz - основатель его Билинской ветви
+#выступал против Матьяша Корвина как чешского антикороля --Lobkowicz
+depolt_popel_lobko = {
+	name = "DEE_polt"
+	dynasty = Lobkowicz
+	father = jan_popel_lobko
+	religion = "catholic"
+	culture = "czech"
+	trait = education_stewardship_1
+	learning = 15
+	prowess = 5
+	martial = 2
+	trait = physique_good_2
+	1446.1.8 = {
+		birth = yes
+	}
+	1466.1.8 = {
+		add_spouse = johana_shvamberk
+	}
+	1490.1.1 = {
+		effect = {
+			add_opinion = {
+				target = title:k_hungary.holder
+				modifier = hate_opinion
+				opinion = 62
+			}
+			add_opinion = {
+				target = title:k_bohemia.holder
+				modifier = respect_opinion
+				opinion = 62
+			}
+		}
+	}
+	1527.3.3 = {
+		death = yes
+	}
+}
+# 1-я жена Депольта Johana ze Švamberka, упоминается в 1476–1490
+johana_shvamberk = {
+	name = "Johanna"
+	female = yes
+	religion = catholic
+	culture = czech
+	1446.4.6 = {
+		birth = yes
+	}
+	#подагра
+	1480.1.1 = {
+		add_trait = gout_ridden
+	}
+	1490.4.11 = {
+		death = yes
+	}
+}
+#Jiří Popel z Lobkowicz na Peruci († 15. března 1534) 
+jiri_popel_lobko = {
+	name = "JiR_I_"
+	dynasty = Lobkowicz
+	father = depolt_popel_lobko
+	mother = johana_shvamberk
+	religion = "catholic"
+	culture = "czech"
+	trait = education_stewardship_2
+	learning = 15
+	prowess = 5
+	martial = 2
+	trait = physique_good_2
+	1469.6.9 = {
+		birth = yes
+	}
+	1534.3.15 = {
+		death = yes
+	}
+}
+# жена 2 - Anna (Anežka) Mičanová z Klinštejna a Roztok († 1528) - долна была родится сама около 1490
+# от второй жены - Kryštof starší Popel z Lobkowicz († 26. března 1590 Bílina) - вряд ли жил 100 лет, так что не родился в 1490
+# Litvín Popel z Lobkowicz  (1518 – 6. února 1580 Bílina)
+# Václav Popel z Lobkowicz († 31. prosince 1574)
+# Jan mladší Popel z Lobkovic (8. listopadu 1510 – 12. dubna 1570 Praha-Hradčany),
+## конец ветви Попелей
+#Mikuláš II. Hasištejnský z Lobkowicz = Nikolaus II
+#стал основателем хасиштейнской ветви рода
+mikulash2_lobkovic = {
+	name = "MikulA_S_"
+	dynasty = Lobkowicz
+	father = mikul_chudy_lob
+	religion = "catholic"
+	culture = "czech"
+	trait = education_diplomacy_1
+	trait = intellect_good_1
+	learning = 15
+	prowess = 5
+	martial = 2
+	trait = zealous # ревностный католик, нападал в своих сочинениях на гуситов
+	1421.6.1 = {
+		birth = yes
+	}
+	1449.6.1 = {
+		add_spouse = zofie_zherotin
+	}
+	1460.1.1 = {
+		effect = { dynasty = { add_dynasty_prestige = 100 } }
+	}
+	1462.8.19 = {
+		death = yes
+		
+	}
+}
+#Žofie ze Žerotína
+zofie_zherotin = {
+	name = "Z_ofie"
+	female = yes
+	religion = catholic
+	culture = czech
+	1428.2.8 = {
+		birth = yes
+	}
+	1511.3.19 = {
+		death = yes
+	}
+}
+# Богуслав Гасиштейнский из Лобковиц — один из самых известных поэтов эпохи чешского гуманизма - писал по-латыни, полагая чешский языком варварским
+# Bohuslav Hasištejnský z Lobkovic
+bohuslav_lobkovic = {
+	name = "Bohuslav"
+	dynasty = Lobkowicz
+	father = mikulash2_lobkovic
+	mother = zofie_zherotin
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_3
+	trait = intellect_good_1
+	learning = 16
+	prowess = 5
+	martial = 2
+	diplomacy = 13
+	trait = zealous # ревностный католик, нападал в своих сочинениях на гуситов
+	1461.6.1 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		effect = { learn_language = language_latin }
+	}
+	# В 1475 отправился в Италию, чтобы учиться в Болонье, в 1478 переехал в Трент, в 1479 снова упоминается в Болонском университете. Весной 1481 года переехал в Феррару? где в ноябре 1482 получил докторскую степень по каноническому праву 
+	1475.1.1 = {
+		trait = lifestyle_traveler
+		trait = celibate
+		trait = poet
+	}
+	1482.1.1 = {
+		trait = theologian
+		trait = scholar
+		add_piety = 300
+		effect = { learn_language = language_italian }
+	}
+	1510.11.14 = {
+		death = yes
+	}
+}
+# Mikuláš III. Hasištejnský z Lobkovic
+mikulash3_lobkovic = {
+	name = "MikulA_S_"
+	dynasty = Lobkowicz
+	father = mikulash2_lobkovic
+	mother = zofie_zherotin
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_1
+	trait = intellect_good_1
+	learning = 5
+	prowess = 7
+	martial = 3
+	trait = physique_bad_3
+	1454.5.4 = {
+		birth = yes
+	}
+	1519.1.2 = {
+		death = yes
+	}
+}
+#Jaroslav Hasištejnský z Lobkovic
+yarml_lobkovic = {
+	name = "Jaroslav"
+	dynasty = Lobkowicz
+	father = mikulash2_lobkovic
+	mother = zofie_zherotin
+	religion = "catholic"
+	culture = "czech"
+	trait = education_intrigue_1
+	trait = infertile
+	learning = 7
+	prowess = 6
+	martial = 8
+	1457.11.15 = {
+		birth = yes
+	}
+	1523.1.2 = {
+		death = yes
+	}
+}
+#Решением короля Йиржи из Подебрад от 25 октября 1469 года он был назначен воеводой Жатецкой области и города Кадань
+#Ян Гасиштейнский из Лобковиц - Jan Hasištejnský z Lobkovic; 1450—1517) — старший брат знаменитого поэта-гуманиста Богуслава из Лобковиц. Дипломат, литератор, меценат
+jang_lobkovic = {
+	name = "Jan"
+	dynasty = Lobkowicz
+	father = mikulash2_lobkovic
+	mother = zofie_zherotin
+	religion = "catholic"
+	culture = "czech"
+	trait = education_diplomacy_3
+	trait = intellect_good_1
+	learning = 11
+	prowess = 3
+	martial = 1
+	stewardship = 11
+	1450.6.1 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		trait = lifestyle_traveler
+		trait = journaller
+		add_gold = 155
+		trait = loyal
+	}
+	1473.1.1 = {
+		add_spouse = magdal_ztorringu
+	}
+	#В 1493 году Ян последовал по стопам своего младшего брата Богуслава в паломничестве в Святую Землю
+	1517.1.28 = {
+		death = yes
+	}
+}
+# Magdalenou z Törringu
+magdal_ztorringu = {
+	name = "Magdalena"
+	female = yes
+	religion = catholic
+	culture = czech
+	1451.3.11 = {
+		birth = yes
+	}
+	1533.3.19 = {
+		death = yes
+	}
+}
+# Jaroslav II. z Lobkovic
+yar2_lobkovic = {
+	name = "Jaroslav"
+	dynasty = Lobkowicz
+	father = jang_lobkovic
+	mother = magdal_ztorringu
+	religion = "catholic"
+	culture = "czech"
+	1474.7.4 = {
+		birth = yes
+	}
+	1541.1.1 = {
+		death = yes
+	}
+}
+# Wolfgang z Lobkowicz
+wolfg_lobkovic = {
+	name = "Wolfgang"
+	dynasty = Lobkowicz
+	father = jang_lobkovic
+	mother = magdal_ztorringu
+	religion = "catholic"
+	culture = "czech"
+	trait = physique_bad_2
+	1477.7.17 = {
+		birth = yes
+	}
+	1551.1.1 = {
+		death = yes
+	}
+}
+## Коловрат-Либштейнский
+#Libštejnský z Kolovrat = von Kolowrat-Liebsteinsky
+# Albrecht mladší Libštejnský z Kolovrat
+alb_ml_libkolovrat = {
+	name = "Albrecht"
+	dynasty = kolowrat_liebsteinsky
+	religion = "catholic"
+	culture = "czech"
+	1369.11.9 = {
+		birth = yes
+	}
+	#1414/1416
+	1416.1.6 = {
+		death = yes
+	}
+}
+#Bedřich Kolovrat svobodný pán z Libštejna
+bedrich_kolovratl = {
+	name = "BedR_ich"
+	dynasty = kolowrat_liebsteinsky
+	father = alb_ml_libkolovrat
+	religion = "catholic"
+	culture = "czech"
+	trait = physique_good_1
+	1408.1.8 = {
+		birth = yes
+	}
+	1432.5.15 = {
+		death = yes
+	}
+}
+#Beneš z Kolovrat
+benesh_kolovratl = {
+	name = "BeneS_"
+	dynasty = kolowrat_liebsteinsky
+	father = alb_ml_libkolovrat
+	religion = "catholic"
+	culture = "czech"
+	trait = physique_good_1
+	1447.4.7 = {
+		birth = yes
+	}
+	1494.9.4 = {
+		death = yes
+	}
+}
+##
+# Hanuš I. z Kolovrat (uváděn 1390 – 1450)
+hanus_z_kolovratl = {
+	name = "HanuS_"
+	dynasty = kolowrat_liebsteinsky
+	father = alb_ml_libkolovrat
+	religion = "catholic"
+	culture = "czech"
+	trait = physique_good_1
+	1390.11.9 = {
+		birth = yes
+	}
+	1450.5.8 = {
+		death = yes
+	}
+}
+#Hanuš II. Libštejnský z Kolovrat - родовой замок Žebrák у Бероуна - взамен получил Zbiroh в Плезенском крае
+hanus2_kolovvratlib = {
+	name = "HanuS_"
+	dynasty = kolowrat_liebsteinsky
+	father = hanus_z_kolovratl
+	religion = "catholic"
+	culture = "czech"
+	trait = physique_good_1
+	trait = education_stewardship_1 #щедрый любитель искусства
+	trait = education_learning_1
+	1430.2.7 = {
+		birth = yes
+	}
+	# в 1467, после смерти жены Kateřiny ze Šternberka († 1465), получил сан
+	1467.6.7 = {
+		trait = celibate
+		add_piety = 200
+	}
+	1483.9.23 = {
+		death = yes
+	}
+}
+#Albrecht Libštejnský z Kolovrat, законный сын
+alb_kolovvratlib = {
+	name = "Albrecht"
+	dynasty = kolowrat_liebsteinsky
+	father = hanus2_kolovvratlib
+	religion = "catholic"
+	culture = "czech"
+	trait = physique_good_1
+	1463.6.13 = {
+		birth = yes
+	}
+	1510.9.25 = {
+		death = yes
+	}
+}
+## Чашник Вацлав Коранда Младший - был магистром Пражского университета, деканом факультета искусств и трижды ректор Карлов университет в Праге
+#Václav Koranda mladší
+# в 1478 начал кампанию против Братского единства (едноты, моравских братьев)
+vaclav_koranda_ml = {
+	name = "VA_clav"
+	dynasty = Koranda
+	religion = "catholic"
+	culture = "czech"
+	trait = physique_good_2
+	trait = education_learning_2
+	prowess = 4
+	diplomacy = 11
+	intrigue = 6
+	martial = 2
+	learning = 9
+	1425.2.5 = {
+		birth = yes
+	}
+	1455.12.12 = {
+		religion = "utraquism"
+		trait = celibate
+		add_piety = 300
+		trait = theologian
+	}
+	1519.2.1 = {
+		death = yes
+	}
+}
+
+# Ян Рокицана - гуситский богослов, генеральный викарий Пражской архиепархии, избранный гуситами, но не признанный Римом архиепископ Праги
+jan_rokycana = {
+	name = "Jan"
+	dynasty = Rokycana
+	religion = "catholic"
+	culture = "czech"
+	trait = intellect_good_1
+	trait = education_learning_3
+	prowess = 3
+	diplomacy = 5
+	intrigue = 6
+	martial = 3
+	learning = 10
+	1396.9.6 = {
+		birth = yes
+	}
+	1454.12.12 = {
+		religion = "utraquism"
+		trait = celibate
+		trait = theologian
+		add_piety = 300
+	}
+	# имел влияние на короля Йиржи + Автор книг
+	1470.1.1 = {
+		add_trait = gout_ridden
+		employer = JirzhiIzPodebrad
+		give_council_position = councillor_court_chaplain
+		effect = {
+			add_opinion = {
+				target = title:k_bohemia.holder
+				modifier = respect_opinion
+				opinion = 62
+			}
+			add_opinion = {
+				target = title:k_papal_state.holder
+				modifier = hate_opinion
+				opinion = 40
+			}
+		}
+		if = {
+			limit = { has_dlc_feature = royal_court }
+			create_inspiration = book_inspiration
+		}
+	}
+	1471.2.21 = {
+		death = yes
+	}
+}
+#Теолог и переводчик переводчик Гуса на нижненемецкий, в 1467 осел в Праге
+#Jan z Lübecku - mistr Lipka či Lubek, německy Johhanes von Lübeck
+jan_z_lubecku = {
+	name = "Johann"
+	dynasty = Lu_becku
+	religion = "catholic"
+	culture = "saxon"
+	trait = education_learning_2
+	prowess = 2
+	diplomacy = 8
+	intrigue = 4
+	martial = 5
+	learning = 9
+	1430.10.5 = {
+		birth = yes
+	}
+	1467.6.7 = {
+		trait = celibate
+		trait = theologian
+		add_piety = 100
+		religion = "utraquism"
+		effect = {
+			learn_language_of_culture = culture:czech
+		}
+	}
+	1470.1.1 = {
+		employer = JirzhiIzPodebrad
+	}
+	1471.5.27 = {
+		employer = Vladislav2Yagel
+	}
+	1502.1.16 = {
+		death = yes
+	}
+}
+# Matěj Korambus - нем. Mathias Corambus, лат. Mathias Chorambius
+matej_korambus = {
+	name = "Matej" #Matěj
+	dynasty = Korambus #первая фамилия z Třebče
+	religion = "catholic"
+	culture = "czech"
+	trait = education_learning_2
+	prowess = 5
+	diplomacy = 4
+	intrigue = 2
+	martial = 6
+	learning = 9
+	stewardship = 10
+	#Пусть Жатец
+	1474.7.4 = {
+		birth = yes
+		employer = jang_lobkovic
+	}
+	1471.5.27 = {
+		employer = Vladislav2Yagel
+	}
+	1471.12.31 = {
+		employer = jang_lobkovic
+	}
+	# с 1517 декан в Литомержице. В то время Литомержице явно утраквистский город
+	1490.1.1 = {
+		trait = celibate
+		trait = theologian
+		religion = "utraquism"
+	}
+	1536.8.2 = {
+		death = yes
+	}
+}
+##
+# Jan Filipec, Jan z Prostějova  1431 Prostějov – 28. června 1509 - Епархия Оради c 1474 Nagyvárad
+# администратор Оломоуцкого епископства, дипломат, сторонник Матьяша
+jan_filipec = {
+	name = "Jan"
+	dynasty = Filipec
+	religion = "catholic"
+	culture = "czech"
+	trait = education_diplomacy_2
+	prowess = 2
+	diplomacy = 13
+	intrigue = 5
+	martial = 2
+	learning = 11
+	stewardship = 6
+	trait = beauty_bad_2
+	1431.3.13 = {
+		birth = yes
+	}
+	1454.1.1 = {
+		trait = celibate
+		trait = theologian
+	}
+	1509.6.28 = {
+		death = yes
+	}
+}
+## Páni z Boskovic = Boskovicové
+# Vaněk Černohorský z Boskovic († 1438)
+vanek_zboskovic = {
+	name = "VanE_k"
+	dynasty = Boskovic
+	religion = "catholic"
+	culture = "czech"
+	1370.7.1 = {
+		birth = yes
+	}
+	1438.3.8 = {
+		death = yes
+	}
+}
+#Вацлав Младший из Босковице († 1482), также называемый Ванек, был моравский дворянин из семьи лордов из Босковице
+#Černohorský z Boskovic mladší
+#Tas Černohorský z Boskovic, respektive Protasius Černohorský z Boskovic (německy Protasius von Boskowitz)
+# biskup olomoucký 1457–82 - в 1471 году перестал поддержзивать Матьяша и поддержал кандидатуру Ягеллонов на престол
+# Благодаря его вкладу 7 декабря 1478 года подписан Оломоуцкий договор
+tas_che_boskovic = {
+	name = "Tas"
+	dynasty = Boskovic
+	father = benesh_zboskovic
+	religion = "catholic"
+	culture = "czech"
+	trait = education_diplomacy_1
+	prowess = 1
+	diplomacy = 11
+	intrigue = 4
+	martial = 2
+	learning = 12
+	stewardship = 8 #выкупил замок
+	trait = beauty_bad_2
+	1431.10.16 = {
+		birth = yes
+	}
+	1454.1.1 = {
+		trait = celibate
+		trait = theologian
+	}
+	#Вишков - Моравия
+	1482.8.25 = {
+		death = { death_reason = death_bubonic_plague }
+	}
+}
+#Beneš Černohorský z Boskovic - Первое письменное упоминание - 1423 -  В году 1451 он отрекся от чашников (гуситов) и перешел к католикам. 
+benesh_zboskovic = {
+	name = "BeneS_"
+	dynasty = Boskovic
+	father = vanek_zboskovic
+	religion = "catholic"
+	culture = "czech"
+	1401.4.7 = {
+		birth = yes
+	}
+	1471.1.3 = {
+		death = yes
+	}
+}
+#Jan Černohorský z Boskovic († 1473 - поддержал Матьяша
+jan_che_boskovic = {
+	name = "Jan"
+	dynasty = Boskovic
+	father = benesh_zboskovic
+	religion = "catholic"
+	culture = "czech"
+	trait = education_martial_1
+	prowess = 9
+	diplomacy = 5
+	intrigue = 5
+	martial = 11
+	learning = 5
+	stewardship = 3
+	trait = beauty_bad_1
+	1431.10.16 = {
+		birth = yes
+	}
+	#умер бездетным
+	1473.7.3 = {
+		death = yes
+	}
+}
+#Добеш Черногорский из Босковице († 1493)
+dobesh_che_boskovic = {
+	name = "DobeS_" #Dobeš
+	dynasty = Boskovic
+	father = benesh_zboskovic
+	religion = "catholic"
+	culture = "czech"
+	trait = education_martial_2
+	prowess = 9
+	diplomacy = 5
+	intrigue = 5
+	martial = 11
+	learning = 5
+	stewardship = 3
+	1431.10.16 = {
+		birth = yes
+	}
+	#После 10 декабря 1485 Добеш перешел на другую сторону и поступил на службу к Фридриху III
+	#умер в возвращённой Габсбургам Вене
+	1493.12.20 = {
+		death = yes
+	}
+}
+#от жены Хедвики из Рожмберка (1464–1520) у него было три дочери: Анна, Богунка и Йоханка. Дети не ранее 1480 года
+anna_zboskovic = {
+	name = "Anna"
+	female = yes
+	dynasty = Boskovic
+	father = dobesh_che_boskovic
+	religion = catholic
+	culture = czech
+	1482.11.3 = {
+		birth = yes
+	}
+	#?
+	1541.3.1 = {
+		death = yes
+	}
+}
+bohunka_zboskovic = {
+	name = "Bohunka"
+	female = yes
+	dynasty = Boskovic
+	father = dobesh_che_boskovic
+	religion = catholic
+	culture = czech
+	1485.8.5 = {
+		birth = yes
+	}
+	#?
+	1531.3.1 = {
+		death = yes
+	}
+}
+##
+#Vaněk Černohorský mladší z Boskovic († 1465 nebo 1466) byl moravský šlechtic z rodu pánů z Boskovic
+vanek_ml_zboskovic = {
+	name = "VanE_k"
+	dynasty = Boskovic
+	father = vanek_zboskovic
+	religion = "catholic"
+	culture = "czech"
+	1390.12.26 = {
+		birth = yes
+	}
+	#1465 - 1466
+	1465.9.9 = {
+		death = yes
+	}
+}
+# Václav mladší z Boskovic († 1482), zvaný též Vaněk
+vaclav_vanek_zboskovic = {
+	name = "VA_clav"
+	dynasty = Boskovic
+	father = vanek_ml_zboskovic
+	religion = "catholic"
+	culture = "czech"
+	trait = education_stewardship_1
+	prowess = 5
+	diplomacy = 3
+	intrigue = 5
+	martial = 7
+	learning = 4
+	stewardship = 9
+	1407.10.16 = {
+		birth = yes
+	}
+	#умер в 1482 в Брно
+	1482.8.2 = {
+		death = yes
+	}
+}
+#Jaroslav z Boskovic - на стороне Матьяша, казнён по обвинению в государственной измене из-за ядра врагов, попавшего в палатку Матьяша
+#Он умер, не оставив потомства.
+jaros_zboskovic = {
+	name = "Jaroslav"
+	dynasty = Boskovic
+	father = vaclav_vanek_zboskovic
+	religion = "catholic"
+	culture = "czech"
+	trait = education_intrigue_1
+	prowess = 6
+	diplomacy = 3
+	intrigue = 10
+	martial = 7
+	learning = 4
+	stewardship = 4
+	1433.10.16 = {
+		birth = yes
+	}
+	1485.12.10 = {
+		death = {
+			death_reason = death_execution
+			killer = matiakorvin
+		}
+	}
+}

@@ -1,0 +1,15 @@
+﻿#1490_protestant - 95 tezisov protestant wittenberg1490 regensburg1490
+1490_protestant_effect = {
+	if = {
+	limit = {
+			current_date >= 1517.10.31
+		}
+		title:c_wittenberg = {
+			set_county_faith = faith:protestant
+		}				
+		title:c_regensburg = {
+			set_county_faith = faith:protestant
+		}
+    }
+}
+

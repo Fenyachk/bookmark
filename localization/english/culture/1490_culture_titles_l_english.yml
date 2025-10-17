@@ -1,0 +1,178 @@
+﻿l_english:
+ #1490
+ county_feudal_russian:0 "Udel"
+ count_feudal_male_russian: "Udelniy knyaz"
+ count_feudal_female_russian: "Udelnaya knyaginia"
+ king_feudal_male_russian: "Velikiy knyaz"
+ king_feudal_female_russian: "Velikaya knyaginia"
+ kingdom_feudal_russian: "Velikoe knyazhestvo"
+ baron_feudal_male_russian: "Posadnik"
+ baron_feudal_female_russian: "Posadnitsa"
+ baron_republic_male_russian: "Golova"
+ baron_republic_female_russian: "Golova"
+ barony_feudal_russian: "Volost"
+ #Feudal - изменено и добавлено
+ duke_feudal_male_russian: "Knyaz"
+ duke_feudal_female_russian: "Knyaginia"
+ duchy_feudal_russian: "Maloe knyazhestvo"
+ #
+ king_feudal_male_vlach: "Hospodar"
+ king_feudal_female_vlach: "Hospodarynia"
+ kingdom_feudal_vlach: "Hospodarstvo"
+ #
+ county_feudal_turetskaya: "Qadylyk"
+ count_feudal_male_turetskaya: "Qady"
+ count_feudal_female_turetskaya: "Qady-hatun"
+ barony_republic_turetskaya: "Shehir"
+ baron_republic_male_turetskaya: "Shehirbek"
+ baron_republic_female_turetskaya: "Shehir-hatun"
+ #принцы и принцессы
+ prince_male_russian:0 "Knyazhich"
+ prince_female_russian:0 "Knyazhna"
+ prince_male_russian_empire:0 "Tsarevich"
+ prince_female_russian_empire:0 "Tsarevna"
+ prince_male_turetskaya:0 "Shehzade"
+ prince_female_turetskaya:0 "Hatun"
+ prince_male_russian_turetskaya:0 "Shehzade"
+ prince_female_russian_turetskaya:0 "Hatun"
+ ### Швейцарцы ###
+ king_feudal_male_swizzar:0 "Head of Confederation"
+ king_feudal_female_swizzar:0 "Lady"
+ kingdom_feudal_swizzar:0 "Confederation"
+ duke_feudal_male_swizzar:0 "Head of Union"
+ duke_feudal_female_swizzar:0 "Lady"
+ duchy_feudal_swizzar:0 "Union of cantons"
+ county_feudal_swizzar:0 "Canton"
+ count_feudal_male_swizzar:0 "Head of canton"
+ count_feudal_female_swizzar:0 "Head of canton"
+ count_theocracy_male_swizzar:0 "Bishop"
+ count_theocracy_female_swizzar:0 "Episcopate"
+ county_theocracy_swizzar:0 "Bishopic canton"
+ ### Трансильвания воеводы d_transylvania ###
+ duke_feudal_male_d_transylvania:0 "Voevoda"
+ duke_feudal_female_d_transylvania:0 "Lady"
+ duchy_feudal_d_transylvania:0 "Voevodstvo"
+ ### Казахи ###
+ duke_tribal_male_kazakh:0 "Sultan of Zhuz"
+ duke_tribal_female_kazakh:0 "Hanym of Zhuz"
+ duchy_tribal_kazakh:0 "Zhuz"
+ county_tribal_kazakh:0 "Small Ulus"
+ count_tribal_male_kazakh:0 "Head of Ulus"
+ count_tribal_female_kazakh:0 "Head of Ulus"
+ #новое маркизат Мантуя и Монферрат
+ mantua_marchesato:0 "Marquisate"
+ count_feudal_male_c_mantua:0 "Marquess"
+ count_feudal_female_c_mantua:0 "Marquessa"
+ monferrato_marchesato:0 "Marquisate"
+ count_feudal_male_c_monferrato:0 "Marquess"
+ count_feudal_female_c_monferrato:0 "Marquessa"
+ #Новое великое княжество
+ kingdom_feudal_k_opolye:0 "Grand Principality"
+ livonia_landmagisterM:0 "Landmeister"
+ kingdom_nogai_orda:0 "Horde"
+ Landgraf_Hessen:0 "Landgraf"
+ ###Малые султанаты Индии
+ malyi_sultanat_india:0 "Minor sultanate"
+ count_feudal_male_malsult:0 "Minor sultan"
+ count_feudal_female_malsult:0 "Hanym"
+ #Большой Султанат Дели
+ velikiy_sultanat_deli:0 "Grand sultanate"
+ count_feudal_male_velsult:0 "Grand sultan"
+ count_feudal_female_velsult:0 "Sultan-hanym"
+ #Заморин
+ count_feudal_male_c_eranad:0 "Zamorin"
+ #виконтство
+ vikontstvo_county:0 "Viscountcy"
+ count_feudal_male_c_carcassonne:0 "Viscount"
+ count_feudal_female_c_carcassonne:0 "Viscountess"
+ #Оранж
+ principality_orange:0 "Principality"
+ count_feudal_male_c_venaissin:0 "Prince of Orange"
+ count_feudal_female_c_venaissin:0 "Lady of Orange"
+ # Игумен и игуменья
+ Igumen_kirillov_mon:0 "Igumen"
+ Igumenya_kirillov_mon:0 "Igumenya"
+ #Попытка санджаки
+ duchy_sanjak_osman:0 "Sanjak"
+ duchy_feudal_turetskaya: "Sanjak"
+ duke_feudal_male_turetskaya: "Sanjakbei"
+ duke_feudal_female_turetskaya: "Sanjak-khatun"
+ kingdom_euyalet_osman:0 "Euyalet"
+ #принцы и принцессы Швейцарии
+ prince_male_swizzar:0 "Canton-prince"
+ prince_female_swizzar:0 "Canton-princess"
+ #Новое реалии англия Англичане перенесено ниже
+ duchy_feudal_english:0 "Duchy"
+ duke_feudal_male_english:0 "Duke"
+ duke_feudal_female_english:0 "Duchess"
+ #
+ sultan_osm:0 "Grand sultan"
+ osm_imperia:0 "Sublime State" #Supreme
+ Velikiy_Magistr_Ordena:0 "Grand Master"
+ #Missed
+ count_tribal_male_nogai:0 "Mirza"
+ count_tribal_female_nogai:0 "Mirzashe"
+ duke_tribal_male_nogai:0 "Subordinated Biy"
+ duke_tribal_female_nogai:0 "Bybishe"
+ king_tribal_male_nogai:0 "Biy"
+ king_tribal_female_nogai:0 "Bybishe"
+ emperor_tribal_male_nogai:0 "Grand Biy"
+ emperor_tribal_female_nogai:0 "Grand Bybishe"
+ #
+ atabek_samtskhe_saatabago:0 "Atabeg"
+ ###Hansa
+ kingdom_k_hansa: "Trade republic"
+ head_of_hanza_male: "Head of Hansa"
+ head_of_hanza_female: "Lady of Hansa"
+ #
+ mitropolit_male: "Metropolite" #Metropolitan bishop
+ #LIVONIA
+ county_livonia: "Komturei" #Komturei, Kommende
+ count_livonia_male: "Komtur" #Commandery = Komtur
+ count_livonia_female: "Komturessa" #Komturessa
+ baron_livonia_male: "Vogt" #Vogt
+ baron_livonia_female: "Vogtessa" #Vogtessa
+ #Missed
+ kingdom_feudal_turetskaya: "Eyalet"
+ king_feudal_male_turetskaya: "Beylerbey"
+ king_feudal_female_turetskaya: "Eyalet-hatun"
+ #
+ duke_feudal_male_ban2: "Ban"
+ duke_feudal_female_ban2: "Banica"
+ duchy_feudal_ban2: "Banat"
+ # Habsburg Netherlands
+ stadhouder_feudal_male: "Stadtholder"
+ stadhouder_feudal_female: "Lady-Stadtholder"
+ habs_niderlandy: "Vicegerency"
+ #
+ count_administrative_male_russian: "Voevoda"
+ count_administrative_female_russian: "Hranitelnitsa"
+ duke_administrative_male_russian: "Namestnik"
+ duke_administrative_female_russian: "Namestnitsa"
+ county_administrative_russian: "Uezd"
+ king_administrative_male_russian: "Velikiy knyaz"
+ king_administrative_female_russian: "Velikaya knyaginia"
+ kingdom_administrative_russian: "Velikoe knyazhestvo"
+ baron_feudal_male_turetskaya: "Mukhtar"
+ baron_feudal_female_turetskaya: "Mukhtar-hanym"
+ #
+ duke_namestnik2_male: "Namestnik"
+ duke_namestnik2_female: "Namestnitsa"
+ gospodin_novgoroda: "Gospodin"
+ gospozha_novgoroda: "Gospozha"
+ count_administrative_male_english: "Sheriff"
+ count_administrative_female_english: "Lady"
+ #
+ king_male_nomadic_1490_other: "Khan"
+ king_female_nomadic_1490_other: "Khanym"
+ kingdom_nomadic_1490_other: "Khanate"
+ #missing
+ emperor_feudal_male_turetskaya: "Sultan-Padishah"
+ emperor_feudal_female_turetskaya: "Haseki"
+ #
+ count_administrative_male_polish: "Starosta"
+ count_administrative_female_polish: "Pani-starosta"
+ duke_administrative_male_polish: "Wojewoda-namiestnik"
+ duke_administrative_female_polish: "Pani"
+ king_theocracy_male_christianity_religion_anglicanism: "King"
+ king_theocracy_female_christianity_religion_anglicanism: "Queen"

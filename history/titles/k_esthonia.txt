@@ -1,0 +1,891 @@
+#1.13.0.3 Basileus   01-10-24
+k_esthonia = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+	1444.1.1 = { change_development_level = 33 }
+	1452.1.1 = { change_development_level = 35 }
+	1466.1.1 = { change_development_level = 38 }
+	1488.1.1 = { change_development_level = 41 }
+	#korolevstvo Livoniya sozdavalos lish v 1570 Ivanom IV so stolitsey v Oberpalene -Polcheve, do 1578
+}
+#novoe
+d_latgalians = {
+	1435.12.4 = {
+		de_jure_liege = k_livonia
+	}
+}
+#novoe Latgalia 2
+d_latgale = {
+	1435.12.4 = {
+		de_jure_liege = k_livonia
+		effect = { set_title_name = d_latgalians }
+	}
+}
+#novoe - konfederatsia /1435.12.4/ - obiedinenie vseh, no pust
+#stolitsa - Wenden v Talave
+d_livonian_confederation = {
+	1435.9.1 = {
+		holder = Heinrich_von_B0ckenf0rde #kak landmeyster 1435-1437/8
+	}
+	1435.12.4 = {
+		de_jure_liege = k_livonia
+	}
+	1437.12.30 = {
+		holder = Heinrich_vinckevonOverberg #kak landmeyster *1438 — 1450
+#		government = holy_order_government - neigrabelno
+	}
+	1450.6.29 = {
+		holder = Johann_von_Mengden #kak landmeyster 1450 — 1469
+		government = holy_order_government
+	}
+	1469.8.15 = {
+		holder = Johann_von_Heerse #kak landmeyster 1470 — 1471
+		succession_laws = { feudal_elective_succession_law }
+		government = republic_government #holy_order_government
+	}
+	1471.12.12 = {
+		holder = Bernhard_von_Borch #kak landmeyster 1471 — 1483
+	}
+	1483.2.12 = {
+		holder = JohannLoringhoven #kak 42 landmeyster 1483 — 1494
+#		succession_laws = { feudal_elective_succession_law }
+#		government = holy_order_government
+	}
+}
+
+#Rizhskoe episkopstvo, s 1255. Hotya episkopy Livonii s 1186 goda
+#Riga osnovana v 1220-h -- Arhiepiskopy s 1245 goda
+d_rizhskoe_epis = {
+	1255.1.1 = {
+		government = theocracy_government
+	}
+	1418.11.8 = {
+		holder = Johannes_AmbundiEP
+		government = theocracy_government
+	}
+	1424.2.4 = {
+		holder = Henning_ScharpenbergEP
+		government = theocracy_government
+	}
+	1435.12.4 = {
+		de_jure_liege = k_livonia
+	}
+	1448.4.8 = {
+		holder = SilvesterStodewescher
+		government = theocracy_government
+	}
+	#mezhduvlastie
+#	1479.6.6 = {
+#		government = republic_government
+#	}
+	1479.6.6 = {
+		holder = Stephan_Grube #1480-83
+		government = theocracy_government
+	}
+	1483.12.20 = {
+		holder = Michael_Hildebrand_EP_riga
+		government = theocracy_government
+	}
+}
+
+#novoe - Bishopric of Osel–Wiek 
+d_ezelvikep = {
+	1400.1.1 = {
+		government = theocracy_government
+		name = EZELWIKEPIS
+		liege = k_esthonia
+		de_jure_liege = k_livonia
+	}
+	#Episkopsto Ezel-wik
+	#Arhieparhia byla tolko v Rige
+}
+
+d_esthonia = {
+	# Mark for v1.102
+	766.1.1 = {
+		holder = 170347
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167735
+	}
+	1066.1.1 = {
+		holder = 28026
+	}
+	1120.1.1 = {
+		holder = 144631
+	}
+	1170.1.1 = {
+		holder = 228026
+	}
+	1219.1.1 = {
+		liege = "k_denmark"
+	}
+	1219.1.1 = {
+		holder = 201501 # Valdemar Sejr
+	}
+	1228.1.1 = {
+		holder = 93533
+	}
+	1260.10.5 = {
+		holder = 451519
+	}
+	1282.1.1 = {
+		holder = 451514 # Erik Klipping
+	}
+	1286.11.22 = {
+		holder = 451515 # Erik Menved
+	}
+	1319.11.13 = {
+		holder = 451520 # Christoffer II
+	}
+	1329.1.1 = {
+		holder = 451801
+	}
+	1330.5.30 = {
+		holder = 452505
+	}
+	1332.1.1 = {
+		holder = 451523
+	}
+	##
+	1362.1.2 = {
+		holder = 0
+	}
+	1400.1.1 = {
+		de_jure_liege = k_livonia
+	}
+}
+
+
+c_reval = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 20 }
+	1444.1.1 = { change_development_level = 24 }
+	1466.1.1 = { change_development_level = 29 }
+	1477.1.1 = { change_development_level = 32 }
+	1488.1.1 = { change_development_level = 36 }
+	
+	766.1.1 = {
+		liege = "d_esthonia"
+		holder = 170347
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167735
+	}
+	1066.1.1 = {
+		holder = 28026
+	}
+	1120.1.1 = {
+		holder = 144631
+	}
+	1170.1.1 = {
+		holder = 228026
+	}
+	1219.1.1 = {
+		holder = 201501 # Valdemar Sejr
+	}
+	1228.1.1 = {
+		holder = 93533
+	}
+	1260.10.5 = {
+		holder = 451519
+	}
+	1282.1.1 = {
+		holder = 451514 # Erik Klipping
+	}
+	1286.11.22 = {
+		holder = 451515 # Erik Menved
+	}
+	1319.11.13 = {
+		holder = 451520 # Christoffer II
+	}
+	1329.1.1 = {
+		holder = 451801
+	}
+	1330.5.30 = {
+		holder = 452505
+	}
+	1332.1.1 = {
+		holder = 451523
+	}
+	##
+	1432.12.31 = {
+		holder = Heinrich_von_B0ckenf0rde #komtur Revelya-Tallina 1432-1435 >izbran
+		government = feudal_government
+	}
+	1442.12.31 = {
+		holder = Johann_von_Mengden #komtur Revelya-Tallina 1442-1450 >izbran
+		liege = d_livonian_confederation
+	}
+	1468.12.31 = {
+		holder = Johann_von_Heerse #komtur Revelya-Tallina 1460-1470 >izbran
+		liege = d_livonian_confederation
+	}
+	1470.1.1 = {
+		de_jure_liege = d_livonian_confederation
+	}
+	1471.12.12 = {
+		holder = Bernhard_von_Borch
+	}
+	1472.12.31 = {
+		holder = JohannLoringhoven #komtur Revelya-Tallina 1472-83/5 >izbran
+		liege = d_livonian_confederation
+	}
+}
+
+
+c_narva = {
+	767.1.1 = {
+		liege = "d_esthonia"
+		holder = 170348
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167736
+	}
+	1066.1.1 = {
+		holder = 28026
+	}
+	1120.1.1 = {
+		holder = 144631
+	}
+	1170.1.1 = {
+		holder = 228026
+	}
+	1219.1.1 = {
+		holder = 201501 # Valdemar Sejr
+	}
+	1228.1.1 = {
+		holder = 93533
+	}
+	1260.10.5 = {
+		holder = 451519
+	}
+	1282.1.1 = {
+		holder = 451514 # Erik Klipping
+	}
+	1286.11.22 = {
+		holder = 451515 # Erik Menved
+	}
+	1319.11.13 = {
+		holder = 451520 # Christoffer II
+	}
+	1329.1.1 = {
+		holder = 451801
+	}
+	1330.5.30 = {
+		holder = 452505
+	}
+	1332.1.1 = {
+		holder = 451523
+	}
+	##
+	1426.2.6 = {
+		holder = Heinrich_von_B0ckenf0rde #kak fogt Narvy-Rugodiva 1426-28
+	}
+	1447.1.2 = {
+		holder = Johann_von_Mengden
+	}
+	1459.12.31 = {
+		holder = Johann_von_Heerse #kak fogt Narvy -Rugodiva 1459-1463
+		liege = d_livonian_confederation
+	}
+	1470.1.1 = {
+		de_jure_liege = d_livonian_confederation
+	}
+	1471.12.12 = {
+		holder = Bernhard_von_Borch
+	}
+	1483.2.12 = {
+		holder = JohannLoringhoven #Iogann fon Lorinkgofen
+	}
+}
+
+
+c_osel = {
+	763.1.1 = {
+		holder = 170350
+		liege = "d_livonia"
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167734
+	}
+	1066.1.1 = {
+		holder = 28021
+	}
+	1120.1.1 = {
+		holder = 144640
+	}
+	1170.1.1 = {
+		holder = 228021
+	}
+	1228.1.1 = {
+		liege = "d_livonia"
+	}
+	
+	1228.1.1 = {
+		holder = 30436 #Gottfried von Naumburg
+	}
+	1234.1.1 = {
+		holder = 30437 #Heinrich von Ösel
+	}
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+	}
+	
+	1260.1.1 = {
+		holder = 30438 #Hermann von Buxthoeven
+	}
+	1285.1.1 = {
+		holder = 30439 #Heinrich II von Osel
+	}
+	1294.1.1 = {
+		holder = 30440 #Konrad von Osel
+	}
+	1307.1.1 = {
+		holder = 30441 #Hartung von Osel
+	}
+	1321.1.1 = {
+		holder = 30442 #Jakob von Osel
+	}
+	##
+	#EZEL
+	1458.12.30 = {
+		holder = Jobst_Hohenstein #1458—1471
+		government = theocracy_government
+		liege = d_rizhskoe_epis #Arhieparhia tolko v Rige
+	}
+	1471.7.1 = {
+		holder = PeterWetbergEzelEP #arhiepisk Ezelua
+		government = theocracy_government
+		liege = d_rizhskoe_epis #Arhieparhia tolko v Rige
+	}
+	1470.1.1 = {
+		de_jure_liege = "d_ezelvikep"
+	}
+}
+
+
+#ostrov Hiiumaa, DAge
+b_hiiumaa = {
+	1228.1.1 = {
+		holder = 30436 #Gottfried von Naumburg
+	}
+	1234.1.1 = {
+		holder = 30437 #Heinrich von Ösel
+	}
+	1260.1.1 = {
+		holder = 30438 #Hermann von Buxthoeven
+	}
+	1285.1.1 = {
+		holder = 30439 #Heinrich II von Osel
+	}
+	1294.1.1 = {
+		holder = 30440 #Konrad von Osel
+	}
+	1307.1.1 = {
+		holder = 30441 #Hartung von Osel
+	}
+	1321.1.1 = {
+		holder = 30442 #Jakob von Osel
+	}
+}
+
+
+c_wiek = {
+	765.1.1 = {
+		holder = 170349
+		liege = "d_livonia"
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167737
+	}
+	1066.1.1 = {
+		holder = 28023
+	}
+	1089.1.1 = {
+		holder = 143150
+	}
+	1139.1.1 = {
+		holder = 143151
+	}
+	1187.1.1 = {
+		holder = 228023
+	}
+	
+	##Livonian Swordbrothers
+	
+	1202.1.1 = {
+		holder = 30443 #Vinno von Rohrbach
+	}
+	1209.1.1 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	##Swordbrothers absorbed by the Teutonic Order
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+	}
+	1236.9.22 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	#Episkopsto Ezel-wik
+	1458.12.30 = {
+		holder = Jobst_Hohenstein #1458—1471
+		liege = d_rizhskoe_epis #Arhieparhia tolko v Rige
+	}
+	1471.7.1 = {
+		holder = PeterWetbergEzelEP #arhiepisk Ezelya
+		liege = d_rizhskoe_epis #Arhieparhia tolko v Rige
+	}
+	1473.1.1 = {
+		de_jure_liege = "d_ezelvikep"
+	}
+}
+
+
+d_livonia = {
+	765.1.1 = {
+		holder = 170349
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167737
+	}
+	1066.1.1 = {
+		holder = 28023
+	}
+	1089.1.1 = {
+		holder = 143150
+	}
+	1139.1.1 = {
+		holder = 143151
+	}
+	1187.1.1 = {
+		holder = 228023
+	}
+	
+	###Livonian Swordbrothers
+	
+	1202.1.1 = {
+		holder = 30443 #Vinno von Rohrbach
+	}
+	
+	1209.1.1 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	1236.9.22 = {
+		holder = 0
+	}
+	
+	##
+	#s 1237 goda Livonski order - otdelenie Tevtonskogo /1237-1561/
+	1400.1.1 = {
+		de_jure_liege = k_livonia
+	}
+	#V 1435 - Livonskaya Konfederatsia - episkopstva + orden 1435.12.4
+}
+
+
+c_vidzeme = {
+	765.1.1 = {
+		holder = 170349
+		liege = "d_livonia"
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167737
+	}
+	1066.1.1 = {
+		holder = 28023
+	}
+	1089.1.1 = {
+		holder = 143150
+	}
+	1139.1.1 = {
+		holder = 143151
+	}
+	1187.1.1 = {
+		holder = 228023
+	}
+	
+	##Livonian Swordbrothers
+	1217.9.21 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	##Swordbrothers absorbed by the Teutonic Order
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	#Riga
+	1400.1.1 = {
+		de_jure_liege = d_rizhskoe_epis
+		name = RIGAEP
+	}
+	1418.11.8 = {
+		holder = Johannes_AmbundiEP
+		government = theocracy_government
+		liege = k_esthonia
+	}
+	1424.2.4 = {
+		holder = Henning_ScharpenbergEP
+		government = theocracy_government
+		liege = k_esthonia
+	}
+	1448.4.4 = {
+		holder = SilvesterStodewescher
+		government = theocracy_government
+		liege = k_esthonia
+	}
+	1479.6.6 = {
+		holder = Stephan_Grube #1480-83
+		government = theocracy_government
+	}
+	1483.12.20 = {
+		holder = Michael_Hildebrand_EP_riga
+		government = theocracy_government
+		liege = k_esthonia
+	}
+}
+
+
+c_livs = {
+	765.1.1 = {
+		holder = 170349
+		liege = "d_livonia"
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167737
+	}
+	1066.1.1 = {
+		holder = 28023
+	}
+	1089.1.1 = {
+		holder = 143150
+	}
+	1139.1.1 = {
+		holder = 143151
+	}
+	1178.1.1 = {
+		holder = 228007 # Uchva, fictional
+	}
+	1187.1.1 = {
+		holder = 228023
+	}
+	
+	##Livonian Swordbrothers
+	
+	1202.1.1 = {
+		holder = 30443 #Vinno von Rohrbach
+	}
+	1209.1.1 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	##Swordbrothers absorbed by the Teutonic Order
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+	}
+	1236.9.22 = {
+		holder = 30403 #Hermann von Salza
+	}
+	1239.3.20 = {
+		holder = 30404 #Konrad von Thüringen
+	}
+	1240.7.24 = {
+		holder = 30405 #Gerhard von Malberg
+	}
+	1244.1.1 = {
+		holder = 30406 #Heinrich von Hohenlohe
+	}
+	1249.7.15 = {
+		holder = 30407 #Gunther von Wüllersleben
+	}
+	1252.5.4 = {
+		holder = 30408 #Poppo von Osterna
+	}
+	1256.1.1 = {
+		holder = 30409 #Anno von Sangershausen
+	}
+	1273.7.8 = {
+		holder = 30410 #Hartmann von Heldrungen
+	}
+	1282.8.19 = {
+		holder = 30411 #Burchard von Schwanden
+	}
+	1290.1.1 = {
+		holder = 30412 #Konrad von Feuchtwangen
+	}
+	1296.7.4 = {
+		holder = 30413 #Gottfried von Hohenlohe
+	}
+	1303.1.1 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	##
+	#Sakala
+	1400.1.1 = {
+		de_jure_liege = d_esthonia
+		effect = { set_title_name = b_parnu } #Sakala -> Pernau
+	}
+	1447.1.2 = {
+		holder = Johann_von_Mengden
+	}
+	1470.1.1 = {
+		holder = Johann_von_Heerse
+		de_jure_liege = d_livonian_confederation
+	}
+	1471.12.12 = {
+		holder = Bernhard_von_Borch
+	}
+	1483.2.12 = {
+		holder = JohannLoringhoven
+	}
+}
+
+
+c_dorpat = {
+	761.1.1 = {
+		liege = "d_livonia"
+		holder = 170352
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 167738
+	}
+	1066.1.1 = {
+		liege = "d_esthonia"
+	}
+	1066.1.1 = {
+		holder = 28025
+	}
+	1089.1.1 = {
+		holder = 28026
+	}
+	1120.1.1 = {
+		holder = 144631
+	}
+	1170.1.1 = {
+		holder = 228026
+	}
+	1187.1.1 = {
+		liege = "d_livonia"
+	}
+	1187.1.1 = {
+		holder = 228025
+	}
+	1200.1.1 = {
+		holder = 228023
+	}
+	1202.1.1 = {
+		holder = 30443 #Vinno von Rohrbach
+	}
+	
+	1209.1.1 = {
+		holder = 30444 #Volkwin von Naumburg
+	}
+	
+	1225.1.1 = {
+		holder = 30429 #Hermann von Buxthoevden
+	}
+	
+	1236.9.22 = {
+		liege = "d_teutonic_order"
+	}
+	1248.1.1 = {
+		holder = 30430 #Alexander von Dorpat
+	}
+	1268.1.1 = {
+		holder = 30431 #Friedrich von Haseldorf
+	}
+	1288.1.1 = {
+		holder = 30432 #Bernhard von Dorpat
+	}
+	1302.1.1 = {
+		holder = 30433 #Dietrich von Vyshusen
+	}
+	1312.1.1 = {
+		holder = 30434 #Nikolaus von Dorpat
+	}
+	1323.1.1 = {
+		holder = 30445 #Engelbert von Dolen
+	}
+	##
+	1400.1.1 = {
+		de_jure_liege = d_esthonia
+	}
+	1435.1.1 = {
+		de_jure_liege = d_livonian_confederation
+	}
+	1441.1.1 = {
+		holder = Barth_EP_Derpta_1441_59
+		government = theocracy_government
+		liege = d_rizhskoe_epis #Arhieparhia tolko v Rige
+	}
+	1468.1.1 = {
+		holder = AndreasPepler
+		government = theocracy_government
+		liege = d_rizhskoe_epis
+	}
+	1473.7.3 = {
+		holder = Johannes_Bertkow_DerpEP
+		government = theocracy_government
+		liege = d_rizhskoe_epis
+	}
+	1485.8.5 = {
+		holder = Dietrich_Hake_DerpEP
+		government = theocracy_government
+		liege = d_rizhskoe_epis
+	}
+}
+
+
+#CENTR GRAFSTVA Dorpat ITAK! UBRAL, inache oshibka "Trying to execute history in b_tartu capital barony title. Should be executed in c_tartu. Skipping execution"
+# 1441.1.1 = { effect = { set_capital_barony = yes } } NE pomogaet
+#b_tartu = {
+#	1225.1.1 = {
+#		holder = 30429 #Hermann von Buxthoevden
+#	}
+#	1248.1.1 = {
+#		holder = 30430 #Alexander von Dorpat
+#	}
+#	1268.1.1 = {
+#		holder = 30431 #Friedrich von Haseldorf
+#	}
+#	1288.1.1 = {
+#		holder = 30432 #Bernhard von Dorpat
+#	}
+#	1302.1.1 = {
+#		holder = 30433 #Dietrich von Vyshusen
+#	}
+#	1312.1.1 = {
+#		holder = 30434 #Nikolaus von Dorpat
+#	}
+#	1323.1.1 = {
+#		holder = 30445 #Engelbert von Dolen
+#	}
+#}
+
+##novoe
+#Ðàêâåðå - Ðàêîâîð - Âåçåíáåðã //ãðàôñòâî Íàðâà -gorod-
+b_wesenburg = {
+	1453.1.1 = {
+		holder = Bernhard_von_Borch #stal rytsarem v Rakvere v 1451 primerno
+	}
+}

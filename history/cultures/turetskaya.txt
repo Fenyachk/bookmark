@@ -1,0 +1,101 @@
+﻿# s 25_09_24 turetskaya ot turkmen
+867.1.1 = {
+	discover_innovation = innovation_bannus
+	discover_innovation = innovation_mustering_grounds
+	discover_innovation = innovation_quilted_armor
+	#
+	discover_innovation = innovation_plenary_assemblies
+	discover_innovation = innovation_currency_01
+	#
+}
+
+950.1.1 = {
+	# Tribal Innovations
+	discover_innovation = innovation_motte
+	discover_innovation = innovation_barracks
+	discover_innovation = innovation_catapult
+	#
+	discover_innovation = innovation_development_01
+	discover_innovation = innovation_casus_belli
+}
+
+1100.1.1 = {
+	join_era = culture_era_early_medieval
+}
+
+1110.1.1 = {
+	discover_innovation = innovation_gavelkind
+	discover_innovation = innovation_crop_rotation
+	discover_innovation = innovation_house_soldiers
+	discover_innovation = innovation_horseshoes
+	discover_innovation = innovation_baliffs
+	discover_innovation = innovation_royal_prerogative
+	discover_innovation = innovation_currency_02
+	discover_innovation = innovation_manorialism
+	discover_innovation = innovation_hereditary_rule
+	discover_innovation = innovation_mangonel
+}
+
+1150.1.1 = {
+	join_era = culture_era_high_medieval
+}
+
+1178.1.1 = {
+	discover_innovation = innovation_battlements
+	discover_innovation = innovation_arched_saddle
+	discover_innovation = innovation_armilary_sphere
+	discover_innovation = innovation_development_03
+	discover_innovation = innovation_guilds
+	discover_innovation = innovation_trebuchet
+	discover_innovation = innovation_hoardings
+	discover_innovation = innovation_land_grants
+	discover_innovation = innovation_castle_baileys
+	discover_innovation = innovation_men_at_arms
+	discover_innovation = innovation_divine_right
+}
+###
+1200.1.1 = {
+	discover_innovation = innovation_city_planning
+	discover_innovation = innovation_ledger #перепись
+	discover_innovation = innovation_burhs
+}
+1333.1.1 = {
+	discover_innovation = innovation_development_02
+	discover_innovation = innovation_chronicle_writing
+}
+1370.1.1 = {
+	discover_innovation = innovation_advanced_bowmaking #uluchshennoe izg lukov
+}
+1400.1.1 = {
+	discover_innovation = innovation_scutage #shzitovye dengi
+	discover_innovation = innovation_windmills #vetryanye melnitsy
+}
+1410.1.1 = {
+	join_era = culture_era_late_medieval
+}
+1454.1.1 = {
+	discover_innovation = innovation_machicolations #mashikuli -smenili gurditsii v XIV - pozdnee
+	discover_innovation = innovation_plate_armor #plastinchatyi dospeh — pozdnee
+	discover_innovation = innovation_currency_03 #bankovskaya sistema  -iz vysokogo
+	discover_innovation = innovation_knighthood #rytsarstvo -iz vysokogo
+	discover_innovation = innovation_primogeniture
+	#
+	discover_innovation = innovation_heraldry
+	discover_innovation = innovation_bombard #pushka Urbana iz Brashova
+}
+1460.1.1 = {
+	discover_innovation = innovation_standing_armies
+	discover_innovation = innovation_language_assimilation #1490
+}
+1470.1.1 = {
+	discover_innovation = innovation_court_officials #pridvornye chinovniki
+	discover_innovation = innovation_ermine_cloaks #gornostaevye mantii
+	discover_innovation = innovation_royal_armory #korolevskaya oruzheynaya
+	discover_innovation = innovation_sappers
+}
+1480.1.1 = {
+	discover_innovation = innovation_rightful_ownership #pravo sobstvenniosti
+}
+1490.1.1 = {
+	join_era = culture_era_novoevremya
+}

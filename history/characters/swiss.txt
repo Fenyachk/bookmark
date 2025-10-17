@@ -1,0 +1,769 @@
+﻿###swizzar заменил на swiss aModswizzarian.txt
+#Johannes Keller - Бургомистр Цюриха 1445–1454
+Joh_keller = {
+	name = "Johannes"
+	dynasty = Keller
+	religion = "catholic"
+	culture = swabian
+	trait = education_martial_2
+	1410.1.12 = {
+		birth = yes
+	}
+	1433.1.1 = {
+		culture = swiss
+	}
+	1452.12.12 = {
+		effect = {
+			add_opinion = {
+				target = title:e_hre.holder
+				modifier = hate_opinion
+				opinion = -88
+			}
+		}
+	}
+	#1466
+	1469.1.1 = {
+		death = yes
+	}
+}
+#Niklaus von Diesbach - глава конфедерации с 1469 Никлас Дисбах
+Niklaus_von_Diesbach = {
+	name = "Niklas"
+	dna = swiss_niklas_disbah
+	dynasty = Diesbach
+	religion = "catholic"
+	culture = "swiss"
+	#
+	trait = brave
+	trait = unyielding_defender
+	1439.3.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_flag = no_headgear
+		}
+	}
+	1468.1.1 = {
+		add_spouse = HenrietteSwizzF
+	}
+	1469.12.12 = {
+		effect = {
+			add_opinion = {
+				target = title:e_hre.holder
+				modifier = hate_opinion
+				opinion = -99
+			}
+		}
+	}
+	1475.1.1 = {
+		death = yes
+	}
+}
+#его швейцарская жена
+HenrietteSwizzF = {
+	name = "Henriette"
+	female = yes
+	religion = "catholic"
+	culture = swiss
+	1450.2.2 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+#Adrian I von Bubenberg из Берна
+Adrian1Bubenberg = {
+	name = "Adrian"
+	dynasty = Bubenberg
+	father = Heinrich4Bubenberg
+	trait = education_martial_prowess_2
+	religion = "catholic"
+	culture = swiss
+	1434.6.6 = {
+		birth = yes
+	}
+	1466.6.6 = {
+		trait = pilgrim
+	}
+	1479.6.6 = {
+		death = yes
+	}
+}
+Heinrich4Bubenberg = {
+	name = "Heinrich"
+	dynasty = Bubenberg
+	trait = education_martial_prowess_1
+	religion = "catholic"
+	culture = swabian
+	1407.7.7 = {
+		birth = yes
+	}
+	1458.6.6 = {
+		culture = swiss
+	}
+	1464.11.6 = {
+		death = yes
+	}
+}
+# Ранее Адопционист - адопционизм — настраиваемая религия
+#AdoptionistSwiss = {
+#	name = "Diether"
+#	trait = education_learning_1
+#	religion = "adoptionist"
+#	culture = swiss
+#	1446.6.6 = {
+#		birth = yes
+#	}
+#	1506.6.6 = {
+#		death = yes
+#	}
+#}
+#Ллолард
+WatchLoolard = {
+	name = "Watch"
+	trait = education_learning_1
+	religion = "lollard"
+	culture = swiss
+	1466.6.16 = {
+		birth = yes
+	}
+	1533.9.9 = {
+		death = yes
+	}
+}
+#Вальденс в Новое время вальденсы населяли преимущественно Альпы
+SwizzWaldens = {
+	name = "Luitgard"
+	trait = education_learning_1
+	religion = "waldensian"
+	culture = swiss
+	trait = albino
+	1455.11.26 = {
+		birth = yes
+	}
+	1533.9.11 = {
+		death = yes
+	}
+}
+#Отец Парацельса врач Вильгельм Бомбаст фон Гогенхайм, Парацельс родился в 1493 von Hohenheim
+WilhelmHohenheimVR = {
+	name = "Wilhelm"
+	dynasty = Hohenheim
+	religion = "catholic"
+	culture = swiss
+	trait = education_learning_1
+	1460.6.6 = {
+		birth = yes
+	}
+	1500.9.9 = {
+		death = yes
+	}
+}
+#Николай из Флюэ швейцарский отшельник и святой
+NiklausvonFlueSW = {
+	name = "Niklaus"
+	dynasty = FlueSwizz
+	religion = "catholic"
+	culture = swiss
+	trait = education_learning_2
+	trait = trusting
+	trait = compassionate
+	trait = reclusive
+	prowess = 9 #участвовал в войне
+	martial = 4
+	1417.6.6 = {
+		birth = yes
+	}
+	1467.1.1 = {
+		trait = celibate
+		add_piety = 300
+	}
+	1469.1.1 = {
+		employer = Niklaus_von_Diesbach
+	}
+	1487.1.1 = {
+		death = yes
+	}
+}
+WaltervonFlueSW = {
+	name = "Walter"
+	dynasty = FlueSwizz
+	father = NiklausvonFlueSW
+	religion = "catholic"
+	culture = swiss
+	1448.6.20 = {
+		birth = yes
+	}
+	1521.9.9 = {
+		death = yes
+	}
+}
+HansvonFlueSW = {
+	name = "Hans"
+	dynasty = FlueSwizz
+	father = NiklausvonFlueSW
+	religion = "catholic"
+	culture = swiss
+	1447.7.27 = {
+		birth = yes
+	}
+	1506.9.9 = {
+		death = yes
+	}
+}
+#Роже Федерер из Базеля пасхалка
+RogerFederer = {
+	name = "Roger"
+	dynasty = Federer
+	religion = "catholic"
+	culture = swiss
+	trait = physique_good_1
+	trait = athletic
+	prowess = 3
+	1418.8.8 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+#Вальдман Ханс бургомистр Цюриха в 1480-х отличился битве при Муртене (1476) казанили
+HansWaldmann = {
+	name = "Hans"
+	dynasty = Waldmann
+	religion = "catholic"
+	culture = swiss
+	trait = physique_good_2
+	trait = education_martial_2
+	prowess = 10
+	1435.8.8 = {
+		birth = yes
+	}
+	1489.4.15 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+#Мельхиор Русс швейцарский рыцарь, хронист и историк, автор «Люцернской хроники»
+MelchiorRuss = {
+	name = "Melchior"
+	dynasty = RussSWIZZ
+	religion = "catholic"
+	culture = swiss
+	trait = education_diplomacy_1
+	trait = education_martial_prowess_2
+	prowess = 16
+	trait = infertile #неизвестно о детях и семье
+	1450.5.5 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		trait = poet
+	}
+	1499.7.20 = {
+		death = { death_reason = death_battle }
+	}
+}
+#бургомистр Цюриха Феликс Бреннвальд
+Felix_Brennwald = {
+	name = "Felix"
+	dna = felixbrennwald
+	dynasty = Brennwald
+	religion = "catholic"
+	culture = "swiss"
+	trait = physique_good_2
+	trait = education_martial_prowess_1
+	prowess = 14
+	1451.5.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = no_headgear
+		}
+	}
+	1467.5.5 = {
+		add_spouse = Zhena_Brennwalda
+	}
+	1499.4.15 = {
+		death = yes
+	}
+}
+Zhena_Brennwalda = {
+	name = "Marta"
+	female = yes
+	religion = "catholic"
+	culture = swiss
+	prowess = 0
+	1452.5.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = no_headgear #без головного убора убор
+		}
+	}
+	1500.4.15 = {
+		death = yes
+	}
+}
+#епископ Санкт-Галлена с 1463 Ulrich Rösch 1426 - 1491
+Ulrich_RoeschEP = {
+	name = "Ulrich"
+	dynasty = Roesch
+	religion = "catholic"
+	culture = swiss
+	trait = education_learning_2
+	trait = physique_bad_1
+	prowess = 2
+	learning = 19
+	1426.5.5 = {
+		birth = yes
+	}
+	1445.5.5 = {
+		add_trait = devoted
+	}
+	1489.5.5 = {
+		add_trait = sickly
+	}
+	1491.4.15 = {
+		death = yes
+	}
+}
+#Бенедикт Чахтлан швейцарский хронист, член городского совета Берна
+Benedikt_Tschachtlan = {
+	name = "Benedikt"
+	dynasty = Tschachtlan
+	religion = "catholic"
+	culture = swiss
+	trait = education_diplomacy_1
+	1422.3.7 = {
+		birth = yes
+	}
+	1451.1.1 = {
+		trait = poet
+	}
+	1469.1.1 = {
+		trait = celibate
+	}
+	1493.2.1 = {
+		death = yes
+	}
+}
+#Герольд Эдлибах хронист, чиновник и член городского совета Цюриха
+Gerold_Edlibach = {
+	name = "Gerold"
+	religion = "catholic"
+	culture = swiss
+	dynasty = Edlibach
+	trait = education_learning_2
+	1454.9.24 = {
+		birth = yes
+	}
+	1475.7.2 = {
+		add_spouse = Ursula_ROist
+	}
+	1530.8.28 = {
+		death = yes
+	}
+}
+#Ursula Röist
+Ursula_ROist = {
+	name = "Ursula"
+	female = yes
+	religion = "catholic"
+	culture = swiss
+	1457.5.1 = {
+		birth = yes
+	}
+	1533.8.28 = {
+		death = yes
+	}
+}
+Jacob_Edlibach = {
+	name = "Jacob"
+	religion = "catholic"
+	culture = swiss
+	dynasty = Edlibach
+	father = Gerold_Edlibach
+	mother = Ursula_ROist
+	trait = education_learning_1
+	1482.2.4 = {
+		birth = yes
+	}
+	1546.8.28 = {
+		death = yes
+	}
+}
+# Schradin Frey
+###Ульрих Цезе (Цазий) - немецкий и швейцарский юрист
+Ulrich_Zasius = {
+	name = "Ulrich"
+	religion = "catholic"
+	culture = swiss
+	dynasty = Zasius
+	trait = intellect_good_1
+	trait = beauty_bad_1
+	trait = education_learning_2
+	trait = calm
+	1461.6.1 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		effect = {
+			learn_language = language_latin #латынь
+		}
+	}
+	1535.2.1 = {
+		death = yes
+	}
+}
+#Никлаус Шрадин - писарь канцелярии аббатства Санкт-Галлена
+Niklaus_Schradin = {
+	name = "Niklaus"
+	religion = "catholic"
+	culture = swiss
+	dynasty = Schradin
+	trait = education_learning_2
+	trait = calm
+	1470.7.1 = {
+		birth = yes
+		employer = Ulrich_RoeschEP
+	}
+	1490.7.1 = {
+		trait = poet #хронист
+	}
+	1516.2.1 = {
+		death = yes
+	}
+}
+#Каспар Фрей из Бадена (Аргау)
+Kaspar_Frey = {
+	name = "Kaspar"
+	dynasty = Frey
+	religion = "catholic"
+	culture = swiss
+	trait = education_learning_1
+	trait = zealous
+	1464.6.4 = {
+		birth = yes #1460/70
+	}
+	1487.1.1={
+		effect = {
+			set_relation_friend = character:Niklaus_Schradin
+		}
+	}
+	1526.12.11 = {
+		death = yes #1526/27
+	}
+}
+
+#Markus Röist, офицер и командующий швейцарской гвардией
+Markus_ROist = {
+	name = "Markus"
+	dynasty = RO_ist_SWiS
+	religion = "catholic"
+	culture = "swiss"
+	trait = education_martial_1
+	trait = aggressive_attacker
+	prowess = 10
+	1454.5.4 = {
+		birth = yes #Цюрих
+	}
+	1469.1.1 = {
+		employer = Niklaus_von_Diesbach
+	}
+	1475.1.1 = {
+		employer = Felix_Brennwald
+	}
+	1483.1.1 = {
+		employer = HansWaldmann
+	}
+	1489.4.15 = {
+		employer = Felix_Brennwald #burgomistr Zuriha
+	}
+	1524.1.6 = {
+		death = yes #Рим
+	}
+}
+#Каспар Рёйст
+Kaspar_RO_ist = {
+	name = "Kaspar"
+	dynasty = RO_ist_SWiS
+	father = Markus_ROist
+	religion = "catholic"
+	culture = swiss
+	trait = education_martial_prowess_1
+	trait = zealous
+	prowess = 14
+	1478.7.13 = {
+		birth = yes #Цюрих
+		employer = Felix_Brennwald
+	}
+	1483.1.1 = {
+		employer = HansWaldmann
+	}
+	1489.4.15 = {
+		employer = Felix_Brennwald #burgomistr Zuriha
+	}
+	1527.5.6 = {
+		death = yes #Разграбление Рима 1527
+	}
+}
+### род фон Брандис - правители Вадуца и некоторых других земель
+Wolfhart_V_Brandis = {
+	name = "Wolfhart"
+	dynasty = Brandis
+	religion = "catholic"
+	culture = swiss
+	1401.11.4 = {
+		birth = yes
+	}
+	1452.5.20 = {
+		death = yes
+	}
+}
+Ulrich_von_Brandis = {
+	name = "Ulrich"
+	dynasty = Brandis
+	religion = "catholic"
+	culture = swiss
+	father = Wolfhart_V_Brandis
+	1425.2.5 = {
+		birth = yes
+	}
+	1486.8.20 = {
+		death = yes
+	}
+}
+Verena_von_Brandis = {
+	name = "Verena"
+	female = yes
+	dynasty = Brandis
+	father = Ulrich_von_Brandis
+	religion = "catholic"
+	culture = swiss
+	1452.3.14 = {
+		birth = yes
+	}
+	1507.12.13 = {
+		death = yes
+	}
+}
+Sigmund_II_von_Brandis = {
+	name = "Sigmund"
+	dynasty = Brandis
+	father = Ulrich_von_Brandis
+	religion = "catholic"
+	culture = swiss
+	1453.5.5 = {
+		birth = yes
+	}
+	1507.3.1 = {
+		death = yes
+	}
+}
+Ludwig_von_Brandis = {
+	name = "Ludwig"
+	dynasty = Brandis
+	father = Ulrich_von_Brandis
+	religion = "catholic"
+	culture = swiss
+	1455.11.15 = {
+		birth = yes
+	}
+	1507.11.12 = {
+		death = yes
+	}
+}
+#последний представитель Семьи Брадис
+Johannes_von_Brandis = {
+	name = "Johannes"
+	dynasty = Brandis
+	father = Ulrich_von_Brandis
+	religion = "catholic"
+	culture = swiss
+	1456.6.8 = {
+		birth = yes
+	}
+	1512.10.10 = {
+		death = yes
+	}
+}
+#Епископ Кура Ortlieb von Brandis
+Ortlieb_von_Brandis = {
+	name = "Ortlieb"
+	dynasty = Brandis
+	father = Wolfhart_V_Brandis
+	religion = "catholic"
+	culture = swiss
+	trait = education_learning_1
+	trait = zealous
+	1430.6.4 = {
+		birth = yes
+	}
+	1450.6.4 = {
+		trait = devoted
+	}
+	1491.7.25 = {
+		death = yes
+	}
+}
+#Швейцарские гуманисты
+#Конрад Пелликан
+KonradPellikan = {
+	name = "Konrad"
+	dynasty = Pellikan #Kürschner
+	religion = catholic
+	culture = swabian #Руффак, Эльзас - не swiss
+	trait = intellect_good_1
+	trait = education_learning_1
+	fertility = 0.5
+	1478.1.9 = {
+		birth = yes
+	}
+	1556.4.5 = {
+		death = yes
+	}
+}
+#Хайнрих Бреннвальд
+HeinrichBrennwald = {
+	name = "Heinrich"
+	female = no
+	dynasty = Brennwald
+	father = Felix_Brennwald
+	mother = Zhena_Brennwalda
+	religion = catholic
+	culture = swiss
+	1478.12.9 = {
+		birth = yes
+	}
+	1490.1.1 = {
+		effect = {
+			create_betrothal = character:Margareta_Lautenschlager
+		}
+	}
+	1551.1.1 = {
+		death = yes
+	}
+}
+#его жена, чтобы избежать странных браков Маргарита Лаутеншлагер
+Margareta_Lautenschlager = {
+	name = "Margareta"
+	female = yes
+	dynasty = Lautenschlager
+	religion = catholic
+	culture = swiss
+	trait = beauty_good_1
+	1480.7.15 = {
+		birth = yes
+	}
+	1556.1.1 = {
+		death = yes
+	}
+}
+##
+#амман Johann Ulrich Zwingli (1454–1513)
+Johann_zwingli = {
+	name = "Johann"
+	dynasty = Zwingli
+	religion = catholic
+	culture = swiss
+	prowess = 3
+	1454.5.4 = {
+		birth = yes
+	}
+	1476.7.5 = {
+		add_spouse = Marg_bruggmann
+	}
+	1513.1.3 = {
+		death = yes
+	}
+}
+#Margaretha Bruggmann 1458–1519
+Marg_bruggmann = {
+	name = "Margaretha"
+	female = yes
+	religion = catholic
+	culture = swiss
+	prowess = 2
+	1458.1.16 = {
+		birth = yes
+	}
+	1519.11.19 = {
+		death = yes
+	}
+}
+#Альбрехт фон Бонштеттен - Albrecht von Bonstetten
+Albrecht_Bonstetten = {
+	name = "Albrecht"
+	dynasty = Bonstetten
+	religion = catholic
+	culture = swiss
+	trait = education_learning_2
+	1442.12.21 = {
+		birth = yes
+	}
+	#бенедектинец
+	1464.1.21 = {
+		trait = devoted
+		trait = poet
+	}
+	#Сигизмунд
+	1477.1.1 = {
+		employer = SiegmundHabsTirol
+		give_council_position = councillor_court_chaplain
+	}
+	1504.1.11 = {
+		death = yes
+	}
+}
+#Niklaus von Scharnachthal 1419; † 1489) - с 1463 по 1472 год — Шультхайсом Берна
+Nikl_Scharnachthal = {
+	name = "Niklaus"
+	dynasty = Scharnachthal
+	religion = "catholic"
+	culture = swabian
+	trait = education_martial_1
+	trait = education_diplomacy_1
+	1419.11.19 = {
+		birth = yes
+	}
+	1433.1.1 = {
+		culture = swiss
+	}
+	1470.1.1 = {
+		effect = {
+			add_opinion = {
+				target = title:e_hre.holder
+				modifier = hate_opinion
+				opinion = -88
+			}
+		}
+	}
+	#парализован после удара молнии, да
+	1477.5.30 = {
+		trait = disfigured
+		trait = incapable
+	}
+	1489.8.9 = {
+		death = yes
+	}
+}
+## Kaspar zu Rhein  (* 1433 - 8. November 1502 in Porrentruy) - епископ Базеля
+#Епископ Базеля, Фридрих цу Рейнский, был его двоюродным дедом
+Kaspar_zu_rhein = {
+	name = "Kaspar"
+	dynasty = Rhein
+	religion = catholic
+	culture = swiss
+	trait = education_learning_2
+	1433.3.3 = {
+		birth = yes
+	}
+	1454.1.21 = {
+		trait = devoted
+		trait = celibate
+	}
+	1502.11.8 = {
+		death = yes
+	}
+}

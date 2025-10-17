@@ -1,0 +1,844 @@
+#1.13.0.3 Basileus - 29-09-24
+k_moldavia = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+	1454.1.1 = { change_development_level = 30 }
+	1466.1.1 = { change_development_level = 34 }
+	1488.1.1 = { change_development_level = 37 }
+	
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+		succession_laws = { high_partition_succession_law}
+	}
+}
+
+d_bukovina = {
+	860.1.1 = {
+		holder = 256043 #Fictional mstislav
+		liege = 0
+		government = tribal_government
+	}
+	898.12.30 = {
+		holder = 0
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+}
+
+c_suceava = {
+	860.1.1 = {
+		holder = 256043 #Fictional mstislav
+		liege = 0
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+		holder = 302134
+		liege = k_magyar
+	}
+	900.5.17 = {
+		holder = 302130
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Kievan Rus rule
+	1066.1.1 = {
+		holder = 302133		#Litovoi Bolohoveni
+		liege = d_kiev
+	}
+	1178.1.1 = {
+		holder = moldavian_count_1 # Fictional placeholder
+		liege = 0
+	}
+	##
+	#Suchava — Stolitsa 1385—1572
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+}
+
+c_neamnt = {
+	860.1.1 = {
+		holder = 256043 #Fictional mstislav
+		liege = 0
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+		holder = 302134
+		liege = k_magyar
+	}
+	900.5.17 = {
+		holder = 302130
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Kievan Rus rule
+	1066.1.1 = {
+		holder = 302133		#Litovoi Bolohoveni
+		liege = d_kiev
+	}
+	1178.1.1 = {
+		holder = moldavian_count_1 # Fictional placeholder
+		liege = 0
+	}
+	##
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+	#
+	#vmesto Suchavy-stolitsy
+	1486.8.6 = {
+		holder = Luka_Arbor
+		liege = k_moldavia
+	}
+}
+
+c_dorohoi = {
+	860.1.1 = {
+		holder = 256043 #Fictional mstislav
+		liege = 0
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+		holder = 302134
+		liege = k_magyar
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Kievan Rus rule
+	1066.1.1 = {
+		holder = 302140
+		liege = d_kiev
+	}
+	1178.1.1 = {
+		holder = moldavian_count_3 # Fictional placeholder
+		liege = 0
+	}
+	##
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	#Рареши из Хырлэу
+	1455.1.1 = {
+		holder = PetruRaresh
+		liege = k_moldavia
+	}
+}
+
+c_hotin = {
+	860.1.1 = {
+		holder = 256043 #Fictional mstislav
+		liege = 0
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+		holder = 302134
+		liege = k_magyar
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Kievan Rus rule
+	1066.1.1 = {
+		holder = 302140
+		liege = d_kiev
+	}
+	1153.1.1 = {
+		holder = 222500 # was fortified by Yaroslav Osmomysl
+	}
+	##
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+}
+
+d_moldova = {
+	860.1.1 = {
+		holder = 256043 #Fictional mstislav
+		liege = 0
+		government = tribal_government
+	}
+	898.12.30 = {
+		holder = 0
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+}
+
+c_iasi = {
+	#Dridu tribe under Magyar rule
+	867.1.1 = {
+		holder = 302124	#Bajan Dridusi
+		liege = d_moldova
+		government = tribal_government
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	#Pecheneg rule
+	1066.1.1 = {
+		holder = 302127	#Adrian Dridusi
+		liege = k_pechenegs
+	}
+	1091.1.1 = {
+		liege = 0
+	}
+	1178.1.1 = {
+		holder = moldavian_count_3 # Fictional placeholder
+	}
+	##
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+	#mnogo armuan
+	1470.1.1 = {
+		holder = Yassy_Armyan
+		liege = k_moldavia
+	}
+}
+
+c_orhei = {
+	860.1.1 = {
+		holder = 256043 #Fictional mstislav
+		liege = 0
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+		holder = 302134
+		liege = k_magyar
+	}
+	897.10.16 = {
+		holder = 302135
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+		holder = 20637
+		liege = "k_pechenegs"
+	}
+	1178.1.1 = {
+		holder = moldavian_count_6 # Fictional placeholder
+	}
+	##
+	#Orhei - Mongolskaya krepost
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+}
+
+c_soroca = {
+	860.1.1 = {
+		holder = 256043 #Fictional mstislav
+		liege = 0
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+		holder = 302134
+		liege = k_magyar
+	}
+	897.10.16 = {
+		holder = 302135
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+		holder = 20637
+		liege = "k_pechenegs"
+	}
+	1178.1.1 = {
+		holder = moldavian_count_6 # Fictional placeholder
+		liege = 0
+	}
+	##
+	1469.12.31 = {
+		holder = Dazhbog_BouarinSt
+		liege = k_moldavia
+	}
+}
+
+c_barlad = {
+	#Dridu tribe
+	867.1.1 = {
+		holder = 302124	#Bajan Dridusi
+		liege = d_moldova
+		government = tribal_government
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+		holder = 302127	#Adrian Dridusi
+		liege = k_pechenegs
+	}
+	1091.1.1 = {
+		liege = 0
+	}
+	1178.1.1 = {
+		holder = moldavian_count_7 # Fictional placeholder
+		liege = 0
+	}
+	##
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+}
+
+c_galati = {
+	#Under Bulgarian Empire
+	867.1.1 = {
+		holder = 302119	#Mihai Brodnici
+		liege = k_bulgaria
+		government = tribal_government
+	}
+	885.2.19 = {
+		holder = 302120
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Under Pecheneg rule
+	1050.1.1 = {
+		holder = 302121	#Simion Brodnici
+		liege = k_pechenegs
+	}
+	1085.12.21 = {
+		holder = 302122
+	}
+	1091.1.1 = {
+		liege = 0
+	}
+	1178.1.1 = {
+		holder = moldavian_count_8 # Fictional placeholder
+	}
+	##Gorod 1 raz v 1445 godu
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+}
+
+c_stoenesti = {
+	#Under Bulgarian Empire
+	867.1.1 = {
+		holder = 302119	#Mihai Brodnici
+		liege = k_bulgaria
+		government = tribal_government
+	}
+	885.2.19 = {
+		holder = 302120
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Under Pecheneg rule
+	1050.1.1 = {
+		holder = 302121	#Simion Brodnici
+		liege = k_pechenegs
+	}
+	1085.12.21 = {
+		holder = 302122
+	}
+	1091.1.1 = {
+		liege = 0
+	}
+	1178.1.1 = {
+		holder = moldavian_count_8 # Fictional placeholder
+	}
+	##
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+}
+
+d_bugeac = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 4 }
+	1466.1.1 = { change_development_level = 14 }
+	1488.1.1 = { change_development_level = 19 }
+	
+	#Pecheneg rule
+	1066.1.1 = {
+		holder = 20641
+		liege = 0
+	}
+	1091.1.1 = {
+		holder = 0
+	}
+}
+
+c_tigheci = {
+	#Tigheci Republic
+	867.1.1 = {
+		holder = 302117
+		liege = k_bulgaria
+		government = tribal_government
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+		holder = 20642
+		liege = "k_pechenegs"
+	}
+	1178.1.1 = {
+		holder = moldavian_count_10 # Fictional placeholder
+		liege = 0
+	}
+	##
+	#kak gorod s 1436 goda
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+}
+
+c_cetatea_alba = {
+	#Tigheci Republic
+	867.1.1 = {
+		holder = 302117
+		liege = k_bulgaria
+		government = tribal_government
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	#Pecheneg rule
+	1066.1.1 = {
+		holder = 20641
+		liege = 0
+	}
+	1178.1.1 = {
+		holder = moldavian_count_10 # Fictional placeholder
+	}
+	
+	##v Moldavii 1359 - 1484
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1457.1.1 = {
+		holder = Vlaikul_BoyarinKish
+		liege = k_moldavia
+	}
+	#Turki zavoevali
+	1484.7.19 = {
+		holder = Fik_Sanjar_Turok
+		liege = e_ottoman
+	}
+}
+
+c_chilia = {
+	#Tigheci Republic
+	867.1.1 = {
+		holder = 302117
+		liege = k_bulgaria
+		government = tribal_government
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+		holder = 20635
+		liege = "k_pechenegs"
+	}
+	1178.1.1 = {
+		holder = moldavian_count_10 # Fictional placeholder
+	}
+	##
+	#Kilia
+	1391.12.30 = {
+		holder = Roman1Mushat
+		government = feudal_government
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+	#
+	1484.7.7 = {
+		holder = Fik_Sanjar_Turok
+		government = clan_government
+		liege = e_ottoman
+	}
+	1490.1.1 = {
+		effect = {
+			if = {
+				limit = { exists = holder has_dlc_feature = roads_to_power }
+				holder = { change_government = administrative_government }
+			}
+		}
+	}
+}
+
+c_lapusna = {
+	860.1.1 = {
+		holder = 256043 #Fictional mstislav
+		liege = 0
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+		holder = 302134
+		liege = k_magyar
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	#Pecheneg rule
+	1066.1.1 = {
+		holder = 20642
+		liege = "k_pechenegs"
+	}
+	1178.1.1 = {
+		holder = moldavian_count_7 # Fictional placeholder
+	}
+	##
+	#Kishinev vpervye v 1436 g
+	1391.12.30 = {
+		holder = Roman1Mushat
+	}
+	1394.12.30 = {
+		holder = Stefan1Mushat
+	}
+	1399.12.30 = {
+		holder = IugaDobrMushat
+	}
+	1400.12.30 = {
+		holder = MoldAlexDobrMushat
+	}
+	1445.1.1 = {
+		holder = Stefan2Mushat1410
+	}
+	1447.1.1 = {
+		holder = Roman2Mushat
+	}
+	1448.7.2 = {
+		holder = Bogdan2Mushat
+	}
+	1451.12.30 = {
+		holder = MoldPetr3Mushat
+	}
+	1458.1.1 = {
+		holder = Stefan3VelMushat
+	}
+	1466.1.1 = {
+		holder = Vlaikul_BoyarinKish
+		liege = k_moldavia
+	}
+}
+

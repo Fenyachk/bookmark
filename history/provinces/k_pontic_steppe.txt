@@ -1,0 +1,645 @@
+﻿# 30-04-2025   1.16.0.1 "Chamfron"
+#k_pontic_steppe
+##d_yedisan #Karayedisan ###################################
+###c_ladyzyn
+5257 = {	#Ladyzyn
+	culture = mogyer
+	religion = magyar_pagan
+	holding = nomad_holding
+	895.1.2 = {
+		culture = pecheneg
+		religion = tengri_pagan
+	}
+	1178.1.1 = {
+		holding = tribal_holding
+	}
+	##
+	1333.1.1 = {
+		culture = mongol
+	}
+	1340.1.1 = { religion = maturidi }
+	1461.11.11 = {
+		culture = crimean
+	}
+}
+5258 = {	#Birzula	AKA Podilsk
+	holding = none
+	## Kotovsk-Birzula was first mentioned in Ottoman documents in 1772 as one of the settlements of the Dubossar raya
+}
+5259 = {	#Liubashivka
+	holding = none
+	## XVIII vek - v igre Chichklea, reka
+}
+
+###c_uman
+5260 = {	#Yary
+	culture = mogyer
+	religion = magyar_pagan
+	holding = nomad_holding
+	895.1.2 = {
+		culture = pecheneg
+		religion = tengri_pagan
+	}
+	1066.1.1 = {
+		holding = herder_holding
+	}
+	1178.1.1 = {
+		holding = tribal_holding
+	}
+	##
+	1333.1.1 = {
+		culture = mongol
+		religion = maturidi
+	}
+	1453.11.11 = {
+		culture = zapadnorus
+		religion = orthodox
+	}
+	# Umanski r-n Cherkassk oblasti?
+}
+5261 = {	#Buky
+	holding = none
+	## pgt, s XVI
+}
+5262 = {	#Uman
+	holding = none
+	## 1616
+}
+
+###c_cherkassy
+5263 = {	#Cherkassy
+	culture = mogyer
+	religion = magyar_pagan
+	holding = nomad_holding
+	895.1.2 = {
+		culture = pecheneg
+		religion = tengri_pagan
+	}
+	1178.1.1 = {
+		holding = tribal_holding
+	}
+	##
+	1333.1.1 = { culture = mongol }
+	1340.1.1 = { religion = maturidi }
+	1469.1.1 = { culture = litovtatar }
+}
+5264 = {	#Sacacatce
+	holding = none
+}
+5265 = {	#Kashan
+	holding = none
+}
+5266 = {	#Pervomaisk
+	holding = none
+}
+
+###c_dnipro
+5274 = {	#Dnipro
+	culture = mogyer
+	religion = magyar_pagan
+	holding = nomad_holding
+	895.1.2 = {
+		culture = pecheneg
+		religion = tengri_pagan
+	}
+	1178.1.1 = {
+		holding = tribal_holding
+	}
+	##
+	1333.1.1 = {
+		culture = mongol
+	}
+	1340.1.1 = { religion = maturidi }
+	1468.1.1 = {
+		culture = crimean
+	}
+}
+5275 = {	#Salmacatce
+	holding = none
+}
+
+##d_kizilyedisan ###################################
+###c_odessa
+543 = {	#Kara-Kerman
+	culture = mogyer
+	religion = magyar_pagan
+	holding = nomad_holding
+	895.1.2 = {
+		culture = pecheneg
+		religion = tengri_pagan
+	}
+	1178.1.1 = {
+		holding = tribal_holding
+	}
+	##
+	# bud Ochakov
+	1329.1.1 = {
+		culture = mongol
+		religion = maturidi
+	}
+	#? Dashev - s 1415 - Vozia u valahov
+	#Genua - Lerich do 1455
+	1461.11.11 = {
+		culture = crimean
+	}
+	1490.1.1 = { holding = city_holding }
+	#Ozu-Ochakov - 1492
+	#1502 - Osmany
+}
+5267 = {	#Tiraspol
+	holding = none
+	## 1792 - Suvorov, kr Srednya			
+}
+5268 = {		#Odessa  ## b_odessa
+	holding = none
+	## v igre Hadjibei - Krymskoe hanstvo
+}
+542 = {		#Odessa ## b_olbia_ETEL
+	holding = church_holding
+	## v igre Olvia -u Nikolaeva
+	1400.1.1 = { holding = none }
+}	
+
+###c_kherson
+5269 = {	#Kherson
+	culture = mogyer
+	religion = magyar_pagan
+	holding = nomad_holding
+	845.1.1 = {
+		holding = herder_holding
+	}
+	895.1.1 = {
+		holding = nomad_holding
+	}
+	895.1.2 = {
+		culture = pecheneg
+		religion = tengri_pagan
+	}
+	1178.1.1 = {
+		holding = tribal_holding
+	}
+	##
+	#v igre Usu-Limabi, grafstva Ingul
+	1333.1.1 = { culture = mongol }
+	1340.1.1 = { religion = maturidi }
+	1460.1.1 = { culture = crimean }
+	#verouatno nekie Belhovichi
+	#1778
+}
+5270 = {	#Kazanka
+	holding = none
+	## -Nikolaevsk obl
+}
+5271 = {	#Voznessensk
+	holding = none
+	## -Nikolaevsk obl -v igre Mervovid
+	#veriuatno Sokolets ili Vitovt brod 1392-1430
+}
+
+###c_lower_dniepr
+5272 = {	#Beryslav
+	culture = mogyer
+	religion = magyar_pagan
+	holding = nomad_holding
+	895.1.2 = {
+		culture = pecheneg
+		religion = tengri_pagan
+	}
+	1066.1.1 = {
+		holding = herder_holding
+	}
+	1091.1.1 = {
+		holding = nomad_holding
+	}
+	1178.1.1 = {
+		holding = tribal_holding
+	}
+	## Berislav = Doganchegit = Kazirekmen
+	1470.1.1 = {
+		culture = crimean
+		religion = maturidi
+	}
+	# krepost
+	1484.1.1 = {
+		holding = castle_holding
+	}
+	# 1695 Sheremetiev + Mazepa
+}
+
+5273 = {	#Nikopol
+	holding = none
+}
+
+##d_levedia ###################################
+###c_khortytsia
+557 = {		#Khortytsia
+	culture = khazar
+	religion = kabarism
+	holding = nomad_holding
+	1066.1.1 = {
+		culture = cuman
+		religion = tengri_pagan
+	}
+	## Yulky-su
+	1333.1.2 = {
+		culture = mongol
+	}
+	1340.1.1 = { religion = maturidi }
+	1460.1.1 = { culture = crimean }
+}
+5280 = {	#Mariupol
+	holding = none
+	## Uzhnaya Kalka
+}
+5281 = {	#Kutur-Ogly	AKA Berdyansk
+	holding = none
+}
+5324 = {	#Donetsk
+	holding = none
+	## v igre DoteTS
+}
+
+###c_oleshye
+558 = {		#Oleshye
+	culture = khazar
+	religion = kabarism
+	holding = nomad_holding
+	1066.1.1 = {
+		culture = cuman
+		religion = tengri_pagan
+	}
+	##
+	1333.1.1 = { culture = mongol }
+	1340.1.1 = { religion = maturidi }
+	1460.1.1 = { culture = crimean }
+}
+5278 = {	#Kakovka
+	holding = none
+}
+5279 = {	#Kyzyl Jar	AKA Melitopol
+	holding = none
+}
+
+###c_bakhmut
+564 = {		#Bakhmut
+	culture = khazar
+	religion = tengri_pagan
+	holding = nomad_holding
+
+	860.1.1 = {
+		holding = herder_holding
+	}
+	889.1.1 = {
+		holding = nomad_holding
+	}
+	1000.1.2 = {
+		culture = cuman
+	}
+	##
+	1333.1.1 = {
+		culture = mongol
+		religion = maturidi
+	}
+	1461.11.11 = {
+		culture = crimean
+	}
+}
+5322 = {	#Tor	AKA Sloviansk
+	holding = none
+	## posle 1645
+}
+5323 = {	#Volcha	AKA Volchansk
+	holding = none
+	## 1674
+}
+
+###c_lozova
+5320 = {	#Lozova
+	culture = khazar
+	religion = kabarism
+	holding = nomad_holding
+	1066.1.1 = {
+		culture = cuman
+		religion = tengri_pagan
+		holding = herder_holding
+	}
+	##
+	1333.1.1 = {
+		culture = mongol
+		religion = maturidi
+	}
+	1461.11.11 = {
+		culture = crimean
+	}
+}
+5321 = {	#Pokrovsk
+	holding = none
+}
+
+###c_samar
+556 = {		#Samar
+	culture = khazar
+	religion = tengri_pagan
+	holding = nomad_holding
+	1000.1.2 = {
+		culture = cuman
+	}
+	1060.1.1 = {
+		holding = herder_holding
+	}
+	1178.1.1 = {
+		holding = nomad_holding
+	}
+	##
+	1333.1.1 = {
+		culture = mongol
+	}
+	1350.1.1 = { religion = maturidi }
+	1469.1.1 = { culture = litovtatar }
+}
+5282 = {	#Karlivka
+	holding = none
+}
+565 = {		#Kharka
+	holding = none
+}
+5283 = {	#Bohodukhiv
+	holding = none
+	## 1571, potom 1662
+}
+
+##d_don_valley ###################################
+###c_golden_hills
+5290 = {	#Golden Hills
+	culture = khazar
+	religion = kabarism
+	holding = nomad_holding
+	1066.1.1 = {
+		culture = cuman
+		religion = tengri_pagan
+	}
+	##
+	1333.1.2 = {
+		culture = mongol
+	}
+	1340.1.1 = { religion = maturidi }
+	1461.11.11 = {
+		culture = crimean
+	}
+	#Ust-Donerski r-n Rostovskoy oblasti u Novocherkasska
+	#Bessergenevskaya i Melihovskaya stanitsy
+}
+5291 = {	#Siyahtepe
+	#semi-fictional, based on probable location of Khazar settlement
+	holding = none
+}
+5292 = {	#Ust-Donvokhi
+	#mostly fictional
+	holding = none
+	##
+	# -Ust-Donetsky s 1837 - v igre Hresttsy
+}
+594 = {		#Kazarki
+	#probable location of khazar settlement
+	holding = none
+	## HZ
+}
+
+###c_kazanskaya
+5287 = {	#Kazanskaya
+	culture = khazar
+	religion = tengri_pagan
+	holding = nomad_holding
+	861.1.1 = {
+		holding = herder_holding
+	}
+	886.1.1 = {
+		holding = nomad_holding
+	}
+	1000.1.2 = {
+		culture = cuman
+	}
+	##
+	1333.1.1 = {
+		culture = mongol
+	}
+	1340.1.1 = { religion = maturidi }
+	1461.11.11 = {
+		culture = crimean
+	}
+	#stanitsa Kazanskaya - prim 1647
+}
+5325 = {	#Boguchar
+	holding = none
+	## Voronezhskaya obl 1704-1716
+}
+
+###c_kazanskaya - kopirovali kod c_millerovo
+5326 = {	#Millerovo
+	culture = khazar
+	religion = kabarism
+	holding = nomad_holding
+	1066.1.1 = {
+		culture = cuman
+		religion = tengri_pagan
+	}
+	1178.1.1 = {
+		holding = herder_holding
+	}
+	##
+	1454.1.1 = {
+		culture = crimean
+		religion = ashari #pust, haha
+	}
+	# 1786 hutor starshiny Millera na Glubokoy
+}
+5327 = {	#Podgornye
+	holding = none
+}
+
+###c_sarysyn
+595 = {		#Sarysyn
+	culture = khazar
+	religion = kabarism
+	holding = nomad_holding
+	1066.1.1 = {
+		culture = mordvin
+		religion = finnish_pagan
+		holding = tribal_holding
+	}
+	1178.1.1 = {
+		culture = cuman
+		religion = tengri_pagan
+		holding = nomad_holding
+	}
+	##
+	1333.1.1 = {
+		culture = mongol
+	}
+	1340.1.1 = { religion = maturidi }
+	1467.6.7 = {
+		culture = astrahan
+	}
+}
+5293 = {	#Frolovo
+	holding = none
+	## v igre Lyzhin
+	#1859 hutor Lyzhinski
+}
+5294 = {	#Kamyshin
+	holding = none
+	## 1668
+}
+5295 = {	#Yelan
+	holding = none
+	## Voronezhskaya obl, 1691
+}
+
+##d_tana ###################################
+###c_tana
+596 = {		#Tana
+	culture = khazar
+	religion = tengri_pagan
+	holding = nomad_holding
+	1000.1.2 = {
+		culture = cuman
+	}
+	1178.1.1 = {
+		holding = herder_holding
+	}
+	1183.1.1 = {
+		holding = nomad_holding
+	}
+	##
+	1300.1.2 = {
+		culture = mongol
+		religion = maturidi
+		holding = herder_holding
+	}
+	#c 1365
+	1365.1.2 = {
+		culture = cisalpine
+		holding = castle_holding
+		religion = catholic
+	}
+	1461.11.11 = {
+		culture = crimean
+		religion = maturidi
+	}
+	1475.7.5 = { culture = turetskaya }
+}
+563 = {		#Taganrog
+	holding = none
+	## s 1370 - Porto-Pizano
+	1370.1.2 = { holding = city_holding }
+}
+
+###c_kuzeytorg
+5328 = {	#Kuzeyrog	#ficitonal
+	culture = khazar
+	religion = tengri_pagan
+	holding = nomad_holding
+	1000.1.2 = {
+		culture = cuman
+	}
+	1178.1.1 = {
+		holding = herder_holding
+	}
+	1183.1.1 = {
+		holding = nomad_holding
+	}
+	##
+	1461.11.11 = {
+		culture = crimean
+		religion = maturidi
+	}
+}
+5329 = {	#Ivanovskoye
+	holding = none
+}
+
+##d_crimea ###################################
+###c_kerch
+562 = {		#Kerch
+	culture = greek
+	religion = orthodox
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			#pastures_01
+			military_camps_01
+		}
+	}
+	##
+#	1266.1.1 = {
+#		culture = cisalpine
+#		religion = catholic
+#	}
+}
+560 = {		#Chersonesus
+	holding = castle_holding
+}
+561 = {		#Theodosia	AKA Feodosia
+	holding = city_holding
+}
+
+###c_kalos_limen
+5276 = { #Kerkinitis	AKA Yevpatoria
+	culture = khazar
+	religion = tengri_pagan
+	holding = nomad_holding
+	1000.1.2 = {
+		culture = cuman
+	}
+	##
+	1333.1.1 = { culture = mongol }
+	1340.1.1 = { religion = maturidi }
+	1454.1.1 = { holding = castle_holding }
+	1460.1.1 = { culture = crimean }
+	# 1552
+	1470.1.1 = {
+		special_building_slot = 1490_juma_jami_mosque
+	}
+}
+559 = {	#Kalos Limen	AKA Chornomorske
+	holding = none
+	#holding = city_holding
+	##
+	1453.1.1 = { holding = city_holding }
+	1340.1.1 = { religion = maturidi }
+	1460.1.1 = { culture = crimean }
+}
+
+###c_perekop
+5330 = {	#Aqmescit	AKA Simferopol
+	holding = nomad_holding
+	culture = khazar
+	religion = tengri_pagan
+	1000.1.2 = {
+		culture = cuman
+	}
+	##
+	1333.1.1 = {
+		culture = mongol
+		religion = maturidi
+	}
+	1414.1.1 = { holding = castle_holding }
+	1460.1.1 = { culture = crimean }
+}
+
+5277 = {	#Perekop
+	holding = none
+	##
+	#Perekopskaya krepost 1509
+	1509.1.1 = { holding = castle_holding }
+}
+5331 = {	#Dzhankoi
+	holding = none
+	## 1842
+}

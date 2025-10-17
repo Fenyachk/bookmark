@@ -1,0 +1,15 @@
+﻿#### MOOD TRACKS ex pause_factor = 15
+1490_mood_forestdnd = {
+	music = "file:/music/1490_forest_adventure.mp3"
+	name = "1490 Forest Adventure"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+1490_mood_desert_night = {
+	music = "file:/music/1490_desert_night.mp3"
+	name = "1490 Desert Night"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}

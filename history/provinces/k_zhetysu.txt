@@ -1,0 +1,619 @@
+﻿# 02-05-2025   1.16.0.1 "Chamfron"
+#pochemy ne ashari- Hanafitski mazhab shkola na osnove Maturdizma https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D0%B0%D1%84%D0%B8%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B0%D0%B7%D1%85%D0%B0%D0%B1
+###MAPS REFERENCES
+#AAA : https://upload.wikimedia.org/wikipedia/commons/3/38/Zakaukazie-Turkestan1903.jpg
+#BBB : https://www.wdl.org/fr/item/11753/view/1/1/
+
+#k_zhetysu
+##d_zhetysu ###################################
+###c_qayaliq
+7168 = {	#Qayaliq
+	culture = karluk
+	religion = manichean
+	holding = nomad_holding
+	1134.1.1 = {
+		culture = khitan
+		religion = mahayana
+	}
+	## ubral uyghur
+	1360.1.1 = {
+		culture = mongol
+		religion = tengri_pagan
+	}
+	1454.1.1 = {
+		culture = kazakh_hybrid
+		religion = maturidi
+	}
+}
+7169 = {	#Ichiwooq
+	#A bit placeholder
+	holding = none
+}
+7170 = {	#Altyn-Emel
+	#Region found as "Altyn-Ymel" on map BBB, between lakes Balkhash and Issyk kul
+	#National park
+	holding = none
+}
+
+###c_almaty
+7164 = {	#Almaty
+	culture = karluk
+	religion = manichean
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	934.1.1 = {
+		religion = maturidi
+	}
+	1060.1.1 = {
+		holding = herder_holding
+	}
+	1066.1.1 = {
+		buildings = {
+			market_villages_01
+		}
+	}
+	1085.1.1 = {
+		holding = nomad_holding
+	}
+	1178.1.1 = {
+		culture = khitan
+		religion = mahayana
+	}
+	##
+	1366.1.1 = {
+		culture = cuman
+		religion = tengri_pagan
+	}
+	1465.1.1 = {
+		culture = kazakh_hybrid
+	}
+}
+7165 = {	#Talgar
+	holding = none
+	## Talhiz?
+	1454.1.1 = { holding = nomad_holding }
+}
+7166 = {	#Kyzyl Suu
+	holding = none
+}
+7167 = {	#Kegen
+	holding = none
+}
+
+###c_kopathal
+7163 = {	#Kopathal
+	#Can be found as "Kopal" on map BBB, somewhere between lake Balkhash and river Ili
+	culture = karluk
+	religion = maturidi
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	##
+	1366.1.1 = {
+		culture = cuman
+		religion = maturidi
+	}
+	1465.1.1 = {
+		culture = kazakh_hybrid
+	}
+}
+7159 = {	#Akzhar
+	holding = none
+}
+7160 = {	#Tamgaly
+	holding = none
+}
+
+###c_kaskelen
+7162 = {	#Kaskelen
+	culture = karluk
+	religion = maturidi
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	## Almatinskaya oblast
+	## karluksk gorod do 1218
+	1218.1.1 = {
+		holding = herder_holding
+		culture = mongol
+	}
+	1329.1.1 = {
+		religion = maturidi
+	}
+	##
+	1465.1.1 = {
+		culture = kazakh_hybrid
+		holding = nomad_holding
+	}
+}
+7158 = {	#Chu
+	#Ficitonal, based on the river
+	holding = none
+}
+7161 = {	#Kurdai
+	#Found on map AAA, north west of Issyk kul
+	holding = none
+}
+
+###c_aksuyek
+7157 = {	#Aksuyek
+	culture = karluk
+	religion = maturidi
+	holding = nomad_holding
+	1065.1.1 = {
+		holding = herder_holding
+	}
+	1178.1.1 = {
+		holding = nomad_holding
+	}
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	##
+	1300.1.1 = { culture = mongol }
+	1350.1.1 = { religion = maturidi }
+	1465.1.1 = {
+		culture = kazakh_hybrid
+	}
+}
+7155 = {	#Shyganak
+	holding = none
+	## selo v Sarysuskom r-ne Zhambylskoy obl?
+}
+7156 = {	#Mirnyy
+	#Very small (modern ?) town just south of lake Balkhash
+	holding = none
+}
+
+###c_uchkul
+7173 = {	#Uchkul
+	#Found as "Uczkul" on map AAA, south of lake Balkhash & "Ljukum"
+	culture = karluk
+	religion = manichean
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	1178.1.1 = {
+		religion = maturidi
+		holding = herder_holding
+	}
+	##
+	1300.1.1 = {
+		culture = mongol
+	}
+	1329.1.1 = {
+		religion = maturidi #islam v Zolotoy orde posle 1322
+	}
+	1465.1.1 = {
+		culture = kazakh_hybrid
+		holding = nomad_holding
+	}
+}
+7171 = {	#Taldiqorgan	AKA Taldykorgan
+	holding = none
+}
+7172 = {	#Kopal	AKA Qapal
+	holding = none
+}
+7174 = {	#Lyukum
+	#Found as "Ljukum" on map AAA, just south of lake Balkhash
+	holding = none
+}
+
+##d_alakol ###################################
+###c_chuguchak
+7181 = {	#Chuguchak	AKA Tacheng
+	culture = kimek
+	religion = tengri_pagan
+	holding = nomad_holding
+	1066.1.1 = {
+		culture = karluk
+	}
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	1178.1.1 = {
+		culture = kimek
+	}
+	##
+	1300.1.1 = {
+		culture = mongol
+	}
+	1400.1.1 = {
+		culture = uyghur
+	}
+}
+7179 = {	#Cherga
+	holding = none
+}
+7180 = {	#Zatsan
+	#Based on local lake Nor Zaissan
+	holding = none
+}
+
+###c_kokpekty
+7178 = {	#Kokpekty
+	culture = kimek
+	religion = tengri_pagan
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	##
+	1300.1.1 = {
+		culture = cuman
+	}
+	1454.1.1 = {
+		culture = oirat
+	}
+	#
+	1466.1.1 = {
+		culture = kazakh_hybrid
+	}
+}
+7176 = {	#Kokpektinsk
+	#Can be found on map BBB, north-west of lake Nor Zaissan
+	holding = none
+}
+1427 = {	#Urzhar
+	holding = none
+}
+
+###c_bazarka
+7177 = {	#Bazarka
+	#Can be found on map BBB, just west of lake Nor Zaissan
+	culture = kimek
+	religion = tengri_pagan
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	1000.1.1 = {
+		culture = kimek
+	}
+	1178.1.1 = {
+		holding = herder_holding
+	}
+	##
+	1454.1.1 = {
+		culture = oirat
+		religion = tengri_pagan
+	}
+}
+7176 = {	#Kokpektinsk
+	#Can be found on map BBB, north-west of lake Nor Zaissan
+	holding = none
+}
+
+###c_guzkol
+7183 = {	#Guzkol
+	#A bit placeholder
+	culture = karluk
+	religion = tengri_pagan
+	holding = nomad_holding
+	860.1.1 = {
+		holding = herder_holding
+	}
+	1066.1.1 = {
+		religion = manichean
+		holding = nomad_holding
+	}
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	1178.1.1 = {
+		religion = tengri_pagan
+		holding = herder_holding
+	}
+	##
+	1300.1.1 = { culture = mongol }
+	1470.1.1 = {
+		culture = kazakh_hybrid
+	}
+}
+7175 = {	#Djusagach
+	#Can be found on map BBB as "Dzus-agacz", just north-east of lake Balkhash
+	holding = none
+}
+7182 = {	#Ayagoz	AKA Sergiopol
+	holding = none
+}
+
+###c_lepsink
+7185 = {	#Lepsink	AKA Lepsy
+	culture = karluk
+	religion = tengri_pagan
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	1066.1.1 = {
+		religion = maturidi
+	}
+	1178.1.1 = {
+		culture = karluk
+		religion = tengri_pagan
+	}
+	##
+	1300.1.1 = {
+		culture = cuman
+	}
+	1333.1.1 = {
+		religion = maturidi
+	}
+	1465.1.1 = {
+		culture = kazakh_hybrid
+	}
+}
+1426 = {	#Sarkand
+	holding = none
+}
+7184 = {	#Usharal
+	holding = none
+}
+7186 = {	#Bole
+	#A bit placeholder
+	holding = none
+}
+
+##d_tarbagatai ###################################
+###c_emil
+7187 = {	#Emil
+	#Fictional, based on local river Emil
+	culture = karluk
+	religion = tengri_pagan
+	holding = herder_holding
+	1066.1.1 = {
+		holding = nomad_holding
+	}
+	1178.1.1 = {
+		culture = khitan
+		religion = mahayana
+	}
+	## ALakol
+	## Dzungary
+	1454.1.1 = {
+		culture = oirat
+		religion = tengri_pagan
+	}
+}
+7189 = {	#Sarychulsyn
+	#Appears as "Sary-chulsyn", just east of the Ala-kul, on map AAA
+	holding = none
+}
+7188 = {	#Ala-Kul
+	#Name of the local lake, Alaqol/Alakol
+	holding = none
+}
+7193 = {	#Modo-Bartik
+	#Appears as "Modo-Bartyk", just south-east of the Ala-kul, on map AAA
+	holding = none
+}
+
+###c_jinsko
+7197 = {	#Jinsko
+	#Can be found as "Dszincho" south of Ebi-nor on map AAA
+	culture = karluk
+	religion = tengri_pagan
+	holding = herder_holding
+	1000.1.1 = {
+		religion = maturidi
+	}
+	1178.1.1 = {
+		holding = nomad_holding
+		culture = khitan
+		religion = mahayana
+	}
+	##
+	1300.1.1 = {
+		culture = mongol
+	}
+	1333.1.1 = {
+		religion = maturidi
+	}
+	1414.1.1 = {
+		culture = uyghur
+	}
+}
+7195 = {	#Kuytun
+	holding = none
+}
+7198 = {	#Koltun
+	#Can be found south-east of the Ebi-nor on map AAA
+	holding = none
+}
+
+###c_ebi-nor
+7194 = {	#Ebi-nor
+	#Name of the local name Ebi-nor, can be found on map AAA
+	culture = karluk
+	religion = tengri_pagan
+	holding = nomad_holding
+	1000.1.1 = {
+		religion = maturidi
+	}
+	1178.1.1 = {
+		culture = khitan
+		religion = mahayana
+	}
+	## Dzungarskie vrata
+	1454.1.1 = {
+		culture = oirat
+		religion = tengri_pagan
+	}
+}
+7196 = {	#Dahyansi
+	#Can be found as "Dachiansky" south of Ebi-nor on map AAA
+	holding = none
+}
+
+###c_karamay
+7192 = {	#Karamay
+	culture = karluk
+	religion = tengri_pagan
+	holding = nomad_holding
+	1178.1.1 = {
+		culture = khitan
+		religion = mahayana
+	}
+	## sovr Kitay
+	1370.1.1 = {
+		religion = maturidi
+	}
+	1400.1.1 = {
+		culture = uyghur
+	}
+}
+7190 = {	#Baiyang
+	holding = none
+}
+7191 = {	#Toli
+	#Can be found on map BBB south of "Kaltar"
+	holding = none
+}
+
+##d_ili-alatau ###################################
+###c_iliq
+7199 = {	#Iliq
+	#More or less Almaliq and/or Ghulja
+	#We may be cheating a bit by making it a separate province
+	culture = karluk
+	religion = tengri_pagan
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	867.1.1 = {
+		holding = herder_holding
+	}
+	934.1.1 = {
+		religion = maturidi
+	}
+	940.1.1 = {
+		holding = nomad_holding
+	}
+	1178.1.1 = {
+		culture = khitan
+		religion = mahayana
+	}
+	##
+	1300.1.1 = {
+		culture = cuman
+		religion = tengri_pagan
+	}
+	1333.1.1 = {
+		culture = cuman
+		religion = maturidi
+	}
+	1465.1.1 = {
+		culture = kazakh_hybrid
+	}
+}
+1425 = {	#Almaliq	AKA Almalik
+	holding = none
+	#holding = city_holding
+}
+7200 = {	#Junzi
+	#Found as "Czunszi" on map AAA, north-east of Issyk-kul
+	holding = none
+}
+7201 = {	#Tekes
+	#Xian/County of Tekes
+	holding = none
+}
+
+###c_ghulja
+7202 = {	#Ghulja	AKA Yining
+	culture = karluk
+	religion = tengri_pagan
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	934.1.1 = {
+		religion = maturidi
+	}
+	1178.1.1 = {
+		holding = herder_holding
+	}
+	1134.1.1 = {
+		culture = khitan
+		religion = vajrayana
+	}
+	## Kulja
+	1333.1.1 = {
+		religion = maturidi
+	}
+	1400.1.1 = {
+		culture = uyghur
+	}
+}
+7205 = {	#Iren-Chabirga
+	#Mountains, can be found east of "Kuldza" on map AAA
+	holding = none
+}
+7207 = {	#Avrautau
+	#Found as "Awral-tau" east of "Kuldza", on map AAA
+	holding = none
+}
+
+###c_kash
+7203 = {	#Kash
+	#Appears as "Kasz" on map AAA, just south of "Kuldza"
+	culture = karluk
+	religion = tengri_pagan
+	holding = nomad_holding
+	#1134.1.1 = {
+	#	culture = khitan
+	#	religion = vajrayana
+	#}
+	934.1.1 = {
+		religion = maturidi
+	}
+	1059.1.1 = {
+		holding = herder_holding
+	}
+	1095.1.1 = {
+		holding = nomad_holding
+	}
+	1178.1.1 = {
+		culture = khitan
+		religion = mahayana
+	}
+	##
+	1300.1.1 = {
+		culture = mongol
+		religion = tengri_pagan
+	}
+	1350.1.1 = {
+		religion = maturidi
+	}
+	1414.1.1 = {
+		culture = uyghur
+	}
+}
+7204 = {	#Musari
+	#Can be found on map AAA, south of "Kuldza" and east of "Issyk kul"
+	holding = none
+}
+7206 = {	#Kunges
+	#Based on river Kunges, found on map AAA, east of "Kuldza"
+	holding = none
+}

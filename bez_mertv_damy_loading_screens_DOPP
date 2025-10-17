@@ -1,0 +1,7 @@
+﻿lady_shalott = {
+	priority = 0
+}
+1490_damy.dds = {
+	show_first = yes
+	priority = 7
+}

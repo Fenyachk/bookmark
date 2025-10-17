@@ -1,0 +1,1272 @@
+﻿#Султаны Гуджарата Индия Гуджаратский султанат 1407 — 1573
+#Махмуд-шах I Бегада 25 мая 1458 — 23 ноября 1511
+MahmudBegada = {
+	name = "Mahmud"
+	religion = "ashari"
+	dynasty = Muzaffarid
+	father = GujMuhhamadO
+	trait = physique_good_2
+	trait = education_martial_2
+	culture = "gujarati"
+	stewardship = 8
+	prowess = 7
+	1445.1.2 = {
+		birth = yes
+	}
+	#Ахмадабад с 1411 - бывший Ашавал в Кхетаке
+	1458.5.25 = {
+		effect = {
+			set_realm_capital = title:c_khetaka
+		}
+	}
+	1470.1.1 = {
+		effect = {
+			add_prestige = 100
+			dynasty = { add_dynasty_prestige = 350 }
+		}
+	}
+	1511.11.23 = {
+		death = yes
+	}
+}
+#сын Бегады Музаффар-шах II
+Muzzafar2Beg = {
+	name = "Muzaffar"
+	religion = "ashari"
+	dynasty = Muzaffarid
+	father = MahmudBegada
+	culture = "gujarati"
+	1465.1.1 = {
+		birth = yes
+	}
+	1526.1.1 = {
+		death = yes
+	}
+}
+#сын бегады Muhammad Kála
+MuhammadSynBegada = {
+	name = "Muhammad"
+	religion = "ashari"
+	dynasty = Muzaffarid
+	father = MahmudBegada
+	culture = "gujarati"
+	1466.5.6 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+ApaSynBegada = {
+	name = "Aparajita"
+	religion = "ashari"
+	dynasty = Muzaffarid
+	father = MahmudBegada
+	culture = "gujarati"
+	1467.7.7 = {
+		birth = yes
+	}
+	1507.1.1 = {
+		death = yes
+	}
+}
+AhmedSynBegada = {
+	name = "Ahmed"
+	religion = "ashari"
+	dynasty = Muzaffarid
+	father = MahmudBegada
+	culture = "gujarati"
+	1468.8.8 = {
+		birth = yes
+	}
+	1508.1.1 = {
+		death = yes
+	}
+}
+gujaratSulAh = {
+	name = "Ahmad"
+	religion = "ashari"
+	dynasty = Muzaffarid
+	father = GujMuhhamadO
+	trait = physique_good_2
+	culture = "gujarati"
+	1429.1.1 = {
+		birth = yes
+	}
+	1458.1.1 = {
+		death = yes
+	}
+}
+GujMuhhamadO = {
+	name = "Muhammad"
+	religion = "ashari"
+	dynasty = Muzaffarid
+	father = GujAhmad1
+	trait = physique_good_2
+	culture = "gujarati"
+	1400.1.1 = {
+		birth = yes
+	}
+	1451.1.1 = {
+		death = yes
+	}
+}
+GujAhmad1 = {
+	name = "Ahmad"
+	religion = "ashari"
+	dynasty = Muzaffarid
+	trait = physique_good_1
+	culture = "gujarati"
+	1380.1.1 = {
+		birth = yes
+	}
+	1442.1.1 = {
+		death = yes
+	}
+}
+#МАЛВА
+#Султаны Малвы из дин Халджи
+MuhmudKhalji = {
+	name = "Muhmud"
+	religion = "ashari"
+	dynasty = Khalji
+	culture = "persian"
+	trait = education_martial_3
+	1399.9.9 = {
+		birth = yes
+	}
+	1469.1.1 = {
+		death = yes
+	}
+}
+#его сын Гият Гияс до 1501
+GhiyathKhalji = {
+	name = "Ghiyath"
+	father = MuhmudKhalji
+	religion = "ashari"
+	dynasty = Khalji
+	culture = "persian"
+	1432.9.9 = {
+		birth = yes
+	}
+	1501.1.1 = {
+		death = yes
+	}
+}
+#Хандешский султанат между Малвой и Бахманидами Фаруки 100718
+MubarakFarooqui = {
+	name = "Mubarak"
+	religion = "ashari"
+	dynasty = 100718
+	culture = "persian"
+	1409.9.9 = {
+		birth = yes
+	}
+	1457.1.1 = {
+		death = yes
+	}
+}
+#Адил-хан II Фаруки
+Adil2Farooqui = {
+	name = "Adil"
+	religion = "ashari"
+	dynasty = 100718
+	father = MubarakFarooqui
+	culture = "persian"
+	1432.9.9 = {
+		birth = yes
+	}
+	1503.1.1 = {
+		death = yes
+	}
+}
+#Бенгальский султанат 1352 — 1576
+#династия Ильяс-Шахи
+#Махмуд-шах правление 1435-1459
+MuhmudIlyasShahi = {
+	name = "Muhmud"
+	religion = "ashari"
+	dynasty = IlyasShahi
+	culture = "persian"
+	trait = education_stewardship_3
+	1415.5.19 = {
+		birth = yes
+	}
+	1459.1.1 = {
+		death = yes
+	}
+}
+#Рукун-ад-Дин Барбак-шах 1459-1474
+RukunuddinIlyasShahi = {
+	name = "Rukunuddin"
+	dynasty = IlyasShahi
+	father = MuhmudIlyasShahi
+	religion = "ashari"
+	culture = "persian"
+	trait = education_stewardship_3
+	1432.7.9 = {
+		birth = yes
+	}
+	1474.1.1 = {
+		death = yes
+	}
+}
+#Шамс-ад-Дин Юсуф-шах
+ShamsUsufIlyasShahi = {
+	name = "Yusuf"
+	dynasty = IlyasShahi
+	father = RukunuddinIlyasShahi
+	religion = "ashari"
+	culture = "persian"
+	1460.7.9 = {
+		birth = yes
+	}
+	1481.1.1 = {
+		death = yes
+	}
+}
+#Алауддин Хусейн Шах основал династию Хусейн Шахи в 1494 в Бенгале из Мекки bedouin
+AlauddinHusainShah = {
+	name = "Alauddin"
+	dynasty = HussainShahi
+	father = HusainizMekki
+	religion = "ashari"
+	culture = "bedouin"
+	1454.7.9 = {
+		birth = yes
+	}
+	1519.1.1 = {
+		death = yes
+	}
+}
+#Ашрафа Хусайни
+HusainizMekki = {
+	name = "al-Husain"
+	dynasty = HussainShahi
+	religion = "ashari"
+	culture = "bedouin"
+	trait = education_learning_1
+	1430.7.9 = {
+		birth = yes
+	}
+	1469.9.9 = {
+		death = yes
+	}
+}
+#БЕГНАЛ династия Habshi 1487–1494 из народа Сидди или Хабши африканские невольники
+#Shamsuddin Muzaffar Shah 1490-1494
+Shamsuddin_Muzaffar_Shah = {
+	name = "SidiBadr"
+	dynasty = Habshi
+	religion = "ashari"
+	culture = "ethiopian"
+	trait = education_stewardship_2
+	1455.7.9 = {
+		birth = yes
+	}
+	1489.7.9 = {
+		name = Shamsaddin
+	}
+	1494.9.9 = {
+		death = yes
+	}
+}
+###
+#Джаунпурский султанат
+#Малик Сарвар - наместник Дели 1394 и независимый правитель с 1399
+Malik_Sarwar = {
+	name = "Malik"
+	dynasty = Sharqi
+	religion = "ashari"
+	culture = "persian"
+	trait = education_stewardship_1
+	1340.11.11 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+#приёмные дети
+#Мубарак - 1399-1402
+Mubarak_Shah_Shar = {
+	name = "Mubarak"
+	dynasty = Sharqi
+	father = Malik_Sarwar
+	trait = disputed_heritage
+	religion = "ashari"
+	culture = "persian"
+	1377.7.7 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+#Ибрагим - правил 1402-1440
+Ibrahim_Shah_Shar = {
+	name = "Ibrahim"
+	dynasty = Sharqi
+	father = Malik_Sarwar
+	trait = disputed_heritage
+	religion = "ashari"
+	culture = "persian"
+	trait = education_martial_3
+	1380.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+#Махмуд Шарки - правление 1440—1457
+MahmudSharqi = {
+	name = "Mahmud"
+	dynasty = Sharqi
+	father = Ibrahim_Shah_Shar
+	religion = "ashari"
+	culture = "persian"
+	trait = education_stewardship_2
+	1404.7.19 = {
+		birth = yes
+	}
+	1457.1.1 = {
+		death = yes
+	}
+}
+#Правил в 1457-1458
+Muhammad_Shar_u1458 = {
+	name = "Muhammad"
+	dynasty = Sharqi
+	father = MahmudSharqi
+	religion = "ashari"
+	culture = "persian"
+	1425.2.5 = {
+		birth = yes
+	}
+	1458.1.1 = {
+		death = yes
+	}
+}
+#Хусайн шах 1458—1479
+HusaynDzaunpur = {
+	name = "Husayn"
+	dynasty = Sharqi
+	father = MahmudSharqi
+	religion = "ashari"
+	culture = "persian"
+	trait = education_martial_2
+	1434.4.14 = {
+		birth = yes
+	}
+	1479.1.1 = {
+		death = yes
+	}
+}
+###
+#Ширваниды
+#Ибрагим I Ширваншах
+Ibrahim1Shirv = {
+	name = "Ibrahim"
+	dynasty = Derbent
+	religion = "ashari"
+	culture = "persian"
+	trait = education_diplomacy_2
+	1359.5.9 = {
+		birth = yes
+	}
+	1417.1.1 = {
+		death = yes
+	}
+}
+#Халил-улла I в 1417 — 1465 родился и умер в Баку
+HalilullaShirv = {
+	name = "Halil"
+	dynasty = Derbent
+	father = Ibrahim1Shirv
+	religion = "ashari"
+	culture = "persian"
+	trait = education_diplomacy_2
+	1400.4.24 = {
+		birth = yes
+	}
+	1456.1.1 = {
+		death = yes
+	}
+}
+#Фаррух Йасар Яссар Ширваншах умер в Баку
+FarrukhYasarShir = {
+	name = "Farroukh"
+	dynasty = Derbent
+	father = HalilullaShirv
+	religion = "ashari"
+	culture = "persian"
+	trait = education_diplomacy_3
+	1441.6.2 = {
+		birth = yes
+	}
+	1460.1.2 = {
+		add_spouse = Gawhar_Utsmi_li
+	}
+	1500.9.1 = {
+		death = yes
+	}
+}
+#сестра Адильбека, кайтагского уцмия
+Gawhar_Utsmi_li = {
+	name = "Gawhar"
+	female = yes
+	dynasty = UmziyKaitag
+	father = SultanMuhammad_Kaitag
+	religion = "ashari"
+	culture = "kaitag"
+	1443.10.2 = {
+		birth = yes
+	}
+	1507.9.1 = {
+		death = yes
+	}
+}
+#дети сыновья Бахрамбек (?—1501) Газибек (?—1501/02) Ибрагим II
+Bahrambeq_Shirvanshah4 = {
+	name = "Bahrambeq"
+	dynasty = Derbent
+	father = FarrukhYasarShir
+	mother = Gawhar_Utsmi_li
+	religion = "ashari"
+	culture = "persian"
+	1462.6.2 = {
+		birth = yes
+	}
+	1501.5.1 = {
+		death = yes
+	}
+}
+Ghazibeq_Shirvanshah5 = {
+	name = "Ghazibeq"
+	dynasty = Derbent
+	father = FarrukhYasarShir
+	mother = Gawhar_Utsmi_li
+	religion = "ashari"
+	culture = "persian"
+	1464.6.2 = {
+		birth = yes
+	}
+	1502.10.1 = {
+		death = yes
+	}
+}
+Sultan_Mahmud_Shirvan = {
+	name = "Mahmud"
+	dynasty = Derbent
+	father = Ghazibeq_Shirvanshah5
+	mother = Gawhar_Utsmi_li
+	religion = "ashari"
+	culture = "persian"
+	1482.12.22 = {
+		birth = yes
+	}
+	1502.11.1 = {
+		death = yes
+	}
+}
+#ибрагим правил Ширваном в 1502 - 1524
+Ibrahim_II_Shaykhshah = {
+	name = "Ibrahim"
+	dynasty = Derbent
+	father = FarrukhYasarShir
+	religion = "ashari"
+	culture = "persian"
+	trait = arbitrary
+	1469.2.22 = {
+		birth = yes
+	}
+	1524.12.1 = {
+		death = yes
+	}
+}
+#Гоухар Султан выдал замуж за Якуб-бека, сына Узун-Гасана
+Gawhar_sul_Derbendi = {
+	name = "Gawhar"
+	female = yes
+	dynasty = Derbent
+	father = FarrukhYasarShir
+	religion = "ashari"
+	culture = "persian"
+	trait = calm
+	1465.2.22 = {
+		birth = yes
+	}
+	1533.12.1 = {
+		death = yes
+	}
+}
+### ВАЛАШМА
+#Султанат Адаль Сомали с 1415 Валашма Афарская культура
+#Muhammad ibn Badlay правил 1445–1471
+MuhammadSAdal = {
+	name = "Muhammad"
+	dynasty = 7273
+	father = BadlaySAdal
+	religion = "ashari"
+	culture = "afar"
+	1410.1.1 = {
+		birth = yes
+	}
+	1488.1.1 = {
+		death = yes #?1471
+	}
+}
+#Muhammad ibn Azhar ad-Din правил 1488–1518
+Muhammad_AzharadDin = {
+	name = "Muhammad"
+	dynasty = 7273
+	father = BadlaySAdal
+	religion = "ashari"
+	culture = "afar"
+	trait = education_stewardship_2
+	1454.5.4 = {
+		birth = yes
+	}
+	1489.1.22 = {
+		add_realm_law_skip_effects = crown_authority_2
+	}
+	1518.1.1 = {
+		death = yes
+	}
+}
+
+BadlaySAdal = {
+	name = "Badra"
+	dynasty = 7273
+	father = SaadadDin2SAdal
+	religion = "ashari"
+	culture = "afar"
+	1380.1.1 = {
+		birth = yes
+	}
+	1445.1.1 = {
+		death = yes
+	}
+}
+SaadadDin2SAdal = {
+	name = "Saad"
+	dynasty = 7273
+	religion = "ashari"
+	culture = "afar"
+	1360.1.1 = {
+		birth = yes
+	}
+	1414.1.1 = {
+		death = yes
+	}
+}
+#Дели
+# afghan афганцы Индия Делийский султанат
+#Бахлул-хан Лоди из пуштунов
+deliLoddi1 = {
+	name = "Bahlul"
+	dynasty = Delii
+	religion = "ashari"
+	culture = "afghan"
+	1426.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		add_spouse = BibiAmbha
+	}
+	1489.6.12 = {
+		death = yes
+	}
+}
+#его жена Amhara
+BibiAmbha = {
+	name = "Amhara"
+	female = yes
+	religion = "ashari"
+	culture = "gujarati"
+	1406.1.1 = {
+		birth = yes
+	}
+	1489.6.12 = {
+		death = yes
+	}
+}
+#Сикандар-шах Лоди Nizam Khan
+SikandarDeliLodi = {
+	name = "Sikandar"
+	dynasty = Delii
+	father = deliLoddi1
+	mother = BibiAmbha
+	religion = "ashari"
+	culture = "afghan" #пуштун
+	trait = education_diplomacy_2
+	trait = poet
+	stewardship = 11
+	learning = 16
+	martial = 3
+	prowess = 2
+	1458.7.17 = {
+		birth = yes
+	}
+	1489.12.22 = {
+		add_realm_law_skip_effects = crown_authority_2
+		add_gold = 200
+	}
+	1490.1.1 = {
+		effect = {
+			add_prestige = 123
+			dynasty = { add_dynasty_prestige = 300 }
+		}
+	}
+	1517.11.12 = {
+		death = yes
+	}
+}
+#Ибрахим-шах Лоди последний представитель династии Лоди
+Ibrahim_Khan_Lodi = {
+	name = "Ibrahim"
+	dynasty = Delii
+	father = SikandarDeliLodi
+#	mother = BibiAmbha - неизвестна
+	religion = "ashari"
+	culture = "afghan"
+	1480.7.7 = {
+		birth = yes
+	}
+	1526.4.21 = {
+		death = yes
+	}
+}
+#Барбак-шах
+BarbakDeliLodi = {
+	name = "Barbak"
+	dynasty = Delii
+	father = deliLoddi1
+	mother = BibiAmbha
+	religion = "ashari"
+	culture = "afghan"
+	1455.7.17 = {
+		birth = yes
+	}
+	1517.11.12 = {
+		death = yes
+	}
+}
+AlamKhanDeliLodi = {
+	name = "Alam"
+	dynasty = Delii
+	father = deliLoddi1
+	mother = BibiAmbha
+	religion = "ashari"
+	culture = "afghan"
+	1459.8.8 = {
+		birth = yes
+	}
+	1517.11.12 = {
+		death = yes
+	}
+}
+#Преждняя династия Дели SayyidDeli Сайиды из Мултана
+SayyidKhizrKhan = {
+	name = "Khizr"
+	dynasty = SayyidDeli
+	religion = "ashari"
+	culture = "punjabi"
+	1377.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+#Mubarak Shah Sayyid
+MubarakShahSayyid = {
+	name = "Mubarak"
+	dynasty = SayyidDeli
+	father = SayyidKhizrKhan
+	religion = "ashari"
+	culture = "punjabi"
+	1400.1.1 = {
+		birth = yes
+	}
+	1434.1.1 = {
+		death = yes
+	}
+}
+#Сайид Мухаммад-шах
+SayyidMuhammadDel = {
+	name = "Muhammad"
+	dynasty = SayyidDeli
+	father = SayyidKhizrKhan
+	religion = "ashari"
+	culture = "punjabi"
+	1404.1.1 = {
+		birth = yes
+	}
+	1445.1.1 = {
+		death = yes
+	}
+}
+#Ала ад-дин Алам-шах отрекся и управлял Бадаюном восточнее Дели
+AlamShahSayyid = {
+	name = "Alam"
+	dynasty = SayyidDeli
+	father = SayyidMuhammadDel
+	religion = "ashari"
+	culture = "punjabi"
+	1445.1.1 = {
+		birth = yes
+	}
+	1478.1.1 = {
+		death = yes
+	}
+}
+#Раджпутские противники
+#Удай Сингх I Рана Мевара убил отца династия Сисодия
+Udaysangh1Mewara = {
+	name = "Udaysangh"
+	dynasty = 1042098
+	father = KumbhaSisodiaMewara
+	religion = "smartism"
+	culture = "rajput"
+	trait = kinslayer_3
+	trait = education_stewardship_3
+	1444.1.1 = {
+		birth = yes
+	}
+	1473.1.1 = {
+		death = yes
+	}
+}
+#Убитый им отец - Рана Кумбха правитель княжества Мевар в 1433—1468
+KumbhaSisodiaMewara = {
+	name = "Kumbha"
+	dynasty = 1042098
+	father = Mokal_Singh
+	religion = "smartism"
+	culture = "rajput"
+	trait = education_stewardship_1
+	1420.1.1 = {
+		birth = yes
+	}
+	1468.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = Udaysangh1Mewara
+		}
+	}
+}
+#Канди появилось на Шри-Ланке в 1469 тамильский язык
+#Senasammata Vikramabahu House of Siri Sanga Bo
+KandySenasammataVi = {
+	name = "Vikramabahu"
+	dynasty = 1029174
+	religion = "shaivism"
+	culture = "tamil"
+	1449.1.1 = {
+		birth = yes
+	}
+	1466.1.1 = {
+		add_spouse = QueenMayurawathi
+	}
+	1511.1.1 = {
+		death = yes
+	}
+}
+QueenMayurawathi = {
+	name = "Mayuraja"
+	female = yes
+	religion = "shaivism"
+	culture = "sinhala"
+	1450.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+JayaviraBandaraKandy = {
+	name = "Kumbha"
+	dynasty = 1029174
+	father = KandySenasammataVi
+	mother = QueenMayurawathi
+	religion = "shaivism"
+	culture = "tamil"
+	1469.1.1 = {
+		birth = yes
+	}
+	1552.1.1 = {
+		death = yes
+	}
+}
+#Суриды афганского пуштнского Surid
+Hasan_Surid_vasDeli = {
+	name = "Hasan"
+	dynasty = Surid
+	religion = "ashari"
+	culture = "afghan"
+	prowess = 5
+	trait = education_martial_1
+	1456.5.5 = {
+		birth = yes
+	}
+	1500.4.5 = {
+		death = yes
+	}
+}
+#Шер-шах урождённый Фарид из Сасарама
+Sher_Shah_Suri_Farid = {
+	name = "Farid"
+	dynasty = Surid
+	father = Hasan_Surid_vasDeli
+	religion = "ashari"
+	culture = "afghan"
+	prowess = 15
+	trait = education_martial_2
+	1475.5.5 = {
+		birth = yes
+	}
+	1545.4.5 = {
+		death = yes
+	}
+}
+#Лохани афганский губернатор Бихара у Дели 
+Bahar_Khan_Lohani = {
+	name = "Bahar"
+	dynasty = Lohani
+	religion = "ashari"
+	culture = "afghan"
+	prowess = 5
+	trait = education_stewardship_3
+	1449.5.5 = {
+		birth = yes
+	}
+	1500.4.5 = {
+		death = yes
+	}
+}
+##Фатх-Аллах с титулом Имад аль-Мульк первый султан Берара индус каннада kannada
+Fath_Ala_1s_Berar = {
+	name = "Fath"
+	dynasty = Berar
+	father = Otez_FathAllaImada
+	religion = "ashari"
+	culture = "kannada"
+	prowess = 11
+	trait = education_martial_2
+	1457.5.5 = {
+		birth = yes
+	}
+	1504.4.5 = {
+		death = yes
+	}
+}
+###25 апреля 2023 Tughlaq dynasty - Туглакиды - 1040208 1320–1413 далее
+#Nasir ud din Muhammad Shah III - сын Фируза
+#22-й султан Дели в 31 August 1390 – 20 January 1394
+Nasir_Muhammad_Shah_III = {
+	name = "Muhammad"
+	father = 170261
+	dynasty = 1040208
+	religion = "ashari"
+	culture = "turkish"
+	1333.3.3 = {
+		birth = yes
+	}
+	1394.1.20 = {
+		death = yes
+	}
+}
+#Zafar Khan сын Фируза
+Zafar_Khan_Tughlakid = {
+	name = "Zafar"
+	father = 170261
+	dynasty = 1040208
+	religion = "ashari"
+	culture = "turkish"
+	1335.3.15 = {
+		birth = yes
+	}
+	1369.1.20 = {
+		death = yes
+	}
+}
+#Абу Бакр сын Зафара и внук Фируза правл с 15 марта 1389 — август 1390
+Abubakar_Khan_Tughlakid = {
+	name = "Abubakar"
+	father = Zafar_Khan_Tughlakid
+	dynasty = 1040208
+	religion = "ashari"
+	culture = "persian"
+	1357.6.16 = {
+		birth = yes
+	}
+	1390.8.31 = {
+		death = {
+			death_reason = death_dungeon
+		}
+	}
+}
+#Fateh_Khan сын Фируза
+Fateh_Khan_Tughlakid = {
+	name = "Fateh_Khan"
+	father = 170261
+	dynasty = 1040208
+	religion = "ashari"
+	culture = "turkish"
+	1337.1.17 = {
+		birth = yes
+	}
+	1365.1.2 = {
+		death = yes
+	}
+}
+#20-й султан Дели Гияссаддин Туглук
+Ghiyasaddin_Tughluq_Shah2 = {
+	name = "Ghiyasaddin"
+	father = Fateh_Khan_Tughlakid
+	dynasty = 1040208
+	religion = "ashari"
+	culture = "persian"
+	1356.5.6 = {
+		birth = yes
+	}
+	1389.3.15 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+#Ala ud-din Sikandar Shah имя при рождении Humayun - 23-й султан Дели
+Humayun_Sikandar_Shah = {
+	name = "Humayun"
+	dynasty = 1040208
+	father = Nasir_Muhammad_Shah_III
+	religion = "ashari"
+	culture = "persian"
+	1357.5.7 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		name = "Sikandar"
+	}
+	1394.3.8 = {
+		death = yes
+	}
+}
+#Nasir-ud-Din Mahmud Shah Tughluq 24-й султан Дели
+Nasir_ud_Din_Tughluq = {
+	name = "Nasir_ad-Din"
+	dynasty = 1040208
+	father = Nasir_Muhammad_Shah_III
+	religion = "ashari"
+	culture = "persian"
+	1358.12.17 = {
+		birth = yes
+	}
+	1413.2.22 = {
+		death = yes
+	}
+}
+###
+#11-09-23 - родственники Имад-шаха Берара
+##Ала ад-дин Имад-шах - правил с 1504
+Alauddin_Imanshah_Berar = {
+	name = "Alauddin"
+	dynasty = Berar
+	father = Fath_Ala_1s_Berar
+	religion = "ashari"
+	culture = "kannada"
+	prowess = 4
+	1474.7.11 = {
+		birth = yes
+	}
+	1529.2.9 = {
+		death = yes
+	}
+}
+#отец полувымышленный
+Otez_FathAllaImada = {
+	name = "Muddppa"
+	religion = "shaivism" #обязательно
+	culture = "kannada"
+	trait = education_learning_1
+	trait = theologian
+
+	1319.1.1 = {
+		birth = yes
+	}
+	1371.1.1 = {
+		death = yes
+	}
+}
+#18-09-23
+###Сисодия далее
+#Рана Раймал - брат Удай Сингха I Рана
+Rana_Raimal_Sisodia = {
+	name = "Raimal"
+	dynasty = 1042098
+	father = KumbhaSisodiaMewara
+	religion = "vaishnavism"
+	culture = "rajput"
+	trait = education_stewardship_3
+	1453.11.11 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		add_spouse = Ratan_Kunwar
+	}
+	1480.2.20 = {
+		effect = {
+			add_prestige = 44
+			dynasty = { add_dynasty_prestige = 155 }
+		}
+	}
+	1509.1.1 = {
+		death = yes
+	}
+}
+#его жена - клан Чаухан
+Ratan_Kunwar = {
+	name = "Ratana"
+	female = yes
+	dynasty = 1042081 #Chauhan of Jalor
+	religion = "vaishnavism"
+	culture = "rajput"
+	trait = strong
+	1455.1.2 = {
+		birth = yes
+	}
+	1519.1.1 = {
+		death = yes
+	}
+}
+#Притхвирадж Сисодия
+#Prithviraj Sisodia - Kunwar Prithviraj
+#старший сын отца
+Prithviraj_Sisodia = {
+	name = "Prithviraj"
+	dynasty = 1042098
+	father = Rana_Raimal_Sisodia
+	mother = Ratan_Kunwar
+	religion = "vaishnavism"
+	culture = "rajput"
+	trait = education_diplomacy_1
+	1474.12.2 = {
+		birth = yes
+	}
+	1510.2.3 = {
+		death = yes
+	}
+}
+#Санграм Сингх (12 апреля 1484 — 30 января 1528) — раджпутский раджа княжества Мевар с 1509 года
+#известен под именем Rana Sanga
+Sangram_Singh_I = {
+	name = "Sangram_Dev"
+	dynasty = 1042098
+	father = Rana_Raimal_Sisodia
+	mother = Ratan_Kunwar
+	religion = "vaishnavism"
+	culture = "rajput"
+	trait = education_martial_1
+	1484.4.12 = {
+		birth = yes
+	}
+	1528.1.30 = {
+		death = yes
+	}
+}
+###
+#Мокал Сингх — 4-й махарана раджпутского княжества Мевар из династии Сисодия
+Mokal_Singh = {
+	name = "Mokal"
+	dynasty = 1042098
+	father = Lakha_Singh
+	religion = "smartism"
+	culture = "rajput"
+	trait = education_stewardship_3 #строитель
+	trait = zealous #отстройка храмов
+	1394.9.2 = {
+		birth = yes
+	}
+	1431.2.20 = {
+		effect = {
+			add_prestige = 12
+			dynasty = { add_dynasty_prestige = 134 }
+		}
+	}
+	1433.1.1 = {
+		death = yes
+	}
+}
+#Лакха Сингх - Сын и преемник махараны Кшетры Сингха
+Lakha_Singh = {
+	name = "Lakha"
+	dynasty = 1042098
+	father = 188519
+	religion = "smartism"
+	culture = "rajput"
+	trait = education_martial_2 #успешно сражался
+	trait = brave
+	1353.9.2 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+###
+##Ратанпур - полулегендарные правители - династия Хайхая
+Polufik_Ratanpur_u1473 = {
+	name = "Srivardhana"
+	dynasty = 1044338
+	father = 191361
+	religion = "vaishnavism"
+	culture = "gond"
+	
+	1380.12.12 = {
+		birth = yes
+	}
+	1473.1.1 = {
+		death = yes
+	}
+}
+Polufik_Ratanpur_u1500 = {
+	name = "Sauvardhana"
+	dynasty = 1044338
+	father = Polufik_Ratanpur_u1473
+	religion = "vaishnavism"
+	culture = "gond"
+	1412.1.2 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+Polufik_Ratanpur_u1522 = {
+	name = "Jayavardhana"
+	dynasty = 1044338
+	father = Polufik_Ratanpur_u1500
+	religion = "vaishnavism"
+	culture = "gond"
+	1444.2.2 = {
+		birth = yes
+	}
+	1522.1.1 = {
+		death = yes
+	}
+}
+Polufik_Ratanpur_u1566 = {
+	name = "Sulhana"
+	dynasty = 1044338
+	father = Polufik_Ratanpur_u1522
+	religion = "vaishnavism"
+	culture = "gond"
+	1472.1.12 = {
+		birth = yes
+	}
+	1566.1.1 = {
+		death = yes
+	}
+}
+####Garha Kingdom of Gondwana - династия Rajgond
+#Kharji (1440–1460)
+Kharji_Garha_Gondwana = {
+	name = "Kharji"
+	dynasty = 1044352 #Rajgond
+	religion = "shaivism"
+	culture = "gond"
+	1400.1.1 = {
+		birth = yes
+	}
+	1460.1.1 = {
+		death = yes
+	}
+}
+#Gorakshadas (1460–1480)
+Gorakshadas_Garha_Gondwana = {
+	name = "Gorakshadas"
+	dynasty = 1044352 #Rajgond
+	father = Kharji_Garha_Gondwana
+	religion = "shaivism"
+	culture = "gond"
+	1420.1.1 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		death = yes
+	}
+}
+#Sukhandas (1480–1500)
+Sukhandas_Garha_Gondwana = {
+	name = "Sukhandas"
+	dynasty = 1044352 #Rajgond
+	father = Gorakshadas_Garha_Gondwana
+	religion = "shaivism"
+	culture = "gond"
+	1444.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+#Arjun Das (1500–1513)
+Arjun_Das_Garha_Gondwana = {
+	name = "Arjun"
+	dynasty = 1044352 #Rajgond
+	father = Sukhandas_Garha_Gondwana
+	religion = "shaivism"
+	culture = "gond"
+	1468.1.1 = {
+		birth = yes
+	}
+	1513.1.1 = {
+		death = yes
+	}
+}
+#Sangram Shah - Aman Das
+Sangram_Shah = {
+	name = "Sangram"
+	dynasty = 1044352 #Rajgond
+	father = Arjun_Das_Garha_Gondwana
+	religion = "shaivism"
+	culture = "gond"
+	1488.1.1 = {
+		birth = yes
+	}
+	1541.1.1 = {
+		death = yes
+	}
+}
+## Адвайта-веданта
+advaitist_1 = {
+	name = "Bhavana"
+	religion = "advaitism"
+	culture = "kannada"
+	trait = education_learning_2
+	prowess = 5
+	trait = physique_good_1
+	1458.5.15 = {
+		birth = yes
+	}
+	1534.4.5 = {
+		death = yes
+	}
+}
+advaitist_2_z = {
+	name = "Tanushri"
+	female = yes
+	religion = "advaitism"
+	culture = "kannada"
+	trait = education_learning_1
+	prowess = 3
+	1488.2.1 = {
+		birth = yes
+	}
+	1564.4.1 = {
+		death = yes
+	}
+}

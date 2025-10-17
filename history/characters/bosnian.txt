@@ -1,0 +1,1025 @@
+﻿#19-03-25
+34148 = {
+	name = "Prijezda"
+	dynasty = 34
+	religion = "catholic"
+	culture = "bosnian"
+	1211.1.1 = {
+		birth = "1211.1.1"
+	}
+	1250.1.1 = {
+		religion = "bosnian_church"
+	}
+	1287.1.1 = {
+		death = "1287.1.1"
+	}
+}
+
+34149 = {
+	name = "Prijezda"
+	dynasty = 34
+	religion = "catholic"
+	culture = "bosnian"
+	father = 34148
+	1233.1.1 = {
+		birth = "1233.1.1"
+	}
+	1250.1.1 = {
+		religion = "bosnian_church"
+	}
+	1295.1.1 = {
+		death = "1295.1.1"
+	}
+}
+
+34150 = {
+	name = "Vuk"
+	dynasty = 34
+	religion = "catholic"
+	culture = "bosnian"
+	father = 34148
+	1243.1.1 = {
+		birth = "1243.1.1"
+	}
+	1250.1.1 = {
+		religion = "bosnian_church"
+	}
+	1287.1.1 = {
+		death = "1287.1.1"
+	}
+}
+
+34151 = {
+	name = "Ninoslav"
+	dynasty = 34
+	religion = "catholic"
+	culture = "bosnian"
+	father = 468810
+	1291.1.1 = {
+		birth = "1291.1.1"
+	}
+	1314.1.1 = {
+		death = "1314.1.1"
+	}
+}
+
+34153 = {
+	name = "Stjepan"
+	dynasty = 34
+	religion = "catholic"
+	culture = "bosnian"
+	trait = bastard
+	father = 34151
+	1312.1.1 = {
+		birth = "1312.1.1"
+	}
+	1395.9.7 = {
+		death = "1395.9.7"
+	}
+}
+
+468800 = {
+	name = "Stjepan"
+	dynasty = 34
+	martial = 4
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 8
+	religion = "catholic"
+	culture = "bosnian"
+	trait = education_intrigue_2
+	father = 468810
+	mother = 34120
+	1290.1.1 = {
+		birth = "1290.1.1"
+	}
+	1306.1.1 = {
+		add_spouse = 471538
+	}
+	1353.1.1 = {
+		death = "1353.1.1"
+	}
+}
+
+468801 = {
+	name = "Katarina"
+	female = yes
+	dynasty = 34
+	martial = 7
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 5
+	religion = "catholic"
+	culture = "bosnian"
+	father = 468800
+	mother = 471538
+	1336.1.1 = {
+		birth = "1336.1.1"
+	}
+	1396.1.1 = {
+		death = "1396.1.1"
+	}
+}
+
+468805 = {
+	name = "Vladislav"
+	dynasty = 34
+	martial = 5
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 5
+	religion = "catholic"
+	culture = "bosnian"
+	trait = lustful
+	trait = education_martial_2
+	father = 468810
+	mother = 34120
+	1295.1.1 = {
+		birth = "1295.1.1"
+	}
+	1337.1.1 = {
+		add_spouse = 470010
+	}
+	1353.1.1 = {
+		death = "1353.1.1"
+	}
+}
+
+468806 = {
+	name = "Katarina"
+	female = yes
+	dynasty = 34
+	martial = 6
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 5
+	religion = "catholic"
+	culture = "bosnian"
+	trait = education_intrigue_2
+	father = 468810
+	mother = 34120
+	1294.1.1 = {
+		birth = "1294.1.1"
+	}
+	1355.1.1 = {
+		death = "1355.1.1"
+	}
+}
+
+468807 = {
+	name = "Marija"
+	female = yes
+	dynasty = 34
+	martial = 4
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 8
+	religion = "catholic"
+	culture = "bosnian"
+	trait = education_stewardship_3
+	father = 468810
+	mother = 34120
+	1308.1.1 = {
+		birth = "1308.1.1"
+	}
+	1358.1.1 = {
+		death = "1358.1.1"
+	}
+}
+
+468810 = {
+	name = "Stjepan"
+	dynasty = 34
+	martial = 6
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 7
+	religion = "catholic"
+	culture = "bosnian"
+	trait = generous
+	trait = education_intrigue_1
+	father = 34148
+	1242.1.1 = {
+		birth = "1242.1.1"
+	}
+	1250.1.1 = {
+		religion = "bosnian_church"
+	}
+	1289.1.1 = {
+		religion = "catholic"
+	}
+	1289.1.1 = {
+		add_spouse = 34120
+	}
+	1314.1.13 = {
+		death = "1314.1.13"
+	}
+}
+
+34145 = {
+	name = "Ninoslav"
+	dynasty = 183
+	religion = "catholic"
+	culture = "bosnian"
+	father = 218801
+	1205.1.1 = {
+		birth = "1205.1.1"
+	}
+	1232.1.1 = {
+		religion = "bosnian_church"
+	}
+	1249.3.1 = {
+		death = "1249.3.1"
+	}
+}
+
+34146 = {
+	name = "Radonja"
+	dynasty = 183
+	religion = "catholic"
+	culture = "bosnian"
+	father = 218801
+	1203.1.1 = {
+		birth = "1203.1.1"
+	}
+	1249.1.1 = {
+		death = "1249.1.1"
+	}
+}
+
+34147 = {
+	name = "Ugrin"
+	dynasty = 183
+	religion = "catholic"
+	culture = "bosnian"
+	father = 218801
+	1208.1.1 = {
+		birth = "1208.1.1"
+	}
+	1280.1.1 = {
+		death = "1280.1.1"
+	}
+}
+
+218800 = {
+	name = "Kulin"
+	dna = "218800_kulin_bosna"
+	dynasty = 183
+	martial = 6
+	diplomacy = 12
+	intrigue = 8
+	stewardship = 12
+	learning = 5
+	religion = "bosnian_church"
+	culture = "bosnian"
+	trait = just
+	trait = content # a man of peace by nature
+	trait = deceitful # Happy to tell people what they need to hear to get them to not invade.
+	trait = education_diplomacy_3
+	1153.1.1 = {
+		birth = "1153.1.1"
+	}
+	1204.1.1 = {
+		death = "1204.1.1"
+	}
+}
+
+218801 = {
+	name = "Stjepan"
+	dynasty = 183
+	martial = 8
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 7
+	religion = "catholic"
+	culture = "bosnian"
+	trait = generous
+	trait = education_martial_2
+	father = 218800
+	1185.1.1 = {
+		birth = "1185.1.1"
+	}
+	1232.1.1 = {
+		death = "1232.1.1"
+	}
+}
+
+#260476 = {
+	#name = "Stjepan"
+	#dynasty = 18006
+	#religion = "bosnian_church"
+	#culture = "bosnian"
+	#1220.1.1 = {
+		#birth = "1220.1.1"
+	#}
+	#1299.1.1 = {
+		#death = "1299.1.1"
+	#}
+#}
+
+#260477 = {
+	#name = "Hrvatin"
+	#dynasty = 18006
+	#religion = "bosnian_church"
+	#culture = "bosnian"
+	#father = 260476	
+	#1252.1.1 = {
+		#birth = "1252.1.1"
+	#}
+	#1312.5.1 = {
+		#death = "1312.5.1"
+	#}
+#}
+
+#260478 = {
+	#name = "Vukoslav"
+	#dynasty = 18006
+	#religion = "bosnian_church"
+	#culture = "bosnian"
+	#father = 260477
+	#1282.1.1 = {
+		#birth = "1282.1.1"
+	#}
+#}
+
+#260479 = {
+	#name = "Pavao"
+	#dynasty = 18006
+	#religion = "bosnian_church"
+	#culture = "bosnian"
+	#father = 260477
+	#1287.1.1 = {
+		#birth = "1287.1.1"
+	#}
+#}
+
+#260480 = {
+	#name = "Vukac"
+	#dynasty = 18006
+	#religion = "bosnian_church"
+	#culture = "bosnian"
+	#father = 260477
+	#1310.1.1 = {
+		#birth = "1292.1.1"
+	#}
+#}
+
+#260647 = {
+	#name = "Matej"
+	#dynasty = 1062287
+	#religion = orthodox
+	#culture = bosnian
+	#915.1.1 = {
+		#birth = yes
+	#}
+	#957.1.1 = {
+		#death = yes
+	#}
+#}
+
+boricevic_1 = {
+	name = "BoriC_" # Ban Boric
+	dynasty = bosnian_boricevic
+	religion = "catholic"
+	culture = "bosnian"
+	father = boricevic_4
+	1100.1.1 = {
+		birth = yes
+	}
+	1165.1.1 = {
+		death = yes
+	}
+}
+
+boricevic_2 = {
+	name = "Pavao"
+	dynasty = bosnian_boricevic
+	religion = "catholic"
+	culture = "bosnian"
+	father = boricevic_1
+	1125.1.1 = {
+		birth = yes
+	}
+	1183.1.1 = {
+		death = yes
+	}
+}
+
+boricevic_3 = {
+	name = "Stjepan"
+	dynasty = bosnian_boricevic
+	religion = "catholic"
+	culture = "bosnian"
+	father = boricevic_1
+	1126.1.1 = {
+		birth = yes
+	}
+	1179.1.1 = {
+		death = yes
+	}
+}
+
+boricevic_4 = {
+	name = "Berislav" # zupan Berislav
+	dynasty = bosnian_boricevic
+	religion = "catholic"
+	culture = "bosnian"
+	1073.1.1 = {
+		birth = yes
+	}
+	1121.1.1 = {
+		death = yes
+	}
+}
+
+kulinic_1 = {
+	name = "Stjepan"
+	dynasty = 183
+	religion = "bosnian_church"
+	culture = "bosnian"
+	father = 218800
+	1177.1.1 = {
+		birth = yes
+	}
+	1233.1.1 = {
+		death = yes
+	}
+}
+
+bishop_milovan = {
+	name = "Milovan"
+	religion = "bosnian_church"
+	culture = "bosnian"
+	1116.1.1 = {
+		birth = yes
+	}
+	1189.1.1 = {
+		death = yes
+	}
+}
+
+### МОД 1490
+#Ретроспектива Елизавета Боснийская вторая жена короля Венгрии и Польши Людовика I Великого
+Elizabeta_Bosniyskaya = {
+	name = "Elizabeta" #00_south_slavic.txt
+	female = yes
+	dynasty = 34
+	martial = 7
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 5
+	religion = "catholic"
+	culture = "bosnian"
+	father = 468800
+	mother = 471538
+	1339.3.9 = {
+		birth = yes
+	}
+	1387.1.11 = {
+		death = yes
+	}
+}
+##
+#Король Боснии Степан Томаш Котроманич 1443 — 1461
+StjepanTom_kBosn = {
+	name = "Stjepan_TomaSH"
+	dynasty = 34
+	father = StjepanOstkorBosn
+	mother = Kujava_RadinovichBosn
+	religion = "catholic"
+	culture = "bosnian"
+	1412.1.1 = {
+		birth = yes
+	}
+	1437.5.26 = {
+		add_spouse = VoyachaZhenaK #Вояча
+	}
+	1446.5.26 = {
+		add_spouse = KatarinaKosach
+	}
+	1461.7.10 = {
+		death = yes
+	}
+}
+#Вояча первая супруга короля Степана Томаша - низкородная
+VoyachaZhenaK = {
+	name = "VojaC_a"
+	female = yes
+	trait = fecund
+	religion = "bosnian_church"
+	culture = "bosnian"
+	1417.1.1 = {
+		birth = yes
+	}
+	1443.1.1 = {
+		death = yes
+	}
+}
+#Степан II Томашевич последний король Боснии и деспот Сербии
+Stjepan2TomkBosn = {
+	name = "Stjepan"
+	dynasty = 34
+	father = StjepanTom_kBosn
+	mother = VoyachaZhenaK
+	religion = "catholic"
+	culture = "bosnian"
+	1438.1.1 = {
+		birth = yes
+	}
+	1461.1.1 = {
+		add_spouse = ElenaBrankKotro
+	}
+	1463.5.25 = {
+		death = {
+			death_reason = death_execution
+			killer = Mehmed2Zavoevat #казнен турками
+		}
+	}
+}
+#Степан Остоя - По наиболее распространённой версии был незаконнорождённым сыном Твртко I
+StjepanOstkorBosn = {
+	name = "Stjepan"
+	dynasty = 34
+	father = TvrtkoKorBosn
+	trait = legitimized_bastard
+	religion = "bosnian_church"
+	culture = "bosnian"
+	1378.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		add_spouse = Kujava_RadinovichBosn
+	}
+	1418.1.18 = {
+		death = yes
+	}
+}
+#Твртко I Котроманич бан, а затем король Боснии, сын Владислава и Шубич
+TvrtkoKorBosn = {
+	name = "Tvrtko"
+	dynasty = 34
+	father = 468805
+	mother = 470010
+	religion = "bosnian_church"
+	culture = "bosnian"
+	1338.1.1 = {
+		birth = yes
+	}
+	1374.12.8 = {
+		add_spouse = Dorothea_Vidiskaya
+	}
+	1391.3.14 = {
+		death = yes
+	}
+}
+#Степан Дабиша Король Боснии 1391 — 1395
+Stepan_Dabisha_korBo = {
+	name = "Stjepan"
+	dynasty = 34
+	father = 468805
+	trait = legitimized_bastard
+	religion = "bosnian_church"
+	culture = "bosnian"
+	1343.4.3 = {
+		birth = yes
+	}
+	1363.4.3 = {
+		add_spouse = Jelena_Gruba_kor
+	}
+	1395.9.5 = {
+		death = yes
+	}
+}
+#Елена Груба королева Боснии из знатного дома Николичей 
+Jelena_Gruba_kor = {
+	name = "Jelena"
+	female = yes
+	dynasty = NikolichBosn
+	religion = "bosnian_church"
+	culture = "bosnian"
+	1345.11.13 = {
+		birth = yes
+	}
+	1399.3.3 = {
+		death = yes
+	}
+}
+#Твртко II Бастард Твртко I 
+Tvrtko2Bastard = {
+	name = "Tvrtko"
+	dynasty = 34
+	trait = legitimized_bastard
+	father = TvrtkoKorBosn
+	religion = "catholic"
+	culture = "bosnian"
+	1380.3.8 = {
+		birth = yes
+	}
+	1443.4.3 = {
+		death = yes
+	}
+}
+#Куява Радинович
+Kujava_RadinovichBosn = {
+	name = "Kujava"
+	female = yes
+	dynasty = RadinovichBosn
+	religion = "bosnian_church"
+	culture = "bosnian"
+	1381.8.11 = {
+		birth = yes
+	}
+	1434.3.4 = {
+		death = yes
+	}
+}
+#Степан Остоич король Боснии в 1418—1421 годах
+Stepan_Ostoich_k1418_21 = {
+	name = "Stjepan"
+	dynasty = 34
+	father = StjepanOstkorBosn
+	mother = Kujava_RadinovichBosn
+	religion = "catholic"
+	culture = "bosnian"
+	1410.1.1 = {
+		birth = yes
+	}
+	1421.4.21 = {
+		death = {
+			death_reason = death_dungeon
+		}
+	}
+}
+#Радивой сын Степана Остоя
+RadivojBosnia = {
+	name = "Radivoj"
+	dynasty = 34
+	father = StjepanOstkorBosn
+	trait = bastard
+	religion = "catholic"
+	culture = "bosnian"
+	1411.11.11 = {
+		birth = yes
+	}
+	1463.6.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+#Матия Котроманич - марионеточный король Боснии сын Радивоя
+MatijaBosna = {
+	name = "Matija"
+	dynasty = 34
+	father = RadivojBosnia
+	religion = "catholic"
+	culture = "bosnian"
+	1430.1.1 = {
+		birth = yes
+	}
+	1471.7.1 = {
+		death = yes
+	}
+}
+#Катарина Косача-Котроманич, жена Степана Томаша, последняя королева Боснии бежала в Рим
+KatarinaKosach = {
+	name = "Katarina"
+	female = yes
+	dynasty = Kosach
+	father = StjepanKosach
+	mother = Jelena_Balshich
+	religion = "catholic"
+	culture = "bosnian"
+	trait = fecund
+	trait = shrewd
+	trait = education_learning_1
+	1424.10.10 = {
+		birth = yes
+	}
+	1464.8.30 = {
+		employer = PapaPavel2
+	}
+	1478.10.15 = {
+		death = yes
+	}
+}
+#Степан Вукчич Косач из-за которого Герцеговина
+StjepanKosach = {
+	name = "Stjepan"
+	dynasty = Kosach
+	religion = "bosnian_church"
+	culture = "bosnian"
+	martial = 13
+	prowess = 14
+	trait = education_martial_3
+	1404.1.4 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		add_spouse = Jelena_Balshich
+	}
+	1466.5.22 = {
+		death = yes
+	}
+}
+#Владислав Косача Герцегович
+VladislavKosach = {
+	name = "Vladislav"
+	dynasty = Kosach
+	father = StjepanKosach
+	mother = Jelena_Balshich
+	religion = "bosnian_church"
+	culture = "bosnian"
+	trait = education_martial_2
+	martial = 12
+	prowess = 11
+	1427.2.7 = {
+		birth = yes
+	}
+	1449.4.1 = {
+		add_spouse = Anna_Kantakouz_Herz
+	}
+	1489.1.1 = {
+		death = yes
+	}
+}
+#У Владислава и Влатко одна и та же судьба - кто-то один был последним правителем герцогства Святого Саввы
+#Влатко Косача, род около 1428 (герцог святого Савы 1466–декабрь 1481/1482), наследовал отцу в 1466 1466.5.22 номинально
+#Vlatko_Kosacha = {
+#	name = "Vlatko"
+#	dynasty = Kosach
+#	father = StjepanKosach
+#	mother = Jelena_Balshich
+#	religion = "bosnian_church"
+#	culture = "bosnian"
+#	trait = education_diplomacy_1
+#	1428.11.11 = {
+#		birth = yes
+#	}
+#	1482.1.1 = {
+#		employer = GiovanniMocenigo
+#	}
+#	1485.9.14 = {
+#		employer = MarcoBarbarigo
+#	}
+#	1486.8.14 = {
+#		employer = AgostinoBarbarigo
+#	}
+#	1489.3.3 = {
+#		death = yes #Венецианская республика, остров Раб восточнее Пулы
+#	}
+#}
+#Балша Пётр Владиславович титулярный герцог Герцеговины осел в Славонии
+Balsha_Kosach_Vlad = {
+	name = "Balsha"
+	dynasty = Kosach
+	father = VladislavKosach
+	mother = Anna_Kantakouz_Herz
+	religion = "catholic"
+	culture = "bosnian"
+	trait = forder
+	trait = lazy
+	prowess = 12
+	1454.5.4 = {
+		birth = yes
+	}
+	1482.12.12 = {
+		employer = BlaiseMagyar
+	}
+	1514.1.4 = {
+		death = yes
+	}
+}
+#Матия Косача сын Балша Венгерский подданый
+Matija_Kosach_B = {
+	name = "Matija"
+	dynasty = Kosach
+	father = Balsha_Kosach_Vlad
+	religion = "catholic"
+	culture = "bosnian"
+	1485.1.2 = {
+		birth = yes
+	}
+	1520.1.1 = {
+		death = yes
+	}
+}
+#Степан Косача сын Стефана Герцога Херсекли Ахмед-паша
+#позже перешедший в ислам визирь
+Stepan_Kosach_Hersekli = {
+	name = "Stjepan"
+	dynasty = Kosach
+	father = StjepanKosach
+	religion = "bosnian_church"
+	culture = "bosnian"
+	trait = education_martial_2
+	trait = fickle
+	1455.12.23 = {
+		birth = yes
+	}
+	1472.5.12 = {
+		employer = Mehmed2Zavoevat
+	}
+	1474.1.1 = {
+		religion = maturidi
+		name = "Ahmed"
+		give_nickname = nick_hersekli
+	}
+	1481.2.2 ={
+		effect = {
+			set_relation_friend = character:BayazidOsm2 #помог Баязиду
+		}
+	}
+	1488.1.1 = {
+		add_spouse = Hundi_Osman_Kosacha
+	}
+	1517.7.21 = {
+		death = yes
+	}
+}
+#дети Херсекли-паши Косача
+Musa_Hersekli_Kosach = {
+	name = "Musa"
+	dynasty = Kosach
+	father = Stepan_Kosach_Hersekli
+	mother = Hundi_Osman_Kosacha
+	religion = "maturidi"
+	culture = "bosnian"
+	1489.3.9 = {
+		birth = yes
+	}
+	1533.7.21 = {
+		death = yes #?
+	}
+}
+Mustafa_Hersekli_Kosach = {
+	name = "Mustafa"
+	dynasty = Kosach
+	father = Stepan_Kosach_Hersekli
+	mother = Hundi_Osman_Kosacha
+	religion = "maturidi"
+	culture = "bosnian"
+	1490.1.1 = {
+		birth = yes
+	}
+	1534.7.21 = {
+		death = yes #?
+	}
+}
+#Последний представитель династии Сигизмунд в исламе Исхак бег
+SigismundKotroman = {
+	name = "Sigismund"
+	dynasty = 34
+	father = StjepanTom_kBosn
+	mother = KatarinaKosach
+	trait = shrewd
+	religion = "catholic"
+	culture = "bosnian"
+	1449.1.9 = {
+		birth = yes
+	}
+	1475.1.1 = {
+		name = "Ishak"
+		religion = maturidi
+	}
+	1493.1.1 = {
+		death = yes
+	}
+}
+#Juraj Mikulasić каштелян Венгерской крепости Баня-Лука в 1494
+Juraj_Mikulashich_BanyaL = {
+	name = "Juraj"
+	dynasty = Mikulashich
+	trait = beauty_bad_1
+	religion = "catholic"
+	culture = "bosnian"
+	1462.1.1 = {
+		birth = yes
+	}
+	1514.1.1 = {
+		death = yes
+	}
+}
+#
+#Ферхад боснийский мусульманин и отец Гази Хусрев-бега зять Баязида
+Ferhad_Bosnian_OtezGazi = {
+	name = "Ninoslav"
+	martial = 7
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 5
+	religion = "catholic"
+	culture = "bosnian"
+	1458.3.9 = {
+		birth = yes
+	}
+	1460.3.9 = {
+		name = Ferhad
+		religion = maturidi
+		dynasty = Husrev
+	}
+	1479.3.9 = {
+		add_spouse = Selchuk_Osman_MatGaziH
+	}
+	1522.1.11 = {
+		death = yes
+	}
+}
+Gazi_Husrev_Bey = {
+	name = "Gazi"
+	dynasty = Husrev
+	father = Ferhad_Bosnian_OtezGazi
+	mother = Selchuk_Osman_MatGaziH
+	religion = "catholic"
+	culture = "bosnian"
+	1480.3.9 = {
+		birth = yes
+	}
+	1541.1.11 = {
+		death = yes
+	}
+}
+#Босния Кониц - выдуманный
+fik_bosn_konjic = {
+	name = "Radonja"
+	dynasty = Neretva #река
+	religion = "bosnian_church"
+	culture = "bosnian"
+	prowess = 5
+	1440.1.19 = {
+		birth = yes
+	}
+	1522.1.1 = {
+		death = yes
+	}
+}
+fik_bosn_konjic2 = {
+	name = "Kulin"
+	dynasty = Neretva #река
+	father = fik_bosn_konjic
+	religion = "bosnian_church"
+	culture = "bosnian"
+	prowess = 3
+	1477.7.1 = {
+		birth = yes
+	}
+	1566.1.1 = {
+		death = yes
+	}
+}
+#Дувно
+fik_bosn_duvno = {
+	name = "Tomislav" #отсылка на название с 1928 Томиславград
+	dynasty = Visoravan #плато на боснийском, поле у Дувно
+	religion = "catholic"
+	culture = "bosnian" #хотя много хорватов
+	1449.1.11 = {
+		birth = yes
+	}
+	1478.1.11 = {
+		add_spouse = fik_horv_zhe1
+	}
+	1533.1.1 = {
+		death = yes
+	}
+}
+fik_horv_zhe1 = {
+	name = "Stanislava"
+	female = yes
+	religion = "catholic"
+	culture = "croatian"
+	trait = beauty_good_1
+	1460.2.1 = {
+		birth = yes
+	}
+	1522.1.1 = {
+		death = yes
+	}
+}
+#Боснийский бан - ранний персонаж-заглушка
+#BanBosnia1453 = {
+#	name = "Vukac"
+#	religion = "orthodox"
+##	culture = "bosnian"
+#	1403.1.1 = {
+#		birth = "1211.1.1"
+#	}
+#	1466.1.1 = {
+#		death = "1287.1.1"
+#	}
+#}
+#Вымышленный мэр Усоры - Усора- река, город Добой
+Srebrenikbanfik = {
+	name = "Dobroslav"
+	dynasty = Doboj
+	religion = bosnian_church
+	culture = bosnian
+	trait = giant
+	1454.1.1 = {
+		birth = yes
+		add_gold = 23
+	}
+	1512.4.4 = {
+		death = yes
+	}
+}

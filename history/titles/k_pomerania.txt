@@ -1,0 +1,2267 @@
+# 14-10-2025   1.17.1 "Ascendant"
+d_pommerania = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 24 }
+	1454.1.1 = { change_development_level = 35 }
+	1466.1.1 = { change_development_level = 37 }
+	1488.1.1 = { change_development_level = 41 }
+	
+	#750.1.1 = {
+	#	holder = 194071
+	#}
+	#799.1.1 = {
+	#	holder = 194072
+	#}
+	#822.1.1 = {
+	#	holder = 194073
+	#}
+	#867.1.1 = {
+	#holder = 184004
+	#}
+	
+	1066.1.1 = {
+		holder = 30522 #Siemomysl
+	}
+	1068.1.1 = {
+		holder = 30523 #Swantibor
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1124.1.1 = {
+		liege = "k_poland"
+	}
+	1136.1.1 = {
+		liege = 0
+	}
+	1136.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1156.5.7 = {
+		holder = 221710 #Bogislaw I
+	}
+	1168.1.1 = {
+		liege = "k_denmark"
+	}
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	#battle of Bornhoved
+	1227.7.22 = {
+		liege = "e_hre"
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw III
+	}
+	1309.3.2 = {
+		holder = 471650 #Wartislaw II
+	}
+	1326.8.1 = {
+		holder = 471655 #Bogislaw IV
+	}
+	##
+	1374.8.1 = {
+		holder = Kazimierz_4_Pom #
+		liege = "e_hre"
+	}
+	1377.1.2 = {
+		holder = Wartislaw7Pom #1377 — 1394/1395 Pomerania-Slupsk
+		liege = "e_hre"
+	}
+	1402.1.1 = {
+		holder = Barnim5Pom #1402 — 1403 Shezinski
+		liege = "e_hre"
+	}
+	1403.2.7 = {
+		holder = Bohuslav8Pom
+		liege = "e_hre"
+	}
+	1418.2.11 = {
+		holder = Bohuslav9Bg
+		liege = "e_hre"
+	}
+	1446.12.7 = {
+		holder = ErikPommeran #Eric 1 Pirat
+		liege = "e_hre"
+	}
+	1459.5.3 = {
+		holder = Erik2Pomerans #Eric II otdelbye chasti
+		liege = "e_hre"
+	}
+	1474.7.5 = {
+		holder = Bohuslav10Vel #Boguslaw X
+		liege = "e_hre"
+	}
+}
+
+
+c_stettin = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 14 }
+	1466.1.1 = { change_development_level = 45 }
+	1488.1.1 = { change_development_level = 48 }
+	
+	###867 Pomeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302070
+	}
+	
+	###1066
+	1066.1.1 = {
+		holder = 30522 #Siemomysl
+	liege = d_pommerania
+	government = feudal_government
+	}
+	1068.1.1 = {
+		holder = 30523 #Swantibor
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1136.1.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1168.1.1 = {
+		holder = 30521 # Wartislaw
+		liege = d_pommerania
+	}
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw
+	}
+	1294.1.1 = {
+		holder = 451950 #Otton
+	}
+	##
+	1374.8.1 = {
+		holder = Kazimierz_4_Pom
+	}
+	1377.1.2 = {
+		holder = Wartislaw7Pom #1377 — 1394/1395 Pomerania-Slupsk
+	}
+	1402.1.1 = {
+		holder = Barnim5Pom #1402 — 1403 Shezinski
+	}
+	1403.2.7 = {
+		holder = Bohuslav8Pom
+	}
+	1418.2.11 = {
+		holder = Bohuslav9Bg
+	}
+	1446.12.7 = {
+		holder = ErikPommeran #Eric 1 Pirat
+	}
+	1459.5.3 = {
+		holder = Erik2Pomerans #Eric II otdelbye chasti
+	}
+	1474.7.5 = {
+		holder = Bohuslav10Vel #Boguslaw X
+	}
+}
+
+c_kolobrzeg = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 24 }
+	1454.1.1 = { change_development_level = 35 }
+	1466.1.1 = { change_development_level = 37 }
+	1488.1.1 = { change_development_level = 41 }
+	
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+	}
+	867.1.1 = {
+		holder = 302070
+	}
+	
+	###1066
+	1066.1.1 = {
+		holder = 30522 #Siemomysl
+	liege = d_pommerania
+	}
+	1068.1.1 = {
+		holder = 30523 #Swantibor
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1136.1.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw
+	}
+	1294.1.1 = {
+		holder = 451950 #Otton
+	}
+	##
+	1374.8.1 = {
+		holder = Kazimierz_4_Pom
+		liege = "e_hre"
+	}
+	1377.1.2 = {
+		holder = Wartislaw7Pom #1377 — 1394/1395 Pomerania-Slupsk
+		liege = "e_hre"
+	}
+	1402.1.1 = {
+		holder = Barnim5Pom #1402 — 1403 Shezinski
+		liege = "e_hre"
+	}
+	1403.2.7 = {
+		holder = Bohuslav8Pom
+		liege = "e_hre"
+	}
+	1418.2.11 = {
+		holder = Bohuslav9Bg
+		liege = "e_hre"
+	}
+	1446.12.7 = {
+		holder = ErikPommeran #Eric 1 Pirat
+		liege = "e_hre"
+	}
+	1459.5.3 = {
+		holder = Erik2Pomerans #Eric II otdelbye chasti
+		liege = "e_hre"
+	}
+	1474.7.5 = {
+		holder = Bohuslav10Vel #Boguslaw X
+		liege = "e_hre"
+	}
+	
+	
+	
+	
+
+}
+
+
+c_soldin = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302071		#Lucjan Pyritzi
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30524
+		government = feudal_government
+	}
+	1068.1.1 = {
+		holder = 30523 #Swantibor
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1136.1.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw
+	}
+	1294.1.1 = {
+		holder = 451950 #Otton
+	}
+	##
+	#Zoldin - Cedynia - Zehden
+	# 1373-1402 Luksemburgi, korona Chehii
+	1373.12.31 = {
+		holder = 462610
+	}
+	1378.11.29 = {
+		holder = 462606 #Wenceslaus IV of Bohemia
+	}
+	# v 1402 prodan tevtontsam d_teutonic_order
+	1410.4.8 = {
+		holder = Heinrich_von_Plauen27Tevton
+	}
+	1414.1.7 = {
+		holder = M_KuhmasterSternberg_28mT
+	}
+	1422.3.10 = {
+		holder = Paul_von_Rusdorf_29mT
+	}
+	1441.1.9 = {
+		holder = Konrad_von_Erlichshausen
+	}
+	1449.11.7 = {
+		holder = Ludwig_von_Erlichshausen
+	}
+	# v 1454-1455 prodan tevtonami Brandenburgu
+	1454.2.2 = {
+		holder = Fridr2Brandenburg
+	}
+	1471.2.10 = {
+		holder = Albrecht3Hohenzollern
+	}
+	##NABEG Boguslava?
+	1473.7.3 = {
+		holder = Bohuslav10Vel
+		liege = d_pommerania
+	}
+	1473.7.17 = {
+		holder = Albrecht3Hohenzollern #vernul ?
+	}
+	1486.3.11 = {
+		holder = JohannCiceronBran
+	}
+}
+
+c_cammin = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 24 }
+	1466.1.1 = { change_development_level = 35 }
+	1488.1.1 = { change_development_level = 38 }
+	
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+	}
+	867.1.1 = {
+		holder = 302070
+	}
+	
+	###1066
+	1066.1.1 = {
+		holder = 30522 #Siemomysl
+	liege = d_pommerania
+	}
+	1068.1.1 = {
+		holder = 30523 #Swantibor
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1156.5.7 = {
+		holder = 221723 #Swietopelk II
+	}
+	1175.1.20 = {
+		holder = 221719 #Wratislaw I
+	}
+	1182.1.1 = {
+		holder = 221720 #Bogislaw
+	}
+	1224.1.1 = {
+		holder = 221721 #Ratibor II
+	}
+	
+	
+	1228.1.1 = {
+		liege = "d_pomerelia"
+	}
+	1228.1.1 = {
+		holder = 30452 #Wartislaw I
+	}
+	1233.5.4 = {
+		holder = 30451 #Swietopelk II
+	}
+	1266.1.10 = {
+		holder = 30453 #Sambor II
+	}
+	1270.1.1 = {
+		holder = 30459 #Wartislaw II
+	}
+	1271.1.1 = {
+		holder = 30458 #Mszczuj II
+	}
+	
+	1294.12.25 = {
+		holder = 30538  #Swenzo
+	}
+	
+	1308.1.1 = {
+		holder = 30540  #Piotr
+	}
+	1308.11.13 = {
+		liege = "d_pommerania"
+	}
+	1327.1.1 = {
+		holder = 30541 #Jasko
+	}
+	##
+	1434.1.1 = {
+		holder = Joachim1Pomeran
+	}
+	1451.9.22 = {
+		holder = Otto3Pomeran
+	}
+	1462.4.1 = {
+		holder = Bohuslav10Vel
+		liege = d_pommerania
+	}
+}
+
+
+c_pila = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302071		#Lucjan Pyritzi
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30524
+		government = feudal_government
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1136.1.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw
+	}
+	1294.1.1 = {
+		holder = 451950 #Otton
+	}
+	##
+	1368.1.1 = {
+		liege = "k_poland"
+		de_jure_liege = "d_wielkopolska"
+	}
+	1410.1.1 = {
+		holder = Piotr_Opalinski_Bnin
+		liege = k_poland
+	}
+	1448.6.6 = {
+		holder = Maciej_Opalinski #Pila v Polshe s 1368 g Opalinskie
+	}
+}
+
+
+c_landsberg = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302071		#Lucjan Pyritzi
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30524
+		government = feudal_government
+	}
+	1068.1.1 = {
+		holder = 30523 #Swantibor
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1136.1.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw
+	}
+	1294.1.1 = {
+		holder = 451950 #Otton
+	}
+	##
+	## Landsberg na Varte - Gozhuv-Velikopolski s 1945
+	# v 1402 prodan tevtonzam kak i Soldin
+	1402.12.13 = {
+		liege = d_teutonic_order
+	}
+	1410.4.8 = {
+		holder = Heinrich_von_Plauen27Tevton
+	}
+	1414.1.7 = {
+		holder = M_KuhmasterSternberg_28mT
+	}
+	1422.3.10 = {
+		holder = Paul_von_Rusdorf_29mT
+	}
+	1441.1.9 = {
+		holder = Konrad_von_Erlichshausen
+	}
+	1449.11.7 = {
+		holder = Ludwig_von_Erlichshausen
+	}
+	# v 1454 prodan Brandenburgu Fridr II Gogenzol
+	1454.12.31 = {
+		holder = Fridr2Brandenburg
+		liege = d_ostmark
+	}
+	1471.2.10 = {
+		holder = Albrecht3Hohenzollern
+	}
+	1486.3.11 = {
+		holder = JohannCiceronBran
+	}
+	1482.2.15 = {
+		liege = d_ostmark #ostavalsya pod kontr ordena posle mira 1466, no v 1482 peredan v dar
+		holder = Nikolaus_von_Taubenheim
+		government = republic_government
+	}
+}
+
+d_nordmark = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+	1466.1.1 = { change_development_level = 53 }
+	1488.1.1 = { change_development_level = 56 }
+	
+	#750.1.1 = {
+	#	holder = 194062
+	#}
+	#799.1.1 = {
+	#	holder = 194063
+	#}
+	#822.1.1 = {
+	#	holder = 194064
+	#}
+	#867.1.1 = {
+	#	holder = 184001 #Msciwoj
+	#}
+	954.1.1 = {
+		holder = 161118 #Nakon Nakonid
+	}
+	966.1.1 = {
+		holder = 161119 #Mistivoj Nakonid
+	}
+	995.1.1 = {
+		holder = 161121  #Mscislaw Nakonid
+	}
+	1005.1.1 = {
+		holder = 8411 #Pribigniew Nakonid
+	}
+	1028.1.1 = {
+		holder = 20586 #Gryn Wizlawid
+	}
+	1043.1.1 = {
+		holder = 8410 #Gottschalk Nakonid
+	}
+	1066.6.7 = {
+		holder = 20584 #Kruto Wizlawid
+	}
+	1093.1.1 = {
+		holder = 8402 #Henrik Nakonid
+	}
+	1127.6.7 = {
+		holder = 30509 #Kanut Nakonid
+	}
+	1128.1.1 = {
+		holder = 30508 #Swietopelk Nakonid
+	}
+	1129.1.1 = {
+		holder = 30512 #Swineke Nakonid
+	}
+	1129.7.1 = {
+		holder = 201513 #Knud Lavard
+		liege = "e_hre"
+	}
+	1131.1.13 = {
+		liege = 0
+	}
+	1131.1.13 = {
+		holder = 452005 #Niklot
+	}
+	1160.8.2 = {
+		liege = "e_hre"
+	}
+	1160.8.2 = {
+		holder = 452004 #Przybyslaw Niklotid
+	}
+	1168.1.1 = {
+		liege = "k_denmark"
+	}
+	1178.12.1 = {
+		holder = 452003 #Heinrich Borwin I
+	}
+	1227.1.28 = {
+		holder = 452001 #Johann I Niklotid
+	}
+	1227.7.22 = {
+		liege = "e_hre"
+	}
+	1264.8.1 = {
+		holder = 452000 #Heinrich I Niklotid
+	}
+	1302.1.19 = {
+		holder = 451981 #Heinrich II Niklotid
+	}
+	1329.1.27 = {
+		holder = 451980 #Albrecht I Niklotid
+	}
+	##
+	1333.3.3 = {
+		government = feudal_government
+		effect = { set_title_name = c_mecklemburg }
+	}
+	1379.1.27 = {
+		holder = Heinrich3HMecklenburg #Genrih III Meklenburgskiy
+	}
+	1383.1.1 = {
+		holder = Magnus_1_Mecklenburg #Magnus I Meklenburgskiy
+	}
+	1384.1.27 = {
+		holder = Johann4Mekl #Иоганн IV Meklenburgskiy
+	}
+	1422.10.16 = {
+		holder = Heinrich4TMek #Genrih IV Толстый Никлотич
+	}
+	1436.2.2 = {
+		holder = Johann5Mekl #Иоганн V Meklenburgskiy
+	}
+	1443.1.3 = {
+		holder = Heinrich4TMek #Иоганн V Meklenburgskiy
+	}
+	1477.10.16 = {
+		holder = Magnus2Mek #Magnus II Meklenburgskiy
+	}
+}
+
+
+c_mecklenburg = {
+	###867 Polabian tribes
+	837.1.1 = {
+		liege = 0
+		holder = 194064
+
+		government = tribal_government
+	}
+	866.1.1 = {
+		holder = 184001
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	#1066
+	1043.1.1 = {
+		holder = 8410 #Gottschalk Nakonid
+	liege = d_nordmark
+	}
+	1066.6.7 = {
+		holder = 20584 #Kruto Wizlawid
+	}
+	1093.1.1 = {
+		holder = 8402 #Henrik Nakonid
+	}
+	1127.6.7 = {
+		holder = 30509 #Kanut Nakonid
+	}
+	1128.1.1 = {
+		holder = 30508 #Swietopelk Nakonid
+	}
+	1129.1.1 = {
+		holder = 30512 #Swineke Nakonid
+	}
+	1129.7.1 = {
+		holder = 201513 #Knud Lavard
+	}
+	1131.1.13 = {
+		holder = 452005 #Niklot
+	}
+	
+	1160.8.2 = {
+		holder = 452004 #Przybyslaw Niklotid
+	}
+	
+	1178.12.1 = {
+		holder = 452003 #Heinrich Borwin I
+	}
+	
+	1227.1.28 = {
+		holder = 452001 #Johann I Niklotid
+	}
+	
+	1264.8.1 =
+	
+	{
+	holder = 452000 #Heinrich I Niklotid
+	}
+	
+	1302.1.19 = {
+		holder = 451981 #Heinrich II Niklotid
+	}
+	1329.1.27 = {
+		holder = 451980 #Albrecht I Niklotid
+	}
+	##
+	1379.1.27 = {
+		holder = Heinrich3HMecklenburg
+	}
+	1383.1.1 = {
+		holder = Magnus_1_Mecklenburg
+	}
+	1384.1.27 = {
+		holder = Johann4Mekl
+	}
+	1422.10.16 = {
+		holder = Heinrich4TMek
+	}
+	1436.2.2 = {
+		holder = Johann5Mekl
+	}
+	1443.1.3 = {
+		holder = Heinrich4TMek
+	}
+	1477.10.16 = {
+		holder = Magnus2Mek
+	}
+}
+
+
+b_ratzeburg = {
+	1202.1.1 = {
+		holder = 31795 #Albrecht Askanien
+	}
+	1227.7.22 = {
+		holder = 462114
+	}
+	1260.10.7 = {
+		holder = 33336
+	}
+	1282.1.1 = {
+		holder = 462101
+	}
+	
+	#duchy of Saxe-Ratzeburg-Lauenburg
+	1296.1.1 = {
+		holder = 33343
+	}
+	1308.1.1 = {
+		holder = 33341
+	}
+	1322.4.22 = {
+		holder = 33344
+	}
+	
+	##
+	1426.1.27 = {
+		holder = Bernhard2SachsenLauenburg #Бернхард II gerz Саксен-Лауэнбурга
+	}
+	1463.1.1 = {
+		holder = Johann5SachsenLauenburg #Иоганн V Асканий gerz Саксен-Лауэнбурга из Ратцебурга
+	}
+}
+
+
+b_schwerin = {
+	1167.1.1 = {
+		holder = 33265
+	}
+	1185.6.18 = {
+		holder = 33266
+	}
+	1220.5.25 = {
+		holder = 33269
+	}
+	1247.1.1 = {
+		holder = 33271
+	}
+	1297.1.1 = {
+		holder = 33277
+	}
+	1323.6.23 = {
+		holder = 33278
+	}
+	1327.1.1 = {
+		holder = 33287
+	}
+	##
+	1477.1.1 = {
+		holder = Balthasar_Mecklenburg
+	}
+}
+
+
+c_wolgast = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302072
+	}
+	
+	###1043.1.1
+	1043.1.1 = {
+		liege = "d_nordmark"
+	government = feudal_government
+	}
+	
+	1043.1.1 = {
+		holder = 20584 #Kruto Wizlawid
+	}
+	1093.1.1 = {
+		holder = 30481 #Wartislaw Wizlawid
+	}
+	
+	#Conquest by Wartislaw I of Pommerania
+	
+	1122.1.1 = {
+		liege = "d_pommerania"
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1136.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1156.5.7 = {
+		holder = 221715 #Kasimir
+	}
+	1180.11.1 = {
+		holder = 221717 #Ratibor
+	}
+	1183.1.14 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw III
+	}
+	1309.3.2 = {
+		holder = 471650 #Wartislaw II
+	}
+	1326.8.1 = {
+		holder = 471655 #Bogislaw
+	}
+	##
+	1368.1.1 = {
+		holder = Wartislaw6Od # Warcisław VI Odnoglaz Rugen i Volgast
+		liege = d_pommerania
+	}
+	1444.4.4 = {
+		holder = Wartislaw9P
+		liege = d_pommerania
+		de_jure_liege = d_pommerania
+	}
+	1457.4.4 = {
+		holder = Wartislaw10
+	}
+	1478.1.1 = {
+		holder = Bohuslav10Vel #Богуслав X gerz Щецинский и Слупский Волгаст с 1478
+	}
+}
+
+
+c_rugen = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302073
+	}
+	
+	###1043
+	1043.1.1 = {
+		liege = "d_nordmark"
+
+		government = feudal_government
+	}
+	
+	1043.1.1 = {
+		holder = 20584 #Kruto Wizlawid
+	}
+	1066.1.1 = {
+		holder = 8420
+	}
+	1093.1.1 = {
+		liege = 0
+	}
+	1093.1.1 = {
+		holder = 30481 #Wartislaw Wizlawid
+	}
+	1125.1.1 = {
+		holder = 30482 #Rostislav Wizlawid
+	}
+	1141.1.1 = {
+		holder = 221734 #Wizlaw Wizlawid
+	}
+	1163.1.1 = {
+		holder = 221730 #Testislaw
+	}
+	1168.6.15 = {
+		liege = "k_denmark"
+	}
+	1170.1.1 = {
+		holder = 221735 #Jaromar I
+	}
+	1218.1.1 = {
+		holder = 221736 #Barnuta
+	}
+	1221.1.1 = {
+		holder = 221737 #Wizlaw I
+	}
+	
+	1256.1.1 = {
+		holder = 30491 #Jaromar II
+	}
+	
+	1260.8.20 = {
+		holder = 30496 #Jaromar III
+	}
+	1285.1.1 = {
+		holder = 30497 #Wizlaw II
+	}
+	1302.12.29 = {
+		holder = 30498 #Wizlaw III
+	}
+	1325.11.8 = {
+		liege = "d_pommerania"
+	}
+	1325.11.8 = {
+		holder = 471650 #Wartislaw II
+	}
+	1326.8.1 = {
+		holder = 471653 #Barnim
+	}
+	##
+	1368.1.1 = {
+		holder = Wartislaw6Od # Warcisław VI Odnoglaz Rugen i Volgast
+		liege = d_pommerania
+		de_jure_liege = "d_pommerania"
+	}
+	1394.6.13 = {
+		holder = Wartislaw_8_Rugen
+		liege = d_pommerania
+	}
+	1415.8.1 = {
+		holder = Svyatobor_8_Spokoinyi #tolko Rugen
+		liege = d_pommerania
+	}
+	1436.1.1 = {
+		holder = Barnim_VIII_Mla #tolko Rugen i bart
+		liege = d_pommerania
+	}
+	1451.12.19 = {
+		holder = Wartislaw9P
+	}
+	1457.4.4 = {
+		holder = Wartislaw10
+		liege = d_pommerania
+	}
+	1474.7.5 = {
+		holder = Bohuslav10Vel #Богуслав X
+		liege = d_pommerania
+	}
+}
+
+
+c_rostock = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+	}
+	867.1.1 = {
+		holder = 302073
+	}
+	
+	###1043
+	1043.1.1 = {
+		holder = 8410 #Gottschalk Nakonid
+	}
+	1066.6.7 = {
+		holder = 20584 #Kruto Wizlawid
+	}
+	1093.1.1 = {
+		holder = 8402 #Henrik Nakonid
+	}
+	1127.6.7 = {
+		holder = 30508 #Swietopelk Nakonid
+	}
+	1129.1.1 = {
+		holder = 30512 #Swineke Nakonid
+	}
+	1129.7.1 = {
+		holder = 30507 #Przybyslaw Nakonid
+	}
+	1131.1.13 = {
+		holder = 452005 #Niklot
+	}
+	1160.8.2 = {
+		holder = 452004 #Przybyslaw Niklotid
+	}
+	1183.11.6 = {
+		holder = 30552 #Niklot Niklotid
+	}
+	1200.5.6 = {
+		holder = 452002 #Heinrich Borwin I
+	}
+	1226.12.5 = {
+		holder = 30560 #Heinrich Borwin III
+	}
+	1277.12.2 =
+	
+	{
+	holder = 30587 #Waldemar Niklotid
+	}
+	1282.11.9 = {
+		holder = 30591 #Nikolaus Niklotid
+	}
+	1314.11.25 = {
+		holder = 30576 #Johann Niklotid
+	}
+	##
+	1379.1.27 = {
+		holder = Heinrich3HMecklenburg
+	}
+	1383.1.1 = {
+		holder = Magnus_1_Mecklenburg
+	}
+	1384.1.27 = {
+		holder = Johann4Mekl
+	}
+	1422.10.16 = {
+		holder = Heinrich4TMek
+	}
+	1436.2.2 = {
+		holder = Johann5Mekl
+	}
+	1443.1.3 = {
+		holder = Heinrich4TMek
+	}
+	1477.10.16 = {
+		holder = Magnus2Mek
+	}
+}
+
+
+c_werle = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+	}
+	867.1.1 = {
+		holder = 302072
+	}
+	
+	#Lutici rebel against the HRE, become independant in ~985
+	##Gave Lutician territory to a single dude with no vassal to make their life easier against their behemoths of neighbours HRE & Poland
+	983.1.1 = {
+		liege = 0
+		holder = 303438	#Kornel Lutici
+	}
+	1012.11.4 = {
+		holder = 303439	#Marek Lutici
+	}
+	#1035 Lutici become tributaries to the HRE
+	1035.1.24 = {
+		government = feudal_government
+		holder = 303440	#Kornel Lutici
+	}
+	1064.9.2 = {
+		holder = 303442	#Kasper Lutici
+	}
+	1091.12.4 = {
+		holder = 303446	#Kornel Lutici
+	}
+	
+	#XIIth - "Luticia" partitioned between their neighbours (HRE & Obotrites)
+	1123.1.1 = {
+		liege = e_hre
+		holder = 30481 #Wartislaw Wizlawid
+	}
+	1125.1.1 = {
+		holder = 30482 #Rostislav Wizlawid
+	}
+	1141.1.1 = {
+		holder = 221734 #Wizlaw Wizlawid
+	}
+	1163.1.1 = {
+		holder = 221730 #Testislaw Wizlawid
+	}
+	
+	1168.1.1 = {
+		liege = "d_skane"
+	}
+	1170.1.1 = {
+		holder = 30484 #Dubizlaw Wizlawid
+	}
+	
+	1173.1.1 = {
+		liege = "d_nordmark"
+	}
+	1173.1.1 = {
+		holder = 452003 #Heinrich Borwin I
+	}
+	1227.1.28 = {
+		holder = 452007 #Nikolaus Niklotid
+	}
+	1277.5.14 = {
+		holder = 452006 #Johann Niklotid
+	}
+	1283.10.15 = {
+		holder = 451991 #Nikolaus Niklotid
+	}
+	1316.10.12 = {
+		holder = 451990 #Johann Niklotid
+	}
+	##
+	1379.1.27 = {
+		holder = Heinrich3HMecklenburg
+	}
+	1383.1.1 = {
+		holder = Magnus_1_Mecklenburg
+	}
+	1384.1.27 = {
+		holder = Johann4Mekl
+	}
+	1422.10.16 = {
+		holder = Heinrich4TMek
+	}
+	1436.2.2 = {
+		holder = Johann5Mekl
+	}
+	1443.1.3 = {
+		holder = Heinrich4TMek
+	}
+	1477.10.16 = {
+		holder = Magnus2Mek
+	}
+}
+
+d_pomerelia = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 24 }
+	1466.1.1 = { change_development_level = 37 }
+	1488.1.1 = { change_development_level = 40 }
+	
+	1155.1.1 = {
+		liege = "k_poland"
+	}
+	1155.1.1 = {
+		holder = 221760 #Subislaw I
+	}
+	1187.1.29 = {
+		holder = 221750 #Sambor I
+	}
+	1207.2.7 = {
+		holder = 221755 #Mszczuj I
+	}
+	1210.1.1 = {
+		liege = "k_denmark"
+	}
+	1212.1.1 = {
+		liege = "k_poland"
+	}
+	1219.5.1 = {
+		holder = 221751 #Subislaw II
+	}
+	1223.12.28 = {
+		holder = 30450 #Swietopelk I
+	}
+	1227.1.1 = {
+		holder = 30452 #Wartislaw I
+	}
+	1233.5.4 = {
+		holder = 30451 #Swietopelk II
+	}
+	1266.1.10 = {
+		holder = 30453 #Sambor II
+	}
+	1270.1.1 = {
+		holder = 30459 #Wartislaw II
+	}
+	1271.1.1 = {
+		holder = 30458 #Mszczuj II
+	}
+	1294.12.25 = {
+		holder = 125977 #Przemyslaw Piast
+	}
+	1296.2.8 = {
+		holder = 471510 #Wladyslaw Piast
+	}
+	1308.11.13 = {
+		holder = 0
+	}
+	##
+    1400.1.1 = { name = KASHUBIA }
+	1454.1.1 = { de_jure_liege = k_prussia }
+}
+
+
+c_danzig = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 24 }
+	1454.1.1 = { change_development_level = 53 }
+	1466.1.1 = { change_development_level = 55 }
+	1488.1.1 = { change_development_level = 58 }
+	
+	###867 tribal times
+	500.1.1 = {
+		liege = 0
+	}
+	860.1.1 = {
+		holder = 302068
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30523
+	}
+	1092.1.1 = {
+		holder = 30524
+	}
+	1106.1.1 = {
+		holder = 221703
+	}
+	1122.1.1 = {
+		holder = 221700
+	}
+	1136.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1155.1.1 = {
+		liege = "d_pomerelia"
+	}
+	1155.1.1 = {
+		holder = 221760 #Subislaw I
+	}
+	1187.1.29 = {
+		holder = 221750 #Sambor I
+	}
+	1207.2.7 = {
+		holder = 221755 #Mszczuj I
+	}
+	1219.5.1 = {
+		holder = 221751 #Subislaw II
+	}
+	1223.12.28 = {
+		holder = 30450 #Swietopelk I
+	}
+	1227.1.1 = {
+		holder = 30452 #Wartislaw I
+	}
+	1233.5.4 = {
+		holder = 30451 #Swietopelk II
+	}
+	1266.1.10 = {
+		holder = 30453 #Sambor II
+	}
+	1270.1.1 = {
+		holder = 30459 #Wartislaw II
+	}
+	1271.1.1 = {
+		holder = 30458 #Mszczuj II
+	}
+	1294.12.25 = {
+		holder = 125977 #Przemyslaw Piast
+	}
+	1296.2.8 = {
+		holder = 471510 #Wladyslaw Piast
+	}
+	
+	###Teutonic Order
+	
+	1308.11.13 = {
+		liege = "d_teutonic_order"
+	}
+	1308.11.13 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+	
+	##
+	1454.1.1 = {
+		holder = wilhelm_jordan
+		government = republic_government
+		liege = d_teutonic_order
+	}
+	1461.6.1 = {
+		holder = johannes_scheren
+	}
+	# Vtoroi Torunskiy mir, no avtonomia
+	1466.10.19 = {
+		liege = k_poland
+	}
+	1479.7.9 = {
+		holder = johann_ferber
+	}
+}
+
+
+c_slupsk = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302069		#Jaromil Slovinci
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+	holder = 30523
+	government = feudal_government
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1156.5.7 = {
+		holder = 221723 #Swietopelk II
+	}
+	1175.1.20 = {
+		holder = 221719 #Wratislaw I
+	}
+	1182.1.1 = {
+		holder = 221720 #Bogislaw
+	}
+	1224.1.1 = {
+		holder = 221721 #Ratibor II
+	}
+	1228.1.1 = {
+		liege = "d_pomerelia" #PRAVILNO aaa?
+	}
+	1228.1.1 = {
+		holder = 30452 #Wartislaw I
+	}
+	1233.5.4 = {
+		holder = 30451 #Swietopelk II
+	}
+	1266.1.10 = {
+		holder = 30453 #Sambor II
+	}
+	1270.1.1 = {
+		holder = 30459 #Wartislaw II
+	}
+	1271.1.1 = {
+		holder = 30458 #Mszczuj II
+	}
+	1294.12.25 = {
+		holder = 30538  #Swenzo
+	}
+	1308.1.1 = {
+		holder = 30540  #Piotr
+	}
+	1308.11.13 = {
+		liege = "d_pommerania"
+	}
+	1327.1.1 = {
+		holder = 30541 #Jasko
+	}
+	##
+	1329.12.12 = {
+		liege = "d_teutonic_order" #Slupsk 1329-1340 u Tevtonov v arende
+	}
+	1368.8.1 = {
+		holder = 471655 #ya dob Boguslav 5 Velikyi kak Pom-Slupskiy
+	}
+	1374.8.1 = {
+		holder = Kazimierz_4_Pom # kak Pom-Slupskiy
+		liege = d_pommerania
+	}
+	1377.1.2 = {
+		holder = "Wartislaw7Pom" #Herz Pomeranii-Slupska
+		liege = d_pommerania
+	}
+	1394.4.4 = {
+		holder = ErikPommeran #Boguslaw-Erik 
+		liege = d_pommerania
+	}
+	1418.2.11 = {
+		holder = Bohuslav9Bg #Boguslaw-Erik 
+		liege = d_pommerania
+	}
+	1446.12.7 = {
+		holder = ErikPommeran #vozvrashenie Erika
+		liege = d_pommerania
+	}
+	1459.1.1 = {
+		holder = Erik2Pomerans #Erik II
+		liege = d_pommerania
+	}
+	1470.1.1 = {
+		de_jure_liege = d_pommerania
+	}
+	1474.1.1 = {
+		holder = Bohuslav10Vel #Богуслав X gerz Щецинский и Слупский
+	}
+}
+
+
+c_miastko = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+	}
+	867.1.1 = {
+		holder = 302069		#Jaromil Slovinci
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30523
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1156.5.7 = {
+		holder = 221723 #Swietopelk II
+	}
+	1175.1.20 = {
+		holder = 221719 #Wratislaw I
+	}
+	1182.1.1 = {
+		holder = 221720 #Bogislaw
+	}
+	1224.1.1 = {
+		holder = 221721 #Ratibor II
+	}
+	
+	
+	1228.1.1 = {
+		liege = "d_pomerelia"
+	}
+	1228.1.1 = {
+		holder = 30452 #Wartislaw I
+	}
+	1233.5.4 = {
+		holder = 30451 #Swietopelk II
+	}
+	1266.1.10 = {
+		holder = 30453 #Sambor II
+	}
+	1270.1.1 = {
+		holder = 30459 #Wartislaw II
+	}
+	1271.1.1 = {
+		holder = 30458 #Mszczuj II
+	}
+	
+	1294.12.25 = {
+		holder = 30538  #Swenzo
+	}
+	
+	1308.1.1 = {
+		holder = 30540  #Piotr
+	}
+	1308.11.13 = {
+		liege = "d_pommerania"
+	}
+	1327.1.1 = {
+		holder = 30541 #Jasko
+	}
+	##
+	1450.12.2 = {
+		holder = Ludwig_von_Erlichshausen
+		liege = d_teutonic_order
+	}
+	#Charne-Hammerstain do Torunskogo mira
+	1466.10.19 = {
+		holder = Kazimir4Yag #
+	}
+}
+
+
+c_berent = {
+	###867 tribal times
+	500.1.1 = {
+		liege = 0
+	}
+	860.1.1 = {
+		holder = 302068
+	}
+	
+	###1066
+	1066.1.1 = {
+		holder = 30523
+	liege = d_pommerania
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1155.1.1 = {
+		liege = "d_pomerelia"
+	}
+	1155.1.1 = {
+		holder = 221760 #Subislaw I
+	}
+	1182.1.1 = {
+		holder = 221720 #Bogislaw
+	}
+	1224.1.1 = {
+		holder = 221721 #Ratibor II
+	}
+	1228.1.1 = {
+		liege = "d_pomerelia"
+	}
+	1228.1.1 = {
+		holder = 30452 #Wartislaw I
+	}
+	1233.5.4 = {
+		holder = 30451 #Swietopelk II
+	}
+	1266.1.10 = {
+		holder = 30453 #Sambor II
+	}
+	1270.1.1 = {
+		holder = 30459 #Wartislaw II
+	}
+	1271.1.1 = {
+		holder = 30458 #Mszczuj II
+	}
+	1294.12.25 = {
+		holder = 30538  #Swenzo
+	}
+	1308.1.1 = {
+		holder = 30540  #Piotr
+	}
+	1308.11.13 = {
+		liege = "d_pommerania"
+	}
+	1327.1.1 = {
+		holder = 30541 #Jasko
+	}
+	##
+	#1454 Tridzatiletnya voina
+	1449.11.7 = {
+		holder = Ludwig_von_Erlichshausen
+		liege = "d_teutonic_order"
+	}
+	# po vtotomu Torunskomu miru — Polshe
+	1466.10.19 = {
+		liege = k_poland
+		holder = Jan_KoSHcielecki_1415_75
+		name = SWIECIE
+	}
+	1475.7.9 = {
+		holder = Kazimir4Yag
+	}
+	1487.1.1 = {
+		holder = Andrzej_KoSHcielecki_u1515
+		liege = k_poland
+	}
+}
+
+
+d_ostmark = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 24 }
+	1466.1.1 = { change_development_level = 53 }
+	1477.1.1 = { change_development_level = 56 }
+	1488.1.1 = { change_development_level = 58 }
+	#768.1.1 = {
+	#	holder = 168600
+	#}
+	#806.1.1 = {
+	#	holder = 168601
+	#}
+	867.1.1 = {
+		holder = 168582
+		government = tribal_government
+	}
+	
+	#Geronen
+	926.1.1 = {
+		liege = 0
+		holder = 168562
+	}
+	965.5.20 = {
+		holder = 168568
+	}
+	979.8.3 = {
+		holder = 168573
+	}
+	981.1.1 = {
+	}
+	
+	#Lutici rebel against the HRE, become independant in ~985
+	##Gave Lutician territory to a single dude with no vassal to make their life easier against their behemoths of neighbours HRE & Poland
+	983.1.1 = {
+		liege = 0
+		holder = 303438	#Kornel Lutici
+	}
+	1012.11.4 = {
+		holder = 303439	#Marek Lutici
+	}
+	#1035 Lutici become tributaries to the HRE
+	1035.1.24 = {
+		government = feudal_government
+		holder = 303440	#Kornel Lutici
+	}
+	1064.9.2 = {
+		holder = 303442	#Kasper Lutici
+	}
+	1091.12.4 = {
+		holder = 303446	#Kornel Lutici
+	}
+	
+	#XIIth - "Luticia" partitioned between their neighbours (HRE & Obotrites)
+	1123.1.1 = {
+		liege = e_hre
+		holder = 33788
+	}
+	1124.5.22 = {
+		holder = 212908
+	}
+	1131.1.1 = {
+		holder = 33790
+	}
+	1135.12.31 = {
+		holder = 212040
+	}
+	1157.1.1 = {
+		holder = 212908 # Albert the Bear
+	}
+	1170.11.18 = {
+		holder = 212030 # Otto I
+	}
+	1185.2.9 = {
+		holder = 212938
+	}
+	1190.8.16 = {
+		holder = 212550
+	}
+	1210.5.6 = {
+		holder = 212042
+	}
+	1221.2.17 = {
+		holder = 7504
+	}
+	1288.2.15 = {
+		holder = 7509
+	}
+	1291.8.16 = {
+		holder = 33427
+	}
+	1307.12.10 = {
+		holder = 33758
+	}
+	1308.12.1 = {
+		holder = 7560
+	}
+	1320.8.20 = {
+		holder = 462731
+	}
+	## Brandenburg
+	1415.8.20 = {
+		effect = { set_title_name = c_brandenburg }
+		holder = Fridr1Brandenburg
+		liege = "e_hre"
+	}
+	1440.8.20 = {
+		holder = Fridr2Brandenburg
+		liege = "e_hre"
+	}
+	1471.2.10 = {
+		holder = Albrecht3Hohenzollern #kurfurst Brandenburga Ahill
+		liege = "e_hre"
+	}
+	1486.3.11 = {
+		holder = JohannCiceronBran #kurfurst Brandenburga Tsisteron
+		liege = "e_hre"
+	}
+}
+
+
+c_brandenburg = {
+	#867 Polabian tribes
+	768.1.1 = {
+		holder = 168600
+		liege = 0
+
+		government = tribal_government
+	}
+	806.1.1 = {
+		holder = 168601
+	}
+	867.1.1 = {
+		holder = 168582
+	}
+	920.1.1 = {
+		holder = 168554
+	}
+	
+	#Germany
+	960.1.1 = {
+		liege = d_ostmark
+		holder = 168555
+	}
+	
+	#Lutici rebel against the HRE, become independant in ~985
+	##Gave Lutician territory to a single dude with no vassal to make their life easier against their behemoths of neighbours HRE & Poland
+	983.1.1 = {
+		liege = 0
+		holder = 303438	#Kornel Lutici
+	}
+	1012.11.4 = {
+		holder = 303439	#Marek Lutici
+	}
+	#1035 Lutici become tributaries to the HRE
+	1035.1.24 = {
+		government = feudal_government
+		holder = 303440	#Kornel Lutici
+	}
+	1064.9.2 = {
+		holder = 303442	#Kasper Lutici
+	}
+	1091.12.4 = {
+		holder = 303446	#Kornel Lutici
+	}
+	
+	#XIIth - "Luticia" partitioned between their neighbours (HRE & Obotrites)
+	1123.1.1 = {
+		liege = e_hre
+		holder = 30231 #Heinrich II
+	}
+	1128.12.4 = {
+		holder = 30232 #Udo IV
+	}
+	
+	1130.3.15 = {
+		holder = 30262 #Konrad von Plotzkau
+	}
+	
+	1133.1.10 = {
+		holder = 30233 #Rudolf II
+	}
+	1144.1.1 = {
+		holder = 212908
+	}
+	1170.11.18 = {
+		holder = 212030
+	}
+	1184.7.8 = {
+		holder = 212037
+	}
+	1205.7.4 = {
+		holder = 212032
+	}
+	1220.2.25 = {
+		holder = 7688
+	}
+	1267.2.2 = {
+		holder = 7558
+	}
+	1318.2.14 = {
+		holder = 7560
+	}
+	1320.8.20 = {
+		holder = 462731
+	}
+	## c_brAndenburG
+	1415.8.20 = {
+		holder = Fridr1Brandenburg
+	}
+	1440.8.20 = {
+		holder = Fridr2Brandenburg
+	}
+	1471.2.10 = {
+		holder = Albrecht3Hohenzollern
+	}
+	1486.3.11 = {
+		holder = JohannCiceronBran
+	}
+
+}
+
+
+c_ruppin = {
+	#867 Polabian tribes
+	768.1.1 = {
+		holder = 168600
+		liege = 0
+
+		government = tribal_government
+	}
+	806.1.1 = {
+		holder = 168601
+	}
+	867.1.1 = {
+		holder = 168582
+	}
+	920.1.1 = {
+		holder = 168554
+	}
+	
+	#Germany
+	960.1.1 = {
+		liege = d_ostmark
+		holder = 168555
+	}
+	
+	#Lutici rebel against the HRE, become independant in ~985
+	##Gave Lutician territory to a single dude with no vassal to make their life easier against their behemoths of neighbours HRE & Poland
+	983.1.1 = {
+		liege = 0
+		holder = 303438	#Kornel Lutici
+	}
+	1012.11.4 = {
+		holder = 303439	#Marek Lutici
+	}
+	#1035 Lutici become tributaries to the HRE
+	1035.1.24 = {
+		government = feudal_government
+		holder = 303440	#Kornel Lutici
+	}
+	1064.9.2 = {
+		holder = 303442	#Kasper Lutici
+	}
+	1091.12.4 = {
+		holder = 303446	#Kornel Lutici
+	}
+	
+	#XIIth - "Luticia" partitioned between their neighbours (HRE & Obotrites)
+	1123.1.1 = {
+		liege = e_hre
+		holder = 30231 #Heinrich II
+	}
+	
+	1128.12.4 = {
+		holder = 30232 #Udo IV
+	}
+	
+	1130.3.15 = {
+		holder = 30262 #Konrad von Plotzkau
+	}
+	
+	1133.1.10 = {
+		holder = 30233 #Rudolf II
+	}
+	1144.1.1 = {
+		holder = 212908
+	}
+	1170.11.18 = {
+		holder = 212030
+	}
+	1184.7.8 = {
+		holder = 212037
+	}
+	1205.7.4 = {
+		holder = 212032
+	}
+	1220.2.25 = {
+		holder = 7688
+	}
+	1267.2.2 = {
+		holder = 7558
+	}
+	1318.2.14 = {
+		holder = 7560
+	}
+	1320.8.20 = {
+		holder = 462731
+	}
+	##
+	1415.8.20 = {
+		holder = Fridr1Brandenburg
+	}
+	1440.8.20 = {
+		holder = Fridr2Brandenburg
+	}
+	1469.12.12 = {
+		holder = Jo_3_lindow_ruppin
+		liege = d_ostmark #Brandenburg
+	}
+	1500.1.3 = {
+		holder = Joh_1_lindow_ruppin
+	}
+
+}
+
+
+c_berlin = {
+	#867 Polabian tribes
+	860.1.1 = {
+		liege = 0
+		holder = 303435	#fictional Walenty Redari
+
+		government = tribal_government
+	}
+	
+	#Germany
+	960.1.1 = {
+		liege = d_ostmark
+		holder = 168555
+	}
+	
+	#Lutici rebel against the HRE, become independant in ~985
+	##Gave Lutician territory to a single dude with no vassal to make their life easier against their behemoths of neighbours HRE & Poland
+	983.1.1 = {
+		liege = 0
+		holder = 303438	#Kornel Lutici
+	}
+	1012.11.4 = {
+		holder = 303439	#Marek Lutici
+	}
+	#1035 Lutici become tributaries to the HRE
+	1035.1.24 = {
+		government = feudal_government
+		holder = 303440	#Kornel Lutici
+	}
+	1064.9.2 = {
+		holder = 303442	#Kasper Lutici
+	}
+	1091.12.4 = {
+		holder = 303446	#Kornel Lutici
+	}
+	
+	#XIIth - "Luticia" partitioned between their neighbours (HRE & Obotrites)
+	1123.1.1 = {
+		liege = e_hre
+		holder = 30231 #Heinrich II
+	}
+	
+	1128.12.4 = {
+		holder = 30232 #Udo IV
+	}
+	
+	1130.3.15 = {
+		holder = 30262 #Konrad von Plotzkau
+	}
+	
+	1133.1.10 = {
+		holder = 30233 #Rudolf II
+	}
+	1144.1.1 = {
+		holder = 212908
+	}
+	1170.11.18 = {
+		holder = 212030
+	}
+	1184.7.8 = {
+		holder = 212037
+	}
+	1205.7.4 = {
+		holder = 212032
+	}
+	1220.2.25 = {
+		holder = 7688
+	}
+	1267.2.2 = {
+		holder = 7558
+	}
+	1318.2.14 = {
+		holder = 7560
+	}
+	1320.8.20 = {
+		holder = 462731
+	}
+	##
+	1415.8.20 = {
+		holder = Fridr1Brandenburg
+		liege = "e_hre"
+	}
+	1440.8.20 = {
+		holder = Fridr2Brandenburg
+		liege = "e_hre"
+	}
+	1471.2.10 = {
+		holder = Albrecht3Hohenzollern
+		liege = "e_hre"
+	}
+	1486.3.11 = {
+		holder = JohannCiceronBran
+		liege = "e_hre"
+	}
+
+}
+
+
+c_havelberg = {
+	#867 Polabian tribes
+	768.1.1 = {
+		holder = 168600
+		liege = 0
+	}
+	806.1.1 = {
+		holder = 168601
+	}
+	867.1.1 = {
+		holder = 168582
+	}
+	920.1.1 = {
+		holder = 168554
+	}
+	
+	#Germany
+	960.1.1 = {
+		liege = d_ostmark
+		holder = 168555
+	}
+	
+	#Lutici rebel against the HRE, become independant in ~985
+	##Gave Lutician territory to a single dude with no vassal to make their life easier against their behemoths of neighbours HRE & Poland
+	983.1.1 = {
+		liege = 0
+		holder = 303438	#Kornel Lutici
+	}
+	1012.11.4 = {
+		holder = 303439	#Marek Lutici
+	}
+	#1035 Lutici become tributaries to the HRE
+	1035.1.24 = {
+		government = feudal_government
+		holder = 303440	#Kornel Lutici
+	}
+	1064.9.2 = {
+		holder = 303442	#Kasper Lutici
+	}
+	1091.12.4 = {
+		holder = 303446	#Kornel Lutici
+	}
+	
+	#XIIth - "Luticia" partitioned between their neighbours (HRE & Obotrites)
+	1123.1.1 = {
+		liege = e_hre
+		holder = 30231 #Heinrich II
+	}
+	1128.12.4 = {
+		holder = 30232 #Udo IV
+	}
+	
+	1130.3.15 = {
+		holder = 30262 #Konrad von Plotzkau
+	}
+	
+	1133.1.10 = {
+		holder = 30233 #Rudolf II
+	}
+	1144.1.1 = {
+		holder = 212908
+	}
+	1170.11.18 = {
+		holder = 212030
+	}
+	1184.7.8 = {
+		holder = 212037
+	}
+	1205.7.4 = {
+		holder = 212032
+	}
+	1220.2.25 = {
+		holder = 7688
+	}
+	1267.2.2 = {
+		holder = 7558
+	}
+	1318.2.14 = {
+		holder = 7560
+	}
+	1320.8.20 = {
+		holder = 462731
+	}
+	
+	##
+	1415.8.20 = {
+		holder = Fridr1Brandenburg
+		liege = "e_hre"
+	}
+	1440.8.20 = {
+		holder = Fridr2Brandenburg
+		liege = "e_hre"
+	}
+	#episkopy Hafelberga
+	1460.12.31 = {
+		holder = Wedigo_Gans_vonPutlitz
+		government = theocracy_government
+		liege = "e_hre"
+	}
+	1480.1.1 = { liege = d_ostmark } #Brandenburg - ne sozdavat napruazhenia
+	1487.1.29 = {
+		holder = Busso_VIII_vonAlvensleben
+	}
+}
+
+
+c_prenzlau = {
+	#867 Polabian tribes
+	865.1.1 = {
+		liege = 0
+		holder = 303435	#fictional Walenty Redari
+
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.1 = {
+		holder = 30522 #Siemomysl
+	liege = d_pommerania
+
+		government = feudal_government
+	}
+	1068.1.1 = {
+		holder = 30523 #Swantibor
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1136.1.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw
+	}
+	1294.1.1 = {
+		holder = 451950 #Otton
+	}
+	
+	##
+	#  >Brandenburg
+	1415.8.20 = {
+		holder = Fridr1Brandenburg
+	}
+	1440.8.20 = {
+		holder = Fridr2Brandenburg
+	}
+	1471.2.10 = {
+		holder = Albrecht3Hohenzollern
+	}
+	1486.3.11 = {
+		holder = JohannCiceronBran
+	}
+}
+

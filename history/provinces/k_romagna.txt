@@ -1,0 +1,364 @@
+#1.14.2.2
+#k_romagna
+##d_romagna ###################################
+###c_ravenna
+2546 = {	#RAVENNA
+	culture = cisalpine
+	religion = catholic
+	holding = church_holding
+	504.1.1 = {
+		special_building_slot = apollinare_nuovo
+		special_building = apollinare_nuovo
+	}
+	900.1.1 = {
+		culture = italian
+	}
+	##
+	1466.1.1 = {
+		buildings = {
+			monastic_schools_05
+		}
+	}
+}
+2549 = {	#IMOLA
+	holding = castle_holding
+}
+2548 = {	#FORLI
+	holding = city_holding
+	##
+	1466.1.1 = {
+		buildings = { windmills_04 }
+	}
+}
+2547 = {	#RIMINI
+	holding = city_holding
+}
+
+###c_bologna
+2542 = {	#BOLOGNA
+	culture = cisalpine
+	religion = catholic
+	holding = castle_holding
+	special_building_slot = generic_university
+	1066.1.1 = {
+		buildings = {
+			cereal_fields_01
+			#hunting_grounds_01
+			military_camps_01
+		}
+	}
+	1086.1.1 = {
+		special_building = generic_university
+	}
+	## ranee bologna_universitet
+	1454.1.1 = {
+		buildings = {
+			cereal_fields_04
+			military_camps_04
+		}
+	}
+}
+2529 = {	#CONA
+	holding = none
+}
+2550 = {	#MONTE SOLE
+	holding = none
+	#oblast
+}
+
+###c_ferrara
+2527 = {	#FERRARA
+	culture = cisalpine
+	religion = catholic
+	holding = castle_holding
+	##
+	1391.9.3 = { special_building = generic_university }
+	1466.1.1 = {
+		buildings = {
+			cereal_fields_05
+			hunting_grounds_05
+		}
+	}
+}
+2526 = {	#POMPOSA
+	holding = church_holding
+}
+2528 = {	#COMACCHIO
+	holding = city_holding
+}
+
+###c_casentino
+2553 = {	#CASENTINO
+	culture = cisalpine
+	religion = catholic
+	holding = castle_holding
+	900.1.1 = {
+		culture = italian
+	}
+}
+2552 = {	#MONTEFELTRO
+	holding = none
+	##
+	1469.1.1 = { holding = city_holding }
+}
+2551 = {	#CAMALDOLI
+	holding = none
+	1010 = {
+		holding = church_holding
+	}
+}
+
+##d_ancona ###################################
+###c_ancona
+2594 = {	#ANCONA
+	culture = italian
+	religion = catholic
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			barracks_01
+		}
+	}
+	## ex buildings - pust
+	1470.1.1 = {
+		buildings = {
+			common_tradeport_04
+		}
+	}
+}
+2583 = {	#CAGLI
+	holding = city_holding
+}
+2582 = {	#GUBBIO
+	holding = castle_holding
+}
+2587 = {	#CAMERINO
+	holding = none
+	##
+	1470.1.1 = { holding = city_holding }
+}
+
+###c_urbino
+2555 = {	#URBINO
+	culture = italian
+	religion = catholic
+	holding = castle_holding
+	##
+	1454.1.1 = {
+		buildings = {
+			castle_04
+			farm_estates_04
+		}
+	}
+}
+2584 = {	#CIVITAS CASTELLI = Citta di Castello
+	holding = city_holding
+	##
+	1413.1.1 = { holding = church_holding } #novoe
+}
+2556 = {	#PESARO
+	holding = none
+	##
+	#drevnyi gorod, no ne bylo
+	1300.1.1 = { holding = city_holding }
+}
+
+###c_fermo
+2598 = {	#FERMO
+	culture = italian
+	religion = catholic
+	holding = castle_holding
+}
+2597 = {	#ASCOLI PICENO
+	holding = church_holding
+}
+2599 = {	#MACERATA
+	holding = none
+	##
+	#shkola s 1290, ofic univer s 1540, s 1574 Accademia dei Catenati
+	1400.1.1 = { holding = church_holding }
+}
+
+##d_spoleto ###################################
+###c_spoleto
+2585 = {	#SPOLETO
+	culture = lombard
+	religion = catholic
+	holding = castle_holding
+	1022.1.1 = {
+		culture = italian
+	}
+}
+2581 = {	#ASSISSI
+	holding = none
+	##
+	#drevniy gorod
+	1300.1.1 = { holding = church_holding }
+}
+2586 = {	#TERNI
+	holding = city_holding
+}
+
+###c_orvieto
+2568 = {	#ORVIETO
+	culture = lombard
+	religion = catholic
+	holding = castle_holding
+	1022.1.1 = {
+		culture = italian
+	}
+}
+2566 = {	#PERUGIA
+	holding = church_holding
+	##
+	1308.1.1 = { special_building = generic_university }
+	#Signoria di Perugia
+	1438.1.1 = { holding = castle_holding }
+	1466.1.1 = {
+		buildings = { castle_04 }
+	}
+}
+
+###c_teramo
+2596 = {	#TERAMO
+	culture = lombard
+	religion = catholic
+	holding = castle_holding
+	1022.1.1 = {
+		culture = italian
+	}
+}
+2588 = {	#RIETI
+	holding = city_holding
+}
+
+###c_lanciano
+2604 = {	#LANCIANO
+	culture = lombard
+	religion = catholic
+	holding = castle_holding
+	1022.1.1 = {
+		culture = sicilian
+	}
+	##
+	1450.1.1 = { culture = neapolitan }
+}
+2603 = {	#CLUIELI
+	holding = none
+	##
+	1444.1.1 = { holding = church_holding }
+}
+8759 = {	#AGNONE
+	holding = city_holding
+}
+
+###c_abruzzi
+2600 = {	#AVEZZANO
+	culture = lombard
+	religion = catholic
+	holding = castle_holding
+	1022.1.1 = {
+		culture = sicilian
+	}
+	##
+	1454.1.1 = { culture = neapolitan }
+}
+2595 = {	#ATRI
+	holding = church_holding
+}
+
+##d_latium ###################################
+###c_roma
+2575 = {	#ROMA
+	culture = italian
+	religion = catholic
+	holding = castle_holding
+	#
+	buildings = {
+		castle_02
+		farm_estates_01
+	}
+	special_building = the_colosseum_01
+	duchy_capital_building = aurelian_walls_01
+	1066.1.1 = {
+		buildings = {
+			castle_02
+			farm_estates_02
+			#curtain_walls_01
+			cereal_fields_02
+		}
+	}
+	##
+	1466.1.1 = {
+		buildings = {
+			castle_04
+			farm_estates_05
+			cereal_fields_05
+		}
+	}
+}
+2576 = {	#OSTIA
+	holding = city_holding
+}
+2577 = {	#VATICAN
+	holding = church_holding
+	special_building = holy_site_cathedral_01 # Represents Old St. Peter's Basilica, started in early 4th century.
+	##
+	1488.1.1 = {
+		buildings = {
+			temple_03
+			monastic_schools_04
+		}
+	}
+}
+2578 = {	#PALO
+	holding = none
+}
+2574 = {	#PATERNO
+	holding = none
+}
+2579 = {	#FARFA
+	holding = church_holding
+	##
+	#abbatstvo Farfa
+	1466.1.1 = {
+		buildings = {
+			monastic_schools_04
+		}
+	}
+}
+
+###c_viterbo
+2572 = {	#VITERBO
+	culture = italian
+	religion = catholic
+	holding = castle_holding
+}
+2573 = {	#SUTRI
+	holding = church_holding
+	##
+	#v 1433 Niccolò Fortebraccio szheg Sutri, gorod opustel v 1435
+	1435.1.1 = { holding = none }
+}
+2571 = {	#CIVITAVECCHIA
+	holding = city_holding
+	##
+	#1522-1530 - Gospitaliery
+}
+
+###c_tivoli
+2589 = {	#TIVOLI
+	culture = italian
+	religion = catholic
+	holding = castle_holding
+}
+2590 = {	#VELLETRI
+	holding = church_holding
+}
+2591 = {	#SEGNI
+	holding = city_holding
+}
+2592 = {	#TERRACINA
+	holding = castle_holding
+}

@@ -1,0 +1,48 @@
+﻿doctrine_protestant_succession = {
+	group = "main_group"
+	is_available_on_create = {
+		religion_tag = christianity_religion
+	}
+	protestant_succession_pr_doctrine = {
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = protestant_succession_pr_doctrine }
+				multiply = 0
+			}
+		}
+		character_modifier = {
+			church_holding_build_gold_cost = 0.05
+		}
+		parameters = {
+			hostility_override_protestant_succession_pr_doctrine = 1
+			same_hof_hostility_override = 0
+		}
+	}
+	##Anapabtizm + Mutserism - radikal
+	narodnoe_otkrovenie_doctrine = {
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = narodnoe_otkrovenie_doctrine }
+				multiply = 0
+			}
+		}
+		character_modifier = {
+			church_holding_build_gold_cost = 0.01
+		}
+		parameters = {
+#			hostility_override_special_doctrine_is_christian_faith = 0
+			hostility_override_narodnoe_otkrovenie_doctrine = 1
+#			same_hof_hostility_override = 0
+		}
+	}
+	
+}
+#svyaz_s_katolikami = {
+#		parameters = {
+#			hostility_override_ = 1
+#			hostility_override_ = 0
+#			hostility_override_ = 2
+#		}
+#	}

@@ -1,0 +1,795 @@
+﻿#1.13.0.3 Basileus - Ploho proveril
+# 171 - RAUTU
+171 = {	# 171 - RAUTU
+
+	holding = none
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+	## 3-e vladenie 
+	#1480 pogost novgoodski -posle 1948 Sosnovo -Rovduzh
+	1480.1.1 = { holding = church_holding }
+
+}
+
+# 172 - KAKISALMI
+172 = {	# 172 - KAKISALMI
+	
+	# Misc
+	culture = karelian
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History
+	1292.1.1 = { religion = catholic }	#Northern Crusades
+	##KORELA --c_kakisalmi center of county
+	1295.1.1 = { holding = castle_holding } #Krepost Korela
+	1330.1.1 = { religion = orthodox }
+}
+
+# 173 - KOIVISTO
+173 = {	# 173 - KOIVISTO
+	holding = none
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+	1294.1.1 = { holding = city_holding } #Beyozovye ostrova
+	# posle 1948 Primorsk
+
+}
+
+# 174 - SORTAVALA -center of county - novyi shveski gorod s 1632, v Rossii s 1705/1721
+174 = {	# 174 - SORTAVALA
+	holding = tribal_holding
+	# Misc
+	culture = karelian
+	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+	1444.1.1 = { holding = castle_holding } #1468? c_sortavala
+	1454.1.1 = { religion = orthodox }
+	#Sortavala stala Shvedskoi v 1617
+
+}
+
+# 175 - PORVOO --center of county
+175 = {	# 175 - PORVOO
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1158.1.1 = {	#Northern Crusades
+		religion = catholic
+		#holding = castle_holding
+	}
+    1380.1.1 = {
+		culture = swedish
+		holding = castle_holding
+	}
+
+}
+
+# 176 - ESPOO --1431/1458
+176 = {	# 176 - ESPOO
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+	
+	# History
+#	1158.1.1 = { religion = catholic }	#Northern Crusades
+	1431.1.1 = { holding = city_holding } #novoe
+
+}
+
+# 177 - RASEBORG
+177 = {	# 177 - RASEBORG
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+	
+	# History
+#	1158.1.1 = { religion = catholic }	#Northern Crusades
+	##
+	#zamok Raseborg Grippy --Raseborgs slott 1378
+	1378.1.1 = { holding = castle_holding }
+}
+
+# 178 - RIKALA --v Turku
+178 = {	# 178 - RIKALA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+	
+	# History
+#	1158.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 179 - TURKU --center of county c_finland -Turku
+179 = {	# 179 - TURKU
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1158.1.1 = {	#Northern Crusades
+		religion = catholic
+		#holding = castle_holding
+	}
+	##
+	1229.1.1 = { holding = castle_holding }
+
+}
+
+# 180 - RAUMA --1442
+180 = {	# 180 - RAUMA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+	
+	# History
+#	1158.1.1 = { religion = catholic }	#Northern Crusades
+	1442.1.1 = { holding = city_holding }
+
+}
+
+# 181 - PARIKKALA --1635
+181 = {	# 181 - PARIKKALA
+	holding = none
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 182 - VIIPURI --VYBORG center of county
+182 = {	# 182 - VIIPURI
+	
+	# Misc
+	culture = karelian
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History
+	1292.1.1 = { religion = catholic }	#Northern Crusades
+	##
+    1293.1.1 = { holding = castle_holding }
+#1299.1.1 = { culture = swedish }
+	1293.9.3 = {
+		special_building_slot = vyborgski_zamok
+		special_building = vyborgski_zamok
+	}
+}
+
+# 183 - LIINMAA
+183 = {	# 183 - LIINMAA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1158.1.1 = { religion = catholic }	#Northern Crusades
+	
+
+}
+
+# 184 - TELJA
+184 = {	# 184 - TELJA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1158.1.1 = { religion = catholic }	#Northern Crusades
+	
+
+}
+
+# 185 - ULVILA --center_of_county Satakunta c_satakunta
+185 = {	# 185 - ULVILA
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History
+	1158.1.1 = {	#Northern Crusades
+		religion = catholic
+		#holding = castle_holding
+	}
+	1365.1.1 = { holding = castle_holding }
+
+}
+
+# 186 - PIRKKALA --1921
+186 = {	# 186 - PIRKKALA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1158.1.1 = { religion = catholic }	#Northern Crusades
+	
+
+}
+
+# 187 - SAVITAIPALE --1639
+187 = {	# 187 - SAVITAIPALE
+	holding = none
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 188 - MIKKELI
+188 = {	# 188 - MIKKELI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 189 - SULKAVA
+189 = {	# 189 - SULKAVA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 190 - OLAVINLINNA --center_of_county c_olavinlinna
+190 = {	# 190 - OLAVINLINNA
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History
+	1292.1.1 = { religion = catholic }	#Northern Crusades
+	1470.1.1 = { holding = castle_holding } #Zamok Sv Olafa Neiflot 1475
+
+}
+
+# 191 - KIDILA
+191 = {	# 191 - KIDILA
+	holding = none
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 192 - SALINIS --center_of_county c_salinis
+192 = {	# 192 - SALINIS
+	holding = tribal_holding
+	# Misc
+	culture = karelian
+	religion = finnish_pagan
+	
+	# History
+	1150.1.1 = { religion = orthodox }
+	1469.12.12 = { holding = castle_holding }
+
+}
+
+# 193 - AUNUS --Karelian Anus, Finnish: Aunus - Olonets s 1228 dostoverno
+193 = {	# 193 - AUNUS
+	holding = none
+	# History
+#	1150.1.1 = { religion = orthodox }
+	1228.2.8 = { holding = castle_holding }
+
+}
+
+# 194 - SEESJARVI
+194 = {	# 194 - SEESJARVI
+	holding = none
+	# History
+#	1150.1.1 = { religion = orthodox }
+
+}
+
+# 195 - ONEGABORG --center_of_county Janisilina bud Shuiski pogost/Petrozavodsk - istorich Solomennoe
+195 = {	# 195 - ONEGABORG
+	
+	# Misc
+	culture = karelian
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1150.1.1 = { religion = orthodox }
+	1469.12.12 = { holding = castle_holding }
+
+}
+
+# 196 - SOUTJARVI --SOVDOZERO
+196 = {	# 196 - SOUTJARVI
+	holding = none
+	# History
+#	1150.1.1 = { religion = orthodox }
+
+}
+
+# 197 - VEHKALAHTI - b_vehkalahti -veckelax -1336/1653
+197 = {	# 197 - VEHKALAHTI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+	
+	# History
+#	1158.1.1 = { religion = catholic }	#Northern Crusades
+	1336.1.1 = { holding = city_holding }
+
+}
+
+# 198 - KONTUPOHJA --center_of_county Kondopoga
+198 = {	# 198 - KONTUPOHJA
+	
+	# Misc
+	culture = karelian
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History
+	1150.1.1 = { religion = orthodox }
+	1444.1.1 = { holding = castle_holding }
+
+}
+
+# 199 - LIZMAJARVI
+199 = {	# 199 - LIZMAJARVI
+	holding = none
+	# History
+#	1150.1.1 = { religion = orthodox }
+
+}
+
+# 200 - TOVAJARVI --b_tovajarvi v c_sortavala - ne nashel nichego
+200 = {	# 200 - TOVAJARVI
+	holding = none
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 201 - SUOJARVI --vtoroe vladenie c_salinis - s 1499 - Novgorod Syarva
+201 = {	# 201 - SUOJARVI
+	holding = none
+	# History
+#	1150.1.1 = { religion = orthodox }
+
+}
+
+# 202 - VATSELANJARVI
+202 = {	# 202 - VATSELANJARVI
+	holding = none
+	# History
+#	1150.1.1 = { religion = orthodox }
+
+}
+
+# 203 - SUOPARSAARI
+203 = {	# 203 - SUOPARSAARI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 204 - TOHMAJARVI --1869
+204 = {	# 204 - TOHMAJARVI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1292.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 205 - HAMEENLINNA --center_of_county Tavastia c_tavasts
+205 = {	# 205 - HAMEENLINNA
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History
+	1250.1.1 = { religion = catholic }	#Northern Crusades
+	##Tavastgus ili Tavastborg
+	1259.1.1 = { holding = castle_holding }
+	
+
+}
+
+# 206 - SOMERO --c_tavasts s 1449
+206 = {	# 206 - SOMERO
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = { religion = catholic }	#Northern Crusades
+	1442.1.1 = { holding = church_holding }
+
+}
+
+# 207 - SYSMA --center_of_county c_sysma
+207 = {	# 207 - SYSMA
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History
+	1250.1.1 = { religion = catholic }	#Northern Crusades
+	1442.1.1 = { holding = castle_holding }
+
+}
+
+# 208 - LAHTI --c_tavasts
+208 = {	# 208 - LAHTI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 209 - PAIJALA --v c_sysma
+209 = {	# 209 - PAIJALA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 210 - VUOHIJARVI --c_pedersore
+210 = {	# 210 - VUOHIJARVI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 211 - MESSUKYLA --center_of_county
+211 = {	# 211 - MESSUKYLA
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History
+	1158.1.1 = {	#Northern Crusades
+		religion = catholic
+		#holding = castle_holding
+	}
+	1469.12.12 = { holding = castle_holding }
+
+}
+
+# 212 - RUOVESI --	1565
+212 = {	# 212 - RUOVESI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1158.1.1 = { religion = catholic }	#Northern Crusades
+	
+
+}
+
+# 213 - MUSTASAARI --center_of_county c_mustasaari shved Korsholm
+213 = {	# 213 - MUSTASAARI
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+	
+	# History
+	1250.1.1 = { religion = catholic }	#Northern Crusades
+	#upomyanut pod 1348 - gorod dinastii Vaasa Korsholm s 1606 
+	1348.1.1 = { holding = castle_holding }
+	#seichas shvedskoe bolshinstvo
+
+}
+
+# 214 - MERIKARVIA
+214 = {	# 214 - MERIKARVIA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 215 - LEVANLUHTA
+215 = {	# 215 - LEVANLUHTA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 216 - SUND --center_of_county c_aland
+216 = {	# 216 - SUND
+	holding = tribal_holding
+	# Misc
+	culture = norse
+	religion = norse_pagan
+	
+	# History
+	1066.1.1 = { culture = swedish }
+	1085.1.1 = { religion = catholic }
+
+}
+
+# 217 - JOMALA --1351
+217 = {	# 217 - JOMALA
+	holding = none
+	# Misc
+#	culture = norse
+#	religion = norse_pagan
+	
+	# History
+#	1066.1.1 = { culture = swedish }
+#	1085.1.1 = { religion = catholic }
+	1351.1.1 = { holding = city_holding }
+
+}
+
+# 218 - SOMA --reka Suma
+218 = {	# 218 - SOMA
+	holding = none
+	# History
+#	1150.1.1 = { religion = orthodox }
+
+}
+
+# 219 - KEM --centr c_viena
+219 = {	# 219 - KEM
+	holding = tribal_holding
+	# Misc
+	culture = karelian
+	religion = finnish_pagan
+	
+	# History
+	1150.1.1 = { religion = orthodox }
+	#Marfa Boretskaya Kem
+	1450.1.1 = { holding = castle_holding }
+
+}
+
+# 442 - PEDERSORE -center_of_county c_pedersore s 1348
+442 = {	# 442 - PEDERSORE
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1250.1.1 = {
+		religion = catholic 	#Northern Crusades
+	}
+	1348.1.1 = { holding = castle_holding }
+
+}
+
+# 443 - VETELI --v c_oulu -v 1548
+443 = {	# 443 - VETELI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = {
+#		religion = catholic 	#Northern Crusades
+#	}
+
+}
+
+# 444 - OULU center_of_county
+444 = {	# 444 - OULU
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1250.1.1 = {
+		religion = catholic 	#Northern Crusades
+	}
+	1380.1.1 = { holding = castle_holding } #sam zamok s 1605
+
+}
+
+# 445 - LIMINKA
+445 = {	# 445 - LIMINKA
+	holding = none
+	# History
+#	1250.1.1 = {
+#		religion = catholic 	#Northern Crusades
+#	}
+	#prihod kontsa 1400-h
+	1460.1.1 = { holding = church_holding }
+
+}
+
+# 446 - PUOLANKA -b_puolanka c_oulu
+446 = {	# 446 - PUOLANKA
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = {
+#		religion = catholic 	#Northern Crusades
+#	}
+
+}
+
+# 447 - KONNEVESI -3 v c_sysma s 1552
+447 = {	# 447 - KONNEVESI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 448 - KEITELE
+448 = {	# 448 - KEITELE
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = { religion = catholic }	#Northern Crusades
+
+}
+
+# 449 - PIELINEN --center_of_county c_pielinen - ozero
+449 = {	# 449 - PIELINEN
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1250.1.1 = { religion = catholic }	#Northern Crusades
+	1453.1.1 = { holding = castle_holding }
+
+}
+
+# 450 - KAJAANI --center_of_county c_kainuu - 2 vladenia 
+450 = {	# 450 - KAJAANI
+	
+	# Misc
+	culture = finnish
+	religion = finnish_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	1250.1.1 = {
+		religion = catholic 	#Northern Crusades
+	}
+	1469.1.1 = { holding = castle_holding }
+
+}
+
+# 451 - NUOKKIJARVI --ozero Nyuk
+451 = {	# 451 - NUOKKIJARVI
+	holding = none
+	# Misc
+#	culture = finnish
+#	religion = finnish_pagan
+#	terrain = forest
+	
+	# History
+#	1250.1.1 = {
+#		religion = catholic 	#Northern Crusades
+#	}
+
+}
+
+# 452 - TUNGUT -- rus Tunguda, karel - Tunkuo s 1578
+452 = {	# 452 - TUNGUT
+
+	holding = none
+	# History
+#	1150.1.1 = { religion = orthodox }
+
+}
+
+# 453 - KUUSEMA --Karelia s 1920-h
+453 = {	# 453 - KUUSEMA
+	holding = none
+	# History
+#	1150.1.1 = { religion = orthodox }
+
+}
+

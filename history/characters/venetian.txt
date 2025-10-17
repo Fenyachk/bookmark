@@ -1,0 +1,883 @@
+﻿###venetian — d_venice + d_friuli
+#s 1400 goda
+#Пьетро Бембо — итальянский гуманист, кардинал и учёный /Pietro Bembo
+pietro_bembo = {
+	name = "Pietro"
+	dynasty = Bembo
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_learning_2
+	trait = beauty_good_1
+	prowess = 5
+	1470.5.20 = {
+		birth = yes
+	}
+	#С 1478 года Пьетро проживает с семьёй во Флоренции
+	1478.1.1 = {
+		employer = LorenzoVelikMedichi
+		trait = devoted
+	}
+	#Жил в Азоло при дворе Екатерины Кипрской, у меня она не в Италии на тот момент
+	1490.1.1 = {
+		employer = CatherineCornaro
+		trait = poet
+	}
+	#1506—1511 — Урбино
+	1547.1.18 = {
+		death = yes
+	}
+}
+##
+#Giorgio Corner (1374-1439) - племянник дожа Марко Корнера
+giorgio_corner = {
+	name = "Giorgio"
+	dynasty = Cornaro #или же Corner
+	father = andrea_corner #?
+	religion = "catholic"
+	culture = "cisalpine"
+	trait = education_martial_1
+	1374.7.4 = {
+		birth = yes
+	}
+	1439.3.9 = {
+		death = yes
+	}
+}
+#figlio di Giorgio
+marco_corner = {
+	name = "Marco"
+	dynasty = Cornaro #или же Corner
+	father = giorgio_corner
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_martial_1
+	1420.3.1 = {
+		birth = yes
+	}
+	1451.1.1 = {
+		add_spouse = giovanna_scrovegni
+	}
+	1468.6.8 = {
+		death = yes
+	}
+}
+#Катерина Корнаро, венецианка, королева Кипра, жена Жака Бастарда
+CatherineCornaro = {
+	name = "Caterina"
+	female = yes
+	dynasty = Cornaro
+	father = marco_corner
+	mother = giovanna_scrovegni
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = beauty_good_1
+	trait = education_diplomacy_2
+	prowess = 4
+	diplomacy = 11
+	intrigue = 3
+	1453.11.25 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	#несколько дожей
+	1470.1.1 = {
+		effect = {
+			add_prestige = 150
+			dynasty = { add_dynasty_prestige = 350 }
+		}
+	}
+	#26 февраля 1489 года отреклась от престола Кипра, 18 марта покинула остров
+	1490.1.1 = {
+		trait = loyal
+		trait = celibate
+	}
+	1510.7.10 = {
+		death = {
+			death_reason = death_old_age
+		}
+	}
+}
+#8728 Scrovegni
+giovanna_scrovegni = {
+	name = "Giovanna"
+	female = yes
+	dynasty = 8728 #Scrovegni
+	religion = "catholic"
+	culture = "cisalpine" #Падуя, цизальпинская
+	1423.2.3 = {
+		birth = yes
+	}
+	1499.9.8 = {
+		death = yes
+	}
+}
+#Giorgio - брат Катерины - годы жизни неизвестны
+gio_corner = {
+	name = "Giorgio"
+	dynasty = Cornaro #или же Corner
+	father = marco_corner
+	mother = giovanna_scrovegni
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_martial_1
+	1454.11.21 = {
+		birth = yes
+	}
+	1511.1.1 = {
+		death = yes
+	}
+}
+#Luca брат Катерины - годы жизни неизвестны
+luka_corner = {
+	name = "Luca"
+	dynasty = Cornaro #или же Corner
+	father = marco_corner
+	mother = giovanna_scrovegni
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_martial_1
+	1455.4.4 = {
+		birth = yes
+	}
+	1523.1.1 = {
+		death = yes
+	}
+}
+# Lucia Corner, sposata nel 1485 all'umanista e diplomatico Marco Dandolo
+luc_corner = {
+	name = "Lucia"
+	female = yes
+	dynasty = Cornaro #или же Corner
+	father = marco_corner
+	mother = giovanna_scrovegni
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	1463.1.1 = {
+		birth = yes
+	}
+	1544.1.1 = {
+		death = yes
+	}
+}
+#Elisabetta Corner che sposerà nel 1478 Paolo Cappello
+elisab_corner = {
+	name = "Elisabetta"
+	female = yes
+	dynasty = Cornaro #или же Corner
+	father = marco_corner
+	mother = giovanna_scrovegni
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	1459.5.9 = {
+		birth = yes
+	}
+	1533.1.1 = {
+		death = yes
+	}
+}
+## umanista e diplomatico Marco Dandolo
+ma_dandolo = {
+	name = "Marco"
+	dynasty = 13027 #генеалогию не восстановить
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_learning_2
+	diplomacy = 3
+	martial = 6
+	1456.5.6 = {
+		birth = yes
+	}
+	1485.8.4 = {
+		add_spouse = luc_corner
+	}
+	1537.1.3 = {
+		death = yes
+	}
+}
+#Paolo Cappello (1452 – Venezia, 26 ottobre 1532) посол и Полевой суперинтендант 
+pao_cappello = {
+	name = "Paolo"
+	dynasty = Cappello
+	father = vett_cappello
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_martial_2
+	diplomacy = 5
+	martial = 15
+	1452.11.2 = {
+		birth = yes
+	}
+	1478.1.2 = {
+		add_spouse = elisab_corner
+	}
+	1532.10.26 = {
+		death = yes
+	}
+}
+#Ветторе Капелло (ок. 1400 — 13 марта 1467) — купец, политик и военный Венецианской республики
+vett_cappello = {
+	name = "Vettore"
+	dynasty = Cappello
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_stewardship_1
+	martial = 4
+	1405.1.1 = {
+		birth = yes
+	}
+	1467.3.13 = {
+		death = yes
+	}
+}
+##
+#Альвизе Кадамосто (Алоизий Када-Мосто) венецианский путешественник и работорговец, на службе Энрике Мореплавателя
+#Alvise Da Mosto, altrimenti Cadamosto
+alvise_cadamosto = {
+	name = "Aloisio" #порт Alvise
+	dynasty = CadaMosto
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_intrigue_2
+	trait = deviant
+	1432.3.2 = {
+		birth = yes
+	}
+	1454.1.1 = {
+		name = "Alvise"
+		employer = KorPorAfoncy5
+		trait = lifestyle_traveler #путешественник
+		trait = adventurer
+	}
+	1462.5.12 = {
+		employer = CristoforoMoro
+	}
+	1478.5.6 = {
+		employer = GiovanniMocenigo
+	}
+	1486.8.14 = {
+		employer = AgostinoBarbarigo
+	}
+	1488.4.12 = {
+		death = yes
+	}
+}
+
+#Венецианский посол Катерино Дзено (1418-1478)
+posol_caterino_zeno = {
+	name = "Caterino"
+	dynasty = 7237 #Zeno
+	father = dr_pietro_zen
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_diplomacy_3
+	prowess = 5
+	1418.6.12 = {
+		birth = yes
+	}
+	1455.1.1 = {
+		effect = { learn_language = language_iranian }
+	}
+	1469.12.12 = {
+		trait = journaller
+		trait = lifestyle_traveler #путешественник
+	}
+	1478.4.6 = {
+		death = yes
+	}
+}
+#Dragone Pietro, della famiglia Zeno dei Crociferi
+dr_pietro_zen = {
+	name = "Pietro"
+	dynasty = 7237 #Zeno - Zeno dei Crociferi
+	father = svyazka_zeno_croc
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	prowess = 4
+	1399.9.9 = {
+		birth = yes
+	}
+	1467.7.1 = {
+		death = yes
+	}
+}
+svyazka_zeno_croc = {
+	name = "Antonio"
+	dynasty = 7237 #Zeno - Zeno dei Crociferi
+	father = carlo_zen #пусть
+	trait = legitimized_bastard
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	prowess = 4
+	1366.1.2 = {
+		birth = yes
+	}
+	1456.6.1 = {
+		death = yes
+	}
+}
+#Jacopo Zeno (attestato anche come Zen e Geno; Venezia, 1418 – Padova, 1481) è stato un vescovo cattolico e umanista italiano
+ep_jacopo_zeno = {
+	name = "Jacopo"
+	dynasty = 7237 #Zeno - ramo "di San Geminiano"
+	father = jacopo_zen
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_learning_2
+	prowess = 2
+	1418.6.12 = {
+		birth = yes
+	}
+	1454.1.1 = {
+		trait = celibate
+		trait = devoted
+	}
+	1481.8.1 = {
+		death = yes
+	}
+}
+#Jacopo Zen
+jacopo_zen = {
+	name = "Jacopo"
+	dynasty = 7237 #Zeno - ramo "di San Geminiano"
+	father = carlo_zen
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	prowess = 4
+	1380.2.22 = {
+		birth = yes
+	}
+	1469.7.1 = {
+		death = yes
+	}
+}
+#Carlo Zen (Zeno) (Venezia, 1334 – Venezia, 8 marzo 1418) è stato un ammiraglio italiano
+carlo_zen = {
+	name = "Carlo"
+	dynasty = 7237 #Zeno - ramo "di San Geminiano"
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_martial_3
+	prowess = 10
+	1334.3.4 = {
+		birth = yes
+	}
+	1418.3.8 = {
+		death = yes
+	}
+}
+#
+#Амброджо Контарини (1429 — 1499), Амвросий, венецианский дипломат и путешественник, посетивший Москву и Персию
+ambrogio_contarini = {
+	name = "Ambrogio"
+	dynasty = 516
+	religion = catholic
+	culture = "venetian" #cisalpine
+	trait = education_diplomacy_2
+	diplomacy = 13
+	prowess = 7
+	1429.2.9 = {
+		birth = yes
+		employer = FrancescoFoskari
+	}
+	1462.5.12 = {
+		employer = CristoforoMoro
+		give_council_position = councillor_chancellor #канцлер
+	}
+	1471.11.9 = {
+		employer = NicoloTron
+	}
+	#путешественник
+	1474.2.2 = {
+		trait = lifestyle_traveler
+	}
+	#С 1474 — в пути, в 1476 — Москва
+	1476.11.11 = {
+		employer = iva3vas
+	}
+	1477.12.31 = {
+		employer = AndreaVendramin
+	}
+	1478.5.6 = {
+		employer = GiovanniMocenigo
+	}
+	1485.9.14 = {
+		employer = MarcoBarbarigo
+	}
+	1486.8.14 = {
+		employer = AgostinoBarbarigo
+	}
+	#вероятно, на Кипре
+	1489.12.31 = {
+		employer = CatherineCornaro #Катерина Корнаро
+		give_council_position = councillor_chancellor #канцлер
+	}
+	1499.9.9 = {
+		death = yes
+	}
+}
+
+#перенос
+#Alvise di Federico Contarini из ветви Madonna dell'Orto + Polissena di Tommaso Malipiero
+Alvise_diFContarini = {
+	name = "Alvise"
+	dynasty = 516
+	father = ambrogio_contarini #ПУСТЬ
+	religion = catholic
+	culture = "venetian" #cisalpine
+	1450.6.6 = {
+		birth = yes
+	}
+	1488.8.8 = {
+		trait = gout_ridden
+		trait = drunkard
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+#Гаспаро Контарини (1483–1542), итальянский кардинал
+Gasparo_Contarini = {
+	name = "Gasparo"
+	dynasty = 516
+	father = Alvise_diFContarini #ДА
+	religion = catholic
+	culture = "venetian" #cisalpine
+	trait = education_learning_1
+	1483.10.16 = {
+		birth = yes
+	}
+	1542.8.24 = {
+		death = yes
+	}
+}
+#Federico Contarini (1479–1512), военный
+#сын Girolamo Contarini
+Federico_Contarini1479 = {
+	name = "Federico"
+	dynasty = 516
+	father = Girolamo_contarini_ot #ДА
+	religion = catholic
+	culture = "venetian" #cisalpine
+	trait = education_martial_2
+	trait = aggressive_attacker
+	1479.7.9 = {
+		birth = yes
+	}
+	#погиб во время разграбления Брешии французами
+	1512.2.19 = {
+		death = { death_reason = death_battle }
+	}
+}
+Girolamo_contarini_ot = {
+	name = "Girolamo"
+	dynasty = 516
+	father = ambrogio_contarini #ПУСТЬ
+	religion = catholic
+	culture = "venetian" #cisalpine
+	1450.4.9 = {
+		birth = yes
+	}
+	1488.8.8 = {
+		death = yes
+	}
+}
+#Тициан - Тициано Вечеллио, живописец
+tiziano_vecellio = {
+	name = "Tiziano"
+	dynasty = Vecellio
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_learning_2
+	learning = 13
+	prowess = 1
+	martial = 2
+	#1488/1490
+	1489.8.9 = {
+		birth = yes
+		employer = AgostinoBarbarigo #Венецианская республика
+	}
+	1576.8.27 = {
+		death = yes
+	}
+}
+#Марко Барбо, кардинал и патриарх Аквилеи 18 marzo 1470 - 2 marzo 1491, был родственником папы Павла II
+marco_barbo_kar = {
+	name = "Marco"
+	dynasty = BarboIt
+	father = Marino_barbo
+	trait = education_learning_2
+	religion = "catholic"
+	culture = "venetian" #cisalpine -Венеция
+	1420.4.22 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		trait = devoted
+	}
+	1467.9.18 = {
+		add_piety = 100
+		add_gold = 50
+	}
+	1491.3.2 = {
+		death = yes
+	}
+}
+
+#Лудовико Тревизано Патриарх Аквилеи 1439-1465
+#Lodovico Trevisan o Trevisano — Ludovico Scarampi Mezzarota
+lud_trevisan_mez = {
+	name = "Ludovico"
+	dynasty = Trevisan
+	trait = education_learning_2
+	trait = education_martial_1 #военный
+	religion = "catholic"
+	culture = "venetian" #cisalpine -Венеция
+	1404.11.14 = {
+		birth = yes
+	}
+	1425.1.1 = {
+		trait = devoted
+		trait = lifestyle_physician
+	}
+	1465.3.22 = {
+		death = yes
+	}
+}
+##
+#Якопо Беллини Старший, или Старый - живописец венецианской школы периода кватроченто -Венеция
+jacopo_bellini_st = {
+	name = "Jacopo"
+	dynasty = Bellini
+	religion = "catholic"
+	culture = "venetian" #Непосредственно Венеция
+	trait = education_learning_2
+	prowess = 3
+	#русская вики дает 1400 год, итальянская 1396?
+	1396.6.9 = {
+		birth = yes
+	}
+	#1470?
+	1469.12.27 = {
+		death = yes
+	}
+}
+#Джентиле Беллини (1429 – 1507)
+#в 1480 году нарисовал портрет султана Мехмеда II 
+gentile_bellini = {
+	name = "Gentile"
+	dynasty = Bellini
+	father = jacopo_bellini_st
+	religion = "catholic"
+	culture = "venetian" #Непосредственно Венеция
+	trait = education_diplomacy_2 #ездил в Османскую империю
+	trait = beauty_good_1
+	prowess = 4
+	1429.2.9 = {
+		birth = yes
+	}
+	# В 1474 году Джентиле Беллини был назначен официальным портретистом дожей
+	#дожи в игровые даты
+	1470.1.1 = { employer = CristoforoMoro }
+	1480.1.1 = { employer = GiovanniMocenigo trait = lifestyle_traveler }
+	1490.1.1 = { employer = AgostinoBarbarigo }
+	1507.2.23 = {
+		death = yes
+	}
+}
+#Джованни Беллини, Джамбеллино - затмил брата - автор многих Мадонн
+#Некоторые предполагают, что Джованни, всегда указываемый в источниках как младший сын, был сводным братом Джентиле, 
+#о чём косвенно свидетельствует его отказ участвовать в завещании Анны Ринверси от ноября 1471 года
+giovanni_bellini = {
+	name = "Giovanni" #на венетском Zuane Belin
+	dynasty = Bellini
+	father = jacopo_bellini_st
+	religion = "catholic"
+	culture = "venetian" #Непосредственно Венеция
+	trait = education_diplomacy_2 #ездил в Османскую империю
+	trait = beauty_good_1
+	trait = intellect_good_1
+	prowess = 2
+	#1427-1430
+	1430.8.13 = {
+		birth = yes
+	}
+	#Венеция
+	#дожи в игровые даты
+	1470.1.1 = { employer = CristoforoMoro add_prestige = 100 }
+	1480.1.1 = { employer = GiovanniMocenigo }
+	1490.1.1 = { employer = AgostinoBarbarigo }
+	1516.11.29 = {
+		death = yes
+	}
+}
+#венецианский правитель Шибеника, - центр, Книн в составе венгерской короны
+fik_ven_shibenik = {
+	name = "Girolamo"
+	dynasty = Sebenego #Шибеник на венетском
+	religion = "catholic"
+	culture = "venetian"
+	prowess = 6
+	trait = infertile
+	1452.2.3 = {
+		birth = yes
+	}
+	1533.2.3 = {
+		death = yes
+	}
+}
+##
+#Zaccaria Barbaro, politico e diplomatico veneziano
+Zaccaria_barbaro = {
+	name = "Zaccaria"
+	dynasty = Barbaro
+	religion = "catholic"
+	culture = "venetian"
+	trait = education_diplomacy_2
+	diplomacy = 11
+	prowess = 1
+	1430.3.3 = {
+		birth = yes
+	}
+	1453.10.10 = {
+		add_spouse = Clara_vendramin
+	}
+	1494.6.14 = {
+		death = { death_reason = death_bubonic_plague }
+	}
+}
+#Ermolao Barbaro detto "Il giovane"
+ermolao_barbaro_ml = {
+	name = "Ermolao"
+	dynasty = Barbaro
+	father = Zaccaria_barbaro
+	mother = Clara_vendramin #вероятно, дочь дожа
+	religion = "catholic"
+	culture = "venetian"
+	trait = education_learning_1
+	trait = education_diplomacy_2
+	diplomacy = 9
+	prowess = 3
+	1454.5.21 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		trait = poet #поэт
+		trait = devoted
+	}
+	1493.6.14 = {
+		death = { death_reason = death_bubonic_plague }
+	}
+}
+##
+# Giovanni Battista Zeno o Zen - итальянский кардинал
+# родился в семье Николо Дзено и Элизабетты Барбо, племянницы Папы Евгения IV и сестры Папы Павла II, также был двоюродным братом кардинала Джованни Михеля
+kard_g_b_zeno = {
+	name = "Giovanni_Battista"
+	dynasty = 7237 #в игре Дзен, ага, дзен-буддизм
+	religion = "catholic"
+	culture = cisalpine
+	trait = education_learning_3
+	prowess = 3
+	1439.3.9 = {
+		birth = yes
+	}
+	1454.1.1 = {
+		culture = venetian
+		trait = devoted
+		trait = celibate
+	}
+	#был епископом Виченцы - Тревизо
+	1490.1.1 = {
+		health = 6
+		employer = CatherineCornaro
+		give_council_position = councillor_court_chaplain
+	}
+	1501.5.8 = {
+		death = yes
+	}
+}
+##
+#Tomà Michiel del ramo "di San Trovaso"
+toma_michiel = {
+	name = "Tomaso"
+	dynasty = 7235 #Michele
+	religion = "catholic"
+	culture = venetian #cisalpine
+	1420.2.6 = {
+		birth = yes
+	}
+	1445.1.1 = {
+		add_spouse = nicolosa_barbo
+	}
+	1499.9.1 = {
+		death = yes
+	}
+}
+#Джованни Микьель (иногда Михель) - кардинал Вероны, Санта-Лючия или Сант-Анджело Епископ Вероны (1471—1503) Giovanni Michiel
+kard_gio_michiel = {
+	name = "Giovanni"
+	dynasty = 7235 #Michele
+	father = toma_michiel
+	mother = nicolosa_barbo
+	religion = "catholic"
+	culture = venetian #cisalpine
+	trait = education_learning_2
+	prowess = 5
+	1446.4.6 = {
+		birth = yes
+	}
+	1454.1.1 = {
+		trait = devoted
+		trait = celibate
+	}
+	1490.1.1 = {
+		health = 6
+	}
+	1503.4.11 = {
+		death = yes
+	}
+}
+svyazka_michiel = {
+	name = "Marco"
+	dynasty = 7235 #Michele
+	father = toma_michiel
+	mother = nicolosa_barbo
+	religion = "catholic"
+	culture = venetian #cisalpine
+	prowess = 6
+	1454.4.8 = {
+		birth = yes
+	}
+	1487.8.7 = {
+		death = yes
+	}
+}
+#Маркантонио Михель (1484, Венеция — 9 мая 1552, Венеция) — итальянский литератор и коллекционер
+marcanton_michiel = {
+	name = "Marcantonio"
+	dynasty = 7235 #Michele
+	father = svyazka_michiel
+	religion = "catholic"
+	culture = venetian #cisalpine
+	trait = education_learning_2
+	prowess = 5
+	1484.4.8 = {
+		birth = yes
+	}
+	1552.5.9 = {
+		death = yes
+	}
+}
+# епископ Хвара Bernardino de Fabiis 1492 - 1510 сделаем с 1490 -- перенос
+ep_bernadin_fabiis = {
+	name = "Bernardino"
+	dynasty = Fabiis_Hvar
+	religion = "catholic"
+	culture = "venetian" #cisalpine
+	trait = education_learning_1
+	prowess = 2
+	1435.3.17 = {
+		birth = yes
+	}
+	1455.1.1 = {
+		trait = devoted
+	}
+	1510.9.3 = {
+		death = yes
+	}
+}
+# Niccolò da Lonigo, detto Leoniceno - медик, ботаник, гуманист (1428-1524)
+nikolo_lonigo_leoniceno = {
+	name = "NiccolO_"
+	dynasty = Lonigo #город, фамилия неизвестна
+	religion = "catholic"
+	culture = "venetian" #в провинции Виченца области Венето
+	trait = education_learning_2
+	trait = weak #cтрадал от эпилеписии
+	trait = intellect_good_1
+	prowess = 1
+	martial = 4
+	1428.2.18 = {
+		birth = yes
+	}
+	#окончил факультет искусств и медицина, падуанск универ в 1453
+	1454.1.1 = {
+		trait = lifestyle_physician
+		trait = lifestyle_gardener
+	}
+	#с 1464 постоянно жил в Ферраре, за исключением 1508 в Болонье
+	1464.10.1 = {
+		employer = BorsoDEste
+	}
+	1471.8.20 = {
+		employer = ErcoleDEste
+	}
+	1524.2.4 = {
+		death = yes
+	}
+}
+#Pietro Dolfin (umanista)
+#исторически известен своим отвращением к Савонароле - глава католического ордена Камальдулы 1471-1514
+pietro_dolfin = {
+	name = "Pietro"
+	dynasty = Dolfin #Дольфин
+	religion = "catholic"
+	culture = venetian #Venezia
+	trait = education_learning_2
+	prowess = 2
+	1444.11.25 = {
+		birth = yes
+	}
+	1466.1.2 = {
+		trait = celibate
+		trait = devoted
+		trait = theologian
+	}
+	1525.1.15 = {
+		death = yes
+	}
+}
+#
+pf_daniel_dolfin = {
+	name = "Daniele"
+	dynasty = Dolfin #Дольфин
+	religion = "catholic"
+	culture = venetian #Venezia
+	1443.4.3 = {
+		birth = yes
+	}
+	1511.1.26 = {
+		death = yes
+	}
+}
+#Jacopo Dolfin (Venezia, 1465 - Venezia, 26 gennaio 1507), del ramo di San Canciano
+jacopo_dolfin_canc = {
+	name = "Jacopo"
+	dynasty = Dolfin #Дольфин
+	father = pf_daniel_dolfin
+	religion = "catholic"
+	culture = venetian #Venezia
+	trait = education_stewardship_1
+	trait = physique_bad_3
+	prowess = 5
+	1465.6.5 = {
+		birth = yes
+	}
+	1507.1.26 = {
+		death = yes
+	}
+}
+#Benedetto Dolfin 1479-1527 - отец Giuseppe "Iseppo" Dolfin 1521-1585 - дед Giovanni Dolfin (1545-1622)
+benedetto_dolfin = {
+	name = "Benedetto"
+	dynasty = Dolfin #Дольфин
+	father = pf_daniel_dolfin
+	religion = "catholic"
+	culture = venetian #Venezia
+	1479.7.9 = {
+		birth = yes
+	}
+	1527.2.7 = {
+		death = yes
+	}
+}

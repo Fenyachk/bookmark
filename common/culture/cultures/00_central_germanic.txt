@@ -1,0 +1,337 @@
+﻿# 29-04-2025
+saxon = {
+	color = saxon
+	created = 843.1.1
+	parents = { old_saxon }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_saxon
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stand_and_fight
+		tradition_ruling_caste
+		tradition_religious_patronage
+		tradition_city_keepers #nov 1490 hran gorodov
+		tradition_stalwart_defenders #nov 1490 udalye
+	}
+	
+	name_list = name_list_saxon
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+franconian = {
+	color = { 0.5 0.5 0.5 }
+	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
+	parents = { frankish }
+	
+	ethos = ethos_courtly
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_astute_diplomats
+		tradition_castle_keepers
+		tradition_formation_fighting #NEW
+	}
+	
+	name_list = name_list_franconian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+swabian = {
+	color = swabian
+	ethos = ethos_communal
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_parochialism
+		tradition_hard_working
+		tradition_city_keepers #new
+	}
+	
+	name_list = name_list_swabian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+bavarian = {
+	color = { 0.3 0.30 0.35 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_stand_and_fight
+		tradition_hereditary_hierarchy
+		tradition_agrarian #new Bavaria -samy agrarny region
+	}
+	
+	name_list = name_list_bavarian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+frisian = {	#Consider this to be "old frisian", in the times of "Frankish" culture, so 760s and before.
+	# Effectively, this culture isn't playable in game
+	color = { 0.7 0.3 0.0 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_fishermen
+		tradition_zealous_people
+		tradition_battlefield_looters
+	}
+	
+	name_list = name_list_frisian
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+dutch = {
+	color = dutch
+	created = 750.1.1 # Frankish settlements in Frisia from the 6th to 8th century
+	parents = { frankish frisian }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_central_germanic
+	language = language_dutch
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_agrarian
+		tradition_parochialism
+		tradition_maritime_mercantilism
+		tradition_polders
+	}
+	
+	name_list = name_list_dutch
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+german = {	#obsolete
+	color = { 0.5 0.5 0.5 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_astute_diplomats
+		tradition_stand_and_fight
+	}
+	
+	name_list = name_list_german
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+### MOD
+#tolko 2 kultury roditelskie, bez french
+swiss = {
+	color = { 0.9 0.2 0.1 }
+	created = 1400.1.1
+	parents = { swabian cisalpine }
+	ethos = ethos_communal
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_equitable
+		tradition_mountain_homes
+		tradition_stalwart_defenders
+		tradition_swords_for_hire
+		tradition_warriors_by_merit
+	}
+	
+	name_list = name_list_swizzar
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		20 = caucasian_blond
+		20 = caucasian_ginger
+		40 = caucasian_brown_hair
+		20 = caucasian_dark_hair
+	}
+}
+transilsax = {
+	color = { 0.1 0.2 0.4 }
+	created = 1243.1.1
+	parents = { saxon }
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_saxon
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stand_and_fight
+		tradition_ruling_caste
+		tradition_city_keepers
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_transilsax
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		20 = caucasian_blond
+		20 = caucasian_ginger
+		40 = caucasian_brown_hair
+		20 = caucasian_dark_hair
+	}
+}
+#german prussians - teutonic --prussian ex
+prussian_teutonic = { 
+	color = { 100 100 100 }
+	created = 1400.1.1
+	parents = { saxon franconian }
+	ethos = ethos_bellicose #voiny
+	heritage = heritage_central_germanic
+	language = language_saxon
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_castle_keepers
+		tradition_stand_and_fight
+		tradition_religious_patronage
+		tradition_welcoming
+		tradition_ruling_caste
+	}
+	name_list = name_list_saxon
+	coa_gfx = { german_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		60 = caucasian_northern_blond
+		20 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		10 = caucasian_northern_dark_hair
+	}
+}
+#Baltic Germans - Deutsch-Balten - Baltendeutsche ex  { 255 100 111 }
+baltic_german = {
+	color = saxon
+	created = 1454.11.11
+	parents = { saxon franconian }
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_saxon
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_city_keepers
+		tradition_ruling_caste
+		tradition_religious_patronage
+		tradition_loyal_soldiers
+		tradition_gardening
+	}
+	name_list = name_list_baltic_german
+	coa_gfx = { german_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	ethnicities = {
+		25 = caucasian_blond
+		25 = caucasian_ginger
+		25 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

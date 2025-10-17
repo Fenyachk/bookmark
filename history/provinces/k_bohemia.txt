@@ -1,0 +1,386 @@
+# 03-10-2025
+#k_bohemia
+##d_bohemia ###################################
+###c_praha
+4125 = {	#PRAHA
+	culture = czech
+	religion = slavic_pagan
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			hill_forts_01
+		}
+	}
+	883.1.1 = {
+		religion = catholic
+	}
+	1066.1.1 = {
+		buildings = {
+			hill_forts_01
+			hill_farms_01
+			#hunting_grounds_01
+			#pastures_01
+		}
+	}
+	##  ex buildings
+	#ranee special_building_slot = karlov_universitet slot v game_start
+	1348.1.1 = { special_building = generic_university }
+}
+4126 = {	#VYSEHRAD
+	holding = city_holding
+}
+4127 = {	#BEROUN
+	holding = none
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+4128 = {	#MELNIK
+	holding = none
+	## gorod, s 1275
+	1275.12.12 = { holding = city_holding }
+}
+4130 = {	#SLANY
+	holding = church_holding
+}
+4158 = {	#MILEVSKO
+	holding = none
+	900.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_litomerice
+4129 = {	#LITOMERICE
+	culture = czech
+	religion = slavic_pagan
+	holding = tribal_holding
+	883.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+	## Pri Guse
+	1421.1.1 = { religion = hussit }
+	1466.1.1 = { religion = utraquism }
+}
+4131 = {	#BILINA
+	holding = none
+	993.1.1 = {
+		holding = castle_holding
+	}
+}
+4133 = {	#DECIN
+	holding = none
+	993.1.1 = {
+		holding = city_holding
+	}
+}
+4135 = {	#ZITAVA
+	holding = none
+}
+
+###c_zatec
+4147 = {	#ZATEC
+	culture = czech
+	religion = slavic_pagan
+	holding = tribal_holding
+	883.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+}
+4132 = {	#KADAN
+	holding = none
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+4141 = {	#SEDLEC
+	holding = none
+	##
+	1466.1.1 = { holding = church_holding }
+}
+4142 = {	#LOKET
+	holding = none
+	## Elbogen s 1234?
+	1454.12.12 = { holding = castle_holding }
+}
+
+###c_plzen
+4145 = {	#PLZEN
+	culture = czech
+	religion = slavic_pagan
+	holding = tribal_holding
+	883.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+	## Utrakisty?
+	1420.1.1 = { religion = hussit }
+	1466.1.1 = { religion = utraquism }
+	
+}
+4143 = {	#STRIBRO
+	holding = none	
+	## upominanie pod 1183
+	1454.12.12 = { holding = city_holding }
+}
+4144 = {	#PRIMDA
+	holding = none
+	1100.1.1 = {
+		holding = city_holding
+	}
+}
+4146 = {	#DOMAZLICE
+	holding = none
+	883.1.1 = {
+		holding = city_holding
+	}
+}
+4149 = {	#PRACHEN
+	holding = none
+	## Prazen' - gora, Strakonitse, gorod i zamok
+	1367.12.12 = { holding = castle_holding }
+}
+4151 = {	#PISEK
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_doudleby
+4154 = {	#DOUDLEBY
+	culture = czech
+	religion = slavic_pagan
+	holding = tribal_holding
+	883.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+}
+4150 = {	#NETOLICE
+	holding = none
+	## s 1088? - net u razrabov
+	1454.1.1 = {
+		holding = church_holding
+	}
+}
+4153 = {	#ROZMBERK
+	holding = none
+	##
+	1260.1.1 = { holding = castle_holding }
+}
+4152 = {	#KRUMLOV
+	holding = none
+	## s 1253?
+	1454.1.1 = { holding = castle_holding }
+}
+4156 = {	#CHYNOV
+	holding = none
+	## izvesten s 981 goda, s 1250 utratil znachenie, posle 1413 v svetskoi vlasti
+	1414.1.1 = { holding = church_holding }
+}
+4157 = {	#BECHYNE
+	holding = none
+	883.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_boleslav
+4136 = {	#BOLESLAV
+	culture = czech
+	religion = slavic_pagan
+	holding = castle_holding
+	883.1.1 = {
+		religion = catholic
+	}
+}
+4134 = {	#BEZDEZ
+	holding = none
+	## zamok k 1278, pust gorod
+	1278.1.1 = { holding = city_holding }
+}
+
+###c_hradec
+4138 = {	#HRADEC
+	culture = czech
+	religion = slavic_pagan
+	holding = tribal_holding
+	883.1.1 = {
+		religion = catholic
+		holding = castle_holding
+	}
+}
+4137 = {	#DVUR-CHVOJNO
+	holding = none
+	## Dvur Kralove nad Labem, gorod-pridanoe
+	1270.1.1 = { holding = city_holding }
+}
+4139 = {	#JAROMER
+	holding = none
+	1050.1.1 = {
+		holding = city_holding
+	}
+}
+3047 = {	#KLADZKO
+	holding = none
+	950.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_caslav
+4161 = {	#CASLAV
+	culture = czech
+	religion = slavic_pagan
+	867.1.1 = {
+		#holding = castle_holding
+		special_building_slot = kutna_hora_mines_01
+	}
+	883.1.1 = { religion = catholic }
+	1000.1.1 = {
+		special_building = kutna_hora_mines_01
+	}
+}
+4140 = {	#VRACLAV
+	holding = city_holding
+}
+4160 = {	#CHRUDIM
+	holding = none
+	990.1.1 = {
+		holding = church_holding
+	}
+}
+
+##d_moravia ###################################
+###c_olomouc
+4165 = {	#OLOMOUC
+	culture = slovien
+	religion = slavic_pagan
+	holding = castle_holding
+	831.1.1 = { religion = catholic }
+	1030.1.1 = { culture = czech }
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			cereal_fields_01
+			#barracks_01
+		}
+	}
+	## ex  buildings
+}
+4181 = {	#UNICOV
+	holding = none
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+4148 = {	#KROMERIZ
+	holding = city_holding
+}
+
+###c_opava
+4184 = {	#OAPVA
+	culture = slovien
+	religion = slavic_pagan
+	holding = castle_holding
+	831.1.1 = { religion = catholic }
+	1030.1.1 = { culture = czech }
+}
+4183 = {	#HRADEC NAD MORAVICI
+	holding = city_holding
+}
+
+###c_prerov
+4182 = {	#PREROV
+	culture = slovien
+	religion = slavic_pagan
+	holding = castle_holding
+	831.1.1 = {
+		religion = catholic
+	}
+	1030.1.1 = {
+		culture = czech
+	}
+}
+4159 = {	#SPYTIHNEV
+	holding = none
+	## melkaya z/d stantsia
+}
+4170 = {	#HODONIN
+	holding = none
+	1000.1.1 = {
+		holding = city_holding
+	}
+}
+8999 = {	#VESELI
+	holding = none
+	# Veseli-nad-Moravoy
+	1261.1.1 = { holding = church_holding }
+}
+
+###c_brno
+4168 = {	#BRNO
+	culture = slovien
+	religion = slavic_pagan
+	holding = castle_holding
+	831.1.1 = { religion = catholic }
+	1030.1.1 = { culture = czech }
+}
+4167 = {	#IVANICE
+	holding = none
+	## 1490
+	1221.1.1 = { holding = city_holding }
+}
+4163 = {	#ZDAR
+	holding = none
+	## Zhdyar
+	1253.1.1 = { holding = church_holding }
+}
+
+###c_jihlava
+4162 = {	#JIHLAVA
+	culture = slovien
+	religion = slavic_pagan
+	holding = castle_holding
+	831.1.1 = {
+		religion = catholic
+	}
+	1030.1.1 = {
+		culture = czech
+	}
+}
+4155 = {	#TELCZ
+	holding = none
+	##
+	1315.1.1 = { holding = city_holding }
+}
+
+###c_znojmo
+4166 = {	#ZNOJMO
+	culture = slovien
+	religion = slavic_pagan
+	holding = castle_holding
+	831.1.1 = {
+		religion = catholic
+	}
+	1030.1.1 = {
+		culture = czech
+	}
+}
+4164 = {	#BITOV
+	holding = none
+	## sam zamok s 1061 ili s 1180-h
+	1200.1.1 = { holding = castle_holding }
+}
+4169 = {	#BRECLAV
+	holding = city_holding
+}
+3080 = {	#MIKULOV
+	#german colonization of southern parts
+	1160.1.1 = { culture = german }
+	## net kultura ne menyatsya - stary kod razrabov
+#1333.1.1 = { culture = saxon }
+}
